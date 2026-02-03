@@ -784,7 +784,7 @@ footer a,
         }
 
         .mobile-fixed-header .brand img {
-            height: 44px;
+            height: 61px;
             width: auto;
         }
 
@@ -849,7 +849,7 @@ footer a,
             content: "";
             position: absolute;
             inset: 0;
-            background-image: url("{{ asset('img/hero-scetion.webp') }}");
+            background-image: url("{{ asset('img/hero-scetion.jpeg') }}");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -1280,7 +1280,7 @@ footer a,
 
         /* ---------- Brands / Gas Boilers Section ---------- */
 .brands-service {
-    background: #fff;
+    background: #114359;
     padding: 40px 0 46px;
     border-top: 1px solid var(--line);
 }
@@ -1291,12 +1291,13 @@ footer a,
     font-weight: 700;
     font-size: 14px;
     letter-spacing: .4px;
-    color: var(--muted);
+    color: white;
     margin-bottom: 6px;
 }
 
 .brands-title {
     text-align: center;
+    color: white;
     font-size: 28px;
     margin: 0 0 26px;
 }
@@ -1322,7 +1323,7 @@ footer a,
     margin-top: 18px;
     text-align: center;
     font-weight: 600;
-    color: var(--muted);
+    color: white;
     font-size: 14px;
 }
 
@@ -1343,6 +1344,18 @@ footer a,
         font-size: 24px;
     }
 }
+
+
+/* Reusable brand spotlight tweaks */
+.spotlight .cta { background: var(--orange-600); }
+.spotlight .cta:hover { filter: brightness(1.03); }
+
+/* Alternate layout (image left, text right) */
+.spotlight.reverse .spot-head { direction: rtl; }
+.spotlight.reverse .spot-head > * { direction: ltr; }
+
+/* Brand logo row spacing */
+.spot-brand { margin: 8px 0 12px; }
 
     </style>
 </head>
@@ -1718,134 +1731,300 @@ footer a,
             </div>
         </section>
 
-        <!-- Vaillant -->
-        <section class="spotlight" id="verkauf">
-            <div class="container">
-                <div class="spot-head">
-                    <div class="spot-text">
-                        <h2>Vaillant Thermenservice Wien &amp; NÖ</h2>
-                        <div class="spot-brand">
-                            <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
-                        </div>
-                        <p>Vaillant ist eine Marke, die für ihre hohe Qualität und zuverlässige Leistung bekannt ist.
-                            Damit eine Vaillant‑Therme über Jahre hinweg effizient und sicher funktioniert, ist eine
-                            professionelle Wartung unerlässlich.</p>
-                        <a class="cta" href="#kontakt">Jetzt anfragen</a>
-                    </div>
+        <!-- ===================== BRAND SPOTLIGHTS (ALL) ===================== -->
 
-                    <div class="spot-img" aria-label="Vaillant Therme">
-                        <img src="{{ asset('img/after-steps.jpeg') }}" alt="Vaillant Thermenservice">
-                    </div>
-                </div>
-
-                <div class="features" aria-label="Vorteile">
-                    <div class="feat">
-                        <div class="n">1</div>
-                        <h4>Spezialisiertes Fachwissen</h4>
-                        <p>Techniker sind auf Vaillant‑Thermen geschult und erkennen Probleme frühzeitig.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">2</div>
-                        <h4>Optimale Leistung</h4>
-                        <p>Effizienter Betrieb spart Energiekosten und verlängert die Lebensdauer.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">3</div>
-                        <h4>Sicherheit</h4>
-                        <p>Alle Sicherheitsfunktionen werden geprüft – Risiken werden minimiert.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">4</div>
-                        <h4>Original Ersatzteile</h4>
-                        <p>Ausschließlich Original‑Ersatzteile für maximale Qualität und Passgenauigkeit.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">5</div>
-                        <h4>Verlängerte Garantie</h4>
-                        <p>Regelmäßige Wartung unterstützt Garantieansprüche je nach Herstellerbedingungen.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">6</div>
-                        <h4>Komfort &amp; Zuverlässigkeit</h4>
-                        <p>Weniger Störungen, mehr Wärme – genau dann, wenn Sie es brauchen.</p>
-                    </div>
-                </div>
-
-                <h3 style="margin:18px 0 8px; font-size:20px">Vaillant Thermenwartung in Wien &amp; NÖ</h3>
-                <p class="prose" style="margin:0">Der Vaillant Thermenservice bietet eine umfassende Wartung, die
-                    speziell auf Vaillant zugeschnitten ist – für Sicherheit und Komfort im Zuhause.</p>
-            </div>
-        </section>
-
-        <div class="midbanner">
-            <div class="container">
-                <svg></svg>
-                <div>Schnell - Effizient - Seriös</div>
-                <svg>
-                    <use href="#i-phone"></use>
-                </svg>
-            </div>
+<!-- Vaillant -->
+<section class="spotlight" id="vaillant">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Vaillant Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
+          </div>
+          <p>Vaillant steht für hohe Qualität und zuverlässige Leistung. Damit Ihre Vaillant-Therme effizient und sicher arbeitet, ist eine regelmäßige Wartung entscheidend.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
         </div>
-
-        <!-- Junkers -->
-        <section class="spotlight">
-            <div class="container">
-                <div class="spot-head">
-                    <div class="spot-text">
-                        <h2>Junkers Thermenservice Wien &amp; NÖ</h2>
-                        <div class="spot-brand">
-                            <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">
-                        </div>
-                        <p>Junkers steht für Qualität und Zuverlässigkeit. In Wien und Niederösterreich, mit starken
-                            Temperaturschwankungen, ist die regelmäßige Instandhaltung besonders wichtig.</p>
-                        <a class="cta blue" href="#kontakt">Jetzt anfragen</a>
-                    </div>
-
-                    <div class="spot-img" aria-label="Junkers Gastherme">
-                        <img src="{{ asset('img/last-img.jpeg') }}" alt="Junkers Thermenwartung">
-                    </div>
-                </div>
-
-                <div class="features" aria-label="Vorteile Junkers">
-                    <div class="feat">
-                        <div class="n">1</div>
-                        <h4>Spezialisiertes Fachwissen</h4>
-                        <p>Gezielte Wartung für technologisch ausgereifte Junkers‑Geräte.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">2</div>
-                        <h4>Optimale Leistung</h4>
-                        <p>Ihre Therme bleibt effizient – bei Sommerhitze und Winterkälte.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">3</div>
-                        <h4>Effizienz</h4>
-                        <p>Optimierte Wärmeleistung, weniger Energieverbrauch, geringere Heizkosten.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">4</div>
-                        <h4>Lange Lebensdauer</h4>
-                        <p>Regelmäßige Inspektion reduziert Ausfälle und verlängert die Nutzungsdauer.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">5</div>
-                        <h4>Vor-Ort Service</h4>
-                        <p>Schnelle Hilfe und effiziente Reparatur – direkt bei Ihnen zuhause.</p>
-                    </div>
-                    <div class="feat">
-                        <div class="n">6</div>
-                        <h4>Mehr Sicherheit</h4>
-                        <p>Sicherheitschecks minimieren Risiken bei Gasgeräten.</p>
-                    </div>
-                </div>
-
-                <p class="prose" style="margin:16px 0 0">
-                    Zusammenfassend lässt sich sagen, dass eine professionelle <b>Junkers Thermenwartung</b> nicht nur
-                    für die Funktionstüchtigkeit,
-                    sondern auch für Sicherheit und Effizienz unerlässlich ist.
-                </p>
-            </div>
-        </section>
+  
+        <div class="spot-img" aria-label="Vaillant Therme">
+          <img src="{{ asset('img/after-steps.jpeg') }}" alt="Vaillant Thermenservice">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Vaillant">
+        <div class="feat"><div class="n">1</div><h4>Spezialisiertes Fachwissen</h4><p>Geschulte Techniker erkennen Fehler frühzeitig.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Optimale Leistung</h4><p>Sauberer Betrieb spart Energie und Kosten.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Mehr Sicherheit</h4><p>Prüfung aller Sicherheitsfunktionen &amp; Messwerte.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Original Ersatzteile</h4><p>Passgenau, langlebig und zuverlässig.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Längere Lebensdauer</h4><p>Weniger Verschleiß, weniger Ausfälle.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Transparente Preise</h4><p>Klare Leistung, sauberer Service vor Ort.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Junkers -->
+  <section class="spotlight reverse" id="junkers">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Junkers Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">
+          </div>
+          <p>Junkers steht für robuste Technik. Regelmäßiger Service sorgt dafür, dass Ihre Junkers-Therme auch bei starken Temperaturschwankungen zuverlässig läuft.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
+        </div>
+  
+        <div class="spot-img" aria-label="Junkers Gastherme">
+          <img src="{{ asset('img/last-img.jpeg') }}" alt="Junkers Thermenwartung">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Junkers">
+        <div class="feat"><div class="n">1</div><h4>Gezielte Wartung</h4><p>Inspektion speziell für Junkers-Geräte.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Effizienter Betrieb</h4><p>Optimierung reduziert den Gasverbrauch.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Stabile Wärme</h4><p>Zuverlässige Leistung im Winter wie im Sommer.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Weniger Ausfälle</h4><p>Früherkennung verhindert teure Schäden.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Vor-Ort Service</h4><p>Schnelle Hilfe bei Störung oder Fehlercode.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Sicherheitscheck</h4><p>Abgaswerte und Dichtheit werden geprüft.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Viessmann -->
+  <section class="spotlight" id="viessmann">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Viessmann Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">
+          </div>
+          <p>Viessmann-Geräte sind effizient und modern. Mit fachgerechter Wartung bleibt die Thermenleistung konstant und die Betriebskosten bleiben niedrig.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
+        </div>
+  
+        <div class="spot-img" aria-label="Viessmann Therme">
+          <img src="{{ asset('img/after-steps.jpeg') }}" alt="Viessmann Thermenservice">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Viessmann">
+        <div class="feat"><div class="n">1</div><h4>Effizienz sichern</h4><p>Reinigung &amp; Einstellungen für besten Wirkungsgrad.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Geringere Heizkosten</h4><p>Optimierte Verbrennung spart Energie.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Fehler früh erkennen</h4><p>Störungen werden vor Ausfall behoben.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Saubere Messwerte</h4><p>Abgasprüfung und Funktionscheck inklusive.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Längere Lebensdauer</h4><p>Weniger Verschleiß durch regelmäßigen Service.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Zuverlässiger Betrieb</h4><p>Konstante Wärme &amp; Warmwasser.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Wolf -->
+  <section class="spotlight reverse" id="wolf">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Wolf Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">
+          </div>
+          <p>Wolf-Thermen sind leistungsstark. Regelmäßige Wartung hält die Anlage stabil, verhindert Ausfälle und verbessert die Energieeffizienz.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
+        </div>
+  
+        <div class="spot-img" aria-label="Wolf Therme">
+          <img src="{{ asset('img/last-img.jpeg') }}" alt="Wolf Thermenservice">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Wolf">
+        <div class="feat"><div class="n">1</div><h4>Optimale Einstellungen</h4><p>Feinjustierung für ruhigen und effizienten Lauf.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Weniger Störungen</h4><p>Präventiver Check reduziert Fehlercodes.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Mehr Sicherheit</h4><p>Kontrolle von Gas/Abgas und Bauteilen.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Saubere Verbrennung</h4><p>Reinigung sorgt für bessere Messwerte.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Lange Lebensdauer</h4><p>Weniger Verschleiß, mehr Zuverlässigkeit.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Schneller Vor-Ort Service</h4><p>Rasche Hilfe in Wien &amp; NÖ.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Baxi -->
+  <section class="spotlight" id="baxi">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Baxi Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">
+          </div>
+          <p>Baxi ist für zuverlässige Heiztechnik bekannt. Mit professionellem Service bleibt die Therme effizient und arbeitet störungsfrei über viele Jahre.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
+        </div>
+  
+        <div class="spot-img" aria-label="Baxi Therme">
+          <img src="{{ asset('img/after-steps.jpeg') }}" alt="Baxi Thermenservice">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Baxi">
+        <div class="feat"><div class="n">1</div><h4>Gerätecheck</h4><p>Alle Funktionen werden gründlich geprüft.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Effizienzsteigerung</h4><p>Optimierung spart Gas und reduziert Kosten.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Fehlerprävention</h4><p>Probleme werden früh erkannt.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Sicherheitsprüfung</h4><p>Abgaswerte und Dichtheit im Fokus.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Mehr Lebensdauer</h4><p>Wartung reduziert Verschleiß.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Verlässlicher Betrieb</h4><p>Konstante Wärme &amp; Warmwasser.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Buderus -->
+  <section class="spotlight reverse" id="buderus">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Buderus Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">
+          </div>
+          <p>Buderus bietet hochwertige Heizsysteme. Regelmäßiger Thermenservice sorgt für einen sicheren Betrieb und stabile Leistung im Alltag.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
+        </div>
+  
+        <div class="spot-img" aria-label="Buderus Therme">
+          <img src="{{ asset('img/last-img.jpeg') }}" alt="Buderus Thermenservice">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Buderus">
+        <div class="feat"><div class="n">1</div><h4>Fachgerechte Wartung</h4><p>Service nach Herstellervorgaben.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Hohe Effizienz</h4><p>Saubere Verbrennung spart Energie.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Sicherheitscheck</h4><p>Kontrolle von Abgas, Ventilen und Sensoren.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Weniger Reparaturen</h4><p>Frühwarnzeichen werden erkannt.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Mehr Lebensdauer</h4><p>Wartung schützt vor Verschleiß.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Stabile Wärme</h4><p>Konstanter Komfort in jedem Raum.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Saunier Duval -->
+  <section class="spotlight" id="saunier-duval">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Saunier Duval Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">
+          </div>
+          <p>Saunier Duval kombiniert moderne Technik mit Effizienz. Eine regelmäßige Wartung hält Ihre Therme zuverlässig und sicher im Betrieb.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
+        </div>
+  
+        <div class="spot-img" aria-label="Saunier Duval Therme">
+          <img src="{{ asset('img/after-steps.jpeg') }}" alt="Saunier Duval Thermenservice">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Saunier Duval">
+        <div class="feat"><div class="n">1</div><h4>Funktionsprüfung</h4><p>Alle Komponenten werden getestet.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Effizienter Betrieb</h4><p>Optimierung reduziert Verbrauch.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Mehr Sicherheit</h4><p>Kontrolle von Abgas und Sensorik.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Weniger Störungen</h4><p>Proaktive Wartung verhindert Ausfälle.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Lange Lebensdauer</h4><p>Wartung reduziert Verschleiß.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Schneller Service</h4><p>Termine in Wien &amp; NÖ.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Löblich -->
+  <section class="spotlight reverse" id="loeblich">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Löblich Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">
+          </div>
+          <p>Löblich-Geräte benötigen ebenso regelmäßige Pflege. Mit professioneller Wartung bleibt die Funktion sicher, effizient und zuverlässig.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
+        </div>
+  
+        <div class="spot-img" aria-label="Löblich Therme">
+          <img src="{{ asset('img/last-img.jpeg') }}" alt="Löblich Thermenservice">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Löblich">
+        <div class="feat"><div class="n">1</div><h4>Gründliche Reinigung</h4><p>Für stabile Messwerte und Leistung.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Effizienz</h4><p>Optimierung spart Heizkosten.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Sicherheit</h4><p>Abgas- &amp; Dichtheitsprüfung inklusive.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Fehler vermeiden</h4><p>Frühzeitige Diagnose schützt vor Ausfällen.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Mehr Lebensdauer</h4><p>Weniger Verschleiß durch Wartung.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Vor-Ort Termin</h4><p>Schnell bei Ihnen in Wien &amp; NÖ.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Ocean -->
+  <section class="spotlight" id="ocean">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Ocean Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">
+          </div>
+          <p>Ocean-Thermen profitieren von regelmäßigen Checks. So bleibt die Anlage sicher, effizient und liefert dauerhaft zuverlässige Wärme.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
+        </div>
+  
+        <div class="spot-img" aria-label="Ocean Therme">
+          <img src="{{ asset('img/after-steps.jpeg') }}" alt="Ocean Thermenservice">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Ocean">
+        <div class="feat"><div class="n">1</div><h4>Komplettprüfung</h4><p>Kontrolle aller relevanten Bauteile.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Stabile Leistung</h4><p>Konstante Wärme &amp; Warmwasser.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Sicherheit</h4><p>Prüfung der Abgaswerte &amp; Dichtheit.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Weniger Störungen</h4><p>Fehler werden früh behoben.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Lange Lebensdauer</h4><p>Wartung verhindert Folgeschäden.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Transparenter Service</h4><p>Sauberer Einsatz, klare Leistung.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Rapido -->
+  <section class="spotlight reverse" id="rapido">
+    <div class="container">
+      <div class="spot-head">
+        <div class="spot-text">
+          <h2>Rapido Thermenservice Wien &amp; NÖ</h2>
+          <div class="spot-brand">
+            <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">
+          </div>
+          <p>Rapido-Thermen sollen zuverlässig laufen – besonders in der Heizsaison. Mit regelmäßiger Wartung reduzieren Sie Ausfälle und halten die Effizienz hoch.</p>
+          <a class="cta" href="#kontakt">Jetzt anfragen</a>
+        </div>
+  
+        <div class="spot-img" aria-label="Rapido Therme">
+          <img src="{{ asset('img/last-img.jpeg') }}" alt="Rapido Thermenservice">
+        </div>
+      </div>
+  
+      <div class="features" aria-label="Vorteile Rapido">
+        <div class="feat"><div class="n">1</div><h4>Wartung nach Plan</h4><p>Regelmäßige Checks vermeiden Störungen.</p></div>
+        <div class="feat"><div class="n">2</div><h4>Effizienz</h4><p>Optimierung senkt Heizkosten.</p></div>
+        <div class="feat"><div class="n">3</div><h4>Sicherheit</h4><p>Messung &amp; Kontrolle sicherheitsrelevanter Teile.</p></div>
+        <div class="feat"><div class="n">4</div><h4>Fehlerdiagnose</h4><p>Probleme früh erkennen und beheben.</p></div>
+        <div class="feat"><div class="n">5</div><h4>Mehr Lebensdauer</h4><p>Weniger Verschleiß, weniger Ausfallzeit.</p></div>
+        <div class="feat"><div class="n">6</div><h4>Vor-Ort Service</h4><p>Schnell verfügbar in Wien &amp; NÖ.</p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ===================== /BRAND SPOTLIGHTS (ALL) ===================== -->
+  
     </main>
     <section class="brands-service">
         <div class="container">
