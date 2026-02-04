@@ -271,7 +271,10 @@
                             <div class="step-title">Thermenstörung oder Heizungsausfall?<br>Schneller Notdienst bei
                                 Heizungsausfällen</div>
                         </div>
-                        <img src="{{ asset('img/1st-step.jpeg') }}" alt="Heizungsausfall Notdienst">
+                        <div class="stp-img">
+
+                            <img src="{{ asset('img/1st-step.jpeg') }}" alt="Heizungsausfall Notdienst">
+                        </div>
                     </article>
 
                     <article class="step">
@@ -280,7 +283,10 @@
                             <div class="step-title">Kontaktaufnahme mit unserem Thermendienst –<br>rasche Soforthilfe
                                 garantiert in Wien & Niederösterreich</div>
                         </div>
-                        <img src="{{ asset('img/secondstep.jpeg') }}" alt="Anruf beim Thermenservice">
+                        <div class="stp-img">
+
+                            <img src="{{ asset('img/secondstep.jpeg') }}" alt="Anruf beim Thermenservice">
+                        </div>
                     </article>
 
                     <article class="step">
@@ -289,7 +295,11 @@
                             <div class="step-title">Fachgerechter Einsatz vor Ort durch erfahrene
                                 Installateure<br>professioneller Thermenservice in Wien</div>
                         </div>
-                        <img src="{{ asset('img/thridstep.jpeg') }}" alt="Thermenservice Wien">
+
+                        <div class="stp-img">
+
+                            <img src="{{ asset('img/thridstep.jpeg') }}" alt="Thermenservice Wien">
+                        </div>
                     </article>
                     {{-- <h3 class="text-center">Unsere Leistungen auf einen Blick --}}
                     </h3>
