@@ -1405,13 +1405,14 @@
                 border-radius: 16px;
                 overflow: hidden;
                 background: rgba(255, 255, 255, .06);
-                min-height: 220px;
+                height: 220px;
+                /* min-height: 220px; */
             }
 
             #cta-thermenwartung .cta-media img {
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                /* object-fit: cover; */
                 display: block;
             }
 
@@ -1424,6 +1425,7 @@
                 #cta-thermenwartung .cta-media {
                     flex-basis: auto;
                     width: 100%;
+                    height: 190px;
                 }
 
                 #cta-thermenwartung p {
