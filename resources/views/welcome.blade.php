@@ -12,8 +12,13 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <style>
+        .brand-slider-track {
+            transition: transform 0.6s ease;
+        }
+
         :root {
             --font: "Raleway", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 
@@ -1095,13 +1100,14 @@
         .m-callbtn {
             height: 44px;
             border-radius: 12px;
+            white-space: nowrap;
             background: var(--orange-600);
             color: #fff;
             font-weight: 900;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
+            gap: 6px;
             padding: 0 12px;
             box-shadow: 0 14px 24px rgba(242, 140, 26, .18);
         }
@@ -1124,9 +1130,9 @@
                 grid-template-columns: 1fr
             }
 
-            .spot-img img {
+            /* .spot-img img {
                 height: 320px
-            }
+            } */
 
             .features {
                 grid-template-columns: repeat(3, 1fr)
@@ -1204,9 +1210,9 @@
                 grid-template-columns: 1fr
             }
 
-            .spot-img img {
+            /* .spot-img img {
                 height: 260px
-            }
+            } */
 
             .features {
                 grid-template-columns: 1fr 1fr
@@ -1602,7 +1608,7 @@
             gap: 10px;
             padding: 10px 12px;
             border-radius: 14px;
-            background: rgba(0, 0, 0, .55);
+            /* background: rgba(0, 0, 0, .55); */
             border: 1px solid rgba(255, 255, 255, .18);
             backdrop-filter: blur(6px);
             -webkit-backdrop-filter: blur(6px);
@@ -1796,6 +1802,457 @@
                 height: 30px;
             }
         }
+
+
+
+        @media (max-width: 640px) {
+
+            .as-seen-row {
+                display: grid;
+                gap: 14px;
+                padding: 18px 0;
+                justify-items: center;
+                text-align: center;
+            }
+
+            .as-seen-title {
+                text-align: center;
+                margin-bottom: 6px;
+            }
+
+            .as-seen-logos {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas:
+                    "orf kurier"
+                    "standard standard"
+                    "presse kleine"
+                    "gewinn gewinn";
+                gap: 12px 18px;
+                align-items: center;
+                justify-items: center;
+                width: 100%;
+            }
+
+            /* map logos by order */
+            .as-seen-logos .as-seen-logo:nth-child(1) {
+                grid-area: orf;
+            }
+
+            .as-seen-logos .as-seen-logo:nth-child(2) {
+                grid-area: kurier;
+            }
+
+            .as-seen-logos .as-seen-logo:nth-child(3) {
+                grid-area: standard;
+            }
+
+            .as-seen-logos .as-seen-logo:nth-child(4) {
+                grid-area: presse;
+            }
+
+            .as-seen-logos .as-seen-logo:nth-child(5) {
+                grid-area: kleine;
+            }
+
+            .as-seen-logos .as-seen-logo:nth-child(6) {
+                grid-area: gewinn;
+            }
+
+            .as-seen-logo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 30px;
+                width: 100%;
+            }
+
+            .as-seen-logo img {
+                height: 100%;
+                width: auto;
+                object-fit: contain;
+            }
+
+            /* slightly bigger for centered rows */
+            .as-seen-logos .as-seen-logo:nth-child(3),
+            .as-seen-logos .as-seen-logo:nth-child(6) {
+                height: 34px;
+            }
+        }
+
+
+        .m-hero-badges {
+    display: flex;
+    gap: 12px;
+}
+
+.hero-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* background: #2b2b2b; */
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+/* .hero-badge.tp { background: #1f1f1f; } */
+/* .hero-badge.gg { background: #1f1f1f; } */
+
+.badge-icon {
+    font-size: 22px;
+    color: #00b67a; /* Trustpilot green */
+}
+
+.hero-badge.gg .badge-icon {
+    color: #fbbc05; /* Google yellow */
+}
+
+.badge-title {
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.badge-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.badge-stars {
+    color: #ffc107;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.badge-score {
+    font-size: 12px;
+    opacity: 0.85;
+}
+
+
+/* =========================
+   DESKTOP HERO
+========================= */
+.hero {
+  padding: 26px 0 18px;
+  background: #fff;
+  margin-top: 120px; /* keep if fixed header */
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: 22px;
+  align-items: stretch;
+}
+
+.hero-img {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: #0e2f3a;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+
+.hero-copy h1 {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.12;
+  letter-spacing: -.2px;
+}
+
+.hero-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 52ch;
+}
+
+.hero-bullets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 4px;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-bullets li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: #25323b;
+  font-size: 14px;
+}
+
+.hero-bullets svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--orange-600);
+}
+
+/* =========================
+   BADGES (shared desktop + mobile)
+========================= */
+.hero-badges {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.hero-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(0,0,0,.55);
+  border: 1px solid rgba(255,255,255,.16);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 12px 26px rgba(0,0,0,.18);
+  color: #fff;
+  min-height: 58px;
+}
+
+.badge-icon {
+  font-size: 22px;
+  line-height: 1;
+  flex: 0 0 auto;
+}
+
+.badge-text {
+  display: grid;
+  gap: 3px;
+  line-height: 1.1;
+}
+
+.badge-title {
+  font-weight: 900;
+  font-size: 12.5px;
+  letter-spacing: .2px;
+  opacity: .95;
+}
+
+.badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.badge-score {
+  font-weight: 900;
+  font-size: 12.5px;
+  opacity: .95;
+}
+
+/* brand colors */
+.hero-badge.tp .badge-icon,
+.hero-badge.tp .badge-stars {
+  color: #00b67a; /* Trustpilot green */
+}
+
+.hero-badge.gg .badge-icon,
+.hero-badge.gg .badge-stars {
+  color: #fbbc05; /* Google yellow */
+}
+
+/* =========================
+   MOBILE HERO
+========================= */
+.m-hero {
+  display: none;
+  position: relative;
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 96px;
+}
+
+/* background image */
+.m-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("{{ asset('img/hero-scetion.jpeg') }}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  transform: scale(1.02);
+}
+
+/* dark overlay */
+.m-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(20, 60, 75, 0.90) 0%,
+    rgba(20, 60, 75, 0.78) 35%,
+    rgba(20, 60, 75, 0.25) 52%,
+    rgba(20, 60, 75, 0.00) 65%,
+    rgba(20, 60, 75, 0.00) 100%
+  );
+  pointer-events: none;
+}
+
+.m-hero .wrap,
+.m-hero .m-cta,
+.m-hero .m-hero-badges {
+  position: relative;
+  z-index: 2;
+}
+
+.m-hero .wrap {
+  padding: 16px 16px 0;
+}
+
+.m-hero .grid {
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: 14px;
+  align-items: center;
+}
+
+.m-hero h1 {
+  margin: 0 0 8px;
+  font-size: 26px;
+  line-height: 1.12;
+  color: #fff;
+  letter-spacing: -.2px;
+}
+
+.m-hero h1 .hi {
+  color: var(--orange-600);
+}
+
+.m-hero p {
+  margin: 0;
+  color: rgba(255,255,255,.86);
+  line-height: 1.55;
+  font-size: 13.5px;
+}
+
+.m-badge {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 14px;
+  color: rgba(255,255,255,.92);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.m-badge .dot {
+  width: 85px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(255,255,255,.10);
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,.18);
+  margin-top: 2px;
+}
+
+.m-badge .dot i {
+  font-size: 18px;
+  color: var(--orange-600);
+}
+
+.m-tech { display: none; }
+
+.m-cta {
+  margin: 14px 16px 0;
+  background: var(--orange-600);
+  color: #fff;
+  font-weight: 900;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 14px 26px rgba(242, 140, 26, .26);
+}
+
+.m-cta svg {
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+}
+
+/* Mobile badges overlay */
+.m-hero-badges {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: -40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Smaller badges on mobile */
+@media (max-width: 640px) {
+  .m-hero-badges .hero-badge {
+    padding: 9px 10px;
+    min-height: 54px;
+    border-radius: 10px;
+  }
+  .m-hero-badges .badge-icon { font-size: 20px; }
+  .m-hero-badges .badge-title { font-size: 12px; }
+  .m-hero-badges .badge-stars { font-size: 13px; }
+  .m-hero-badges .badge-score { font-size: 12px; }
+}
+
+/* =========================
+   RESPONSIVE SWITCH
+========================= */
+@media (max-width: 640px) {
+  .hero { display: none; }
+  .m-hero { display: block; }
+}
+
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: 1fr; }
+}
+
     </style>
 
 </head>
@@ -2050,58 +2507,72 @@
     </div>
 
     <!-- MOBILE HERO -->
-    <section class="m-hero" id="m-hero">
-        <div class="wrap">
-            <div class="grid">
-                <div>
-                    <h1>Heizung kaputt?<br><span class="hi">Wir kümmern uns sofort.</span></h1>
-                    <p>Zuverlässiger Heizungs- &amp; Thermenservice in Wien und Niederösterreich — schnell, sauber und
-                        transparent.</p>
+ <!-- MOBILE HERO -->
+<section class="m-hero" id="m-hero">
+    <div class="wrap">
+        <div class="grid">
+            <div>
+                <h1>Heizung kaputt?<br><span class="hi">Wir kümmern uns sofort.</span></h1>
+                <p>Zuverlässiger Heizungs- &amp; Thermenservice in Wien und Niederösterreich — schnell, sauber und transparent.</p>
 
-                    <div class="m-badge">
-                        <div class="dot"><img src="{{ asset('img/icon set.jpeg') }}" alt=""></div>
-                        <div>Unsere erfahrenen Techniker sind täglich im Einsatz, auch am Wochenende.</div>
+                <div class="m-badge">
+                    <div class="dot">
+                        <i class="bi bi-tools"></i>
                     </div>
+                    <div>Unsere erfahrenen Techniker sind täglich im Einsatz, auch am Wochenende.</div>
                 </div>
+            </div>
 
-                <div class="m-tech">
-                    <img src="{{ asset('img/hero-scetion.jpeg') }}" alt="Techniker an der Therme">
+            <div class="m-tech">
+                <img src="{{ asset('img/hero-scetion.jpeg') }}" alt="Techniker an der Therme">
+            </div>
+        </div>
+    </div>
+
+    <a class="m-cta" href="tel:+4319284374">
+        <svg><use href="#i-phone"></use></svg>
+        Jetzt anrufen – wir helfen sofort
+    </a>
+
+    <!-- BADGES (MOBILE OVERLAY) -->
+    <div class="m-hero-badges" aria-label="Bewertungen">
+        <!-- Trustpilot -->
+        <div class="hero-badge tp" aria-label="Trustpilot Bewertung 4.5 von 5">
+            <i class="bi bi-shield-check badge-icon"></i>
+            <div class="badge-text">
+                <div class="badge-title">Hervorragend</div>
+                <div class="badge-row">
+                    <div class="badge-stars" aria-hidden="true">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="badge-score">4.5</div>
                 </div>
             </div>
         </div>
 
-        <a class="m-cta" href="tel:+4319284374">
-            <svg>
-                <use href="#i-phone"></use>
-            </svg>
-            Jetzt anrufen – wir helfen sofort
-        </a>
-        <!-- ✅ badges overlay (mobile) -->
-        <div class="m-hero-badges" aria-label="Bewertungen">
-            <div class="hero-badge tp">
-                <img class="badge-logo" src="{{ asset('img/trustpilot.png') }}" alt="Trustpilot">
-                <div class="badge-text">
-                    <div class="badge-title">Hervorragend</div>
-                    <div class="badge-row">
-                        <div class="badge-stars">★★★★★</div>
-                        <div class="badge-score">4.5</div>
+        <!-- Google -->
+        <div class="hero-badge gg" aria-label="Google Bewertung 4.6 von 5">
+            <i class="bi bi-google badge-icon"></i>
+            <div class="badge-text">
+                <div class="badge-title">Ausgezeichnet</div>
+                <div class="badge-row">
+                    <div class="badge-stars" aria-hidden="true">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
                     </div>
-                </div>
-            </div>
-
-            <div class="hero-badge gg">
-                <img class="badge-logo" src="{{ asset('img/google.png') }}" alt="Google">
-                <div class="badge-text">
-                    <div class="badge-title">Ausgezeichnet</div>
-                    <div class="badge-row">
-                        <div class="badge-stars">★★★★★</div>
-                        <div class="badge-score">4.6</div>
-                    </div>
+                    <div class="badge-score">4.6</div>
                 </div>
             </div>
         </div>
-
-    </section>
+    </div>
+</section>
 
     <!-- MOBILE SERVICES + BENEFIT -->
     <section class="m-services">
@@ -2145,70 +2616,73 @@
     <!-- MAIN CONTENT -->
     <main id="top">
         <!-- DESKTOP HERO -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero-grid">
-                    {{-- <div class="hero-img">
-                        <img src="{{ asset('img/hero-scetion.jpeg') }}" alt="Thermenreparatur">
-                    </div> --}}
+        <!-- DESKTOP HERO -->
+<section class="hero" id="top">
+    <div class="container">
+        <div class="hero-grid">
 
-                    <div class="hero-img">
-                        <img src="{{ asset('img/hero-scetion.jpeg') }}" alt="Thermenreparatur">
+            <div class="hero-img">
+                <img src="{{ asset('img/hero-scetion.jpeg') }}" alt="Thermenreparatur">
 
-                        <!-- ✅ badges overlay (desktop) -->
-                        <div class="hero-badges" aria-label="Bewertungen">
-                            <!-- Trustpilot -->
-                            <div class="hero-badge tp">
-                                <img class="badge-logo" src="{{ asset('img/trustpilot.png') }}" alt="Trustpilot">
-                                <div class="badge-text">
-                                    <div class="badge-title">Hervorragend</div>
-                                    <div class="badge-row">
-                                        <div class="badge-stars">★★★★★</div>
-                                        <div class="badge-score">4.5</div>
-                                    </div>
+                <!-- BADGES (DESKTOP OVERLAY) -->
+                <div class="hero-badges" aria-label="Bewertungen">
+                    <!-- Trustpilot -->
+                    <div class="hero-badge tp" aria-label="Trustpilot Bewertung 4.5 von 5">
+                        <i class="bi bi-shield-check badge-icon"></i>
+                        <div class="badge-text">
+                            <div class="badge-title">Hervorragend</div>
+                            <div class="badge-row">
+                                <div class="badge-stars" aria-hidden="true">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
                                 </div>
-                            </div>
-
-                            <!-- Google -->
-                            <div class="hero-badge gg">
-                                <img class="badge-logo" src="{{ asset('img/google.png') }}" alt="Google">
-                                <div class="badge-text">
-                                    <div class="badge-title">Ausgezeichnet</div>
-                                    <div class="badge-row">
-                                        <div class="badge-stars">★★★★★</div>
-                                        <div class="badge-score">4.6</div>
-                                    </div>
-                                </div>
+                                <div class="badge-score">4.5</div>
                             </div>
                         </div>
                     </div>
 
-
-                    <div class="hero-copy">
-                        <h1>Thermenwartung & Thermenservice in Wien & Niederösterreich</h1>
-                        <p>Professionelle Thermenwartung Wien, Thermenservice und Reparatur für jede Therme –
-                            zuverlässig in Wien, Niederösterreich und der Umgebung, durch erfahrene Installateure,
-                            schnell und transparent.
-                        </p>
-
-                        <ul class="hero-bullets">
-                            <li><svg>
-                                    <use href="#i-check"></use>
-                                </svg>Thermenwartung Wien & Umgebung</li>
-                            <li><svg>
-                                    <use href="#i-check"></use>
-                                </svg>Alle Marken & Hersteller</li>
-                            <li><svg>
-                                    <use href="#i-check"></use>
-                                </svg>Transparente Preise inkl. MwSt</li>
-                            <li><svg>
-                                    <use href="#i-check"></use>
-                                </svg>Schnelle Hilfe, Service & Notdienst</li>
-                        </ul>
+                    <!-- Google -->
+                    <div class="hero-badge gg" aria-label="Google Bewertung 4.6 von 5">
+                        <i class="bi bi-google badge-icon"></i>
+                        <div class="badge-text">
+                            <div class="badge-title">Ausgezeichnet</div>
+                            <div class="badge-row">
+                                <div class="badge-stars" aria-hidden="true">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <div class="badge-score">4.6</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <div class="hero-copy">
+                <h1>Thermenwartung &amp; Thermenservice in Wien &amp; Niederösterreich</h1>
+                <p>
+                    Professionelle Thermenwartung Wien, Thermenservice und Reparatur für jede Therme –
+                    zuverlässig in Wien, Niederösterreich und der Umgebung, durch erfahrene Installateure,
+                    schnell und transparent.
+                </p>
+
+                <ul class="hero-bullets">
+                    <li><svg><use href="#i-check"></use></svg>Thermenwartung Wien &amp; Umgebung</li>
+                    <li><svg><use href="#i-check"></use></svg>Alle Marken &amp; Hersteller</li>
+                    <li><svg><use href="#i-check"></use></svg>Transparente Preise inkl. MwSt</li>
+                    <li><svg><use href="#i-check"></use></svg>Schnelle Hilfe, Service &amp; Notdienst</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
 
         <!-- BEKANNT AUS -->
         <section class="as-seen" aria-label="Bekannt aus">
@@ -2347,112 +2821,118 @@
 
 
         <!-- Warum regelmäßige Thermenwartung & Für wen ist unser Service -->
-<section class="spotlight" id="thermenwartung-warum">
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-md-12">
-                <h2 class="text-center fw-bold">Warum eine regelmäßige Thermenwartung unverzichtbar ist</h2>
-                <p class="lead text-center">
-                    Eine regelmäßige Thermenwartung ist entscheidend für Sicherheit, Effizienz und die langfristige
-                    Funktionsfähigkeit Ihrer Therme – rechtlich, technisch und wirtschaftlich.
-                </p>
-            </div>
-        </div>
-
-        <div class="row g-4">
-            <!-- Card 1 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Sicherheit &amp; Rechtssicherheit</h5>
-                        <p class="card-text">
-                            Eine korrekt gewartete Therme erfüllt alle relevanten Pflichten laut technischer
-                            Richtlinie, MRG und Wohnrechtsnovelle. Besonders wichtig für Mieter und Vermieter, um
-                            Haftungsrisiken zu vermeiden.
+        <section class="spotlight" id="thermenwartung-warum">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-12">
+                        <h2 class="text-center fw-bold">Warum eine regelmäßige Thermenwartung unverzichtbar ist</h2>
+                        <p class="lead text-center">
+                            Eine regelmäßige Thermenwartung ist entscheidend für Sicherheit, Effizienz und die
+                            langfristige
+                            Funktionsfähigkeit Ihrer Therme – rechtlich, technisch und wirtschaftlich.
                         </p>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 2 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Geringere Kosten &amp; Effizienz</h5>
-                        <p class="card-text">
-                            Durch professionelle Wartung, Reinigung und gezielte Einstellungen werden Gasverbrauch,
-                            Störanfälligkeit und Ausfallrisiken reduziert. Moderne Technik senkt laufende Kosten spürbar.
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Sicherheit &amp; Rechtssicherheit</h5>
+                                <p class="card-text">
+                                    Eine korrekt gewartete Therme erfüllt alle relevanten Pflichten laut technischer
+                                    Richtlinie, MRG und Wohnrechtsnovelle. Besonders wichtig für Mieter und Vermieter,
+                                    um
+                                    Haftungsrisiken zu vermeiden.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Geringere Kosten &amp; Effizienz</h5>
+                                <p class="card-text">
+                                    Durch professionelle Wartung, Reinigung und gezielte Einstellungen werden
+                                    Gasverbrauch,
+                                    Störanfälligkeit und Ausfallrisiken reduziert. Moderne Technik senkt laufende Kosten
+                                    spürbar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Längere Lebensdauer</h5>
+                                <p class="card-text">
+                                    Eine gepflegte Heizung verlängert die Lebensdauer Ihrer Geräte, reduziert einen
+                                    frühzeitigen
+                                    Thermentausch und sorgt ganzjährig für zuverlässige Wärme.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Für wen -->
+                <div class="row mt-5 mb-4">
+                    <div class="col-md-12">
+                        <h2 class="text-center fw-bold">Für wen ist unser Service?</h2>
+                        <p class="lead text-center">
+                            Thermenservice für Privatkunden, Immobilien &amp; Hausverwaltungen.
                         </p>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 3 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Längere Lebensdauer</h5>
-                        <p class="card-text">
-                            Eine gepflegte Heizung verlängert die Lebensdauer Ihrer Geräte, reduziert einen frühzeitigen
-                            Thermentausch und sorgt ganzjährig für zuverlässige Wärme.
-                        </p>
+                <div class="row g-4">
+                    <!-- Card 4 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Privatkunden</h5>
+                                <p class="card-text">
+                                    Betreuung von Thermen in Wohnungen und Häusern – zuverlässig, sicher und
+                                    transparent,
+                                    egal ob Wartung, Reparatur oder Thermentausch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Vermieter &amp; Hausverwaltungen</h5>
+                                <p class="card-text">
+                                    Laufender Service für Immobilien inklusive Wartungsvertrag, klar geregeltem
+                                    Leistungsumfang, ABGB-Vertrag und transparenter Preisstruktur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Gewerbe &amp; Dauerbetreuung</h5>
+                                <p class="card-text">
+                                    Individuell abgestimmte Wartungskonzepte für laufenden Betrieb – mit Pauschalpreis,
+                                    ausgewiesener MwSt und persönlicher Beratung.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Für wen -->
-        <div class="row mt-5 mb-4">
-            <div class="col-md-12">
-                <h2 class="text-center fw-bold">Für wen ist unser Service?</h2>
-                <p class="lead text-center">
-                    Thermenservice für Privatkunden, Immobilien &amp; Hausverwaltungen.
-                </p>
-            </div>
-        </div>
-
-        <div class="row g-4">
-            <!-- Card 4 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Privatkunden</h5>
-                        <p class="card-text">
-                            Betreuung von Thermen in Wohnungen und Häusern – zuverlässig, sicher und transparent,
-                            egal ob Wartung, Reparatur oder Thermentausch.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Vermieter &amp; Hausverwaltungen</h5>
-                        <p class="card-text">
-                            Laufender Service für Immobilien inklusive Wartungsvertrag, klar geregeltem
-                            Leistungsumfang, ABGB-Vertrag und transparenter Preisstruktur.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Gewerbe &amp; Dauerbetreuung</h5>
-                        <p class="card-text">
-                            Individuell abgestimmte Wartungskonzepte für laufenden Betrieb – mit Pauschalpreis,
-                            ausgewiesener MwSt und persönlicher Beratung.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
         {{-- <!-- Why -->
@@ -3145,314 +3625,324 @@
         </section>
 
         <!-- Häufige Fragen zur Thermenwartung -->
-<section class="spotlight" id="faq-thermenwartung">
-    <div class="container">
-        <div class="row mb-4">
-            <div class="col-md-12">
-                <h2 class="text-center fw-bold">Häufige Fragen zur Thermenwartung</h2>
-                <p class="lead text-center">
-                    Antworten auf die wichtigsten Fragen rund um Thermenwartung, Kosten, Pflichten und Ablauf.
-                </p>
-            </div>
-        </div>
+        <section class="spotlight" id="faq-thermenwartung">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <h2 class="text-center fw-bold">Häufige Fragen zur Thermenwartung</h2>
+                        <p class="lead text-center">
+                            Antworten auf die wichtigsten Fragen rund um Thermenwartung, Kosten, Pflichten und Ablauf.
+                        </p>
+                    </div>
+                </div>
 
-        <div class="accordion accordion-flush" id="thermenFaq">
-            <!-- FAQ 1 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqOne">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqOneContent">
-                        Wie oft sollte eine Thermenwartung durchgeführt werden?
-                    </button>
-                </h2>
-                <div id="faqOneContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Das empfohlene Wartungsintervall liegt bei einmal jährlich. Eine regelmäßige Wartung sorgt für
-                        Sicherheit, hohe Effizienz und eine längere Lebensdauer Ihrer Therme.
+                <div class="accordion accordion-flush" id="thermenFaq">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqOne">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqOneContent">
+                                Wie oft sollte eine Thermenwartung durchgeführt werden?
+                            </button>
+                        </h2>
+                        <div id="faqOneContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Das empfohlene Wartungsintervall liegt bei einmal jährlich. Eine regelmäßige Wartung
+                                sorgt für
+                                Sicherheit, hohe Effizienz und eine längere Lebensdauer Ihrer Therme.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqTwo">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqTwoContent">
+                                Gibt es eine Pflicht oder technische Richtlinie zur Wartung?
+                            </button>
+                        </h2>
+                        <div id="faqTwoContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Eine direkte gesetzliche Pflicht besteht nicht. Technische Richtlinien und
+                                Herstellervorgaben empfehlen jedoch regelmäßige Wartungen, um einen sicheren Betrieb
+                                sicherzustellen.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqThree">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqThreeContent">
+                                Welche Rolle spielen Wohnrechtsnovelle und MRG?
+                            </button>
+                        </h2>
+                        <div id="faqThreeContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Die Wohnrechtsnovelle und das MRG regeln klar, wer für Wartung und Instandhaltung
+                                verantwortlich ist – besonders relevant für Mietwohnungen und Mehrparteienhäuser.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqFour">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqFourContent">
+                                Reparatur oder Thermentausch – was ist sinnvoller?
+                            </button>
+                        </h2>
+                        <div id="faqFourContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Bei häufigen Störungen, hohen Reparaturkosten oder sehr alten Geräten ist ein
+                                Thermentausch oft wirtschaftlicher als wiederholte Reparaturen.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqFive">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqFiveContent">
+                                Wer zahlt die Thermenwartung – Mieter oder Vermieter?
+                            </button>
+                        </h2>
+                        <div id="faqFiveContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Das hängt vom Mietvertrag ab. In vielen Fällen übernimmt der Mieter die laufende
+                                Wartung, während der Vermieter größere Reparaturen oder den Austausch trägt.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqSix">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqSixContent">
+                                Was passiert bei einem Ausfall der Therme?
+                            </button>
+                        </h2>
+                        <div id="faqSixContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Bei einem Ausfall reagieren wir rasch mit Reparatur oder Notdienst, damit Heizung
+                                und Warmwasser schnell wieder verfügbar sind.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 7 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqSeven">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqSevenContent">
+                                Wie lange dauert eine Thermenwartung?
+                            </button>
+                        </h2>
+                        <div id="faqSevenContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Eine Standard-Thermenwartung dauert in der Regel zwischen 45 und 60 Minuten,
+                                abhängig vom Gerätetyp und Zustand der Therme.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 8 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqEight">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqEightContent">
+                                Was wird bei einer Thermenwartung genau gemacht?
+                            </button>
+                        </h2>
+                        <div id="faqEightContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Die Wartung umfasst Reinigung, Funktionsprüfung, Überprüfung sicherheitsrelevanter
+                                Bauteile, gezielte Einstellungen sowie eine abschließende Betriebskontrolle.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 9 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqNine">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqNineContent">
+                                Kann eine Thermenwartung Heizkosten sparen?
+                            </button>
+                        </h2>
+                        <div id="faqNineContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Ja. Eine gewartete Therme arbeitet effizienter, verbraucht weniger Gas und kann die
+                                laufenden Heizkosten spürbar senken.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 10 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqTen">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#faqTenContent">
+                                Ist ein Wartungsvertrag sinnvoll?
+                            </button>
+                        </h2>
+                        <div id="faqTenContent" class="accordion-collapse collapse" data-bs-parent="#thermenFaq">
+                            <div class="accordion-body">
+                                Ein Wartungsvertrag bietet Planungssicherheit, fixe Preise und regelmäßige Termine.
+                                Er hilft, Ausfälle zu vermeiden und die Lebensdauer der Therme deutlich zu verlängern.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- FAQ 2 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqTwo">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqTwoContent">
-                        Gibt es eine Pflicht oder technische Richtlinie zur Wartung?
-                    </button>
-                </h2>
-                <div id="faqTwoContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Eine direkte gesetzliche Pflicht besteht nicht. Technische Richtlinien und
-                        Herstellervorgaben empfehlen jedoch regelmäßige Wartungen, um einen sicheren Betrieb
-                        sicherzustellen.
+        <!-- CTA: Jetzt Thermenwartung sichern -->
+        <section class="spotlight" id="cta-thermenwartung">
+            <div class="container">
+                <div class="cta-wrap">
+                    <div class="cta-text">
+                        <h2>Jetzt Thermenwartung in Wien &amp; Niederösterreich sichern</h2>
+                        <p>
+                            Setzen Sie auf Sicherheit, Zuverlässigkeit und einen professionellen Thermenservice – für
+                            jede
+                            Jahreszeit und jedes Gerät. Unsere erfahrenen Experten sind schnell vor Ort und sorgen
+                            dafür, dass
+                            Ihre Therme effizient und sicher funktioniert.
+                        </p>
+                        <div class="cta-actions">
+                            <a class="cta-btn" href="#kontakt">Jetzt Termin anfragen</a>
+                            <a class="cta-link" href="#faq-thermenwartung">Fragen ansehen</a>
+                        </div>
+                    </div>
+
+                    <div class="cta-media" aria-label="Thermenwartung Service">
+                        <img src="{{ asset('img/final.png') }}" alt="Thermenwartung in Wien & Niederösterreich">
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- FAQ 3 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqThree">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqThreeContent">
-                        Welche Rolle spielen Wohnrechtsnovelle und MRG?
-                    </button>
-                </h2>
-                <div id="faqThreeContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Die Wohnrechtsnovelle und das MRG regeln klar, wer für Wartung und Instandhaltung
-                        verantwortlich ist – besonders relevant für Mietwohnungen und Mehrparteienhäuser.
-                    </div>
-                </div>
-            </div>
+        <style>
+            /* ✅ Remove shadow/outline on FAQ accordion button when clicked/focused */
+            #faq-thermenwartung .accordion-button:focus,
+            #faq-thermenwartung .accordion-button:active,
+            #faq-thermenwartung .accordion-button:focus-visible,
+            #faq-thermenwartung .accordion-button:not(.collapsed) {
+                outline: none !important;
+                box-shadow: none !important;
+                background-color: none;
+            }
 
-            <!-- FAQ 4 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqFour">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqFourContent">
-                        Reparatur oder Thermentausch – was ist sinnvoller?
-                    </button>
-                </h2>
-                <div id="faqFourContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Bei häufigen Störungen, hohen Reparaturkosten oder sehr alten Geräten ist ein
-                        Thermentausch oft wirtschaftlicher als wiederholte Reparaturen.
-                    </div>
-                </div>
-            </div>
-
-            <!-- FAQ 5 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqFive">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqFiveContent">
-                        Wer zahlt die Thermenwartung – Mieter oder Vermieter?
-                    </button>
-                </h2>
-                <div id="faqFiveContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Das hängt vom Mietvertrag ab. In vielen Fällen übernimmt der Mieter die laufende
-                        Wartung, während der Vermieter größere Reparaturen oder den Austausch trägt.
-                    </div>
-                </div>
-            </div>
-
-            <!-- FAQ 6 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqSix">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqSixContent">
-                        Was passiert bei einem Ausfall der Therme?
-                    </button>
-                </h2>
-                <div id="faqSixContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Bei einem Ausfall reagieren wir rasch mit Reparatur oder Notdienst, damit Heizung
-                        und Warmwasser schnell wieder verfügbar sind.
-                    </div>
-                </div>
-            </div>
-
-            <!-- FAQ 7 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqSeven">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqSevenContent">
-                        Wie lange dauert eine Thermenwartung?
-                    </button>
-                </h2>
-                <div id="faqSevenContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Eine Standard-Thermenwartung dauert in der Regel zwischen 45 und 60 Minuten,
-                        abhängig vom Gerätetyp und Zustand der Therme.
-                    </div>
-                </div>
-            </div>
-
-            <!-- FAQ 8 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqEight">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqEightContent">
-                        Was wird bei einer Thermenwartung genau gemacht?
-                    </button>
-                </h2>
-                <div id="faqEightContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Die Wartung umfasst Reinigung, Funktionsprüfung, Überprüfung sicherheitsrelevanter
-                        Bauteile, gezielte Einstellungen sowie eine abschließende Betriebskontrolle.
-                    </div>
-                </div>
-            </div>
-
-            <!-- FAQ 9 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqNine">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqNineContent">
-                        Kann eine Thermenwartung Heizkosten sparen?
-                    </button>
-                </h2>
-                <div id="faqNineContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Ja. Eine gewartete Therme arbeitet effizienter, verbraucht weniger Gas und kann die
-                        laufenden Heizkosten spürbar senken.
-                    </div>
-                </div>
-            </div>
-
-            <!-- FAQ 10 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="faqTen">
-                    <button class="accordion-button collapsed fw-semibold" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faqTenContent">
-                        Ist ein Wartungsvertrag sinnvoll?
-                    </button>
-                </h2>
-                <div id="faqTenContent" class="accordion-collapse collapse"
-                    data-bs-parent="#thermenFaq">
-                    <div class="accordion-body">
-                        Ein Wartungsvertrag bietet Planungssicherheit, fixe Preise und regelmäßige Termine.
-                        Er hilft, Ausfälle zu vermeiden und die Lebensdauer der Therme deutlich zu verlängern.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- CTA: Jetzt Thermenwartung sichern -->
-<section class="spotlight" id="cta-thermenwartung">
-    <div class="container">
-        <div class="cta-wrap">
-            <div class="cta-text">
-                <h2>Jetzt Thermenwartung in Wien &amp; Niederösterreich sichern</h2>
-                <p>
-                    Setzen Sie auf Sicherheit, Zuverlässigkeit und einen professionellen Thermenservice – für jede
-                    Jahreszeit und jedes Gerät. Unsere erfahrenen Experten sind schnell vor Ort und sorgen dafür, dass
-                    Ihre Therme effizient und sicher funktioniert.
-                </p>
-                <div class="cta-actions">
-                    <a class="cta-btn" href="#kontakt">Jetzt Termin anfragen</a>
-                    <a class="cta-link" href="#faq-thermenwartung">Fragen ansehen</a>
-                </div>
-            </div>
-
-            <div class="cta-media" aria-label="Thermenwartung Service">
-                <img src="{{ asset('img/final.png') }}" alt="Thermenwartung in Wien & Niederösterreich">
-            </div>
-        </div>
-    </div>
-</section>
-
-<style>
-    /* ✅ Remove shadow/outline on FAQ accordion button when clicked/focused */
-#faq-thermenwartung .accordion-button:focus,
-#faq-thermenwartung .accordion-button:active,
-#faq-thermenwartung .accordion-button:focus-visible,
-#faq-thermenwartung .accordion-button:not(.collapsed) {
-    outline: none !important;
-    box-shadow: none !important;
-    background-color: none;
-}
-/* .accordion-button:not(.collapsed){
+            /* .accordion-button:not(.collapsed){
     background-color: none !important;
 } */
 
-.accordion-button:not(.collapsed) {
-    color: var(--bs-accordion-active-color) !important;
-    background-color:transparent !important;
-    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
-}
+            .accordion-button:not(.collapsed) {
+                color: var(--bs-accordion-active-color) !important;
+                background-color: transparent !important;
+                box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+            }
 
-    /* CTA styles (inherits your color scheme via CSS vars if available) */
-    #cta-thermenwartung .cta-wrap{
-        display:flex;
-        gap:24px;
-        align-items:center;
-        justify-content:space-between;
-        border-radius:18px;
-        padding:28px;
-        background: #114359;
-        color: var(--section-fg, #ffffff);
-        overflow:hidden;
-        box-shadow: 0 10px 30px rgba(0,0,0,.12);
-    }
+            /* CTA styles (inherits your color scheme via CSS vars if available) */
+            #cta-thermenwartung .cta-wrap {
+                display: flex;
+                gap: 24px;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 18px;
+                padding: 28px;
+                background: #114359;
+                color: var(--section-fg, #ffffff);
+                overflow: hidden;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, .12);
+            }
 
-    #cta-thermenwartung h2{
-        margin:0 0 10px 0;
-        font-weight:800;
-        line-height:1.2;
-    }
+            #cta-thermenwartung h2 {
+                margin: 0 0 10px 0;
+                font-weight: 800;
+                line-height: 1.2;
+            }
 
-    #cta-thermenwartung p{
-        margin:0 0 18px 0;
-        opacity:.92;
-        max-width: 58ch;
-    }
+            #cta-thermenwartung p {
+                margin: 0 0 18px 0;
+                opacity: .92;
+                max-width: 58ch;
+            }
 
-    #cta-thermenwartung .cta-actions{
-        display:flex;
-        gap:14px;
-        align-items:center;
-        flex-wrap:wrap;
-    }
+            #cta-thermenwartung .cta-actions {
+                display: flex;
+                gap: 14px;
+                align-items: center;
+                flex-wrap: wrap;
+            }
 
-    #cta-thermenwartung .cta-btn{
-        display:inline-flex;
-        align-items:center;
-        justify-content:center;
-        padding:12px 18px;
-        border-radius:12px;
-        background: var(--primary, #22c55e);
-        color:#0b1220;
-        font-weight:700;
-        text-decoration:none;
-        transition: transform .12s ease, opacity .12s ease;
-    }
+            #cta-thermenwartung .cta-btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 12px 18px;
+                border-radius: 12px;
+                background: var(--primary, #22c55e);
+                color: #0b1220;
+                font-weight: 700;
+                text-decoration: none;
+                transition: transform .12s ease, opacity .12s ease;
+            }
 
-    #cta-thermenwartung .cta-btn:hover{ transform: translateY(-1px); opacity:.95; }
+            #cta-thermenwartung .cta-btn:hover {
+                transform: translateY(-1px);
+                opacity: .95;
+            }
 
-    #cta-thermenwartung .cta-link{
-        color: var(--link, #ffffff);
-        text-decoration:none;
-        opacity:.9;
-        font-weight:600;
-    }
+            #cta-thermenwartung .cta-link {
+                color: var(--link, #ffffff);
+                text-decoration: none;
+                opacity: .9;
+                font-weight: 600;
+            }
 
-    #cta-thermenwartung .cta-link:hover{ opacity:1; text-decoration:underline; }
+            #cta-thermenwartung .cta-link:hover {
+                opacity: 1;
+                text-decoration: underline;
+            }
 
-    #cta-thermenwartung .cta-media{
-        flex: 0 0 44%;
-        border-radius:16px;
-        overflow:hidden;
-        background: rgba(255,255,255,.06);
-        min-height: 220px;
-    }
+            #cta-thermenwartung .cta-media {
+                flex: 0 0 44%;
+                border-radius: 16px;
+                overflow: hidden;
+                background: rgba(255, 255, 255, .06);
+                min-height: 220px;
+            }
 
-    #cta-thermenwartung .cta-media img{
-        width:100%;
-        height:100%;
-        object-fit:cover;
-        display:block;
-    }
+            #cta-thermenwartung .cta-media img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
 
-    @media (max-width: 992px){
-        #cta-thermenwartung .cta-wrap{ flex-direction:column; padding:22px; }
-        #cta-thermenwartung .cta-media{ flex-basis:auto; width:100%; }
-        #cta-thermenwartung p{ max-width: 70ch; }
-    }
-</style>
+            @media (max-width: 992px) {
+                #cta-thermenwartung .cta-wrap {
+                    flex-direction: column;
+                    padding: 22px;
+                }
+
+                #cta-thermenwartung .cta-media {
+                    flex-basis: auto;
+                    width: 100%;
+                }
+
+                #cta-thermenwartung p {
+                    max-width: 70ch;
+                }
+            }
+        </style>
 
 
 
@@ -3460,8 +3950,8 @@
         <!-- ===================== /BRAND SPOTLIGHTS (ALL) ===================== -->
         <section class="brands-service">
             <div class="container">
-                <span class="brands-kicker">Maintenance &amp; Repair</span>
-                <h2 class="brands-title">Gas boilers</h2>
+                <span class="brands-kicker">Wartung & Reparatur</span>
+                <h2 class="brands-title">Gasthermen</h2>
 
                 <div class="brands-logos">
                     <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
@@ -3476,7 +3966,7 @@
                     <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">
                 </div>
 
-                <p class="brands-note">We service all common brands for you.</p>
+                <p class="brands-note">Wir warten und reparieren alle gängigen Marken für Sie.</p>
             </div>
         </section>
     </main>
@@ -3489,39 +3979,50 @@
                 <div class="footer-grid">
                     <div>
                         <div class="footer-title"><svg></svg>Kontakt</div>
-                        <p>Installateurfirma mit fachlicher Kompetenz und erfahrenem sowie <b>ausgebildetem Team</b>.
-                            Spezialisiert auf Wartung, Reparatur, Verkauf &amp; Installation von Gas‑Thermen aller
-                            Marken.</p>
+                        <p>Installations- und Servicebetrieb mit erfahrenem Fachpersonal.
+                            Fokus auf Wartung, Reparatur sowie Installation moderner Heiz- und Energiesysteme.</p>
                         <div style="height:12px"></div>
                         <ul class="list">
-                            <li><svg>
+                            <li>
+                                <svg>
                                     <use href="#i-shield"></use>
-                                </svg><span>GasTech Pro - Installationstechnik<br>Linzer Straße 263<br>1140 Wien</span>
+                                </svg>
+                                <span>
+                                    Musterfirma GmbH<br>
+                                    Beispielgasse 99<br>
+                                    1000 Musterstadt
+                                </span>
                             </li>
-                            <li><svg>
+                            <li>
+                                <svg>
                                     <use href="#i-phone"></use>
-                                </svg><a href="tel:+4319284374">+43 1 9284374</a></li>
-                            <li><svg>
+                                </svg>
+                                <a href="tel:+43000000000">+43 000 000 000</a>
+                            </li>
+                            <li>
+                                <svg>
                                     <use href="#i-mail"></use>
-                                </svg><a href="mailto:office@thermendienst.at">office@thermendienst.at</a></li>
+                                </svg>
+                                <a href="mailto:info@example.com">info@example.com</a>
+                            </li>
                         </ul>
                     </div>
 
                     <div>
-                        <div class="footer-title"><svg></svg>Wir bieten …</div>
+                        <div class="footer-title"><svg></svg>Unsere Leistungen</div>
                         <ul class="list">
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Reparatur von Thermen</li>
+                                </svg>Reparatur &amp; Störungsdienst</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Thermenservice</li>
+                                </svg>Service &amp; Wartung</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Verkauf &amp; Installation von Thermen</li>
+                                </svg>Installation neuer Anlagen</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Abgasmessung &amp; Überprüfung</li>
+                                </svg>Überprüfung &amp; Messungen</li>
                         </ul>
                     </div>
 
@@ -3530,22 +4031,22 @@
                         <ul class="list">
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Vaillant</li>
+                                </svg>Marke A</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Junkers</li>
+                                </svg>Marke B</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Viessmann</li>
+                                </svg>Marke C</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Baxi</li>
+                                </svg>Marke D</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Buderus</li>
+                                </svg>Marke E</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Saunier Duval</li>
+                                </svg>Marke F</li>
                         </ul>
                     </div>
                 </div>
@@ -3554,11 +4055,12 @@
 
         <div class="copyright">
             <div class="container">
-                <div>Copyright 2023 Thermendienst.at | Impressum &amp; Datenschutzerklärung</div>
-                <div>WebDesign by gfxMedia.at</div>
+                <div>© 2026 heizdienst.at | Impressum &amp; Datenschutzerklärung</div>
+                <div>Webdesign by DummyStudio</div>
             </div>
         </div>
     </footer>
+
 
     <!-- MOBILE STICKY BAR -->
     <div class="mobilebar" role="navigation" aria-label="Schnellaktionen">
@@ -3683,8 +4185,87 @@
             panel.style.display = (panel.style.display === 'block') ? 'none' : 'block';
         }
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const track = document.querySelector('.brand-slider-track');
+            const items = track.querySelectorAll('img');
+            const prev = document.querySelector('.brand-slider-prev');
+            const next = document.querySelector('.brand-slider-next');
+            const viewport = document.querySelector('.brand-slider-viewport');
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+            let index = 0;
+            let autoSlideInterval;
+
+            function getItemWidth() {
+                const style = getComputedStyle(track);
+                const gap = parseInt(style.gap || 40);
+                return items[0].offsetWidth + gap;
+            }
+
+            function getVisibleItems() {
+                return Math.floor(viewport.offsetWidth / getItemWidth());
+            }
+
+            function update() {
+                const itemWidth = getItemWidth();
+                track.style.transform = `translateX(-${index * itemWidth}px)`;
+            }
+
+            function slideNext() {
+                const maxIndex = items.length - getVisibleItems();
+                if (index >= maxIndex) {
+                    index = 0; // loop back
+                } else {
+                    index++;
+                }
+                update();
+            }
+
+            function slidePrev() {
+                if (index <= 0) {
+                    index = items.length - getVisibleItems();
+                } else {
+                    index--;
+                }
+                update();
+            }
+
+            // Buttons
+            next.addEventListener('click', () => {
+                slideNext();
+                resetAutoSlide();
+            });
+
+            prev.addEventListener('click', () => {
+                slidePrev();
+                resetAutoSlide();
+            });
+
+            // Auto slide
+            function startAutoSlide() {
+                autoSlideInterval = setInterval(slideNext, 3000); // ⏱ 3 seconds
+            }
+
+            function resetAutoSlide() {
+                clearInterval(autoSlideInterval);
+                startAutoSlide();
+            }
+
+            // Pause on hover (desktop UX polish)
+            viewport.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+            viewport.addEventListener('mouseleave', startAutoSlide);
+
+            window.addEventListener('resize', update);
+
+            update();
+            startAutoSlide();
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
 
 
 </body>
