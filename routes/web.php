@@ -31,3 +31,15 @@ Route::get('/wolf', function () {
 Route::get('/viessmann', function () {
     return view('viessmann');
 });
+
+Route::get('/saunier-duval',function(){
+    return view('saunier-duval');
+});
+
+Route::get('/rapido',function(){
+    return view('rapido');
+});
+
+Route::get('/ocean',function(){
+    return view('ocean');
+});
