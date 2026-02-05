@@ -4,9 +4,8 @@
             <div class="container">
                 <div class="footer-grid">
                     <div>
-                        <div class="footer-title"><svg></svg>Kontakt</div>
-                        <p>Installations- und Servicebetrieb mit erfahrenem Fachpersonal.
-                            Fokus auf Wartung, Reparatur sowie Installation moderner Heiz- und Energiesysteme.</p>
+                        {{-- <div class="footer-title"><svg></svg>Kontakt</div> --}}
+                        <p>Zuverlässiger Thermenservice für Wartung, Reparatur und Notdienst in Wien und Niederösterreich – sicher, transparent und fachgerecht durch erfahrene Installateure.</p>
                         <div style="height:12px"></div>
                         <ul class="list">
                             <li>
@@ -14,9 +13,7 @@
                                     <use href="#i-shield"></use>
                                 </svg>
                                 <span>
-                                    Musterfirma GmbH<br>
-                                    Beispielgasse 99<br>
-                                    1000 Musterstadt
+                                   wein
                                 </span>
                             </li>
                             <li>
@@ -34,12 +31,8 @@
                         </ul>
                     </div>
 
-                    <div style="
-    height: 100%;
-    align-items: center;
-    display: flex;
-">
-                       <img src="{{ asset('img/mobile-logo.jpeg') }}" width="250" alt="">
+                    <div >
+                       <img src="{{ asset('img/mobile-logo.jpeg') }}" style="width: 100%" alt="">
                     </div>
 
                     <div>

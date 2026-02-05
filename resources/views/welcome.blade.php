@@ -1,5 +1,10 @@
 @extends('layout.app')
 @section('main')
+@php
+    $metaTitle = 'Thermenwartung & Thermenservice Wien & NÖ | Reparatur & Notdienst';
+    $metaDescription = 'Professionelle Thermenwartung, Thermenservice & Reparatur in Wien und Niederösterreich. Alle Marken, transparente Preise inkl. MwSt, schnelle Hilfe & Notdienst.';
+@endphp
+
     <style>
         .m-hero::before {
             content: "";

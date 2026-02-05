@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Thermendienst – Thermenwartung Wien & NÖ</title>
+<meta name="title" content="{{ $metaTitle ?? 'Default Site Title' }}">
+
+<meta name="description" content="{{ $metaDescription ?? 'Default meta description' }}">
 
     <!-- Font close to Elementor kit used (Raleway) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
