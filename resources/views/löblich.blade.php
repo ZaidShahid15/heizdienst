@@ -465,7 +465,7 @@
 
     <div class="service-split__media service-media">
       <div class="service-media__box">
-        <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Löblich Thermenservice Wien">
+        <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="Löblich Thermenservice Wien">
       </div>
     </div>
   </div>

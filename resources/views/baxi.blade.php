@@ -484,7 +484,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Baxi Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

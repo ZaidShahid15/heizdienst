@@ -493,7 +493,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Rapido Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/rapido.jpeg') }}" alt="Rapido Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

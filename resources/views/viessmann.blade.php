@@ -474,7 +474,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-1.jpg') }}" alt="Viessmann Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/viesman.jpeg') }}" alt="Viessmann Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

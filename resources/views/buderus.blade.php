@@ -481,7 +481,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{asset('img/vaillant-5.jpg')}}" alt="Buderus Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{asset('img/buderus.jpeg')}}" alt="Buderus Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

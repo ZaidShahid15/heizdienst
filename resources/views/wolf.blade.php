@@ -472,7 +472,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Wolf Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/wolf.jpeg') }}" alt="Wolf Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

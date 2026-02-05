@@ -473,7 +473,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Ocean Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/oceanbaxi.jpeg') }}" alt="Ocean Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
