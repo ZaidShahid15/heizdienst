@@ -339,15 +339,6 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  .service-footer{
-    border-top:1px solid var(--line);
-    padding:18px 0;
-    background:#fff;
-  }
-  .service-footer__inner{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
-  .service-footer__links{display:flex; gap:12px}
-  .service-footer a:hover{text-decoration:underline}
-
   /* Mobile */
   @media (max-width: 980px){
     .service-grid--3{grid-template-columns: 1fr}
@@ -376,23 +367,23 @@
         <p class="service-kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
 
         <h1>
-          Vaillant Thermenwartung Wien<br>
-          <span class="service-highlight">Rund um die Uhr für Sie da.</span>
+          Saunier Duval Thermenwartung Wien<br>
+          <span class="service-highlight">Rund um die Uhr Service vom Fachbetrieb</span>
         </h1>
 
         <p class="service-hero__lead">
-          Professionelle Wartung, Service, Reparaturen und Notfälle – 24/7 erreichbar.
+          Professionelle Saunier Duval Thermenwartung Wien durch erfahrene Spezialisten – zuverlässig, effizient und rund um die Uhr verfügbar.
         </p>
 
         <div class="service-hero__bullets" aria-label="Highlights">
           <span class="service-pill">Wartung & Service</span>
           <span class="service-pill">Reparatur & Notdienst</span>
-          <span class="service-pill">Fixpreise inkl. MwSt</span>
-          <span class="service-pill">Zertifizierte Techniker</span>
+          <span class="service-pill">Preise inkl. MwSt</span>
+          <span class="service-pill">Qualifizierte Techniker</span>
         </div>
 
         <div class="service-hero__actions" style="margin-top:16px;">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt anfragen</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#leistungen-services">Leistungen ansehen</a>
         </div>
       </div>
@@ -416,82 +407,72 @@
     </div>
   </section>
 
-  <!-- Vorteile / USPs (NEW SECTION) -->
+  <!-- Vorteile -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Ihre Vorteile</h2>
-        <p>Klare Leistung. Klare Kosten. Schnelle Hilfe.</p>
+        <h2>Wartung, Reparatur & Notdienst für Ihre Saunier Duval Therme</h2>
+        <p>Schneller Kundendienst, transparente Preise und ein geschultes Team – in Wien & Umgebung.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Wartung, Reparatur & Notdienst</h3>
-          <p>Alles für Ihre Vaillant Therme – in Wien und Umgebung, auch bei Notfällen.</p>
+          <h3>Flexibel nach Terminvereinbarung</h3>
+          <p>Schneller Kundendienst – flexibel und zuverlässig, abgestimmt auf Ihren Termin.</p>
           <ul class="service-checklist">
-            <li>Wartung & Service</li>
-            <li>Reparaturen & Ersatzteile</li>
-            <li>Störungen & Notfälle</li>
+            <li>Schnelle Rückmeldung</li>
+            <li>Flexible Terminplanung</li>
+            <li>Direkt vor Ort in Wien</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>24/7 erreichbar</h3>
-          <p>Rund um die Uhr verfügbar – Tag und Uhrzeitunabhängig.</p>
+          <h3>Transparente Preise inkl. MwSt</h3>
+          <p>Klare Angebote, verständlich erklärt – ohne versteckte Zusatzkosten.</p>
           <ul class="service-checklist">
-            <li>Schnelle Reaktion</li>
-            <li>Hilfe bei Kälte & Ausfall</li>
-            <li>Zuverlässige Umsetzung vor Ort</li>
+            <li>Faire Preisstruktur</li>
+            <li>Leistungen offen kommuniziert</li>
+            <li>MwSt selbstverständlich inkludiert</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>Fixpreise inkl. MwSt</h3>
-          <p>Volle Kosten-Transparenz – zusätzliche Arbeiten nur nach Rücksprache.</p>
+          <h3>Zertifizierter Fachmann</h3>
+          <p>Qualifizierte Techniker, geschultes Team und zuverlässiger Fachbetrieb.</p>
           <ul class="service-checklist">
-            <li>Klare Wartungskosten</li>
-            <li>Teile & Zusatzleistungen abgesprochen</li>
-            <li>Fair & nachvollziehbar</li>
+            <li>Erfahrene Spezialisten</li>
+            <li>Saunier Duval Know-how</li>
+            <li>Sicher & effizient</li>
           </ul>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Partner / Markenstärke -->
+  <!-- Partner -->
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Ihr Vaillant Partner in Wien & Umgebung</h2>
+        <h2>Ihr Saunier Duval Partner in Wien & Umgebung</h2>
         <p>
-          Als erfahrener Partner für Vaillant Thermenwartung, Thermenwartung in Wien und Thermenservice
-          stehen wir für Kompetenz, Qualität und persönlichen Service – direkt bei Ihnen zu Hause.
+          Als verlässlicher Partner für Saunier Duval Thermenwartung, Thermenwartung Wien und professionellen Thermenservice
+          stehen wir Ihnen mit Erfahrung, Kompetenz und persönlichem Service zur Seite.
         </p>
         <p style="margin-top:10px;">
-          Wir arbeiten mit original Vaillant Produkten, modernen Geräten und nach aktuellen Vorschriften des Herstellers.
-          Als geprüfter Fachbetrieb, Installateur und Vaillant Kundendienst betreuen wir Wien und die Umgebung zuverlässig,
-          sicher und effizient.
+          Wir arbeiten streng nach Vorgaben der Marke Saunier Duval, verwenden hochwertige Materialien und moderne Gasgeräte.
+          Als erfahrener Installateur und zuverlässiger Kundendienst sind wir in Wien, NÖ, Niederösterreich und der gesamten Umgebung für Sie im Einsatz.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Originalprodukte</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Qualifizierte Techniker</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Wien & Umgebung</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hersteller-Vorgaben</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Geschultes Team</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & NÖ</div></div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Vaillant Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Saunier Duval Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -501,40 +482,40 @@
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen für Ihre Vaillant Therme</h2>
-        <p>Wartung, Service, Reparaturen und moderne Lösungen – alles aus einer Hand.</p>
+        <h2>Leistungen für Ihre Saunier Duval Therme</h2>
+        <p>Wartung, Service, Reparatur und Thermentausch – zuverlässig aus einer Hand.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Vaillant Thermenwartung</h3>
-            <p>Maximale Sicherheit, bessere Effizienz, niedrigere Heizkosten und störungsfreier Betrieb – das ganze Jahr.</p>
+            <h3>Saunier Duval Thermenwartung</h3>
+            <p>Erhöht die Lebensdauer, schützt vor Schäden und sorgt für einen sicheren Betrieb Ihrer Anlage.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔍</div>
           <div>
-            <h3>Vaillant Thermenservice</h3>
-            <p>Überprüfung, Reinigung, Einstellung und Optimierung – inkl. relevanter Geräte, Gasgeräte und Kombithermen.</p>
+            <h3>Saunier Duval Thermenservice</h3>
+            <p>Überprüfung, gründliche Reinigung, Kontrolle relevanter Bauteile und Messung der Abgaswerte.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
-            <h3>Vaillant Kundendienst Wien</h3>
-            <p>Kompetent bei Anliegen, Fragen und Problemen – persönlich erreichbar und klar erklärt.</p>
+            <h3>Saunier Duval Kundendienst Wien</h3>
+            <p>Schnelle Hilfe bei Problemen, Fragen oder dringenden Anliegen – zuverlässig vor Ort.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚙️</div>
           <div>
-            <h3>Vaillant Thermenreparatur</h3>
-            <p>Schnelle Reparaturen, Ersatzteile nach Rücksprache – Defekte an Gasheizung, Warmwasser & Durchlauferhitzer.</p>
+            <h3>Saunier Duval Thermenreparatur</h3>
+            <p>Fachgerechte Reparaturen bei Defekten oder Störungen – rasch wieder volle Funktion.</p>
           </div>
         </article>
 
@@ -542,7 +523,7 @@
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3>Thermenstörung & Notfälle</h3>
-            <p>Bei Störungen, Ausfällen oder akuten Notfällen: rund um die Uhr verfügbar – schnell vor Ort in Wien.</p>
+            <p>Bei Ausfall oder Notfall: Notdienst erreichbar – schnell, sicher und zuverlässig.</p>
           </div>
         </article>
 
@@ -550,7 +531,7 @@
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
             <h3>Thermentausch & neue Geräte</h3>
-            <p>Beratung zu Thermentausch, Wärmepumpe, Klimaanlagen & moderner Technik – inkl. Planung und Umsetzung.</p>
+            <p>Beratung, Planung, Installation und Umsetzung – Duval Gastherme oder Durchlauferhitzer.</p>
           </div>
         </article>
       </div>
@@ -561,30 +542,16 @@
   <section class="service-section service-section--soft" id="warum-services">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>Warum Wartung unverzichtbar ist</h2>
+        <h2>Warum eine Saunier Duval Thermenwartung unverzichtbar ist</h2>
         <p>
-          Eine regelmäßige Vaillant Thermenwartung ist entscheidend für den sicheren und effizienten Betrieb Ihrer Therme.
-          Sie reduziert das Risiko von Störungen, Ausfällen und gefährlichen Notfällen, verlängert die Lebensdauer und
-          hilft langfristig Heizkosten zu sparen.
-        </p>
-        <p style="margin-top:10px;">
-          Gleichzeitig profitieren Umwelt und Verbrauch: eine optimal eingestellte Therme arbeitet effizienter und
-          senkt den Energiebedarf. Unsere Experten sorgen dafür, dass alles zuverlässig funktioniert – jederzeit.
+          Eine regelmäßige Saunier Duval Thermenwartung Wien ist entscheidend für Sicherheit, stabile Funktionalität und den
+          langfristigen Werterhalt Ihres Heizsystems. Sie schützt vor Folgeschäden, senkt Risiken und sorgt für zuverlässigen Betrieb.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Mehr Sicherheit</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">↓</div>
-            <div class="service-stat__label">Weniger Verbrauch</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">⏱</div>
-            <div class="service-stat__label">Weniger Ausfälle</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Ausfälle</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
         </div>
       </div>
 
@@ -596,30 +563,27 @@
     </div>
   </section>
 
-  <!-- Geräte & Systeme -->
+  <!-- Geräte -->
   <section class="service-section" id="geraete-services">
     <div class="service-container">
       <div class="service-section__head">
         <h2>Für welche Geräte & Systeme?</h2>
-        <p>Wir warten alle Vaillant Geräte – im privaten Haushalt und im laufenden Betrieb.</p>
+        <p>Wir warten alle Saunier Duval Geräte – in Wien, NÖ und der gesamten Umgebung.</p>
       </div>
 
       <div class="service-chips">
+        <span class="service-chip">Saunier Duval Therme</span>
+        <span class="service-chip">Duval Gastherme</span>
         <span class="service-chip">Gastherme</span>
-        <span class="service-chip">Gasthermen</span>
-        <span class="service-chip">Kombitherme</span>
-        <span class="service-chip">Gasgeräte</span>
         <span class="service-chip">Durchlauferhitzer</span>
-        <span class="service-chip">Gasheizung</span>
-        <span class="service-chip">Heizungsanlage</span>
-        <span class="service-chip">Wärmepumpe</span>
-        <span class="service-chip">Ausgewählte Klimaanlagen</span>
+        <span class="service-chip">Heizkörper</span>
+        <span class="service-chip">Heizsystem</span>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Als Fachbetrieb arbeiten wir mit geprüften Produkten von Vaillant. Unsere Techniker und Fachkräfte sorgen dafür,
-          dass Ihre Systeme sicher, effizient und langfristig zuverlässig laufen.
+          Als spezialisierter Fachmann betreuen wir sämtliche Gasgeräte nach Herstellervorgaben.
+          Unsere Techniker sorgen für einen sicheren Betrieb Ihrer Anlage – zuverlässig und professionell.
         </p>
       </div>
     </div>
@@ -629,27 +593,23 @@
   <section class="service-section service-section--soft" id="ablauf-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>So läuft die Thermenwartung ab</h2>
+        <h2>Ablauf der Saunier Duval Thermenwartung</h2>
         <ol class="service-steps">
           <li>
-            <strong>Terminvergabe & Vorbereitung</strong>
-            <span>Wir planen die Wartung abgestimmt auf Anliegen und Gerätezustand.</span>
-          </li>
-          <li>
-            <strong>Überprüfung & Sicherheitscheck</strong>
-            <span>Sichtprüfung, Funktionskontrolle und Früherkennung möglicher Störungen.</span>
+            <strong>Prüfung & Funktionsprüfung</strong>
+            <span>Gründliche Kontrolle aller sicherheitsrelevanten Punkte und Gerätezustand.</span>
           </li>
           <li>
             <strong>Reinigung & Kontrolle</strong>
-            <span>Reinigung/Entkalkung, Kontrolle relevanter Bauteile und benötigter Ersatzteile.</span>
+            <span>Reinigung, Kontrolle der Bauteile und Messung der Abgaswerte.</span>
           </li>
           <li>
-            <strong>Optimierung</strong>
-            <span>Einstellungen optimieren für bessere Effizienz, geringeren Gas-Verbrauch und mehr Komfort.</span>
+            <strong>Gezielte Arbeiten</strong>
+            <span>Nachfüllen, Entlüftung und Einstellung der Anlage (falls erforderlich).</span>
           </li>
           <li>
-            <strong>Dokumentation & Empfehlungen</strong>
-            <span>Klare Empfehlungen, Antworten auf Fragen und Hinweise zur nächsten Wartung.</span>
+            <strong>Info & Empfehlungen</strong>
+            <span>Transparente Rückmeldung zum Zustand und empfohlene Maßnahmen.</span>
           </li>
         </ol>
       </div>
@@ -666,13 +626,13 @@
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Vaillant Notdienst Wien – 24 Stunden verfügbar</h2>
+        <h2>Saunier Duval Notdienst Wien – 24 Stunden verfügbar</h2>
         <p>
-          Bei Notfällen, plötzlichen Ausfällen oder defekter Therme sind wir rund um die Uhr erreichbar.
-          Unser Kundendienst reagiert schnell und sorgt für rasche Umsetzung vor Ort.
+          Bei akuten Problemen, plötzlichen Ausfällen oder sicherheitsrelevanten Notfällen steht Ihnen unser Notdienst rund um die Uhr zur Verfügung.
+          Egal ob Tag oder Uhrzeit – wir helfen schnell und zuverlässig.
         </p>
         <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
@@ -681,13 +641,13 @@
         <div class="service-panel">
           <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Therme startet nicht / Störungscode</li>
+            <li>Therme fällt aus</li>
             <li>Kein Warmwasser</li>
             <li>Heizung bleibt kalt</li>
-            <li>Ungewöhnliche Geräusche</li>
+            <li>Störung / Fehlermeldung</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Besonders bei Kälte zählt jede Minute – wir helfen effizient, sicher und lösungsorientiert.
+            Unsere Experten sind rasch bei Ihnen vor Ort in Wien, NÖ und der umliegenden Region.
           </p>
         </div>
       </div>
@@ -699,29 +659,26 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Kosten, Preise & MwSt</h2>
-        <p>Transparente Kosten und faire Preise – ohne Überraschungen.</p>
+        <p>Transparente Preise, klare Angebote – inkl. MwSt.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <div class="service-pricecard">
-          <h3>Klare Wartungskosten</h3>
-          <p>Sie erhalten ein klares Angebot – passend zu Therme, Zustand und Aufwand.</p>
+          <h3>Transparente Angebote</h3>
+          <p>Alle Leistungen werden offen kommuniziert – ohne versteckte Zusatzkosten.</p>
         </div>
         <div class="service-pricecard">
-          <h3>Ersatzteile & Reparaturkosten</h3>
-          <p>Benötigte Teile und Zusatzleistungen werden offen im Vorfeld besprochen.</p>
+          <h3>Optional: Wartungsvertrag</h3>
+          <p>Mehr Planungssicherheit und langfristig reduzierte Kosten durch regelmäßige Wartung.</p>
         </div>
         <div class="service-pricecard">
-          <h3>Wartungsvertrag (optional)</h3>
-          <p>Planbarkeit, feste Abläufe und weniger Folgekosten durch regelmäßige Termine.</p>
+          <h3>Mehr Lebensdauer</h3>
+          <p>Regelmäßige Wartung erhöht die Lebensdauer Ihrer Anlage und sorgt für maximale Zuverlässigkeit.</p>
         </div>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
-        <p style="margin:0;">
-          Ziel: maximale Sicherheit, hohe Qualität und ein Service, dem unsere Kunden vertrauen.
-          Die MwSt ist selbstverständlich vollständig ausgewiesen.
-        </p>
+        <p style="margin:0;">Die MwSt ist selbstverständlich inkludiert und vollständig ausgewiesen.</p>
       </div>
     </div>
   </section>
@@ -732,33 +689,23 @@
       <div class="service-split__text">
         <h2>Warum wir der richtige Fachpartner sind</h2>
         <p>
-          Als erfahrener Fachpartner für Vaillant Thermen in Wien stehen wir für echte Erfahrung, technische Kompetenz
-          und nachhaltige Lösungen. Unsere geschulten Mitarbeiter und spezialisierten Techniker arbeiten nach hohen Standards.
+          Als erfahrener Partner für Saunier Duval, Duval Thermenwartung und Gasgeräteservice stehen wir für Qualität,
+          Kompetenz und nachhaltige Lösungen. Unser Team arbeitet präzise, kundenorientiert und zuverlässig.
         </p>
         <p style="margin-top:10px;">
-          Wir verbinden professionellen Service mit kundennahem Kundendienst – vom ersten Kontakt bis zur laufenden Wartung.
-          So können Sie sich dauerhaft auf Sicherheit, Effizienz und Zuverlässigkeit verlassen.
+          Wir verbinden technische Expertise mit persönlichem Service und begleiten Sie bei Wartung, Thermentausch und laufender Betreuung.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Hohe Qualität</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Persönlicher Service</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Nachhaltige Lösungen</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kompetent</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparent</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Zuverlässig</div></div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Vaillant Thermen" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Saunier Duval Thermen" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -768,39 +715,34 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen</h2>
-        <p>Die wichtigsten Antworten zur Vaillant Thermenwartung.</p>
+        <h2>Häufige Fragen zur Saunier Duval Thermenwartung</h2>
+        <p>Die wichtigsten Antworten – kurz und verständlich.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wie oft sollte eine Wartung durchgeführt werden?</summary>
-          <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit, Effizienz und einen störungsfreien Betrieb sicherzustellen.</p>
+          <summary>Wie oft sollte eine Thermenwartung durchgeführt werden?</summary>
+          <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit und Effizienz dauerhaft zu gewährleisten.</p>
         </details>
 
         <details>
-          <summary>Gibt es gesetzliche Vorschriften?</summary>
-          <p>Ein fixes Gesetz zur jährlichen Wartung besteht nicht. Viele Vorgaben verlangen jedoch regelmäßige Kontrollen zur Risikominimierung.</p>
+          <summary>Was passiert bei einer Wartung genau?</summary>
+          <p>Es erfolgen Überprüfung, Reinigung, Funktionsprüfung und Kontrolle aller relevanten Bauteile.</p>
         </details>
 
         <details>
-          <summary>Wie viel Energie kann man sparen?</summary>
-          <p>Eine gewartete Vaillant Therme verbraucht weniger Energie und arbeitet deutlich effizienter.</p>
+          <summary>Welche Regionen werden betreut?</summary>
+          <p>Wir sind in Wien, NÖ, Niederösterreich und der gesamten Umgebung im Einsatz.</p>
         </details>
 
         <details>
-          <summary>Wann lohnt sich ein Thermentausch?</summary>
-          <p>Bei häufigen Störungen, hohem Verbrauch oder veralteten Geräten ist ein Thermentausch sinnvoll.</p>
+          <summary>Wann ist ein Thermentausch sinnvoll?</summary>
+          <p>Bei häufigen Störungen oder veralteten Geräten ist ein Thermentausch empfehlenswert.</p>
         </details>
 
         <details>
-          <summary>Was tun im Fall einer Störung?</summary>
-          <p>Kontaktieren Sie sofort unseren Kundendienst – wir sind rund um die Uhr verfügbar und helfen schnell.</p>
-        </details>
-
-        <details>
-          <summary>Ist ein Wartungsvertrag sinnvoll?</summary>
-          <p>Ja. Ein Wartungsvertrag bietet Planungssicherheit, fixe Kosten und langfristige Entlastung.</p>
+          <summary>Wie erreiche ich den Service?</summary>
+          <p>Kontaktieren Sie uns telefonisch oder über Ihre E-Mail-Adresse – wir helfen rasch weiter.</p>
         </details>
       </div>
     </div>
@@ -810,11 +752,9 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Jetzt Vaillant Thermenwartung in Wien sichern</h2>
-        <p>Komfort, Sicherheit und Effizienz – zuverlässig, transparent und kundenorientiert.</p>
-        <p style="margin-top:10px;">
-          Unsere Experten sind rund um die Uhr erreichbar und jederzeit zur Verfügung.
-        </p>
+        <h2>Jetzt Saunier Duval Thermenwartung in Wien sichern</h2>
+        <p>Sicherheit, Effizienz und langfristige Qualität – kompetent, transparent und zuverlässig.</p>
+        <p style="margin-top:10px;">📞 Jetzt Kontakt aufnehmen – Ihr Spezialist für Saunier Duval Thermen in Wien.</p>
       </div>
 
       <form class="service-cta__form" action="#" method="post">
@@ -840,9 +780,6 @@
       </form>
     </div>
   </section>
-
- 
-  </footer>
 </main>
 
 <script>

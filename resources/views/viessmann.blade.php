@@ -339,15 +339,6 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  .service-footer{
-    border-top:1px solid var(--line);
-    padding:18px 0;
-    background:#fff;
-  }
-  .service-footer__inner{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
-  .service-footer__links{display:flex; gap:12px}
-  .service-footer a:hover{text-decoration:underline}
-
   /* Mobile */
   @media (max-width: 980px){
     .service-grid--3{grid-template-columns: 1fr}
@@ -376,23 +367,24 @@
         <p class="service-kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
 
         <h1>
-          Vaillant Thermenwartung Wien<br>
-          <span class="service-highlight">Rund um die Uhr für Sie da.</span>
+          Viessmann Thermenwartung Wien<br>
+          <span class="service-highlight">Rund um die Uhr Service vom Fachbetrieb</span>
         </h1>
 
         <p class="service-hero__lead">
-          Professionelle Wartung, Service, Reparaturen und Notfälle – 24/7 erreichbar.
+          Professionelle Viessmann Thermenwartung Wien durch erfahrene Profis – zuverlässig, effizient und rund um die Uhr verfügbar
+          für Thermenwartung, Service, Reparatur und Notdienst in Wien, NÖ, Niederösterreich und der gesamten Umgebung.
         </p>
 
         <div class="service-hero__bullets" aria-label="Highlights">
           <span class="service-pill">Wartung & Service</span>
           <span class="service-pill">Reparatur & Notdienst</span>
-          <span class="service-pill">Fixpreise inkl. MwSt</span>
-          <span class="service-pill">Zertifizierte Techniker</span>
+          <span class="service-pill">Kosten inkl. MwSt</span>
+          <span class="service-pill">Geprüfter Betrieb</span>
         </div>
 
         <div class="service-hero__actions" style="margin-top:16px;">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt anfragen</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#leistungen-services">Leistungen ansehen</a>
         </div>
       </div>
@@ -416,82 +408,73 @@
     </div>
   </section>
 
-  <!-- Vorteile / USPs (NEW SECTION) -->
+  <!-- Vorteile -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Ihre Vorteile</h2>
-        <p>Klare Leistung. Klare Kosten. Schnelle Hilfe.</p>
+        <h2>Wartung, Reparatur & Notdienst für Ihre Viessmann Therme</h2>
+        <p>Schnelle Terminvergabe, direkter Kundendienst und transparente Preise.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Wartung, Reparatur & Notdienst</h3>
-          <p>Alles für Ihre Vaillant Therme – in Wien und Umgebung, auch bei Notfällen.</p>
+          <h3>Schnelle Terminvergabe</h3>
+          <p>Direkter Kundendienst in Wien und Umgebung – flexibel planbar.</p>
           <ul class="service-checklist">
-            <li>Wartung & Service</li>
-            <li>Reparaturen & Ersatzteile</li>
-            <li>Störungen & Notfälle</li>
+            <li>Schnelle Terminvergabe</li>
+            <li>Direkter Kundendienst</li>
+            <li>Rasch vor Ort</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>24/7 erreichbar</h3>
-          <p>Rund um die Uhr verfügbar – Tag und Uhrzeitunabhängig.</p>
+          <h3>Transparente Kosten inkl. MwSt</h3>
+          <p>Klare Abrechnung und faire Preise – ohne Überraschungen.</p>
           <ul class="service-checklist">
-            <li>Schnelle Reaktion</li>
-            <li>Hilfe bei Kälte & Ausfall</li>
-            <li>Zuverlässige Umsetzung vor Ort</li>
+            <li>Klare Angebote</li>
+            <li>Transparente Preise</li>
+            <li>MwSt ausgewiesen</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>Fixpreise inkl. MwSt</h3>
-          <p>Volle Kosten-Transparenz – zusätzliche Arbeiten nur nach Rücksprache.</p>
+          <h3>Erfahrene Techniker</h3>
+          <p>Qualifizierte Mitarbeiter & geprüfter Betrieb – sicher und effizient.</p>
           <ul class="service-checklist">
-            <li>Klare Wartungskosten</li>
-            <li>Teile & Zusatzleistungen abgesprochen</li>
-            <li>Fair & nachvollziehbar</li>
+            <li>Erfahrung & Expertise</li>
+            <li>Geprüfte Komponenten</li>
+            <li>Hersteller-Vorgaben</li>
           </ul>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Partner / Markenstärke -->
+  <!-- Partner -->
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Ihr Vaillant Partner in Wien & Umgebung</h2>
+        <h2>Ihr Viessmann Partner in Wien & Umgebung</h2>
         <p>
-          Als erfahrener Partner für Vaillant Thermenwartung, Thermenwartung in Wien und Thermenservice
-          stehen wir für Kompetenz, Qualität und persönlichen Service – direkt bei Ihnen zu Hause.
+          Als zuverlässiger Partner für Viessmann Thermenwartung, Thermenwartung in Wien und professionellen Thermenservice
+          stehen wir unseren Kunden mit Erfahrung, Expertise und technischem Know-how zur Seite.
         </p>
         <p style="margin-top:10px;">
-          Wir arbeiten mit original Vaillant Produkten, modernen Geräten und nach aktuellen Vorschriften des Herstellers.
-          Als geprüfter Fachbetrieb, Installateur und Vaillant Kundendienst betreuen wir Wien und die Umgebung zuverlässig,
-          sicher und effizient.
+          Wir arbeiten strikt nach Vorgaben des Herstellers Viessmann, verwenden geprüfte Komponenten, moderne Gasgeräte
+          und hochwertige Bauteile. Als erfahrener Installateur sind wir in Wien, Niederösterreich, NÖ und angrenzenden Regionen
+          im Einsatz – zuverlässig, sicher und effizient.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Originalprodukte</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Qualifizierte Techniker</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Wien & Umgebung</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hersteller-Standards</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Moderne Geräte</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & NÖ</div></div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Vaillant Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Viessmann Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -501,40 +484,40 @@
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen für Ihre Vaillant Therme</h2>
-        <p>Wartung, Service, Reparaturen und moderne Lösungen – alles aus einer Hand.</p>
+        <h2>Leistungen für Ihre Viessmann Therme</h2>
+        <p>Wartung, Service, Reparatur, Notdienst & Thermentausch – professionell aus einer Hand.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Vaillant Thermenwartung</h3>
-            <p>Maximale Sicherheit, bessere Effizienz, niedrigere Heizkosten und störungsfreier Betrieb – das ganze Jahr.</p>
+            <h3>Viessmann Thermenwartung</h3>
+            <p>Effizienz sichern, Energiekosten senken und Schäden vermeiden – für lange Lebensdauer und Langlebigkeit.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔍</div>
           <div>
-            <h3>Vaillant Thermenservice</h3>
-            <p>Überprüfung, Reinigung, Einstellung und Optimierung – inkl. relevanter Geräte, Gasgeräte und Kombithermen.</p>
+            <h3>Viessmann Thermenservice</h3>
+            <p>Überprüfung, gründliche Reinigung, Kontrolle von Wärmetauscher, Abgaswerten und sicherheitsrelevanten Bauteilen.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
-            <h3>Vaillant Kundendienst Wien</h3>
-            <p>Kompetent bei Anliegen, Fragen und Problemen – persönlich erreichbar und klar erklärt.</p>
+            <h3>Viessmann Kundendienst Wien</h3>
+            <p>Zuverlässig bei Problemen, Fragen und laufender Betreuung – schnell direkt vor Ort.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚙️</div>
           <div>
-            <h3>Vaillant Thermenreparatur</h3>
-            <p>Schnelle Reparaturen, Ersatzteile nach Rücksprache – Defekte an Gasheizung, Warmwasser & Durchlauferhitzer.</p>
+            <h3>Viessmann Thermenreparatur</h3>
+            <p>Fachgerechte Reparaturen an Gerät, Heizkessel und Bauteilen – sichere Wiederherstellung der Funktion.</p>
           </div>
         </article>
 
@@ -542,7 +525,7 @@
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3>Thermenstörung & Notfälle</h3>
-            <p>Bei Störungen, Ausfällen oder akuten Notfällen: rund um die Uhr verfügbar – schnell vor Ort in Wien.</p>
+            <p>Bei Störung oder Ausfall: Notdienst erreichbar – schnell, zuverlässig und auch außerhalb üblicher Zeiten.</p>
           </div>
         </article>
 
@@ -550,7 +533,7 @@
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
             <h3>Thermentausch & neue Geräte</h3>
-            <p>Beratung zu Thermentausch, Wärmepumpe, Klimaanlagen & moderner Technik – inkl. Planung und Umsetzung.</p>
+            <p>Beratung, Montage, Installation und Inbetriebnahme – moderne Viessmann Geräte & Heizsysteme.</p>
           </div>
         </article>
       </div>
@@ -561,65 +544,48 @@
   <section class="service-section service-section--soft" id="warum-services">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>Warum Wartung unverzichtbar ist</h2>
+        <h2>Warum eine Viessmann Thermenwartung unverzichtbar ist</h2>
         <p>
-          Eine regelmäßige Vaillant Thermenwartung ist entscheidend für den sicheren und effizienten Betrieb Ihrer Therme.
-          Sie reduziert das Risiko von Störungen, Ausfällen und gefährlichen Notfällen, verlängert die Lebensdauer und
-          hilft langfristig Heizkosten zu sparen.
-        </p>
-        <p style="margin-top:10px;">
-          Gleichzeitig profitieren Umwelt und Verbrauch: eine optimal eingestellte Therme arbeitet effizienter und
-          senkt den Energiebedarf. Unsere Experten sorgen dafür, dass alles zuverlässig funktioniert – jederzeit.
+          Eine regelmäßige Viessmann Thermenwartung Wien ist entscheidend für Sicherheit, Effizienz und den langfristigen Werterhalt Ihrer Anlage.
+          Sie reduziert Risiken, verhindert kostspielige Schäden und sorgt für einen zuverlässigen Betrieb Ihrer Heizung.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Mehr Sicherheit</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">↓</div>
-            <div class="service-stat__label">Weniger Verbrauch</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">⏱</div>
-            <div class="service-stat__label">Weniger Ausfälle</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Schäden</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Warum Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Warum Viessmann Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Geräte & Systeme -->
+  <!-- Geräte -->
   <section class="service-section" id="geraete-services">
     <div class="service-container">
       <div class="service-section__head">
         <h2>Für welche Geräte & Systeme?</h2>
-        <p>Wir warten alle Vaillant Geräte – im privaten Haushalt und im laufenden Betrieb.</p>
+        <p>Wir warten alle Viessmann Geräte – von Therme bis Heizkessel und kompletten Systemen.</p>
       </div>
 
       <div class="service-chips">
+        <span class="service-chip">Viessmann Therme</span>
         <span class="service-chip">Gastherme</span>
-        <span class="service-chip">Gasthermen</span>
-        <span class="service-chip">Kombitherme</span>
-        <span class="service-chip">Gasgeräte</span>
-        <span class="service-chip">Durchlauferhitzer</span>
-        <span class="service-chip">Gasheizung</span>
-        <span class="service-chip">Heizungsanlage</span>
-        <span class="service-chip">Wärmepumpe</span>
-        <span class="service-chip">Ausgewählte Klimaanlagen</span>
+        <span class="service-chip">Heizkessel</span>
+        <span class="service-chip">Heizsystem</span>
+        <span class="service-chip">Warmwasser</span>
+        <span class="service-chip">Kombinierte Anlagen</span>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Als Fachbetrieb arbeiten wir mit geprüften Produkten von Vaillant. Unsere Techniker und Fachkräfte sorgen dafür,
-          dass Ihre Systeme sicher, effizient und langfristig zuverlässig laufen.
+          Als erfahrener Fachmann und qualifizierter Installateur arbeiten wir strikt nach Vorgaben des Herstellers Viessmann.
+          Unsere Techniker verfügen über umfassende Erfahrung und sorgen für sicheren Betrieb in Wien, NÖ, Niederösterreich und angrenzenden Regionen.
         </p>
       </div>
     </div>
@@ -629,34 +595,34 @@
   <section class="service-section service-section--soft" id="ablauf-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>So läuft die Thermenwartung ab</h2>
+        <h2>So läuft die Viessmann Thermenwartung ab</h2>
         <ol class="service-steps">
           <li>
-            <strong>Terminvergabe & Vorbereitung</strong>
-            <span>Wir planen die Wartung abgestimmt auf Anliegen und Gerätezustand.</span>
+            <strong>Überprüfung der Anlage</strong>
+            <span>Kontrolle sicherheitsrelevanter Komponenten, Bauteile und allgemeiner Zustand.</span>
           </li>
           <li>
-            <strong>Überprüfung & Sicherheitscheck</strong>
-            <span>Sichtprüfung, Funktionskontrolle und Früherkennung möglicher Störungen.</span>
+            <strong>Reinigung & Funktionskontrolle</strong>
+            <span>Reinigung, Funktionsprüfung und Messung der Abgaswerte.</span>
           </li>
           <li>
-            <strong>Reinigung & Kontrolle</strong>
-            <span>Reinigung/Entkalkung, Kontrolle relevanter Bauteile und benötigter Ersatzteile.</span>
+            <strong>Prüfung der Kernbauteile</strong>
+            <span>Wärmetauscher und Verbrennungseinheit werden geprüft und bewertet.</span>
           </li>
           <li>
             <strong>Optimierung</strong>
-            <span>Einstellungen optimieren für bessere Effizienz, geringeren Gas-Verbrauch und mehr Komfort.</span>
+            <span>Einstellungen optimieren für bessere Effizienz und stabile Heizleistung.</span>
           </li>
           <li>
-            <strong>Dokumentation & Empfehlungen</strong>
-            <span>Klare Empfehlungen, Antworten auf Fragen und Hinweise zur nächsten Wartung.</span>
+            <strong>Empfehlungen</strong>
+            <span>Klare Hinweise, Vorteile und Empfehlungen zur weiteren Nutzung.</span>
           </li>
         </ol>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Ablauf der Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Ablauf der Viessmann Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -666,13 +632,13 @@
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Vaillant Notdienst Wien – 24 Stunden verfügbar</h2>
+        <h2>Viessmann Notdienst Wien – 24 Stunden verfügbar</h2>
         <p>
-          Bei Notfällen, plötzlichen Ausfällen oder defekter Therme sind wir rund um die Uhr erreichbar.
-          Unser Kundendienst reagiert schnell und sorgt für rasche Umsetzung vor Ort.
+          Bei akuten Problemen, sicherheitsrelevanten Notfällen oder plötzlichen Ausfällen steht Ihnen unser Notdienst rund um die Uhr zur Verfügung.
+          Unser Team reagiert schnell und zuverlässig – auch außerhalb regulärer Zeiten.
         </p>
         <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
@@ -681,13 +647,13 @@
         <div class="service-panel">
           <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Therme startet nicht / Störungscode</li>
+            <li>Therme startet nicht / Störung</li>
             <li>Kein Warmwasser</li>
             <li>Heizung bleibt kalt</li>
             <li>Ungewöhnliche Geräusche</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Besonders bei Kälte zählt jede Minute – wir helfen effizient, sicher und lösungsorientiert.
+            Unsere Experten sind rasch vor Ort in Wien, NÖ und Niederösterreich – um Schäden zu vermeiden und die Funktion wiederherzustellen.
           </p>
         </div>
       </div>
@@ -699,29 +665,22 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Kosten, Preise & MwSt</h2>
-        <p>Transparente Kosten und faire Preise – ohne Überraschungen.</p>
+        <p>Transparente Kosten, faire Preise und klare Abrechnung – inkl. MwSt.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <div class="service-pricecard">
-          <h3>Klare Wartungskosten</h3>
-          <p>Sie erhalten ein klares Angebot – passend zu Therme, Zustand und Aufwand.</p>
-        </div>
-        <div class="service-pricecard">
-          <h3>Ersatzteile & Reparaturkosten</h3>
-          <p>Benötigte Teile und Zusatzleistungen werden offen im Vorfeld besprochen.</p>
+          <h3>Klare Abrechnung</h3>
+          <p>Alle Arbeiten werden vorab erklärt und verständlich dokumentiert.</p>
         </div>
         <div class="service-pricecard">
           <h3>Wartungsvertrag (optional)</h3>
-          <p>Planbarkeit, feste Abläufe und weniger Folgekosten durch regelmäßige Termine.</p>
+          <p>Planungssicherheit, weniger Ausfälle und langfristig geringere Kosten.</p>
         </div>
-      </div>
-
-      <div class="service-card" style="margin-top:14px;">
-        <p style="margin:0;">
-          Ziel: maximale Sicherheit, hohe Qualität und ein Service, dem unsere Kunden vertrauen.
-          Die MwSt ist selbstverständlich vollständig ausgewiesen.
-        </p>
+        <div class="service-pricecard">
+          <h3>Schutz vor Reparaturkosten</h3>
+          <p>Regelmäßige Wartung reduziert Ausfälle und schützt die Lebensdauer Ihrer Anlage.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -730,35 +689,25 @@
   <section class="service-section service-section--soft" id="warumwir-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Warum wir der richtige Fachpartner sind</h2>
+        <h2>Ihr Fachmann für Viessmann Thermen in Wien</h2>
         <p>
-          Als erfahrener Fachpartner für Vaillant Thermen in Wien stehen wir für echte Erfahrung, technische Kompetenz
-          und nachhaltige Lösungen. Unsere geschulten Mitarbeiter und spezialisierten Techniker arbeiten nach hohen Standards.
+          Als zuverlässiger Partner für Viessmann Thermenservice, Gasgeräteservice und laufende Betreuung stehen wir für Qualität,
+          technische Expertise und kundennahe Lösungen.
         </p>
         <p style="margin-top:10px;">
-          Wir verbinden professionellen Service mit kundennahem Kundendienst – vom ersten Kontakt bis zur laufenden Wartung.
-          So können Sie sich dauerhaft auf Sicherheit, Effizienz und Zuverlässigkeit verlassen.
+          Wir betreuen unsere Kunden persönlich – vom ersten Kontakt über Wartung bis hin zum Thermentausch – und sorgen für einen dauerhaft sicheren Betrieb Ihrer Heizung.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Hohe Qualität</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Persönlicher Service</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Nachhaltige Lösungen</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Technische Expertise</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Servicebewusst</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Lösungsorientiert</div></div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Vaillant Thermen" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Viessmann Fachpartner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -768,39 +717,34 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen</h2>
-        <p>Die wichtigsten Antworten zur Vaillant Thermenwartung.</p>
+        <h2>Häufige Fragen zur Viessmann Thermenwartung</h2>
+        <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wie oft sollte eine Wartung durchgeführt werden?</summary>
-          <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit, Effizienz und einen störungsfreien Betrieb sicherzustellen.</p>
+          <summary>Wie oft sollte eine Thermenwartung durchgeführt werden?</summary>
+          <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit und Effizienz zu gewährleisten.</p>
         </details>
 
         <details>
-          <summary>Gibt es gesetzliche Vorschriften?</summary>
-          <p>Ein fixes Gesetz zur jährlichen Wartung besteht nicht. Viele Vorgaben verlangen jedoch regelmäßige Kontrollen zur Risikominimierung.</p>
+          <summary>Welche Regionen werden betreut?</summary>
+          <p>Wir sind in Wien, NÖ, Niederösterreich und angrenzenden Regionen tätig.</p>
         </details>
 
         <details>
-          <summary>Wie viel Energie kann man sparen?</summary>
-          <p>Eine gewartete Vaillant Therme verbraucht weniger Energie und arbeitet deutlich effizienter.</p>
+          <summary>Was passiert bei einem Notfall?</summary>
+          <p>Unser Notdienst ist jederzeit erreichbar und hilft schnell vor Ort.</p>
         </details>
 
         <details>
-          <summary>Wann lohnt sich ein Thermentausch?</summary>
-          <p>Bei häufigen Störungen, hohem Verbrauch oder veralteten Geräten ist ein Thermentausch sinnvoll.</p>
+          <summary>Lohnt sich ein Wartungsvertrag?</summary>
+          <p>Ja, ein Wartungsvertrag bietet Kostensicherheit und verlängert die Lebensdauer der Anlage.</p>
         </details>
 
         <details>
-          <summary>Was tun im Fall einer Störung?</summary>
-          <p>Kontaktieren Sie sofort unseren Kundendienst – wir sind rund um die Uhr verfügbar und helfen schnell.</p>
-        </details>
-
-        <details>
-          <summary>Ist ein Wartungsvertrag sinnvoll?</summary>
-          <p>Ja. Ein Wartungsvertrag bietet Planungssicherheit, fixe Kosten und langfristige Entlastung.</p>
+          <summary>Wie kann ich einen Termin vereinbaren?</summary>
+          <p>Kontaktieren Sie uns telefonisch oder über Telefon – wir beraten Sie gerne.</p>
         </details>
       </div>
     </div>
@@ -810,11 +754,9 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Jetzt Vaillant Thermenwartung in Wien sichern</h2>
-        <p>Komfort, Sicherheit und Effizienz – zuverlässig, transparent und kundenorientiert.</p>
-        <p style="margin-top:10px;">
-          Unsere Experten sind rund um die Uhr erreichbar und jederzeit zur Verfügung.
-        </p>
+        <h2>Jetzt Viessmann Thermenwartung in Wien sichern</h2>
+        <p>Sicherheit, Effizienz und nachhaltige Qualität – zuverlässig, transparent und kompetent.</p>
+        <p style="margin-top:10px;">📞 Jetzt Kontakt aufnehmen – Ihr Profi für Viessmann Thermen in Wien.</p>
       </div>
 
       <form class="service-cta__form" action="#" method="post">
@@ -840,9 +782,6 @@
       </form>
     </div>
   </section>
-
- 
-  </footer>
 </main>
 
 <script>

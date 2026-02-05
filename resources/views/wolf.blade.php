@@ -339,15 +339,6 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  .service-footer{
-    border-top:1px solid var(--line);
-    padding:18px 0;
-    background:#fff;
-  }
-  .service-footer__inner{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
-  .service-footer__links{display:flex; gap:12px}
-  .service-footer a:hover{text-decoration:underline}
-
   /* Mobile */
   @media (max-width: 980px){
     .service-grid--3{grid-template-columns: 1fr}
@@ -376,23 +367,23 @@
         <p class="service-kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
 
         <h1>
-          Vaillant Thermenwartung Wien<br>
-          <span class="service-highlight">Rund um die Uhr für Sie da.</span>
+          Wolf Thermenwartung Wien<br>
+          <span class="service-highlight">Rund um die Uhr Service vom Fachbetrieb</span>
         </h1>
 
         <p class="service-hero__lead">
-          Professionelle Wartung, Service, Reparaturen und Notfälle – 24/7 erreichbar.
+          Professionelle Wolf Thermenwartung Wien durch erfahrene Profis – zuverlässig, effizient und rund um die Uhr verfügbar für Thermenwartung, Service, Reparaturen und Notdienst in Wien, Niederösterreich, NÖ und der gesamten Umgebung.
         </p>
 
         <div class="service-hero__bullets" aria-label="Highlights">
           <span class="service-pill">Wartung & Service</span>
           <span class="service-pill">Reparatur & Notdienst</span>
-          <span class="service-pill">Fixpreise inkl. MwSt</span>
-          <span class="service-pill">Zertifizierte Techniker</span>
+          <span class="service-pill">Kosten inkl. MwSt</span>
+          <span class="service-pill">Geprüfter Fachbetrieb</span>
         </div>
 
         <div class="service-hero__actions" style="margin-top:16px;">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt anfragen</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#leistungen-services">Leistungen ansehen</a>
         </div>
       </div>
@@ -416,82 +407,72 @@
     </div>
   </section>
 
-  <!-- Vorteile / USPs (NEW SECTION) -->
+  <!-- Vorteile -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Ihre Vorteile</h2>
-        <p>Klare Leistung. Klare Kosten. Schnelle Hilfe.</p>
+        <h2>Wartung, Reparatur & Notdienst für Ihre Wolf Therme</h2>
+        <p>Schneller Kundendienst, transparente Kosten und flexible Terminvergabe.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Wartung, Reparatur & Notdienst</h3>
-          <p>Alles für Ihre Vaillant Therme – in Wien und Umgebung, auch bei Notfällen.</p>
+          <h3>Schneller Kundendienst</h3>
+          <p>Flexible Terminvergabe und schnelle Hilfe in Wien & Umgebung.</p>
           <ul class="service-checklist">
-            <li>Wartung & Service</li>
-            <li>Reparaturen & Ersatzteile</li>
-            <li>Störungen & Notfälle</li>
+            <li>Flexible Terminvergabe</li>
+            <li>Rasche Reaktion</li>
+            <li>Zuverlässig vor Ort</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>24/7 erreichbar</h3>
-          <p>Rund um die Uhr verfügbar – Tag und Uhrzeitunabhängig.</p>
+          <h3>Volle Transparenz</h3>
+          <p>Faire Preise und klare Abrechnung – inkl. MwSt.</p>
           <ul class="service-checklist">
-            <li>Schnelle Reaktion</li>
-            <li>Hilfe bei Kälte & Ausfall</li>
-            <li>Zuverlässige Umsetzung vor Ort</li>
+            <li>Klare Kostenstruktur</li>
+            <li>Keine versteckten Zusatzkosten</li>
+            <li>Nachvollziehbar & fair</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>Fixpreise inkl. MwSt</h3>
-          <p>Volle Kosten-Transparenz – zusätzliche Arbeiten nur nach Rücksprache.</p>
+          <h3>Erfahrene Techniker</h3>
+          <p>Geschulte Mitarbeiter und geprüfter Fachbetrieb für Wolf Geräte.</p>
           <ul class="service-checklist">
-            <li>Klare Wartungskosten</li>
-            <li>Teile & Zusatzleistungen abgesprochen</li>
-            <li>Fair & nachvollziehbar</li>
+            <li>Erfahrung & Know-how</li>
+            <li>Hersteller-Standards</li>
+            <li>Sicher & effizient</li>
           </ul>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Partner / Markenstärke -->
+  <!-- Partner -->
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Ihr Vaillant Partner in Wien & Umgebung</h2>
+        <h2>Ihr Wolf Partner in Wien & Umgebung</h2>
         <p>
-          Als erfahrener Partner für Vaillant Thermenwartung, Thermenwartung in Wien und Thermenservice
-          stehen wir für Kompetenz, Qualität und persönlichen Service – direkt bei Ihnen zu Hause.
+          Als verlässlicher Partner für Wolf Thermenwartung und professionellen Thermenservice betreuen wir unsere Kunden
+          mit Erfahrung, technischem Know-how und persönlichem Kundenservice.
         </p>
         <p style="margin-top:10px;">
-          Wir arbeiten mit original Vaillant Produkten, modernen Geräten und nach aktuellen Vorschriften des Herstellers.
-          Als geprüfter Fachbetrieb, Installateur und Vaillant Kundendienst betreuen wir Wien und die Umgebung zuverlässig,
-          sicher und effizient.
+          Wir arbeiten nach Vorgaben des Herstellers, verwenden originale Ersatzteile und betreuen moderne Wolf Geräte sowie klassische Gasgeräte.
+          Als erfahrener Installateur sind wir in Wien, Niederösterreich und der gesamten Umgebung im Einsatz – zuverlässig, sicher und lösungsorientiert.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Originalprodukte</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Qualifizierte Techniker</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Wien & Umgebung</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Originale Ersatzteile</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hersteller-Vorgaben</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & NÖ</div></div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Vaillant Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Wolf Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -501,40 +482,40 @@
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen für Ihre Vaillant Therme</h2>
-        <p>Wartung, Service, Reparaturen und moderne Lösungen – alles aus einer Hand.</p>
+        <h2>Leistungen für Ihre Wolf Therme</h2>
+        <p>Wartung, Service, Reparaturen und Thermentausch – zuverlässig aus einer Hand.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Vaillant Thermenwartung</h3>
-            <p>Maximale Sicherheit, bessere Effizienz, niedrigere Heizkosten und störungsfreier Betrieb – das ganze Jahr.</p>
+            <h3>Wolf Thermenwartung</h3>
+            <p>Sicherer Betrieb, optimaler Heizwert und lange Lebensdauer – Probleme und Risiken frühzeitig vermeiden.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔍</div>
           <div>
-            <h3>Vaillant Thermenservice</h3>
-            <p>Überprüfung, Reinigung, Einstellung und Optimierung – inkl. relevanter Geräte, Gasgeräte und Kombithermen.</p>
+            <h3>Wolf Thermenservice</h3>
+            <p>Überprüfung, fachgerechte Reinigung, Abgaswerte-Kontrolle und Beurteilung des technischen Zustands.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
-            <h3>Vaillant Kundendienst Wien</h3>
-            <p>Kompetent bei Anliegen, Fragen und Problemen – persönlich erreichbar und klar erklärt.</p>
+            <h3>Wolf Kundendienst Wien</h3>
+            <p>Ihr Ansprechpartner bei Fragen, Störungen oder laufender Betreuung – schnell und professionell vor Ort.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚙️</div>
           <div>
-            <h3>Vaillant Thermenreparatur</h3>
-            <p>Schnelle Reparaturen, Ersatzteile nach Rücksprache – Defekte an Gasheizung, Warmwasser & Durchlauferhitzer.</p>
+            <h3>Wolf Thermenreparatur</h3>
+            <p>Fachgerechte Reparaturen bei Defekten, Störungen oder Verschleißteilen – nachhaltig und sicher gelöst.</p>
           </div>
         </article>
 
@@ -542,7 +523,7 @@
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3>Thermenstörung & Notfälle</h3>
-            <p>Bei Störungen, Ausfällen oder akuten Notfällen: rund um die Uhr verfügbar – schnell vor Ort in Wien.</p>
+            <p>Bei Ausfall oder sicherheitsrelevanten Problemen: Notdienst sofort erreichbar – 24/7.</p>
           </div>
         </article>
 
@@ -550,7 +531,7 @@
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
             <h3>Thermentausch & neue Geräte</h3>
-            <p>Beratung zu Thermentausch, Wärmepumpe, Klimaanlagen & moderner Technik – inkl. Planung und Umsetzung.</p>
+            <p>Beratung, Planung, Montage und fachgerechte Installation – Modernisierung Ihres Heizsystems.</p>
           </div>
         </article>
       </div>
@@ -561,65 +542,48 @@
   <section class="service-section service-section--soft" id="warum-services">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>Warum Wartung unverzichtbar ist</h2>
+        <h2>Warum eine Wolf Thermenwartung unverzichtbar ist</h2>
         <p>
-          Eine regelmäßige Vaillant Thermenwartung ist entscheidend für den sicheren und effizienten Betrieb Ihrer Therme.
-          Sie reduziert das Risiko von Störungen, Ausfällen und gefährlichen Notfällen, verlängert die Lebensdauer und
-          hilft langfristig Heizkosten zu sparen.
-        </p>
-        <p style="margin-top:10px;">
-          Gleichzeitig profitieren Umwelt und Verbrauch: eine optimal eingestellte Therme arbeitet effizienter und
-          senkt den Energiebedarf. Unsere Experten sorgen dafür, dass alles zuverlässig funktioniert – jederzeit.
+          Eine regelmäßige Wolf Thermenwartung Wien ist entscheidend für Sicherheit, Effizienz und den Werterhalt Ihrer Anlage.
+          Sie reduziert das Risiko von Ausfällen, schützt die Garantie und sorgt für langfristige Langlebigkeit.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Mehr Sicherheit</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">↓</div>
-            <div class="service-stat__label">Weniger Verbrauch</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">⏱</div>
-            <div class="service-stat__label">Weniger Ausfälle</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Ausfälle</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Warum Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Warum Wolf Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Geräte & Systeme -->
+  <!-- Geräte -->
   <section class="service-section" id="geraete-services">
     <div class="service-container">
       <div class="service-section__head">
         <h2>Für welche Geräte & Systeme?</h2>
-        <p>Wir warten alle Vaillant Geräte – im privaten Haushalt und im laufenden Betrieb.</p>
+        <p>Wir warten alle Wolf Geräte – inklusive moderner Gasgeräte & Heizsysteme.</p>
       </div>
 
       <div class="service-chips">
+        <span class="service-chip">Wolf Therme</span>
         <span class="service-chip">Gastherme</span>
-        <span class="service-chip">Gasthermen</span>
-        <span class="service-chip">Kombitherme</span>
         <span class="service-chip">Gasgeräte</span>
-        <span class="service-chip">Durchlauferhitzer</span>
-        <span class="service-chip">Gasheizung</span>
-        <span class="service-chip">Heizungsanlage</span>
-        <span class="service-chip">Wärmepumpe</span>
-        <span class="service-chip">Ausgewählte Klimaanlagen</span>
+        <span class="service-chip">Heizsystem</span>
+        <span class="service-chip">Warmwasser</span>
+        <span class="service-chip">Raumklima</span>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Als Fachbetrieb arbeiten wir mit geprüften Produkten von Vaillant. Unsere Techniker und Fachkräfte sorgen dafür,
-          dass Ihre Systeme sicher, effizient und langfristig zuverlässig laufen.
+          Als geprüfter Fachbetrieb arbeiten wir strikt nach Vorgaben des Herstellers Wolf.
+          Unsere Techniker bringen fundierte Erfahrung und aktuelles Know-how mit – in Wien, NÖ und Niederösterreich.
         </p>
       </div>
     </div>
@@ -629,34 +593,30 @@
   <section class="service-section service-section--soft" id="ablauf-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>So läuft die Thermenwartung ab</h2>
+        <h2>Ablauf der Wolf Thermenwartung</h2>
         <ol class="service-steps">
           <li>
-            <strong>Terminvergabe & Vorbereitung</strong>
-            <span>Wir planen die Wartung abgestimmt auf Anliegen und Gerätezustand.</span>
+            <strong>Überprüfung der Anlage</strong>
+            <span>Technischer Stand, sicherheitsrelevante Bauteile und Abgaswerte werden kontrolliert.</span>
           </li>
           <li>
-            <strong>Überprüfung & Sicherheitscheck</strong>
-            <span>Sichtprüfung, Funktionskontrolle und Früherkennung möglicher Störungen.</span>
-          </li>
-          <li>
-            <strong>Reinigung & Kontrolle</strong>
-            <span>Reinigung/Entkalkung, Kontrolle relevanter Bauteile und benötigter Ersatzteile.</span>
+            <strong>Reinigung & Funktionskontrollen</strong>
+            <span>Fachgerechte Reinigung und Tests für stabilen Betrieb.</span>
           </li>
           <li>
             <strong>Optimierung</strong>
-            <span>Einstellungen optimieren für bessere Effizienz, geringeren Gas-Verbrauch und mehr Komfort.</span>
+            <span>Notwendige Arbeiten zur Optimierung des Heizwerts und zur Effizienzsteigerung.</span>
           </li>
           <li>
-            <strong>Dokumentation & Empfehlungen</strong>
-            <span>Klare Empfehlungen, Antworten auf Fragen und Hinweise zur nächsten Wartung.</span>
+            <strong>Empfehlungen & Optionen</strong>
+            <span>Info zum Zustand, Empfehlungen und optional Wartungsvertrag für Planungssicherheit.</span>
           </li>
         </ol>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Ablauf der Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Ablauf der Wolf Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -666,13 +626,13 @@
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Vaillant Notdienst Wien – 24 Stunden verfügbar</h2>
+        <h2>Wolf Notdienst Wien – 24 Stunden verfügbar</h2>
         <p>
-          Bei Notfällen, plötzlichen Ausfällen oder defekter Therme sind wir rund um die Uhr erreichbar.
-          Unser Kundendienst reagiert schnell und sorgt für rasche Umsetzung vor Ort.
+          Bei akuten Notfällen, plötzlichen Problemen oder einer Störung ist unser Wolf Notdienst jederzeit erreichbar.
+          Schnell, zuverlässig und kompetent – direkt vor Ort in Wien und Niederösterreich.
         </p>
         <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
@@ -681,13 +641,13 @@
         <div class="service-panel">
           <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Therme startet nicht / Störungscode</li>
+            <li>Therme startet nicht / Störung</li>
             <li>Kein Warmwasser</li>
             <li>Heizung bleibt kalt</li>
             <li>Ungewöhnliche Geräusche</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Besonders bei Kälte zählt jede Minute – wir helfen effizient, sicher und lösungsorientiert.
+            Unsere Techniker sind rasch im Einsatz – damit Ihre Heizung schnell wieder funktioniert.
           </p>
         </div>
       </div>
@@ -699,29 +659,22 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Kosten, Preise & MwSt</h2>
-        <p>Transparente Kosten und faire Preise – ohne Überraschungen.</p>
+        <p>Transparente Kosten, faire Preise und klare Abrechnung – inkl. MwSt.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <div class="service-pricecard">
-          <h3>Klare Wartungskosten</h3>
-          <p>Sie erhalten ein klares Angebot – passend zu Therme, Zustand und Aufwand.</p>
+          <h3>Transparente Abrechnung</h3>
+          <p>Alle Leistungen werden verständlich erklärt – ohne versteckte Zusatzkosten.</p>
         </div>
         <div class="service-pricecard">
-          <h3>Ersatzteile & Reparaturkosten</h3>
-          <p>Benötigte Teile und Zusatzleistungen werden offen im Vorfeld besprochen.</p>
+          <h3>Weniger Folgekosten</h3>
+          <p>Regelmäßige Wartung hilft Reparaturen zu vermeiden und die Lebensdauer zu verlängern.</p>
         </div>
         <div class="service-pricecard">
-          <h3>Wartungsvertrag (optional)</h3>
-          <p>Planbarkeit, feste Abläufe und weniger Folgekosten durch regelmäßige Termine.</p>
+          <h3>Optional: Wartungspakete</h3>
+          <p>Für maximale Planungssicherheit – passende Pakete je nach Anlage und Bedarf.</p>
         </div>
-      </div>
-
-      <div class="service-card" style="margin-top:14px;">
-        <p style="margin:0;">
-          Ziel: maximale Sicherheit, hohe Qualität und ein Service, dem unsere Kunden vertrauen.
-          Die MwSt ist selbstverständlich vollständig ausgewiesen.
-        </p>
       </div>
     </div>
   </section>
@@ -732,33 +685,23 @@
       <div class="service-split__text">
         <h2>Warum wir der richtige Fachpartner sind</h2>
         <p>
-          Als erfahrener Fachpartner für Vaillant Thermen in Wien stehen wir für echte Erfahrung, technische Kompetenz
-          und nachhaltige Lösungen. Unsere geschulten Mitarbeiter und spezialisierten Techniker arbeiten nach hohen Standards.
+          Als erfahrener Partner für Wolf Thermenwartung, Wolf Thermenservice und Wolf Werkskundendienst stehen wir für Qualität,
+          Zuverlässigkeit und saubere Arbeit – persönlich und lösungsorientiert.
         </p>
         <p style="margin-top:10px;">
-          Wir verbinden professionellen Service mit kundennahem Kundendienst – vom ersten Kontakt bis zur laufenden Wartung.
-          So können Sie sich dauerhaft auf Sicherheit, Effizienz und Zuverlässigkeit verlassen.
+          Wir verbinden technisches Know-how mit echter Servicequalität und sorgen dafür, dass Ihre Anlage dauerhaft sicher und effizient läuft.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Hohe Qualität</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Persönlicher Service</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Nachhaltige Lösungen</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Zuverlässig</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kompetent</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparent</div></div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Vaillant Thermen" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Wolf Thermen" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -768,39 +711,34 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen</h2>
-        <p>Die wichtigsten Antworten zur Vaillant Thermenwartung.</p>
+        <h2>Häufige Fragen zur Wolf Thermenwartung</h2>
+        <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
           <summary>Wie oft sollte eine Wartung durchgeführt werden?</summary>
-          <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit, Effizienz und einen störungsfreien Betrieb sicherzustellen.</p>
+          <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit und Effizienz sicherzustellen.</p>
         </details>
 
         <details>
-          <summary>Gibt es gesetzliche Vorschriften?</summary>
-          <p>Ein fixes Gesetz zur jährlichen Wartung besteht nicht. Viele Vorgaben verlangen jedoch regelmäßige Kontrollen zur Risikominimierung.</p>
+          <summary>Welche Regionen werden betreut?</summary>
+          <p>Wir sind in Wien, NÖ, Niederösterreich und der gesamten Umgebung tätig.</p>
         </details>
 
         <details>
-          <summary>Wie viel Energie kann man sparen?</summary>
-          <p>Eine gewartete Vaillant Therme verbraucht weniger Energie und arbeitet deutlich effizienter.</p>
+          <summary>Was passiert im Notfall?</summary>
+          <p>Unser Notdienst ist jederzeit erreichbar und hilft schnell vor Ort.</p>
         </details>
 
         <details>
-          <summary>Wann lohnt sich ein Thermentausch?</summary>
-          <p>Bei häufigen Störungen, hohem Verbrauch oder veralteten Geräten ist ein Thermentausch sinnvoll.</p>
+          <summary>Ist ein Thermentausch sinnvoll?</summary>
+          <p>Bei veralteten Geräten oder häufigen Störungen ist ein Thermentausch empfehlenswert.</p>
         </details>
 
         <details>
-          <summary>Was tun im Fall einer Störung?</summary>
-          <p>Kontaktieren Sie sofort unseren Kundendienst – wir sind rund um die Uhr verfügbar und helfen schnell.</p>
-        </details>
-
-        <details>
-          <summary>Ist ein Wartungsvertrag sinnvoll?</summary>
-          <p>Ja. Ein Wartungsvertrag bietet Planungssicherheit, fixe Kosten und langfristige Entlastung.</p>
+          <summary>Wie kann ich Termine vereinbaren?</summary>
+          <p>Über unsere Seite oder telefonisch – wir richten uns nach Ihren Terminen.</p>
         </details>
       </div>
     </div>
@@ -810,11 +748,9 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Jetzt Vaillant Thermenwartung in Wien sichern</h2>
-        <p>Komfort, Sicherheit und Effizienz – zuverlässig, transparent und kundenorientiert.</p>
-        <p style="margin-top:10px;">
-          Unsere Experten sind rund um die Uhr erreichbar und jederzeit zur Verfügung.
-        </p>
+        <h2>Jetzt Wolf Thermenwartung in Wien sichern</h2>
+        <p>Sicherheit, Effizienz und langlebige Qualität – zuverlässig, transparent und kompetent.</p>
+        <p style="margin-top:10px;">📞 Jetzt Kontakt aufnehmen – Ihr Wolf-Service vom Fachbetrieb.</p>
       </div>
 
       <form class="service-cta__form" action="#" method="post">
@@ -840,9 +776,6 @@
       </form>
     </div>
   </section>
-
- 
-  </footer>
 </main>
 
 <script>
