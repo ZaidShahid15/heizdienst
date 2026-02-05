@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit: contain;
+     ;
     object-position:center;
   }
 
@@ -472,7 +472,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Saunier Duval Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Saunier Duval Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -557,7 +557,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Warum Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Warum Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -616,7 +616,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Ablauf der Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Ablauf der Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -705,7 +705,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Saunier Duval Thermen" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-1.jpg') }}" alt="Fachpartner für Saunier Duval Thermen" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

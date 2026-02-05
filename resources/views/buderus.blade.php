@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit: contain;
+     ;
     object-position:center;
   }
 
@@ -481,7 +481,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Buderus Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{asset('img/vaillant-5.jpg')}}" alt="Buderus Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -575,7 +575,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Warum Buderus Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Warum Buderus Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -639,7 +639,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Ablauf der Buderus Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf der Buderus Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -741,7 +741,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Buderus Thermen" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Fachpartner für Buderus Thermen" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

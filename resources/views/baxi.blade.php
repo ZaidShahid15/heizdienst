@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit: contain;
+     ;
     object-position:center;
   }
 
@@ -484,7 +484,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Baxi Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Baxi Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -578,7 +578,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Warum Baxi Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Warum Baxi Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -643,7 +643,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Ablauf der Baxi Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf der Baxi Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -745,7 +745,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Baxi Thermen" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Fachpartner für Baxi Thermen" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit: contain;
+     ;
     object-position:center;
   }
 
@@ -482,7 +482,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Junkers Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-2.jpg') }}" alt="Junkers Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -576,7 +576,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Warum Junkers Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Warum Junkers Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -640,7 +640,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Ablauf der Junkers Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf der Junkers Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -740,7 +740,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Meisterbetrieb Junkers Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Meisterbetrieb Junkers Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

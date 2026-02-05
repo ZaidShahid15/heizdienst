@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit: contain;
+     ;
     object-position:center;
   }
 
@@ -465,7 +465,7 @@
 
     <div class="service-split__media service-media">
       <div class="service-media__box">
-        <img class="service-media__img" src="img/final.png" alt="Löblich Thermenservice Wien">
+        <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Löblich Thermenservice Wien">
       </div>
     </div>
   </div>
@@ -547,7 +547,7 @@
 
     <div class="service-split__media service-media">
       <div class="service-media__box">
-        <img class="service-media__img" src="img/final.png" alt="Ablauf Löblich Thermenwartung">
+        <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf Löblich Thermenwartung">
       </div>
     </div>
   </div>
