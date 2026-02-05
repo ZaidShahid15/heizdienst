@@ -33,6 +33,9 @@
  {
     margin-top: 10px
  }
+ .service-tab {
+        border: 1px solid #848484 !important;
+ }
     </style>
     <!-- SVG icons -->
     <div aria-hidden="true"><?php /* keep HTML valid in WP; harmless elsewhere */ ?></div>
