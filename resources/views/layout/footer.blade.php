@@ -34,7 +34,11 @@
                         </ul>
                     </div>
 
-                    <div>
+                    <div style="
+    height: 100%;
+    align-items: center;
+    display: flex;
+">
                        <img src="{{ asset('img/mobile-logo.jpeg') }}" width="250" alt="">
                     </div>
 
