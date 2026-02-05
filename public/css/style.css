@@ -1988,7 +1988,7 @@
             align-items: center;
             gap: 8px;
             font-weight: 700;
-            color: white;
+            color: black;
             font-size: 14px;
         }
 
@@ -2248,6 +2248,9 @@
 
             .m-hero {
                 display: block;
+            }
+            .hero-bullets li{
+                color: white;
             }
         }
 
