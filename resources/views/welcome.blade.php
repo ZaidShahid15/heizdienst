@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('main')
-<style>
-     .m-hero::before {
+    <style>
+        .m-hero::before {
             content: "";
             position: absolute;
             inset: 0;
@@ -12,78 +12,151 @@
             z-index: 0;
             transform: scale(1.02);
         }
-</style>
- <section class="m-hero" id="m-hero">
-        <div class="wrap">
-            <div class="grid">
-                <div>
-                    <h1>Heizung kaputt?<br><span class="hi">Wir kümmern uns sofort.</span></h1>
-                    <p>Zuverlässiger Heizungs- &amp; Thermenservice in Wien und Niederösterreich — schnell, sauber und
-                        transparent.</p>
+    </style>
+   {{-- REPLACE your <section class="m-hero" ...> with this version.
+   It keeps your m-hero wrapper, but uses the SAME content structure as your .hero section
+   (image + desktop badges inside image + hero-copy with bullets).
+--}}
+<section class="m-hero" id="m-hero">
+    <div class="wrap">
+        <div class="grid">
 
-                    <div class="m-badge">
-                        <div class="dot">
-                            <i class="bi bi-tools"></i>
+            {{-- IMAGE SIDE --}}
+            <div class="hero-img m-tech">
+                <img src="{{ asset('img/hero-scetion.jpeg') }}" alt="Thermenreparatur">
+
+                <!-- BADGES (DESKTOP OVERLAY inside image) -->
+                <div class="hero-badges" aria-label="Bewertungen">
+                    <!-- Trustpilot -->
+                    <div class="hero-badge tp" aria-label="Trustpilot Bewertung 4.5 von 5">
+                        <i class="bi bi-shield-check badge-icon"></i>
+                        <div class="badge-text">
+                            <div class="badge-title">Hervorragend</div>
+                            <div class="badge-row">
+                                <div class="badge-stars" aria-hidden="true">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <div class="badge-score">4.5</div>
+                            </div>
                         </div>
-                        <div>Unsere erfahrenen Techniker sind täglich im Einsatz, auch am Wochenende.</div>
+                    </div>
+
+                    <!-- Google -->
+                    <div class="hero-badge gg" aria-label="Google Bewertung 4.6 von 5">
+                        <i class="bi bi-google badge-icon"></i>
+                        <div class="badge-text">
+                            <div class="badge-title">Ausgezeichnet</div>
+                            <div class="badge-row">
+                                <div class="badge-stars" aria-hidden="true">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <div class="badge-score">4.6</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="m-tech">
-                    <img src="{{ asset('img/hero-scetion.jpeg') }}" alt="Techniker an der Therme">
+            {{-- COPY SIDE --}}
+            <div class="hero-copy">
+                <h1>Thermenwartung &amp; Thermenservice in Wien &amp; Niederösterreich</h1>
+                <p>
+                    Professionelle Thermenwartung Wien, Thermenservice und Reparatur für jede Therme –
+                    zuverlässig in Wien, Niederösterreich und der Umgebung, durch erfahrene Installateure,
+                    schnell und transparent.
+                </p>
+
+                <ul class="hero-bullets">
+                    <li>
+                        <svg><use href="#i-check"></use></svg>
+                        Thermenwartung Wien &amp; Umgebung
+                    </li>
+                    <li>
+                        <svg><use href="#i-check"></use></svg>
+                        Alle Marken &amp; Hersteller
+                    </li>
+                    <li>
+                        <svg><use href="#i-check"></use></svg>
+                        Transparente Preise inkl. MwSt
+                    </li>
+                    <li>
+                        <svg><use href="#i-check"></use></svg>
+                        Schnelle Hilfe, Service &amp; Notdienst
+                    </li>
+                </ul>
+
+                {{-- OPTIONAL: keep your old "m-badge" message, now under bullets (remove if not needed) --}}
+                <div class="m-badge" style="margin-top:14px;">
+                    <div class="dot">
+                        <i class="bi bi-tools"></i>
+                    </div>
+                    <div>Unsere erfahrenen Techniker sind täglich im Einsatz, auch am Wochenende.</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {{-- CTA (kept from your m-hero) --}}
+    <a class="m-cta" href="tel:+4319284374">
+        <svg><use href="#i-phone"></use></svg>
+        Jetzt anrufen – wir helfen sofort
+    </a>
+
+    {{-- OPTIONAL: If you still want the MOBILE overlay badges too, keep this block.
+       If you DON'T want duplicate badges (because they are already inside the image),
+       then DELETE the whole block below.
+    --}}
+    <div class="m-hero-badges" aria-label="Bewertungen">
+        <!-- Trustpilot -->
+        <div class="hero-badge tp" aria-label="Trustpilot Bewertung 4.5 von 5">
+            <i class="bi bi-shield-check badge-icon"></i>
+            <div class="badge-text">
+                <div class="badge-title">Hervorragend</div>
+                <div class="badge-row">
+                    <div class="badge-stars" aria-hidden="true">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="badge-score">4.5</div>
                 </div>
             </div>
         </div>
 
-        <a class="m-cta" href="tel:+4319284374">
-            <svg>
-                <use href="#i-phone"></use>
-            </svg>
-            Jetzt anrufen – wir helfen sofort
-        </a>
-
-        <!-- BADGES (MOBILE OVERLAY) -->
-        <div class="m-hero-badges" aria-label="Bewertungen">
-            <!-- Trustpilot -->
-            <div class="hero-badge tp" aria-label="Trustpilot Bewertung 4.5 von 5">
-                <i class="bi bi-shield-check badge-icon"></i>
-                <div class="badge-text">
-                    <div class="badge-title">Hervorragend</div>
-                    <div class="badge-row">
-                        <div class="badge-stars" aria-hidden="true">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half"></i>
-                        </div>
-                        <div class="badge-score">4.5</div>
+        <!-- Google -->
+        <div class="hero-badge gg" aria-label="Google Bewertung 4.6 von 5">
+            <i class="bi bi-google badge-icon"></i>
+            <div class="badge-text">
+                <div class="badge-title">Ausgezeichnet</div>
+                <div class="badge-row">
+                    <div class="badge-stars" aria-hidden="true">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
                     </div>
-                </div>
-            </div>
-
-            <!-- Google -->
-            <div class="hero-badge gg" aria-label="Google Bewertung 4.6 von 5">
-                <i class="bi bi-google badge-icon"></i>
-                <div class="badge-text">
-                    <div class="badge-title">Ausgezeichnet</div>
-                    <div class="badge-row">
-                        <div class="badge-stars" aria-hidden="true">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half"></i>
-                        </div>
-                        <div class="badge-score">4.6</div>
-                    </div>
+                    <div class="badge-score">4.6</div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- MOBILE SERVICES + BENEFIT -->
-  
+
     <main id="top">
         <!-- DESKTOP HERO -->
         <!-- DESKTOP HERO -->
@@ -1328,8 +1401,8 @@
             }
 
             /* .accordion-button:not(.collapsed){
-            background-color: none !important;
-        } */
+                background-color: none !important;
+            } */
 
             .accordion-button:not(.collapsed) {
                 color: var(--bs-accordion-active-color) !important;

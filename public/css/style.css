@@ -1988,7 +1988,7 @@
             align-items: center;
             gap: 8px;
             font-weight: 700;
-            color: #25323b;
+            color: white;
             font-size: 14px;
         }
 
@@ -2122,7 +2122,7 @@
 
         .m-hero .grid {
             display: grid;
-            grid-template-columns: 1.05fr .95fr;
+            grid-template-columns: 3.05fr .95fr;
             gap: 14px;
             align-items: center;
         }
