@@ -44,6 +44,6 @@ Route::get('/ocean',function(){
     return view('ocean');
 });
 
-Route::get('/höblich',function(){
-    return view('höblich');
-});
+// Route::get('/höblich',function(){
+//     return view('höblich');
+// });

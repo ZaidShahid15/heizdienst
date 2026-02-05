@@ -373,22 +373,23 @@
   <section class="service-hero" id="hero-services">
     <div class="service-container service-hero__grid">
       <div class="service-hero__content">
-        <p class="service-kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
+        <p class="service-kicker">Geprüfter Fachbetrieb • Wien & Umgebung</p>
 
         <h1>
-          Vaillant Thermenwartung Wien<br>
-          <span class="service-highlight">Rund um die Uhr für Sie da.</span>
+          Rapido Thermenwartung Wien<br>
+          <span class="service-highlight">Rund um die Uhr Service vom Fachbetrieb</span>
         </h1>
 
         <p class="service-hero__lead">
-          Professionelle Wartung, Service, Reparaturen und Notfälle – 24/7 erreichbar.
+          Zuverlässige Rapido Thermenwartung Wien durch erfahrene Profis – effizient, sicher und rund um die Uhr verfügbar
+          für Thermenwartung, Service, Reparatur und Notdienst in Wien, NÖ, Niederösterreich, Burgenland und der gesamten Umgebung.
         </p>
 
         <div class="service-hero__bullets" aria-label="Highlights">
-          <span class="service-pill">Wartung & Service</span>
-          <span class="service-pill">Reparatur & Notdienst</span>
-          <span class="service-pill">Fixpreise inkl. MwSt</span>
-          <span class="service-pill">Zertifizierte Techniker</span>
+          <span class="service-pill">Wartung, Reparatur & Notdienst</span>
+          <span class="service-pill">Direkter Rapido Kundendienst</span>
+          <span class="service-pill">Transparente Preise</span>
+          <span class="service-pill">Geprüfter Fachbetrieb</span>
         </div>
 
         <div class="service-hero__actions" style="margin-top:16px;">
@@ -416,7 +417,7 @@
     </div>
   </section>
 
-  <!-- Vorteile / USPs (NEW SECTION) -->
+  <!-- Vorteile / USPs -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -427,31 +428,31 @@
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
           <h3>Wartung, Reparatur & Notdienst</h3>
-          <p>Alles für Ihre Vaillant Therme – in Wien und Umgebung, auch bei Notfällen.</p>
+          <p>Alles rund um Ihre Rapido Therme – zuverlässig in Wien und Umgebung.</p>
           <ul class="service-checklist">
-            <li>Wartung & Service</li>
+            <li>Thermenwartung & Service</li>
             <li>Reparaturen & Ersatzteile</li>
-            <li>Störungen & Notfälle</li>
+            <li>Störungen & akute Notfälle</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>24/7 erreichbar</h3>
-          <p>Rund um die Uhr verfügbar – Tag und Uhrzeitunabhängig.</p>
+          <h3>Direkter Rapido Kundendienst</h3>
+          <p>Schnelle Terminvergabe und strukturierter Kundenservice – telefonisch oder vor Ort.</p>
           <ul class="service-checklist">
             <li>Schnelle Reaktion</li>
-            <li>Hilfe bei Kälte & Ausfall</li>
-            <li>Zuverlässige Umsetzung vor Ort</li>
+            <li>Klare Kommunikation</li>
+            <li>Lösungsorientiert umgesetzt</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>Fixpreise inkl. MwSt</h3>
-          <p>Volle Kosten-Transparenz – zusätzliche Arbeiten nur nach Rücksprache.</p>
+          <h3>Transparente Preise</h3>
+          <p>Faire Leistungen, verständlich erklärt – ohne versteckte Zusatzkosten.</p>
           <ul class="service-checklist">
-            <li>Klare Wartungskosten</li>
-            <li>Teile & Zusatzleistungen abgesprochen</li>
-            <li>Fair & nachvollziehbar</li>
+            <li>Klare Leistungen</li>
+            <li>Zusatzarbeiten nur nach Rücksprache</li>
+            <li>Nachvollziehbare Abrechnung</li>
           </ul>
         </article>
       </div>
@@ -462,36 +463,37 @@
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Ihr Vaillant Partner in Wien & Umgebung</h2>
+        <h2>Ihr Rapido Partner in Wien & Umgebung</h2>
         <p>
-          Als erfahrener Partner für Vaillant Thermenwartung, Thermenwartung in Wien und Thermenservice
-          stehen wir für Kompetenz, Qualität und persönlichen Service – direkt bei Ihnen zu Hause.
+          Als verlässlicher Partner für Rapido Thermenwartung, Thermenwartung Wien und professionellen Thermenservice
+          betreuen wir unsere Kunden mit Erfahrung, technischem Know-how und persönlichem Kundenservice.
+          Unser Anspruch ist es, jede Rapido Therme langfristig sicher und effizient zu betreiben.
         </p>
         <p style="margin-top:10px;">
-          Wir arbeiten mit original Vaillant Produkten, modernen Geräten und nach aktuellen Vorschriften des Herstellers.
-          Als geprüfter Fachbetrieb, Installateur und Vaillant Kundendienst betreuen wir Wien und die Umgebung zuverlässig,
-          sicher und effizient.
+          Wir arbeiten nach Vorgaben des Herstellers, betreuen moderne Rapido Gasgeräte, klassische Gasthermen und komplette
+          Heizlösungen. Als erfahrener Installateur sind wir in Wien, NÖ und der gesamten Region im Einsatz –
+          zuverlässig, sauber und lösungsorientiert.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
             <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Originalprodukte</div>
+            <div class="service-stat__label">Technisches Know-how</div>
           </div>
           <div class="service-stat">
             <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Qualifizierte Techniker</div>
+            <div class="service-stat__label">Qualifiziertes Team</div>
           </div>
           <div class="service-stat">
             <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Wien & Umgebung</div>
+            <div class="service-stat__label">Wien, NÖ & Umgebung</div>
           </div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Vaillant Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Rapido Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -501,48 +503,48 @@
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen für Ihre Vaillant Therme</h2>
-        <p>Wartung, Service, Reparaturen und moderne Lösungen – alles aus einer Hand.</p>
+        <h2>Leistungen für Ihre Rapido Therme</h2>
+        <p>Alles rund um Therme, Service, Reparatur und moderne Heizung – für Sicherheit, Komfort und Effizienz.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Vaillant Thermenwartung</h3>
-            <p>Maximale Sicherheit, bessere Effizienz, niedrigere Heizkosten und störungsfreier Betrieb – das ganze Jahr.</p>
+            <h3>Rapido Thermenwartung</h3>
+            <p>Regelmäßige Wartung sorgt für sicheren Betrieb, weniger Schäden und langfristig niedrigere Energiekosten – das ganze Jahr.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔍</div>
           <div>
-            <h3>Vaillant Thermenservice</h3>
-            <p>Überprüfung, Reinigung, Einstellung und Optimierung – inkl. relevanter Geräte, Gasgeräte und Kombithermen.</p>
+            <h3>Rapido Thermenservice</h3>
+            <p>Überprüfung, Reinigung, Abgasmessung und Optimierung – inkl. Durchlauferhitzer und angeschlossener Systeme.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
-            <h3>Vaillant Kundendienst Wien</h3>
-            <p>Kompetent bei Anliegen, Fragen und Problemen – persönlich erreichbar und klar erklärt.</p>
+            <h3>Rapido Kundendienst Wien</h3>
+            <p>Verlässlich bei Fragen, Anliegen und technischen Problemen – telefonisch oder direkt vor Ort.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚙️</div>
           <div>
-            <h3>Vaillant Thermenreparatur</h3>
-            <p>Schnelle Reparaturen, Ersatzteile nach Rücksprache – Defekte an Gasheizung, Warmwasser & Durchlauferhitzer.</p>
+            <h3>Rapido Thermenreparatur</h3>
+            <p>Fachgerechte Reparatur bei Fehlern, Schäden oder defekten Teilen – schnell, sicher und sauber umgesetzt.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Thermenstörung & Notfälle</h3>
-            <p>Bei Störungen, Ausfällen oder akuten Notfällen: rund um die Uhr verfügbar – schnell vor Ort in Wien.</p>
+            <h3>Rapido Thermenstörung & Notfälle</h3>
+            <p>Bei Störungen, Ausfällen oder Notfällen ist unser Notdienst rund um die Uhr erreichbar – schnelle Hilfe in der Region.</p>
           </div>
         </article>
 
@@ -550,7 +552,7 @@
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
             <h3>Thermentausch & neue Geräte</h3>
-            <p>Beratung zu Thermentausch, Wärmepumpe, Klimaanlagen & moderner Technik – inkl. Planung und Umsetzung.</p>
+            <p>Beratung & Umsetzung beim Rapido Thermentausch oder Gasgerätetausch – von Planung bis Montage aus einer Hand.</p>
           </div>
         </article>
       </div>
@@ -561,15 +563,11 @@
   <section class="service-section service-section--soft" id="warum-services">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>Warum Wartung unverzichtbar ist</h2>
+        <h2>Warum eine Rapido Thermenwartung unverzichtbar ist</h2>
         <p>
-          Eine regelmäßige Vaillant Thermenwartung ist entscheidend für den sicheren und effizienten Betrieb Ihrer Therme.
-          Sie reduziert das Risiko von Störungen, Ausfällen und gefährlichen Notfällen, verlängert die Lebensdauer und
-          hilft langfristig Heizkosten zu sparen.
-        </p>
-        <p style="margin-top:10px;">
-          Gleichzeitig profitieren Umwelt und Verbrauch: eine optimal eingestellte Therme arbeitet effizienter und
-          senkt den Energiebedarf. Unsere Experten sorgen dafür, dass alles zuverlässig funktioniert – jederzeit.
+          Eine regelmäßige Thermenwartung in Wien schützt vor unerwarteten Ausfällen, erhöht die Sicherheit,
+          verbessert die Effizienz und sorgt für ein warmes Zuhause. Sie ist entscheidend für den Werterhalt
+          Ihrer Anlage und einen zuverlässigen Betrieb.
         </p>
 
         <div class="service-stats">
@@ -579,7 +577,7 @@
           </div>
           <div class="service-stat">
             <div class="service-stat__num">↓</div>
-            <div class="service-stat__label">Weniger Verbrauch</div>
+            <div class="service-stat__label">Weniger Energieverbrauch</div>
           </div>
           <div class="service-stat">
             <div class="service-stat__num">⏱</div>
@@ -601,25 +599,24 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Für welche Geräte & Systeme?</h2>
-        <p>Wir warten alle Vaillant Geräte – im privaten Haushalt und im laufenden Betrieb.</p>
+        <p>Wir warten alle Rapido Geräte – auch Durchlauferhitzer, Gasgeräte und komplette Heizsysteme.</p>
       </div>
 
       <div class="service-chips">
-        <span class="service-chip">Gastherme</span>
-        <span class="service-chip">Gasthermen</span>
-        <span class="service-chip">Kombitherme</span>
+        <span class="service-chip">Rapido Therme</span>
+        <span class="service-chip">Rapido Gastherme</span>
         <span class="service-chip">Gasgeräte</span>
+        <span class="service-chip">Gasthermen</span>
         <span class="service-chip">Durchlauferhitzer</span>
-        <span class="service-chip">Gasheizung</span>
-        <span class="service-chip">Heizungsanlage</span>
-        <span class="service-chip">Wärmepumpe</span>
-        <span class="service-chip">Ausgewählte Klimaanlagen</span>
+        <span class="service-chip">Heizsysteme</span>
+        <span class="service-chip">Warmwasserlösungen</span>
+        <span class="service-chip">Ausgewählte Marken (z. B. Saunier Duval)</span>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Als Fachbetrieb arbeiten wir mit geprüften Produkten von Vaillant. Unsere Techniker und Fachkräfte sorgen dafür,
-          dass Ihre Systeme sicher, effizient und langfristig zuverlässig laufen.
+          Unsere Rapido Thermenwartung umfasst sämtliche Rapido Systeme – von der klassischen Therme bis zur modernen Gastherme.
+          Unsere Techniker verfügen über fundiertes Know-how und sind in Wien, NÖ, Niederösterreich und im Burgenland im Einsatz.
         </p>
       </div>
     </div>
@@ -632,24 +629,24 @@
         <h2>So läuft die Thermenwartung ab</h2>
         <ol class="service-steps">
           <li>
-            <strong>Terminvergabe & Vorbereitung</strong>
-            <span>Wir planen die Wartung abgestimmt auf Anliegen und Gerätezustand.</span>
+            <strong>Terminvergabe</strong>
+            <span>Wir koordinieren die Thermenwartung transparent und passend zu Ihrem Wunsch.</span>
           </li>
           <li>
             <strong>Überprüfung & Sicherheitscheck</strong>
-            <span>Sichtprüfung, Funktionskontrolle und Früherkennung möglicher Störungen.</span>
+            <span>Gründliche Kontrolle Ihrer Therme und aller sicherheitsrelevanten Bauteile.</span>
           </li>
           <li>
-            <strong>Reinigung & Kontrolle</strong>
-            <span>Reinigung/Entkalkung, Kontrolle relevanter Bauteile und benötigter Ersatzteile.</span>
+            <strong>Reinigung, Messung & Funktionskontrollen</strong>
+            <span>Reinigung, Abgasmessung und Funktionsprüfung für sicheren Betrieb.</span>
           </li>
           <li>
             <strong>Optimierung</strong>
-            <span>Einstellungen optimieren für bessere Effizienz, geringeren Gas-Verbrauch und mehr Komfort.</span>
+            <span>Gezielte Einstellungen für mehr Effizienz und geringere Energseen-Kosten.</span>
           </li>
           <li>
-            <strong>Dokumentation & Empfehlungen</strong>
-            <span>Klare Empfehlungen, Antworten auf Fragen und Hinweise zur nächsten Wartung.</span>
+            <strong>Info & Empfehlungen</strong>
+            <span>Wir erklären den Zustand klar und empfehlen sinnvolle nächste Schritte.</span>
           </li>
         </ol>
       </div>
@@ -666,11 +663,15 @@
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Vaillant Notdienst Wien – 24 Stunden verfügbar</h2>
+        <h2>Rapido Notdienst Wien – 24 Stunden verfügbar</h2>
         <p>
-          Bei Notfällen, plötzlichen Ausfällen oder defekter Therme sind wir rund um die Uhr erreichbar.
-          Unser Kundendienst reagiert schnell und sorgt für rasche Umsetzung vor Ort.
+          Bei akuten Problemen, Notfall-Situationen oder Ausfällen ist unser Notdienst jederzeit erreichbar –
+          rund um die Uhr, unabhängig von Uhrzeit oder Wochentag.
         </p>
+        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
+          Unser Techniker Team ist rasch vor Ort, erkennt Fehler schnell und sorgt für sichere Lösungen – damit kein weiterer Schaden entsteht.
+        </p>
+
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
@@ -685,10 +686,8 @@
             <li>Kein Warmwasser</li>
             <li>Heizung bleibt kalt</li>
             <li>Ungewöhnliche Geräusche</li>
+            <li>Gasgeruch / akuter Verdacht</li>
           </ul>
-          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Besonders bei Kälte zählt jede Minute – wir helfen effizient, sicher und lösungsorientiert.
-          </p>
         </div>
       </div>
     </div>
@@ -699,28 +698,27 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Kosten, Preise & MwSt</h2>
-        <p>Transparente Kosten und faire Preise – ohne Überraschungen.</p>
+        <p>Transparente Preise, klare Leistungen und faire Abrechnung.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <div class="service-pricecard">
-          <h3>Klare Wartungskosten</h3>
-          <p>Sie erhalten ein klares Angebot – passend zu Therme, Zustand und Aufwand.</p>
+          <h3>Kosten der Rapido Thermenwartung</h3>
+          <p>Alle Arbeiten werden verständlich erklärt – ohne versteckte Zusatzkosten.</p>
         </div>
         <div class="service-pricecard">
-          <h3>Ersatzteile & Reparaturkosten</h3>
-          <p>Benötigte Teile und Zusatzleistungen werden offen im Vorfeld besprochen.</p>
+          <h3>Klare Leistungen</h3>
+          <p>Wartung, Service und Reparatur werden transparent besprochen und sauber umgesetzt.</p>
         </div>
         <div class="service-pricecard">
           <h3>Wartungsvertrag (optional)</h3>
-          <p>Planbarkeit, feste Abläufe und weniger Folgekosten durch regelmäßige Termine.</p>
+          <p>Fixe Kosten, planbare Termine und langfristige Sicherheit durch regelmäßige Wartung.</p>
         </div>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Ziel: maximale Sicherheit, hohe Qualität und ein Service, dem unsere Kunden vertrauen.
-          Die MwSt ist selbstverständlich vollständig ausgewiesen.
+          Regelmäßige Wartung senkt Energiekosten und verlängert die Lebensdauer Ihrer Anlage. MwSt ist selbstverständlich ausgewiesen.
         </p>
       </div>
     </div>
@@ -730,35 +728,34 @@
   <section class="service-section service-section--soft" id="warumwir-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Warum wir der richtige Fachpartner sind</h2>
+        <h2>Ihr Fachmann für Rapido Thermen in Wien</h2>
         <p>
-          Als erfahrener Fachpartner für Vaillant Thermen in Wien stehen wir für echte Erfahrung, technische Kompetenz
-          und nachhaltige Lösungen. Unsere geschulten Mitarbeiter und spezialisierten Techniker arbeiten nach hohen Standards.
+          Als zuverlässiger Partner für Rapido Thermenservice, Rapido Kundendienst und technische Betreuung stehen wir für Qualität,
+          Professionalität und kundennahe Lösungen. Unser Team arbeitet serviceorientiert und mit hoher Sorgfalt.
         </p>
         <p style="margin-top:10px;">
-          Wir verbinden professionellen Service mit kundennahem Kundendienst – vom ersten Kontakt bis zur laufenden Wartung.
-          So können Sie sich dauerhaft auf Sicherheit, Effizienz und Zuverlässigkeit verlassen.
+          Wir begleiten unsere Kunden von der ersten Beratung über Wartung bis zum Thermentausch – zuverlässig, transparent und kompetent.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
             <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Hohe Qualität</div>
+            <div class="service-stat__label">Qualität</div>
           </div>
           <div class="service-stat">
             <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Persönlicher Service</div>
+            <div class="service-stat__label">Professionalität</div>
           </div>
           <div class="service-stat">
             <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Nachhaltige Lösungen</div>
+            <div class="service-stat__label">Kundennah</div>
           </div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Vaillant Thermen" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Fachpartner für Rapido Thermen" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -769,38 +766,33 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Häufige Fragen</h2>
-        <p>Die wichtigsten Antworten zur Vaillant Thermenwartung.</p>
+        <p>Die wichtigsten Antworten zur Rapido Thermenwartung.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wie oft sollte eine Wartung durchgeführt werden?</summary>
-          <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit, Effizienz und einen störungsfreien Betrieb sicherzustellen.</p>
+          <summary>Wie oft sollte eine Thermenwartung durchgeführt werden?</summary>
+          <p>Eine regelmäßige Thermenwartung wird empfohlen, um Sicherheit und Effizienz dauerhaft zu gewährleisten.</p>
         </details>
 
         <details>
-          <summary>Gibt es gesetzliche Vorschriften?</summary>
-          <p>Ein fixes Gesetz zur jährlichen Wartung besteht nicht. Viele Vorgaben verlangen jedoch regelmäßige Kontrollen zur Risikominimierung.</p>
+          <summary>Welche Regionen werden betreut?</summary>
+          <p>Wir sind in Wien, NÖ, Niederösterreich und im Burgenland tätig.</p>
         </details>
 
         <details>
-          <summary>Wie viel Energie kann man sparen?</summary>
-          <p>Eine gewartete Vaillant Therme verbraucht weniger Energie und arbeitet deutlich effizienter.</p>
+          <summary>Was tun bei Gasgeruch oder Notfall?</summary>
+          <p>Kontaktieren Sie sofort unseren Notdienst – wir reagieren umgehend.</p>
         </details>
 
         <details>
-          <summary>Wann lohnt sich ein Thermentausch?</summary>
-          <p>Bei häufigen Störungen, hohem Verbrauch oder veralteten Geräten ist ein Thermentausch sinnvoll.</p>
+          <summary>Ist ein Thermentausch sinnvoll?</summary>
+          <p>Bei veralteten Anlagen oder häufigen Störungen ist ein Rapido Thermentausch empfehlenswert.</p>
         </details>
 
         <details>
-          <summary>Was tun im Fall einer Störung?</summary>
-          <p>Kontaktieren Sie sofort unseren Kundendienst – wir sind rund um die Uhr verfügbar und helfen schnell.</p>
-        </details>
-
-        <details>
-          <summary>Ist ein Wartungsvertrag sinnvoll?</summary>
-          <p>Ja. Ein Wartungsvertrag bietet Planungssicherheit, fixe Kosten und langfristige Entlastung.</p>
+          <summary>Wie kann ich einen Termin vereinbaren?</summary>
+          <p>Per Telefon oder direkt über unsere Seite – wir richten uns nach Ihrem Wunsch.</p>
         </details>
       </div>
     </div>
@@ -810,10 +802,10 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Jetzt Vaillant Thermenwartung in Wien sichern</h2>
-        <p>Komfort, Sicherheit und Effizienz – zuverlässig, transparent und kundenorientiert.</p>
+        <h2>Jetzt Rapido Thermenwartung in Wien sichern</h2>
+        <p>Setzen Sie auf Sicherheit, Effizienz und zuverlässigen Service – kompetent, transparent und kundenorientiert.</p>
         <p style="margin-top:10px;">
-          Unsere Experten sind rund um die Uhr erreichbar und jederzeit zur Verfügung.
+          📞 Jetzt Kontakt aufnehmen – Ihr Ansprechpartner für Rapido Thermenservice in Wien.
         </p>
       </div>
 
@@ -840,10 +832,8 @@
       </form>
     </div>
   </section>
-
- 
-  </footer>
 </main>
+
 
 <script>
   (function(){
