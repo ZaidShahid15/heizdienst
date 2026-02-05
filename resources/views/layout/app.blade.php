@@ -28,6 +28,12 @@
 </head>
 
 <body>
+    <style>
+        input, textarea
+ {
+    margin-top: 10px
+ }
+    </style>
     <!-- SVG icons -->
     <div aria-hidden="true"><?php /* keep HTML valid in WP; harmless elsewhere */ ?></div>
     <div style="display:none">

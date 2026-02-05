@@ -5,7 +5,8 @@
                 <div class="footer-grid">
                     <div>
                         {{-- <div class="footer-title"><svg></svg>Kontakt</div> --}}
-                        <p>Zuverlässiger Thermenservice für Wartung, Reparatur und Notdienst in Wien und Niederösterreich – sicher, transparent und fachgerecht durch erfahrene Installateure.</p>
+                        <p>Zuverlässiger Thermenservice für Wartung, Reparatur und Notdienst in Wien und
+                            Niederösterreich – sicher, transparent und fachgerecht durch erfahrene Installateure.</p>
                         <div style="height:12px"></div>
                         <ul class="list">
                             <li>
@@ -13,7 +14,7 @@
                                     <use href="#i-shield"></use>
                                 </svg>
                                 <span>
-                                   wein
+                                    wein
                                 </span>
                             </li>
                             <li>
@@ -31,33 +32,60 @@
                         </ul>
                     </div>
 
-                    <div >
-                       <img src="{{ asset('img/mobile-logo.jpeg') }}" style="width: 100%" alt="">
+                    <div>
+                        <img src="{{ asset('img/mobile-logo.jpeg') }}" style="width: 100%" alt="">
                     </div>
 
                     <div>
-                        <div class="footer-title"><svg></svg>Marken</div>
+                        <div class="footer-title">
+                            <svg></svg>Marken
+                        </div>
+
                         <ul class="list">
-                            <li><svg>
+                            <li>
+                                <svg>
                                     <use href="#i-check"></use>
-                                </svg>Marke A</li>
-                            <li><svg>
+                                </svg>
+                                <a href="{{ url('/buderus') }}">Buderus</a>
+                            </li>
+
+                            <li>
+                                <svg>
                                     <use href="#i-check"></use>
-                                </svg>Marke B</li>
-                            <li><svg>
+                                </svg>
+                                <a href="{{ url('/löblich') }}">Löblich</a>
+                            </li>
+
+                            <li>
+                                <svg>
                                     <use href="#i-check"></use>
-                                </svg>Marke C</li>
-                            <li><svg>
+                                </svg>
+                                <a href="{{ url('/baxi') }}">Baxi</a>
+                            </li>
+
+                            <li>
+                                <svg>
                                     <use href="#i-check"></use>
-                                </svg>Marke D</li>
-                            <li><svg>
+                                </svg>
+                                <a href="{{ url('/junkers') }}">Junkers</a>
+                            </li>
+
+                            <li>
+                                <svg>
                                     <use href="#i-check"></use>
-                                </svg>Marke E</li>
-                            <li><svg>
+                                </svg>
+                                <a href="{{ url('/wolf') }}">Wolf</a>
+                            </li>
+
+                            <li>
+                                <svg>
                                     <use href="#i-check"></use>
-                                </svg>Marke F</li>
+                                </svg>
+                                <a href="{{ url('/viessmann') }}">Viessmann</a>
+                            </li>
                         </ul>
                     </div>
+
                 </div>
             </div>
         </div>
