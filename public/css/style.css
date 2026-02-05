@@ -2095,19 +2095,20 @@
        
 
         /* dark overlay */
-        .m-hero::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            z-index: 1;
-            background: linear-gradient(90deg,
-                    rgba(20, 60, 75, 0.90) 0%,
-                    rgba(20, 60, 75, 0.78) 35%,
-                    rgba(20, 60, 75, 0.25) 52%,
-                    rgba(20, 60, 75, 0.00) 65%,
-                    rgba(20, 60, 75, 0.00) 100%);
-            pointer-events: none;
-        }
+       .m-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(90deg,
+        rgba(0, 0, 0, 0.85) 0%,
+        rgba(0, 0, 0, 0.75) 40%,
+        rgba(0, 0, 0, 0.45) 60%,
+        rgba(0, 0, 0, 0.15) 75%,
+        rgba(0, 0, 0, 0.00) 100%);
+    pointer-events: none;
+}
+
 
         .m-hero .wrap,
         .m-hero .m-cta,
