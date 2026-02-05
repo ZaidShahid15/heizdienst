@@ -35,21 +35,7 @@
                     </div>
 
                     <div>
-                        <div class="footer-title"><svg></svg>Unsere Leistungen</div>
-                        <ul class="list">
-                            <li><svg>
-                                    <use href="#i-check"></use>
-                                </svg>Reparatur &amp; Störungsdienst</li>
-                            <li><svg>
-                                    <use href="#i-check"></use>
-                                </svg>Service &amp; Wartung</li>
-                            <li><svg>
-                                    <use href="#i-check"></use>
-                                </svg>Installation neuer Anlagen</li>
-                            <li><svg>
-                                    <use href="#i-check"></use>
-                                </svg>Überprüfung &amp; Messungen</li>
-                        </ul>
+                       <img src="{{ asset('img/mobile-logo.jpeg') }}" width="250" alt="">
                     </div>
 
                     <div>
@@ -82,7 +68,6 @@
         <div class="copyright">
             <div class="container">
                 <div>© 2026 heizdienst.at | Impressum &amp; Datenschutzerklärung</div>
-                <div>Webdesign by DummyStudio</div>
             </div>
         </div>
     </footer>
