@@ -404,7 +404,7 @@
                     <div class="promo-banner__inner">
                         <div class="promo-banner__content">
                             <h2 class="promo-banner__title"><em>Ocean Thermenwartung Aktion</em></h2>
-                            <p class="promo-banner__price"><strong>ab €98</strong></p>
+                            <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
                             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
                                 <span class="promo-banner__btn-ico">🔥</span>
