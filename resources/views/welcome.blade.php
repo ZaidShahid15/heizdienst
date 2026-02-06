@@ -35,20 +35,47 @@
   z-index: 5;
   pointer-events: none;
 }
+@media (max-width: 1024px){
+     .my-banner{
+    width: 120px;
+    top: 0;
+    right: 70;
+    transform: translate(15%, -15%); /* less outside, so it doesn't get cut */
+  }
+}
 
 /* keep it visible + clean on small screens */
 @media (max-width: 768px){
-  .my-banner{
-    width: 120px;
-    top: -87;
-    right: 0;
-    transform: translate(15%, -15%); /* less outside, so it doesn't get cut */
-  }
+  .my-banner {
+        width: 149px;
+        top: -106px;
+        right: 0;
+        transform: translate(15%, -15%);
+    }
 
   /* give the headline a bit of space so banner never overlaps text */
   .m-hero .hero-copy h1,
   .hero .hero-copy h1{
     padding-right: 110px;
+  }
+}
+
+.steps .step{
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.steps .stp-img img{
+  width: 100%;
+  /* height: 220px;        same height */
+  object-fit: cover;    /* crop nicely */
+  display: block;
+}
+
+@media (max-width: 768px){
+  .steps .stp-img img{
+    height: 200px;
   }
 }
 
@@ -379,51 +406,60 @@
 
         <!-- Steps -->
         <section class="steps">
-            <div class="container">
-                <h2>In 3 Schritten zur funktionierenden Therme</h2>
+  <div class="container">
+    <h2 class="text-center mb-4">In 3 Schritten zur funktionierenden Therme</h2>
 
-                <div class="steps-grid">
-                    <article class="step">
-                        <div class="step-top">
-                            <div class="step-num">1</div>
-                            <div class="step-title">Thermenstörung oder Heizungsausfall?<br>Schneller Notdienst bei
-                                Heizungsausfällen</div>
-                        </div>
-                        <div class="stp-img">
-
-                            <img src="{{ asset('img/1st-step.jpeg') }}" alt="Heizungsausfall Notdienst">
-                        </div>
-                    </article>
-
-                    <article class="step">
-                        <div class="step-top">
-                            <div class="step-num">2</div>
-                            <div class="step-title">Kontaktaufnahme mit unserem Thermendienst –<br>rasche Soforthilfe
-                                garantiert in Wien & Niederösterreich</div>
-                        </div>
-                        <div class="stp-img">
-
-                            <img src="{{ asset('img/secondstep.jpeg') }}" alt="Anruf beim Thermenservice">
-                        </div>
-                    </article>
-
-                    <article class="step">
-                        <div class="step-top">
-                            <div class="step-num">3</div>
-                            <div class="step-title">Fachgerechter Einsatz vor Ort durch erfahrene
-                                Installateure<br>professioneller Thermenservice in Wien</div>
-                        </div>
-
-                        <div class="stp-img">
-
-                            <img src="{{ asset('img/thridstep.jpeg') }}" alt="Thermenservice Wien">
-                        </div>
-                    </article>
-                    {{-- <h3 class="text-center">Unsere Leistungen auf einen Blick --}}
-                    </h3>
-                </div>
+    <div class="row g-4">
+      <!-- Step 1 -->
+      <div class="col-12 col-md-4">
+        <article class="step h-100">
+          <div class="step-top">
+            <div class="step-num">1</div>
+            <div class="step-title">
+              Thermenstörung oder Heizungsausfall?<br>
+              Schneller Notdienst bei Heizungsausfällen
             </div>
-        </section>
+          </div>
+          <div class="stp-img">
+            <img src="{{ asset('img/1st-step.jpeg') }}" class="img-fluid" alt="Heizungsausfall Notdienst">
+          </div>
+        </article>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="col-12 col-md-4">
+        <article class="step h-100">
+          <div class="step-top">
+            <div class="step-num">2</div>
+            <div class="step-title">
+              Kontaktaufnahme mit unserem Thermendienst – rasche Soforthilfe garantiert in Wien &amp; Niederösterreich
+            </div>
+          </div>
+          <div class="stp-img">
+            <img src="{{ asset('img/secondstep.jpeg') }}" class="img-fluid" alt="Anruf beim Thermenservice">
+          </div>
+        </article>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="col-12 col-md-4">
+        <article class="step h-100">
+          <div class="step-top">
+            <div class="step-num">3</div>
+            <div class="step-title">
+              Fachgerechter Einsatz vor Ort durch erfahrene Installateure<br>
+              professioneller Thermenservice in Wien
+            </div>
+          </div>
+          <div class="stp-img">
+            <img src="{{ asset('img/thridstep.jpeg') }}" class="img-fluid" alt="Thermenservice Wien">
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
         <!-- Warum regelmäßige Thermenwartung & Für wen ist unser Service -->
@@ -1410,31 +1446,196 @@
 
         <!-- CTA: Jetzt Thermenwartung sichern -->
         <section class="spotlight" id="cta-thermenwartung">
-            <div class="container">
-                <div class="cta-wrap">
-                    <div class="cta-text">
-                        <h2>Jetzt Thermenwartung in Wien &amp; Niederösterreich sichern</h2>
-                        <p>
-                            Setzen Sie auf Sicherheit, Zuverlässigkeit und einen professionellen Thermenservice – für
-                            jede
-                            Jahreszeit und jedes Gerät. Unsere erfahrenen Experten sind schnell vor Ort und sorgen
-                            dafür, dass
-                            Ihre Therme effizient und sicher funktioniert.
-                        </p>
-                        <div class="cta-actions">
-                            <a class="cta-btn" href="#kontakt">Jetzt Termin anfragen</a>
-                            <a class="cta-link" href="#faq-thermenwartung">Fragen ansehen</a>
-                        </div>
-                    </div>
+  <div class="container">
+    <div class="cta-wrap" id="kontakt">   <!-- ✅ this id is for header menu link -->
+      
+      <div class="cta-text">
+        <h2>Jetzt Thermenwartung in Wien &amp; Niederösterreich sichern</h2>
+        <p>
+          Setzen Sie auf Sicherheit, Zuverlässigkeit und einen professionellen Thermenservice – für
+          jede Jahreszeit und jedes Gerät. Unsere erfahrenen Experten sind schnell vor Ort und sorgen
+          dafür, dass Ihre Therme effizient und sicher funktioniert.
+        </p>
 
-                    <div class="cta-media" aria-label="Thermenwartung Service">
-                        <img src="{{ asset('img/final.png') }}" alt="Thermenwartung in Wien & Niederösterreich">
-                    </div>
-                </div>
+        <div class="cta-actions">
+          <a class="cta-btn" href="#kontakt">Jetzt Termin anfragen</a>
+          <a class="cta-link" href="#faq-thermenwartung">Fragen ansehen</a>
+        </div>
+      </div>
+
+      <div class="cta-media">
+        <div class="cta-form-card">
+          <div class="cta-form-title">Online Anfrage</div>
+
+          <form class="service-cta__form" action="#" method="post">
+            @csrf
+
+            <div class="service-formrow">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Ihr Name" required>
+              </label>
+
+              <label>
+                <span>Telefon</span>
+                <input type="tel" name="phone" placeholder="+43 ..." required>
+              </label>
             </div>
-        </section>
+
+            <label class="service-field">
+              <span>Nachricht</span>
+              <textarea name="message" rows="4" placeholder="Thermenmodell, Problem, Wunschzeit..." required></textarea>
+            </label>
+
+            <button class="service-btn service-btn--accent service-btn--full" type="submit">
+              Anfrage senden
+            </button>
+
+            <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
         <style>
+
+/* CTA Layout */
+#cta-thermenwartung .cta-wrap{
+  display:flex;
+  gap:24px;
+  align-items:stretch;
+  justify-content:space-between;
+  border-radius:18px;
+  padding:28px;
+  background:#114359;
+  color:#fff;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+#cta-thermenwartung .cta-text{
+  flex: 1 1 56%;
+  min-width: 280px;
+}
+
+#cta-thermenwartung .cta-media{
+  flex: 1 1 44%;
+  min-width: 280px;
+  height:auto;                 /* ✅ IMPORTANT */
+  border-radius:16px;
+  overflow:visible;            /* ✅ IMPORTANT */
+  background:transparent;      /* form card will handle bg */
+}
+
+/* Form Card */
+#cta-thermenwartung .cta-form-card{
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 16px;
+  padding: 18px;
+  backdrop-filter: blur(6px);
+}
+
+#cta-thermenwartung .cta-form-title{
+  font-weight: 800;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* Form fields */
+#cta-thermenwartung .service-cta__form label{
+  display:block;
+  width:100%;
+}
+
+#cta-thermenwartung .service-cta__form span{
+  display:block;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  opacity: .95;
+}
+
+#cta-thermenwartung .service-formrow{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+#cta-thermenwartung .service-cta__form input,
+#cta-thermenwartung .service-cta__form textarea{
+  width:100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(0,0,0,.18);
+  color: #fff;
+  padding: 11px 12px;
+  outline: none;
+}
+
+#cta-thermenwartung .service-cta__form input::placeholder,
+#cta-thermenwartung .service-cta__form textarea::placeholder{
+  color: rgba(255,255,255,.65);
+}
+
+#cta-thermenwartung .service-cta__form input:focus,
+#cta-thermenwartung .service-cta__form textarea:focus{
+  border-color: rgba(254,143,19,.9);
+  box-shadow: 0 0 0 4px rgba(254,143,19,.20);
+}
+
+#cta-thermenwartung .service-field{
+  margin-top: 12px;
+  display:block;
+}
+
+#cta-thermenwartung .service-btn--full{
+  width:100%;
+  margin-top: 12px;
+  border:0;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-weight: 800;
+  cursor:pointer;
+}
+
+#cta-thermenwartung .service-btn--accent{
+  background:#FE8F13;
+  color:#fff;
+}
+
+#cta-thermenwartung .service-fineprint{
+  margin: 10px 0 0;
+  font-size: 12px;
+  opacity: .85;
+}
+
+/* Responsive */
+@media (max-width: 992px){
+  #cta-thermenwartung .cta-wrap{
+    flex-direction:column;
+    padding:22px;
+  }
+  #cta-thermenwartung .service-formrow{
+    grid-template-columns: 1fr;  /* ✅ stack fields */
+  }
+}
+html{ scroll-behavior:smooth; }
+/* ✅ FORCE CTA form to show full height (override old rules) */
+#cta-thermenwartung .cta-media{
+  height: auto !important;
+  overflow: visible !important;
+}
+
+#cta-thermenwartung .cta-wrap{
+  overflow: visible !important; /* if old css has overflow:hidden and clips */
+}
+
+
             /* ✅ Remove shadow/outline on FAQ accordion button when clicked/focused */
             #faq-thermenwartung .accordion-button:focus,
             #faq-thermenwartung .accordion-button:active,

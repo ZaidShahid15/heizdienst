@@ -69,7 +69,7 @@
         <div class="container">
             <div class="pill">
                 <svg><use href="#i-phone"></use></svg>
-                <span>Soforthilfe: <a href="tel:+4319284374">+43 1 9284374</a></span>
+                <span>Soforthilfe: <a href="tel:+0000000">+43 0 000000</a></span>
             </div>
             <div class="pill">
                 <svg></svg>
