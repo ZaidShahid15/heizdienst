@@ -33,7 +33,7 @@
                     </div>
 
                     <div>
-                        <img src="{{ asset('img/mobile-logo.jpeg') }}" style="width: 100%" alt="">
+                        <img src="{{ asset('img/mobile-logo.jpeg') }}" style="width: 98%" alt="">
                     </div>
 
                     <div>

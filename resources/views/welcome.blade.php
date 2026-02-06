@@ -49,7 +49,7 @@
   .my-banner {
         width: 149px;
         top: -106px;
-        right: 0;
+        right: -70;
         transform: translate(15%, -15%);
     }
 

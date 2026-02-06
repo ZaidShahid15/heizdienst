@@ -745,6 +745,15 @@
             color: #ffffff;
         }
 
+        @media (max-width:768px) {
+             .copyright {
+            border-top: 1px solid var(--line);
+            padding: 14px 0 60px;
+            font-size: 13px;
+            color: #ffffff;
+        }
+        }
+
         .copyright .container {
             display: flex;
             justify-content: space-between;
@@ -1461,6 +1470,7 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
+            width: 100%;
         }
 
         .nav-dropdown>a .chev {

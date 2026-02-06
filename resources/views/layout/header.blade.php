@@ -15,16 +15,18 @@
         </div>
     </div>
 
-    <!-- Mobile dropdown panel -->
+    <!-- Mobile dropdown panel: match desktop nav (Startseite, Markenübersicht dropdown, Kontakt) -->
     <div id="mobileMenuPanel" class="mobile-menu-panel">
         <a href="{{ url('/') }}" onclick="closeMobileMenu()">Startseite</a>
-        
 
-        <!-- Markenübersicht (mobile dropdown) -->
-        <div class="nav-dropdown-panel" role="menu" aria-label="Markenübersicht">
-            <div class="dd-title">Markenübersicht</div>
+        <div class="nav-dropdown">
+            <a href="#" aria-haspopup="true" aria-expanded="false" onclick="event.preventDefault(); this.parentElement.classList.toggle('open');">
+                Markenübersicht <span class="chev">▾</span>
+            </a>
 
-            <div class="dd-scroll">
+            <div class="nav-dropdown-panel" role="menu" aria-label="Markenübersicht">
+                <div class="dd-title">Markenübersicht</div>
+
                 <a class="dd-item" href="{{ url('/vaillant') }}" onclick="closeMobileMenu()">
                     <img class="dd-logo" src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant
                 </a>
@@ -47,7 +49,7 @@
                     <img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf
                 </a>
                 <a class="dd-item" href="{{ url('/löblich') }}" onclick="closeMobileMenu()">
-                    <img class="dd-logo" src="{{ asset('img/löblich.jpg') }}" alt="Löblich">Löblich
+                    <img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich
                 </a>
                 <a class="dd-item" href="{{ url('/ocean') }}" onclick="closeMobileMenu()">
                     <img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean
@@ -62,7 +64,49 @@
     </div>
 </div>
 
-<!-- DESKTOP FIXED HEADER -->
+    <!-- Mobile menu tweaks: make Markenübersicht open upwards on small screens -->
+    <style>
+    /* ensure panel positioning context */
+    .mobile-menu-panel{ position: relative; padding-bottom: 8px; }
+    .mobile-menu-panel .nav-dropdown{ position: relative; }
+
+    /* position the dropdown panel above the trigger */
+    .mobile-menu-panel .nav-dropdown .nav-dropdown-panel{
+        position: absolute;
+        right: 12px;
+        bottom: calc(100% + 8px);
+        width: 260px;
+        height: 340px;
+        overflow: auto;
+        display: none;
+        z-index: 1200;
+        box-shadow: 0 10px 30px rgba(0,0,0,.25);
+        border-radius: 12px;
+        background: #114359; /* match site header color */
+        color: #fff;
+    }
+    .mobile-menu-panel .nav-dropdown.open .nav-dropdown-panel{ display:block; }
+
+    /* mobile list items */
+    .mobile-menu-panel .dd-item{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        padding:10px 14px;
+        color:#fff;
+        text-decoration:none;
+        border-bottom:1px solid rgba(255,255,255,.04);
+    }
+    .mobile-menu-panel .dd-logo{ width:36px; height:36px; object-fit:cover; border-radius:8px; }
+
+    /* small-screen adjustments */
+    @media (max-width:768px){
+        .mobile-menu-panel .nav-dropdown .chev{ float:right; }
+        .mobile-menu-panel .nav-dropdown .dd-title{ padding:12px 14px; font-weight:800; }
+    }
+    </style>
+
+    <!-- DESKTOP FIXED HEADER -->
 <div class="fixed-header">
     <!-- DESKTOP TOP STRIP -->
     <div class="topstrip">
