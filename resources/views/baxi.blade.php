@@ -472,19 +472,19 @@
         }
 
         /* ✅ diagonal grey bottom shape */
-        .wolf-hero .wolf-hero__inner::after {
+        /* .wolf-hero .wolf-hero__inner::after {
             content: "";
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            bottom: -220px;
+            bottom: -120px;
             width: 303vw;
-            height: 1100px;
+            height: 2100px;
             background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
             clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
             z-index: -1;
             opacity: .9;
-        }
+        } */
 
         /* mobile */
         @media (max-width: 700px) {
