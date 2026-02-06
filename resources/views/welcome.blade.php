@@ -47,7 +47,7 @@
 /* keep it visible + clean on small screens */
 @media (max-width: 768px){
   .my-banner {
-        width: 149px;
+        width: 169px;
         top: -106px;
         right: -70;
         transform: translate(15%, -15%);
