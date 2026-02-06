@@ -416,7 +416,7 @@
           <div class="step-top">
             <div class="step-num">1</div>
             <div class="step-title">
-              Thermenstörung oder Heizungsausfall?<br>
+              Thermenstörung oder Heizungsausfall?
               Schneller Notdienst bei Heizungsausfällen
             </div>
           </div>
@@ -447,7 +447,7 @@
           <div class="step-top">
             <div class="step-num">3</div>
             <div class="step-title">
-              Fachgerechter Einsatz vor Ort durch erfahrene Installateure<br>
+              Fachgerechter Einsatz vor Ort durch erfahrene Installateure
               professioneller Thermenservice in Wien
             </div>
           </div>
