@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-     ;
+    object-fit: contain;
     object-position:center;
   }
 
@@ -339,6 +339,15 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
+  .service-footer{
+    border-top:1px solid var(--line);
+    padding:18px 0;
+    background:#fff;
+  }
+  .service-footer__inner{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
+  .service-footer__links{display:flex; gap:12px}
+  .service-footer a:hover{text-decoration:underline}
+
   /* Mobile */
   @media (max-width: 980px){
     .service-grid--3{grid-template-columns: 1fr}
@@ -358,7 +367,7 @@
     .service-media__box{height:220px;}
   }
 </style>
- <style>
+<style>
         .wolf-hero {
             position: relative;
             min-height: 520px;
@@ -439,6 +448,8 @@
             align-items: center;
             justify-content: center;
             gap: 8px;
+            background: var(--orange-600);
+            color: white;
             padding: 15px 28px;
             border-radius: 6px;
             /* ✅ like screenshot */
@@ -498,88 +509,77 @@
             }
         }
     </style>
-<main>
- <section class="wolf-hero" id="hero-services">
-  <div class="wolf-hero__inner">
 
-    <p class="service-kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
+<main>
+  <!-- HERO -->
+  <section class="wolf-hero" id="hero-services">
+  <div class="wolf-hero__inner">
+    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
 
     <h1>
-      Baxi Thermenwartung Wien<br>
-      <em>Rund um die Uhr Service vom Fachbetrieb.</em>
+      Höblich Thermenwartung Wien<br>
+      <em>Rund um die Uhr Service vom Fachbetrieb</em>
     </h1>
 
     <p class="wolf-hero__sub">
-      Professionelle Baxi Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Baxi Therme,
-      Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+      Zuverlässige Höblich Thermenwartung Wien durch erfahrene Profis – fachgerecht, effizient und rund um die Uhr verfügbar
+      für Thermenwartung, Service, Reparatur und Notdienst in Wien, NÖ und der gesamten Umgebung.
     </p>
 
+    <div class="wolf-hero__bullets">
+      <span class="wolf-pill">Wartung &amp; Service</span>
+      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+      <span class="wolf-pill">Faire Preise</span>
+      <span class="wolf-pill">Geprüfter Betrieb</span>
+    </div>
+
     <div class="wolf-hero__actions">
-      <a class="wolf-btn wolf-btn--red" href="#kontakt-services">Jetzt Termin vereinbaren</a>
-      <a class="wolf-btn wolf-btn--red" href="#leistungen-services">Leistungen ansehen</a>
+      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
+      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
     </div>
 
     <div class="wolf-hero__logo">
-      <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi Logo">
+      <img src="img/final.png" alt="Höblich Logo">
     </div>
-
   </div>
 </section>
-
-
-  <!-- Quick tabs -->
-  <section class="service-quicktabs" id="quicktabs-services">
-    <div class="service-container">
-      <div class="service-tabs">
-        <a class="service-tab" href="#vorteile-services">Vorteile</a>
-        <a class="service-tab" href="#partner-services">Fachbetrieb</a>
-        <a class="service-tab" href="#leistungen-services">Leistungen</a>
-        <a class="service-tab" href="#geraete-services">Geräte</a>
-        <a class="service-tab" href="#ablauf-services">Ablauf</a>
-        <a class="service-tab" href="#notdienst-services">Notdienst</a>
-        <a class="service-tab" href="#preise-services">Kosten</a>
-        <a class="service-tab" href="#faq-services">FAQ</a>
-        <a class="service-tab" href="#kontakt-services">Kontakt</a>
-      </div>
-    </div>
-  </section>
 
   <!-- Vorteile -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Ihre Vorteile</h2>
-        <p>Rund um die Uhr erreichbar. Transparent. Zuverlässig in Wien & Umgebung.</p>
+        <h2>Wartung, Reparatur & Notdienst für Ihre Höblich Therme</h2>
+        <p>Flexible Terminvergabe, direkter Kundendienst und transparente Preise.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Wartung, Reparatur & Notdienst</h3>
-          <p>Komplettservice für Ihre Baxi Therme – Wartung, Reparatur und Hilfe bei Notfällen.</p>
+          <h3>Flexible Termine</h3>
+          <p>Terminvergabe abgestimmt auf Ihren Bedarf – schnell & zuverlässig.</p>
           <ul class="service-checklist">
-            <li>Baxi Thermenwartung</li>
-            <li>Thermenservice & Reparatur</li>
-            <li>Notdienst bei Ausfall</li>
+            <li>Flexible Terminvergabe</li>
+            <li>Direkter Kundendienst</li>
+            <li>Persönliche Betreuung</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>24/7 Service</h3>
-          <p>Rund um die Uhr erreichbar – unabhängig von Uhrzeit, Wochentag oder Saison.</p>
+          <h3>Transparente Preise</h3>
+          <p>Faire Kosten, klare Kommunikation und keine Überraschungen.</p>
           <ul class="service-checklist">
-            <li>Schnelle Reaktion</li>
-            <li>Hilfe bei Kälte & fehlendem Warmwasser</li>
-            <li>Rasch vor Ort</li>
+            <li>Klare Preise</li>
+            <li>Nachvollziehbare Leistungen</li>
+            <li>Optionale Wartungsverträge</li>
           </ul>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>Faire Preise inkl. MwSt</h3>
-          <p>Klare Kosten, verständlich erklärt – zusätzliche Arbeiten nur nach Rücksprache.</p>
+          <h3>Erfahrene Techniker</h3>
+          <p>Strukturierte Arbeitsschritte & geprüfter Fachbetrieb.</p>
           <ul class="service-checklist">
-            <li>Transparente Wartungskosten</li>
-            <li>Ersatzteile vorab besprochen</li>
-            <li>Keine versteckten Gebühren</li>
+            <li>Erfahrene Profis</li>
+            <li>Sichere Arbeitsweise</li>
+            <li>Langfristige Betreuung</li>
           </ul>
         </article>
       </div>
@@ -590,37 +590,26 @@
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Ihr Baxi Partner in Wien & Umgebung</h2>
+        <h2>Ihr Höblich Partner in Wien & Umgebung</h2>
         <p>
-          Als zuverlässiger Partner für Baxi Thermenwartung, Thermenwartung Wien und Baxi Thermenservice betreuen wir unsere Kunden
-          mit Erfahrung, Know-how und höchster Qualität. Unser Installateurbetrieb steht für professionelle Leistungen,
-          schnelle Termine und persönliche Betreuung durch geschulte Experten.
+          Als verlässlicher Partner für Löblich Thermenwartung und professionellen Thermenservice betreuen wir unsere Kunden
+          persönlich und lösungsorientiert. Unser Ziel ist der sichere und effiziente Betrieb jeder Therme.
         </p>
-        <p style="margin-top:10px;">
-          Wir arbeiten nach Herstellerrichtlinie, mit modernen Geräten, originalen Komponenten und einem eigenen Ersatzteillager.
-          Als erfahrener Installateur, Fachmann und Baxi Kundendienst sind wir in Wien, NÖ und der gesamten Umgebung im Einsatz –
-          zuverlässig, sicher und effizient.
+        <p>
+          Wir arbeiten mit modernen Gasgeräten, hochwertigen Ersatzteilen und betreuen unterschiedliche Gasthermen.
+          Als erfahrener Dienstleister sind wir in Wien, NÖ und der gesamten Umgebung im Einsatz.
         </p>
 
         <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Originale Komponenten</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Ersatzteillager</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Wien & NÖ</div>
-          </div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Persönlich</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sauber & sicher</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & NÖ</div></div>
         </div>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Höblich Thermenservice Wien">
         </div>
       </div>
     </div>
@@ -630,120 +619,58 @@
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen für Ihre Baxi Therme</h2>
-        <p>Wartung, Thermenservice, Reparatur, Notdienst & Thermentausch – professionell aus einer Hand.</p>
+        <h2>Leistungen für Ihre Höblich Therme</h2>
+        <p>Thermenwartung, Service, Reparatur & neue Geräte – alles aus einer Hand.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
+          <div class="service-feature__icon">🛠️</div>
           <div>
-            <h3>Baxi Thermenwartung</h3>
-            <p>Optimale Heizleistung, geringere Energiekosten und ein sicherer Betrieb – Störungen und Ausfälle werden gezielt vermieden.</p>
+            <h3>Höblich Thermenwartung</h3>
+            <p>Erhöht Lebensdauer, senkt Verbrauch und schützt vor Schäden.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔍</div>
+          <div class="service-feature__icon">🔍</div>
           <div>
-            <h3>Baxi Thermenservice</h3>
-            <p>Überprüfung, Reinigung, Einstellung und Optimierung inkl. Wärmetauscher, Brennraum, Abgaswerte und Sicherheitsbauteile.</p>
+            <h3>Höblich Thermenservice</h3>
+            <p>Überprüfung, Abgasmessung, Reinigung & Kontrolle aller Bauteile.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">📞</div>
+          <div class="service-feature__icon">📞</div>
           <div>
-            <h3>Baxi Kundendienst Wien</h3>
-            <p>Ihr Ansprechpartner bei Fragen und dringenden Anliegen – schnell, zuverlässig und lösungsorientiert, auch kurzfristig.</p>
+            <h3>Höblich Kundendienst Wien</h3>
+            <p>Direkter Ansprechpartner für Eigentümer, Vermieter & Betriebe.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
+          <div class="service-feature__icon">⚙️</div>
           <div>
-            <h3>Baxi Thermenreparatur</h3>
-            <p>Fachgerechte Reparatur und Austausch defekter Komponenten – minimiert Kosten, vermeidet Folgeschäden und stellt Betrieb rasch wieder her.</p>
+            <h3>Höblich Thermenreparatur</h3>
+            <p>Fachgerechte Reparaturen bei Defekten & Störungen.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🚨</div>
+          <div class="service-feature__icon">🚨</div>
           <div>
-            <h3>Thermenstörung & Notfälle</h3>
-            <p>Bei Störungen, Ausfällen oder Notfällen sind wir 24/7 erreichbar – schnell vor Ort in Wien, NÖ und Umgebung.</p>
+            <h3>Notdienst & Störungen</h3>
+            <p>Bei Gasgeruch, CO-Warnung oder Ausfall – sofort erreichbar.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔁</div>
+          <div class="service-feature__icon">🔁</div>
           <div>
-            <h3>Thermentausch & neue Geräte</h3>
-            <p>Planung, Montage, Installation und Inbetriebnahme moderner Brennwertgerät-Lösungen – professionell umgesetzt.</p>
+            <h3>Thermentausch</h3>
+            <p>Beratung, Montage & neue Kombithermen – komplett umgesetzt.</p>
           </div>
         </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Warum Wartung -->
-  <section class="service-section service-section--soft" id="warum-services">
-    <div class="service-container service-split service-split--reverse">
-      <div class="service-split__text">
-        <h2>Warum eine Baxi Thermenwartung unverzichtbar ist</h2>
-        <p>
-          Eine regelmäßige Baxi Thermenwartung Wien ist entscheidend für die Sicherheit, Effizienz und Zuverlässigkeit Ihrer Heizung.
-          Durch professionelle Instandhaltung reduzieren Sie das Risiko von Störungen, senken Folgekosten und steigern den täglichen Komfort.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Mehr Sicherheit</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">↓</div>
-            <div class="service-stat__label">Weniger Energiekosten</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">⏱</div>
-            <div class="service-stat__label">Weniger Ausfälle</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Warum Baxi Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Geräte -->
-  <section class="service-section" id="geraete-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Für welche Geräte & Systeme?</h2>
-        <p>Wir warten alle Baxi Geräte – privat und gewerblich, zuverlässig und richtlinienkonform.</p>
-      </div>
-
-      <div class="service-chips">
-        <span class="service-chip">Baxi Gastherme</span>
-        <span class="service-chip">Baxi Thermen</span>
-        <span class="service-chip">Brennwertgerät</span>
-        <span class="service-chip">Luna Duo Tec</span>
-        <span class="service-chip">Kombitherme</span>
-        <span class="service-chip">Gasgeräte</span>
-        <span class="service-chip">Warmwasser</span>
-        <span class="service-chip">Heizung</span>
-      </div>
-
-      <div class="service-card" style="margin-top:14px;">
-        <p style="margin:0;">
-          Als zertifizierter Fachbetrieb arbeiten wir strikt nach geltender Richtlinie. Unsere Techniker verfügen über aktuelles Know-how
-          und sorgen dafür, dass Ihre Geräte zuverlässig, sicher und leistungsstark betrieben werden – in Wien, NÖ und der gesamten Umgebung.
-        </p>
       </div>
     </div>
   </section>
@@ -752,137 +679,31 @@
   <section class="service-section service-section--soft" id="ablauf-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>So läuft die Thermenwartung ab</h2>
+        <h2>Ablauf der Höblich Thermenwartung</h2>
         <ol class="service-steps">
-          <li>
-            <strong>Terminvereinbarung & Planung</strong>
-            <span>Individuelle Planung passend zu Ihrer Therme und Ihrem Bedarf.</span>
-          </li>
-          <li>
-            <strong>Überprüfung & Sicherheitscheck</strong>
-            <span>Gründliche Überprüfung inklusive Sicherheits- und Funktionscheck.</span>
-          </li>
-          <li>
-            <strong>Reinigung & Kontrolle</strong>
-            <span>Reinigung, Kontrolle des Wärmetauschers und Prüfung aller relevanten Komponenten.</span>
-          </li>
-          <li>
-            <strong>Optimierung</strong>
-            <span>Einstellungen optimieren für bessere Heizleistung und geringeren Energieverbrauch.</span>
-          </li>
-          <li>
-            <strong>Info & Empfehlungen</strong>
-            <span>Klare Informationen, Empfehlungen und Antworten auf offene Fragen.</span>
-          </li>
+          <li><strong>Terminvergabe</strong><span>Flexible Planung nach Ihrem Bedarf.</span></li>
+          <li><strong>Überprüfung</strong><span>Sicherheit, Zustand & Funktion.</span></li>
+          <li><strong>Reinigung & Messung</strong><span>Abgasmessung & Wärmetauscher.</span></li>
+          <li><strong>Einstellungen</strong><span>Optimierung für Effizienz.</span></li>
+          <li><strong>Beratung</strong><span>Empfehlungen & Kostenvoranschlag.</span></li>
         </ol>
       </div>
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf der Baxi Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="img/final.png" alt="Ablauf Höblich Thermenwartung">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Notdienst -->
+  <!-- NOTDIENST -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Baxi Notdienst Wien – 24 Stunden verfügbar</h2>
-        <p>
-          Bei akuten Notfällen, plötzlichen Problemen oder kompletten Ausfällen steht Ihnen unser Baxi Notdienst Wien rund um die Uhr zur Verfügung.
-          Egal ob Nacht, Wochenende oder Feiertag – unser Kundendienst reagiert schnell und zuverlässig.
-        </p>
-        <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
-        </div>
-      </div>
-
-      <div class="service-emergency__panel">
-        <div class="service-panel">
-          <h3>Typische Notfälle</h3>
-          <ul class="service-checklist service-checklist--on-dark">
-            <li>Therme startet nicht / Störung</li>
-            <li>Kein Warmwasser</li>
-            <li>Heizung bleibt kalt</li>
-            <li>Plötzlicher Ausfall</li>
-          </ul>
-          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Gerade bei Kälte oder fehlendem Warmwasser zählt jede Uhr – wir sorgen für schnelle und sichere Lösungen.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Kosten -->
-  <section class="service-section" id="preise-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Kosten, Preise & MwSt</h2>
-        <p>Faire Preise, klare Kosten und vollständige Transparenz – MwSt selbstverständlich inkludiert.</p>
-      </div>
-
-      <div class="service-grid service-grid--3">
-        <div class="service-pricecard">
-          <h3>Klare Wartungskosten</h3>
-          <p>Alle Leistungen werden verständlich erklärt – ohne versteckte Zusatzkosten.</p>
-        </div>
-        <div class="service-pricecard">
-          <h3>Ersatzteile & Reparatur</h3>
-          <p>Zusätzliche Reparatur-Arbeiten oder Ersatzteile besprechen wir immer vorab.</p>
-        </div>
-        <div class="service-pricecard">
-          <h3>Wartungsvertrag (optional)</h3>
-          <p>Fixe Kosten, Planungssicherheit und langfristige Entlastung durch regelmäßige Termine.</p>
-        </div>
-      </div>
-
-      <div class="service-card" style="margin-top:14px;">
-        <p style="margin:0;">
-          Regelmäßige Wartung reduziert Folgekosten, verbessert die Zuverlässigkeit Ihrer Therme und verlängert die Lebensdauer der Anlage.
-          So behalten Sie Ihre Energiekosten langfristig im Griff.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Warum wir -->
-  <section class="service-section service-section--soft" id="warumwir-services">
-    <div class="service-container service-split">
-      <div class="service-split__text">
-        <h2>Warum wir der richtige Fachpartner sind</h2>
-        <p>
-          Als erfahrener Fachmann, professioneller Installateur und zuverlässige Firma für Baxi Thermenservice stehen wir für Qualität,
-          Sicherheit und nachhaltige Lösungen. Unser Team arbeitet präzise, kundenorientiert und mit höchstem Anspruch an Technik und Service.
-        </p>
-        <p style="margin-top:10px;">
-          Wir verbinden persönlichen Kundendienst mit technischer Kompetenz und betreuen unsere Kunden langfristig –
-          von der ersten Installation bis zur laufenden Instandhaltung.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Technische Kompetenz</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Kundenorientiert</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Nachhaltige Lösungen</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Fachpartner für Baxi Thermen" loading="lazy" decoding="async"/>
-        </div>
+        <h2>Höblich Notdienst Wien – 24 Stunden verfügbar</h2>
+        <p>Bei Notfall, Gasgeruch oder Ausfall sind wir jederzeit erreichbar.</p>
+        <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
       </div>
     </div>
   </section>
@@ -891,40 +712,14 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zur Baxi Thermenwartung</h2>
-        <p>Die wichtigsten Antworten zur Baxi Thermenwartung in Wien.</p>
+        <h2>Häufige Fragen zur Höblich Thermenwartung</h2>
       </div>
 
       <div class="service-faq">
-        <details>
-          <summary>Wie oft sollte eine Wartung durchgeführt werden?</summary>
-          <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit und Effizienz dauerhaft zu gewährleisten.</p>
-        </details>
-
-        <details>
-          <summary>Gibt es gesetzliche Vorschriften?</summary>
-          <p>Ein fixes Gesetz besteht nicht, jedoch sind regelmäßige Kontrollen zur Risikominimierung sinnvoll.</p>
-        </details>
-
-        <details>
-          <summary>Wie viel Energie kann man sparen?</summary>
-          <p>Eine gut gewartete Baxi Gastherme arbeitet effizienter und spart spürbar Energie.</p>
-        </details>
-
-        <details>
-          <summary>Wann lohnt sich ein Thermentausch?</summary>
-          <p>Bei häufigen Störungen, hohem Verbrauch oder veralteten Geräten ist ein Thermentausch empfehlenswert.</p>
-        </details>
-
-        <details>
-          <summary>Was tun bei Notfällen?</summary>
-          <p>Kontaktieren Sie sofort unseren Notdienst – wir helfen schnell und zuverlässig.</p>
-        </details>
-
-        <details>
-          <summary>Ist ein Wartungsvertrag sinnvoll?</summary>
-          <p>Ja, er bietet fixe Kosten, Planungssicherheit und langfristige Entlastung.</p>
-        </details>
+        <details><summary>Wie oft sollte eine Wartung erfolgen?</summary><p>Regelmäßig, um Sicherheit & Funktion zu gewährleisten.</p></details>
+        <details><summary>Was wird gemacht?</summary><p>Überprüfung, Reinigung, Abgasmessung & Kontrolle.</p></details>
+        <details><summary>Auch für Vermieter?</summary><p>Ja – Vermieter, Haushalte & Betriebe.</p></details>
+        <details><summary>Notfall?</summary><p>Sofort unseren Notdienst kontaktieren.</p></details>
       </div>
     </div>
   </section>
@@ -933,42 +728,18 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Jetzt Baxi Thermenwartung in Wien sichern</h2>
-        <p>Setzen Sie auf Sicherheit, Effizienz und dauerhafte Qualität mit einer professionellen Baxi Thermenwartung Wien.</p>
-        <p style="margin-top:10px;">
-          📞 Jetzt Termin vereinbaren oder schreiben Sie uns per E-Mail Adresse – wir kümmern uns um Ihre Therme.
-        </p>
+        <h2>Jetzt Höblich Thermenwartung in Wien sichern</h2>
+        <p>📞 Ihr Ansprechpartner für Löblich & Höblich Thermenservice in Wien.</p>
       </div>
 
-      <form class="service-cta__form" action="#" method="post">
+      <form class="service-cta__form" method="post">
         @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Thermenmodell, Problem, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="tel" name="phone" placeholder="+43 ..." required>
+        <textarea name="message" placeholder="Therme, Problem, Terminwunsch" required></textarea>
+        <button class="service-btn service-btn--accent service-btn--full">Anfrage senden</button>
       </form>
     </div>
   </section>
 </main>
-
-<script>
-  (function(){
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-  })();
-</script>
 @endsection

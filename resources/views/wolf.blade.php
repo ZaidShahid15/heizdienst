@@ -361,34 +361,42 @@
 
 <main>
   <!-- HERO -->
-  <section class="service-hero" id="hero-services">
-    <div class="service-container service-hero__grid">
-      <div class="service-hero__content">
-        <p class="service-kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
+  <!-- HERO (wolf-hero style – Wolf) -->
+<section class="wolf-hero" id="hero-services">
+  <div class="wolf-hero__inner">
 
-        <h1>
-          Wolf Thermenwartung Wien<br>
-          <span class="service-highlight">Rund um die Uhr Service vom Fachbetrieb</span>
-        </h1>
+    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
 
-        <p class="service-hero__lead">
-          Professionelle Wolf Thermenwartung Wien durch erfahrene Profis – zuverlässig, effizient und rund um die Uhr verfügbar für Thermenwartung, Service, Reparaturen und Notdienst in Wien, Niederösterreich, NÖ und der gesamten Umgebung.
-        </p>
+    <h1>
+      Wolf Thermenwartung Wien<br>
+      <em>Rund um die Uhr Service vom Fachbetrieb</em>
+    </h1>
 
-        <div class="service-hero__bullets" aria-label="Highlights">
-          <span class="service-pill">Wartung & Service</span>
-          <span class="service-pill">Reparatur & Notdienst</span>
-          <span class="service-pill">Kosten inkl. MwSt</span>
-          <span class="service-pill">Geprüfter Fachbetrieb</span>
-        </div>
+    <p class="wolf-hero__sub">
+      Professionelle Wolf Thermenwartung Wien durch erfahrene Profis – zuverlässig, effizient und rund um die Uhr verfügbar
+      für Thermenwartung, Service, Reparaturen und Notdienst in Wien, Niederösterreich, NÖ und der gesamten Umgebung.
+    </p>
 
-        <div class="service-hero__actions" style="margin-top:16px;">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#leistungen-services">Leistungen ansehen</a>
-        </div>
-      </div>
+    <div class="wolf-hero__bullets" aria-label="Highlights">
+      <span class="wolf-pill">Wartung &amp; Service</span>
+      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+      <span class="wolf-pill">Kosten inkl. MwSt</span>
+      <span class="wolf-pill">Geprüfter Fachbetrieb</span>
     </div>
-  </section>
+
+    <div class="wolf-hero__actions">
+      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
+      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+    </div>
+
+    <!-- optional brand logo -->
+    <div class="wolf-hero__logo">
+      <img src="{{ asset('img/wolf.jpg') }}" alt="Wolf Thermenservice Wien" loading="lazy" decoding="async">
+    </div>
+
+  </div>
+</section>
+
 
   <!-- Quick tabs -->
   <section class="service-quicktabs" id="quicktabs-services">

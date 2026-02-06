@@ -361,34 +361,39 @@
 
 <main>
   <!-- HERO -->
-  <section class="service-hero" id="hero-services">
-    <div class="service-container service-hero__grid">
-      <div class="service-hero__content">
-        <p class="service-kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
+ <!-- HERO (same layout/style as the previous wolf-hero, with Saunier Duval content) -->
+<section class="wolf-hero" id="hero-services">
+  <div class="wolf-hero__inner">
+    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
 
-        <h1>
-          Saunier Duval Thermenwartung Wien<br>
-          <span class="service-highlight">Rund um die Uhr Service vom Fachbetrieb</span>
-        </h1>
+    <h1>
+      Saunier Duval Thermenwartung Wien<br>
+      <em>Rund um die Uhr Service vom Fachbetrieb</em>
+    </h1>
 
-        <p class="service-hero__lead">
-          Professionelle Saunier Duval Thermenwartung Wien durch erfahrene Spezialisten – zuverlässig, effizient und rund um die Uhr verfügbar.
-        </p>
+    <p class="wolf-hero__sub">
+      Professionelle Saunier Duval Thermenwartung Wien durch erfahrene Spezialisten – zuverlässig, effizient und rund um die Uhr verfügbar.
+    </p>
 
-        <div class="service-hero__bullets" aria-label="Highlights">
-          <span class="service-pill">Wartung & Service</span>
-          <span class="service-pill">Reparatur & Notdienst</span>
-          <span class="service-pill">Preise inkl. MwSt</span>
-          <span class="service-pill">Qualifizierte Techniker</span>
-        </div>
-
-        <div class="service-hero__actions" style="margin-top:16px;">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#leistungen-services">Leistungen ansehen</a>
-        </div>
-      </div>
+    <div class="wolf-hero__bullets" aria-label="Highlights">
+      <span class="wolf-pill">Wartung &amp; Service</span>
+      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+      <span class="wolf-pill">Preise inkl. MwSt</span>
+      <span class="wolf-pill">Qualifizierte Techniker</span>
     </div>
-  </section>
+
+    <div class="wolf-hero__actions">
+      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
+      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+    </div>
+
+    <!-- optional logo / image -->
+    <div class="wolf-hero__logo">
+      <img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval Thermenservice Wien" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
 
   <!-- Quick tabs -->
   <section class="service-quicktabs" id="quicktabs-services">

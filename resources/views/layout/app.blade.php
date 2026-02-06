@@ -37,6 +37,154 @@
         border: 1px solid #848484 !important;
  }
     </style>
+    <style>
+        .wolf-hero {
+            position: relative;
+            min-height: 520px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            padding: 180px 16px 120px;
+            background: #111;
+        }
+
+        /* background image */
+        .wolf-hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url("img/hero-scetion.jpeg");
+            background-size: cover;
+            background-position: left center;
+            /* ✅ keep image left exactly */
+            transform: scale(1.02);
+            z-index: 0;
+        }
+
+        /* dark overlay like screenshot (NOT left-gradient) */
+        .wolf-hero::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, .55);
+            /* ✅ even dark overlay */
+            z-index: 1;
+        }
+
+        /* content wrapper */
+        .wolf-hero__inner {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin-top: 40px;
+        }
+
+        /* H1 */
+        .wolf-hero h1 {
+            margin: 0 0 10px;
+            font-size: clamp(32px, 3.5vw, 54px);
+            line-height: 1.08;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: -.02em;
+        }
+
+        .wolf-hero h1 em {
+            font-style: italic;
+            font-weight: 800;
+        }
+
+        /* subtitle */
+        .wolf-hero__sub {
+            margin: 0 auto 48px;
+            max-width: 780px;
+            font-size: 16px;
+            color: rgba(255, 255, 255, .9);
+        }
+
+        /* buttons row */
+        .wolf-hero__actions {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .wolf-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: var(--orange-600);
+            color: white;
+            padding: 15px 28px;
+            border-radius: 6px;
+            /* ✅ like screenshot */
+            font-weight: 700;
+            font-size: 14px;
+            border: 1px solid transparent;
+            transition: .15s ease;
+        }
+
+        .wolf-btn--red {
+            background: var(--orange-600);
+            /* ✅ Wolf red */
+            color: #fff;
+        }
+
+        .wolf-btn--red:hover {
+            transform: translateY(-1px);
+        }
+
+        /* logo under buttons */
+        .wolf-hero__logo {
+            margin-top: 45px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wolf-hero__logo img {
+            width: 170px;
+            max-width: 60vw;
+            transform: rotate(-6deg);
+        }
+
+        /* ✅ diagonal grey bottom shape */
+        .wolf-hero .wolf-hero__inner::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -120px;
+            width: 303vw;
+            height: 1100px;
+            background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
+            clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+            z-index: -1;
+            opacity: .9;
+        }
+
+        /* mobile */
+        @media (max-width: 700px) {
+            .wolf-hero {
+                padding: 100px 14px 86px;
+                min-height: 480px;
+            }
+
+            .wolf-hero__sub {
+                font-size: 14px
+            }
+        }
+        .wolf-hero__kicker{
+            color: white;
+        }
+        .wolf-hero__bullets{
+            color: white;
+        }
+    </style>
     <!-- SVG icons -->
     <div aria-hidden="true"><?php /* keep HTML valid in WP; harmless elsewhere */ ?></div>
     <div style="display:none">

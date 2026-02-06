@@ -370,35 +370,39 @@
 
 <main>
  <!-- HERO -->
-<section class="service-hero" id="hero-services">
-  <div class="service-container service-hero__grid">
-    <div class="service-hero__content">
-      <p class="service-kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
+<!-- HERO (wolf style) – same content as your Löblich hero -->
+<section class="wolf-hero" id="hero-services">
+  <div class="wolf-hero__inner">
+    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
 
-      <h1>
-        Löblich Thermenwartung Wien<br>
-        <span class="service-highlight">Rund um die Uhr Service vom Fachbetrieb</span>
-      </h1>
+    <h1>
+      Löblich Thermenwartung Wien<br>
+      <em>Rund um die Uhr Service vom Fachbetrieb</em>
+    </h1>
 
-      <p class="service-hero__lead">
-        Zuverlässige Löblich Thermenwartung Wien durch erfahrene Profis – fachgerecht, effizient und rund um die Uhr verfügbar
-        für Thermenwartung, Service, Reparatur und Notdienst in Wien, NÖ und der gesamten Umgebung.
-      </p>
+    <p class="wolf-hero__sub">
+      Zuverlässige Löblich Thermenwartung Wien durch erfahrene Profis – fachgerecht, effizient und rund um die Uhr verfügbar
+      für Thermenwartung, Service, Reparatur und Notdienst in Wien, NÖ und der gesamten Umgebung.
+    </p>
 
-      <div class="service-hero__bullets">
-        <span class="service-pill">Wartung & Service</span>
-        <span class="service-pill">Reparatur & Notdienst</span>
-        <span class="service-pill">Faire Preise</span>
-        <span class="service-pill">Geprüfter Betrieb</span>
-      </div>
+    <div class="wolf-hero__bullets" aria-label="Highlights">
+      <span class="wolf-pill">Wartung &amp; Service</span>
+      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+      <span class="wolf-pill">Faire Preise</span>
+      <span class="wolf-pill">Geprüfter Betrieb</span>
+    </div>
 
-      <div class="service-hero__actions">
-        <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-        <a class="service-btn service-btn--ghost-on-dark" href="#leistungen-services">Leistungen ansehen</a>
-      </div>
+    <div class="wolf-hero__actions">
+      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
+      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+    </div>
+
+    <div class="wolf-hero__logo">
+      <img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich Logo" loading="lazy" decoding="async">
     </div>
   </div>
 </section>
+
 
 <!-- Vorteile -->
 <section class="service-section" id="vorteile-services">

@@ -361,35 +361,39 @@
 
 <main>
   <!-- HERO -->
-  <section class="service-hero" id="hero-services">
-    <div class="service-container service-hero__grid">
-      <div class="service-hero__content">
-        <p class="service-kicker">Erfahrener Meisterbetrieb • Wien, NÖ & Burgenland</p>
+  <!-- HERO (same content, same structure) -->
+<section class="wolf-hero" id="hero-services">
+  <div class="wolf-hero__inner">
+    <p class="wolf-hero__kicker">Erfahrener Meisterbetrieb • Wien, NÖ &amp; Burgenland</p>
 
-        <h1>
-          Junkers Thermenwartung Wien<br>
-          <span class="service-highlight">Rund um die Uhr Service vom Fachbetrieb.</span>
-        </h1>
+    <h1>
+      Junkers Thermenwartung Wien<br>
+      <em>Rund um die Uhr Service vom Fachbetrieb.</em>
+    </h1>
 
-        <p class="service-hero__lead">
-          Professionelle Junkers Thermenwartung Wien vom erfahrenen Fachbetrieb – zuverlässig, effizient und rund um die Uhr verfügbar
-          für Thermenwartung, Service, Reparaturen und Notdienst in Wien und Umgebung, NÖ und Burgenland.
-        </p>
+    <p class="wolf-hero__sub">
+      Professionelle Junkers Thermenwartung Wien vom erfahrenen Fachbetrieb – zuverlässig, effizient und rund um die Uhr verfügbar
+      für Thermenwartung, Service, Reparaturen und Notdienst in Wien und Umgebung, NÖ und Burgenland.
+    </p>
 
-        <div class="service-hero__bullets" aria-label="Highlights">
-          <span class="service-pill">Standard & Premium Wartung</span>
-          <span class="service-pill">Reparatur & Notdienst</span>
-          <span class="service-pill">Preis inkl. MwSt</span>
-          <span class="service-pill">Meisterbetrieb</span>
-        </div>
-
-        <div class="service-hero__actions" style="margin-top:16px;">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#leistungen-services">Leistungen ansehen</a>
-        </div>
-      </div>
+    <div class="wolf-hero__bullets" aria-label="Highlights">
+      <span class="wolf-pill">Standard &amp; Premium Wartung</span>
+      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+      <span class="wolf-pill">Preis inkl. MwSt</span>
+      <span class="wolf-pill">Meisterbetrieb</span>
     </div>
-  </section>
+
+    <div class="wolf-hero__actions">
+      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
+      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+    </div>
+
+    <div class="wolf-hero__logo">
+      <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers Logo" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
 
   <!-- Quick tabs -->
   <section class="service-quicktabs" id="quicktabs-services">

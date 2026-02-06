@@ -2096,7 +2096,7 @@
 
         /* dark overlay */
        .m-hero::after {
-    content: "";
+    content: "";x
     position: absolute;
     inset: 0;
     z-index: 1;

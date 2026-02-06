@@ -370,35 +370,40 @@
 
 <main>
   <!-- HERO -->
-  <section class="service-hero" id="hero-services">
-    <div class="service-container service-hero__grid">
-      <div class="service-hero__content">
-        <p class="service-kicker">Geprüfter Fachbetrieb • Wien & Umgebung</p>
+ <!-- HERO (same style/structure as the previous “wolf-hero”, now with Rapido content) -->
+<section class="wolf-hero" id="hero-services">
+  <div class="wolf-hero__inner">
+    <p class="wolf-hero__kicker">Geprüfter Fachbetrieb • Wien &amp; Umgebung</p>
 
-        <h1>
-          Rapido Thermenwartung Wien<br>
-          <span class="service-highlight">Rund um die Uhr Service vom Fachbetrieb</span>
-        </h1>
+    <h1>
+      Rapido Thermenwartung Wien<br>
+      <em>Rund um die Uhr Service vom Fachbetrieb</em>
+    </h1>
 
-        <p class="service-hero__lead">
-          Zuverlässige Rapido Thermenwartung Wien durch erfahrene Profis – effizient, sicher und rund um die Uhr verfügbar
-          für Thermenwartung, Service, Reparatur und Notdienst in Wien, NÖ, Niederösterreich, Burgenland und der gesamten Umgebung.
-        </p>
+    <p class="wolf-hero__sub">
+      Zuverlässige Rapido Thermenwartung Wien durch erfahrene Profis – effizient, sicher und rund um die Uhr verfügbar
+      für Thermenwartung, Service, Reparatur und Notdienst in Wien, NÖ, Niederösterreich, Burgenland und der gesamten Umgebung.
+    </p>
 
-        <div class="service-hero__bullets" aria-label="Highlights">
-          <span class="service-pill">Wartung, Reparatur & Notdienst</span>
-          <span class="service-pill">Direkter Rapido Kundendienst</span>
-          <span class="service-pill">Transparente Preise</span>
-          <span class="service-pill">Geprüfter Fachbetrieb</span>
-        </div>
-
-        <div class="service-hero__actions" style="margin-top:16px;">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Jetzt anfragen</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#leistungen-services">Leistungen ansehen</a>
-        </div>
-      </div>
+    <div class="wolf-hero__bullets" aria-label="Highlights">
+      <span class="wolf-pill">Wartung, Reparatur &amp; Notdienst</span>
+      <span class="wolf-pill">Direkter Rapido Kundendienst</span>
+      <span class="wolf-pill">Transparente Preise</span>
+      <span class="wolf-pill">Geprüfter Fachbetrieb</span>
     </div>
-  </section>
+
+    <div class="wolf-hero__actions">
+      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt anfragen</a>
+      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+    </div>
+
+    <!-- optional image/logo (keep or remove) -->
+    <div class="wolf-hero__logo">
+      <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido Thermenservice Wien" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
 
   <!-- Quick tabs -->
   <section class="service-quicktabs" id="quicktabs-services">
