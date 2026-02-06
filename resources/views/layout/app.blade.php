@@ -351,7 +351,7 @@ background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), tra
             </a>
             <a class="m-callbtn" href="tel:+4319284374"><svg>
                     <use href="#i-phone"></use>
-                </svg>+43 1 928 4374</a>
+                </svg>+43 0 000000</a>
         </div>
     </div>
 
