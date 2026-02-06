@@ -755,7 +755,7 @@
 
         /* logo under buttons */
         .wolf-hero__logo {
-            margin-top: 45px;
+            margin: 45px 0;
             display: flex;
             justify-content: center;
         }
@@ -768,29 +768,38 @@
 
         /* ✅ diagonal grey bottom shape */
         /* .wolf-hero .wolf-hero__inner::after {
-            content: "";
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -220px;
-            width: 303vw;
-            height: 1100px;
-            background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
-            clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
-            z-index: -1;
-            opacity: .9;
-        } */
+                content: "";
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -220px;
+                width: 303vw;
+                height: 1100px;
+                background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
+                clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+                z-index: -1;
+                opacity: .9;
+            } */
 
         /* mobile */
         @media (max-width: 700px) {
             .wolf-hero {
                 padding: 100px 14px 86px;
-                min-height: 480px;
+                min-height: 480px;  
             }
 
             .wolf-hero__sub {
                 font-size: 14px
             }
+        }
+
+        .promo-banner__inner::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+            z-index: 0;
         }
     </style>
     <main>
@@ -824,54 +833,55 @@
     </div>
   </section> --}}
 
-<!-- HERO (wolf-hero style, Vaillant content) -->
-<section class="wolf-hero" id="hero-services">
-  <div class="wolf-hero__inner">
+        <!-- HERO (wolf-hero style, Vaillant content) -->
+        <section class="wolf-hero" id="hero-services">
+            <div class="wolf-hero__inner">
 
-    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
+                <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
 
-    <h1>
-      Vaillant Thermenwartung Wien<br>
-      <em>Rund um die Uhr Service vom Fachbetrieb</em>
-    </h1>
+                <h1>
+                    Vaillant Thermenwartung Wien<br>
+                    <em>Rund um die Uhr Service vom Fachbetrieb</em>
+                </h1>
 
-    <p class="wolf-hero__sub">
-      Professionelle Vaillant Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar
-      für Wartung, Service, Reparaturen und Notfällen in Wien und Umgebung.
-    </p>
+                <p class="wolf-hero__sub">
+                    Professionelle Vaillant Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar
+                    für Wartung, Service, Reparaturen und Notfällen in Wien und Umgebung.
+                </p>
+<div class="wolf-hero__logo">
+                    <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Thermenservice Wien" loading="lazy"
+                        decoding="async">
+                </div>
+                <div class="wolf-hero__bullets" aria-label="Highlights">
+                    <span class="wolf-pill">Wartung, Reparatur &amp; Notdienst</span>
+                    <span class="wolf-pill">24 Stunden Service – rund um die Uhr</span>
+                    <span class="wolf-pill">Fixpreise inkl. MwSt</span>
+                    <span class="wolf-pill">Zertifizierte Vaillant Techniker</span>
+                </div>
+                
+                <div class="wolf-hero__actions">
+                    <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
+                    <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+                </div>
 
-    <div class="wolf-hero__bullets" aria-label="Highlights">
-      <span class="wolf-pill">Wartung, Reparatur &amp; Notdienst</span>
-      <span class="wolf-pill">24 Stunden Service – rund um die Uhr</span>
-      <span class="wolf-pill">Fixpreise inkl. MwSt</span>
-      <span class="wolf-pill">Zertifizierte Vaillant Techniker</span>
-    </div>
+                <!-- optional brand/logo -->
+                
+                <section class="promo-banner" id="wolf-aktion">
+                    <div class="promo-banner__inner">
+                        <div class="promo-banner__content">
+                            <h2 class="promo-banner__title"><em>Vaillant Thermenwartung Aktion</em></h2>
+                            <p class="promo-banner__price"><strong>ab €98</strong></p>
 
-    <div class="wolf-hero__actions">
-      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
-      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
-    </div>
+                            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+                                <span class="promo-banner__btn-ico">🔥</span>
+                                AKTION
+                            </a>
+                        </div>
+                    </div>
+                </section>
 
-    <!-- optional brand/logo -->
-    <div class="wolf-hero__logo">
-      <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Thermenservice Wien" loading="lazy" decoding="async">
-    </div>
-<section class="promo-banner" id="wolf-aktion">
-  <div class="promo-banner__inner">
-    <div class="promo-banner__content">
-      <h2 class="promo-banner__title"><em>Wolf Thermenwartung Aktion</em></h2>
-      <p class="promo-banner__price"><strong>ab €98</strong></p>
-
-      <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
-        <span class="promo-banner__btn-ico">🔥</span>
-        AKTION
-      </a>
-    </div>
-  </div>
-</section>
-
-  </div>
-</section>
+            </div>
+        </section>
 
 
 

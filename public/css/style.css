@@ -80,7 +80,7 @@
             top: 0;
             left: 0;
             right: 0;
-            z-index: 1000;
+            z-index: 99999;
             width: 100%;
             background: #fff;
         }
@@ -760,7 +760,7 @@
             top: 0;
             left: 0;
             right: 0;
-            z-index: 1000;
+            z-index: 999999;
             width: 100%;
             background: rgba(20, 60, 75, .96);
             border-bottom: 1px solid rgba(255, 255, 255, .10);

@@ -370,6 +370,14 @@
     z-index: -1;
     opacity: .9;
 }
+  .promo-banner__inner::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+            z-index: 0;
+        }
 </style>
 
 <main>
@@ -389,6 +397,9 @@
       Professionelle Viessmann Thermenwartung Wien durch erfahrene Profis – zuverlässig, effizient und rund um die Uhr verfügbar
       für Thermenwartung, Service, Reparatur und Notdienst in Wien, NÖ, Niederösterreich und der gesamten Umgebung.
     </p>
+        <div class="wolf-hero__logo">
+      <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann Thermenservice Wien" loading="lazy" decoding="async">
+    </div>
 
     <div class="wolf-hero__bullets" aria-label="Highlights">
       <span class="wolf-pill">Wartung &amp; Service</span>
@@ -403,9 +414,21 @@
     </div>
 
     <!-- optional brand logo -->
-    <div class="wolf-hero__logo">
-      <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann Thermenservice Wien" loading="lazy" decoding="async">
-    </div>
+
+
+     <section class="promo-banner" id="wolf-aktion">
+                    <div class="promo-banner__inner">
+                        <div class="promo-banner__content">
+                            <h2 class="promo-banner__title"><em>Viessmann Thermenwartung Aktion</em></h2>
+                            <p class="promo-banner__price"><strong>ab €98</strong></p>
+
+                            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+                                <span class="promo-banner__btn-ico">🔥</span>
+                                AKTION
+                            </a>
+                        </div>
+                    </div>
+                </section>
 
   </div>
 </section>

@@ -368,6 +368,14 @@
   }
 </style>
 <style>
+    .promo-banner__inner::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+            z-index: 0;
+        }
         .wolf-hero {
             position: relative;
             min-height: 520px;
@@ -402,6 +410,8 @@
             /* ✅ even dark overlay */
             z-index: 1;
         }
+
+        
 
         /* content wrapper */
         .wolf-hero__inner {

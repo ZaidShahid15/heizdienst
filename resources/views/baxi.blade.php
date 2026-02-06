@@ -460,7 +460,7 @@
 
         /* logo under buttons */
         .wolf-hero__logo {
-            margin-top: 45px;
+            margin: 45px 0;
             display: flex;
             justify-content: center;
         }
@@ -497,6 +497,14 @@
                 font-size: 14px
             }
         }
+          .promo-banner__inner::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+            z-index: 0;
+        }
     </style>
 <main>
  <section class="wolf-hero" id="hero-services">
@@ -508,6 +516,9 @@
       Baxi Thermenwartung Wien<br>
       <em>Rund um die Uhr Service vom Fachbetrieb.</em>
     </h1>
+    <div class="wolf-hero__logo">
+      <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi Logo">
+    </div>
 
     <p class="wolf-hero__sub">
       Professionelle Baxi Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Baxi Therme,
@@ -519,9 +530,21 @@
       <a class="wolf-btn wolf-btn--red" href="#leistungen-services">Leistungen ansehen</a>
     </div>
 
-    <div class="wolf-hero__logo">
-      <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi Logo">
-    </div>
+    
+
+     <section class="promo-banner" id="wolf-aktion">
+                    <div class="promo-banner__inner">
+                        <div class="promo-banner__content">
+                            <h2 class="promo-banner__title"><em>Baxi Thermenwartung Aktion</em></h2>
+                            <p class="promo-banner__price"><strong>ab €98</strong></p>
+
+                            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+                                <span class="promo-banner__btn-ico">🔥</span>
+                                AKTION
+                            </a>
+                        </div>
+                    </div>
+                </section>
 
   </div>
 </section>

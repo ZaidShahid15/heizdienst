@@ -141,7 +141,7 @@
 
         /* logo under buttons */
         .wolf-hero__logo {
-            margin-top: 45px;
+            margin: 45px 0;
             display: flex;
             justify-content: center;
         }
@@ -160,7 +160,7 @@
             transform: translateX(-50%);
             bottom: -120px;
             width: 303vw;
-            height: 2100px;
+            height: 3100px;
             background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
             clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
             z-index: -1;
@@ -202,14 +202,7 @@ background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), tra
 }
 
 /* Right side image */
-.promo-banner__inner::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:
-    url("{{ asset('img/final.png') }}") right center / cover no-repeat;
-  z-index:0;
-}
+
 
 /* White fade from left -> right (like screenshot) */
 .promo-banner__inner::before{

@@ -17,6 +17,22 @@
             z-index: 0;
             transform: scale(1.02);
         }
+ .my-banner {
+    width: 300px;
+    position: absolute;
+    top: 33px !important;
+    z-index: 1;
+    right: 5px;
+}
+        
+        @media(max-width: 768px) {
+           .my-banner{
+    position: absolute;
+    z-index: 9999;
+    right: 8px;
+    top: -120px !important;
+}
+        }
     </style>
    {{-- REPLACE your <section class="m-hero" ...> with this version.
    It keeps your m-hero wrapper, but uses the SAME content structure as your .hero section
@@ -72,6 +88,8 @@
 
             {{-- COPY SIDE --}}
             <div class="hero-copy">
+<img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;right:20px;"  alt="">
+
                 <h1>Thermenwartung &amp; Thermenservice in Wien &amp; Niederösterreich</h1>
                 <p>
                     Professionelle Thermenwartung Wien, Thermenservice und Reparatur für jede Therme –
@@ -212,7 +230,9 @@
                         </div>
                     </div>
 
-                    <div class="hero-copy">
+                    <div class="hero-copy position-relative">
+<img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;right:20px;"  alt="">
+
                         <h1>Thermenwartung &amp; Thermenservice in Wien &amp; Niederösterreich</h1>
                         <p>
                             Professionelle Thermenwartung Wien, Thermenservice und Reparatur für jede Therme –

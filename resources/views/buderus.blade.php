@@ -462,7 +462,7 @@
 
         /* logo under buttons */
         .wolf-hero__logo {
-            margin-top: 45px;
+            margin: 45px 0;
             display: flex;
             justify-content: center;
         }
@@ -481,7 +481,7 @@
             transform: translateX(-50%);
             bottom: -220px;
             width: 303vw;
-            height: 1100px;
+            height: 2100px;
             background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
             clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
             z-index: -1;
@@ -499,6 +499,14 @@
                 font-size: 14px
             }
         }
+          .promo-banner__inner::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+            z-index: 0;
+        }
     </style>
 
 <main>
@@ -512,6 +520,9 @@
       Buderus Thermenwartung Wien<br>
       <em>Rund um die Uhr Service vom Fachbetrieb.</em>
     </h1>
+    <div class="wolf-hero__logo">
+      <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Logo">
+    </div>
 
     <p class="wolf-hero__sub">
       Professionelle Buderus Thermenwartung, Service, Reparatur & Notdienst – 24/7 verfügbar in Wien und Umgebung.
@@ -522,10 +533,20 @@
       <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
     </div>
 
-    <div class="wolf-hero__logo">
-      <img src="{{ asset('img/buderus.jpg') }}" alt="Buderus Logo">
-    </div>
+    
+  <section class="promo-banner" id="wolf-aktion">
+                    <div class="promo-banner__inner">
+                        <div class="promo-banner__content">
+                            <h2 class="promo-banner__title"><em>Baxi Thermenwartung Aktion</em></h2>
+                            <p class="promo-banner__price"><strong>ab €98</strong></p>
 
+                            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+                                <span class="promo-banner__btn-ico">🔥</span>
+                                AKTION
+                            </a>
+                        </div>
+                    </div>
+                </section>
   </div>
 </section>
 

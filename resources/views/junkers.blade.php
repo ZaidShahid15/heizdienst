@@ -357,6 +357,14 @@
     .service-hero__content{max-width:64ch}
     .service-media__box{height:220px;}
   }
+    .promo-banner__inner::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+            z-index: 0;
+        }
 </style>
 
 <main>
@@ -376,6 +384,9 @@
       für Thermenwartung, Service, Reparaturen und Notdienst in Wien und Umgebung, NÖ und Burgenland.
     </p>
 
+     <div class="wolf-hero__logo">
+      <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Logo" loading="lazy" decoding="async">
+    </div>
     <div class="wolf-hero__bullets" aria-label="Highlights">
       <span class="wolf-pill">Standard &amp; Premium Wartung</span>
       <span class="wolf-pill">Reparatur &amp; Notdienst</span>
@@ -388,9 +399,22 @@
       <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
     </div>
 
-    <div class="wolf-hero__logo">
-      <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers Logo" loading="lazy" decoding="async">
-    </div>
+   
+
+
+     <section class="promo-banner" id="wolf-aktion">
+                    <div class="promo-banner__inner">
+                        <div class="promo-banner__content">
+                            <h2 class="promo-banner__title"><em>Junkers Thermenwartung Aktion</em></h2>
+                            <p class="promo-banner__price"><strong>ab €98</strong></p>
+
+                            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+                                <span class="promo-banner__btn-ico">🔥</span>
+                                AKTION
+                            </a>
+                        </div>
+                    </div>
+                </section>
   </div>
 </section>
 
