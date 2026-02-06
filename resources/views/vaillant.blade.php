@@ -854,8 +854,21 @@
 
     <!-- optional brand/logo -->
     <div class="wolf-hero__logo">
-      <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant Thermenservice Wien" loading="lazy" decoding="async">
+      <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Thermenservice Wien" loading="lazy" decoding="async">
     </div>
+<section class="promo-banner" id="wolf-aktion">
+  <div class="promo-banner__inner">
+    <div class="promo-banner__content">
+      <h2 class="promo-banner__title"><em>Wolf Thermenwartung Aktion</em></h2>
+      <p class="promo-banner__price"><strong>ab €98</strong></p>
+
+      <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+        <span class="promo-banner__btn-ico">🔥</span>
+        AKTION
+      </a>
+    </div>
+  </div>
+</section>
 
   </div>
 </section>

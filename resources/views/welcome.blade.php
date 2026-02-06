@@ -1454,8 +1454,8 @@
                 justify-content: center;
                 padding: 12px 18px;
                 border-radius: 12px;
-                background: var(--primary, #22c55e);
-                color: #0b1220;
+                background: #FE8F13;
+                color: white;
                 font-weight: 700;
                 text-decoration: none;
                 transition: transform .12s ease, opacity .12s ease;

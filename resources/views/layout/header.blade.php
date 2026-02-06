@@ -18,9 +18,7 @@
     <!-- Mobile dropdown panel -->
     <div id="mobileMenuPanel" class="mobile-menu-panel">
         <a href="{{ url('/') }}" onclick="closeMobileMenu()">Startseite</a>
-        <a href="#reparatur" onclick="closeMobileMenu()">Reparatur</a>
-        <a href="#service" onclick="closeMobileMenu()">Service</a>
-        <a href="#verkauf" onclick="closeMobileMenu()">Verkauf</a>
+        
 
         <!-- Markenübersicht (mobile dropdown) -->
         <div class="nav-dropdown-panel" role="menu" aria-label="Markenübersicht">
@@ -90,9 +88,7 @@
 
                 <nav aria-label="Hauptmenü">
                     <a class="active" href="{{ url('/') }}">Startseite</a>
-                    <a href="#reparatur">Reparatur</a>
-                    <a href="#service">Service</a>
-                    <a href="#verkauf">Verkauf</a>
+                 
 
                     <!-- Markenübersicht dropdown -->
                     <div class="nav-dropdown">

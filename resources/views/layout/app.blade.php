@@ -77,7 +77,7 @@
         .wolf-hero__inner {
             position: relative;
             z-index: 2;
-            max-width: 900px;
+            max-width: 1132px !important;
             margin-top: 40px;
         }
 
@@ -184,6 +184,117 @@
         .wolf-hero__bullets{
             color: white;
         }
+    </style>
+    <style>
+        /* Promo banner (like screenshot) */
+.promo-banner{
+  /* width: min(1120px, 92%); */
+  margin: 86px auto 18px;
+  
+}
+
+.promo-banner__inner{
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  min-height: 120px;
+background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), transparent 60%), radial-gradient(800px 260px at 90% 20%, rgba(24, 64, 72, .16), transparent 60%), #fff;  border: 1px solid rgba(0,0,0,.06);
+}
+
+/* Right side image */
+.promo-banner__inner::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+  z-index:0;
+}
+
+/* White fade from left -> right (like screenshot) */
+.promo-banner__inner::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(90deg,
+    rgba(255,255,255,1) 0%,
+    rgba(255,255,255,.98) 38%,
+    rgba(255,255,255,.80) 55%,
+    rgba(255,255,255,.00) 75%
+  );
+  z-index:1;
+}
+
+.promo-banner__content{
+  position: relative;
+  z-index:2;
+  padding: 22px 26px;
+  max-width: 430px;
+}
+
+.promo-banner__title{
+  margin:0 0 6px;
+  font-size: 22px;
+  line-height: 1.1;
+  color:#143D42; /* red */
+  font-weight: 800;
+}
+
+.promo-banner__price{
+  margin:0 0 12px;
+  font-size: 34px;
+  line-height: 1;
+  color:#143D42;
+  font-weight: 900;
+}
+
+/* Button */
+.promo-banner__btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding: 10px 16px;
+  background:#143D42;
+  color:#fff;
+  font-weight: 900;
+  border-radius: 6px;
+  text-decoration:none;
+  box-shadow: 0 10px 24px rgba(224,0,0,.18);
+  transition: .18s ease;
+  letter-spacing:.02em;
+}
+
+.promo-banner__btn:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 14px 30px rgba(224,0,0,.22);
+}
+
+.promo-banner__btn-ico{
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* Mobile */
+@media (max-width: 720px){
+  .promo-banner__inner{
+    min-height: 150px;
+  }
+  .promo-banner__inner::before{
+    background: linear-gradient(180deg,
+      rgba(255,255,255,1) 0%,
+      rgba(255,255,255,.94) 55%,
+      rgba(255,255,255,.25) 100%
+    );
+  }
+  .promo-banner__content{
+    max-width: 100%;
+    padding: 18px 18px;
+  }
+  .promo-banner__price{
+    font-size: 30px;
+  }
+}
+
     </style>
     <!-- SVG icons -->
     <div aria-hidden="true"><?php /* keep HTML valid in WP; harmless elsewhere */ ?></div>
