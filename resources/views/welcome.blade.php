@@ -17,23 +17,43 @@
             z-index: 0;
             transform: scale(1.02);
         }
- .my-banner {
-    width: 300px;
-    position: absolute;
-    top: 33px !important;
-    z-index: 1;
-    right: 5px;
+
+
+        /* make hero-copy the positioning context */
+.hero-copy,
+.m-hero .hero-copy{
+  position: relative;
 }
-        
-        @media(max-width: 768px) {
-           .my-banner{
-    position: absolute;
-    z-index: 9999;
-    right: 8px;
-    top: -120px !important;
+
+/* banner default (desktop/tablet) */
+.my-banner{
+  width: 190px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(35%, -35%); /* pushes it slightly outside corner */
+  z-index: 5;
+  pointer-events: none;
 }
-        }
+
+/* keep it visible + clean on small screens */
+@media (max-width: 768px){
+  .my-banner{
+    width: 120px;
+    top: -87;
+    right: 0;
+    transform: translate(15%, -15%); /* less outside, so it doesn't get cut */
+  }
+
+  /* give the headline a bit of space so banner never overlaps text */
+  .m-hero .hero-copy h1,
+  .hero .hero-copy h1{
+    padding-right: 110px;
+  }
+}
+
     </style>
+    
    {{-- REPLACE your <section class="m-hero" ...> with this version.
    It keeps your m-hero wrapper, but uses the SAME content structure as your .hero section
    (image + desktop badges inside image + hero-copy with bullets).
@@ -88,7 +108,7 @@
 
             {{-- COPY SIDE --}}
             <div class="hero-copy">
-<img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;right:20px;"  alt="">
+<img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;"  alt="">
 
                 <h1>Thermenwartung &amp; Thermenservice in Wien &amp; Niederösterreich</h1>
                 <p>
@@ -231,7 +251,7 @@
                     </div>
 
                     <div class="hero-copy position-relative">
-<img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;right:20px;"  alt="">
+<img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;"  alt="">
 
                         <h1>Thermenwartung &amp; Thermenservice in Wien &amp; Niederösterreich</h1>
                         <p>
