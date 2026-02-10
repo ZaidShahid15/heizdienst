@@ -478,7 +478,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Rapido Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/rapido.jpeg') }}" alt="Rapido Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

@@ -122,7 +122,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit:cover;
+
     object-position:center;
   }
 
@@ -400,7 +400,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann Notdienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann Notdienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -449,6 +449,36 @@
     </div>
   </section>
 
+<!-- Kundendienst -->
+  <section class="service-section" id="kundendienst-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Viessmann Kundendienst und Service vor Ort</h2>
+            <p>
+              Der Viessmann Kundendienst in Wien unterstützt Kunden im privaten Haushalt ebenso wie im laufenden Betrieb.
+              Ob Viessmann Therme, Gastherme, Heizkessel oder moderne Heizsysteme – wir arbeiten mit Fokus auf Sicherheit,
+              Effizienz und Zuverlässigkeit.
+            </p>
+            <p>
+              Als erfahrener Installateur betreuen wir Anlagen direkt am Ort, analysieren Störungen strukturiert und setzen
+              eine passende Lösung um. Ziel ist es, Heizung, Warmwasser und Wasserversorgung rasch wiederherzustellen –
+              sicher und fachgerecht.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/viesman.jpeg') }}" alt="Viessmann Kundendienst vor Ort" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
   <!-- Highlights -->
   <section class="service-section service-section--soft" id="notdienst24-services">
     <div class="service-container">
@@ -493,35 +523,7 @@
     </div>
   </section>
 
-  <!-- Kundendienst -->
-  <section class="service-section" id="kundendienst-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Viessmann Kundendienst und Service vor Ort</h2>
-            <p>
-              Der Viessmann Kundendienst in Wien unterstützt Kunden im privaten Haushalt ebenso wie im laufenden Betrieb.
-              Ob Viessmann Therme, Gastherme, Heizkessel oder moderne Heizsysteme – wir arbeiten mit Fokus auf Sicherheit,
-              Effizienz und Zuverlässigkeit.
-            </p>
-            <p>
-              Als erfahrener Installateur betreuen wir Anlagen direkt am Ort, analysieren Störungen strukturiert und setzen
-              eine passende Lösung um. Ziel ist es, Heizung, Warmwasser und Wasserversorgung rasch wiederherzustellen –
-              sicher und fachgerecht.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-2.jpg') }}" alt="Viessmann Kundendienst vor Ort" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  
   <!-- Notfälle (dark) -->
   <section class="service-section service-section--dark" id="notfall-services">
     <div class="service-container service-emergency">

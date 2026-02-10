@@ -409,7 +409,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant-4.jpg') }}" alt="Löblich Thermenwartung Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich Thermenwartung Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -460,12 +460,27 @@
   </section>
 
   <!-- Vorteile / bullets -->
-  <section class="service-section service-section--soft" id="vorteile-services">
     <div class="service-container">
-      <div class="service-section__head">
-        <h2>Notdienst für Löblich Thermen in Wien und Umgebung</h2>
-        <p>Thermenwartung, Reparatur und Thermenservice aus einer Hand – erfahrene Installateure, geschulte Techniker und 24/7 Erreichbarkeit.</p>
+      <section class="service-section" id="kundendienst-services">
+    <div class="service-container mb-5">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Notdienst für Löblich Thermen in Wien und Umgebung</h2>
+            <p>
+            Thermenwartung, Reparatur und Thermenservice aus einer Hand – erfahrene Installateure, geschulte Techniker und 24/7 Erreichbarkeit.
+            </p>
+           
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="Löblich Kundendienst Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
       </div>
+    </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
@@ -681,7 +696,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-7.jpg') }}" alt="Kosten & Transparenz" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Kosten & Transparenz" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

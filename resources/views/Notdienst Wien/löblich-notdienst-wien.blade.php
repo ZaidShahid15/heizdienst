@@ -409,7 +409,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant-4.jpg') }}" alt="L�blich Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1loblich.jpeg') }}" alt="L�blich Kundendienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -478,7 +478,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="L�blich Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="L�blich Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -700,7 +700,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-7.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

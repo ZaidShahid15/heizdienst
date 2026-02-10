@@ -394,7 +394,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant-1.jpg') }}" alt="Vaillant Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Kundendienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -447,10 +447,28 @@
   <!-- 1) Vaillant Notdienst Wien 24/7 (benefits) -->
   <section class="service-section service-section--soft" id="notdienst24-services">
     <div class="service-container">
-      <div class="service-section__head">
-        <h2>Vaillant Notdienst Wien 24/7</h2>
-        <p>Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.</p>
+      <div class="service-container">
+      <div class="card-split mb-5 ">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Vaillant Notdienst Wien 24/7</h2>
+            <p>
+             Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.
+
+ </p>
+           
+
+         
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/viliant.jpeg') }}" alt="Vaillant Kundendienst Wien für Zuhause" loading="lazy" decoding="async">
+          </div>
+        </div>
       </div>
+    </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
@@ -717,7 +735,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-7.jpg') }}" alt="Einsatzgebiet Wien & Niederösterreich" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size1.jpeg') }}" alt="Einsatzgebiet Wien & Niederösterreich" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

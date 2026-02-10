@@ -436,7 +436,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant-1.jpg') }}" alt="Saunier Duval Thermenwartung Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier Duval Thermenwartung Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -478,6 +478,34 @@
         <a class="service-tab" href="#vorteile2-services">Vorteile</a>
         <a class="service-tab" href="#faq-services">FAQ</a>
         <a class="service-tab" href="#kontakt-services">Kontakt</a>
+      </div>
+    </div>
+  </section>
+
+    <!-- Kundendienst -->
+  <section class="service-section" id="kundendienst-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Saunier Duval Kundendienst mit Know-how</h2>
+            <p>
+              Der Saunier Duval Kundendienst unterstützt Kunden in Wien und der Umgebung bei allen Anliegen rund um Saunier Duval Thermen,
+              Duval Therme und moderne Gasgeräte. Als spezialisierter Installateur, Fachpartner und Partner der Marke Saunier Duval arbeiten wir
+              strukturiert, transparent und lösungsorientiert.
+            </p>
+            <p>
+              Unser geschultes Team bringt umfassendes Know-how, fundiertes Fachwissen und langjährige Erfahrung mit.
+              Ziel ist es, individuelle Bedürfnisse zu verstehen, Probleme nachhaltig zu lösen und die sichere Funktion Ihrer Anlage im Betrieb zu gewährleisten.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/sauneri.jpeg') }}" alt="Saunier Duval Kundendienst Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -526,33 +554,7 @@
     </div>
   </section>
 
-  <!-- Kundendienst -->
-  <section class="service-section" id="kundendienst-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Saunier Duval Kundendienst mit Know-how</h2>
-            <p>
-              Der Saunier Duval Kundendienst unterstützt Kunden in Wien und der Umgebung bei allen Anliegen rund um Saunier Duval Thermen,
-              Duval Therme und moderne Gasgeräte. Als spezialisierter Installateur, Fachpartner und Partner der Marke Saunier Duval arbeiten wir
-              strukturiert, transparent und lösungsorientiert.
-            </p>
-            <p>
-              Unser geschultes Team bringt umfassendes Know-how, fundiertes Fachwissen und langjährige Erfahrung mit.
-              Ziel ist es, individuelle Bedürfnisse zu verstehen, Probleme nachhaltig zu lösen und die sichere Funktion Ihrer Anlage im Betrieb zu gewährleisten.
-            </p>
-          </div>
-        </div>
 
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Saunier Duval Kundendienst Wien" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Notdienst (dark) -->
   <section class="service-section service-section--dark" id="notdienst-services">
@@ -789,7 +791,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-7.jpg') }}" alt="Vorteile & Beratung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size7.jpeg') }}" alt="Vorteile & Beratung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

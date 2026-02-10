@@ -392,7 +392,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant-9.jpg') }}" alt="Junkers Notdienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Notdienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -441,6 +441,33 @@
       </div>
     </div>
   </section>
+    <!-- 2) Kundendienst Wien mit Rundum Service -->
+  <section class="service-section" id="kundendienst-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Junkers Kundendienst Wien mit Rundum Service</h2>
+            <p>
+              Der Junkers Kundendienst in Wien unterstützt Haushalte und Betriebe bei akuten Problemen ebenso wie bei planbarer Wartung.
+              Wir helfen bei Junkers Therme, Gastherme und anderen Gasgeräten – schnell, sicher und strukturiert.
+            </p>
+            <p>
+              Unsere Techniker prüfen Geräte sorgfältig, analysieren das Problem und setzen Reparatur oder Inbetriebnahme fachgerecht um.
+              Ziel ist die rasche Behebung, die Wiederherstellung von Warmwasser und Heizung sowie eine lange Lebensdauer der Geräte.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/junkers.jpeg') }}" alt="Junkers Kundendienst Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- 1) Junkers Notdienst Wien (highlights) -->
   <section class="service-section service-section--soft" id="notdienst24-services">
@@ -486,32 +513,6 @@
     </div>
   </section>
 
-  <!-- 2) Kundendienst Wien mit Rundum Service -->
-  <section class="service-section" id="kundendienst-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Junkers Kundendienst Wien mit Rundum Service</h2>
-            <p>
-              Der Junkers Kundendienst in Wien unterstützt Haushalte und Betriebe bei akuten Problemen ebenso wie bei planbarer Wartung.
-              Wir helfen bei Junkers Therme, Gastherme und anderen Gasgeräten – schnell, sicher und strukturiert.
-            </p>
-            <p>
-              Unsere Techniker prüfen Geräte sorgfältig, analysieren das Problem und setzen Reparatur oder Inbetriebnahme fachgerecht um.
-              Ziel ist die rasche Behebung, die Wiederherstellung von Warmwasser und Heizung sowie eine lange Lebensdauer der Geräte.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/junkers-2.jpg') }}" alt="Junkers Kundendienst Wien" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- 3) Notdienst rund um die Uhr (dark) -->
   <section class="service-section service-section--dark" id="notdienst-services">
@@ -569,7 +570,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/junkers-3.jpg') }}" alt="Thermenservice & Wartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Thermenservice & Wartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -596,7 +597,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/junkers-11.jpg') }}" alt="Junkers Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Junkers Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -622,7 +623,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/junkers-2.jpg') }}" alt="Einsatzgebiet Wien NÖ Bgld" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size5.jpeg') }}" alt="Einsatzgebiet Wien NÖ Bgld" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -655,7 +656,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/junkers-3.jpg') }}" alt="Transparente Preise" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.jpeg') }}" alt="Transparente Preise" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -726,7 +727,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/junkers-11.jpg') }}" alt="Team & Partner" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Team & Partner" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

@@ -409,7 +409,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant-2.jpg') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -478,7 +478,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Ocean Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/oceanbaxi.jpeg') }}" alt="Ocean Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -700,7 +700,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-7.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

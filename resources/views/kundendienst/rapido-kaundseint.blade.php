@@ -461,13 +461,28 @@
   <!-- Vorteile / Intro bullets -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="service-container">
-      <div class="service-section__head">
-        <h2>Rapido Notdienst und Kundendienst in Wien und Umgebung</h2>
-        <p>
-          Thermenwartung, Reparatur und Rapido Thermenservice aus einer Hand – erfahrenes Techniker Team mit Know-how.
-          Service rund um die Uhr, auch im Winter und in jeder Jahreszeit.
-        </p>
+      <section class="service-section" id="kundendienst-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Rapido Notdienst und Kundendienst in Wien und Umgebung</h2>
+            <p>
+             Thermenwartung, Reparatur und Rapido Thermenservice aus einer Hand – erfahrenes Techniker Team mit Know-how. Service rund um die Uhr, auch im Winter und in jeder Jahreszeit.
+
+</p>
+            
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/rapido.jpeg') }}" alt="Rapido Kundendienst Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">

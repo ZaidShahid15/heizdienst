@@ -435,7 +435,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant-10.jpg') }}" alt="Wolf Notdienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Wolf Notdienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -482,7 +482,33 @@
       </div>
     </div>
   </section>
+ <!-- Kundendienst -->
+  <section class="service-section" id="kundendienst-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Wolf Kundendienst Wien mit Erfahrung</h2>
+            <p>
+              Der Wolf Kundendienst in Wien unterstützt private Kunden und Betriebe zuverlässig bei jedem Problem rund um Wolf Heizung,
+              Wolf Thermen und moderne Wolf Anlagen. Unser Service ist auf Sicherheit, Effizienz und ein stabiles Raumklima ausgerichtet.
+            </p>
+            <p>
+              Als erfahrener Installateur und Partner von Wolf betreuen wir Wolf Geräte, Gasthermen und komplette Heizungsanlagen direkt vor Ort.
+              Unsere Mitarbeiter und Techniker analysieren Störungen strukturiert, führen eine gründliche Überprüfung durch und setzen eine passende Lösung um.
+              Ziel ist es, Wärme, Komfort und Betriebssicherheit dauerhaft sicherzustellen – in Wien und Niederösterreich.
+            </p>
+          </div>
+        </div>
 
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Wolf Kundendienst Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Intro / Vorteile -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="service-container">
@@ -527,33 +553,7 @@
     </div>
   </section>
 
-  <!-- Kundendienst -->
-  <section class="service-section" id="kundendienst-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Wolf Kundendienst Wien mit Erfahrung</h2>
-            <p>
-              Der Wolf Kundendienst in Wien unterstützt private Kunden und Betriebe zuverlässig bei jedem Problem rund um Wolf Heizung,
-              Wolf Thermen und moderne Wolf Anlagen. Unser Service ist auf Sicherheit, Effizienz und ein stabiles Raumklima ausgerichtet.
-            </p>
-            <p>
-              Als erfahrener Installateur und Partner von Wolf betreuen wir Wolf Geräte, Gasthermen und komplette Heizungsanlagen direkt vor Ort.
-              Unsere Mitarbeiter und Techniker analysieren Störungen strukturiert, führen eine gründliche Überprüfung durch und setzen eine passende Lösung um.
-              Ziel ist es, Wärme, Komfort und Betriebssicherheit dauerhaft sicherzustellen – in Wien und Niederösterreich.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/wolf-2.jpg') }}" alt="Wolf Kundendienst Wien" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   <!-- Notdienst (dark) -->
   <section class="service-section service-section--dark" id="notdienst-services">
@@ -676,7 +676,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/wolf-3.jpg') }}" alt="Wolf Thermenservice" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Wolf Thermenservice" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -703,7 +703,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/wolf-11.jpg') }}" alt="Thermentausch & Installation" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Thermentausch & Installation" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -731,7 +731,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/wolf-2.jpg') }}" alt="Einsatzgebiet Wien & Niederösterreich" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Einsatzgebiet Wien & Niederösterreich" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -765,7 +765,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/wolf-3.jpg') }}" alt="Team & Ansprechpartner" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size5.jpeg') }}" alt="Team & Ansprechpartner" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -836,7 +836,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/wolf-11.jpg') }}" alt="Termin & Unterstützung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size2.jpeg') }}" alt="Termin & Unterstützung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

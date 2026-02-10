@@ -478,7 +478,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Baxi Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -511,7 +511,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.jpeg') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -604,7 +604,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-              <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Thermenwartung" loading="lazy" decoding="async">
+              <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -637,7 +637,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-7.jpg') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size3.jpg') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

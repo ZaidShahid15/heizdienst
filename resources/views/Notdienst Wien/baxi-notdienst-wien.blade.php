@@ -383,12 +383,13 @@
     z-index:1;
     display:flex;
     align-items:center;
+    flex-direction:column;
     justify-content:center;
     gap:16px;
     flex-wrap:wrap;
   }
-  .promo-banner__title{margin:0; color:#fff; font-size:20px}
-  .promo-banner__price{margin:0; color:#fff; font-size:18px}
+  .promo-banner__title{margin:0; color:#fff; font-size:20px;color:#09383F}
+  .promo-banner__price{margin:0; color:#fff; font-size:18px;color:#09383F}
   .promo-banner__btn{
     display:inline-flex;
     align-items:center;
@@ -481,6 +482,34 @@
     </div>
   </section>
 
+   <!-- Kundendienst -->
+  <section class="service-section" id="kundendienst-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Baxi Kundendienst Wien mit Kompetenz</h2>
+            <p>
+              Der Baxi Kundendienst Wien betreut Kunden zuverlässig bei allen Anliegen rund um Baxi Thermen, Baxi Gastherme
+              und moderne Heizungsanlagen. Als spezialisierter Baxi Installateur und erfahrener Fachpartner bieten wir
+              professionellen Service, transparente Beratung und nachhaltige Lösungen.
+            </p>
+            <p>
+              Unsere Techniker analysieren Probleme strukturiert, übernehmen Wartung und Reparatur und sorgen für eine sichere Funktion Ihrer Anlage.
+              Ziel ist es, Heizung, Warmwasser und Warmwasserversorgung rasch wiederherzustellen – zuverlässig in Wien, Wien NÖ und der Umgebung.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Kundendienst Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Intro / Vorteile -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="service-container">
@@ -525,33 +554,7 @@
     </div>
   </section>
 
-  <!-- Kundendienst -->
-  <section class="service-section" id="kundendienst-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Baxi Kundendienst Wien mit Kompetenz</h2>
-            <p>
-              Der Baxi Kundendienst Wien betreut Kunden zuverlässig bei allen Anliegen rund um Baxi Thermen, Baxi Gastherme
-              und moderne Heizungsanlagen. Als spezialisierter Baxi Installateur und erfahrener Fachpartner bieten wir
-              professionellen Service, transparente Beratung und nachhaltige Lösungen.
-            </p>
-            <p>
-              Unsere Techniker analysieren Probleme strukturiert, übernehmen Wartung und Reparatur und sorgen für eine sichere Funktion Ihrer Anlage.
-              Ziel ist es, Heizung, Warmwasser und Warmwasserversorgung rasch wiederherzustellen – zuverlässig in Wien, Wien NÖ und der Umgebung.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Baxi Kundendienst Wien" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   <!-- Notdienst (dark) -->
   <section class="service-section service-section--dark" id="notdienst-services">
@@ -703,7 +706,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-7.jpg') }}" alt="Thermentausch & Austausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size4.jpeg') }}" alt="Thermentausch & Austausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

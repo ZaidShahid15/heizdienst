@@ -409,7 +409,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant-5.jpg') }}" alt="Buderus Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Kundendienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -478,7 +478,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Buderus Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

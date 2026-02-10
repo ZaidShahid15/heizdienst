@@ -382,13 +382,14 @@
     position:relative;
     z-index:1;
     display:flex;
+    flex-direction:column;
     align-items:center;
     justify-content:center;
     gap:16px;
     flex-wrap:wrap;
   }
-  .promo-banner__title{margin:0; color:#fff; font-size:20px}
-  .promo-banner__price{margin:0; color:#fff; font-size:18px}
+  .promo-banner__title{margin:0; color:#fff; font-size:20px;color:#09383F}
+  .promo-banner__price{margin:0; color:#fff; font-size:18px;color:#09383F}
   .promo-banner__btn{
     display:inline-flex;
     align-items:center;
@@ -436,7 +437,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant-5.jpg') }}" alt="Buderus Service Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Service Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -455,7 +456,7 @@
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
             <h2 class="promo-banner__title"><em>Buderus Kundendienst Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab €95</strong></p>
+            <p class="promo-banner__price"><strong>ab €95</strong></p> 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">AKTION</a>
           </div>
         </div>
@@ -481,6 +482,35 @@
       </div>
     </div>
   </section>
+
+   <!-- Kundendienst -->
+  <section class="service-section" id="kundendienst-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Buderus Kundendienst Wien mit Kompetenz</h2>
+            <p>
+              Der Buderus Kundendienst in Wien unterstützt private Haushalte und den laufenden Betrieb bei allen Anliegen rund um Buderus Thermen,
+              Heizkessel und moderne Heizungsanlagen. Als spezialisierter Fachmann und verlässlicher Partner für Buderus Produkte bieten wir
+              professionelle Beratung, strukturierte Abläufe und nachhaltige Behebung von Problemen.
+            </p>
+            <p>
+              Unser geschultes Fachpersonal analysiert jede Situation direkt vor Ort, erkennt Ursachen von Störungen und sorgt für eine sichere Lösung.
+              Ziel ist es, Heizung, Warmwasser und Effizienz dauerhaft sicherzustellen – zuverlässig in Wien und der Umgebung.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Kundendienst Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Vorteile -->
   <section class="service-section service-section--soft" id="vorteile-services">
@@ -526,34 +556,7 @@
     </div>
   </section>
 
-  <!-- Kundendienst -->
-  <section class="service-section" id="kundendienst-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Buderus Kundendienst Wien mit Kompetenz</h2>
-            <p>
-              Der Buderus Kundendienst in Wien unterstützt private Haushalte und den laufenden Betrieb bei allen Anliegen rund um Buderus Thermen,
-              Heizkessel und moderne Heizungsanlagen. Als spezialisierter Fachmann und verlässlicher Partner für Buderus Produkte bieten wir
-              professionelle Beratung, strukturierte Abläufe und nachhaltige Behebung von Problemen.
-            </p>
-            <p>
-              Unser geschultes Fachpersonal analysiert jede Situation direkt vor Ort, erkennt Ursachen von Störungen und sorgt für eine sichere Lösung.
-              Ziel ist es, Heizung, Warmwasser und Effizienz dauerhaft sicherzustellen – zuverlässig in Wien und der Umgebung.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Buderus Kundendienst Wien" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+ 
   <!-- Notdienst (dark) -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
