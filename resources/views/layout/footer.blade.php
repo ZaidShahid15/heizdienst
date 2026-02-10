@@ -1,4 +1,13 @@
-    <!-- FOOTER -->
+<style>
+    .footer-logo{
+        width: 100%
+    }
+    @media (max-width: 768px) {
+        .footer-logo {
+           width: 50%
+        }
+    }
+    </style>    <!-- FOOTER -->
     <footer id="kontakt">
         <div class="footer-top">
             <div class="container">
@@ -33,7 +42,7 @@
                     </div>
 
                     <div>
-                        <img src="{{ asset('img/mobile-logo.jpeg') }}" style="width: 98%" alt="">
+                        <img src="{{ asset('img/mobile-logo.jpeg') }}" class="footer-logo" alt="">
                     </div>
 
                     <div>
