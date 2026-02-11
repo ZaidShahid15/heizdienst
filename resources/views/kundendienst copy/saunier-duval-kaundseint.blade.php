@@ -51,25 +51,6 @@
   .service-btn--ghost-on-dark:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.22)}
   .service-btn--full{width:100%}
 
-  /* Quick tabs */
-  .service-quicktabs{padding:10px 0 20px}
-  .service-tabs{
-    display:flex; gap:10px; flex-wrap:wrap;
-    padding:10px;
-    border:1px solid var(--line);
-    border-radius:19px;
-    background:#fff;
-    justify-content: space-between;
-  }
-  .service-tab{
-    padding:10px 12px;
-    border-radius:999px;
-    font-weight:800;
-    color:var(--ink);
-    border:1px solid transparent;
-  }
-  .service-tab:hover{border-color:var(--line); background:rgba(24,64,72,.05)}
-
   /* Sections */
   .service-section{padding:54px 0}
   .service-section--soft{background:linear-gradient(0deg, var(--muted), #fff)}
@@ -84,13 +65,6 @@
 
   .service-grid{display:grid; gap:14px}
   .service-grid--2{grid-template-columns: repeat(2, 1fr)}
-
-  .service-card{
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius: var(--radius);
-    padding:16px;
-  }
 
   .service-feature{
     display:flex; gap:12px;
@@ -111,43 +85,7 @@
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  .service-checklist{margin:0; padding-left:18px}
-  .service-checklist li{margin:8px 0}
-
-  /* =====================================================
-     ✅ IMAGE SIZE = CONTENT SIZE (CARD SPLIT)
-     ===================================================== */
-  .card-split{
-    display:grid;
-    grid-template-columns: 1.12fr .88fr;
-    gap:18px;
-    align-items:stretch; /* ✅ equal height */
-  }
-  .card-split--reverse .card-split__text{order:2}
-  .card-split--reverse .card-split__media{order:1}
-
-  .card-split__text,
-  .card-split__media{display:flex;} /* ✅ stretch child */
-
-  /* Image box */
-  .service-media{width:100%;}
-  .service-media__box{
-    width:100%;
-    height:100%; /* ✅ match content height */
-    border-radius: var(--radius2);
-    border:1px solid var(--line);
-    box-shadow:0 18px 50px rgba(0,0,0,.12);
-    overflow:hidden;
-    background: var(--muted);
-  }
-  .service-media__img{
-    width:100%;
-    height:100%;
-    display:block;
-    object-fit:cover; /* ✅ consistent */
-    object-position:center;
-  }
-
+  /* ✅ stats pills (keep your original style) */
   .service-stats{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;}
   .service-stat{
     display:flex; align-items:center; gap:10px;
@@ -158,6 +96,57 @@
   }
   .service-stat__num{font-weight:900; color:var(--ink)}
   .service-stat__label{font-weight:800}
+
+  /* ===== ✅ Card split (EQUAL HEIGHT like previous page) ===== */
+  .card-split{
+    display:grid;
+    grid-template-columns: 1.12fr .88fr;
+    gap:18px;
+    align-items:stretch; /* ✅ stretch to make both columns same height */
+  }
+  .card-split--reverse .card-split__text{order:2}
+  .card-split--reverse .card-split__media{order:1}
+
+  .card-split__text,
+  .card-split__media{
+    display:flex; /* ✅ allow children to fill height */
+  }
+
+  .card-box{
+    width:100%;
+    height:100%;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius2);
+    padding:18px;
+  }
+  .card-box h2{
+    margin:0 0 8px;
+    color:var(--ink);
+    font-size: clamp(22px, 2.2vw, 30px);
+    letter-spacing:-.02em;
+  }
+  .card-box p{margin:0}
+  .card-box p + p{margin-top:10px}
+
+  /* ✅ Image box = same height as content */
+  .service-media{width:100%;}
+  .service-media__box{
+    width:100%;
+    height:100%;           /* ✅ equal height with card-box */
+    border-radius: var(--radius2);
+    border:1px solid var(--line);
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+    overflow:hidden;
+    background: var(--muted);
+  }
+  .service-media__img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;      /* ✅ no empty space */
+    object-position:center;
+  }
 
   /* Dark section */
   .service-section--dark{
@@ -180,6 +169,7 @@
     border-radius:var(--radius);
     padding:16px;
   }
+  .service-checklist{margin:0; padding-left:18px}
   .service-checklist--on-dark{color:rgba(255,255,255,.92)}
   .service-checklist--on-dark li{margin:10px 0}
 
@@ -241,23 +231,6 @@
   .service-formrow{display:grid; grid-template-columns: 1fr 1fr; gap:10px;}
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
-
-  /* ===== Card box (kept) ===== */
-  .card-box{
-    width:100%;
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius:var(--radius2);
-    padding:18px;
-  }
-  .card-box h2{
-    margin:0 0 8px;
-    color:var(--ink);
-    font-size: clamp(22px, 2.2vw, 30px);
-    letter-spacing:-.02em;
-  }
-  .card-box p{margin:0}
-  .card-box p + p{margin-top:10px}
 
   /* ===== HERO (wolf) ===== */
   .wolf-hero{
@@ -369,57 +342,24 @@
   .wolf-btn--ghost{background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.28); color:#fff;}
   .wolf-btn--ghost:hover, .wolf-btn--accent:hover{transform:translateY(-1px);}
 
-  /* Promo */
-  .promo-banner{margin-top:22px}
-  .promo-banner__inner{
-    position:relative;
-    overflow:hidden;
-    border-radius:18px;
-    border:1px solid rgba(255,255,255,.18);
-    background:rgba(255,255,255,.06);
-    padding:16px;
-  }
   .promo-banner__inner::after{
     content:"";
     position:absolute;
     inset:0;
     background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
     z-index:0;
-    opacity:.55;
-  }
-  .promo-banner__content{
-    position:relative;
-    z-index:1;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:16px;
-    flex-wrap:wrap;
-  }
-  .promo-banner__title{margin:0; color:#09383F; font-size:20px;}
-  .promo-banner__price{margin:0; color:#09383F; font-size:18px;}
-  .promo-banner__btn{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    padding:12px 16px;
-    border-radius:999px;
-    background:var(--accent);
-    color:#1a1a1a;
-    font-weight:900;
   }
 
   /* =========================
-     ✅ TOC AFTER HERO
+     ✅ TOC (after hero, full width)
      ========================= */
-  .toc-wrap{padding:14px 0 10px; background:#fff;}
+  .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
     width:100%;
     background:#fff;
     border:1px solid rgba(24,64,72,.18);
     border-radius:18px;
-    box-shadow:0 18px 50px rgba(0,0,0,.10);
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
     overflow:hidden;
   }
   .toc-head{
@@ -431,14 +371,10 @@
     background:linear-gradient(0deg, #f7fbfb, #fff);
     border-bottom:1px solid rgba(24,64,72,.12);
   }
-  .toc-head h4{
-    margin:0;
-    font-size:15px;
-    font-weight:900;
-    color:var(--ink);
-  }
+  .toc-head h4{margin:0; font-size:15px; font-weight:900; color:var(--ink);}
+  .toc-actions{display:flex; gap:8px; align-items:center;}
   .toc-iconbtn{
-    width:36px; height:36px;
+    width:34px; height:34px;
     border-radius:10px;
     border:1px solid rgba(24,64,72,.18);
     background:#fff;
@@ -447,13 +383,12 @@
     transition:.15s ease;
   }
   .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.10)}
-  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9; transition:transform .18s ease}
-
+  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9}
   .toc-body{
     padding:12px;
+    transition:max-height .22s ease, padding .22s ease;
     max-height:520px;
     overflow:auto;
-    transition:max-height .22s ease, padding .22s ease;
   }
   .toc-list{
     list-style:none;
@@ -485,11 +420,7 @@
     flex:0 0 auto;
   }
   .toc-text{font-weight:900; color:#0f3a40; font-size:14px; line-height:1.2;}
-  .toc-card.is-collapsed .toc-body{
-    max-height:0;
-    padding:0 12px;
-    overflow:hidden;
-  }
+  .toc-card.is-collapsed .toc-body{max-height:0; padding:0 12px; overflow:hidden;}
 
   /* Mobile */
   @media (max-width: 980px){
@@ -497,18 +428,23 @@
     .service-emergency{grid-template-columns:1fr}
     .service-cta__inner{grid-template-columns:1fr}
     .service-formrow{grid-template-columns:1fr}
+
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
-    .service-media__box{height:220px;} /* ✅ mobile limit */
+
+    .card-split__text,
+    .card-split__media{display:block;}
+
+    .service-media__box{min-height:220px; height:auto;} /* ✅ nice on mobile */
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
 </style>
 
 @push('meta')
-  <title>L�blich Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="L�blich Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+  <title>Saunier Duval Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
+  <meta name="description" content="Saunier Duval Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
 @endpush
 
 <main>
@@ -518,16 +454,16 @@
       <p class="wolf-hero__kicker">service rund um die uhr</p>
 
       <h1>
-        L�blich Kundendienst Wien<br>
+        Saunier Duval Kundendienst Wien<br>
         <em>service rund um die uhr</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Professioneller L�blich Kundendienst Wien für Gasgeräte, Thermen und Heizsysteme inklusive Wartung, Reparaturen und Notdienst.
+        Professioneller Saunier Duval Kundendienst Wien für Gasgeräte, Thermen und Heizsysteme inklusive Wartung, Reparaturen und Notdienst.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1loblich.jpeg') }}" alt="L�blich Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier Duval Kundendienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -545,7 +481,7 @@
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>L�blich Kundendienst Aktion</em></h2>
+            <h2 class="promo-banner__title"><em>Saunier Duval Kundendienst Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
@@ -558,48 +494,48 @@
     </div>
   </section>
 
-  <!-- ✅ TOC AFTER HERO -->
+  <!-- ✅ TOC (after HERO) -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card" id="tocCard">
         <div class="toc-head">
           <h4>Inhaltsverzeichnis</h4>
-          <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
-            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(180deg);">
-              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
-            </svg>
-          </button>
+          <div class="toc-actions">
+            <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/>
+              </svg>
+            </button>
+          </div>
         </div>
 
         <div class="toc-body" id="tocBody">
           <ul class="toc-list">
-            <li class="toc-item"><a href="#vorteile-services"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
-            <li class="toc-item"><a href="#partner-services"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#warum-services"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
-            <li class="toc-item"><a href="#reparatur-services"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
-            <li class="toc-item"><a href="#preise-services"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
-            <li class="toc-item"><a href="#region-services"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#faq-services"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service in Wien</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team & Kompetenz</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Thermenwartung</span></a></li>
+            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-
-
-  <!-- ✅ UPDATED: card box left + image right -->
+  <!-- Service -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>L�blich Service in Wien</h2>
+            <h2>Saunier Duval Service in Wien</h2>
             <p>
-              Als erfahrener Partner betreuen wir L�blich Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
+              Als erfahrener Partner betreuen wir Saunier Duval Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
               Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
             </p>
             <p>
@@ -611,14 +547,14 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="L�blich Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/sauneri.jpeg') }}" alt="Saunier Duval Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left, content right) -->
+  <!-- Team -->
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
@@ -627,7 +563,7 @@
             <h2>Servicetechniker, Team & Kompetenz</h2>
             <p>
               Unser Team besteht aus erfahrenen Servicetechnikern, Installateuren und Mitarbeitern mit umfassendem Know-how
-              im Umgang mit L�blich Heizungen und Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards.
+              im Umgang mit Saunier Duval Heizungen und Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards.
             </p>
             <p>
               Durch laufende Schulungen sichern wir eine kompetente Betreuung aller Systeme. Klare Abläufe, Zuverlässigkeit
@@ -651,7 +587,7 @@
     </div>
   </section>
 
-  <!-- Leistungen (kept as grid) -->
+  <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -663,8 +599,8 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>L�blich Gasgeräte Service</h3>
-            <p>Service für L�blich Gasgeräte inklusive Überprüfung, Wartung und sicherer Funktion im gesamten Zuhause.</p>
+            <h3>Saunier Duval Gasgeräte Service</h3>
+            <p>Service für Saunier Duval Gasgeräte inklusive Überprüfung, Wartung und sicherer Funktion im gesamten Zuhause.</p>
           </div>
         </article>
 
@@ -711,7 +647,7 @@
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
+  <!-- Thermenwartung -->
   <section class="service-section service-section--soft" id="warum-services">
     <div class="service-container">
       <div class="card-split">
@@ -719,7 +655,7 @@
           <div class="card-box">
             <h2>Thermenwartung & Wartungsarbeiten</h2>
             <p>
-              Eine regelmäßige Thermenwartung ist entscheidend für Funktion, Sicherheit und Langlebigkeit Ihrer L�blich Geräte.
+              Eine regelmäßige Thermenwartung ist entscheidend für Funktion, Sicherheit und Langlebigkeit Ihrer Saunier Duval Geräte.
               Unsere Wartungsarbeiten umfassen Überprüfung, Abgasmessungen, Reinigung von Verschleißteilen und Funktionskontrolle.
             </p>
             <p>
@@ -744,7 +680,7 @@
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left) -->
+  <!-- Reparaturen -->
   <section class="service-section" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
@@ -777,11 +713,11 @@
     </div>
   </section>
 
-  <!-- Notdienst (kept dark) -->
+  <!-- Notdienst -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>L�blich Notdienst im Notfall</h2>
+        <h2>Saunier Duval Notdienst im Notfall</h2>
         <p>
           Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
           Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
@@ -813,7 +749,7 @@
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
+  <!-- Kosten -->
   <section class="service-section" id="preise-services">
     <div class="service-container">
       <div class="card-split">
@@ -826,21 +762,21 @@
             </p>
             <p>
               Kunden erhalten eine ehrliche Beratung – abgestimmt auf Bedarf. Fachgerechter Service sorgt dafür,
-              dass die Qualität von L�blich Systemen dauerhaft erhalten bleibt.
+              dass die Qualität von Saunier Duval Systemen dauerhaft erhalten bleibt.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left) -->
+  <!-- Region -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
@@ -856,7 +792,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -873,7 +809,7 @@
 
       <div class="service-faq">
         <details>
-          <summary>Was bietet der L�blich Kundendienst Wien?</summary>
+          <summary>Was bietet der Saunier Duval Kundendienst Wien?</summary>
           <p>Unser Kundendienst umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
         </details>
 
@@ -884,7 +820,7 @@
 
         <details>
           <summary>Sind Ersatzteile verfügbar?</summary>
-          <p>Ja, wir verwenden passende Ersatzteile und Verschleißteile für L�blich Geräte.</p>
+          <p>Ja, wir verwenden passende Ersatzteile und Verschleißteile für Saunier Duval Geräte.</p>
         </details>
 
         <details>
@@ -905,7 +841,7 @@
     </div>
   </section>
 
-  <!-- ✅ CONTACT FORM ALWAYS LAST -->
+  <!-- CONTACT -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
@@ -947,45 +883,48 @@
 
 <script>
   (function(){
-    // Smooth scroll
-    document.querySelectorAll('a[href^="#"]').forEach(function(link){
-      link.addEventListener('click', function(e){
-        var id = this.getAttribute('href');
-        if (!id || id === '#') return;
-        var el = document.querySelector(id);
-        if (!el) return;
-        e.preventDefault();
-        var offset = 16;
-        var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({ top: top, behavior: 'smooth' });
-      });
-    });
+    // year
+    var y = document.getElementById("year");
+    if (y) y.textContent = new Date().getFullYear();
 
     // TOC collapse
     var tocCard = document.getElementById('tocCard');
     var tocToggle = document.getElementById('tocToggle');
 
     function setExpanded(isExpanded){
-      if (!tocCard || !tocToggle) return;
       tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
       tocCard.classList.toggle('is-collapsed', !isExpanded);
 
       var svg = tocToggle.querySelector('svg');
       if (svg){
         svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+        svg.style.transition = 'transform .18s ease';
       }
     }
 
     setExpanded(true);
-    if (tocToggle){
-      tocToggle.addEventListener('click', function(){
-        var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
-        setExpanded(!expanded);
-      });
-    }
 
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
+    tocToggle.addEventListener('click', function(){
+      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
+      setExpanded(!expanded);
+    });
+
+    // smooth scroll
+    document.querySelectorAll('.toc-link').forEach(function(link){
+      link.addEventListener('click', function(e){
+        var href = this.getAttribute('href');
+        if (!href || href.charAt(0) !== '#') return;
+
+        var target = document.querySelector(href);
+        if (!target) return;
+
+        e.preventDefault();
+
+        var offset = 18;
+        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      });
+    });
   })();
 </script>
 @endsection

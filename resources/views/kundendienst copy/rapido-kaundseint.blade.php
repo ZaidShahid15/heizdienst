@@ -85,13 +85,6 @@
   .service-grid{display:grid; gap:14px}
   .service-grid--2{grid-template-columns: repeat(2, 1fr)}
 
-  .service-card{
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius: var(--radius);
-    padding:16px;
-  }
-
   .service-feature{
     display:flex; gap:12px;
     padding:16px;
@@ -114,26 +107,41 @@
   .service-checklist{margin:0; padding-left:18px}
   .service-checklist li{margin:8px 0}
 
-  /* =====================================================
-     ✅ IMAGE SIZE = CONTENT SIZE (CARD SPLIT)
-     ===================================================== */
+  /* ✅ Image equal to content (no fixed height) */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch; /* ✅ equal height */
+    align-items:stretch; /* important */
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
 
   .card-split__text,
-  .card-split__media{display:flex;} /* ✅ stretch child */
+  .card-split__media{
+    display:flex; /* makes both columns equal height */
+  }
 
-  /* Image box */
+  .card-box{
+    width:100%;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius2);
+    padding:18px;
+  }
+  .card-box h2{
+    margin:0 0 8px;
+    color:var(--ink);
+    font-size: clamp(22px, 2.2vw, 30px);
+    letter-spacing:-.02em;
+  }
+  .card-box p{margin:0}
+  .card-box p + p{margin-top:10px}
+
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:100%; /* ✅ match content height */
+    height:100%;          /* ✅ match text height */
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -142,9 +150,9 @@
   }
   .service-media__img{
     width:100%;
-    height:100%;
+    height:100%;          /* ✅ match wrapper height */
     display:block;
-    object-fit:cover; /* ✅ consistent */
+    object-fit:cover;      /* ✅ fill without distortion */
     object-position:center;
   }
 
@@ -242,24 +250,7 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* ===== Card box (kept) ===== */
-  .card-box{
-    width:100%;
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius:var(--radius2);
-    padding:18px;
-  }
-  .card-box h2{
-    margin:0 0 8px;
-    color:var(--ink);
-    font-size: clamp(22px, 2.2vw, 30px);
-    letter-spacing:-.02em;
-  }
-  .card-box p{margin:0}
-  .card-box p + p{margin-top:10px}
-
-  /* ===== HERO (wolf) ===== */
+  /* ===== HERO ===== */
   .wolf-hero{
     position:relative;
     min-height:520px;
@@ -317,6 +308,7 @@
     font-weight:800;
     color:#fff;
     margin:0 0 12px;
+    text-transform:lowercase;
   }
   .wolf-hero h1{
     margin:0 0 10px;
@@ -369,57 +361,27 @@
   .wolf-btn--ghost{background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.28); color:#fff;}
   .wolf-btn--ghost:hover, .wolf-btn--accent:hover{transform:translateY(-1px);}
 
-  /* Promo */
-  .promo-banner{margin-top:22px}
-  .promo-banner__inner{
-    position:relative;
-    overflow:hidden;
-    border-radius:18px;
-    border:1px solid rgba(255,255,255,.18);
-    background:rgba(255,255,255,.06);
-    padding:16px;
-  }
   .promo-banner__inner::after{
     content:"";
     position:absolute;
     inset:0;
     background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
     z-index:0;
-    opacity:.55;
-  }
-  .promo-banner__content{
-    position:relative;
-    z-index:1;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:16px;
-    flex-wrap:wrap;
-  }
-  .promo-banner__title{margin:0; color:#09383F; font-size:20px;}
-  .promo-banner__price{margin:0; color:#09383F; font-size:18px;}
-  .promo-banner__btn{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    padding:12px 16px;
-    border-radius:999px;
-    background:var(--accent);
-    color:#1a1a1a;
-    font-weight:900;
   }
 
   /* =========================
-     ✅ TOC AFTER HERO
+     ✅ TOC (after hero, full width)
      ========================= */
-  .toc-wrap{padding:14px 0 10px; background:#fff;}
+  .toc-wrap{
+    padding:16px 0 0;
+    background:#fff;
+  }
   .toc-card{
     width:100%;
     background:#fff;
     border:1px solid rgba(24,64,72,.18);
     border-radius:18px;
-    box-shadow:0 18px 50px rgba(0,0,0,.10);
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
     overflow:hidden;
   }
   .toc-head{
@@ -437,8 +399,9 @@
     font-weight:900;
     color:var(--ink);
   }
+  .toc-actions{display:flex; gap:8px; align-items:center;}
   .toc-iconbtn{
-    width:36px; height:36px;
+    width:34px; height:34px;
     border-radius:10px;
     border:1px solid rgba(24,64,72,.18);
     background:#fff;
@@ -447,13 +410,13 @@
     transition:.15s ease;
   }
   .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.10)}
-  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9; transition:transform .18s ease}
+  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9}
 
   .toc-body{
     padding:12px;
+    transition:max-height .22s ease, padding .22s ease;
     max-height:520px;
     overflow:auto;
-    transition:max-height .22s ease, padding .22s ease;
   }
   .toc-list{
     list-style:none;
@@ -491,7 +454,6 @@
     overflow:hidden;
   }
 
-  /* Mobile */
   @media (max-width: 980px){
     .service-grid--2{grid-template-columns:1fr}
     .service-emergency{grid-template-columns:1fr}
@@ -500,41 +462,40 @@
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
-    .service-media__box{height:220px;} /* ✅ mobile limit */
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
 </style>
 
 @push('meta')
-  <title>L�blich Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="L�blich Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+  <title>Rapido Notdienst Wien – Thermenservice & Gastherme 24h</title>
+  <meta name="description" content="Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & Reparatur ✔ Gastherme, Heizung & Kundendienst rund um die Uhr in Wien & NÖ.">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">service rund um die uhr</p>
+      <p class="wolf-hero__kicker">notdienst rund um die uhr</p>
 
       <h1>
-        L�blich Kundendienst Wien<br>
-        <em>service rund um die uhr</em>
+        Rapido Notdienst Wien<br>
+        <em>Thermenservice &amp; Gastherme 24h</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Professioneller L�blich Kundendienst Wien für Gasgeräte, Thermen und Heizsysteme inklusive Wartung, Reparaturen und Notdienst.
+        Schnelle Hilfe bei Störungen, Ausfall oder Problemen mit der Gastherme – der Rapido Notdienst Wien ist zuverlässig für Sie da.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1loblich.jpeg') }}" alt="L�blich Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1rapido.jpeg') }}" alt="Rapido Notdienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Wartung</span>
-        <span class="wolf-pill">Reparaturen</span>
-        <span class="wolf-pill">Ersatzteile</span>
-        <span class="wolf-pill">Notdienst rund um die uhr</span>
+        <span class="wolf-pill">Thermenservice</span>
+        <span class="wolf-pill">Thermenwartung</span>
+        <span class="wolf-pill">Reparatur</span>
+        <span class="wolf-pill">Notdienst 24h</span>
       </div>
 
       <div class="wolf-hero__actions">
@@ -545,8 +506,8 @@
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>L�blich Kundendienst Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab  €95</strong></p>
+            <h2 class="promo-banner__title"><em>Rapido Notdienst Aktion</em></h2>
+            <p class="promo-banner__price"><strong>ab €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
               <span class="promo-banner__btn-ico">  </span>
@@ -558,31 +519,33 @@
     </div>
   </section>
 
-  <!-- ✅ TOC AFTER HERO -->
+  <!-- ✅ TOC AFTER HERO (FULL WIDTH) -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card" id="tocCard">
         <div class="toc-head">
           <h4>Inhaltsverzeichnis</h4>
-          <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
-            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(180deg);">
-              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
-            </svg>
-          </button>
+          <div class="toc-actions">
+            <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(180deg); transition: transform 0.18s;">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+              </svg>
+            </button>
+          </div>
         </div>
 
         <div class="toc-body" id="tocBody">
           <ul class="toc-list">
-            <li class="toc-item"><a href="#vorteile-services"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
-            <li class="toc-item"><a href="#partner-services"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#warum-services"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
-            <li class="toc-item"><a href="#reparatur-services"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
-            <li class="toc-item"><a href="#preise-services"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
-            <li class="toc-item"><a href="#region-services"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#faq-services"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service in Wien</span></a></li>
+            <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team &amp; Kompetenz</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Thermenwartung</span></a></li>
+            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
@@ -590,206 +553,90 @@
   </section>
 
 
-
-  <!-- ✅ UPDATED: card box left + image right -->
-  <section class="service-section" id="vorteile-services">
+   <!-- Kundendienst -->
+  <section class="service-section" id="kundendienst-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>L�blich Service in Wien</h2>
+            <h2>Rapido Notdienst und Kundendienst in Wien und Umgebung</h2>
             <p>
-              Als erfahrener Partner betreuen wir L�blich Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Thermenwartung, Reparatur und Rapido Thermenservice aus einer Hand – erfahrenes Techniker Team mit Know-how.
+              Service rund um die Uhr, auch im Winter und in jeder Jahreszeit.
             </p>
             <p>
-              Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,
-              schnelle Durchführung und klare Kommunikation – auch in Niederösterreich unterstützen wir Haushalte und Betriebe zuverlässig.
+              Unser Team aus qualifizierten Technikern und Installateuren bringt umfassendes Fachwissen, langjährige Erfahrung und praxisnahes Know-how mit.
+              Jede Überprüfung erfolgt strukturiert, damit Probleme frühzeitig erkannt und eine passende Lösung umgesetzt wird.
+              Ziel ist Sicherheit, Komfort und eine stabile Funktion Ihrer Anlage.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="L�blich Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/rapido.jpeg') }}" alt="Rapido Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section>       1  
 
-  <!-- ✅ UPDATED: reverse (image left, content right) -->
-  <section class="service-section service-section--soft" id="partner-services">
+  <!-- Vorteile -->
+  <section class="service-section service-section--soft" id="vorteile-services">
     <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Servicetechniker, Team & Kompetenz</h2>
-            <p>
-              Unser Team besteht aus erfahrenen Servicetechnikern, Installateuren und Mitarbeitern mit umfassendem Know-how
-              im Umgang mit L�blich Heizungen und Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards.
-            </p>
-            <p>
-              Durch laufende Schulungen sichern wir eine kompetente Betreuung aller Systeme. Klare Abläufe, Zuverlässigkeit
-              und persönliche Betreuung schaffen Vertrauen und langfristige Kundenzufriedenheit.
-            </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Qualitätsstandards</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Laufende Schulungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Persönliche Betreuung</div></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Leistungen (kept as grid) -->
-  <section class="service-section" id="leistungen-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Leistungen unseres Kundendienstes</h2>
-        <p>Wartung, Thermenwartung, Reparaturen, Zubehör und Systemlösungen – professionell betreut.</p>
-      </div>
-
       <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
-          <div>
-            <h3>L�blich Gasgeräte Service</h3>
-            <p>Service für L�blich Gasgeräte inklusive Überprüfung, Wartung und sicherer Funktion im gesamten Zuhause.</p>
-          </div>
-        </article>
-
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Thermenwartung & Überprüfung</h3>
-            <p>Professionelle Thermenwartung mit Kontrolle aller Komponenten für Effizienz, Sicherheit und lange Lebensdauer.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏠</div>
-          <div>
-            <h3>Gasthermen & Heizsysteme</h3>
-            <p>Betreuung von Gasthermen und Heizsystemen mit Fokus auf Qualität, Zuverlässigkeit und optimale Leistung.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♨️</div>
-          <div>
-            <h3>Wärmepumpe & Zubehör</h3>
-            <p>Service und Beratung zu Wärmepumpe, Zubehör und passenden Systemlösungen für moderne Heiztechnik.</p>
+            <h3>Thermenwartung &amp; Service</h3>
+            <p>Regelmäßige Wartung verbessert Sicherheit, senkt Verbrauch und reduziert Ausfälle im Heizbetrieb.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Störungsbehebung & Reparaturen</h3>
-            <p>Rasche Störungsbehebung und Reparaturen durch Experten mit klarer Lösung und effizienter Durchführung.</p>
+            <h3>Reparatur &amp; Störungsbehebung</h3>
+            <p>Schnelle Hilfe bei Fehlfunktionen, Druckproblemen oder Störungen – sauber, strukturiert und zuverlässig.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔁</div>
+          <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
           <div>
-            <h3>Thermentausch & Installation</h3>
-            <p>Beratung, Montage und Installation bei Thermentausch oder Neuinstallation nach aktuellen Standards.</p>
+            <h3>Techniker mit Know-how</h3>
+            <p>Qualifizierte Techniker und Installateure mit Erfahrung – praxisnah, professionell und lösungsorientiert.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🕒</div>
+          <div>
+            <h3>24h erreichbar</h3>
+            <p>Notdienst rund um die Uhr – auch an Wochenenden, Feiertagen und in der kalten Jahreszeit.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
-  <section class="service-section service-section--soft" id="warum-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Thermenwartung & Wartungsarbeiten</h2>
-            <p>
-              Eine regelmäßige Thermenwartung ist entscheidend für Funktion, Sicherheit und Langlebigkeit Ihrer L�blich Geräte.
-              Unsere Wartungsarbeiten umfassen Überprüfung, Abgasmessungen, Reinigung von Verschleißteilen und Funktionskontrolle.
-            </p>
-            <p>
-              Dadurch steigern wir Effizienz, reduzieren Kosten und sichern die Gewährleistung. Eine gut gewartete Heizung sorgt
-              für zuverlässige Wärme, niedrigen Verbrauch und langfristige Vorteile im täglichen Betrieb.
-            </p>
+ 
 
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Thermenwartung" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ✅ UPDATED: reverse (image left) -->
-  <section class="service-section" id="reparatur-services">
-    <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Reparaturen, Ersatzteile & Lösungen</h2>
-            <p>
-              Nach einer sorgfältigen Überprüfung identifizieren unsere Techniker die Ursache und setzen gezielte Maßnahmen zur Störungsbehebung um.
-              Wir verwenden hochwertige Ersatzteile und Zubehör, um Funktion, Effizienz und Zuverlässigkeit dauerhaft sicherzustellen.
-            </p>
-            <p>
-              Bei starkem Verschleiß beraten wir transparent zu Thermentausch, Montage oder einer passenden Lösung.
-              Kunden profitieren von klaren Abläufen, sauberer Arbeit und nachhaltigen Ergebnissen.
-            </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hochwertige Ersatzteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Nachhaltige Ergebnisse</div></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Notdienst (kept dark) -->
+  <!-- Notdienst -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>L�blich Notdienst im Notfall</h2>
+        <h2>Rapido Notdienst rund um die Uhr</h2>
         <p>
-          Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
-          Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
+          Ein plötzlicher Ausfall der Gastherme, Gasgeruch oder wiederkehrende Störungen erfordern rasches Handeln.
+          Der Notdienst von Rapido ist rund um die Uhr erreichbar und hilft im akuten Notfall schnell weiter.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Sicherheit hat dabei höchste Priorität. Unsere Servicetechniker analysieren die Situation,
-          leiten Sofortmaßnahmen ein und sorgen für eine stabile Lösung – rund um die uhr.
+          Auch nachts, an Wochenenden oder Feiertagen sind wir im Einsatz und organisieren eine rasche Anfahrt direkt zum Ort.
+          Unsere Experten prüfen Gasgeräte und Heizsysteme sorgfältig, um Risiken zu minimieren und Sicherheit zu gewährleisten –
+          in Wien, Niederösterreich (NÖ) und Burgenland.
         </p>
+
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
@@ -798,65 +645,220 @@
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische Notfälle</h3>
+          <h3>Typische Einsätze im Notdienst</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Ausfall der Heizung</li>
-            <li>Probleme mit Gasgeräten</li>
-            <li>Sicherheitsrelevante Situationen</li>
-            <li>Wasser-, Gas- oder Wärmeprobleme</li>
+            <li>Ausfall der Gastherme oder Heizung</li>
+            <li>Fehlfunktionen, Störungen oder Druckprobleme</li>
+            <li>Sicherheitsrelevante Auffälligkeiten an Gasgeräten</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr erreichbar – schnelle Hilfe vor Ort in Wien, Niederösterreich und Burgenland.
+            24h erreichbar – schnelle Hilfe in Wien &amp; NÖ.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
-  <section class="service-section" id="preise-services">
+  <!-- Leistungen -->
+  <section class="service-section" id="leistungen-services">
+    <div class="service-container">
+      <div class="service-section__head">
+        <h2>Leistungen rund um Thermenservice</h2>
+        <p>Thermenwartung, Reparatur, geprüfte Ersatzteile und Thermentausch – alles aus einer Hand, sauber und nachvollziehbar.</p>
+      </div>
+
+      <div class="service-grid service-grid--2">
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🧽</div>
+          <div>
+            <h3>Rapido Thermenservice</h3>
+            <p>Reinigung, Überprüfung, Einstellung und Funktionskontrolle – für einen zuverlässigen Heizbetrieb.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🧪</div>
+          <div>
+            <h3>Thermenwartung</h3>
+            <p>Regelmäßige Wartung steigert Effizienz, senkt Energiekosten und verlängert die Lebensdauer Ihrer Anlage.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">⚡</div>
+          <div>
+            <h3>Reparatur &amp; Thermenreparatur</h3>
+            <p>Fachgerechte Reparatur bei Ausfällen – wir setzen auf geprüfte Ersatzteile und nachhaltige Lösungen.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🔥</div>
+          <div>
+            <h3>Gastherme &amp; Gasgeräte</h3>
+            <p>Prüfung von Gastherme, Gasgeräten und Heizsystem – inklusive Sicherheitscheck bei Bedarf.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🔁</div>
+          <div>
+            <h3>Thermentausch</h3>
+            <p>Wenn Reparatur nicht sinnvoll ist: Beratung zum Thermentausch oder Gasgerätetausch.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🧯</div>
+          <div>
+            <h3>Sicherheit &amp; Abgasmessung</h3>
+            <p>Reinigung, Abgasmessung und Kontrolle – für sicheren Betrieb und stabile Funktion, besonders im Winter.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wartung -->
+  <section class="service-section service-section--soft" id="wartung-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Effizienz & Vorteile</h2>
+            <h2>Thermenwartung, Thermenservice und Reparatur</h2>
             <p>
-              Vor Beginn der Arbeiten informieren wir klar über Aufwand und Leistungen. Eine regelmäßige Wartung steigert die Effizienz,
-              senkt langfristig Kosten und verlängert die Lebensdauer der Geräte.
+              Regelmäßige Thermenwartung ist ein wichtiger Bestandteil eines zuverlässigen Heizbetriebs.
+              Unsere Wartung umfasst Reinigung, Überprüfung, Einstellung und Funktionskontrolle aller relevanten Geräte.
             </p>
             <p>
-              Kunden erhalten eine ehrliche Beratung – abgestimmt auf Bedarf. Fachgerechter Service sorgt dafür,
-              dass die Qualität von L�blich Systemen dauerhaft erhalten bleibt.
+              Bei Bedarf führen wir eine fachgerechte Reparatur durch und setzen auf geprüfte Ersatzteile.
+              So lassen sich Ausfälle vermeiden, Effizienz steigern und Energiekosten reduzieren – besonders in der kalten Jahreszeit.
             </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">mehr Effizienz</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">weniger Ausfälle</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">mehr Komfort</div></div>
+            </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Rapido Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left) -->
-  <section class="service-section service-section--soft" id="region-services">
+  <!-- Reparatur / Thermentausch -->
+  <section class="service-section" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Regionale Betreuung</h2>
+            <h2>Montage, Planung und Thermentausch</h2>
             <p>
-              Wir betreuen Kunden in Wien sowie Niederösterreich und im Burgenland.
-              Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
+              Wenn eine Reparatur nicht mehr sinnvoll ist, beraten wir transparent zum Thermentausch oder Gasgerätetausch.
+              Unsere Dienstleistungen umfassen Planung, Montage, Durchführung und Inbetriebnahme neuer Systeme.
+            </p>
+            <p>
+              Dabei berücksichtigen wir unterschiedliche Modelle, passende Marken und den tatsächlichen Bedarf Ihres Haushalts.
+              Auch Neuinstallation oder Austausch einzelner Komponenten werden professionell umgesetzt – alles aus einer Hand.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Rapido Thermentausch" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="service-section service-section--soft" id="team-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Team, Kundenservice und Expertise</h2>
+            <p>
+              Unser engagiertes Team besteht aus qualifizierten Technikern, Installateuren und echten Experten.
+              Der Kundenservice legt Wert auf klare Kommunikation, feste Ansprechpartner und hohe Kundenzufriedenheit.
+            </p>
+            <p>
+              Durch regelmäßige Schulungen sichern wir aktuelles Fachwissen und arbeiten herstellerkonform.
+              Diese Kombination aus Erfahrung und Know-how ermöglicht präzise Diagnosen und nachhaltige Lösungen.
+            </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">klare Abläufe</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">fixe Ansprechpartner</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schulungen</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Rapido Team" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preise -->
+  <section class="service-section" id="preise-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Preise, Kosten und transparente Abrechnung</h2>
+            <p>
+              Faire Preise und nachvollziehbare Kosten sind ein zentraler Bestandteil unseres Services.
+              Vor Beginn jeder Arbeit informieren wir offen über Umfang, mögliche Ersatzteile und den Aufwand.
+            </p>
+            <p>
+              Auf Wunsch erhalten Kunden ein klares Angebot – auch per E-Mail.
+              So behalten Sie jederzeit den Überblick und können Entscheidungen ruhig treffen, ohne Überraschungen.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Rapido Preise und Kosten" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Region -->
+  <section class="service-section service-section--soft" id="region-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Einsatzgebiet Wien, Niederösterreich und Burgenland</h2>
+            <p>
+              Der Rapido Notdienst Wien ist in ganz Wien, Niederösterreich (NÖ) sowie im Burgenland im Einsatz.
+              Dank effizienter Einsatzplanung und kurzer Anfahrt sind unsere Techniker rasch vor Ort – auch in der weiteren Umgebung.
+            </p>
+            <p>
+              Unser Notdienst steht Kunden jederzeit zur Verfügung – zuverlässig in jeder Jahreszeit, besonders im Winter.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Rapido Einsatzgebiet" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -867,56 +869,50 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Fragen zum Kundendienst</h2>
+        <h2>FAQs – Rapido Notdienst &amp; Thermenservice Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Was bietet der L�blich Kundendienst Wien?</summary>
-          <p>Unser Kundendienst umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
+          <summary>1. Wann sollte ich den Notdienst kontaktieren?</summary>
+          <p>Bei akuten Problemen mit Gastherme oder Heizung – rund um die Uhr in Wien und Niederösterreich.</p>
         </details>
 
         <details>
-          <summary>Wie oft ist eine Wartung notwendig?</summary>
-          <p>Regelmäßige Wartungsarbeiten sichern Effizienz, Sicherheit und die Gewährleistung Ihrer Geräte.</p>
+          <summary>2. Was umfasst der Thermenservice?</summary>
+          <p>Thermenwartung, Überprüfung, Reinigung, Abgasmessung und bei Bedarf Reparatur.</p>
         </details>
 
         <details>
-          <summary>Sind Ersatzteile verfügbar?</summary>
-          <p>Ja, wir verwenden passende Ersatzteile und Verschleißteile für L�blich Geräte.</p>
+          <summary>3. Gibt es Thermenwartung in Wien und Niederösterreich?</summary>
+          <p>Ja, wir sind in Wien, Niederösterreich (NÖ) und Umgebung im Einsatz.</p>
         </details>
 
         <details>
-          <summary>Bietet ihr auch Service außerhalb von Wien an?</summary>
-          <p>Ja, wir betreuen auch Niederösterreich und das Burgenland zuverlässig.</p>
+          <summary>4. Wer führt die Arbeiten durch?</summary>
+          <p>Ein erfahrenes Techniker-Team mit Know-how übernimmt alle Einsätze.</p>
         </details>
 
         <details>
-          <summary>Gibt es einen Notdienst?</summary>
-          <p>Ja, unser Notdienst ist rund um die uhr erreichbar bei akuten Problemen.</p>
-        </details>
-
-        <details>
-          <summary>Wer führt die Arbeiten durch?</summary>
-          <p>Unsere Techniker und Installateure mit Erfahrung, Fachwissen und Know-how.</p>
+          <summary>5. Ist der Kundendienst auch im Winter verfügbar?</summary>
+          <p>Ja, wir sind besonders im Winter und in jeder Jahreszeit im Einsatz.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- ✅ CONTACT FORM ALWAYS LAST -->
+  <!-- CONTACT -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Kontakt, Telefon & Anliegen</h2>
+        <h2>Kontakt, Fragen und schnelle Hilfe</h2>
         <p>
-          Für Fragen, Anliegen oder Terminvereinbarungen steht unser Kundendienst jederzeit zur Verfügung.
-          Über Telefon oder direkten Kontakt erreichen Sie unser Team schnell und unkompliziert.
+          Bei Fragen, Störungen oder im akuten Notfall erreichen Sie uns schnell und unkompliziert.
+          Über das Formular koordinieren wir rasch einen Einsatz.
         </p>
         <p style="margin-top:10px;">
-          Wir beraten verständlich, nehmen Ihre Bedürfnisse ernst und koordinieren rasch die Durchführung aller Arbeiten.
-          Ob Wartung, Reparaturen, Notdienst oder Beratung – unsere Experten kümmern sich zuverlässig um alles.
+          Thermenservice, Wartung, Reparatur und Thermentausch – zuverlässig in Wien, Niederösterreich und Burgenland.
         </p>
       </div>
 
@@ -947,45 +943,48 @@
 
 <script>
   (function(){
-    // Smooth scroll
-    document.querySelectorAll('a[href^="#"]').forEach(function(link){
-      link.addEventListener('click', function(e){
-        var id = this.getAttribute('href');
-        if (!id || id === '#') return;
-        var el = document.querySelector(id);
-        if (!el) return;
-        e.preventDefault();
-        var offset = 16;
-        var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({ top: top, behavior: 'smooth' });
-      });
-    });
+    // year
+    var y = document.getElementById("year");
+    if (y) y.textContent = new Date().getFullYear();
 
     // TOC collapse
     var tocCard = document.getElementById('tocCard');
     var tocToggle = document.getElementById('tocToggle');
 
     function setExpanded(isExpanded){
-      if (!tocCard || !tocToggle) return;
       tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
       tocCard.classList.toggle('is-collapsed', !isExpanded);
 
       var svg = tocToggle.querySelector('svg');
       if (svg){
         svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+        svg.style.transition = 'transform .18s ease';
       }
     }
 
     setExpanded(true);
-    if (tocToggle){
-      tocToggle.addEventListener('click', function(){
-        var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
-        setExpanded(!expanded);
-      });
-    }
 
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
+    tocToggle.addEventListener('click', function(){
+      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
+      setExpanded(!expanded);
+    });
+
+    // smooth scroll
+    document.querySelectorAll('.toc-link').forEach(function(link){
+      link.addEventListener('click', function(e){
+        var href = this.getAttribute('href');
+        if (!href || href.charAt(0) !== '#') return;
+
+        var target = document.querySelector(href);
+        if (!target) return;
+
+        e.preventDefault();
+
+        var offset = 18;
+        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      });
+    });
   })();
 </script>
 @endsection

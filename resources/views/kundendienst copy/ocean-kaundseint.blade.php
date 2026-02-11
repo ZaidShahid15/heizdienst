@@ -85,6 +85,13 @@
   .service-grid{display:grid; gap:14px}
   .service-grid--2{grid-template-columns: repeat(2, 1fr)}
 
+  .service-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius: var(--radius);
+    padding:16px;
+  }
+
   .service-feature{
     display:flex; gap:12px;
     padding:16px;
@@ -107,9 +114,9 @@
   .service-checklist{margin:0; padding-left:18px}
   .service-checklist li{margin:8px 0}
 
-  /* =====================================================
-     ✅ IMAGE SIZE = CONTENT SIZE (CARD SPLIT)
-     ===================================================== */
+  /* =========================
+     ✅ IMAGE = CONTENT HEIGHT
+     ========================= */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
@@ -140,11 +147,10 @@
   .card-box p{margin:0}
   .card-box p + p{margin-top:10px}
 
-  /* Image box */
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:100%;          /* ✅ match text height */
+    height:100%;           /* ✅ match text height */
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -153,9 +159,9 @@
   }
   .service-media__img{
     width:100%;
-    height:100%;
+    height:100%;           /* ✅ fill box */
     display:block;
-    object-fit:cover;
+    object-fit:cover;      /* ✅ no distortion */
     object-position:center;
   }
 
@@ -191,7 +197,6 @@
     border-radius:var(--radius);
     padding:16px;
   }
-  .service-panel h3{margin:0 0 10px; color:#fff}
   .service-checklist--on-dark{color:rgba(255,255,255,.92)}
   .service-checklist--on-dark li{margin:10px 0}
 
@@ -254,7 +259,7 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* HERO */
+  /* ===== HERO (wolf) ===== */
   .wolf-hero{
     position:relative;
     min-height:520px;
@@ -312,9 +317,6 @@
     font-weight:800;
     color:#fff;
     margin:0 0 12px;
-    text-transform:uppercase;
-    letter-spacing:.04em;
-    font-size:.82rem;
   }
   .wolf-hero h1{
     margin:0 0 10px;
@@ -367,57 +369,27 @@
   .wolf-btn--ghost{background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.28); color:#fff;}
   .wolf-btn--ghost:hover, .wolf-btn--accent:hover{transform:translateY(-1px);}
 
-  /* Promo banner */
-  .promo-banner{margin-top:22px}
-  .promo-banner__inner{
-    position:relative;
-    overflow:hidden;
-    border-radius:18px;
-    border:1px solid rgba(255,255,255,.18);
-    background:rgba(255,255,255,.06);
-    padding:16px;
-  }
   .promo-banner__inner::after{
     content:"";
     position:absolute;
     inset:0;
     background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
     z-index:0;
-    opacity:.55;
-  }
-  .promo-banner__content{
-    position:relative;
-    z-index:1;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:16px;
-    flex-wrap:wrap;
-  }
-  .promo-banner__title{margin:0; font-size:20px; color:#09383F}
-  .promo-banner__price{margin:0; font-size:18px; color:#09383F}
-  .promo-banner__btn{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    padding:12px 16px;
-    border-radius:999px;
-    background:var(--accent);
-    color:#1a1a1a;
-    font-weight:900;
   }
 
   /* =========================
      ✅ TOC (AFTER HERO)
      ========================= */
-  .toc-wrap{padding:14px 0 10px; background:#fff;}
+  .toc-wrap{
+    padding:16px 0 0;
+    background:#fff;
+  }
   .toc-card{
     width:100%;
     background:#fff;
     border:1px solid rgba(24,64,72,.18);
     border-radius:18px;
-    box-shadow:0 18px 50px rgba(0,0,0,.10);
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
     overflow:hidden;
   }
   .toc-head{
@@ -435,8 +407,9 @@
     font-weight:900;
     color:var(--ink);
   }
+  .toc-actions{display:flex; gap:8px; align-items:center;}
   .toc-iconbtn{
-    width:36px; height:36px;
+    width:34px; height:34px;
     border-radius:10px;
     border:1px solid rgba(24,64,72,.18);
     background:#fff;
@@ -445,13 +418,13 @@
     transition:.15s ease;
   }
   .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.10)}
-  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9; transition:transform .18s ease}
+  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9}
 
   .toc-body{
     padding:12px;
+    transition:max-height .22s ease, padding .22s ease;
     max-height:520px;
     overflow:auto;
-    transition:max-height .22s ease, padding .22s ease;
   }
   .toc-list{
     list-style:none;
@@ -489,7 +462,6 @@
     overflow:hidden;
   }
 
-  /* Mobile */
   @media (max-width: 980px){
     .service-grid--2{grid-template-columns:1fr}
     .service-emergency{grid-template-columns:1fr}
@@ -504,33 +476,33 @@
 </style>
 
 @push('meta')
-  <title>Buderus Service Wien – Kundendienst, Wartung & Heizkessel</title>
-  <meta name="description" content="Buderus Service Wien ✔ Kundendienst, Wartung & Behebung für Buderus Thermen und Heizkessel ✔ Fachpersonal & Techniker vor Ort.">
+  <title>Ocean Thermenservice Wien – Notdienst & Thermenwartung 24h</title>
+  <meta name="description" content="Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ Thermenwartung, Ocean Gastherme & Heizung ✔ Kundendienst Wien mit Erfahrung.">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">service rund um die uhr</p>
+      <p class="wolf-hero__kicker">notdienst rund um die uhr</p>
 
       <h1>
-        Buderus Service Wien<br>
-        <em>Kundendienst &amp; Wartung</em>
+        Ocean Thermenservice Wien<br>
+        <em>Notdienst &amp; Wartung 24h</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Schnelle Hilfe bei Störungen, Ausfällen oder Problemen mit der Heizung – der Buderus Notdienst Wien ist zuverlässig für Sie da.
+        Schnelle Hilfe bei Störungen, Defekt oder Ausfall der Therme – der Ocean Notdienst Wien ist zuverlässig für Sie da.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Service Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean Thermenservice Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
+        <span class="wolf-pill">Thermenwartung</span>
+        <span class="wolf-pill">Reparatur</span>
         <span class="wolf-pill">Kundendienst</span>
-        <span class="wolf-pill">Wartung</span>
-        <span class="wolf-pill">Heizkessel</span>
         <span class="wolf-pill">Notdienst 24h</span>
       </div>
 
@@ -539,12 +511,16 @@
         <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
       </div>
 
-      <section class="promo-banner" id="buderus-aktion">
+      <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Buderus Kundendienst Aktion</em></h2>
+            <h2 class="promo-banner__title"><em>Ocean Service Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab €95</strong></p>
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">AKTION</a>
+
+            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+              <span class="promo-banner__btn-ico">  </span>
+              AKTION
+            </a>
           </div>
         </div>
       </section>
@@ -557,26 +533,28 @@
       <div class="toc-card" id="tocCard">
         <div class="toc-head">
           <h4>Inhaltsverzeichnis</h4>
-          <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
-            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(180deg);">
-              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
-            </svg>
-          </button>
+          <div class="toc-actions">
+            <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(180deg); transition: transform 0.18s;">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+              </svg>
+            </button>
+          </div>
         </div>
 
         <div class="toc-body" id="tocBody">
           <ul class="toc-list">
-            <li class="toc-item"><a href="#kundendienst-services"><span class="toc-badge">01</span><span class="toc-text">Kundendienst</span></a></li>
-            <li class="toc-item"><a href="#vorteile-services"><span class="toc-badge">02</span><span class="toc-text">Vorteile</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services"><span class="toc-badge">04</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#wartung-services"><span class="toc-badge">05</span><span class="toc-text">Wartung</span></a></li>
-            <li class="toc-item"><a href="#reparatur-services"><span class="toc-badge">06</span><span class="toc-text">Reparatur</span></a></li>
-            <li class="toc-item"><a href="#region-services"><span class="toc-badge">07</span><span class="toc-text">Einsatzgebiet</span></a></li>
-            <li class="toc-item"><a href="#team-services"><span class="toc-badge">08</span><span class="toc-text">Team</span></a></li>
-            <li class="toc-item"><a href="#preise-services"><span class="toc-badge">09</span><span class="toc-text">Preise</span></a></li>
-            <li class="toc-item"><a href="#faq-services"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
+            <li class="toc-item"><a href="#kundendienst-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Kundendienst</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Wartung</span></a></li>
+            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Reparatur</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Team</span></a></li>
+            <li class="toc-item"><a href="#vorteile2-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Vorteile</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
@@ -585,74 +563,90 @@
 
 
 
-  <!-- Kundendienst -->
-  <section class="service-section" id="kundendienst-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Buderus Kundendienst Wien mit Kompetenz</h2>
-            <p>
-              Der Buderus Kundendienst in Wien unterstützt private Haushalte und den laufenden Betrieb bei allen Anliegen rund um Buderus Thermen,
-              Heizkessel und moderne Heizungsanlagen. Als spezialisierter Fachmann und verlässlicher Partner für Buderus Produkte bieten wir
-              professionelle Beratung, strukturierte Abläufe und nachhaltige Behebung von Problemen.
-            </p>
-            <p>
-              Unser geschultes Fachpersonal analysiert jede Situation direkt vor Ort, erkennt Ursachen von Störungen und sorgt für eine sichere Lösung.
-              Ziel ist es, Heizung, Warmwasser und Effizienz dauerhaft sicherzustellen – zuverlässig in Wien und der Umgebung.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Kundendienst Wien" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Vorteile -->
+  <!-- Vorteile / bullets -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="service-container">
-      <div class="service-section__head">
-        <h2>Buderus Notdienst und Kundendienst in Wien und Umgebung</h2>
-        <p>Wartung, Reparatur und Thermenservice aus einer Hand – kurze Wegzeiten, klare Abläufe und schnelle Hilfe.</p>
-      </div>
+      <section class="service-section" id="kundendienst-services">
+        <div class="service-container">
+          <div class="card-split">
+            <div class="card-split__text">
+              <div class="card-box">
+                <h2>Ocean Notdienst und Kundendienst Wien rund um die Uhr</h2>
+                <p>
+                  Thermenwartung, Reparatur und Thermenservice aus einer Hand – erfahrene Techniker, klare Lösungen und Service für Wien, Niederösterreich und Umgebung.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-split__media service-media">
+              <div class="service-media__box">
+                <img class="service-media__img" src="{{ asset('img/oceanbaxi.jpeg') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Wartung &amp; Thermenservice</h3>
-            <p>Regelmäßige Wartung, Thermenwartung und Buderus Thermenservice für effizienten und sicheren Betrieb.</p>
+            <h3>Thermenwartung &amp; Service</h3>
+            <p>Regelmäßige Wartung erhöht Sicherheit, senkt Verbrauch und reduziert Störungen im laufenden Betrieb.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Reparatur &amp; Behebung</h3>
-            <p>Fachgerechte Reparatur, strukturierte Fehleranalyse und nachhaltige Behebung – direkt vor Ort.</p>
+            <h3>Reparatur &amp; Fehlerbehebung</h3>
+            <p>Schnelle Hilfe bei Fehlermeldungen, Ausfällen oder wiederkehrenden Ocean Störungen – effizient und dokumentiert.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
           <div>
-            <h3>Erfahrene Techniker</h3>
-            <p>Erfahrene Techniker und geschultes Fachpersonal – saubere Arbeit, klare Kommunikation, sichere Lösung.</p>
+            <h3>Erfahrene Fachleute</h3>
+            <p>Geschulte Techniker und Installateure prüfen jede Therme sorgfältig und liefern nachhaltige Lösungen.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⏱️</div>
+          <div class="service-feature__icon" aria-hidden="true">📍</div>
           <div>
-            <h3>Service rund um die Uhr</h3>
-            <p>Notdienst 24h mit kurzen Wegzeiten – besonders wichtig bei Ausfällen und sicherheitsrelevanten Problemen.</p>
+            <h3>Regional schnell vor Ort</h3>
+            <p>Kurze Wege in Wien, Niederösterreich (NÖ) und Burgenland – flexibel, zuverlässig und rasch am Einsatzort.</p>
           </div>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kundendienst -->
+  <section class="service-section" id="kundendienst-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Ocean Kundendienst Wien für Therme und Heizung</h2>
+            <p>
+              Der Ocean Kundendienst Wien unterstützt Kunden bei allen Anliegen rund um Ocean Therme, Ocean Heizung und moderne Gasgeräte.
+              Ob privates Zuhause oder laufender Betrieb – wir bieten professionellen Service für Heizung, Gastherme und komplette Heizungsanlagen.
+            </p>
+            <p>
+              Als erfahrener Installateur und verlässlicher Partner arbeiten wir strukturiert, transparent und lösungsorientiert.
+              Unser Team prüft jede Therme sorgfältig, erkennt Probleme frühzeitig und sorgt für nachhaltige Lösungen.
+              Ziel ist Komfort, Sicherheit und Effizienz – in Wien, Niederösterreich und der gesamten Umgebung.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -661,15 +655,14 @@
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Buderus Notdienst und Werkskundendienst</h2>
+        <h2>Ocean Notdienst rund um die Uhr</h2>
         <p>
-          Bei akuten Ausfällen oder sicherheitsrelevanten Problemen steht unser Buderus Notdienst rasch zur Verfügung.
-          Wir arbeiten eng mit dem Buderus Werkskundendienst und dem offiziellen Werkskundendienst zusammen,
-          um Reparaturen fachgerecht und herstellerkonform umzusetzen.
+          Ein Ausfall der Ocean Gastherme, Fehlermeldungen oder plötzliche Störungen erfordern sofortiges Handeln.
+          Unser Ocean Notdienst ist rund um die Uhr erreichbar – auch nachts, an Wochenenden oder Feiertagen.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Unsere Techniker reagieren schnell, prüfen Gasgeräte, Therme und Heizkessel sorgfältig und sorgen für eine sichere Wiederherstellung des Betriebs.
-          Der Notdienst ist besonders dann wichtig, wenn schnelle Hilfe Folgeschäden vermeiden soll.
+          Wir organisieren gezielte Fehlerbehebung direkt vor Ort. Durch kurze Wege in Wien, Niederösterreich (NÖ) und Burgenland
+          begrenzen wir Schäden und sorgen dafür, dass Heizung und Warmwasser rasch wieder funktionieren.
         </p>
 
         <div class="service-emergency__actions">
@@ -682,12 +675,12 @@
         <div class="service-panel">
           <h3>Typische Einsätze im Notdienst</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Störungen an Buderus Thermen oder Heizsystem</li>
-            <li>Komplettausfall von Heizung oder Warmwasser</li>
-            <li>Fehler, die sofortige Behebung erfordern</li>
+            <li>Ausfall der Therme oder Ocean Gasgeräte</li>
+            <li>Wiederkehrende Störungen, Fehler oder Fehlermeldungen</li>
+            <li>Sicherheitsrelevante Auffälligkeiten an Gastherme und Heizkörper</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die Uhr verfügbar – schnelle Hilfe in Wien und Umgebung.
+            24h erreichbar – schnelle Hilfe in Wien &amp; Umgebung.
           </p>
         </div>
       </div>
@@ -698,56 +691,56 @@
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen unseres Buderus Service</h2>
-        <p>Kundendienst, Wartung, Behebung, Thermenservice und Heizkessel-Betreuung – zuverlässig vor Ort.</p>
+        <h2>Leistungen und Vorteile auf einen Blick</h2>
+        <p>Ocean Kundendienst, Thermenservice, Wartung, Reparatur und Thermentausch – klare Abläufe, transparente Betreuung und hohe Sicherheit.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧽</div>
           <div>
-            <h3>Wartung &amp; Thermenwartung</h3>
-            <p>Buderus Thermenwartung inklusive Reinigung, Einstellung und Funktionskontrolle – transparent und sicher.</p>
+            <h3>Ocean Thermenwartung</h3>
+            <p>Überprüfung, Reinigung, Einstellung und Funktionskontrolle nach klaren Abläufen – für sicheren Betrieb.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛡️</div>
+          <div class="service-feature__icon" aria-hidden="true">🧪</div>
           <div>
-            <h3>Buderus Thermenservice</h3>
-            <p>Überprüfung aller relevanten Komponenten, frühes Erkennen von Problemen und sichere Behebung – inkl. ausgewiesener MwSt.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
-          <div>
-            <h3>Heizkessel &amp; Heizsysteme</h3>
-            <p>Service für Buderus Heizkessel und moderne Heizungsanlagen – effizient, zuverlässig und wohnkomfort-orientiert.</p>
+            <h3>Thermenservice Wien</h3>
+            <p>Planbare Wartungen und Service-Termine zur Sicherung der Langlebigkeit Ihrer Ocean Therme.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Störung &amp; Behebung</h3>
-            <p>Strukturierte Diagnose und schnelle Behebung von Störungen, damit Ihre Anlage rasch wieder stabil läuft.</p>
+            <h3>Reparatur &amp; Ocean Thermenreparatur</h3>
+            <p>Effiziente Fehlerbehebung, dokumentiert und nachhaltig – um Folgeschäden zu vermeiden.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧩</div>
+          <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Reparatur &amp; Ersatzteile</h3>
-            <p>Fachgerechte Reparatur mit geprüften Ersatzteilen – nachhaltig, sicher und herstellerkonform.</p>
+            <h3>Ocean Gasgeräte &amp; Gastherme</h3>
+            <p>Professioneller Gasgeräte-Kundendienst für Ocean Gasgeräte – sicher, sauber und nachvollziehbar.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Austausch &amp; Beratung</h3>
-            <p>Wenn sinnvoll: transparente Beratung zu Austausch, Brennwert-Technik und passenden Alternativen.</p>
+            <h3>Installation &amp; Thermentausch</h3>
+            <p>Beratung, Installation und Inbetriebnahme – inklusive Ocean Thermentausch bei Bedarf.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">✅</div>
+          <div>
+            <h3>Sicherheit &amp; Effizienz</h3>
+            <p>Prüfung von Gasgeräten, Abgasführung und Anlage – für effizienten Betrieb und mehr Wohlbefinden.</p>
           </div>
         </article>
       </div>
@@ -760,55 +753,54 @@
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wartung, Thermenwartung und Buderus Thermenservice</h2>
+            <h2>Thermenwartung, Ocean Thermenservice und Reparatur</h2>
             <p>
-              Regelmäßige Wartung und fachgerechte Thermenwartung sind entscheidend für Lebensdauer, Effizienz und Sicherheit Ihrer Anlage.
-              Unsere Buderus Thermenwartung und der Buderus Thermenservice umfassen gründliche Reinigung, Überprüfung, Einstellung
-              und Funktionskontrolle aller relevanten Komponenten.
+              Regelmäßige Thermenwartung ist ein zentraler Bestandteil für den sicheren Betrieb Ihrer Anlage.
+              Unsere Ocean Thermenwartung folgt klaren Abläufen: Zustandsprüfung, Reinigung, Einstellung und Funktionskontrolle.
             </p>
             <p>
-              So lassen sich Probleme frühzeitig erkennen und teure Reparaturen vermeiden. Eine gut gewartete Therme arbeitet zuverlässiger,
-              spart Energie und erhöht den Wohnkomfort. Alle Arbeiten erfolgen transparent, inkl. ausgewiesener MwSt.
+              Bei einer Reparatur arbeiten unsere Fachkräfte effizient und dokumentiert. So lassen sich Folgeschäden vermeiden,
+              die Effizienz steigern und Energiekosten senken – gut für Komfort, Umwelt und Wohlbefinden.
             </p>
 
             <div class="service-stats">
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">mehr Effizienz</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">weniger Störungen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">mehr Sicherheit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">weniger Schäden</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Buderus Wartung & Thermenservice" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Ocean Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Reparatur -->
+  <!-- Reparatur / Austausch -->
   <section class="service-section" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparatur, Austausch und Ersatzteilen</h2>
+            <h2>Installation, Thermentausch und Ocean Thermentausch</h2>
             <p>
-              Wenn Defekte auftreten, führen wir eine fachgerechte Reparatur mit geprüften Ersatzteilen durch.
-              Unsere Fachleute prüfen, ob eine Reparatur wirtschaftlich sinnvoll ist oder ein Austausch empfohlen wird.
+              Wenn Reparaturen nicht mehr sinnvoll sind, beraten wir transparent zum Thermentausch oder Ocean Thermentausch.
+              Unsere Fachleute erklären Unterschiede zwischen Modellen, zeigen Alternativen auf und begleiten Installation sowie Inbetriebnahme.
             </p>
             <p>
-              Dabei berücksichtigen wir Brennwert-Technik, Zustand des Heizsystems und individuelle Anforderungen.
-              Unser Team berät offen zu Optionen, Vorteilen und möglichen Alternativen – immer mit Fokus auf Qualität und Sicherheit.
+              Dabei berücksichtigen wir den tatsächlichen Bedarf, den Zustand der Anlage und Ihre individuellen Anliegen.
+              Ziel ist eine Lösung, die langfristig zuverlässig arbeitet und Ihre Anlage wieder in Bestform bringt.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Buderus Reparatur & Ersatzteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Ocean Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -821,21 +813,21 @@
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Einsatzgebiete rund um Wien</h2>
+            <h2>Einsatzgebiet Wien, Niederösterreich und Burgenland</h2>
             <p>
-              Unser Buderus Notdienst Wien ist nicht nur direkt in Wien, sondern auch in der gesamten Umgebung im Einsatz.
-              Dazu zählen unter anderem Brunn am Gebirge, Groß Enzersdorf, Deutsch Wagram, Korneuburg, Mödling, Baden und Guntramsdorf.
+              Der Ocean Notdienst Wien ist in ganz Wien, Niederösterreich (NÖ) sowie im Burgenland im Einsatz.
+              Durch kurze Anfahrtszeiten und regionale Planung sind unsere Techniker rasch am Ort – auch in der Umgebung reagieren wir flexibel.
             </p>
             <p>
-              Durch kurze Wegzeit und regionale Einsatzplanung sind unsere Techniker schnell am Ort.
-              So stellen wir sicher, dass Hilfe rasch ankommt und Ausfälle effizient behoben werden – zuverlässig in Stadt und Umland.
+              Unser Notdienst steht Kunden jederzeit zur Verfügung, damit Ausfälle nicht zu größeren Schäden führen und Heizung sowie Warmwasser
+              schnell wieder funktionieren.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Buderus Einsatzgebiet Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Einsatzgebiet Ocean" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -848,114 +840,54 @@
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Team, Weiterbildung und Qualität</h2>
+            <h2>Team, Erfahrung und Fachwissen</h2>
             <p>
-              Unser erfahrenes Team besteht aus qualifizierten Technikern und Fachleuten mit hoher Kompetenz im Umgang mit Buderus Heizsystemen.
-              Regelmäßige Weiterbildung stellt sicher, dass wir stets nach aktuellen Standards arbeiten und neue Produkte sowie Marken-Technologien
-              sicher beherrschen.
+              Unser erfahrenes Team besteht aus qualifizierten Installateuren, spezialisierten Technikern und engagierten Ansprechpartnern.
+              Mit fundiertem Fachwissen, langjähriger Erfahrung und regelmäßiger Weiterbildung betreuen wir Ocean Anlagen aller gängigen Modelle.
             </p>
             <p>
-              Qualität, saubere Arbeit und klare Abläufe stehen im Mittelpunkt unserer täglichen Arbeit.
-              So sichern wir eine lange Lebensdauer Ihrer Anlage und hohe Kundenzufriedenheit.
+              Diese Kombination ermöglicht präzise Diagnose, nachhaltige Reparatur und hohe Servicequalität – vom ersten Kontakt bis zur erfolgreichen Behebung.
             </p>
 
             <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weiterbildung</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Qualität</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">klare Abläufe</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Servicequalität</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Buderus Team & Qualität" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Ocean Team" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Preise -->
-  <section class="service-section" id="preise-services">
+  <!-- Vorteile 2 -->
+  <section class="service-section service-section--soft" id="vorteile2-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, MwSt und Vorteile</h2>
+            <h2>Kontakt, Service und persönliche Betreuung</h2>
             <p>
-              Transparente Preise sind ein zentraler Bestandteil unseres Kundendienstes. Vor Beginn der Arbeiten informieren wir klar über Kosten,
-              Leistungen und ausgewiesene MwSt.
+              Bei Fragen oder im Notfall erreichen Sie unseren Kundendienst jederzeit. Über den Kontakt auf dieser Seite koordinieren wir rasch den passenden Einsatz.
+              Unsere Ansprechpartner beraten verständlich und sorgen für schnelle Unterstützung.
             </p>
             <p>
-              Kunden profitieren von fairen Konditionen, nachvollziehbarer Abrechnung und klaren Vorteilen:
-              weniger Störungen, höhere Effizienz und zuverlässiger Betrieb der Heizungsanlage.
-              Unser Ziel ist es, wirtschaftliche Lösungen zu bieten, die langfristig überzeugen.
+              Ob Wartung, Reparatur oder Notdienst – wir stehen unseren Kunden zuverlässig zur Seite und halten Ihre Anlage dauerhaft in Bestform.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Buderus Preise & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="Ocean Service Vorteile" loading="lazy" decoding="async">
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Termin / Kontakt Intro -->
-  <section class="service-section service-section--soft" id="termin-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Terminvergabe, Anfrage und Kontakt</h2>
-        <p>Schnelle Terminvereinbarung für Wartung, Reparatur oder Notdienst – wir organisieren rasch Hilfe.</p>
-      </div>
-
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">📅</div>
-          <div>
-            <h3>Schnelle Terminvergabe</h3>
-            <p>Wir berücksichtigen Ihren Wunsch nach einem passenden Termin und koordinieren den Einsatz kundenorientiert.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">☎️</div>
-          <div>
-            <h3>Direkte Anfrage</h3>
-            <p>Über Kontakt auf dieser Seite erreichen Sie unseren Kundendienst unkompliziert – wir liefern klare Informationen.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Abschluss -->
-  <section class="service-section" id="abschluss-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Ihr Buderus Notdienst Wien</h2>
-        <p>Notdienst, Wartung, Reparatur und Thermenservice – kompetent, zuverlässig und kundenorientiert in Wien und der Region.</p>
-      </div>
-
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">✅</div>
-          <div>
-            <h3>Strukturiert &amp; zuverlässig</h3>
-            <p>Dank Erfahrung, kurzen Reaktionszeiten und klaren Abläufen sichern wir Komfort und reibungslosen Betrieb Ihrer Heizung.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
-          <div>
-            <h3>Fachpersonal vor Ort</h3>
-            <p>Geschultes Fachpersonal und erfahrene Techniker kümmern sich zuverlässig um Buderus Thermen, Heizkessel und Heizsysteme.</p>
-          </div>
-        </article>
       </div>
     </div>
   </section>
@@ -964,75 +896,46 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>FAQs – Buderus Service Wien</h2>
+        <h2>FAQs – Ocean Thermenservice &amp; Notdienst Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>1. Wann sollte ich den Buderus Kundendienst kontaktieren?</summary>
-          <p>Den Kundendienst kontaktieren Sie bei Problemen mit Buderus Thermen, Therme oder Heizkessel. In Wien sind wir rasch vor Ort.</p>
+          <summary>1. Wann ist eine Ocean Thermenwartung notwendig?</summary>
+          <p>Eine regelmäßige Ocean Thermenwartung sichert die Effizienz, verlängert die Lebensdauer der Therme und reduziert das Risiko von Störungen.</p>
         </details>
-
         <details>
-          <summary>2. Ist der Buderus Service rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Buderus Service ist rund um die Uhr verfügbar, um Ausfälle schnell zu beheben.</p>
+          <summary>2. Gibt es eine Ocean Thermenwartung in Wien?</summary>
+          <p>Ja, wir bieten Ocean Thermenwartung Wien sowie Thermenwartung Wien zuverlässig für Kunden direkt vor Ort an.</p>
         </details>
-
         <details>
-          <summary>3. Welche Leistungen bietet der Buderus Kundendienst?</summary>
-          <p>Der Kundendienst übernimmt Wartung, Reparatur, Behebung von Störungen und laufende Dienstleistungen für Buderus Anlagen.</p>
+          <summary>3. Ist der Notdienst rund um die Uhr erreichbar?</summary>
+          <p>Ja, unser Notdienst ist rund um die Uhr verfügbar – auch außerhalb normaler Zeiten erhalten Kunden schnelle Hilfe.</p>
         </details>
-
         <details>
-          <summary>4. Warum ist regelmäßige Wartung wichtig?</summary>
-          <p>Regelmäßige Wartung erhöht die Lebensdauer der Therme, sichert Effizienz und verhindert teure Schäden.</p>
+          <summary>4. Welche Leistungen umfasst der Thermenservice?</summary>
+          <p>Der Thermenservice beinhaltet Überprüfung, Reinigung, Einstellung und Funktionskontrolle jeder Ocean Therme.</p>
         </details>
-
         <details>
-          <summary>5. Werden auch Buderus Heizkessel betreut?</summary>
-          <p>Ja, wir warten und reparieren Heizkessel, Thermen und weitere Produkte von Buderus.</p>
-        </details>
-
-        <details>
-          <summary>6. Wer führt die Arbeiten durch?</summary>
-          <p>Unser geschultes Fachpersonal und erfahrene Techniker kümmern sich zuverlässig um jede Anlage.</p>
-        </details>
-
-        <details>
-          <summary>7. Gibt es auch Beratung vor Ort?</summary>
-          <p>Ja, wir bieten persönliche Beratung direkt vor Ort in Wien, abgestimmt auf Ihre Anlage.</p>
-        </details>
-
-        <details>
-          <summary>8. Wie läuft eine Reinigung ab?</summary>
-          <p>Bei der Reinigung werden relevante Bauteile geprüft, gereinigt und optimal eingestellt.</p>
-        </details>
-
-        <details>
-          <summary>9. Welche Erfahrung bringt das Team mit?</summary>
-          <p>Unser Team verfügt über langjährige Erfahrung mit Buderus Heizsystemen.</p>
-        </details>
-
-        <details>
-          <summary>10. Erhalte ich ein Angebot vorab?</summary>
-          <p>Ja, vor jeder Arbeit erhalten Kunden ein transparentes Angebot vom Kundendienst.</p>
+          <summary>5. Wer ist mein Ansprechpartner im Kundendienst Wien?</summary>
+          <p>Im Kundendienst Wien steht Ihnen ein fixer Ansprechpartner zur Verfügung, der Service, Termin und Ablauf koordiniert.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT (always last) -->
+  <!-- CONTACT FORM ALWAYS LAST -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Kontakt, Telefon &amp; Anliegen</h2>
+        <h2>Kontakt, Termin &amp; schnelle Hilfe</h2>
         <p>
-          Für Fragen, Anliegen oder Terminvereinbarungen steht unser Buderus Kundendienst jederzeit zur Verfügung.
-          Über Telefon oder direkten Kontakt erreichen Sie unser Team schnell und unkompliziert.
+          Bei Fragen, Wartung oder im akuten Notdienst erreichen Sie uns unkompliziert per Telefon oder über das Formular.
+          Wir koordinieren rasch den passenden Einsatz in Wien, Niederösterreich und Burgenland.
         </p>
         <p style="margin-top:10px;">
-          Wir beantworten Fragen, liefern klare Informationen und organisieren rasch Hilfe – ob Wartung, Reparatur, Notdienst oder Beratung.
+          Ihr Ocean Thermenservice Wien: kompetent, effizient und kundenorientiert – für Sicherheit, Komfort und Wohlbefinden.
         </p>
       </div>
 
@@ -1063,45 +966,48 @@
 
 <script>
   (function(){
-    // Smooth scroll for anchor links (better control than scrollIntoView)
-    document.querySelectorAll('a[href^="#"]').forEach(function(a){
-      a.addEventListener('click', function(e){
-        var id = a.getAttribute('href');
-        if (!id || id === '#') return;
-        var el = document.querySelector(id);
-        if (!el) return;
-        e.preventDefault();
-        var offset = 16;
-        var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({ top: top, behavior: 'smooth' });
-      });
-    });
+    // year
+    var y = document.getElementById("year");
+    if (y) y.textContent = new Date().getFullYear();
 
     // TOC collapse
     var tocCard = document.getElementById('tocCard');
     var tocToggle = document.getElementById('tocToggle');
 
     function setExpanded(isExpanded){
-      if (!tocCard || !tocToggle) return;
       tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
       tocCard.classList.toggle('is-collapsed', !isExpanded);
 
       var svg = tocToggle.querySelector('svg');
       if (svg){
         svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+        svg.style.transition = 'transform .18s ease';
       }
     }
 
     setExpanded(true);
-    if (tocToggle){
-      tocToggle.addEventListener('click', function(){
-        var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
-        setExpanded(!expanded);
-      });
-    }
 
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
+    tocToggle.addEventListener('click', function(){
+      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
+      setExpanded(!expanded);
+    });
+
+    // smooth scroll
+    document.querySelectorAll('.toc-link').forEach(function(link){
+      link.addEventListener('click', function(e){
+        var href = this.getAttribute('href');
+        if (!href || href.charAt(0) !== '#') return;
+
+        var target = document.querySelector(href);
+        if (!target) return;
+
+        e.preventDefault();
+
+        var offset = 18;
+        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      });
+    });
   })();
 </script>
 @endsection

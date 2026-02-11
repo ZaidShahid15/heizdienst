@@ -21,7 +21,8 @@ Route::get('/viessmann', fn() => view('viessmann'));
 Route::get('/saunier-duval', fn() => view('saunier-duval'));
 Route::get('/rapido', fn() => view('rapido'));
 Route::get('/ocean', fn() => view('ocean'));
-
+Route::get('impressum',fn() => view('impressum'))->name('impressum');
+Route::get('/Datenschutzerklärung',fn() => view('Datenschutzerklärung'));
 /*
 |--------------------------------------------------------------------------
 | Kundendienst Pages (prefix + view prefix)

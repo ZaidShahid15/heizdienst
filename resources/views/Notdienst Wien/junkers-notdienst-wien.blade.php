@@ -107,11 +107,42 @@
   .service-checklist{margin:0; padding-left:18px}
   .service-checklist li{margin:8px 0}
 
+  /* =====================================================
+     ✅ IMAGE SIZE = CONTENT SIZE (CARD SPLIT)
+     ===================================================== */
+  .card-split{
+    display:grid;
+    grid-template-columns: 1.12fr .88fr;
+    gap:18px;
+    align-items:stretch; /* ✅ equal height */
+  }
+  .card-split--reverse .card-split__text{order:2}
+  .card-split--reverse .card-split__media{order:1}
+
+  .card-split__text,
+  .card-split__media{display:flex;} /* ✅ stretch child */
+
+  .card-box{
+    width:100%;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius2);
+    padding:18px;
+  }
+  .card-box h2{
+    margin:0 0 8px;
+    color:var(--ink);
+    font-size: clamp(22px, 2.2vw, 30px);
+    letter-spacing:-.02em;
+  }
+  .card-box p{margin:0}
+  .card-box p + p{margin-top:10px}
+
   /* Image box */
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:367px;
+    height:100%; /* ✅ match card height */
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -221,31 +252,6 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* Card split */
-  .card-split{
-    display:grid;
-    grid-template-columns: 1.12fr .88fr;
-    gap:18px;
-    align-items:center;
-  }
-  .card-split--reverse .card-split__text{order:2}
-  .card-split--reverse .card-split__media{order:1}
-  .card-box{
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius:var(--radius2);
-    padding:18px;
-  }
-  .card-box h2{
-    margin:0 0 8px;
-    color:var(--ink);
-    font-size: clamp(22px, 2.2vw, 30px);
-    letter-spacing:-.02em;
-  }
-  .card-box p{margin:0}
-  .card-box p + p{margin-top:10px}
-  .card-split .service-media__box{height:320px;}
-
   /* HERO (keep as-is) */
   .wolf-hero{
     position:relative;
@@ -348,12 +354,126 @@
     color:#fff;
   }
 
+  /* Promo Banner */
+  .promo-banner{margin-top:22px}
+  .promo-banner__inner{
+    position:relative;
+    overflow:hidden;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.18);
+    background:rgba(255,255,255,.06);
+    padding:16px;
+  }
   .promo-banner__inner::after{
     content:"";
     position:absolute;
     inset:0;
     background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
     z-index:0;
+    opacity:.55;
+  }
+  .promo-banner__content{
+    position:relative;
+    z-index:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+    flex-wrap:wrap;
+  }
+  .promo-banner__title{margin:0; font-size:20px; color:#09383F}
+  .promo-banner__price{margin:0; font-size:18px; color:#09383F}
+  .promo-banner__btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 16px;
+    border-radius:999px;
+    background:var(--accent);
+    color:#1a1a1a;
+    font-weight:900;
+  }
+
+  /* =========================
+     ✅ TOC AFTER HERO
+     ========================= */
+  .toc-wrap{padding:14px 0 10px; background:#fff;}
+  .toc-card{
+    width:100%;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.18);
+    border-radius:18px;
+    box-shadow:0 18px 50px rgba(0,0,0,.10);
+    overflow:hidden;
+  }
+  .toc-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    padding:12px 14px;
+    background:linear-gradient(0deg, #f7fbfb, #fff);
+    border-bottom:1px solid rgba(24,64,72,.12);
+  }
+  .toc-head h4{
+    margin:0;
+    font-size:15px;
+    font-weight:900;
+    color:var(--ink);
+  }
+  .toc-iconbtn{
+    width:36px; height:36px;
+    border-radius:10px;
+    border:1px solid rgba(24,64,72,.18);
+    background:#fff;
+    display:grid; place-items:center;
+    cursor:pointer;
+    transition:.15s ease;
+  }
+  .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.10)}
+  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9; transition:transform .18s ease}
+
+  .toc-body{
+    padding:12px;
+    max-height:520px;
+    overflow:auto;
+    transition:max-height .22s ease, padding .22s ease;
+  }
+  .toc-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:10px;
+  }
+  .toc-item a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 14px;
+    border-radius:14px;
+    border:1px solid rgba(24,64,72,.12);
+    background:#fff;
+    transition:.15s ease;
+  }
+  .toc-item a:hover{background:#f2f7f7; border-color:rgba(24,64,72,.18);}
+  .toc-badge{
+    width:26px; height:26px;
+    border-radius:999px;
+    display:grid; place-items:center;
+    background:rgba(251,154,27,.18);
+    border:1px solid rgba(251,154,27,.35);
+    font-size:12px;
+    font-weight:900;
+    color:#b76500;
+    flex:0 0 auto;
+  }
+  .toc-text{font-weight:900; color:#0f3a40; font-size:14px; line-height:1.2;}
+  .toc-card.is-collapsed .toc-body{
+    max-height:0;
+    padding:0 12px;
+    overflow:hidden;
   }
 
   @media (max-width: 980px){
@@ -361,11 +481,11 @@
     .service-emergency{grid-template-columns: 1fr}
     .service-cta__inner{grid-template-columns: 1fr}
     .service-formrow{grid-template-columns: 1fr}
-    .service-media__box{height:220px;}
+    /* ✅ keep images equal on mobile too */
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
-    .card-split .service-media__box{height:220px;}
+    .service-media__box{height:220px;} /* on mobile we limit height */
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
@@ -423,25 +543,41 @@
     </div>
   </section>
 
-  <!-- Quick tabs (like previous site) -->
-  <section class="service-quicktabs" id="quicktabs-services">
+  <!-- ✅ TOC AFTER HERO -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
-      <div class="service-tabs">
-        <a class="service-tab" href="#notdienst24-services">24/7</a>
-        <a class="service-tab" href="#kundendienst-services">Kundendienst</a>
-        <a class="service-tab" href="#notdienst-services">Notdienst</a>
-        <a class="service-tab" href="#wartung-services">Thermenservice</a>
-        <a class="service-tab" href="#tausch-services">Thermentausch</a>
-        <a class="service-tab" href="#gebiet-services">Einsatzgebiet</a>
-        <a class="service-tab" href="#preise-services">Preise</a>
-        <a class="service-tab" href="#technik-services">Fehlercodes</a>
-        <a class="service-tab" href="#team-services">Team</a>
-        <a class="service-tab" href="#faq-services">FAQ</a>
-        <a class="service-tab" href="#kontakt-services">Kontakt</a>
+      <div class="toc-card" id="tocCard">
+        <div class="toc-head">
+          <h4>Inhaltsverzeichnis</h4>
+          <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
+            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(180deg);">
+              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list">
+            <li class="toc-item"><a href="#notdienst24-services"><span class="toc-badge">01</span><span class="toc-text">24/7</span></a></li>
+            <li class="toc-item"><a href="#kundendienst-services"><span class="toc-badge">02</span><span class="toc-text">Kundendienst</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#wartung-services"><span class="toc-badge">04</span><span class="toc-text">Thermenservice</span></a></li>
+            <li class="toc-item"><a href="#tausch-services"><span class="toc-badge">05</span><span class="toc-text">Thermentausch</span></a></li>
+            <li class="toc-item"><a href="#gebiet-services"><span class="toc-badge">06</span><span class="toc-text">Einsatzgebiet</span></a></li>
+            <li class="toc-item"><a href="#preise-services"><span class="toc-badge">07</span><span class="toc-text">Preise</span></a></li>
+            <li class="toc-item"><a href="#technik-services"><span class="toc-badge">08</span><span class="toc-text">Fehlercodes</span></a></li>
+            <li class="toc-item"><a href="#team-services"><span class="toc-badge">09</span><span class="toc-text">Team</span></a></li>
+            <li class="toc-item"><a href="#faq-services"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
-    <!-- 2) Kundendienst Wien mit Rundum Service -->
+
+
+
+  <!-- 2) Kundendienst Wien mit Rundum Service -->
   <section class="service-section" id="kundendienst-services">
     <div class="service-container">
       <div class="card-split">
@@ -467,7 +603,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- 1) Junkers Notdienst Wien (highlights) -->
   <section class="service-section service-section--soft" id="notdienst24-services">
@@ -512,7 +647,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- 3) Notdienst rund um die Uhr (dark) -->
   <section class="service-section service-section--dark" id="notdienst-services">
@@ -734,7 +868,7 @@
     </div>
   </section>
 
-  <!-- 10) FAQ (use your full FAQ content) -->
+  <!-- 10) FAQ -->
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -852,9 +986,34 @@
         var el = document.querySelector(id);
         if (!el) return;
         e.preventDefault();
-        el.scrollIntoView({ behavior:'smooth', block:'start' });
+        var offset = 16;
+        var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
       });
     });
+
+    // TOC collapse
+    var tocCard = document.getElementById('tocCard');
+    var tocToggle = document.getElementById('tocToggle');
+
+    function setExpanded(isExpanded){
+      if (!tocCard || !tocToggle) return;
+      tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      tocCard.classList.toggle('is-collapsed', !isExpanded);
+
+      var svg = tocToggle.querySelector('svg');
+      if (svg){
+        svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+      }
+    }
+
+    setExpanded(true);
+    if (tocToggle){
+      tocToggle.addEventListener('click', function(){
+        var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
+        setExpanded(!expanded);
+      });
+    }
 
     var y = document.getElementById("year");
     if (y) y.textContent = new Date().getFullYear();

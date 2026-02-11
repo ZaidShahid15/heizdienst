@@ -107,11 +107,11 @@
   .service-checklist{margin:0; padding-left:18px}
   .service-checklist li{margin:8px 0}
 
-  /* Image box */
+  /* Image box (box gets size, image fills 100%) */
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:367px;
+    height:367px;              /* box size */
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -226,7 +226,7 @@
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:center;
+    align-items:stretch; /* so image equals content height */
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
@@ -245,7 +245,13 @@
   }
   .card-box p{margin:0}
   .card-box p + p{margin-top:10px}
-  .card-split .service-media__box{height:320px;}
+
+  /* IMPORTANT: image equals content size in card-split */
+  .card-split__media{height:100%;}
+  .card-split .service-media__box{
+    height:100%;
+    min-height:320px; /* keeps a nice look if text is short */
+  }
 
   /* HERO */
   .wolf-hero{
@@ -399,6 +405,110 @@
     font-weight:900;
   }
 
+  /* =========================
+     TOC (after hero)
+     - default collapsed
+     - click FULL bar to toggle
+     - scroll shows properly
+     ========================= */
+  .toc-wrap{
+    padding:18px 0 8px;
+    background:linear-gradient(180deg, #fff, rgba(24,64,72,.03));
+  }
+  .toc-card{
+    border:1px solid var(--line);
+    border-radius:20px;
+    background:#fff;
+    box-shadow:0 12px 34px rgba(0,0,0,.06);
+    overflow:hidden;
+  }
+  .toc-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding:14px 16px;
+    cursor:pointer;
+    user-select:none;
+  }
+  .toc-head:hover{background:rgba(24,64,72,.03)}
+  .toc-head h4{
+    margin:0;
+    color:var(--ink);
+    font-size:16px;
+    letter-spacing:-.01em;
+    font-weight:900;
+  }
+  .toc-iconbtn{
+    width:40px; height:40px;
+    display:grid; place-items:center;
+    border-radius:12px;
+    border:1px solid var(--line);
+    background:#fff;
+    cursor:pointer;
+    flex:0 0 auto;
+  }
+  .toc-iconbtn svg{width:18px; height:18px; fill:var(--ink); transition:.18s ease}
+  .toc-card.is-open .toc-iconbtn svg{transform: rotate(180deg)}
+  .toc-card:not(.is-open) .toc-iconbtn svg{transform: rotate(0deg)}
+
+  .toc-body{
+    border-top:1px solid var(--line);
+    padding:12px 12px 14px;
+    display:none; /* default collapsed */
+  }
+  .toc-card.is-open .toc-body{display:block}
+
+  .toc-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    max-height:260px;
+    overflow:auto;
+    padding-right:6px;
+  }
+  .toc-list::-webkit-scrollbar{width:10px}
+  .toc-list::-webkit-scrollbar-thumb{
+    background:rgba(24,64,72,.20);
+    border-radius:999px;
+    border:3px solid #fff;
+  }
+  .toc-list::-webkit-scrollbar-track{background:transparent}
+
+  .toc-item + .toc-item{margin-top:10px}
+  .toc-item a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:12px 12px;
+    border-radius:16px;
+    border:1px solid rgba(24,64,72,.10);
+    background:#fff;
+    transition:.15s ease;
+  }
+  .toc-item a:hover{
+    transform:translateY(-1px);
+    box-shadow:0 10px 26px rgba(0,0,0,.08);
+    border-color:rgba(24,64,72,.18);
+  }
+  .toc-badge{
+    width:32px;
+    height:32px;
+    border-radius:999px;
+    display:grid;
+    place-items:center;
+    font-weight:900;
+    color:var(--accent);
+    border:1px solid rgba(251,154,27,.35);
+    background:rgba(251,154,27,.14);
+    flex:0 0 auto;
+  }
+  .toc-text{
+    font-weight:900;
+    color:var(--ink);
+    letter-spacing:-.01em;
+  }
+
   @media (max-width: 980px){
     .service-grid--2{grid-template-columns:1fr}
     .service-emergency{grid-template-columns:1fr}
@@ -408,9 +518,10 @@
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
-    .card-split .service-media__box{height:220px;}
+    .card-split .service-media__box{height:220px; min-height:220px;}
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
+    .toc-list{max-height:240px;}
   }
 </style>
 
@@ -465,24 +576,42 @@
     </div>
   </section>
 
-  <!-- Quick tabs -->
-  <section class="service-quicktabs" id="quicktabs-services">
+  <!-- TOC (AFTER HERO) -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
-      <div class="service-tabs">
-        <a class="service-tab" href="#vorteile-services">Service</a>
-        <a class="service-tab" href="#kundendienst-services">Kundendienst</a>
-        <a class="service-tab" href="#leistungen-services">Leistungen</a>
-        <a class="service-tab" href="#wartung-services">Wartung</a>
-        <a class="service-tab" href="#installation-services">Installation</a>
-        <a class="service-tab" href="#region-services">Region</a>
-        <a class="service-tab" href="#team-services">Team</a>
-        <a class="service-tab" href="#ersatzteile-services">Ersatzteile</a>
-        <a class="service-tab" href="#faq-services">FAQ</a>
-        <a class="service-tab" href="#kontakt-services">Kontakt</a>
+      <div class="toc-card" id="tocCard">
+        <div class="toc-head" id="tocToggle" role="button" tabindex="0" aria-expanded="false" aria-controls="tocBody">
+          <h4>Inhaltsverzeichnis</h4>
+          <button class="toc-iconbtn" type="button" aria-hidden="true" tabindex="-1">
+            <svg viewBox="0 0 448 512" aria-hidden="true">
+              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list">
+            <li class="toc-item"><a href="#vorteile-services"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
+            <li class="toc-item"><a href="#kundendienst-services"><span class="toc-badge">02</span><span class="toc-text">Kundendienst</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services"><span class="toc-badge">04</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#wartung-services"><span class="toc-badge">05</span><span class="toc-text">Wartung</span></a></li>
+            <li class="toc-item"><a href="#installation-services"><span class="toc-badge">06</span><span class="toc-text">Installation</span></a></li>
+            <li class="toc-item"><a href="#region-services"><span class="toc-badge">07</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#team-services"><span class="toc-badge">08</span><span class="toc-text">Team</span></a></li>
+            <li class="toc-item"><a href="#ersatzteile-services"><span class="toc-badge">09</span><span class="toc-text">Ersatzteile</span></a></li>
+            <li class="toc-item"><a href="#preise-services"><span class="toc-badge">10</span><span class="toc-text">Termin</span></a></li>
+            <li class="toc-item"><a href="#faq-services"><span class="toc-badge">11</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">12</span><span class="toc-text">Kontakt</span></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
- <!-- Kundendienst -->
+
+ 
+
+  <!-- Kundendienst -->
   <section class="service-section" id="kundendienst-services">
     <div class="service-container">
       <div class="card-split">
@@ -509,6 +638,7 @@
       </div>
     </div>
   </section>
+
   <!-- Intro / Vorteile -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="service-container">
@@ -552,8 +682,6 @@
       </div>
     </div>
   </section>
-
- 
 
   <!-- Notdienst (dark) -->
   <section class="service-section service-section--dark" id="notdienst-services">
@@ -973,7 +1101,7 @@
 
 <script>
   (function(){
-    // Smooth scroll for quick tabs
+    // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(function(link){
       link.addEventListener('click', function(e){
         var id = this.getAttribute('href');
@@ -984,6 +1112,35 @@
         el.scrollIntoView({ behavior:'smooth', block:'start' });
       });
     });
+
+    // TOC toggle (default collapsed)
+    var tocCard = document.getElementById('tocCard');
+    var tocToggle = document.getElementById('tocToggle');
+    var tocBody = document.getElementById('tocBody');
+
+    function setToc(open){
+      if (!tocCard || !tocToggle || !tocBody) return;
+      tocCard.classList.toggle('is-open', !!open);
+      tocToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+
+    // default collapsed
+    setToc(false);
+
+    if (tocToggle){
+      tocToggle.addEventListener('click', function(){
+        var isOpen = tocCard.classList.contains('is-open');
+        setToc(!isOpen);
+      });
+
+      tocToggle.addEventListener('keydown', function(e){
+        if (e.key === 'Enter' || e.key === ' '){
+          e.preventDefault();
+          var isOpen = tocCard.classList.contains('is-open');
+          setToc(!isOpen);
+        }
+      });
+    }
 
     var y = document.getElementById("year");
     if (y) y.textContent = new Date().getFullYear();

@@ -104,25 +104,6 @@
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  /* Image box */
-  .service-media{width:100%;}
-  .service-media__box{
-    width:100%;
-    height:367px;
-    border-radius: var(--radius2);
-    border:1px solid var(--line);
-    box-shadow:0 18px 50px rgba(0,0,0,.12);
-    overflow:hidden;
-    background: var(--muted);
-  }
-  .service-media__img{
-    width:100%;
-    height:100%;
-    display:block;
-    object-fit:cover;
-    object-position:center;
-  }
-
   .service-stats{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;}
   .service-stat{
     display:flex; align-items:center; gap:10px;
@@ -136,6 +117,26 @@
 
   .service-checklist{margin:0; padding-left:18px}
   .service-checklist li{margin:8px 0}
+
+  /* ====== IMAGE BOX (UPDATED: image equals content height) ====== */
+  .service-media{width:100%; height:100%;}
+  .service-media__box{
+    width:100%;
+    height:100%;
+    min-height:320px;
+    border-radius: var(--radius2);
+    border:1px solid var(--line);
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+    overflow:hidden;
+    background: var(--muted);
+  }
+  .service-media__img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position:center;
+  }
 
   /* Dark section */
   .service-section--dark{
@@ -324,21 +325,130 @@
     color:#fff;
   }
 
+  /* Promo banner (kept minimal, but fixed positioning) */
+  .promo-banner{margin-top:22px}
+  .promo-banner__inner{
+    position:relative;
+    overflow:hidden;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.18);
+    background:rgba(255,255,255,.06);
+    padding:16px;
+  }
   .promo-banner__inner::after{
     content:"";
     position:absolute;
     inset:0;
     background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
     z-index:0;
+    opacity:.55;
+  }
+  .promo-banner__content{
+    position:relative;
+    z-index:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+    flex-wrap:wrap;
+  }
+  .promo-banner__title{margin:0; color:#fff; font-size:20px}
+  .promo-banner__price{margin:0; color:#fff; font-size:18px}
+  .promo-banner__btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 16px;
+    border-radius:999px;
+    background:var(--accent);
+    color:#1a1a1a;
+    font-weight:900;
   }
 
-  /* Card split */
+  /* ====== TOC (ADDED + placed after hero) ====== */
+  .toc-wrap{padding:14px 0 6px; background:#fff;}
+  .toc-card{
+    border:1px solid var(--line);
+    border-radius:var(--radius2);
+    background:#fff;
+    box-shadow:0 10px 28px rgba(0,0,0,.06);
+    overflow:hidden;
+  }
+  .toc-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding:12px 14px;
+    background:linear-gradient(0deg, rgba(24,64,72,.05), #fff);
+  }
+  .toc-head h4{
+    margin:0;
+    color:var(--ink);
+    font-weight:900;
+    letter-spacing:-.01em;
+  }
+  .toc-iconbtn{
+    width:40px;
+    height:40px;
+    display:grid;
+    place-items:center;
+    border-radius:12px;
+    border:1px solid var(--line);
+    background:#fff;
+    cursor:pointer;
+    transition:.16s ease;
+  }
+  .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 24px rgba(0,0,0,.08)}
+  .toc-iconbtn svg{width:18px; height:18px; fill:var(--ink); transition:.18s ease}
+  .toc-body{padding:10px 14px 14px}
+  .toc-body.is-collapsed{display:none;}
+  .toc-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:8px 10px;
+  }
+  .toc-item a{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 10px;
+    border-radius:14px;
+    border:1px solid transparent;
+    background:rgba(24,64,72,.03);
+    transition:.16s ease;
+  }
+  .toc-item a:hover{
+    border-color:var(--line);
+    background:rgba(24,64,72,.06);
+    transform:translateY(-1px);
+  }
+  .toc-badge{
+    width:34px;
+    height:34px;
+    border-radius:12px;
+    display:grid;
+    place-items:center;
+    font-weight:900;
+    color:var(--ink);
+    background:rgba(251,154,27,.20);
+    border:1px solid rgba(251,154,27,.35);
+    flex:0 0 auto;
+  }
+  .toc-text{font-weight:900; color:var(--ink);}
+
+  /* Card split (UPDATED: stretch + image equals content height) */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:center;
+    align-items:stretch;
   }
+  .card-split__text,
+  .card-split__media{height:100%;}
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
   .card-box{
@@ -346,16 +456,8 @@
     border:1px solid var(--line);
     border-radius:var(--radius2);
     padding:18px;
+    height:100%;
   }
-  .card-box h2{
-    margin:0 0 8px;
-    color:var(--ink);
-    font-size: clamp(22px, 2.2vw, 30px);
-    letter-spacing:-.02em;
-  }
-  .card-box p{margin:0}
-  .card-box p + p{margin-top:10px}
-  .card-split .service-media__box{height:320px;}
 
   /* Mobile */
   @media (max-width: 980px){
@@ -363,13 +465,13 @@
     .service-emergency{grid-template-columns: 1fr}
     .service-cta__inner{grid-template-columns: 1fr}
     .service-formrow{grid-template-columns: 1fr}
-    .service-media__box{height:220px;}
+    .service-media__box{min-height:220px;}
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
-    .card-split .service-media__box{height:220px;}
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
+    .toc-list{grid-template-columns:1fr;}
   }
 </style>
 
@@ -379,18 +481,18 @@
 @endpush
 
 <main>
-  <!-- HERO (KEEP AS-IS; content can stay or you can adjust later) -->
+  <!-- HERO (KEEP AS-IS) -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
       <p class="wolf-hero__kicker">rund um die uhr erreichbar</p>
 
       <h1>
-        Vaillant Kundendienst Wien<br>
+        Vaillant Notdienst Wien 24/7<br>
         <em>rund um die uhr erreichbar</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Zuverlässiger Kundendienst in Wien für Vaillant Therme, Gasgeräte und Heizung inklusive Wartung, Reparatur und Notdienst.
+        Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.
       </p>
 
       <div class="wolf-hero__logo">
@@ -425,7 +527,39 @@
     </div>
   </section>
 
-  <!-- Quick tabs (UPDATED: correct IDs + matches content) -->
+  <!-- TOC (NOW: directly AFTER hero) -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
+    <div class="service-container">
+      <div class="toc-card" id="tocCard">
+        <div class="toc-head">
+          <h4>Inhaltsverzeichnis</h4>
+          <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
+            <svg viewBox="0 0 448 512" aria-hidden="true" id="tocChevron" style="transform: rotate(180deg);">
+              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list">
+            <li class="toc-item"><a href="#notdienst24-services"><span class="toc-badge">01</span><span class="toc-text">24/7</span></a></li>
+            <li class="toc-item"><a href="#kundendienst-services"><span class="toc-badge">02</span><span class="toc-text">Kundendienst</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#wartung-services"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services"><span class="toc-badge">05</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#preise-services"><span class="toc-badge">06</span><span class="toc-text">Preise</span></a></li>
+            <li class="toc-item"><a href="#gebiet-services"><span class="toc-badge">07</span><span class="toc-text">Einsatzgebiet</span></a></li>
+            <li class="toc-item"><a href="#sicherheit-services"><span class="toc-badge">08</span><span class="toc-text">Sicherheit</span></a></li>
+            <li class="toc-item"><a href="#vertrauen-services"><span class="toc-badge">09</span><span class="toc-text">Vertrauen</span></a></li>
+            <li class="toc-item"><a href="#faq-services"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick tabs (kept) -->
   <section class="service-quicktabs" id="quicktabs-services">
     <div class="service-container">
       <div class="service-tabs">
@@ -447,18 +581,13 @@
   <!-- 1) Vaillant Notdienst Wien 24/7 (benefits) -->
   <section class="service-section service-section--soft" id="notdienst24-services">
     <div class="service-container">
-      <div class="service-container">
-      <div class="card-split mb-5 ">
+      <div class="card-split mb-5">
         <div class="card-split__text">
           <div class="card-box">
             <h2>Vaillant Notdienst Wien 24/7</h2>
             <p>
-             Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.
-
- </p>
-           
-
-         
+              Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.
+            </p>
           </div>
         </div>
 
@@ -468,7 +597,6 @@
           </div>
         </div>
       </div>
-    </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
@@ -933,17 +1061,29 @@
 
 <script>
   (function(){
-    // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(function(link){
-      link.addEventListener('click', function(e){
-        var id = this.getAttribute('href');
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var id = a.getAttribute('href');
         if (!id || id === '#') return;
         var el = document.querySelector(id);
         if (!el) return;
         e.preventDefault();
-        el.scrollIntoView({ behavior:'smooth', block:'start' });
+        el.scrollIntoView({behavior:'smooth', block:'start'});
       });
     });
+
+    // TOC toggle
+    var toggle = document.getElementById('tocToggle');
+    var body = document.getElementById('tocBody');
+    var chevron = document.getElementById('tocChevron');
+    if (toggle && body) {
+      toggle.addEventListener('click', function(){
+        var isCollapsed = body.classList.toggle('is-collapsed');
+        toggle.setAttribute('aria-expanded', (!isCollapsed).toString());
+        if (chevron) chevron.style.transform = isCollapsed ? 'rotate(0deg)' : 'rotate(180deg)';
+      });
+    }
 
     var y = document.getElementById("year");
     if (y) y.textContent = new Date().getFullYear();
