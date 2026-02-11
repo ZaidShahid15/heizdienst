@@ -108,7 +108,6 @@
                         <li><svg><use href="#i-check"></use></svg><a href="{{ route('impressum') }}">Impressum</a></li>
                         <li><svg><use href="#i-check"></use></svg><a href="{{ url('/Datenschutzerklärung') }}">Datenschutzerklärung</a></li>
                         <li><svg><use href="#i-check"></use></svg><a href="{{ url('/') }}">Startseite</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/preise') }}">Preise</a></li>
                     </ul>
                 </div>
 
