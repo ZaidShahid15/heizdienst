@@ -85,13 +85,6 @@
   .service-grid{display:grid; gap:14px}
   .service-grid--2{grid-template-columns: repeat(2, 1fr)}
 
-  .service-card{
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius: var(--radius);
-    padding:16px;
-  }
-
   .service-feature{
     display:flex; gap:12px;
     padding:16px;
@@ -111,66 +104,34 @@
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  .service-split{
+  /* ✅ STATS: 2 in a row + like screenshot */
+  .service-stats{
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap:18px;
-    align-items:center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:10px;
+    margin-top:14px;
   }
-  .service-split--reverse .service-split__text{order:2}
-  .service-split--reverse .service-split__media{order:1}
-
-  /* Image box */
-  .service-media{width:100%;}
-  .service-media__box{
-    width:100%;
-    height:367px;
-    border-radius: var(--radius2);
-    border:1px solid var(--line);
-    box-shadow:0 18px 50px rgba(0,0,0,.12);
-    overflow:hidden;
-    background: var(--muted);
-  }
-  .service-media__img{
-    width:100%;
-    height:100%;
-    display:block;
-    object-fit:cover;
-    object-position:center;
-  }
-
-  .service-stats{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;}
   .service-stat{
-    display:flex; align-items:center; gap:10px;
-    padding:10px 12px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 14px;
     border-radius:999px;
     background:rgba(24,64,72,.06);
-    border:1px solid var(--line);
+    border:1px solid rgba(24,64,72,.18);
   }
-  .service-stat__num{font-weight:900; color:var(--ink)}
-  .service-stat__label{font-weight:800}
-
-  .service-checklist{margin:0; padding-left:18px}
-  .service-checklist li{margin:8px 0}
-
-  /* Quick tabs */
-  .service-quicktabs{padding:10px 0 20px}
-  .service-tabs{
-    display:flex; gap:10px; flex-wrap:wrap;
-    padding:10px;
-    border:1px solid var(--line);
-    border-radius:19px;
-    background:#fff;
-    justify-content: space-between;
-  }
-  .service-tab{
-    padding:10px 12px;
+  .service-stat__num{
+    width:22px; height:22px;
     border-radius:999px;
-    font-weight:800;
+    display:grid; place-items:center;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.22);
+    font-weight:900;
     color:var(--ink);
-    border:1px solid transparent;
+    line-height:1;
+    flex:0 0 auto;
   }
-  .service-tab:hover{border-color:var(--line); background:rgba(24,64,72,.05)}
+  .service-stat__label{font-weight:800; color:var(--ink)}
 
   /* Dark section */
   .service-section--dark{
@@ -193,6 +154,8 @@
     border-radius:var(--radius);
     padding:16px;
   }
+  .service-checklist{margin:0; padding-left:18px}
+  .service-checklist li{margin:8px 0}
   .service-checklist--on-dark{color:rgba(255,255,255,.92)}
   .service-checklist--on-dark li{margin:10px 0}
 
@@ -204,11 +167,7 @@
     background:#fff;
   }
   .service-faq details + details{margin-top:10px}
-  .service-faq summary{
-    cursor:pointer;
-    font-weight:900;
-    color:var(--ink);
-  }
+  .service-faq summary{cursor:pointer; font-weight:900; color:var(--ink);}
   .service-faq p{margin:10px 0 0}
 
   /* CTA / Contact form */
@@ -283,7 +242,6 @@
     z-index:1;
   }
   .wolf-hero__inner{position:relative; z-index:2; max-width:900px; margin-top:40px;}
-  /* keep your angled overlay exactly */
   .wolf-hero .wolf-hero__inner::after{
     content:"";
     position:absolute;
@@ -368,17 +326,22 @@
     z-index:0;
   }
 
-  /* ===== Card split (like previous) ===== */
+  /* ✅ Card split equal height */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:center;
+    align-items:stretch;
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
 
+  .card-split__text,
+  .card-split__media{display:flex;}
+
   .card-box{
+    width:100%;
+    height:100%;
     background:#fff;
     border:1px solid var(--line);
     border-radius:var(--radius2);
@@ -392,7 +355,118 @@
   }
   .card-box p{margin:0}
   .card-box p + p{margin-top:10px}
-  .card-split .service-media__box{height:320px;}
+
+  /* ✅ Image box: FULL COVER */
+  .img-box{
+    width:100%;
+    height:100%;
+    border-radius: var(--radius2);
+    border:1px solid var(--line);
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+    overflow:hidden;
+    background: var(--muted);
+  }
+  .img-box img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+  }
+
+  /* ==================================================
+     ✅ TOC (FULL WIDTH, AFTER HERO, NO REMOVE BUTTON)
+     ================================================== */
+  .toc-wrap{
+    padding:16px 0 0;
+    background:#fff;
+  }
+  .toc-card{
+    width:100%;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.18);
+    border-radius:18px;
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+    overflow:hidden;
+  }
+  .toc-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    padding:12px 14px;
+    background:linear-gradient(0deg, #f7fbfb, #fff);
+    border-bottom:1px solid rgba(24,64,72,.12);
+  }
+  .toc-head h4{
+    margin:0;
+    font-size:15px;
+    font-weight:900;
+    color:var(--ink);
+  }
+  .toc-actions{display:flex; gap:8px; align-items:center;}
+  .toc-iconbtn{
+    width:34px; height:34px;
+    border-radius:10px;
+    border:1px solid rgba(24,64,72,.18);
+    background:#fff;
+    display:grid; place-items:center;
+    cursor:pointer;
+    transition:.15s ease;
+  }
+  .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.10)}
+  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9}
+
+  .toc-body{
+    padding:12px;
+    transition:max-height .22s ease, padding .22s ease;
+    max-height:520px;
+    overflow:auto;
+  }
+
+  /* ✅ make list look like screenshot */
+  .toc-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:10px;
+  }
+  .toc-item a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 14px;
+    border-radius:14px;
+    border:1px solid rgba(24,64,72,.12);
+    background:#fff;
+    transition:.15s ease;
+  }
+  .toc-item a:hover{background:#f2f7f7; border-color:rgba(24,64,72,.18);}
+
+  .toc-badge{
+    width:26px; height:26px;
+    border-radius:999px;
+    display:grid; place-items:center;
+    background:rgba(251,154,27,.18);
+    border:1px solid rgba(251,154,27,.35);
+    font-size:12px;
+    font-weight:900;
+    color:#b76500;
+    flex:0 0 auto;
+  }
+  .toc-text{
+    font-weight:900;
+    color:#0f3a40;
+    font-size:14px;
+    line-height:1.2;
+  }
+
+  .toc-card.is-collapsed .toc-body{
+    max-height:0;
+    padding:0 12px;
+    overflow:hidden;
+  }
 
   /* Mobile */
   @media (max-width: 980px){
@@ -400,11 +474,15 @@
     .service-emergency{grid-template-columns: 1fr}
     .service-cta__inner{grid-template-columns: 1fr}
     .service-formrow{grid-template-columns: 1fr}
-    .service-media__box{height:220px;}
+
+    .service-stats{grid-template-columns: 1fr;}
+
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
-    .card-split .service-media__box{height:220px;}
+    .card-split__text, .card-split__media{display:block;}
+    .img-box{min-height:220px;}
+
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
@@ -462,25 +540,42 @@
     </div>
   </section>
 
-  <!-- Quick tabs -->
-  <section class="service-quicktabs" id="quicktabs-services">
+  <!-- ✅ TOC (FULL WIDTH) directly AFTER HERO - no remove button -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
-      <div class="service-tabs">
-        <a class="service-tab" href="#vorteile-services">Service</a>
-        <a class="service-tab" href="#partner-services">Team</a>
-        <a class="service-tab" href="#leistungen-services">Leistungen</a>
-        <a class="service-tab" href="#warum-services">Wartung</a>
-        <a class="service-tab" href="#reparatur-services">Reparaturen</a>
-        <a class="service-tab" href="#notdienst-services">Notdienst</a>
-        <a class="service-tab" href="#preise-services">Kosten</a>
-        <a class="service-tab" href="#region-services">Region</a>
-        <a class="service-tab" href="#faq-services">FAQ</a>
-        <a class="service-tab" href="#kontakt-services">Kontakt</a>
+      <div class="toc-card" id="tocCard">
+        <div class="toc-head">
+          <h4>Inhaltsverzeichnis</h4>
+          <div class="toc-actions">
+            <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list">
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Vaillant Service in Wien</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
+            <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Wartung</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED STRUCTURE: now “card box + image” layout like screenshot -->
+
+
+  <!-- Service -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="card-split">
@@ -498,15 +593,16 @@
           </div>
         </div>
 
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/viliant.jpeg') }}" alt="Vaillant Service in Wien" loading="lazy" decoding="async">
+        <div class="card-split__media">
+          <div class="img-box">
+            <img src="{{ asset('img/viliant.jpeg') }}" alt="Vaillant Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Team -->
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
@@ -530,15 +626,16 @@
           </div>
         </div>
 
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Kundendienst Techniker & Fachpersonal" loading="lazy" decoding="async">
+        <div class="card-split__media">
+          <div class="img-box">
+            <img src="{{ asset('img/vaillant-3.jpg') }}" alt="Kundendienst Techniker & Fachpersonal" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Wartung -->
   <section class="service-section" id="wartung-services">
     <div class="service-container">
       <div class="card-split">
@@ -562,16 +659,16 @@
           </div>
         </div>
 
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Wartung für Vaillant Therme" loading="lazy" decoding="async">
+        <div class="card-split__media">
+          <div class="img-box">
+            <img src="{{ asset('img/vaillant-4.jpg') }}" alt="Wartung für Vaillant Therme" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen (kept as grid) -->
+  <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -631,6 +728,7 @@
     </div>
   </section>
 
+  <!-- Reparatur -->
   <section class="service-section service-section--soft" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
@@ -654,16 +752,16 @@
           </div>
         </div>
 
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Reparatur & Ersatzteile" loading="lazy" decoding="async">
+        <div class="card-split__media">
+          <div class="img-box">
+            <img src="{{ asset('img/vaillant-5.jpg') }}" alt="Reparatur & Ersatzteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Notdienst (keep dark layout) -->
+  <!-- Notdienst -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
@@ -699,6 +797,7 @@
     </div>
   </section>
 
+  <!-- Preise -->
   <section class="service-section" id="preise-services">
     <div class="service-container">
       <div class="card-split">
@@ -715,15 +814,16 @@
           </div>
         </div>
 
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Preis & Angebot" loading="lazy" decoding="async">
+        <div class="card-split__media">
+          <div class="img-box">
+            <img src="{{ asset('img/vaillant-6.jpg') }}" alt="Preis & Angebot" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Region -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
@@ -737,15 +837,16 @@
           </div>
         </div>
 
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-2.jpg') }}" alt="Lokale Abdeckung Wien & NÖ" loading="lazy" decoding="async">
+        <div class="card-split__media">
+          <div class="img-box">
+            <img src="{{ asset('img/vaillant-2.jpg') }}" alt="Lokale Abdeckung Wien & NÖ" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -787,7 +888,7 @@
     </div>
   </section>
 
-  <!-- ✅ CONTACT FORM ALWAYS LAST (already last section) -->
+  <!-- CONTACT -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
@@ -829,8 +930,48 @@
 
 <script>
   (function(){
+    // year
     var y = document.getElementById("year");
     if (y) y.textContent = new Date().getFullYear();
+
+    // TOC collapse (no remove button)
+    var tocCard = document.getElementById('tocCard');
+    var tocToggle = document.getElementById('tocToggle');
+
+    function setExpanded(isExpanded){
+      tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      tocCard.classList.toggle('is-collapsed', !isExpanded);
+
+      var svg = tocToggle.querySelector('svg');
+      if (svg){
+        svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+        svg.style.transition = 'transform .18s ease';
+      }
+    }
+
+    setExpanded(true);
+
+    tocToggle.addEventListener('click', function(){
+      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
+      setExpanded(!expanded);
+    });
+
+    // smooth scroll
+    document.querySelectorAll('.toc-link').forEach(function(link){
+      link.addEventListener('click', function(e){
+        var href = this.getAttribute('href');
+        if (!href || href.charAt(0) !== '#') return;
+
+        var target = document.querySelector(href);
+        if (!target) return;
+
+        e.preventDefault();
+
+        var offset = 18;
+        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      });
+    });
   })();
 </script>
 @endsection
