@@ -60,3 +60,9 @@ Route::prefix('notdienstwien')->group(function () {
     Route::get('/baxi', fn() => view('Notdienst Wien.baxi-notdienst-wien'));
 
 });
+
+
+Route::prefix('Thermentausch')->group(function(){
+    Route::get('/vaillant',fn() => view('Thermentausch.vaillant'));
+    Route::get('/junkers',fn() => view('Thermentausch.junkers'));
+});
