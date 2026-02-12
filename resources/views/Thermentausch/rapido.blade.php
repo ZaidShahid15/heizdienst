@@ -379,9 +379,9 @@
     background:rgba(255,255,255,.08);
     padding:16px;
   }
-  .promo-banner__content{position:relative; z-index:1; display:flex; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap;}
-  .promo-banner__title{margin:0; ; font-size:18px; font-weight:900;}
-  .promo-banner__price{margin:0; color:#fff; font-weight:900; font-size:18px;}
+  .promo-banner__content{position:relative; z-index:1; display:flex;flex-direction:column; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap;}
+  .promo-banner__title{margin:0; font-size:18px; font-weight:900;}
+  .promo-banner__price{margin:0;  font-weight:900; font-size:18px;}
   .promo-banner__btn{
     display:inline-flex; align-items:center; justify-content:center;
     padding:10px 14px;
