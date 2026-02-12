@@ -463,7 +463,7 @@
     list-style:none;
     margin:0;
     padding:0;
-    max-height:260px;
+    /* max-height:260px; */
     overflow:auto;
     padding-right:6px;
   }
@@ -576,38 +576,41 @@
     </div>
   </section>
 
-  <!-- TOC (AFTER HERO) -->
-  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
-    <div class="service-container">
-      <div class="toc-card" id="tocCard">
-        <div class="toc-head" id="tocToggle" role="button" tabindex="0" aria-expanded="false" aria-controls="tocBody">
-          <h4>Inhaltsverzeichnis</h4>
-          <button class="toc-iconbtn" type="button" aria-hidden="true" tabindex="-1">
-            <svg viewBox="0 0 448 512" aria-hidden="true">
+<!-- ✅ TOC AFTER HERO -->
+<section class="toc-wrap" aria-label="Inhaltsverzeichnis">
+  <div class="service-container">
+    <div class="toc-card is-collapsed" id="tocCard">
+      <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+        <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+
+        <div class="toc-actions">
+          <button class="toc-iconbtn" type="button" id="tocToggle"
+            aria-expanded="false" aria-controls="tocBody"
+            aria-label="Inhaltsverzeichnis umschalten">
+            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
               <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
             </svg>
           </button>
         </div>
+      </div>
 
-        <div class="toc-body" id="tocBody">
-          <ul class="toc-list">
-            <li class="toc-item"><a href="#vorteile-services"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
-            <li class="toc-item"><a href="#kundendienst-services"><span class="toc-badge">02</span><span class="toc-text">Kundendienst</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services"><span class="toc-badge">04</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#wartung-services"><span class="toc-badge">05</span><span class="toc-text">Wartung</span></a></li>
-            <li class="toc-item"><a href="#installation-services"><span class="toc-badge">06</span><span class="toc-text">Installation</span></a></li>
-            <li class="toc-item"><a href="#region-services"><span class="toc-badge">07</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#team-services"><span class="toc-badge">08</span><span class="toc-text">Team</span></a></li>
-            <li class="toc-item"><a href="#ersatzteile-services"><span class="toc-badge">09</span><span class="toc-text">Ersatzteile</span></a></li>
-            <li class="toc-item"><a href="#preise-services"><span class="toc-badge">10</span><span class="toc-text">Termin</span></a></li>
-            <li class="toc-item"><a href="#faq-services"><span class="toc-badge">11</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">12</span><span class="toc-text">Kontakt</span></a></li>
-          </ul>
-        </div>
+      <div class="toc-body" id="tocBody">
+        <ul class="toc-list" id="tocList">
+          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
+          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
+          <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
+          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
+          <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
+          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
+          <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
+          <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
+          <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+          <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+        </ul>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
  
 

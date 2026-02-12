@@ -110,12 +110,12 @@
   }
   .service-stat__label{font-weight:800; color:var(--ink)}
 
-  /* ✅ Card split: equal height + image cover */
+  /* ✅ Card split: equal height columns */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch;
+    align-items:stretch; /* equal height columns */
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
@@ -140,22 +140,46 @@
   .card-box p{margin:0}
   .card-box p + p{margin-top:10px}
 
-  .img-box{
+  /* ✅ Image wrapper (inner div controls size, img is 100% both ways) */
+  .img-wrap{
     width:100%;
-    height:100%;
+    height:100%; /* match text height */
+    display:flex;
+  }
+  .img-wrap__inner{
+    width:100%;
+    height:100%; /* match text height */
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
     overflow:hidden;
     background: var(--muted);
+    display:flex;
   }
-  .img-box img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    object-position:center;
-    display:block;
-  }
+ .img-wrap{
+  width:100%;
+  height:100%;
+  display:flex;
+}
+
+.img-wrap__inner{
+  width:100%;
+  height:100%;
+  border-radius: var(--radius2);
+  border:1px solid var(--line);
+  box-shadow:0 18px 50px rgba(0,0,0,.12);
+  overflow:hidden;
+  background: var(--muted);
+}
+
+.img-wrap__inner img{
+  width:100%;
+  height:100%;
+  /* object-fit:cover;        ✅ FULL COVER */
+  object-position:center;  /* ✅ Centered */
+  display:block;
+}
+
 
   /* Dark section */
   .service-section--dark{
@@ -351,15 +375,11 @@
   }
 
   /* =========================
-     ✅ TOC (after hero, NOT fixed) + no close button
+     ✅ TOC (after hero)
      ========================= */
-  .toc-wrap{
-    padding:18px 0 0;
-    background:#fff;
-  }
+  .toc-wrap{padding:18px 0 0; background:#fff;}
   .toc-card{
     width:100%;
-    /* max-width:360px; */
     background:#fff;
     border:1px solid rgba(24,64,72,.18);
     border-radius:18px;
@@ -375,12 +395,7 @@
     background:linear-gradient(0deg, #f7fbfb, #fff);
     border-bottom:1px solid rgba(24,64,72,.12);
   }
-  .toc-head h4{
-    margin:0;
-    font-size:15px;
-    font-weight:900;
-    color:var(--ink);
-  }
+  .toc-head h4{margin:0; font-size:15px; font-weight:900; color:var(--ink);}
   .toc-actions{display:flex; gap:8px; align-items:center;}
   .toc-iconbtn{
     width:34px; height:34px;
@@ -397,7 +412,6 @@
   .toc-body{
     padding:10px;
     transition:max-height .22s ease, padding .22s ease;
-    max-height:520px;
     overflow:auto;
   }
   .toc-list{
@@ -430,7 +444,6 @@
     flex:0 0 auto;
   }
   .toc-text{font-weight:800; color:#0f3a40; font-size:13px;}
-
   .toc-card.is-collapsed .toc-body{
     max-height:0;
     padding:0 10px;
@@ -449,18 +462,29 @@
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
     .card-split__text,.card-split__media{display:block;}
-    .img-box{min-height:220px;}
+
+    /* On mobile, give image a safe height */
+    .img-wrap{min-height:240px;}
+    .img-wrap__inner{min-height:240px;}
 
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
-
     .toc-card{max-width:100%;}
   }
+  @media (max-width: 980px){
+  .img-wrap,
+  .img-wrap__inner{
+    min-height:240px;
+  }
+}
+
+
+
 </style>
 
 @push('meta')
-  <title>Viessmann Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+  <title>Viessmann Thermentausch Wien | Gastherme inkl. Montage & MwSt</title>
+  <meta name="description" content="Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Angebot & Service vom Fachbetrieb">
 @endpush
 
 <main>
@@ -468,37 +492,37 @@
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">service rund um die uhr</p>
+      <p class="wolf-hero__kicker">Viessmann Thermentausch Wien</p>
 
       <h1>
-        Viessmann Kundendienst Wien<br>
-        <em>service rund um die uhr</em>
+        Viessmann Thermentausch Wien<br>
+        <em>Gastherme inkl. Montage & MwSt</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Professioneller Viessmann Kundendienst Wien für Gasgeräte, Thermen und Heizsysteme inklusive Wartung, Reparaturen und Notdienst.
+        Ein professioneller Viessmann Thermentausch in Wien sorgt für zuverlässige Heizung, moderne Gastherme und langfristige Effizienz im eigenen Zuhause.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann Thermentausch Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Wartung</span>
-        <span class="wolf-pill">Reparaturen</span>
-        <span class="wolf-pill">Ersatzteile</span>
-        <span class="wolf-pill">Notdienst rund um die uhr</span>
+        <span class="wolf-pill">Brennwerttechnik</span>
+        <span class="wolf-pill">Montage inkl. MwSt</span>
+        <span class="wolf-pill">Beratung & Angebot</span>
+        <span class="wolf-pill">Fachbetrieb</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Beratung anfordern</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Ablauf ansehen</a>
       </div>
 
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Viessmann Kundendienst Aktion</em></h2>
+            <h2 class="promo-banner__title"><em>Viessmann Thermentausch Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
@@ -511,359 +535,342 @@
     </div>
   </section>
 
-  <!-- ✅ TOC directly AFTER HERO (and no remove button) -->
+  <!-- ✅ TOC directly AFTER HERO -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card" id="tocCard">
-        <div class="toc-head">
-          <h4>Inhaltsverzeichnis</h4>
+        <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+          <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+
           <div class="toc-actions">
-            <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
-              <svg viewBox="0 0 448 512" aria-hidden="true"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>
+            <button class="toc-iconbtn" type="button" id="tocToggle"
+              aria-expanded="false" aria-controls="tocBody"
+              aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+              </svg>
             </button>
           </div>
         </div>
 
         <div class="toc-body" id="tocBody">
-          <ul class="toc-list">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Viessmann Service in Wien</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Thermenwartung</span></a></li>
-            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Gasgeräte Service</span></a></li>
-            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Kontakt</span></a></li>
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Wann sinnvoll</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Heizsysteme</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Montage</span></a></li>
+            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Kosten</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Vorteile</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Angebot</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Service -->
+  <!-- ✅ Wann sinnvoll -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Viessmann Service in Wien</h2>
+            <h2>Wann ein Thermentausch wirklich sinnvoll ist</h2>
             <p>
-              Als erfahrener Partner betreuen wir Viessmann Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Viessmann Therme häufige Probleme verursacht, Reparaturen zunehmen oder die Energiekosten steigen.
+              Ältere Gasthermen entsprechen oft nicht mehr dem aktuellen Standard moderner Heizsysteme.
             </p>
             <p>
-              Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,
-              schnelle Durchführung und klare Kommunikation – auch in Niederösterreich unterstützen wir Haushalte und Betriebe zuverlässig.
+              Neue Viessmann Gas Brennwertthermen bieten höhere Effizienz, bessere Sicherheit und einen stabilen Betrieb.
+              Ein erfahrener Installateur oder Fachmann prüft Gerät, Anlage und Anschlüsse und empfiehlt eine passende Lösung für langfristige Nutzung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media">
-          <div class="img-box">
-            <img src="{{ asset('img/viesman.jpeg') }}" alt="Viessmann Service in Wien" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Team / Gasgeräte Service -->
-  <section class="service-section service-section--soft" id="partner-services">
-    <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Servicetechniker, Team & Kompetenz</h2>
-            <p>
-              Unser Team besteht aus erfahrenen Servicetechnikern, Installateuren und Mitarbeitern mit umfassendem Know-how
-              im Umgang mit Viessmann Heizungen und Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards.
-            </p>
-            <p>
-              Durch laufende Schulungen sichern wir eine kompetente Betreuung aller Systeme. Klare Abläufe, Zuverlässigkeit
-              und persönliche Betreuung schaffen Vertrauen und langfristige Kundenzufriedenheit.
-            </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Qualitätsstandards</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Laufende Schulungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Persönliche Betreuung</div></div>
+          <div class="img-wrap">
+            <div class="img-wrap__inner">
+              <img src="{{ asset('img/viesman.jpeg') }}" alt="Thermentausch sinnvoll" loading="lazy" decoding="async">
             </div>
           </div>
         </div>
-
-        <div class="card-split__media">
-          <div class="img-box">
-            <img src="{{ asset('img/vaillant-11.jpg') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen -->
+<!-- ✅ Heizsysteme (UPDATED like first image: full width + 2-column cards, NO image) -->
+<section class="service-section service-section--soft" id="partner-services">
+  <div class="service-container">
+
+    <div class="service-section__head">
+      <h2>Moderne Viessmann Heizsysteme im Überblick</h2>
+      <p>Viessmann bietet hochwertige Gasgeräte für unterschiedliche Heizungsanlagen – abgestimmt auf Wohnsituation, Energiebedarf und Wartung.</p>
+    </div>
+
+    <div class="service-grid service-grid--2">
+      <article class="service-feature">
+        <div class="service-feature__icon" aria-hidden="true">🔥</div>
+        <div>
+          <h3>Brennwerttechnik für mehr Effizienz</h3>
+          <p>Die Viessmann Brennwerttherme nutzt Energie besonders effizient. Im Vergleich zu älteren Systemen senkt sie den Gasverbrauch und steigert die Effizienz nachhaltig.</p>
+        </div>
+      </article>
+
+      <article class="service-feature">
+        <div class="service-feature__icon" aria-hidden="true">🚿</div>
+        <div>
+          <h3>Kombitherme für flexible Anwendungen</h3>
+          <p>Eine Viessmann Kombitherme vereint Heizung und Warmwasser in einem Gerät. Ideal für Wohnungen, Einfamilienhäuser und moderne Heizsystemen.</p>
+        </div>
+      </article>
+
+      <article class="service-feature">
+        <div class="service-feature__icon" aria-hidden="true">⚙️</div>
+        <div>
+          <h3>Viessmann Modelle passend zur Anlage</h3>
+          <p>Jedes Viessmann Modell ist auf bestimmte Leistung, Bauteile und Einsatzbereiche ausgelegt. Die Auswahl erfolgt nach Anlage, Energiebedarf und Zuhause.</p>
+        </div>
+      </article>
+
+      <article class="service-feature">
+        <div class="service-feature__icon" aria-hidden="true">🛡️</div>
+        <div>
+          <h3>Sicherheit & zuverlässiger Betrieb</h3>
+          <p>Moderne Geräte bieten stabile Heizleistung, saubere Verbrennung und hohe Betriebssicherheit – ideal für den langfristigen Einsatz im Alltag.</p>
+        </div>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- ✅ Ablauf -->
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen unseres Kundendienstes</h2>
-        <p>Wartung, Thermenwartung, Reparaturen, Zubehör und Systemlösungen – professionell betreut.</p>
+        <h2>So läuft der Viessmann Thermentausch ab</h2>
+        <p>Der Thermentausch erfolgt in klaren Schritten und mit strukturierter Abwicklung.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
+          <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
-            <h3>Viessmann Gasgeräte Service</h3>
-            <p>Service für Viessmann Gasgeräte inklusive Überprüfung, Wartung und sicherer Funktion im gesamten Zuhause.</p>
+            <h3>Beratung, Planung und Kontrolle</h3>
+            <p>Nach der Beratung prüft der Techniker vor Ort Gerät, Heizungsanlage und bestehende Arbeiten. Danach folgt Planung und Angebot.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧰</div>
+          <div class="service-feature__icon" aria-hidden="true">🔧</div>
           <div>
-            <h3>Thermenwartung & Überprüfung</h3>
-            <p>Professionelle Thermenwartung mit Kontrolle aller Komponenten für Effizienz, Sicherheit und lange Lebensdauer.</p>
+            <h3>Installation und Montage der Anlage</h3>
+            <p>Anschließend erfolgt die Installation und Montage der neuen Viessmann Therme. Anschlüsse werden fachgerecht umgesetzt.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏠</div>
+          <div class="service-feature__icon" aria-hidden="true">♻️</div>
           <div>
-            <h3>Gasthermen & Heizsysteme</h3>
-            <p>Betreuung von Gasthermen und Heizsystemen mit Fokus auf Qualität, Zuverlässigkeit und optimale Leistung.</p>
+            <h3>Thermentausch und Entsorgung</h3>
+            <p>Die alte Anlage wird fachgerecht entsorgt, alle Anschlüsse geprüft und der Betrieb kontrolliert – sauber und sicher.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♨️</div>
+          <div class="service-feature__icon" aria-hidden="true">✅</div>
           <div>
-            <h3>Wärmepumpe & Zubehör</h3>
-            <p>Service und Beratung zu Wärmepumpe, Zubehör und passenden Systemlösungen für moderne Heiztechnik.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚡</div>
-          <div>
-            <h3>Störungsbehebung & Reparaturen</h3>
-            <p>Rasche Störungsbehebung und Reparaturen durch Experten mit klarer Lösung und effizienter Durchführung.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔁</div>
-          <div>
-            <h3>Thermentausch & Installation</h3>
-            <p>Beratung, Montage und Installation bei Thermentausch oder Neuinstallation nach aktuellen Standards.</p>
+            <h3>Inbetriebnahme und Einschulung</h3>
+            <p>Nach der Inbetriebnahme erhalten Kunden eine Einschulung sowie Hinweise zur Wartung und zum Thermenservice.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Thermenwartung -->
+  <!-- ✅ Montage -->
   <section class="service-section service-section--soft" id="warum-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermenwartung & Wartungsarbeiten</h2>
+            <h2>Montage, Betrieb und Sicherheit</h2>
             <p>
-              Eine regelmäßige Thermenwartung ist entscheidend für Funktion, Sicherheit und Langlebigkeit Ihrer Viessmann Geräte.
-              Unsere Wartungsarbeiten umfassen Überprüfung, Abgasmessungen, Reinigung von Verschleißteilen und Funktionskontrolle.
+              Eine fachgerechte Montage ist entscheidend für Sicherheit, Effizienz und die Lebensdauer der Viessmann Therme.
             </p>
-            <p>
-              Dadurch steigern wir Effizienz, reduzieren Kosten und sichern die Gewährleistung. Eine gut gewartete Heizung sorgt
-              für zuverlässige Wärme, niedrigen Verbrauch und langfristige Vorteile im täglichen Betrieb.
+            <p><strong>Installation und technische Anschlüsse</strong><br>
+              Alle Arbeiten an Gastherme, Anschlüsse und Anlage erfolgen nach aktuellem Standard. Sicherheit und zuverlässiger Betrieb stehen im Fokus.
             </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
-            </div>
+            <p><strong>Fachbetrieb, Techniker und Kontrolle</strong><br>
+              Ein Fachbetrieb mit erfahrenem Team stellt sicher, dass alle Arbeiten geprüft, dokumentiert und langfristig betreut werden.
+            </p>
           </div>
         </div>
 
         <div class="card-split__media">
-          <div class="img-box">
-            <img src="{{ asset('img/vaillant-4.jpg') }}" alt="Thermenwartung" loading="lazy" decoding="async">
+          <div class="img-wrap">
+            <div class="img-wrap__inner">
+              <img src="{{ asset('img/vaillant-4.jpg') }}" alt="Montage und Sicherheit" loading="lazy" decoding="async">
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Reparaturen -->
+  <!-- ✅ Kosten -->
   <section class="service-section" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparaturen, Ersatzteile & Lösungen</h2>
+            <h2>Kosten, Preise und Förderungen</h2>
             <p>
-              Nach einer sorgfältigen Überprüfung identifizieren unsere Techniker die Ursache und setzen gezielte Maßnahmen zur Störungsbehebung um.
-              Wir verwenden hochwertige Ersatzteile und Zubehör, um Funktion, Effizienz und Zuverlässigkeit dauerhaft sicherzustellen.
+              Die Kosten für einen Viessmann Thermentausch in Wien hängen vom Modell, Montageaufwand, Anlage und Zubehör ab.
+              Ein transparenter Kostenvoranschlag zeigt alle Preise inklusive MwSt und möglichen Förderungen.
             </p>
             <p>
-              Bei starkem Verschleiß beraten wir transparent zu Thermentausch, Montage oder einer passenden Lösung.
-              Kunden profitieren von klaren Abläufen, sauberer Arbeit und nachhaltigen Ergebnissen.
+              Moderne Viessmann Thermen reduzieren Energiekosten und steigern die Effizienz dauerhaft. Durch klare Planung, faire Preise und strukturierte Abwicklung
+              erhalten Kunden eine wirtschaftliche Lösung ohne Überraschungen.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hochwertige Ersatzteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Nachhaltige Ergebnisse</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Preise inkl. MwSt</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparenter Kostenvoranschlag</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mögliche Förderungen nutzen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Planung</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media">
-          <div class="img-box">
-            <img src="{{ asset('img/vaillant-11.jpg') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
+          <div class="img-wrap">
+            <div class="img-wrap__inner">
+              <img src="{{ asset('img/vaillant-3.jpg') }}" alt="Kosten und Preise" loading="lazy" decoding="async">
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Notdienst -->
+  <!-- ✅ Region -->
+  <section class="service-section service-section--soft" id="region-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Thermentausch in Wien, Niederösterreich und Umgebung</h2>
+            <p>
+              Ein Viessmann Thermentausch in Wien, Niederösterreich und der näheren Umgebung erfordert regionale Erfahrung und saubere Organisation.
+              Ob Wien, St. Pölten, Wiener Neustadt, Bruck an der Leitha oder Waidhofen an der Ybbs – jede Region bringt unterschiedliche Anforderungen mit sich.
+            </p>
+            <p>
+              Unsere Installateure sind regelmäßig im Einsatz und betreuen Kunden direkt vor Ort.
+              Durch kurze Wege, klare Abwicklung und abgestimmte Arbeiten entsteht ein reibungsloser Thermentausch – angepasst an Zuhause, Ort und Bedarf.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media">
+          <div class="img-wrap">
+            <div class="img-wrap__inner">
+              <img src="{{ asset('img/vaillant-2.jpg') }}" alt="Region Wien Niederösterreich" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Vorteile (dark) -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Viessmann Notdienst im Notfall</h2>
+        <h2>Warum ein fachgerechter Viessmann Thermentausch überzeugt</h2>
         <p>
-          Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
-          Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
+          Ein professionell umgesetzter Thermentausch erhöht nicht nur Effizienz, sondern auch Sicherheit und Zuverlässigkeit der Heizungsanlage.
+          Ein erfahrener Fachbetrieb prüft Anlage, Bauteile und Betrieb sorgfältig.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Sicherheit hat dabei höchste Priorität. Unsere Servicetechniker analysieren die Situation,
-          leiten Sofortmaßnahmen ein und sorgen für eine stabile Lösung – rund um die uhr.
+          Durch fachgerechte Montage, regelmäßige Wartung und strukturierten Thermenservice bleibt die Viessmann Therme langfristig leistungsfähig.
+          Kunden profitieren von persönlicher Betreuung und einem festen Partner – auch bei Notfällen.
         </p>
         <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Angebot anfordern</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische Notfälle</h3>
+          <h3>Ihre Vorteile</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Ausfall der Heizung</li>
-            <li>Probleme mit Gasgeräten</li>
-            <li>Sicherheitsrelevante Situationen</li>
-            <li>Wasser-, Gas- oder Wärmeprobleme</li>
+            <li>Erfahrung, Fachwissen und Expertise</li>
+            <li>Saubere Entsorgung der alten Anlage</li>
+            <li>Hohe Sicherheit und längere Lebensdauer</li>
+            <li>Ein Team für Beratung, Service und Betrieb</li>
           </ul>
-          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr erreichbar – schnelle Hilfe vor Ort in Wien, Niederösterreich und Burgenland.
-          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Kosten -->
-  <section class="service-section" id="preise-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Kosten, Effizienz & Vorteile</h2>
-            <p>
-              Vor Beginn der Arbeiten informieren wir klar über Aufwand und Leistungen. Eine regelmäßige Wartung steigert die Effizienz,
-              senkt langfristig Kosten und verlängert die Lebensdauer der Geräte.
-            </p>
-            <p>
-              Kunden erhalten eine ehrliche Beratung – abgestimmt auf Bedarf. Fachgerechter Service sorgt dafür,
-              dass die Qualität von Viessmann Systemen dauerhaft erhalten bleibt.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media">
-          <div class="img-box">
-            <img src="{{ asset('img/vaillant-3.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Region -->
-  <section class="service-section service-section--soft" id="region-services">
-    <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Regionale Betreuung</h2>
-            <p>
-              Wir betreuen Kunden in Wien sowie Niederösterreich und im Burgenland.
-              Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media">
-          <div class="img-box">
-            <img src="{{ asset('img/vaillant-2.jpg') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
+  <!-- ✅ FAQ -->
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Fragen zum Kundendienst</h2>
+        <h2>Häufige Fragen zum Viessmann Thermentausch</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Was bietet der Viessmann Kundendienst Wien?</summary>
-          <p>Unser Kundendienst umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
+          <summary>Wann ist ein Viessmann Thermentausch sinnvoll?</summary>
+          <p>Ein Austausch ist sinnvoll bei häufigen Problemen, steigenden Energiekosten oder wenn die bestehende Therme nicht mehr dem aktuellen Standard entspricht.</p>
         </details>
 
         <details>
-          <summary>Wie oft ist eine Wartung notwendig?</summary>
-          <p>Regelmäßige Wartungsarbeiten sichern Effizienz, Sicherheit und die Gewährleistung Ihrer Geräte.</p>
+          <summary>Wie lange dauern die Arbeiten beim Thermentausch?</summary>
+          <p>In der Regel erfolgen Installation, Montage und Inbetriebnahme innerhalb eines Tages, abhängig von Anlage und Umfang der Arbeiten.</p>
         </details>
 
         <details>
-          <summary>Sind Ersatzteile verfügbar?</summary>
-          <p>Ja, wir verwenden passende Ersatzteile und Verschleißteile für Viessmann Geräte.</p>
+          <summary>Welche Viessmann Therme ist die richtige Wahl?</summary>
+          <p>Die Auswahl hängt von Heizungsanlage, Leistung, Zuhause und Warmwasserbedarf ab. Wir beraten Sie gerne zur passenden Entscheidung.</p>
         </details>
 
         <details>
-          <summary>Bietet ihr auch Service außerhalb von Wien an?</summary>
-          <p>Ja, wir betreuen auch Niederösterreich und das Burgenland zuverlässig.</p>
+          <summary>Sind Wartung und Thermenservice nach dem Tausch notwendig?</summary>
+          <p>Ja, regelmäßige Wartung und Viessmann Thermenwartung sichern Effizienz, Sicherheit und langfristigen Betrieb.</p>
         </details>
 
         <details>
-          <summary>Gibt es einen Notdienst?</summary>
-          <p>Ja, unser Notdienst ist rund um die uhr erreichbar bei akuten Problemen.</p>
+          <summary>Was kostet ein Viessmann Thermentausch inkl. MwSt?</summary>
+          <p>Die Kosten richten sich nach Modell, Anlage und Montage. Ein Angebot mit MwSt schafft volle Transparenz.</p>
         </details>
 
         <details>
-          <summary>Wer führt die Arbeiten durch?</summary>
-          <p>Unsere Techniker und Installateure mit Erfahrung, Fachwissen und Know-how.</p>
+          <summary>Gibt es Förderungen für neue Viessmann Thermen?</summary>
+          <p>Je nach Möglichkeit und Region können Förderungen beantragt werden. Wir informieren Kunden über aktuelle Optionen.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- ✅ CONTACT -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Kontakt, Telefon & Anliegen</h2>
+        <h2>Beratung & Angebot anfordern</h2>
         <p>
-          Für Fragen, Anliegen oder Terminvereinbarungen steht unser Kundendienst jederzeit zur Verfügung.
-          Über Telefon oder direkten Kontakt erreichen Sie unser Team schnell und unkompliziert.
+          Sie planen einen Viessmann Thermentausch in Wien oder Niederösterreich?
+          Unsere Experten beraten Sie gerne persönlich und erstellen ein individuelles Angebot inklusive MwSt, Service und Betreuung.
         </p>
         <p style="margin-top:10px;">
-          Wir beraten verständlich, nehmen Ihre Bedürfnisse ernst und koordinieren rasch die Durchführung aller Arbeiten.
-          Ob Wartung, Reparaturen, Notdienst oder Beratung – unsere Experten kümmern sich zuverlässig um alles.
+          👉 Jetzt Anfrage senden und Viessmann Thermentausch professionell umsetzen
         </p>
       </div>
 
@@ -882,7 +889,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Modell/Anlage, Ort, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
@@ -890,52 +897,7 @@
       </form>
     </div>
   </section>
+
 </main>
-
-<script>
-  (function(){
-    // year
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-
-    // TOC collapse (no remove/close)
-    var tocCard = document.getElementById('tocCard');
-    var tocToggle = document.getElementById('tocToggle');
-
-    function setExpanded(isExpanded){
-      tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-      tocCard.classList.toggle('is-collapsed', !isExpanded);
-
-      var svg = tocToggle.querySelector('svg');
-      if (svg){
-        svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
-        svg.style.transition = 'transform .18s ease';
-      }
-    }
-
-    setExpanded(true);
-
-    tocToggle.addEventListener('click', function(){
-      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
-      setExpanded(!expanded);
-    });
-
-    // smooth scroll
-    document.querySelectorAll('.toc-link').forEach(function(link){
-      link.addEventListener('click', function(e){
-        var href = this.getAttribute('href');
-        if (!href || href.charAt(0) !== '#') return;
-
-        var target = document.querySelector(href);
-        if (!target) return;
-
-        e.preventDefault();
-
-        var offset = 18;
-        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({ top: top, behavior: 'smooth' });
-      });
-    });
-  })();
-</script>
+<!--  -->
 @endsection

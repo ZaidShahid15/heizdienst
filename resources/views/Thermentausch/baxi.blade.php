@@ -36,6 +36,7 @@
     border:1px solid transparent;
     transition:.18s ease;
     white-space:nowrap;
+    cursor:pointer;
   }
   .service-btn--primary{background:var(--ink); color:#fff;}
   .service-btn--primary:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
@@ -51,25 +52,6 @@
   .service-btn--ghost-on-dark:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.22)}
   .service-btn--full{width:100%}
 
-  /* Quick tabs */
-  .service-quicktabs{padding:10px 0 20px}
-  .service-tabs{
-    display:flex; gap:10px; flex-wrap:wrap;
-    padding:10px;
-    border:1px solid var(--line);
-    border-radius:19px;
-    background:#fff;
-    justify-content: space-between;
-  }
-  .service-tab{
-    padding:10px 12px;
-    border-radius:999px;
-    font-weight:800;
-    color:var(--ink);
-    border:1px solid transparent;
-  }
-  .service-tab:hover{border-color:var(--line); background:rgba(24,64,72,.05)}
-
   /* Sections */
   .service-section{padding:54px 0}
   .service-section--soft{background:linear-gradient(0deg, var(--muted), #fff)}
@@ -84,13 +66,6 @@
 
   .service-grid{display:grid; gap:14px}
   .service-grid--2{grid-template-columns: repeat(2, 1fr)}
-
-  .service-card{
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius: var(--radius);
-    padding:16px;
-  }
 
   .service-feature{
     display:flex; gap:12px;
@@ -111,25 +86,19 @@
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  .service-checklist{margin:0; padding-left:18px}
-  .service-checklist li{margin:8px 0}
-
   /* =====================================================
-     ✅ IMAGES EQUAL HEIGHT AS CONTENT (CARD-SPLIT)
+     ✅ CARD SPLIT (equal height columns)
      ===================================================== */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch; /* ✅ equal height columns */
+    align-items:stretch;
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
-
   .card-split__text,
-  .card-split__media{
-    display:flex; /* ✅ allow child to stretch */
-  }
+  .card-split__media{display:flex;}
 
   .card-box{
     width:100%;
@@ -148,10 +117,10 @@
   .card-box p + p{margin-top:10px}
 
   /* Image box */
-  .service-media{width:100%;}
+  .service-media{width:100%; display:flex;}
   .service-media__box{
     width:100%;
-    height:100%;       /* ✅ match text height */
+    height:100%;
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -162,20 +131,38 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit:cover;  /* ✅ fill nicely */
+    object-fit:cover;
     object-position:center;
   }
 
-  .service-stats{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;}
+  /* Stats pills */
+  .service-stats{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap:10px;
+    margin-top:14px;
+  }
   .service-stat{
-    display:flex; align-items:center; gap:10px;
-    padding:10px 12px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 14px;
     border-radius:999px;
     background:rgba(24,64,72,.06);
-    border:1px solid var(--line);
+    border:1px solid rgba(24,64,72,.18);
   }
-  .service-stat__num{font-weight:900; color:var(--ink)}
-  .service-stat__label{font-weight:800}
+  .service-stat__num{
+    width:22px; height:22px;
+    border-radius:999px;
+    display:grid; place-items:center;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.22);
+    font-weight:900;
+    color:var(--ink);
+    line-height:1;
+    flex:0 0 auto;
+  }
+  .service-stat__label{font-weight:800; color:var(--ink)}
 
   /* Dark section */
   .service-section--dark{
@@ -198,6 +185,8 @@
     border-radius:var(--radius);
     padding:16px;
   }
+  .service-checklist{margin:0; padding-left:18px}
+  .service-checklist li{margin:8px 0}
   .service-checklist--on-dark{color:rgba(255,255,255,.92)}
   .service-checklist--on-dark li{margin:10px 0}
 
@@ -209,11 +198,7 @@
     background:#fff;
   }
   .service-faq details + details{margin-top:10px}
-  .service-faq summary{
-    cursor:pointer;
-    font-weight:900;
-    color:var(--ink);
-  }
+  .service-faq summary{cursor:pointer; font-weight:900; color:var(--ink);}
   .service-faq p{margin:10px 0 0}
 
   /* CTA */
@@ -260,7 +245,7 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* ===== HERO (wolf) ===== */
+  /* ===== HERO ===== */
   .wolf-hero{
     position:relative;
     min-height:520px;
@@ -308,7 +293,6 @@
     z-index:-1;
     opacity:.9;
   }
-
   .wolf-hero__kicker{
     display:inline-flex;
     padding:6px 10px;
@@ -346,7 +330,6 @@
     font-size:.92rem;
     color:#fff;
   }
-
   .wolf-hero__actions{
     display:flex;
     justify-content:center;
@@ -379,7 +362,7 @@
   }
 
   /* =========================
-     ✅ TOC (AFTER HERO)
+     TOC
      ========================= */
   .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
@@ -399,12 +382,7 @@
     background:linear-gradient(0deg, #f7fbfb, #fff);
     border-bottom:1px solid rgba(24,64,72,.12);
   }
-  .toc-head h4{
-    margin:0;
-    font-size:15px;
-    font-weight:900;
-    color:var(--ink);
-  }
+  .toc-head h4{margin:0; font-size:15px; font-weight:900; color:var(--ink);}
   .toc-actions{display:flex; gap:8px; align-items:center;}
   .toc-iconbtn{
     width:34px; height:34px;
@@ -421,7 +399,6 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-    max-height:520px;
     overflow:auto;
   }
   .toc-list{
@@ -454,66 +431,68 @@
     flex:0 0 auto;
   }
   .toc-text{font-weight:900; color:#0f3a40; font-size:14px; line-height:1.2;}
-  .toc-card.is-collapsed .toc-body{
-    max-height:0;
-    padding:0 12px;
-    overflow:hidden;
-  }
+  .toc-card.is-collapsed .toc-body{max-height:0; padding:0 12px; overflow:hidden;}
 
   /* Mobile */
   @media (max-width: 980px){
     .service-grid--2{grid-template-columns:1fr}
-    .service-emergency{grid-template-columns:1fr}
     .service-cta__inner{grid-template-columns:1fr}
     .service-formrow{grid-template-columns:1fr}
+    .service-stats{grid-template-columns:1fr;}
+    .service-emergency{grid-template-columns:1fr}
+
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
+    .card-split__text, .card-split__media{display:block;}
+    .service-media__box{min-height:220px; height:auto;}
+
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
 </style>
 
 @push('meta')
-  <title>Baxi Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="Baxi Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+  <title>Baxi Thermentausch Wien | Gastherme inkl. Montage & MwSt</title>
+  <meta name="description" content="Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Service & Angebot vom Fachbetrieb">
 @endpush
 
 <main>
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">service rund um die uhr</p>
+      <p class="wolf-hero__kicker">Baxi Thermentausch Wien</p>
 
       <h1>
-        Baxi Kundendienst Wien<br>
-        <em>service rund um die uhr</em>
+        Baxi Thermentausch Wien<br>
+        <em>Gastherme inkl. Montage & MwSt</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Professioneller Baxi Kundendienst Wien für Gasgeräte, Thermen und Heizsysteme inklusive Wartung, Reparaturen und Notdienst.
+        Ein professioneller Baxi Thermentausch Wien sorgt für effiziente Heizung, zuverlässige Gastherme und modernen Komfort in Ihrem Zuhause.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi Thermentausch Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Wartung</span>
-        <span class="wolf-pill">Reparaturen</span>
-        <span class="wolf-pill">Ersatzteile</span>
-        <span class="wolf-pill">Notdienst rund um die uhr</span>
+        <span class="wolf-pill">Brennwerttechnik</span>
+        <span class="wolf-pill">Montage inkl. MwSt</span>
+        <span class="wolf-pill">Beratung & Service</span>
+        <span class="wolf-pill">Fachbetrieb</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Beratung anfordern</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
       </div>
 
-      <section class="promo-banner" id="wolf-aktion">
+      <section class="promo-banner" id="baxi-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Baxi Kundendienst Aktion</em></h2>
+            <h2 class="promo-banner__title"><em>Baxi Thermentausch Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
@@ -526,15 +505,18 @@
     </div>
   </section>
 
-  <!-- ✅ TOC AFTER HERO -->
+  <!-- TOC -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card" id="tocCard">
-        <div class="toc-head">
-          <h4>Inhaltsverzeichnis</h4>
+        <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+          <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+
           <div class="toc-actions">
-            <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
-              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(180deg); transition: transform 0.18s;">
+            <button class="toc-iconbtn" type="button" id="tocToggle"
+              aria-expanded="false" aria-controls="tocBody"
+              aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
                 <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
               </svg>
             </button>
@@ -542,351 +524,318 @@
         </div>
 
         <div class="toc-body" id="tocBody">
-          <ul class="toc-list">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
-            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
-            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
-            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item"><a href="#sinnvoll-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Wann sinnvoll</span></a></li>
+            <li class="toc-item"><a href="#systeme-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Heizlösungen</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#montage-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Montage</span></a></li>
+            <li class="toc-item"><a href="#kosten-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Kosten & Aktion</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Warum Baxi</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Angebot</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-
-
-  <!-- ✅ UPDATED: card box left + image right -->
-  <section class="service-section" id="vorteile-services">
+  <!-- 1) Sinnvoll -->
+  <section class="service-section" id="sinnvoll-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Baxi Service in Wien</h2>
+            <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Als erfahrener Partner betreuen wir Baxi Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Betriebssicherheit nicht mehr gegeben ist.
+              Besonders ältere Baxi Thermen oder Gasgeräte verlieren mit der Zeit an Leistung und Zuverlässigkeit.
             </p>
             <p>
-              Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,
-              schnelle Durchführung und klare Kommunikation – auch in Niederösterreich unterstützen wir Haushalte und Betriebe zuverlässig.
+              Moderne Baxi Gasthermen bieten höhere Effizienz, bessere Sicherheit und einen stabilen Betrieb.
+              Auch bei steigenden Anforderungen an Warmwasser und Heizung lohnt sich der rechtzeitige Thermentausch.
+              Ein erfahrener Fachmann oder Installateur prüft Zustand, Bedarf und Anlage und empfiehlt eine passende Lösung für Wien und Umgebung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Wann ein Thermentausch in Wien sinnvoll ist" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left, content right) -->
-  <section class="service-section service-section--soft" id="partner-services">
-    <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Servicetechniker, Team & Kompetenz</h2>
-            <p>
-              Unser Team besteht aus erfahrenen Servicetechnikern, Installateuren und Mitarbeitern mit umfassendem Know-how
-              im Umgang mit Baxi Heizungen und Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards.
-            </p>
-            <p>
-              Durch laufende Schulungen sichern wir eine kompetente Betreuung aller Systeme. Klare Abläufe, Zuverlässigkeit
-              und persönliche Betreuung schaffen Vertrauen und langfristige Kundenzufriedenheit.
-            </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Qualitätsstandards</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Laufende Schulungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Persönliche Betreuung</div></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.jpeg') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Leistungen (kept as grid) -->
-  <section class="service-section" id="leistungen-services">
+  <!-- 2) Systeme (NO IMAGE - like first screenshot cards grid) -->
+  <section class="service-section service-section--soft" id="systeme-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen unseres Kundendienstes</h2>
-        <p>Wartung, Thermenwartung, Reparaturen, Zubehör und Systemlösungen – professionell betreut.</p>
+        <h2>Moderne Baxi Heizlösungen im Überblick</h2>
+        <p>Baxi bietet eine breite Palette an Gasgeräten für unterschiedliche Heizsystemen, Wohnsituationen und Anforderungen.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Baxi Gasgeräte Service</h3>
-            <p>Service für Baxi Gasgeräte inklusive Überprüfung, Wartung und sicherer Funktion im gesamten Zuhause.</p>
+            <h3>Brennwerttechnik für effizienten Betrieb</h3>
+            <p>Eine Baxi Brennwerttherme nutzt Energie besonders effizient. Der geringere Gasverbrauch senkt Kosten, schont die Umwelt und erhöht die Wirtschaftlichkeit.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧰</div>
+          <div class="service-feature__icon" aria-hidden="true">🚿</div>
           <div>
-            <h3>Thermenwartung & Überprüfung</h3>
-            <p>Professionelle Thermenwartung mit Kontrolle aller Komponenten für Effizienz, Sicherheit und lange Lebensdauer.</p>
+            <h3>Kombithermen und Durchlauferhitzer</h3>
+            <p>Baxi Kombithermen und Durchlauferhitzer verbinden Heizung und Warmwasser in einem Gerät. Ideal für Wohnungen mit begrenztem Platz und konstantem Bedarf.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏠</div>
+          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
           <div>
-            <h3>Gasthermen & Heizsysteme</h3>
-            <p>Betreuung von Gasthermen und Heizsystemen mit Fokus auf Qualität, Zuverlässigkeit und optimale Leistung.</p>
+            <h3>Baxi Modelle wie Luna Platinum</h3>
+            <p>Modelle wie die Baxi Luna Platinum stehen für hohe Qualität, Zuverlässigkeit und lange Langlebigkeit im täglichen Betrieb.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♨️</div>
+          <div class="service-feature__icon" aria-hidden="true">🛡️</div>
           <div>
-            <h3>Wärmepumpe & Zubehör</h3>
-            <p>Service und Beratung zu Wärmepumpe, Zubehör und passenden Systemlösungen für moderne Heiztechnik.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚡</div>
-          <div>
-            <h3>Störungsbehebung & Reparaturen</h3>
-            <p>Rasche Störungsbehebung und Reparaturen durch Experten mit klarer Lösung und effizienter Durchführung.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔁</div>
-          <div>
-            <h3>Thermentausch & Installation</h3>
-            <p>Beratung, Montage und Installation bei Thermentausch oder Neuinstallation nach aktuellen Standards.</p>
+            <h3>Sichere Komponenten & stabiler Betrieb</h3>
+            <p>Moderne Baxi Geräte bieten einen stabilen Betrieb, höhere Sicherheit und zuverlässige Leistung – ideal für den langfristigen Einsatz im eigenen Zuhause.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
-  <section class="service-section service-section--soft" id="warum-services">
+  <!-- 3) Ablauf (4 cards) -->
+  <section class="service-section" id="ablauf-services">
+    <div class="service-container">
+      <div class="service-section__head">
+        <h2>So läuft der Baxi Thermentausch ab</h2>
+        <p>
+          Der Baxi Thermentausch erfolgt strukturiert und transparent. Nach der Anfrage vereinbaren unsere Installateure einen Termin zur Überprüfung der bestehenden Anlage.
+          Anschließend werden Installation und Montage geplant, die alte Therme demontiert und fachgerecht entsorgt.
+          Die neue Baxi Gastherme wird installiert, geprüft und in Betrieb genommen. Zum Abschluss erhalten Kunden eine Einschulung zur Nutzung, Wartung und Sicherheit.
+          So entsteht eine saubere Abwicklung mit klarer Lösung für jedes Problem.
+        </p>
+      </div>
+
+      <div class="service-grid service-grid--2">
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🔎</div>
+          <div>
+            <h3>Überprüfung und Beratung vor Ort</h3>
+            <p>Wir prüfen Therme, Anlage und Bedarf und klären alle Fragen – Grundlage für ein passendes Angebot und eine sichere Planung.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🔧</div>
+          <div>
+            <h3>Installation und Montage der Anlage</h3>
+            <p>Die Montage wird sauber vorbereitet und fachgerecht umgesetzt – abgestimmt auf Heizsystem, Anschlüsse und Wohnsituation.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">♻️</div>
+          <div>
+            <h3>Thermentausch und Entsorgung</h3>
+            <p>Die alte Therme wird demontiert und fachgerecht entsorgt. Anschlüsse und Sicherheit werden vor Inbetriebnahme geprüft.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">✅</div>
+          <div>
+            <h3>Inbetriebnahme und Einschulung</h3>
+            <p>Zum Abschluss: Funktionscheck, Inbetriebnahme und Einschulung zu Bedienung, Wartung und sicherem Betrieb.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4) Montage -->
+  <section class="service-section service-section--soft" id="montage-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermenwartung & Wartungsarbeiten</h2>
+            <h2>Montage, Betrieb und Sicherheit</h2>
             <p>
-              Eine regelmäßige Thermenwartung ist entscheidend für Funktion, Sicherheit und Langlebigkeit Ihrer Baxi Geräte.
-              Unsere Wartungsarbeiten umfassen Überprüfung, Abgasmessungen, Reinigung von Verschleißteilen und Funktionskontrolle.
+              Eine fachgerechte Montage ist entscheidend für Sicherheit, Zuverlässigkeit und den langfristigen Betrieb der Baxi Therme.
             </p>
-            <p>
-              Dadurch steigern wir Effizienz, reduzieren Kosten und sichern die Gewährleistung. Eine gut gewartete Heizung sorgt
-              für zuverlässige Wärme, niedrigen Verbrauch und langfristige Vorteile im täglichen Betrieb.
+            <p><strong>Installation durch erfahrene Techniker</strong><br>
+              Unsere Techniker führen alle Arbeiten an Gastherme, Anlage und Geräten fachgerecht aus. Sicherheit und korrekter Betrieb stehen im Mittelpunkt.
             </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
-            </div>
+            <p><strong>Wartung, Kundendienst und Schutz</strong><br>
+              Regelmäßige Wartung, Thermenwartung und ein zuverlässiger Kundendienst schützen vor Schäden, erhöhen die Lebensdauer und sichern den Betrieb.
+            </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.jpeg') }}" alt="Montage, Betrieb und Sicherheit" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left) -->
-  <section class="service-section" id="reparatur-services">
+  <!-- 5) Kosten -->
+  <section class="service-section" id="kosten-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparaturen, Ersatzteile & Lösungen</h2>
+            <h2>Kosten, Preise und Aktion</h2>
             <p>
-              Nach einer sorgfältigen Überprüfung identifizieren unsere Techniker die Ursache und setzen gezielte Maßnahmen zur Störungsbehebung um.
-              Wir verwenden hochwertige Ersatzteile und Zubehör, um Funktion, Effizienz und Zuverlässigkeit dauerhaft sicherzustellen.
+              Die Kosten für einen Baxi Thermentausch in Wien hängen von Modell, Montageaufwand und Bedarf ab.
+              Ein transparenter Kostenvoranschlag zeigt alle Preise inklusive MwSt. Durch eine Aktion oder ein attraktives Angebot lassen sich zusätzliche Einsparungen erzielen.
             </p>
             <p>
-              Bei starkem Verschleiß beraten wir transparent zu Thermentausch, Montage oder einer passenden Lösung.
-              Kunden profitieren von klaren Abläufen, sauberer Arbeit und nachhaltigen Ergebnissen.
+              Moderne Baxi Thermen überzeugen durch gutes Preis-Leistungs-Verhältnis, niedrige Betriebskosten und hohe Effizienz – eine nachhaltige Entscheidung für Ihr Zuhause.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hochwertige Ersatzteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Nachhaltige Ergebnisse</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Preise inkl. MwSt</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Aktion und attraktives Angebot</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparenter Kostenvoranschlag</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Kosten ohne Überraschungen</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Kosten, Preise und Aktion" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Notdienst (kept dark) -->
-  <section class="service-section service-section--dark" id="notdienst-services">
+  <!-- 6) Region -->
+  <section class="service-section service-section--soft" id="region-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Thermentausch in Wien und Umgebung</h2>
+            <p>
+              Ein Baxi Thermentausch in Wien und Umgebung erfordert Erfahrung mit unterschiedlichen Gebäuden, Anlagen und regionalen Vorgaben.
+              Ob Wien, Niederösterreich oder St. Pölten – jede Umgebung stellt andere Anforderungen an Installation, Montage und Betrieb.
+            </p>
+            <p>
+              Unsere Installateure und Techniker sind regelmäßig im Einsatz und betreuen Kunden direkt vor Ort.
+              Wohnungen, Einfamilienhäuser und verschiedene Heizsystemen werden individuell beurteilt.
+              Durch kurze Wege, strukturierte Planung und abgestimmten Einsatz entsteht ein reibungsloser Thermentausch in Wien und Umgebung – zuverlässig und sicher.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Thermentausch in Wien und Umgebung" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7) Vorteile (dark) -->
+  <section class="service-section service-section--dark" id="vorteile-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Baxi Notdienst im Notfall</h2>
+        <h2>Warum ein professioneller Baxi Thermentausch überzeugt</h2>
         <p>
-          Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
-          Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
+          Ein fachgerecht umgesetzter Baxi Thermentausch erhöht die Sicherheit, senkt Kosten und verbessert den Komfort dauerhaft.
+          Unsere Fachleute prüfen Anlage, Geräte und Betrieb sorgfältig.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Sicherheit hat dabei höchste Priorität. Unsere Servicetechniker analysieren die Situation,
-          leiten Sofortmaßnahmen ein und sorgen für eine stabile Lösung – rund um die uhr.
+          Durch saubere Montage, den Einsatz hochwertiger Bauteile und regelmäßige Thermenwartung bleibt die neue Therme zuverlässig und langlebig.
+          Kunden profitieren von persönlicher Beratung, erfahrenem Team und einem starken Partner für Wartung, Reparaturen, Thermenreparatur und Baxi Notdienst – alles aus einer Hand.
         </p>
         <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Angebot anfordern</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische Notfälle</h3>
+          <h3>Ihre Vorteile</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Ausfall der Heizung</li>
-            <li>Probleme mit Gasgeräten</li>
-            <li>Sicherheitsrelevante Situationen</li>
-            <li>Wasser-, Gas- oder Wärmeprobleme</li>
+            <li>Erfahrung, Berufserfahrung und Expertise</li>
+            <li>Fachgerechte Entsorgung der alten Therme</li>
+            <li>Hohe Zuverlässigkeit und lange Lebensdauer</li>
+            <li>Ein Team für Service, Wartung und Betrieb</li>
           </ul>
-          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr erreichbar – schnelle Hilfe vor Ort in Wien, Niederösterreich und Burgenland.
-          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
-  <section class="service-section" id="preise-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Kosten, Effizienz & Vorteile</h2>
-            <p>
-              Vor Beginn der Arbeiten informieren wir klar über Aufwand und Leistungen. Eine regelmäßige Wartung steigert die Effizienz,
-              senkt langfristig Kosten und verlängert die Lebensdauer der Geräte.
-            </p>
-            <p>
-              Kunden erhalten eine ehrliche Beratung – abgestimmt auf Bedarf. Fachgerechter Service sorgt dafür,
-              dass die Qualität von Baxi Systemen dauerhaft erhalten bleibt.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ✅ UPDATED: reverse (image left) -->
-  <section class="service-section service-section--soft" id="region-services">
-    <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Regionale Betreuung</h2>
-            <p>
-              Wir betreuen Kunden in Wien sowie Niederösterreich und im Burgenland.
-              Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
+  <!-- 8) FAQ -->
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Fragen zum Kundendienst</h2>
+        <h2>Häufige Fragen zum Baxi Thermentausch</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Was bietet der Baxi Kundendienst Wien?</summary>
-          <p>Unser Kundendienst umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
+          <summary>Wann ist ein Baxi Thermentausch sinnvoll?</summary>
+          <p>Ein Austausch ist sinnvoll bei häufigen Störungen, steigenden Kosten oder wenn die bestehende Therme nicht mehr zuverlässig arbeitet.</p>
         </details>
 
         <details>
-          <summary>Wie oft ist eine Wartung notwendig?</summary>
-          <p>Regelmäßige Wartungsarbeiten sichern Effizienz, Sicherheit und die Gewährleistung Ihrer Geräte.</p>
+          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
+          <p>In der Regel erfolgt der Thermentausch inklusive Montage und Inbetriebnahme innerhalb eines Tages, abhängig von Anlage und Einsatz.</p>
         </details>
 
         <details>
-          <summary>Sind Ersatzteile verfügbar?</summary>
-          <p>Ja, wir verwenden passende Ersatzteile und Verschleißteile für Baxi Geräte.</p>
+          <summary>Welche Baxi Therme ist die richtige Auswahl?</summary>
+          <p>Die Auswahl hängt von Bedarf, Heizsystemen und Warmwasserleistung ab. Unsere Experten beraten umfassend zur passenden Entscheidung.</p>
         </details>
 
         <details>
-          <summary>Bietet ihr auch Service außerhalb von Wien an?</summary>
-          <p>Ja, wir betreuen auch Niederösterreich und das Burgenland zuverlässig.</p>
+          <summary>Sind Wartung und Wartungsvertrag empfehlenswert?</summary>
+          <p>Ja, regelmäßige Wartung oder ein Wartungsvertrag sichern Betrieb, Schutz und langfristige Zuverlässigkeit der Baxi Therme.</p>
         </details>
 
         <details>
-          <summary>Gibt es einen Notdienst?</summary>
-          <p>Ja, unser Notdienst ist rund um die uhr erreichbar bei akuten Problemen.</p>
+          <summary>Was kostet ein Baxi Thermentausch inkl. MwSt?</summary>
+          <p>Die Preise richten sich nach Modell, Montage und Aufwand. Ein Angebot zeigt alle Kosten inkl. MwSt transparent auf.</p>
         </details>
 
         <details>
-          <summary>Wer führt die Arbeiten durch?</summary>
-          <p>Unsere Techniker und Installateure mit Erfahrung, Fachwissen und Know-how.</p>
+          <summary>Gibt es einen Baxi Notdienst?</summary>
+          <p>Ja, bei Störung oder Problem steht ein Baxi Notdienst zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- ✅ CONTACT FORM ALWAYS LAST -->
+  <!-- 9) CONTACT -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Kontakt, Telefon & Anliegen</h2>
+        <h2>Beratung & Angebot anfordern</h2>
         <p>
-          Für Fragen, Anliegen oder Terminvereinbarungen steht unser Kundendienst jederzeit zur Verfügung.
-          Über Telefon oder direkten Kontakt erreichen Sie unser Team schnell und unkompliziert.
+          Sie planen einen Baxi Thermentausch in Wien oder Niederösterreich?
+          Unser Team berät Sie persönlich und erstellt ein individuelles Angebot inklusive MwSt, Montage und Service.
         </p>
         <p style="margin-top:10px;">
-          Wir beraten verständlich, nehmen Ihre Bedürfnisse ernst und koordinieren rasch die Durchführung aller Arbeiten.
-          Ob Wartung, Reparaturen, Notdienst oder Beratung – unsere Experten kümmern sich zuverlässig um alles.
+          👉 Jetzt Angebot anfordern und Baxi Thermentausch professionell umsetzen
         </p>
       </div>
 
@@ -905,7 +854,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Modell/Anlage, Ort, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
@@ -913,51 +862,8 @@
       </form>
     </div>
   </section>
+
 </main>
 
-<script>
-  (function(){
-    // Smooth scroll (TOC + tabs)
-    document.querySelectorAll('a[href^="#"]').forEach(function(a){
-      a.addEventListener('click', function(e){
-        var id = a.getAttribute('href');
-        if (!id || id === '#') return;
-        var el = document.querySelector(id);
-        if (!el) return;
-        e.preventDefault();
-        var offset = 18;
-        var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({ top: top, behavior: 'smooth' });
-      });
-    });
 
-    // TOC collapse
-    var tocCard = document.getElementById('tocCard');
-    var tocToggle = document.getElementById('tocToggle');
-
-    function setExpanded(isExpanded){
-      if (!tocCard || !tocToggle) return;
-      tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-      tocCard.classList.toggle('is-collapsed', !isExpanded);
-
-      var svg = tocToggle.querySelector('svg');
-      if (svg){
-        svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
-        svg.style.transition = 'transform .18s ease';
-      }
-    }
-
-    setExpanded(true);
-    if (tocToggle){
-      tocToggle.addEventListener('click', function(){
-        var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
-        setExpanded(!expanded);
-      });
-    }
-
-    // year
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-  })();
-</script>
 @endsection

@@ -65,4 +65,9 @@ Route::prefix('notdienstwien')->group(function () {
 Route::prefix('Thermentausch')->group(function(){
     Route::get('/vaillant',fn() => view('Thermentausch.vaillant'));
     Route::get('/junkers',fn() => view('Thermentausch.junkers'));
+    Route::get('/viessmann',fn() => view('Thermentausch.viessmann'));
+    Route::get('/wolf',fn() => view('Thermentausch.wolf'));
+    Route::get('/baxi',fn() => view('Thermentausch.baxi'));
+    Route::get('/buderus',fn() => view('Thermentausch.buderus'));
+    Route::get('/saunier',fn() => view('Thermentausch.saunier'));
 });

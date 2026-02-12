@@ -36,6 +36,7 @@
     border:1px solid transparent;
     transition:.18s ease;
     white-space:nowrap;
+    cursor:pointer;
   }
   .service-btn--primary{background:var(--ink); color:#fff;}
   .service-btn--primary:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
@@ -85,7 +86,7 @@
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  /* ✅ stats pills (keep your original style) */
+  /* ✅ stats pills (keep original style) */
   .service-stats{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;}
   .service-stat{
     display:flex; align-items:center; gap:10px;
@@ -97,19 +98,19 @@
   .service-stat__num{font-weight:900; color:var(--ink)}
   .service-stat__label{font-weight:800}
 
-  /* ===== ✅ Card split (EQUAL HEIGHT like previous page) ===== */
+  /* ===== ✅ Card split (EQUAL HEIGHT) ===== */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch; /* ✅ stretch to make both columns same height */
+    align-items:stretch;
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
 
   .card-split__text,
   .card-split__media{
-    display:flex; /* ✅ allow children to fill height */
+    display:flex;
   }
 
   .card-box{
@@ -133,7 +134,7 @@
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:100%;           /* ✅ equal height with card-box */
+    height:100%;
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -144,7 +145,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit:cover;      /* ✅ no empty space */
+    object-fit:cover;
     object-position:center;
   }
 
@@ -351,7 +352,7 @@
   }
 
   /* =========================
-     ✅ TOC (after hero, full width)
+     ✅ TOC (after HERO)
      ========================= */
   .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
@@ -384,19 +385,13 @@
   }
   .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.10)}
   .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9}
+
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-    max-height:520px;
     overflow:auto;
   }
-  .toc-list{
-    list-style:none;
-    margin:0;
-    padding:0;
-    display:grid;
-    gap:10px;
-  }
+  .toc-list{list-style:none; margin:0; padding:0; display:grid; gap:10px;}
   .toc-item a{
     display:flex;
     align-items:center;
@@ -436,53 +431,53 @@
     .card-split__text,
     .card-split__media{display:block;}
 
-    .service-media__box{min-height:220px; height:auto;} /* ✅ nice on mobile */
+    .service-media__box{min-height:220px; height:auto;}
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
 </style>
 
 @push('meta')
-  <title>Saunier Duval Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="Saunier Duval Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+  <title>Saunier Duval Thermentausch Wien | Gastherme inkl. Montage & MwSt</title>
+  <meta name="description" content="Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Service & Angebot vom Fachbetrieb">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">service rund um die uhr</p>
+      <p class="wolf-hero__kicker">Saunier Duval Thermentausch Wien</p>
 
       <h1>
-        Saunier Duval Kundendienst Wien<br>
-        <em>service rund um die uhr</em>
+        Saunier Duval Thermentausch Wien<br>
+        <em>Gastherme inkl. Montage & MwSt</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Professioneller Saunier Duval Kundendienst Wien für Gasgeräte, Thermen und Heizsysteme inklusive Wartung, Reparaturen und Notdienst.
+        Ein professioneller Saunier Duval Thermentausch Wien sorgt für effiziente Heizung, zuverlässige Gastherme und modernen Komfort in Ihrem Zuhause.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier Duval Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier Duval Thermentausch Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Wartung</span>
-        <span class="wolf-pill">Reparaturen</span>
-        <span class="wolf-pill">Ersatzteile</span>
-        <span class="wolf-pill">Notdienst rund um die uhr</span>
+        <span class="wolf-pill">Brennwerttechnik</span>
+        <span class="wolf-pill">Preise inkl. MwSt</span>
+        <span class="wolf-pill">Vorbefund</span>
+        <span class="wolf-pill">Montage & Service</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Angebot anfordern</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
       </div>
 
-      <section class="promo-banner" id="wolf-aktion">
+      <section class="promo-banner" id="duval-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Saunier Duval Kundendienst Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab  €95</strong></p>
+            <h2 class="promo-banner__title"><em>Saunier Duval Aktion</em></h2>
+            <p class="promo-banner__price"><strong>ab €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
               <span class="promo-banner__btn-ico">  </span>
@@ -494,16 +489,19 @@
     </div>
   </section>
 
-  <!-- ✅ TOC (after HERO) -->
+  <!-- ✅ TOC AFTER HERO -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card" id="tocCard">
-        <div class="toc-head">
-          <h4>Inhaltsverzeichnis</h4>
+        <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+          <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+
           <div class="toc-actions">
-            <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
-              <svg viewBox="0 0 448 512" aria-hidden="true">
-                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/>
+            <button class="toc-iconbtn" type="button" id="tocToggle"
+              aria-expanded="false" aria-controls="tocBody"
+              aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
               </svg>
             </button>
           </div>
@@ -511,265 +509,203 @@
 
         <div class="toc-body" id="tocBody">
           <ul class="toc-list">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service in Wien</span></a></li>
-            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team & Kompetenz</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Thermenwartung</span></a></li>
-            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
-            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+            <li class="toc-item"><a href="#sinnvoll-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Wann sinnvoll</span></a></li>
+            <li class="toc-item"><a href="#heizloesungen-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Heizlösungen</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#montage-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Montage</span></a></li>
+            <li class="toc-item"><a href="#kosten-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Kosten</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Warum Profi</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Angebot</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Service -->
-  <section class="service-section" id="vorteile-services">
+  <!-- Wann sinnvoll -->
+  <section class="service-section" id="sinnvoll-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Saunier Duval Service in Wien</h2>
+            <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Als erfahrener Partner betreuen wir Saunier Duval Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Probleme verursacht, Reparaturen zunehmen
+              oder die Energieeffizienz nicht mehr dem aktuellen Stand entspricht. Besonders ältere Saunier Duval Gasthermen verlieren
+              mit der Zeit an Leistung und Sicherheit.
             </p>
             <p>
-              Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,
-              schnelle Durchführung und klare Kommunikation – auch in Niederösterreich unterstützen wir Haushalte und Betriebe zuverlässig.
+              Moderne Brennwert Therme Lösungen von Saunier Duval senken den Gasverbrauch, reduzieren CO2 und verbessern die Wärmeversorgung.
+              Auch bei steigenden Anforderungen an Warmwasser oder bei wiederkehrenden Störungen empfiehlt sich ein Austausch.
+              Ein erfahrener Installateur oder Fachmann prüft Gerät, Heizsystemen, Vorbefund und empfiehlt die passende Lösung für Wien und Umgebung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/sauneri.jpeg') }}" alt="Saunier Duval Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/sauneri.jpeg') }}" alt="Wann ein Thermentausch in Wien sinnvoll ist" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Team -->
-  <section class="service-section service-section--soft" id="partner-services">
-    <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Servicetechniker, Team & Kompetenz</h2>
-            <p>
-              Unser Team besteht aus erfahrenen Servicetechnikern, Installateuren und Mitarbeitern mit umfassendem Know-how
-              im Umgang mit Saunier Duval Heizungen und Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards.
-            </p>
-            <p>
-              Durch laufende Schulungen sichern wir eine kompetente Betreuung aller Systeme. Klare Abläufe, Zuverlässigkeit
-              und persönliche Betreuung schaffen Vertrauen und langfristige Kundenzufriedenheit.
-            </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Qualitätsstandards</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Laufende Schulungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Persönliche Betreuung</div></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Leistungen -->
-  <section class="service-section" id="leistungen-services">
+  <!-- Heizlösungen -->
+  <section class="service-section service-section--soft" id="heizloesungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen unseres Kundendienstes</h2>
-        <p>Wartung, Thermenwartung, Reparaturen, Zubehör und Systemlösungen – professionell betreut.</p>
+        <h2>Moderne Saunier Duval Heizlösungen</h2>
+        <p>Saunier Duval steht für innovative Gasgeräte, hohe Energieeffizienz und zuverlässige Technik für unterschiedliche Anforderungen.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Saunier Duval Gasgeräte Service</h3>
-            <p>Service für Saunier Duval Gasgeräte inklusive Überprüfung, Wartung und sicherer Funktion im gesamten Zuhause.</p>
+            <h3>Brennwerttherme für effiziente Wärme</h3>
+            <p>Eine Saunier Duval Brennwert Therme nutzt Energie besonders effizient. Der geringere Gasverbrauch senkt Kosten, erhöht Effizienz und schont Umwelt und Ressourcen.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧰</div>
+          <div class="service-feature__icon" aria-hidden="true">🚿</div>
           <div>
-            <h3>Thermenwartung & Überprüfung</h3>
-            <p>Professionelle Thermenwartung mit Kontrolle aller Komponenten für Effizienz, Sicherheit und lange Lebensdauer.</p>
+            <h3>Gastherme für Heizung und Warmwasser</h3>
+            <p>Die Saunier Duval Gastherme kombiniert Heizung und Warmwasser in einem Gerät. Ideal für Wohnungen, Häuser und moderne Heizsystemen.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏠</div>
+          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
           <div>
-            <h3>Gasthermen & Heizsysteme</h3>
-            <p>Betreuung von Gasthermen und Heizsystemen mit Fokus auf Qualität, Zuverlässigkeit und optimale Leistung.</p>
+            <h3>Saunier Duval Modelle im Überblick</h3>
+            <p>Jede Duval Therme wird nach Heizleistung, Nennwärmeleistung, Abmessungen und Einsatzbereich ausgewählt. So passt das Gerät optimal zum Zuhause.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♨️</div>
+          <div class="service-feature__icon" aria-hidden="true">🛡️</div>
           <div>
-            <h3>Wärmepumpe & Zubehör</h3>
-            <p>Service und Beratung zu Wärmepumpe, Zubehör und passenden Systemlösungen für moderne Heiztechnik.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚡</div>
-          <div>
-            <h3>Störungsbehebung & Reparaturen</h3>
-            <p>Rasche Störungsbehebung und Reparaturen durch Experten mit klarer Lösung und effizienter Durchführung.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔁</div>
-          <div>
-            <h3>Thermentausch & Installation</h3>
-            <p>Beratung, Montage und Installation bei Thermentausch oder Neuinstallation nach aktuellen Standards.</p>
+            <h3>Zuverlässige Technik & Sicherheit</h3>
+            <p>Moderne Saunier Duval Gasgeräte bieten stabile Leistung, sichere Regelung und langlebige Komponenten für einen zuverlässigen Betrieb.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Thermenwartung -->
-  <section class="service-section service-section--soft" id="warum-services">
+  <!-- Ablauf -->
+  <section class="service-section" id="ablauf-services">
     <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Thermenwartung & Wartungsarbeiten</h2>
-            <p>
-              Eine regelmäßige Thermenwartung ist entscheidend für Funktion, Sicherheit und Langlebigkeit Ihrer Saunier Duval Geräte.
-              Unsere Wartungsarbeiten umfassen Überprüfung, Abgasmessungen, Reinigung von Verschleißteilen und Funktionskontrolle.
-            </p>
-            <p>
-              Dadurch steigern wir Effizienz, reduzieren Kosten und sichern die Gewährleistung. Eine gut gewartete Heizung sorgt
-              für zuverlässige Wärme, niedrigen Verbrauch und langfristige Vorteile im täglichen Betrieb.
-            </p>
+      <div class="service-section__head">
+        <h2>So läuft der Saunier Duval Thermentausch ab</h2>
+        <p>
+          Der Saunier Duval Thermentausch erfolgt strukturiert und transparent. Nach der Anfrage erfolgt eine Besichtigung inklusive Vorbefund
+          und Abstimmung mit dem Rauchfangkehrers. Anschließend werden Installation und Montage geplant, die alte Therme demontiert und fachgerecht entsorgt.
+          Die neue Saunier Duval Gastherme wird installiert, angeschlossen und in Betrieb genommen. Abschließend erfolgt eine Einschulung, Übergabe relevanter Daten
+          und Hinweise zum Betrieb.
+        </p>
+      </div>
 
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
-            </div>
+      <div class="service-grid service-grid--2">
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🔎</div>
+          <div>
+            <h3>Besichtigung & Vorbefund</h3>
+            <p>Wir prüfen Gerät, Heizsystemen, Anschlüsse und Zustand. Der Vorbefund schafft Klarheit für Planung, Kosten und die passende Therme.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Thermenwartung" loading="lazy" decoding="async">
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🧾</div>
+          <div>
+            <h3>Abstimmung mit Rauchfangkehrers</h3>
+            <p>Wir stimmen relevante Punkte ab, damit Montage, Abgasführung und Betrieb den Vorgaben entsprechen und alles reibungslos läuft.</p>
           </div>
-        </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
+          <div>
+            <h3>Montage, Anschlüsse und Tausch</h3>
+            <p>Demontage der alten Therme, fachgerechte Entsorgung und Installation der neuen Saunier Duval Gastherme inklusive aller Anschlüsse.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">✅</div>
+          <div>
+            <h3>Inbetriebnahme & Übergabe</h3>
+            <p>Inbetriebnahme, Funktionskontrolle, Einschulung und Übergabe der Daten – mit klaren Hinweisen für Betrieb, Wartung und Service.</p>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- Reparaturen -->
-  <section class="service-section" id="reparatur-services">
+  <!-- Montage / Sicherheit -->
+  <section class="service-section service-section--soft" id="montage-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparaturen, Ersatzteile & Lösungen</h2>
+            <h2>Montage, Betrieb und Sicherheit</h2>
             <p>
-              Nach einer sorgfältigen Überprüfung identifizieren unsere Techniker die Ursache und setzen gezielte Maßnahmen zur Störungsbehebung um.
-              Wir verwenden hochwertige Ersatzteile und Zubehör, um Funktion, Effizienz und Zuverlässigkeit dauerhaft sicherzustellen.
+              Eine fachgerechte Montage ist entscheidend für Sicherheit, Effizienz und den zuverlässigen Betrieb der Saunier Duval Therme.
             </p>
             <p>
-              Bei starkem Verschleiß beraten wir transparent zu Thermentausch, Montage oder einer passenden Lösung.
-              Kunden profitieren von klaren Abläufen, sauberer Arbeit und nachhaltigen Ergebnissen.
+              <strong>Installation durch erfahrene Spezialisten</strong><br>
+              Erfahrene Spezialist und Techniker führen alle Arbeiten an Gas, Brenner und Gerät fachgerecht aus.
+              Sicherheit und korrekter Betrieb stehen im Fokus.
             </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hochwertige Ersatzteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Nachhaltige Ergebnisse</div></div>
-            </div>
+            <p>
+              <strong>Wartung, Thermenservice und Kundendienst</strong><br>
+              Regelmäßige Wartung, Duval Thermenservice und Thermenservice Wien sichern langfristige Effizienz,
+              reduzieren Reparaturbedarf und erhöhen die Lebensdauer.
+            </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Montage, Betrieb und Sicherheit" loading="lazy" decoding="async">
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Notdienst -->
-  <section class="service-section service-section--dark" id="notdienst-services">
-    <div class="service-container service-emergency">
-      <div class="service-emergency__text">
-        <h2>Saunier Duval Notdienst im Notfall</h2>
-        <p>
-          Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
-          Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
-        </p>
-        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Sicherheit hat dabei höchste Priorität. Unsere Servicetechniker analysieren die Situation,
-          leiten Sofortmaßnahmen ein und sorgen für eine stabile Lösung – rund um die uhr.
-        </p>
-        <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
-        </div>
-      </div>
-
-      <div class="service-emergency__panel">
-        <div class="service-panel">
-          <h3>Typische Notfälle</h3>
-          <ul class="service-checklist service-checklist--on-dark">
-            <li>Ausfall der Heizung</li>
-            <li>Probleme mit Gasgeräten</li>
-            <li>Sicherheitsrelevante Situationen</li>
-            <li>Wasser-, Gas- oder Wärmeprobleme</li>
-          </ul>
-          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr erreichbar – schnelle Hilfe vor Ort in Wien, Niederösterreich und Burgenland.
-          </p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Kosten -->
-  <section class="service-section" id="preise-services">
+  <section class="service-section" id="kosten-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Effizienz & Vorteile</h2>
+            <h2>Kosten, Preis und Aktion</h2>
             <p>
-              Vor Beginn der Arbeiten informieren wir klar über Aufwand und Leistungen. Eine regelmäßige Wartung steigert die Effizienz,
-              senkt langfristig Kosten und verlängert die Lebensdauer der Geräte.
+              Die Kosten für einen Saunier Duval Thermentausch in Wien hängen von Gerät, Heizleistung, Montageaufwand und Auswahl ab.
+              Ein transparenter Kostenvoranschlag zeigt alle Preise inklusive MwSt.
+              Durch eine Aktion oder ein attraktives Angebot lassen sich zusätzliche Einsparungen erzielen.
             </p>
             <p>
-              Kunden erhalten eine ehrliche Beratung – abgestimmt auf Bedarf. Fachgerechter Service sorgt dafür,
-              dass die Qualität von Saunier Duval Systemen dauerhaft erhalten bleibt.
+              Moderne Saunier Duval Gasgeräte bieten hohe Energieeffizienz, niedrige Betriebskosten und langfristige Sicherheit.
             </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Preis inkl. MwSt</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Aktion & attraktives Angebot</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparenter Kostenvoranschlag</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Keine Überraschungen</div></div>
+            </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Kosten, Preis und Aktion" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -782,18 +718,57 @@
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Regionale Betreuung</h2>
+            <h2>Thermentausch in Wien, Niederösterreich und Umgebung</h2>
             <p>
-              Wir betreuen Kunden in Wien sowie Niederösterreich und im Burgenland.
-              Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
+              Ein Saunier Duval Thermentausch in Wien, Niederösterreich und der umliegenden Umgebung erfordert Erfahrung mit regionalen Vorgaben
+              und unterschiedlichen Heizsystemen. Ob Wien, Umgebung oder Niederösterreich – jede Immobilie stellt andere Anforderungen an Anlage,
+              Anschlüsse und Einsatz.
+            </p>
+            <p>
+              Unsere Installateure und Mitarbeiter sind regelmäßig vor Ort im Einsatz und betreuen Kunden persönlich.
+              Wohnungen, Einfamilienhäuser und moderne Heizsystemen werden individuell beurteilt.
+              Durch klare Planung, saubere Abwicklung und kurze Wege entsteht ein reibungsloser Thermentausch in Wien und Umgebung – zuverlässig und effizient.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Thermentausch Region Wien Niederösterreich Umgebung" loading="lazy" decoding="async">
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Warum Profi (dark) -->
+  <section class="service-section service-section--dark" id="vorteile-services">
+    <div class="service-container service-emergency">
+      <div class="service-emergency__text">
+        <h2>Warum ein professioneller Saunier Duval Thermentausch überzeugt</h2>
+        <p>
+          Ein fachgerecht umgesetzter Saunier Duval Thermentausch erhöht die Sicherheit, senkt Kosten und verbessert den Wohnkomfort nachhaltig.
+          Unsere Experten prüfen Gerät, Heizleistung, Brenner und Anschlüsse sorgfältig.
+        </p>
+        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
+          Durch saubere Montage, regelmäßige Thermenwartung und zuverlässigen Kundendienst bleibt die neue Duval Therme langlebig und effizient.
+          Kunden profitieren von persönlichem Service, fachlichem Know-how und einem festen Partner für Wartung, Reparatur, Notdienst und Thermenservice Wien.
+        </p>
+        <div class="service-emergency__actions">
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Angebot anfordern</a>
+          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
+        </div>
+      </div>
+
+      <div class="service-emergency__panel">
+        <div class="service-panel">
+          <h3>Ihre Vorteile</h3>
+          <ul class="service-checklist service-checklist--on-dark">
+            <li>Erfahrung, Fachwissen und Spezialisten</li>
+            <li>Fachgerechte Entsorgung und sicherer Tausch</li>
+            <li>Hohe Effizienz und lange Lebensdauer</li>
+            <li>Ein Team für Service, Wartung und Betrieb</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -803,56 +778,55 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Fragen zum Kundendienst</h2>
+        <h2>Häufige Fragen zum Saunier Duval Thermentausch</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Was bietet der Saunier Duval Kundendienst Wien?</summary>
-          <p>Unser Kundendienst umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
+          <summary>Wann ist ein Saunier Duval Thermentausch sinnvoll?</summary>
+          <p>Ein Austausch ist sinnvoll bei häufigen Problemen, steigenden Kosten oder wenn die bestehende Therme nicht mehr energieeffizient arbeitet.</p>
         </details>
 
         <details>
-          <summary>Wie oft ist eine Wartung notwendig?</summary>
-          <p>Regelmäßige Wartungsarbeiten sichern Effizienz, Sicherheit und die Gewährleistung Ihrer Geräte.</p>
+          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
+          <p>In der Regel erfolgt der Austausch inklusive Montage und Inbetriebnahme innerhalb eines Tages, abhängig von Vorbefund und Anlage.</p>
         </details>
 
         <details>
-          <summary>Sind Ersatzteile verfügbar?</summary>
-          <p>Ja, wir verwenden passende Ersatzteile und Verschleißteile für Saunier Duval Geräte.</p>
+          <summary>Welche Saunier Duval Therme ist die richtige Auswahl?</summary>
+          <p>Die Auswahl hängt von Heizleistung, Warmwasserbedarf und Heizsystemen ab. Unsere Fachleute beraten umfassend.</p>
         </details>
 
         <details>
-          <summary>Bietet ihr auch Service außerhalb von Wien an?</summary>
-          <p>Ja, wir betreuen auch Niederösterreich und das Burgenland zuverlässig.</p>
+          <summary>Sind Wartung und Thermenservice erforderlich?</summary>
+          <p>Ja, regelmäßige Wartung und Duval Thermenservice sichern Effizienz, Sicherheit und langfristigen Betrieb.</p>
         </details>
 
         <details>
-          <summary>Gibt es einen Notdienst?</summary>
-          <p>Ja, unser Notdienst ist rund um die uhr erreichbar bei akuten Problemen.</p>
+          <summary>Was kostet ein Saunier Duval Thermentausch inkl. MwSt?</summary>
+          <p>Die Preise richten sich nach Gerät, Montage und Aufwand. Ein Angebot inklusive MwSt sorgt für Transparenz.</p>
         </details>
 
         <details>
-          <summary>Wer führt die Arbeiten durch?</summary>
-          <p>Unsere Techniker und Installateure mit Erfahrung, Fachwissen und Know-how.</p>
+          <summary>Gibt es einen Saunier Duval Notdienst?</summary>
+          <p>Ja, bei Störung oder dringendem Anliegen steht ein Notdienst zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- CONTACT FORM ALWAYS LAST -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Kontakt, Telefon & Anliegen</h2>
+        <h2>Beratung & Angebot anfordern</h2>
         <p>
-          Für Fragen, Anliegen oder Terminvereinbarungen steht unser Kundendienst jederzeit zur Verfügung.
-          Über Telefon oder direkten Kontakt erreichen Sie unser Team schnell und unkompliziert.
+          Sie planen einen Saunier Duval Thermentausch in Wien oder Niederösterreich?
+          Unser Team berät Sie persönlich und erstellt ein individuelles Angebot inklusive MwSt, Montage und Service.
         </p>
         <p style="margin-top:10px;">
-          Wir beraten verständlich, nehmen Ihre Bedürfnisse ernst und koordinieren rasch die Durchführung aller Arbeiten.
-          Ob Wartung, Reparaturen, Notdienst oder Beratung – unsere Experten kümmern sich zuverlässig um alles.
+          👉 Jetzt Angebot anfordern und Saunier Duval Thermentausch professionell umsetzen
         </p>
       </div>
 
@@ -871,7 +845,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Gerät/Modell, Ort, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
@@ -881,50 +855,4 @@
   </section>
 </main>
 
-<script>
-  (function(){
-    // year
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-
-    // TOC collapse
-    var tocCard = document.getElementById('tocCard');
-    var tocToggle = document.getElementById('tocToggle');
-
-    function setExpanded(isExpanded){
-      tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-      tocCard.classList.toggle('is-collapsed', !isExpanded);
-
-      var svg = tocToggle.querySelector('svg');
-      if (svg){
-        svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
-        svg.style.transition = 'transform .18s ease';
-      }
-    }
-
-    setExpanded(true);
-
-    tocToggle.addEventListener('click', function(){
-      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
-      setExpanded(!expanded);
-    });
-
-    // smooth scroll
-    document.querySelectorAll('.toc-link').forEach(function(link){
-      link.addEventListener('click', function(e){
-        var href = this.getAttribute('href');
-        if (!href || href.charAt(0) !== '#') return;
-
-        var target = document.querySelector(href);
-        if (!target) return;
-
-        e.preventDefault();
-
-        var offset = 18;
-        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({ top: top, behavior: 'smooth' });
-      });
-    });
-  })();
-</script>
 @endsection

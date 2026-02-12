@@ -415,7 +415,7 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-    max-height:520px;
+   
     overflow:auto;
   }
   .toc-list{
@@ -519,38 +519,41 @@
     </div>
   </section>
 
-  <!-- ✅ TOC AFTER HERO (FULL WIDTH) -->
-  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
-    <div class="service-container">
-      <div class="toc-card" id="tocCard">
-        <div class="toc-head">
-          <h4>Inhaltsverzeichnis</h4>
-          <div class="toc-actions">
-            <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="true" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
-              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(180deg); transition: transform 0.18s;">
-                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
-              </svg>
-            </button>
-          </div>
-        </div>
+<!-- ✅ TOC AFTER HERO -->
+<section class="toc-wrap" aria-label="Inhaltsverzeichnis">
+  <div class="service-container">
+    <div class="toc-card is-collapsed" id="tocCard">
+      <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+        <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
-        <div class="toc-body" id="tocBody">
-          <ul class="toc-list">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service in Wien</span></a></li>
-            <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team &amp; Kompetenz</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Thermenwartung</span></a></li>
-            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
-            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
-          </ul>
+        <div class="toc-actions">
+          <button class="toc-iconbtn" type="button" id="tocToggle"
+            aria-expanded="false" aria-controls="tocBody"
+            aria-label="Inhaltsverzeichnis umschalten">
+            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
+              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+            </svg>
+          </button>
         </div>
       </div>
+
+      <div class="toc-body" id="tocBody">
+        <ul class="toc-list" id="tocList">
+          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
+          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
+          <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
+          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
+          <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
+          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
+          <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
+          <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
+          <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+          <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+        </ul>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
 
    <!-- Kundendienst -->
@@ -941,50 +944,4 @@
   </section>
 </main>
 
-<script>
-  (function(){
-    // year
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-
-    // TOC collapse
-    var tocCard = document.getElementById('tocCard');
-    var tocToggle = document.getElementById('tocToggle');
-
-    function setExpanded(isExpanded){
-      tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-      tocCard.classList.toggle('is-collapsed', !isExpanded);
-
-      var svg = tocToggle.querySelector('svg');
-      if (svg){
-        svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
-        svg.style.transition = 'transform .18s ease';
-      }
-    }
-
-    setExpanded(true);
-
-    tocToggle.addEventListener('click', function(){
-      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
-      setExpanded(!expanded);
-    });
-
-    // smooth scroll
-    document.querySelectorAll('.toc-link').forEach(function(link){
-      link.addEventListener('click', function(e){
-        var href = this.getAttribute('href');
-        if (!href || href.charAt(0) !== '#') return;
-
-        var target = document.querySelector(href);
-        if (!target) return;
-
-        e.preventDefault();
-
-        var offset = 18;
-        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({ top: top, behavior: 'smooth' });
-      });
-    });
-  })();
-</script>
 @endsection

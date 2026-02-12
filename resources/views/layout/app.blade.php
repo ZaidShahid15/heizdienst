@@ -537,6 +537,194 @@ background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), tra
         });
     </script>
 
+<!-- <script>
+  (function () {
+  // Smooth scroll (TOC + tabs)
+  document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var id = a.getAttribute('href');
+      if (!id || id === '#') return;
+
+      var el = document.querySelector(id);
+      if (!el) return;
+
+      e.preventDefault();
+      var offset = 18;
+      var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    });
+  });
+
+  // TOC collapse + dynamic label
+  var tocCard = document.getElementById('tocCard');
+  var tocToggle = document.getElementById('tocToggle');
+  var tocHead = document.getElementById('tocHead');
+  var tocTitle = document.getElementById('tocTitle');
+
+  function setExpanded(isExpanded) {
+    if (!tocCard || !tocToggle) return;
+
+    tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+    if (tocHead) tocHead.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+
+    tocCard.classList.toggle('is-collapsed', !isExpanded);
+
+    var svg = tocToggle.querySelector('svg');
+    if (svg) {
+      svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+      svg.style.transition = 'transform .18s ease';
+    }
+  }
+
+  // ✅ collapsed by default
+  setExpanded(false);
+
+  // Toggle function
+  function toggleToc() {
+    var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
+    setExpanded(!expanded);
+  }
+
+  // ✅ open/close when click on header area
+  if (tocHead) {
+    tocHead.addEventListener('click', function (e) {
+      // if click on a link inside head (rare), ignore
+      toggleToc();
+    });
+
+    // keyboard support (Enter/Space)
+    tocHead.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleToc();
+      }
+    });
+  }
+
+  // ✅ stop double toggle when clicking the button inside header
+  if (tocToggle) {
+    tocToggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      toggleToc();
+    });
+  }
+
+  // ✅ when clicking a TOC link:
+  // 1) set header label to the FULL section H2 text
+  // 2) collapse TOC
+  document.querySelectorAll('.toc-link').forEach(function (link) {
+    link.addEventListener('click', function () {
+      var targetId = link.getAttribute('href');
+      if (!targetId) return;
+
+      var section = document.querySelector(targetId);
+      if (!section) return;
+
+      var h2 = section.querySelector('h2');
+      var newTitle = h2 ? h2.textContent.trim() : link.textContent.trim();
+
+      if (tocTitle) tocTitle.textContent = newTitle;
+
+      // close TOC after choosing item
+      setExpanded(false);
+    });
+  });
+
+  // year
+  var y = document.getElementById("year");
+  if (y) y.textContent = new Date().getFullYear();
+})();
+
+</script> -->
+<script>
+(function(){
+
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if (!id || id === '#') return;
+      var el = document.querySelector(id);
+      if (!el) return;
+      e.preventDefault();
+      var offset = 16;
+      var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    });
+  });
+
+  var tocCard   = document.getElementById('tocCard');
+  var tocToggle = document.getElementById('tocToggle');
+  var tocHead   = document.getElementById('tocHead');
+
+  function setExpanded(isExpanded){
+    if (!tocCard || !tocToggle) return;
+
+    tocCard.classList.toggle('is-collapsed', !isExpanded);
+    tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+    if (tocHead) tocHead.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+
+    var svg = tocToggle.querySelector('svg');
+    if (svg){
+      svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+    }
+  }
+
+  // ✅ Replace TOC labels with FULL section <h2> text
+  function updateTocHeadings(){
+    var links = document.querySelectorAll('#tocList a[href^="#"]');
+
+    links.forEach(function(link){
+      var target = link.getAttribute('href');
+      if (!target) return;
+
+      var section = document.querySelector(target);
+      if (!section) return;
+
+      // Find the first H2 in that section
+      var h2 = section.querySelector('h2');
+      if (!h2) return;
+
+      var full = (h2.textContent || '').trim().replace(/\s+/g,' ');
+      if (!full) return;
+
+      var textEl = link.querySelector('.toc-text');
+      if (textEl) textEl.textContent = full;
+    });
+  }
+
+  // ✅ INIT: collapsed by default + headings update
+  setExpanded(false);
+  updateTocHeadings();
+
+  // Toggle on button click
+  if (tocToggle){
+    tocToggle.addEventListener('click', function(e){
+      e.stopPropagation();
+      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
+      setExpanded(!expanded);
+    });
+  }
+
+  // Toggle when clicking header area
+  if (tocHead && tocToggle){
+    tocHead.addEventListener('click', function(e){
+      if (e.target.closest('#tocToggle')) return;
+      tocToggle.click();
+    });
+
+    tocHead.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        tocToggle.click();
+      }
+    });
+  }
+
+})();
+</script>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
