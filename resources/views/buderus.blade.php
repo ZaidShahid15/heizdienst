@@ -51,7 +51,7 @@
   .service-btn--ghost-on-dark:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.22)}
   .service-btn--full{width:100%}
 
-  /* HERO */
+  /* HERO (service-hero not used below, kept as-is) */
   .service-hero{
     padding:145px 0 48px;
     position:relative;
@@ -100,32 +100,6 @@
     color:#fff;
     margin:0 0 12px;
   }
-  .service-hero h1{
-    margin:0 0 10px;
-    font-size: clamp(30px, 3.2vw, 52px);
-    line-height:1.05;
-    letter-spacing:-.02em;
-    color:#fff;
-  }
-  .service-hero h1 .service-highlight{color:var(--accent)}
-  .service-hero__lead{
-    margin:0 0 14px;
-    font-size:1.05rem;
-    max-width:60ch;
-    color:rgba(255,255,255,.92);
-  }
-
-  .service-hero__bullets{display:flex; flex-wrap:wrap; gap:10px; margin:16px 0 18px;}
-  .service-pill{
-    padding:8px 10px;
-    border-radius:999px;
-    border:1px solid rgba(255,255,255,.22);
-    background:rgba(255,255,255,.10);
-    font-weight:800;
-    font-size:.92rem;
-    color:#fff;
-  }
-  .service-hero__actions{display:flex; gap:10px; flex-wrap:wrap}
 
   /* Quick tabs */
   .service-quicktabs{padding:10px 0 20px}
@@ -135,7 +109,7 @@
     border:1px solid var(--line);
     border-radius:19px;
     background:#fff;
-    justify-content: space-between
+    justify-content: space-between;
   }
   .service-tab{
     padding:10px 12px;
@@ -219,7 +193,7 @@
     width:100%;
     height:100%;
     display:block;
-     ;
+    object-fit:cover;
     object-position:center;
   }
 
@@ -339,6 +313,96 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
+  /* =========================
+     ✅ TOC (collapsible)
+     ========================= */
+  .toc-wrap{
+    padding:16px 0 0;
+    background:#fff;
+  }
+  .toc-card{
+    width:100%;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.18);
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+  }
+  .toc-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    padding:12px 14px;
+    background:linear-gradient(0deg, #f7fbfb, #fff);
+    border-bottom:1px solid rgba(24,64,72,.12);
+    cursor:pointer;
+  }
+  .toc-head h4{
+    margin:0;
+    font-size:15px;
+    font-weight:900;
+    color:var(--ink);
+  }
+  .toc-actions{display:flex; gap:8px; align-items:center;}
+  .toc-iconbtn{
+    width:34px; height:34px;
+    border-radius:10px;
+    border:1px solid rgba(24,64,72,.18);
+    background:#fff;
+    display:grid; place-items:center;
+    cursor:pointer;
+    transition:.15s ease;
+  }
+  .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.10)}
+  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9; transition: transform .18s ease;}
+
+  .toc-body{
+    padding:12px;
+    transition:max-height .22s ease, padding .22s ease;
+    overflow:auto;
+  }
+  .toc-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:10px;
+  }
+  .toc-link{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 14px;
+    border-radius:14px;
+    border:1px solid rgba(24,64,72,.12);
+    background:#fff;
+    transition:.15s ease;
+  }
+  .toc-link:hover{background:#f2f7f7; border-color:rgba(24,64,72,.18);}
+  .toc-badge{
+    width:26px; height:26px;
+    border-radius:999px;
+    display:grid; place-items:center;
+    background:rgba(251,154,27,.18);
+    border:1px solid rgba(251,154,27,.35);
+    font-size:12px;
+    font-weight:900;
+    color:#b76500;
+    flex:0 0 auto;
+  }
+  .toc-text{
+    font-weight:900;
+    color:#0f3a40;
+    font-size:14px;
+    line-height:1.2;
+  }
+  .toc-card.is-collapsed .toc-body{
+    max-height:0;
+    padding:0 12px;
+    overflow:hidden;
+  }
+
   /* Mobile */
   @media (max-width: 980px){
     .service-grid--3{grid-template-columns: 1fr}
@@ -358,212 +422,272 @@
     .service-media__box{height:220px;}
   }
 </style>
- <style>
-        .wolf-hero {
-            position: relative;
-            min-height: 520px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            overflow: hidden;
-            padding: 180px 16px 120px;
-            background: #111;
-        }
 
-        /* background image */
-        .wolf-hero::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background-image: url("img/hero-scetion.jpeg");
-            background-size: cover;
-            background-position: left center;
-            /* ✅ keep image left exactly */
-            transform: scale(1.02);
-            z-index: 0;
-        }
+<style>
+  .wolf-hero {
+    position: relative;
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 180px 16px 120px;
+    background: #111;
+  }
 
-        /* dark overlay like screenshot (NOT left-gradient) */
-        .wolf-hero::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: rgba(0, 0, 0, .55);
-            /* ✅ even dark overlay */
-            z-index: 1;
-        }
+  .wolf-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("img/hero-scetion.jpeg");
+    background-size: cover;
+    background-position: left center;
+    transform: scale(1.02);
+    z-index: 0;
+  }
 
-        /* content wrapper */
-        .wolf-hero__inner {
-            position: relative;
-            z-index: 2;
-            max-width: 900px;
-            margin-top: 40px;
-        }
+  .wolf-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .55);
+    z-index: 1;
+  }
 
-        /* H1 */
-        .wolf-hero h1 {
-            margin: 0 0 10px;
-            font-size: clamp(32px, 3.5vw, 54px);
-            line-height: 1.08;
-            font-weight: 800;
-            color: #fff;
-            letter-spacing: -.02em;
-        }
+  .wolf-hero__inner {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin-top: 40px;
+  }
 
-        .wolf-hero h1 em {
-            font-style: italic;
-            font-weight: 800;
-        }
+  .wolf-hero h1 {
+    margin: 0 0 10px;
+    font-size: clamp(32px, 3.5vw, 54px);
+    line-height: 1.08;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -.02em;
+  }
 
-        /* subtitle */
-        .wolf-hero__sub {
-            margin: 0 auto 48px;
-            max-width: 780px;
-            font-size: 16px;
-            color: rgba(255, 255, 255, .9);
-        }
+  .wolf-hero h1 em {
+    font-style: italic;
+    font-weight: 800;
+  }
 
-        /* buttons row */
-        .wolf-hero__actions {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            flex-wrap: wrap;
-            margin-top: 10px;
-        }
+  .wolf-hero__sub {
+    margin: 0 auto 48px;
+    max-width: 780px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, .9);
+  }
 
-        .wolf-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            background: var(--orange-600);
-            color: white;
-            padding: 15px 28px;
-            border-radius: 6px;
-            /* ✅ like screenshot */
-            font-weight: 700;
-            font-size: 14px;
-            border: 1px solid transparent;
-            transition: .15s ease;
-        }
+  .wolf-hero__actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
 
-        .wolf-btn--red {
-            background: var(--orange-600);
-            /* ✅ Wolf red */
-            color: #fff;
-        }
+  .wolf-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 15px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid transparent;
+    transition: .15s ease;
+  }
 
-        .wolf-btn--red:hover {
-            transform: translateY(-1px);
-        }
+  /* ✅ fixed: use --accent (your theme variable) */
+  .wolf-btn--accent {
+    background: var(--accent);
+    color: #1a1a1a;
+  }
+  .wolf-btn--accent:hover { transform: translateY(-1px); }
 
-        /* logo under buttons */
-        .wolf-hero__logo {
-            margin: 45px 0;
-            display: flex;
-            justify-content: center;
-        }
+  .wolf-btn--ghost{
+    background: transparent;
+    border-color: rgba(255,255,255,.35);
+    color: #fff;
+  }
+  .wolf-btn--ghost:hover{ transform: translateY(-1px); }
 
-        .wolf-hero__logo img {
-            width: 170px;
-            max-width: 60vw;
-            transform: rotate(-6deg);
-        }
+  .wolf-hero__logo {
+    margin: 45px 0;
+    display: flex;
+    justify-content: center;
+  }
 
-        /* ✅ diagonal grey bottom shape */
-        .wolf-hero .wolf-hero__inner::after {
-            content: "";
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -220px;
-            width: 303vw;
-            height: 2100px;
-            background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
-            clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
-            z-index: -1;
-            opacity: .9;
-        }
+  .wolf-hero__logo img {
+    width: 170px;
+    max-width: 60vw;
+    transform: rotate(-6deg);
+  }
 
-        /* mobile */
-        @media (max-width: 700px) {
-            .wolf-hero {
-                padding: 100px 14px 86px;
-                min-height: 480px;
-            }
+  .wolf-hero .wolf-hero__inner::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -220px;
+    width: 303vw;
+    height: 2100px;
+    background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+    z-index: -1;
+    opacity: .9;
+  }
 
-            .wolf-hero__sub {
-                font-size: 14px
-            }
-        }
-          .promo-banner__inner::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background:
-                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
-            z-index: 0;
-        }
-    </style>
+  @media (max-width: 700px) {
+    .wolf-hero {
+      padding: 100px 14px 86px;
+      min-height: 480px;
+    }
+    .wolf-hero__sub { font-size: 14px; }
+  }
+
+  .promo-banner__inner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    z-index: 0;
+  }
+</style>
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
-  <div class="wolf-hero__inner">
+    <div class="wolf-hero__inner">
 
-    <p class="wolf-hero__kicker">Fachbetrieb • Wien, NÖ & Burgenland</p>
+      <!-- ✅ fixed: use service-kicker (CSS exists) -->
+      <p class="service-kicker">Fachbetrieb • Wien, NÖ & Burgenland</p>
 
-    <h1>
-      Buderus Thermenwartung Wien<br>
-      <em>Rund um die Uhr Service vom Fachbetrieb.</em>
-    </h1>
-    <div class="wolf-hero__logo">
-      <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Logo">
+      <h1>
+        Buderus Thermenwartung Wien<br>
+        <em>Rund um die Uhr Service vom Fachbetrieb.</em>
+      </h1>
+
+      <div class="wolf-hero__logo">
+        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Logo">
+      </div>
+
+      <p class="wolf-hero__sub">
+        Professionelle Buderus Thermenwartung, Service, Reparatur & Notdienst – 24/7 verfügbar in Wien und Umgebung.
+      </p>
+
+      <div class="wolf-hero__actions">
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+      </div>
+
+      <section class="promo-banner" id="wolf-aktion">
+        <div class="promo-banner__inner">
+          <div class="promo-banner__content">
+            <h2 class="promo-banner__title"><em>Baxi Thermenwartung Aktion</em></h2>
+            <p class="promo-banner__price"><strong>ab  €95</strong></p>
+
+            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+              <span class="promo-banner__btn-ico"></span>
+              AKTION
+            </a>
+          </div>
+        </div>
+      </section>
+
     </div>
-
-    <p class="wolf-hero__sub">
-      Professionelle Buderus Thermenwartung, Service, Reparatur & Notdienst – 24/7 verfügbar in Wien und Umgebung.
-    </p>
-
-    <div class="wolf-hero__actions">
-      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
-      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
-    </div>
-
-    
-  <section class="promo-banner" id="wolf-aktion">
-                    <div class="promo-banner__inner">
-                        <div class="promo-banner__content">
-                            <h2 class="promo-banner__title"><em>Baxi Thermenwartung Aktion</em></h2>
-                            <p class="promo-banner__price"><strong>ab  €95</strong></p>
-
-                            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
-                                <span class="promo-banner__btn-ico">  </span>
-                                AKTION
-                            </a>
-                        </div>
-                    </div>
-                </section>
-  </div>
-</section>
+  </section>
 
 
-  <!-- Quick tabs -->
-  <section class="service-quicktabs" id="quicktabs-services">
+  <!-- ✅ TOC (collapsed by default) -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
-      <div class="service-tabs">
-        <a class="service-tab" href="#vorteile-services">Vorteile</a>
-        <a class="service-tab" href="#partner-services">Fachbetrieb</a>
-        <a class="service-tab" href="#leistungen-services">Leistungen</a>
-        <a class="service-tab" href="#geraete-services">Geräte</a>
-        <a class="service-tab" href="#ablauf-services">Ablauf</a>
-        <a class="service-tab" href="#notdienst-services">Notdienst</a>
-        <a class="service-tab" href="#preise-services">Kosten</a>
-        <a class="service-tab" href="#faq-services">FAQ</a>
-        <a class="service-tab" href="#kontakt-services">Kontakt</a>
+      <div class="toc-card is-collapsed" id="tocCard">
+
+        <div class="toc-head"
+             id="tocHead"
+             role="button"
+             tabindex="0"
+             aria-controls="tocBody"
+             aria-expanded="false">
+
+          <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+
+          <div class="toc-actions">
+            <button class="toc-iconbtn"
+                    type="button"
+                    id="tocToggle"
+                    aria-expanded="false"
+                    aria-controls="tocBody"
+                    aria-label="Inhaltsverzeichnis umschalten">
+              <svg id="tocChevron" viewBox="0 0 448 512" aria-hidden="true">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item">
+              <a href="#vorteile-services" class="toc-link">
+                <span class="toc-badge">01</span><span class="toc-text">Vorteile</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#partner-services" class="toc-link">
+                <span class="toc-badge">02</span><span class="toc-text">Fachbetrieb</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#leistungen-services" class="toc-link">
+                <span class="toc-badge">03</span><span class="toc-text">Leistungen</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#warum-services" class="toc-link">
+                <span class="toc-badge">04</span><span class="toc-text">Wartung</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#geraete-services" class="toc-link">
+                <span class="toc-badge">05</span><span class="toc-text">Geräte</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#ablauf-services" class="toc-link">
+                <span class="toc-badge">06</span><span class="toc-text">Ablauf</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#notdienst-services" class="toc-link">
+                <span class="toc-badge">07</span><span class="toc-text">Notdienst</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#preise-services" class="toc-link">
+                <span class="toc-badge">08</span><span class="toc-text">Kosten</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#faq-services" class="toc-link">
+                <span class="toc-badge">09</span><span class="toc-text">FAQ</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#kontakt-services" class="toc-link">
+                <span class="toc-badge">10</span><span class="toc-text">Kontakt</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </section>
@@ -642,7 +766,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{asset('img/buderus.jpeg')}}" alt="Buderus Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -982,9 +1106,101 @@
 </main>
 
 <script>
+  // Year
   (function(){
     var y = document.getElementById("year");
     if (y) y.textContent = new Date().getFullYear();
   })();
 </script>
+
+<script>
+(function(){
+  // ✅ Make sure HTML exists before running (fixes “not collapsing” issues)
+  document.addEventListener('DOMContentLoaded', function(){
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var id = a.getAttribute('href');
+        if (!id || id === '#') return;
+        var el = document.querySelector(id);
+        if (!el) return;
+        e.preventDefault();
+        var offset = 16;
+        var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      });
+    });
+
+    var tocCard   = document.getElementById('tocCard');
+    var tocToggle = document.getElementById('tocToggle');
+    var tocHead   = document.getElementById('tocHead');
+
+    function setExpanded(isExpanded){
+      if (!tocCard || !tocToggle) return;
+
+      tocCard.classList.toggle('is-collapsed', !isExpanded);
+      tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      if (tocHead) tocHead.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+
+      var svg = tocToggle.querySelector('svg');
+      if (svg){
+        svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+      }
+    }
+
+    // ✅ Replace TOC labels with FULL section <h2> text
+    function updateTocHeadings(){
+      var links = document.querySelectorAll('#tocList a[href^="#"]');
+
+      links.forEach(function(link){
+        var target = link.getAttribute('href');
+        if (!target) return;
+
+        var section = document.querySelector(target);
+        if (!section) return;
+
+        var h2 = section.querySelector('h2');
+        if (!h2) return;
+
+        var full = (h2.textContent || '').trim().replace(/\s+/g,' ');
+        if (!full) return;
+
+        var textEl = link.querySelector('.toc-text');
+        if (textEl) textEl.textContent = full;
+      });
+    }
+
+    // ✅ INIT: collapsed by default + headings update
+    setExpanded(false);
+    updateTocHeadings();
+
+    // Toggle on button click
+    if (tocToggle){
+      tocToggle.addEventListener('click', function(e){
+        e.stopPropagation();
+        var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
+        setExpanded(!expanded);
+      });
+    }
+
+    // Toggle when clicking header area
+    if (tocHead && tocToggle){
+      tocHead.addEventListener('click', function(e){
+        if (e.target.closest('#tocToggle')) return;
+        tocToggle.click();
+      });
+
+      tocHead.addEventListener('keydown', function(e){
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          tocToggle.click();
+        }
+      });
+    }
+
+  });
+})();
+</script>
+
 @endsection

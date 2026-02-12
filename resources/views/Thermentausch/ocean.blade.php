@@ -121,14 +121,14 @@
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch; /* ✅ equal height columns */
+    align-items:stretch;
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
 
   .card-split__text,
   .card-split__media{
-    display:flex; /* ✅ allow children to stretch */
+    display:flex;
   }
 
   .card-box{
@@ -150,7 +150,7 @@
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:100%;           /* ✅ match text height */
+    height:100%;
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -159,9 +159,9 @@
   }
   .service-media__img{
     width:100%;
-    height:100%;           /* ✅ fill box */
+    height:100%;
     display:block;
-    object-fit:cover;      /* ✅ no distortion */
+    object-fit:cover;
     object-position:center;
   }
 
@@ -423,7 +423,6 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-   
     overflow:auto;
   }
   .toc-list{
@@ -476,45 +475,45 @@
 </style>
 
 @push('meta')
-  <title>Ocean Thermenservice Wien – Notdienst & Thermenwartung 24h</title>
-  <meta name="description" content="Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ Thermenwartung, Ocean Gastherme & Heizung ✔ Kundendienst Wien mit Erfahrung.">
+  <title>Ocean Thermentausch Wien | Gastherme, Service & Notdienst</title>
+  <meta name="description" content="Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔ Thermenwartung, Reparatur & Notdienst ✔ Transparente Kosten & persönlicher Service">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">notdienst rund um die uhr</p>
+      <p class="wolf-hero__kicker">thermentausch in wien</p>
 
       <h1>
-        Ocean Thermenservice Wien<br>
-        <em>Notdienst &amp; Wartung 24h</em>
+        Ocean Thermentausch Wien<br>
+        <em>Service &amp; Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Schnelle Hilfe bei Störungen, Defekt oder Ausfall der Therme – der Ocean Notdienst Wien ist zuverlässig für Sie da.
+        Professioneller Ocean Thermentausch Wien für sichere Gastherme, hohe Effizienz und zuverlässigen Service in Wien und Niederösterreich.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean Thermenservice Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean Thermentausch Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
+        <span class="wolf-pill">Thermentausch</span>
         <span class="wolf-pill">Thermenwartung</span>
         <span class="wolf-pill">Reparatur</span>
-        <span class="wolf-pill">Kundendienst</span>
         <span class="wolf-pill">Notdienst 24h</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Angebot anfordern</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Ablauf ansehen</a>
       </div>
 
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Ocean Service Aktion</em></h2>
+            <h2 class="promo-banner__title"><em>Ocean Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
@@ -527,7 +526,7 @@
     </div>
   </section>
 
-  <!-- ✅ TOC AFTER HERO -->
+  <!-- ✅ TOC AFTER HERO (HTML change: add id="tocList") -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card" id="tocCard">
@@ -546,399 +545,330 @@
         </div>
 
         <div class="toc-body" id="tocBody">
-          <ul class="toc-list">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
-            <li class="toc-item"><a href="#kundendienst-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Kundendienst</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Wartung</span></a></li>
-            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Reparatur</span></a></li>
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item"><a href="#intro-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Intro</span></a></li>
+            <li class="toc-item"><a href="#wann-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Wann sinnvoll</span></a></li>
+            <li class="toc-item"><a href="#loesungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Heizlösungen</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#sicherheit-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Sicherheit</span></a></li>
+            <li class="toc-item"><a href="#kosten-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Kosten</span></a></li>
             <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Team</span></a></li>
-            <li class="toc-item"><a href="#vorteile2-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Vorteile</span></a></li>
-            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
+            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Warum Profi</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-
-
-  <!-- Vorteile / bullets -->
-  <section class="service-section service-section--soft" id="vorteile-services">
-    <div class="service-container">
-      <section class="service-section" id="kundendienst-services">
-        <div class="service-container">
-          <div class="card-split">
-            <div class="card-split__text">
-              <div class="card-box">
-                <h2>Ocean Notdienst und Kundendienst Wien rund um die Uhr</h2>
-                <p>
-                  Thermenwartung, Reparatur und Thermenservice aus einer Hand – erfahrene Techniker, klare Lösungen und Service für Wien, Niederösterreich und Umgebung.
-                </p>
-              </div>
-            </div>
-
-            <div class="card-split__media service-media">
-              <div class="service-media__box">
-                <img class="service-media__img" src="{{ asset('img/oceanbaxi.jpeg') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧰</div>
-          <div>
-            <h3>Thermenwartung &amp; Service</h3>
-            <p>Regelmäßige Wartung erhöht Sicherheit, senkt Verbrauch und reduziert Störungen im laufenden Betrieb.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚡</div>
-          <div>
-            <h3>Reparatur &amp; Fehlerbehebung</h3>
-            <p>Schnelle Hilfe bei Fehlermeldungen, Ausfällen oder wiederkehrenden Ocean Störungen – effizient und dokumentiert.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
-          <div>
-            <h3>Erfahrene Fachleute</h3>
-            <p>Geschulte Techniker und Installateure prüfen jede Therme sorgfältig und liefern nachhaltige Lösungen.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">📍</div>
-          <div>
-            <h3>Regional schnell vor Ort</h3>
-            <p>Kurze Wege in Wien, Niederösterreich (NÖ) und Burgenland – flexibel, zuverlässig und rasch am Einsatzort.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Kundendienst -->
-  <section class="service-section" id="kundendienst-services">
+  <!-- 01 -->
+  <section class="service-section service-section--soft" id="intro-services">
     <div class="service-container">
       <div class="card-split">
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
-          </div>
-        </div>
-
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Ocean Kundendienst Wien für Therme und Heizung</h2>
+            <h2>Ocean Thermentausch Wien</h2>
             <p>
-              Der Ocean Kundendienst Wien unterstützt Kunden bei allen Anliegen rund um Ocean Therme, Ocean Heizung und moderne Gasgeräte.
-              Ob privates Zuhause oder laufender Betrieb – wir bieten professionellen Service für Heizung, Gastherme und komplette Heizungsanlagen.
+              Ein professioneller Ocean Thermentausch Wien steht für sichere Gastherme, hohe Effizienz und zuverlässigen Service in Wien und Niederösterreich.
             </p>
-            <p>
-              Als erfahrener Installateur und verlässlicher Partner arbeiten wir strukturiert, transparent und lösungsorientiert.
-              Unser Team prüft jede Therme sorgfältig, erkennt Probleme frühzeitig und sorgt für nachhaltige Lösungen.
-              Ziel ist Komfort, Sicherheit und Effizienz – in Wien, Niederösterreich und der gesamten Umgebung.
-            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/oceanbaxi.jpeg') }}" alt="Ocean Thermentausch Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Notdienst (dark) -->
-  <section class="service-section service-section--dark" id="notdienst-services">
-    <div class="service-container service-emergency">
-      <div class="service-emergency__text">
-        <h2>Ocean Notdienst rund um die Uhr</h2>
-        <p>
-          Ein Ausfall der Ocean Gastherme, Fehlermeldungen oder plötzliche Störungen erfordern sofortiges Handeln.
-          Unser Ocean Notdienst ist rund um die Uhr erreichbar – auch nachts, an Wochenenden oder Feiertagen.
-        </p>
-        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Wir organisieren gezielte Fehlerbehebung direkt vor Ort. Durch kurze Wege in Wien, Niederösterreich (NÖ) und Burgenland
-          begrenzen wir Schäden und sorgen dafür, dass Heizung und Warmwasser rasch wieder funktionieren.
-        </p>
-
-        <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
+  <!-- 02 -->
+  <section class="service-section" id="wann-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
+            <p>
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Ocean Therme häufige Probleme zeigt, Reparatur und Fehlerbehebung zunehmen oder Fehlermeldungen auftreten.
+              Gerade bei älteren Gasthermen sinkt die Effizienz, während Sicherheitsrisiken steigen.
+            </p>
+            <p>
+              Moderne Ocean Gasthermen verbessern Energieeffizienz, erhöhen den Komfort und senken laufende Kosten.
+              Auch bei wiederkehrenden Defekts, Abgasmessung oder unzureichender Heizleistung empfiehlt sich ein Austausch.
+              Ein erfahrener Installateur prüft Heizung, Gasgeräte, Heizkörper und Funktion und empfiehlt eine passende Lösung für Wohnung oder Haus.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="service-emergency__panel">
-        <div class="service-panel">
-          <h3>Typische Einsätze im Notdienst</h3>
-          <ul class="service-checklist service-checklist--on-dark">
-            <li>Ausfall der Therme oder Ocean Gasgeräte</li>
-            <li>Wiederkehrende Störungen, Fehler oder Fehlermeldungen</li>
-            <li>Sicherheitsrelevante Auffälligkeiten an Gastherme und Heizkörper</li>
-          </ul>
-          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            24h erreichbar – schnelle Hilfe in Wien &amp; Umgebung.
-          </p>
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Wann Thermentausch sinnvoll ist" loading="lazy" decoding="async">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen -->
-  <section class="service-section" id="leistungen-services">
+  <!-- 03 -->
+  <section class="service-section service-section--soft" id="loesungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen und Vorteile auf einen Blick</h2>
-        <p>Ocean Kundendienst, Thermenservice, Wartung, Reparatur und Thermentausch – klare Abläufe, transparente Betreuung und hohe Sicherheit.</p>
+        <h2>Moderne Ocean Heizlösungen</h2>
+        <p>Ocean steht für bewährte Gasgeräte, verlässliche Technik und langlebige Thermen für unterschiedliche Anforderungen.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧽</div>
+          <div class="service-feature__icon" aria-hidden="true">♻️</div>
           <div>
-            <h3>Ocean Thermenwartung</h3>
-            <p>Überprüfung, Reinigung, Einstellung und Funktionskontrolle nach klaren Abläufen – für sicheren Betrieb.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧪</div>
-          <div>
-            <h3>Thermenservice Wien</h3>
-            <p>Planbare Wartungen und Service-Termine zur Sicherung der Langlebigkeit Ihrer Ocean Therme.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚡</div>
-          <div>
-            <h3>Reparatur &amp; Ocean Thermenreparatur</h3>
-            <p>Effiziente Fehlerbehebung, dokumentiert und nachhaltig – um Folgeschäden zu vermeiden.</p>
+            <h3>Brennwerttechnik für mehr Effizienz</h3>
+            <p>Eine moderne Ocean Gastherme nutzt Energie effizienter. Der geringere Verbrauch senkt Kosten, schont die Umwelt und verbessert die Energieeffizienz nachhaltig.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Ocean Gasgeräte &amp; Gastherme</h3>
-            <p>Professioneller Gasgeräte-Kundendienst für Ocean Gasgeräte – sicher, sauber und nachvollziehbar.</p>
+            <h3>Gastherme für Heizung und Komfort</h3>
+            <p>Die Ocean Therme kombiniert Heizung und Warmwasser und sorgt für gleichmäßige Wärme und hohen Komfort in jeder Jahreszeit.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔁</div>
+          <div class="service-feature__icon" aria-hidden="true">📦</div>
           <div>
-            <h3>Installation &amp; Thermentausch</h3>
-            <p>Beratung, Installation und Inbetriebnahme – inklusive Ocean Thermentausch bei Bedarf.</p>
+            <h3>Ocean Modelle im Überblick</h3>
+            <p>Ocean Modelle werden nach Leistung, Funktion und Einsatz ausgewählt. So passt das Gerät optimal zu Wohnung, Haus und Bedarf.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">✅</div>
+          <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
           <div>
-            <h3>Sicherheit &amp; Effizienz</h3>
-            <p>Prüfung von Gasgeräten, Abgasführung und Anlage – für effizienten Betrieb und mehr Wohlbefinden.</p>
+            <h3>Beratung durch Fachbetrieb</h3>
+            <p>Unsere Experten prüfen Anlage, Anschlüsse und Bedarf und empfehlen eine Lösung, die effizient, sicher und langfristig sinnvoll ist.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Wartung -->
-  <section class="service-section service-section--soft" id="wartung-services">
+  <!-- 04 -->
+  <section class="service-section" id="ablauf-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermenwartung, Ocean Thermenservice und Reparatur</h2>
+            <h2>So läuft der Ocean Thermentausch ab</h2>
             <p>
-              Regelmäßige Thermenwartung ist ein zentraler Bestandteil für den sicheren Betrieb Ihrer Anlage.
-              Unsere Ocean Thermenwartung folgt klaren Abläufen: Zustandsprüfung, Reinigung, Einstellung und Funktionskontrolle.
+              Der Ocean Thermentausch erfolgt klar strukturiert. Nach der Anfrage folgt eine Überprüfung der bestehenden Therme inklusive Abgasmessung.
+              Anschließend werden Installation und Austausch geplant, das alte Gerät entfernt und die neue Ocean Gastherme montiert.
             </p>
             <p>
-              Bei einer Reparatur arbeiten unsere Fachkräfte effizient und dokumentiert. So lassen sich Folgeschäden vermeiden,
-              die Effizienz steigern und Energiekosten senken – gut für Komfort, Umwelt und Wohlbefinden.
+              Nach der Inbetriebnahme prüfen Techniker alle Funktionen, nehmen Einstellungen vor und erklären den sicheren Betrieb.
+              So entsteht ein transparenter Ablauf mit klarer Verantwortung.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">weniger Störungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">mehr Sicherheit</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Überprüfung & Analyse</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Planung & Installation</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Inbetriebnahme</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Übergabe</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Ocean Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Ablauf Ocean Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Reparatur / Austausch -->
-  <section class="service-section" id="reparatur-services">
+  <!-- 05 -->
+  <section class="service-section service-section--dark" id="sicherheit-services">
+    <div class="service-container service-emergency">
+      <div class="service-emergency__text">
+        <h2>Montage, Betrieb und Sicherheit</h2>
+        <p>
+          Eine fachgerechte Montage ist entscheidend für Sicherheit, Effizienz und Lebensdauer der Ocean Therme.
+          Unsere Techniker führen alle Arbeiten an Gasgeräte, Heizung und Anschlüssen fachgerecht aus.
+        </p>
+        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
+          Regelmäßige Ocean Thermenwartung, Ocean Thermenservice und Ocean Kundendienst Wien sichern Funktion, Langlebigkeit und Komfort.
+        </p>
+
+        <div class="service-emergency__actions">
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Beratung anfordern</a>
+          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
+        </div>
+      </div>
+
+      <div class="service-emergency__panel">
+        <div class="service-panel">
+          <h3>Warum Sicherheit zählt</h3>
+          <ul class="service-checklist service-checklist--on-dark">
+            <li>Saubere Montage nach Richtlinien</li>
+            <li>Kontrolle von Anschlüssen und Funktion</li>
+            <li>Wartung zur Vermeidung von Ausfällen</li>
+            <li>Dokumentierte Übergabe und Hinweise</li>
+          </ul>
+          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
+            Sicherheit &amp; Komfort – aus einer Hand.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 -->
+  <section class="service-section" id="kosten-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Installation, Thermentausch und Ocean Thermentausch</h2>
+            <h2>Kosten, Preise und Aktion</h2>
             <p>
-              Wenn Reparaturen nicht mehr sinnvoll sind, beraten wir transparent zum Thermentausch oder Ocean Thermentausch.
-              Unsere Fachleute erklären Unterschiede zwischen Modellen, zeigen Alternativen auf und begleiten Installation sowie Inbetriebnahme.
+              Die Kosten für einen Ocean Thermentausch in Wien hängen von Modell, Montageaufwand und Zustand der Anlage ab.
+              Transparente Preise schaffen Sicherheit bei der Entscheidung. Aktionsangebote ermöglichen zusätzliche Vorteile ohne Qualitätsverlust.
             </p>
             <p>
-              Dabei berücksichtigen wir den tatsächlichen Bedarf, den Zustand der Anlage und Ihre individuellen Anliegen.
-              Ziel ist eine Lösung, die langfristig zuverlässig arbeitet und Ihre Anlage wieder in Bestform bringt.
+              Moderne Ocean Gasthermen reduzieren Energieverbrauch, senken Betriebskosten und steigern Effizienz langfristig –
+              eine nachhaltige Wahl für Wien, Niederösterreich und Burgenland.
             </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Kostenübersicht</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Attraktive Aktion nutzen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Preise</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Langfristige Effizienz</div></div>
+            </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Ocean Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Kosten Ocean Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Region -->
+  <!-- 07 -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Einsatzgebiet Wien, Niederösterreich und Burgenland</h2>
+            <h2>Thermentausch in Wien, Niederösterreich und Burgenland</h2>
             <p>
-              Der Ocean Notdienst Wien ist in ganz Wien, Niederösterreich (NÖ) sowie im Burgenland im Einsatz.
-              Durch kurze Anfahrtszeiten und regionale Planung sind unsere Techniker rasch am Ort – auch in der Umgebung reagieren wir flexibel.
+              Ein Ocean Thermentausch in Wien, Niederösterreich und Burgenland erfordert regionale Erfahrung und technisches Fachwissen.
+              Ob Wien, Umgebung oder ländliche Regionen – jede Wohnung und jedes Haus stellt andere Anforderungen an Gastherme, Heizung und Heizkörper.
             </p>
             <p>
-              Unser Notdienst steht Kunden jederzeit zur Verfügung, damit Ausfälle nicht zu größeren Schäden führen und Heizung sowie Warmwasser
-              schnell wieder funktionieren.
+              Unsere Installateure, Techniker und Experten sind regelmäßig im Einsatz und betreuen Kunden zuverlässig vor Ort.
+              Durch strukturierte Planung, abgestimmte Dienstleistungen und kurze Wege entsteht ein reibungsloser Ocean Thermentausch mit hoher Effizienz,
+              Sicherheit und Komfort für jede Jahreszeit.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Einsatzgebiet Ocean" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Region Ocean Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Team -->
-  <section class="service-section" id="team-services">
+  <!-- 08 -->
+  <section class="service-section" id="warum-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Team, Erfahrung und Fachwissen</h2>
+            <h2>Warum ein professioneller Ocean Thermentausch überzeugt</h2>
             <p>
-              Unser erfahrenes Team besteht aus qualifizierten Installateuren, spezialisierten Technikern und engagierten Ansprechpartnern.
-              Mit fundiertem Fachwissen, langjähriger Erfahrung und regelmäßiger Weiterbildung betreuen wir Ocean Anlagen aller gängigen Modelle.
+              Ein fachgerecht durchgeführter Ocean Thermentausch erhöht nicht nur die Sicherheit, sondern verlängert auch die Lebensdauer der neuen Therme.
+              Unsere Fachbetriebe prüfen Gasgeräte, Funktion, Abgasmessung und Energieeffizienz sorgfältig.
             </p>
             <p>
-              Diese Kombination ermöglicht präzise Diagnose, nachhaltige Reparatur und hohe Servicequalität – vom ersten Kontakt bis zur erfolgreichen Behebung.
+              Durch saubere Montage, regelmäßige Wartung und einen starken Ocean Kundendienst bleibt der Betrieb zuverlässig.
+              Kunden profitieren von persönlicher Beratung, schneller Fehlerbehebung, Ocean Thermenreparatur und einem verlässlichen Notdienst – alles aus einer Hand.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weiterbildung</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Servicequalität</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrung &amp; Expertenwissen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Entsorgung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hohe Effizienz</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Service &amp; Notdienst</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Ocean Team" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Warum Ocean Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Vorteile 2 -->
-  <section class="service-section service-section--soft" id="vorteile2-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Kontakt, Service und persönliche Betreuung</h2>
-            <p>
-              Bei Fragen oder im Notfall erreichen Sie unseren Kundendienst jederzeit. Über den Kontakt auf dieser Seite koordinieren wir rasch den passenden Einsatz.
-              Unsere Ansprechpartner beraten verständlich und sorgen für schnelle Unterstützung.
-            </p>
-            <p>
-              Ob Wartung, Reparatur oder Notdienst – wir stehen unseren Kunden zuverlässig zur Seite und halten Ihre Anlage dauerhaft in Bestform.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="Ocean Service Vorteile" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
+  <!-- 09 -->
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>FAQs – Ocean Thermenservice &amp; Notdienst Wien</h2>
+        <h2>Häufige Fragen zum Ocean Thermentausch</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>1. Wann ist eine Ocean Thermenwartung notwendig?</summary>
-          <p>Eine regelmäßige Ocean Thermenwartung sichert die Effizienz, verlängert die Lebensdauer der Therme und reduziert das Risiko von Störungen.</p>
+          <summary>Wann ist ein Ocean Thermentausch sinnvoll?</summary>
+          <p>Ein Austausch ist sinnvoll bei häufigen Problemen, steigenden Reparaturkosten, Fehlermeldungen oder wenn die bestehende Therme nicht mehr effizient arbeitet.</p>
         </details>
         <details>
-          <summary>2. Gibt es eine Ocean Thermenwartung in Wien?</summary>
-          <p>Ja, wir bieten Ocean Thermenwartung Wien sowie Thermenwartung Wien zuverlässig für Kunden direkt vor Ort an.</p>
+          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
+          <p>In der Regel erfolgt der Austausch inklusive Installation und Inbetriebnahme innerhalb eines Tages, abhängig vom Zustand der Anlage.</p>
         </details>
         <details>
-          <summary>3. Ist der Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Notdienst ist rund um die Uhr verfügbar – auch außerhalb normaler Zeiten erhalten Kunden schnelle Hilfe.</p>
+          <summary>Welche Ocean Gastherme ist die richtige Wahl?</summary>
+          <p>Die Auswahl hängt von Wohnung, Haus, Heizleistung und Energiebedarf ab. Unsere Experten beraten umfassend zu passenden Modellen.</p>
         </details>
         <details>
-          <summary>4. Welche Leistungen umfasst der Thermenservice?</summary>
-          <p>Der Thermenservice beinhaltet Überprüfung, Reinigung, Einstellung und Funktionskontrolle jeder Ocean Therme.</p>
+          <summary>Ist Thermenwartung nach dem Thermentausch notwendig?</summary>
+          <p>Ja, regelmäßige Thermenwartung Wien und Ocean Thermenwartung sichern Effizienz, Sicherheit und langfristigen Betrieb.</p>
         </details>
         <details>
-          <summary>5. Wer ist mein Ansprechpartner im Kundendienst Wien?</summary>
-          <p>Im Kundendienst Wien steht Ihnen ein fixer Ansprechpartner zur Verfügung, der Service, Termin und Ablauf koordiniert.</p>
+          <summary>Was kostet ein Ocean Thermentausch?</summary>
+          <p>Die Kosten richten sich nach Gerät, Montage und Aufwand. Transparente Preise schaffen Klarheit vor der Entscheidung.</p>
+        </details>
+        <details>
+          <summary>Gibt es einen Ocean Notdienst?</summary>
+          <p>Ja, ein Ocean Notdienst steht bei akuten Problemen und Defekts schnell zur Verfügung.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT FORM ALWAYS LAST -->
+  <!-- 10 -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Kontakt, Termin &amp; schnelle Hilfe</h2>
+        <h2>Beratung &amp; Angebot anfordern</h2>
         <p>
-          Bei Fragen, Wartung oder im akuten Notdienst erreichen Sie uns unkompliziert per Telefon oder über das Formular.
-          Wir koordinieren rasch den passenden Einsatz in Wien, Niederösterreich und Burgenland.
+          Sie planen einen Ocean Thermentausch in Wien, Niederösterreich oder Burgenland? Unser Team berät Sie persönlich und erstellt ein individuelles Angebot inklusive Service, Aktion und transparenter Kosten.
         </p>
         <p style="margin-top:10px;">
-          Ihr Ocean Thermenservice Wien: kompetent, effizient und kundenorientiert – für Sicherheit, Komfort und Wohlbefinden.
+          👉 Jetzt Angebot anfordern und Ocean Thermentausch professionell umsetzen
         </p>
       </div>
 
@@ -967,50 +897,4 @@
   </section>
 </main>
 
-<script>
-  (function(){
-    // year
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-
-    // TOC collapse
-    var tocCard = document.getElementById('tocCard');
-    var tocToggle = document.getElementById('tocToggle');
-
-    function setExpanded(isExpanded){
-      tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-      tocCard.classList.toggle('is-collapsed', !isExpanded);
-
-      var svg = tocToggle.querySelector('svg');
-      if (svg){
-        svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
-        svg.style.transition = 'transform .18s ease';
-      }
-    }
-
-    setExpanded(true);
-
-    tocToggle.addEventListener('click', function(){
-      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
-      setExpanded(!expanded);
-    });
-
-    // smooth scroll
-    document.querySelectorAll('.toc-link').forEach(function(link){
-      link.addEventListener('click', function(e){
-        var href = this.getAttribute('href');
-        if (!href || href.charAt(0) !== '#') return;
-
-        var target = document.querySelector(href);
-        if (!target) return;
-
-        e.preventDefault();
-
-        var offset = 18;
-        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({ top: top, behavior: 'smooth' });
-      });
-    });
-  })();
-</script>
 @endsection

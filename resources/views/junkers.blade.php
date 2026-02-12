@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-     ;
+    object-fit:cover;
     object-position:center;
   }
 
@@ -339,6 +339,94 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
+  /* ✅ TOC (same as previous page) */
+  .toc-wrap{
+    padding:16px 0 0;
+    background:#fff;
+  }
+  .toc-card{
+    width:100%;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.18);
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+  }
+  .toc-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    padding:12px 14px;
+    background:linear-gradient(0deg, #f7fbfb, #fff);
+    border-bottom:1px solid rgba(24,64,72,.12);
+    cursor:pointer;
+  }
+  .toc-head h4{
+    margin:0;
+    font-size:15px;
+    font-weight:900;
+    color:var(--ink);
+  }
+  .toc-actions{display:flex; gap:8px; align-items:center;}
+  .toc-iconbtn{
+    width:34px; height:34px;
+    border-radius:10px;
+    border:1px solid rgba(24,64,72,.18);
+    background:#fff;
+    display:grid; place-items:center;
+    cursor:pointer;
+    transition:.15s ease;
+  }
+  .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.10)}
+  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9; transition: transform .18s ease;}
+
+  .toc-body{
+    padding:12px;
+    transition:max-height .22s ease, padding .22s ease;
+    overflow:auto;
+  }
+  .toc-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:10px;
+  }
+  .toc-link{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 14px;
+    border-radius:14px;
+    border:1px solid rgba(24,64,72,.12);
+    background:#fff;
+    transition:.15s ease;
+  }
+  .toc-link:hover{background:#f2f7f7; border-color:rgba(24,64,72,.18);}
+  .toc-badge{
+    width:26px; height:26px;
+    border-radius:999px;
+    display:grid; place-items:center;
+    background:rgba(251,154,27,.18);
+    border:1px solid rgba(251,154,27,.35);
+    font-size:12px;
+    font-weight:900;
+    color:#b76500;
+    flex:0 0 auto;
+  }
+  .toc-text{
+    font-weight:900;
+    color:#0f3a40;
+    font-size:14px;
+    line-height:1.2;
+  }
+  .toc-card.is-collapsed .toc-body{
+    max-height:0;
+    padding:0 12px;
+    overflow:hidden;
+  }
+
   /* Mobile */
   @media (max-width: 980px){
     .service-grid--3{grid-template-columns: 1fr}
@@ -357,84 +445,166 @@
     .service-hero__content{max-width:64ch}
     .service-media__box{height:220px;}
   }
-    .promo-banner__inner::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background:
-                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
-            z-index: 0;
-        }
+
+  .promo-banner__inner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    z-index: 0;
+  }
 </style>
 
 <main>
   <!-- HERO -->
-  <!-- HERO (same content, same structure) -->
-<section class="wolf-hero" id="hero-services">
-  <div class="wolf-hero__inner">
-    <p class="wolf-hero__kicker">Erfahrener Meisterbetrieb • Wien, NÖ &amp; Burgenland</p>
+  <section class="wolf-hero" id="hero-services">
+    <div class="wolf-hero__inner">
+      <p class="wolf-hero__kicker">Erfahrener Meisterbetrieb • Wien, NÖ &amp; Burgenland</p>
 
-    <h1>
-      Junkers Thermenwartung Wien<br>
-      <em>Rund um die Uhr Service vom Fachbetrieb.</em>
-    </h1>
+      <h1>
+        Junkers Thermenwartung Wien<br>
+        <em>Rund um die Uhr Service vom Fachbetrieb.</em>
+      </h1>
 
-    <p class="wolf-hero__sub">
-      Professionelle Junkers Thermenwartung Wien vom erfahrenen Fachbetrieb – zuverlässig, effizient und rund um die Uhr verfügbar
-      für Thermenwartung, Service, Reparaturen und Notdienst in Wien und Umgebung, NÖ und Burgenland.
-    </p>
+      <p class="wolf-hero__sub">
+        Professionelle Junkers Thermenwartung Wien vom erfahrenen Fachbetrieb – zuverlässig, effizient und rund um die Uhr verfügbar
+        für Thermenwartung, Service, Reparaturen und Notdienst in Wien und Umgebung, NÖ und Burgenland.
+      </p>
 
-     <div class="wolf-hero__logo">
-      <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Logo" loading="lazy" decoding="async">
+      <div class="wolf-hero__logo">
+        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Logo" loading="lazy" decoding="async">
+      </div>
+
+      <div class="wolf-hero__bullets" aria-label="Highlights">
+        <span class="wolf-pill">Standard &amp; Premium Wartung</span>
+        <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+        <span class="wolf-pill">Preis inkl. MwSt</span>
+        <span class="wolf-pill">Meisterbetrieb</span>
+      </div>
+
+      <div class="wolf-hero__actions">
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+      </div>
+
+      <section class="promo-banner" id="wolf-aktion">
+        <div class="promo-banner__inner">
+          <div class="promo-banner__content">
+            <h2 class="promo-banner__title"><em>Junkers Thermenwartung Aktion</em></h2>
+            <p class="promo-banner__price"><strong>ab  €95</strong></p>
+
+            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+              <span class="promo-banner__btn-ico"></span>
+              AKTION
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
-    <div class="wolf-hero__bullets" aria-label="Highlights">
-      <span class="wolf-pill">Standard &amp; Premium Wartung</span>
-      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
-      <span class="wolf-pill">Preis inkl. MwSt</span>
-      <span class="wolf-pill">Meisterbetrieb</span>
-    </div>
+  </section>
 
-    <div class="wolf-hero__actions">
-      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
-      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
-    </div>
-
-   
-
-
-     <section class="promo-banner" id="wolf-aktion">
-                    <div class="promo-banner__inner">
-                        <div class="promo-banner__content">
-                            <h2 class="promo-banner__title"><em>Junkers Thermenwartung Aktion</em></h2>
-                            <p class="promo-banner__price"><strong>ab  €95</strong></p>
-
-                            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
-                                <span class="promo-banner__btn-ico">  </span>
-                                AKTION
-                            </a>
-                        </div>
-                    </div>
-                </section>
-  </div>
-</section>
-
-
-  <!-- Quick tabs -->
-  <section class="service-quicktabs" id="quicktabs-services">
+  <!-- ✅ TOC (same as previous) -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
-      <div class="service-tabs">
-        <a class="service-tab" href="#vorteile-services">Vorteile</a>
-        <a class="service-tab" href="#partner-services">Fachbetrieb</a>
-        <a class="service-tab" href="#leistungen-services">Leistungen</a>
-        <a class="service-tab" href="#geraete-services">Geräte</a>
-        <a class="service-tab" href="#ablauf-services">Ablauf</a>
-        <a class="service-tab" href="#notdienst-services">Notdienst</a>
-        <a class="service-tab" href="#preise-services">Kosten</a>
-        <a class="service-tab" href="#faq-services">FAQ</a>
-        <a class="service-tab" href="#kontakt-services">Kontakt</a>
+      <div class="toc-card is-collapsed" id="tocCard">
+        <div class="toc-head"
+             id="tocHead"
+             role="button"
+             tabindex="0"
+             aria-controls="tocBody"
+             aria-expanded="false">
+
+          <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+
+          <div class="toc-actions">
+            <button class="toc-iconbtn"
+                    type="button"
+                    id="tocToggle"
+                    aria-expanded="false"
+                    aria-controls="tocBody"
+                    aria-label="Inhaltsverzeichnis umschalten">
+              <svg id="tocChevron" viewBox="0 0 448 512" aria-hidden="true">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item">
+              <a href="#vorteile-services" class="toc-link">
+                <span class="toc-badge">01</span><span class="toc-text">Vorteile</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#partner-services" class="toc-link">
+                <span class="toc-badge">02</span><span class="toc-text">Fachbetrieb</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#leistungen-services" class="toc-link">
+                <span class="toc-badge">03</span><span class="toc-text">Leistungen</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#warum-services" class="toc-link">
+                <span class="toc-badge">04</span><span class="toc-text">Wartung</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#geraete-services" class="toc-link">
+                <span class="toc-badge">05</span><span class="toc-text">Geräte</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#ablauf-services" class="toc-link">
+                <span class="toc-badge">06</span><span class="toc-text">Ablauf</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#notdienst-services" class="toc-link">
+                <span class="toc-badge">07</span><span class="toc-text">Notdienst</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#preise-services" class="toc-link">
+                <span class="toc-badge">08</span><span class="toc-text">Kosten</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#warumwir-services" class="toc-link">
+                <span class="toc-badge">09</span><span class="toc-text">Warum wir</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#faq-services" class="toc-link">
+                <span class="toc-badge">10</span><span class="toc-text">FAQ</span>
+              </a>
+            </li>
+
+            <li class="toc-item">
+              <a href="#kontakt-services" class="toc-link">
+                <span class="toc-badge">11</span><span class="toc-text">Kontakt</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </section>
+
+ 
 
   <!-- Vorteile -->
   <section class="service-section" id="vorteile-services">
@@ -848,9 +1018,91 @@
 </main>
 
 <script>
-  (function(){
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-  })();
+(function(){
+
+  // Smooth scroll (works for TOC + tabs)
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if (!id || id === '#') return;
+      var el = document.querySelector(id);
+      if (!el) return;
+      e.preventDefault();
+      var offset = 16;
+      var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    });
+  });
+
+  // TOC toggle
+  var tocCard   = document.getElementById('tocCard');
+  var tocToggle = document.getElementById('tocToggle');
+  var tocHead   = document.getElementById('tocHead');
+
+  function setExpanded(isExpanded){
+    if (!tocCard || !tocToggle) return;
+
+    tocCard.classList.toggle('is-collapsed', !isExpanded);
+    tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+    if (tocHead) tocHead.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+
+    var svg = tocToggle.querySelector('svg');
+    if (svg){
+      svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+    }
+  }
+
+  // Replace TOC labels with FULL section <h2> text
+  function updateTocHeadings(){
+    var links = document.querySelectorAll('#tocList a[href^="#"]');
+    links.forEach(function(link){
+      var target = link.getAttribute('href');
+      if (!target) return;
+
+      var section = document.querySelector(target);
+      if (!section) return;
+
+      var h2 = section.querySelector('h2');
+      if (!h2) return;
+
+      var full = (h2.textContent || '').trim().replace(/\s+/g,' ');
+      if (!full) return;
+
+      var textEl = link.querySelector('.toc-text');
+      if (textEl) textEl.textContent = full;
+    });
+  }
+
+  // INIT (collapsed)
+  setExpanded(false);
+  updateTocHeadings();
+
+  if (tocToggle){
+    tocToggle.addEventListener('click', function(e){
+      e.stopPropagation();
+      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
+      setExpanded(!expanded);
+    });
+  }
+
+  if (tocHead && tocToggle){
+    tocHead.addEventListener('click', function(e){
+      if (e.target.closest('#tocToggle')) return;
+      tocToggle.click();
+    });
+
+    tocHead.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        tocToggle.click();
+      }
+    });
+  }
+
+  // year
+  var y = document.getElementById("year");
+  if (y) y.textContent = new Date().getFullYear();
+
+})();
 </script>
 @endsection

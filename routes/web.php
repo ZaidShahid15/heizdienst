@@ -70,4 +70,7 @@ Route::prefix('Thermentausch')->group(function(){
     Route::get('/baxi',fn() => view('Thermentausch.baxi'));
     Route::get('/buderus',fn() => view('Thermentausch.buderus'));
     Route::get('/saunier',fn() => view('Thermentausch.saunier'));
+    Route::get('/löblich',fn() => view('Thermentausch.löblich'));
+    Route::get('/ocean',fn() => view('Thermentausch.ocean'));
+    Route::get('/rapido',fn() => view('Thermentausch.rapido'));
 });

@@ -51,82 +51,6 @@
   .service-btn--ghost-on-dark:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.22)}
   .service-btn--full{width:100%}
 
-  /* HERO */
-  .service-hero{
-    padding:145px 0 48px;
-    position:relative;
-    overflow:hidden;
-    border-bottom:1px solid var(--line);
-    background:#0f2f34;
-  }
-  .service-hero::before{
-    content:"";
-    position:absolute; inset:0;
-    background-image:url('img/hero-scetion.jpeg');
-    background-size:cover;
-    background-position:center;
-    transform:scale(1.02);
-    z-index:0;
-  }
-  .service-hero::after{
-    content:"";
-    position:absolute; inset:0;
-    background:
-      linear-gradient(90deg,
-        rgba(15,47,52,.92) 0%,
-        rgba(15,47,52,.86) 35%,
-        rgba(15,47,52,.45) 55%,
-        rgba(15,47,52,0) 72%
-      );
-    z-index:1;
-  }
-  .service-hero__grid{
-    position:relative;
-    z-index:2;
-    display:grid;
-    grid-template-columns:1fr;
-    gap:18px;
-    align-items:center;
-  }
-  .service-hero__content{max-width:58ch; color:#fff;}
-
-  .service-kicker{
-    display:inline-flex;
-    padding:6px 10px;
-    border-radius:999px;
-    background:rgba(255,255,255,.10);
-    border:1px solid rgba(255,255,255,.18);
-    font-weight:800;
-    color:#fff;
-    margin:0 0 12px;
-  }
-  .service-hero h1{
-    margin:0 0 10px;
-    font-size: clamp(30px, 3.2vw, 52px);
-    line-height:1.05;
-    letter-spacing:-.02em;
-    color:#fff;
-  }
-  .service-hero h1 .service-highlight{color:var(--accent)}
-  .service-hero__lead{
-    margin:0 0 14px;
-    font-size:1.05rem;
-    max-width:60ch;
-    color:rgba(255,255,255,.92);
-  }
-
-  .service-hero__bullets{display:flex; flex-wrap:wrap; gap:10px; margin:16px 0 18px;}
-  .service-pill{
-    padding:8px 10px;
-    border-radius:999px;
-    border:1px solid rgba(255,255,255,.22);
-    background:rgba(255,255,255,.10);
-    font-weight:800;
-    font-size:.92rem;
-    color:#fff;
-  }
-  .service-hero__actions{display:flex; gap:10px; flex-wrap:wrap}
-
   /* Quick tabs */
   .service-quicktabs{padding:10px 0 20px}
   .service-tabs{
@@ -135,7 +59,7 @@
     border:1px solid var(--line);
     border-radius:19px;
     background:#fff;
-    justify-content: space-between
+    justify-content: space-between;
   }
   .service-tab{
     padding:10px 12px;
@@ -159,7 +83,6 @@
   .service-section__head p{margin:0; max-width:70ch}
 
   .service-grid{display:grid; gap:14px}
-  .service-grid--3{grid-template-columns: repeat(3, 1fr)}
   .service-grid--2{grid-template-columns: repeat(2, 1fr)}
 
   .service-card{
@@ -168,13 +91,6 @@
     border-radius: var(--radius);
     padding:16px;
   }
-  .service-card--service h3{margin:0 0 8px; color:var(--ink)}
-  .service-card--service p{margin:0 0 10px}
-
-  .service-checklist{margin:0 0 14px; padding-left:18px}
-  .service-checklist li{margin:8px 0}
-  .service-checklist--on-dark{color:rgba(255,255,255,.92)}
-  .service-checklist--on-dark li{margin:10px 0}
 
   .service-feature{
     display:flex; gap:12px;
@@ -195,20 +111,46 @@
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  .service-split{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap:18px;
-    align-items:center;
-  }
-  .service-split--reverse .service-split__text{order:2}
-  .service-split--reverse .service-split__media{order:1}
+  .service-checklist{margin:0; padding-left:18px}
+  .service-checklist li{margin:8px 0}
 
-  /* Image box */
+  /* =========================
+     ✅ IMAGE = CONTENT HEIGHT
+     ========================= */
+  .card-split{
+    display:grid;
+    grid-template-columns: 1.12fr .88fr;
+    gap:18px;
+    align-items:stretch;
+  }
+  .card-split--reverse .card-split__text{order:2}
+  .card-split--reverse .card-split__media{order:1}
+
+  .card-split__text,
+  .card-split__media{
+    display:flex;
+  }
+
+  .card-box{
+    width:100%;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius2);
+    padding:18px;
+  }
+  .card-box h2{
+    margin:0 0 8px;
+    color:var(--ink);
+    font-size: clamp(22px, 2.2vw, 30px);
+    letter-spacing:-.02em;
+  }
+  .card-box p{margin:0}
+  .card-box p + p{margin-top:10px}
+
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:367px;
+    height:100%;
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -219,7 +161,7 @@
     width:100%;
     height:100%;
     display:block;
-     ;
+    object-fit:cover;
     object-position:center;
   }
 
@@ -234,20 +176,7 @@
   .service-stat__num{font-weight:900; color:var(--ink)}
   .service-stat__label{font-weight:800}
 
-  .service-chips{display:flex; flex-wrap:wrap; gap:10px}
-  .service-chip{
-    padding:10px 12px;
-    border-radius:999px;
-    background:#fff;
-    border:1px solid var(--line);
-    font-weight:800;
-  }
-
-  .service-steps{margin:0; padding-left:18px;}
-  .service-steps li{margin:12px 0}
-  .service-steps strong{display:block; color:var(--ink)}
-  .service-steps span{display:block}
-
+  /* Dark section */
   .service-section--dark{
     background:linear-gradient(135deg, var(--ink), rgba(24,64,72,.92));
     color:#fff;
@@ -268,16 +197,10 @@
     border-radius:var(--radius);
     padding:16px;
   }
+  .service-checklist--on-dark{color:rgba(255,255,255,.92)}
+  .service-checklist--on-dark li{margin:10px 0}
 
-  .service-pricecard{
-    border:1px solid var(--line);
-    border-radius:var(--radius);
-    padding:16px;
-    background:#fff;
-  }
-  .service-pricecard h3{margin:0 0 6px; color:var(--ink)}
-  .service-pricecard p{margin:0}
-
+  /* FAQ */
   .service-faq details{
     border:1px solid var(--line);
     border-radius:var(--radius);
@@ -292,6 +215,7 @@
   }
   .service-faq p{margin:10px 0 0}
 
+  /* CTA */
   .service-cta{
     padding:54px 0;
     background:
@@ -331,508 +255,621 @@
     background:#fff;
   }
   input:focus, textarea:focus{border-color:rgba(251,154,27,.7); box-shadow:0 0 0 4px rgba(251,154,27,.18)}
-  .service-formrow{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap:10px;
-  }
+  .service-formrow{display:grid; grid-template-columns: 1fr 1fr; gap:10px;}
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  .service-footer{
-    border-top:1px solid var(--line);
-    padding:18px 0;
+  /* ===== HERO (wolf) ===== */
+  .wolf-hero{
+    position:relative;
+    min-height:520px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    overflow:hidden;
+    padding:180px 16px 120px;
+    background:#111;
+  }
+  .wolf-hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-image:url("img/hero-scetion.jpeg");
+    background-size:cover;
+    background-position:left center;
+    transform:scale(1.02);
+    z-index:0;
+  }
+  .wolf-hero::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.55);
+    z-index:1;
+  }
+  .wolf-hero__inner{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+    margin-top:40px;
+  }
+  .wolf-hero .wolf-hero__inner::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:-120px;
+    width:303vw;
+    height:2100px;
+    background:linear-gradient(90deg, rgba(10,66,75,0.92));
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+    z-index:-1;
+    opacity:.9;
+  }
+
+  .wolf-hero__kicker{
+    display:inline-flex;
+    padding:6px 10px;
+    border-radius:999px;
+    background:rgba(255,255,255,.10);
+    border:1px solid rgba(255,255,255,.18);
+    font-weight:800;
+    color:#fff;
+    margin:0 0 12px;
+  }
+  .wolf-hero h1{
+    margin:0 0 10px;
+    font-size: clamp(32px, 3.5vw, 54px);
+    line-height:1.08;
+    font-weight:800;
+    color:#fff;
+    letter-spacing:-.02em;
+  }
+  .wolf-hero h1 em{font-style:italic; font-weight:800;}
+  .wolf-hero__sub{
+    margin:0 auto 28px;
+    max-width:780px;
+    font-size:16px;
+    color:rgba(255,255,255,.9);
+  }
+  .wolf-hero__logo{margin:22px 0 20px; display:flex; justify-content:center;}
+  .wolf-hero__logo img{width:170px; max-width:60vw; transform: rotate(-6deg);}
+  .wolf-hero__bullets{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:0 0 6px;}
+  .wolf-pill{
+    padding:8px 10px;
+    border-radius:999px;
+    border:1px solid rgba(255,255,255,.22);
+    background:rgba(255,255,255,.10);
+    font-weight:800;
+    font-size:.92rem;
+    color:#fff;
+  }
+
+  .wolf-hero__actions{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-top:10px;
+  }
+  .wolf-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    padding:15px 28px;
+    border-radius:6px;
+    font-weight:700;
+    font-size:14px;
+    border:1px solid transparent;
+    transition:.15s ease;
+  }
+  .wolf-btn--accent{background:var(--accent); color:#1a1a1a;}
+  .wolf-btn--ghost{background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.28); color:#fff;}
+  .wolf-btn--ghost:hover, .wolf-btn--accent:hover{transform:translateY(-1px);}
+
+  .promo-banner__inner::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    z-index:0;
+  }
+
+  /* =========================
+     ✅ TOC (AFTER HERO)
+     ========================= */
+  .toc-wrap{
+    padding:16px 0 0;
     background:#fff;
   }
-  .service-footer__inner{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
-  .service-footer__links{display:flex; gap:12px}
-  .service-footer a:hover{text-decoration:underline}
-
-  /* Mobile */
-  @media (max-width: 980px){
-    .service-grid--3{grid-template-columns: 1fr}
-    .service-grid--2{grid-template-columns: 1fr}
-    .service-split{grid-template-columns: 1fr}
-    .service-split--reverse .service-split__text{order:1}
-    .service-split--reverse .service-split__media{order:2}
-    .service-emergency{grid-template-columns: 1fr}
-    .service-cta__inner{grid-template-columns: 1fr}
-    .service-formrow{grid-template-columns: 1fr}
-
-    .service-hero{padding:120px 0 40px}
-    .service-hero::after{
-      background:linear-gradient(180deg, rgba(15,47,52,.92) 0%, rgba(15,47,52,.75) 55%, rgba(15,47,52,.25) 100%);
-    }
-    .service-hero__content{max-width:64ch}
-    .service-media__box{height:220px;}
+  .toc-card{
+    width:100%;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.18);
+    border-radius:18px;
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+    overflow:hidden;
   }
-    .promo-banner__inner::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background:
-                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
-            z-index: 0;
-        }
+  .toc-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    padding:12px 14px;
+    background:linear-gradient(0deg, #f7fbfb, #fff);
+    border-bottom:1px solid rgba(24,64,72,.12);
+  }
+  .toc-head h4{
+    margin:0;
+    font-size:15px;
+    font-weight:900;
+    color:var(--ink);
+  }
+  .toc-actions{display:flex; gap:8px; align-items:center;}
+  .toc-iconbtn{
+    width:34px; height:34px;
+    border-radius:10px;
+    border:1px solid rgba(24,64,72,.18);
+    background:#fff;
+    display:grid; place-items:center;
+    cursor:pointer;
+    transition:.15s ease;
+  }
+  .toc-iconbtn:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.10)}
+  .toc-iconbtn svg{width:16px; height:16px; fill:var(--ink); opacity:.9}
+
+  .toc-body{
+    padding:12px;
+    transition:max-height .22s ease, padding .22s ease;
+    overflow:auto;
+  }
+  .toc-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:10px;
+  }
+  .toc-item a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 14px;
+    border-radius:14px;
+    border:1px solid rgba(24,64,72,.12);
+    background:#fff;
+    transition:.15s ease;
+  }
+  .toc-item a:hover{background:#f2f7f7; border-color:rgba(24,64,72,.18);}
+  .toc-badge{
+    width:26px; height:26px;
+    border-radius:999px;
+    display:grid; place-items:center;
+    background:rgba(251,154,27,.18);
+    border:1px solid rgba(251,154,27,.35);
+    font-size:12px;
+    font-weight:900;
+    color:#b76500;
+    flex:0 0 auto;
+  }
+  .toc-text{font-weight:900; color:#0f3a40; font-size:14px; line-height:1.2;}
+  .toc-card.is-collapsed .toc-body{
+    max-height:0;
+    padding:0 12px;
+    overflow:hidden;
+  }
+
+  @media (max-width: 980px){
+    .service-grid--2{grid-template-columns:1fr}
+    .service-emergency{grid-template-columns:1fr}
+    .service-cta__inner{grid-template-columns:1fr}
+    .service-formrow{grid-template-columns:1fr}
+    .card-split{grid-template-columns:1fr}
+    .card-split--reverse .card-split__text{order:1}
+    .card-split--reverse .card-split__media{order:2}
+    .wolf-hero{padding:120px 14px 90px; min-height:480px;}
+    .wolf-hero__sub{font-size:14px}
+  }
 </style>
+
+@push('meta')
+  <title>Rapido Thermentausch Wien | Gastherme inkl. Montage &amp; Service</title>
+  <meta name="description" content="Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme ✔ Thermenwartung, Reparatur &amp; Notdienst ✔ Transparente Preise &amp; schneller Service">
+@endpush
 
 <main>
   <!-- HERO -->
- <!-- HERO (same style/structure as the previous “wolf-hero”, now with Rapido content) -->
-<section class="wolf-hero" id="hero-services">
-  <div class="wolf-hero__inner">
-    <p class="wolf-hero__kicker">Geprüfter Fachbetrieb • Wien &amp; Umgebung</p>
+  <section class="wolf-hero" id="hero-services">
+    <div class="wolf-hero__inner">
+      <p class="wolf-hero__kicker">thermentausch in wien</p>
 
-    <h1>
-      Rapido Thermenwartung Wien<br>
-      <em>Rund um die Uhr Service vom Fachbetrieb</em>
-    </h1>
+      <h1>
+        Rapido Thermentausch Wien<br>
+        <em>Montage &amp; Service</em>
+      </h1>
 
-    <p class="wolf-hero__sub">
-      Zuverlässige Rapido Thermenwartung Wien durch erfahrene Profis – effizient, sicher und rund um die Uhr verfügbar
-      für Thermenwartung, Service, Reparatur und Notdienst in Wien, NÖ, Niederösterreich, Burgenland und der gesamten Umgebung.
-    </p>
- <!-- optional image/logo (keep or remove) -->
-    <div class="wolf-hero__logo">
-      <img src="{{ asset('img/1rapido.jpeg') }}" alt="Rapido Thermenservice Wien" loading="lazy" decoding="async">
-    </div>
-    <div class="wolf-hero__bullets" aria-label="Highlights">
-      <span class="wolf-pill">Wartung, Reparatur &amp; Notdienst</span>
-      <span class="wolf-pill">Direkter Rapido Kundendienst</span>
-      <span class="wolf-pill">Transparente Preise</span>
-      <span class="wolf-pill">Geprüfter Fachbetrieb</span>
-    </div>
+      <p class="wolf-hero__sub">
+        Ein professioneller Rapido Thermentausch Wien steht für sichere Gastherme, schnelle Abwicklung und zuverlässigen Service in Wien und Umgebung.
+      </p>
 
-    <div class="wolf-hero__actions">
-      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt anfragen</a>
-      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
-    </div>
-
-   
-
-     <section class="promo-banner" id="wolf-aktion">
-                    <div class="promo-banner__inner">
-                        <div class="promo-banner__content">
-                            <h2 class="promo-banner__title"><em>Rapido Thermenwartung Aktion</em></h2>
-                            <p class="promo-banner__price"><strong>ab  €95</strong></p>
-
-                            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
-                                <span class="promo-banner__btn-ico">  </span>
-                                AKTION
-                            </a>
-                        </div>
-                    </div>
-                </section>
-  </div>
-</section>
-
-
-  <!-- Quick tabs -->
-  <section class="service-quicktabs" id="quicktabs-services">
-    <div class="service-container">
-      <div class="service-tabs">
-        <a class="service-tab" href="#vorteile-services">Vorteile</a>
-        <a class="service-tab" href="#partner-services">Fachbetrieb</a>
-        <a class="service-tab" href="#leistungen-services">Leistungen</a>
-        <a class="service-tab" href="#geraete-services">Geräte</a>
-        <a class="service-tab" href="#ablauf-services">Ablauf</a>
-        <a class="service-tab" href="#notdienst-services">Notdienst</a>
-        <a class="service-tab" href="#preise-services">Kosten</a>
-        <a class="service-tab" href="#faq-services">FAQ</a>
-        <a class="service-tab" href="#kontakt-services">Kontakt</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Vorteile / USPs -->
-  <section class="service-section" id="vorteile-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Ihre Vorteile</h2>
-        <p>Klare Leistung. Klare Kosten. Schnelle Hilfe.</p>
+      <div class="wolf-hero__logo">
+        <img src="{{ asset('img/1rapido.jpeg') }}" alt="Rapido Thermentausch Wien" loading="lazy" decoding="async">
       </div>
 
-      <div class="service-grid service-grid--3">
-        <article class="service-card service-card--service">
-          <h3>Wartung, Reparatur & Notdienst</h3>
-          <p>Alles rund um Ihre Rapido Therme – zuverlässig in Wien und Umgebung.</p>
-          <ul class="service-checklist">
-            <li>Thermenwartung & Service</li>
-            <li>Reparaturen & Ersatzteile</li>
-            <li>Störungen & akute Notfälle</li>
-          </ul>
-        </article>
-
-        <article class="service-card service-card--service">
-          <h3>Direkter Rapido Kundendienst</h3>
-          <p>Schnelle Terminvergabe und strukturierter Kundenservice – telefonisch oder vor Ort.</p>
-          <ul class="service-checklist">
-            <li>Schnelle Reaktion</li>
-            <li>Klare Kommunikation</li>
-            <li>Lösungsorientiert umgesetzt</li>
-          </ul>
-        </article>
-
-        <article class="service-card service-card--service">
-          <h3>Transparente Preise</h3>
-          <p>Faire Leistungen, verständlich erklärt – ohne versteckte Zusatzkosten.</p>
-          <ul class="service-checklist">
-            <li>Klare Leistungen</li>
-            <li>Zusatzarbeiten nur nach Rücksprache</li>
-            <li>Nachvollziehbare Abrechnung</li>
-          </ul>
-        </article>
+      <div class="wolf-hero__bullets" aria-label="Highlights">
+        <span class="wolf-pill">Gastherme</span>
+        <span class="wolf-pill">Montage</span>
+        <span class="wolf-pill">Wartung</span>
+        <span class="wolf-pill">Notdienst</span>
       </div>
-    </div>
-  </section>
 
-  <!-- Partner / Markenstärke -->
-  <section class="service-section service-section--soft" id="partner-services">
-    <div class="service-container service-split">
-      <div class="service-split__text">
-        <h2>Ihr Rapido Partner in Wien & Umgebung</h2>
-        <p>
-          Als verlässlicher Partner für Rapido Thermenwartung, Thermenwartung Wien und professionellen Thermenservice
-          betreuen wir unsere Kunden mit Erfahrung, technischem Know-how und persönlichem Kundenservice.
-          Unser Anspruch ist es, jede Rapido Therme langfristig sicher und effizient zu betreiben.
-        </p>
-        <p style="margin-top:10px;">
-          Wir arbeiten nach Vorgaben des Herstellers, betreuen moderne Rapido Gasgeräte, klassische Gasthermen und komplette
-          Heizlösungen. Als erfahrener Installateur sind wir in Wien, NÖ und der gesamten Region im Einsatz –
-          zuverlässig, sauber und lösungsorientiert.
-        </p>
+      <div class="wolf-hero__actions">
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Angebot anfordern</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
+      </div>
 
-        <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Technisches Know-how</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Qualifiziertes Team</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Wien, NÖ & Umgebung</div>
+      <section class="promo-banner" id="wolf-aktion">
+        <div class="promo-banner__inner">
+          <div class="promo-banner__content">
+            <h2 class="promo-banner__title"><em>Rapido Aktion</em></h2>
+            <p class="promo-banner__price"><strong>ab €95</strong></p>
+
+            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+              <span class="promo-banner__btn-ico">  </span>
+              AKTION
+            </a>
           </div>
         </div>
-      </div>
+      </section>
+    </div>
+  </section>
 
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/rapido.jpeg') }}" alt="Rapido Partner Wien" loading="lazy" decoding="async"/>
+  <!-- ✅ TOC AFTER HERO (HTML change: add id="tocList") -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
+    <div class="service-container">
+      <div class="toc-card" id="tocCard">
+        <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+          <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+
+          <div class="toc-actions">
+            <button class="toc-iconbtn" type="button" id="tocToggle"
+              aria-expanded="false" aria-controls="tocBody"
+              aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item"><a href="#intro-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Intro</span></a></li>
+            <li class="toc-item"><a href="#wann-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Wann sinnvoll</span></a></li>
+            <li class="toc-item"><a href="#loesungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Heizlösungen</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#sicherheit-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Sicherheit</span></a></li>
+            <li class="toc-item"><a href="#kosten-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Kosten</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Warum Profi</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen -->
-  <section class="service-section" id="leistungen-services">
+  <!-- 01 -->
+  <section class="service-section service-section--soft" id="intro-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Rapido Thermentausch Wien</h2>
+            <p>
+              Ein professioneller Rapido Thermentausch Wien steht für sichere Gastherme, schnelle Abwicklung und zuverlässigen Service in Wien und Umgebung.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/rapido.jpeg') }}" alt="Rapido Thermentausch Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="service-section" id="wann-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
+            <p>
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder Sicherheitsanforderungen nicht mehr erfüllt werden.
+              Gerade ältere Gasthermen verlieren mit der Zeit an Effizienz, was steigende Energiekosten und Probleme im Betrieb verursacht.
+            </p>
+            <p>
+              Moderne Rapido Gasthermen bieten höhere Sicherheit, bessere Heizleistung und einen zuverlässigen Betrieb in jeder Jahreszeit.
+              Ein erfahrener Installateur prüft Gasgeräte, Heizung, Abgasmessung und Funktion und empfiehlt den passenden Rapido Thermentausch
+              für Wien, Niederösterreich oder Burgenland.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Wann Thermentausch sinnvoll ist" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="service-section service-section--soft" id="loesungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen für Ihre Rapido Therme</h2>
-        <p>Alles rund um Therme, Service, Reparatur und moderne Heizung – für Sicherheit, Komfort und Effizienz.</p>
+        <h2>Moderne Rapido Heizlösungen</h2>
+        <p>Rapido steht für zuverlässige Gasgeräte, durchdachte Produkte und hohe Qualität für unterschiedliche Heizsysteme.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
+          <div class="service-feature__icon" aria-hidden="true">♻️</div>
           <div>
-            <h3>Rapido Thermenwartung</h3>
-            <p>Regelmäßige Wartung sorgt für sicheren Betrieb, weniger Schäden und langfristig niedrigere Energiekosten – das ganze Jahr.</p>
+            <h3>Brennwerttechnik für effizienten Betrieb</h3>
+            <p>Rapido Brennwertlösungen nutzen Energie besonders effizient. Das senkt Energiekosten, verbessert die Heizleistung und erhöht die Wirtschaftlichkeit der Anlage.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔍</div>
+          <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Rapido Thermenservice</h3>
-            <p>Überprüfung, Reinigung, Abgasmessung und Optimierung – inkl. Durchlauferhitzer und angeschlossener Systeme.</p>
+            <h3>Gastherme für Heizung und Komfort</h3>
+            <p>Die Rapido Gastherme kombiniert Heizung und Warmwasser und sorgt für gleichmäßige Wärme, Komfort und Zuverlässigkeit im täglichen Einsatz.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">📞</div>
+          <div class="service-feature__icon" aria-hidden="true">📦</div>
           <div>
-            <h3>Rapido Kundendienst Wien</h3>
-            <p>Verlässlich bei Fragen, Anliegen und technischen Problemen – telefonisch oder direkt vor Ort.</p>
+            <h3>Rapido Modelle und Auswahl</h3>
+            <p>Rapido Modelle werden nach Bedarf, Einsatzbereich und Heizsystem ausgewählt. So passt die Therme optimal zu Wohnung oder Haus.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
+          <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
           <div>
-            <h3>Rapido Thermenreparatur</h3>
-            <p>Fachgerechte Reparatur bei Fehlern, Schäden oder defekten Teilen – schnell, sicher und sauber umgesetzt.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🚨</div>
-          <div>
-            <h3>Rapido Thermenstörung & Notfälle</h3>
-            <p>Bei Störungen, Ausfällen oder Notfällen ist unser Notdienst rund um die Uhr erreichbar – schnelle Hilfe in der Region.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔁</div>
-          <div>
-            <h3>Thermentausch & neue Geräte</h3>
-            <p>Beratung & Umsetzung beim Rapido Thermentausch oder Gasgerätetausch – von Planung bis Montage aus einer Hand.</p>
+            <h3>Beratung durch Installateur</h3>
+            <p>Unsere Experten prüfen Gasgeräte, Abgasmessung und Funktion und empfehlen die passende Lösung für Ihr Heizsystem.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Warum Wartung -->
-  <section class="service-section service-section--soft" id="warum-services">
-    <div class="service-container service-split service-split--reverse">
-      <div class="service-split__text">
-        <h2>Warum eine Rapido Thermenwartung unverzichtbar ist</h2>
-        <p>
-          Eine regelmäßige Thermenwartung in Wien schützt vor unerwarteten Ausfällen, erhöht die Sicherheit,
-          verbessert die Effizienz und sorgt für ein warmes Zuhause. Sie ist entscheidend für den Werterhalt
-          Ihrer Anlage und einen zuverlässigen Betrieb.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Mehr Sicherheit</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">↓</div>
-            <div class="service-stat__label">Weniger Energieverbrauch</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">⏱</div>
-            <div class="service-stat__label">Weniger Ausfälle</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Warum Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Geräte & Systeme -->
-  <section class="service-section" id="geraete-services">
+  <!-- 04 -->
+  <section class="service-section" id="ablauf-services">
     <div class="service-container">
-      <div class="service-section__head">
-        <h2>Für welche Geräte & Systeme?</h2>
-        <p>Wir warten alle Rapido Geräte – auch Durchlauferhitzer, Gasgeräte und komplette Heizsysteme.</p>
-      </div>
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>So läuft der Rapido Thermentausch ab</h2>
+            <p>
+              Der Rapido Thermentausch erfolgt strukturiert und transparent. Nach der Anfrage folgt eine Überprüfung der bestehenden Therme durch das Techniker Team.
+              Anschließend werden Planung, Montage und Tausch organisiert.
+            </p>
+            <p>
+              Die alte Therme wird fachgerecht entsorgt, neue Rapido Gasgeräte installiert und in Betrieb genommen.
+              Nach der Inbetriebnahme erfolgt eine Funktionsprüfung sowie Hinweise zur Wartung und Reinigung. So entsteht eine saubere Abwicklung ohne Überraschungen.
+            </p>
 
-      <div class="service-chips">
-        <span class="service-chip">Rapido Therme</span>
-        <span class="service-chip">Rapido Gastherme</span>
-        <span class="service-chip">Gasgeräte</span>
-        <span class="service-chip">Gasthermen</span>
-        <span class="service-chip">Durchlauferhitzer</span>
-        <span class="service-chip">Heizsysteme</span>
-        <span class="service-chip">Warmwasserlösungen</span>
-        <span class="service-chip">Ausgewählte Marken (z. B. Saunier Duval)</span>
-      </div>
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Überprüfung &amp; Planung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Montage &amp; Tausch</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Inbetriebnahme</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Übergabe</div></div>
+            </div>
+          </div>
+        </div>
 
-      <div class="service-card" style="margin-top:14px;">
-        <p style="margin:0;">
-          Unsere Rapido Thermenwartung umfasst sämtliche Rapido Systeme – von der klassischen Therme bis zur modernen Gastherme.
-          Unsere Techniker verfügen über fundiertes Know-how und sind in Wien, NÖ, Niederösterreich und im Burgenland im Einsatz.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Ablauf -->
-  <section class="service-section service-section--soft" id="ablauf-services">
-    <div class="service-container service-split">
-      <div class="service-split__text">
-        <h2>So läuft die Thermenwartung ab</h2>
-        <ol class="service-steps">
-          <li>
-            <strong>Terminvergabe</strong>
-            <span>Wir koordinieren die Thermenwartung transparent und passend zu Ihrem Wunsch.</span>
-          </li>
-          <li>
-            <strong>Überprüfung & Sicherheitscheck</strong>
-            <span>Gründliche Kontrolle Ihrer Therme und aller sicherheitsrelevanten Bauteile.</span>
-          </li>
-          <li>
-            <strong>Reinigung, Messung & Funktionskontrollen</strong>
-            <span>Reinigung, Abgasmessung und Funktionsprüfung für sicheren Betrieb.</span>
-          </li>
-          <li>
-            <strong>Optimierung</strong>
-            <span>Gezielte Einstellungen für mehr Effizienz und geringere Energseen-Kosten.</span>
-          </li>
-          <li>
-            <strong>Info & Empfehlungen</strong>
-            <span>Wir erklären den Zustand klar und empfehlen sinnvolle nächste Schritte.</span>
-          </li>
-        </ol>
-      </div>
-
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Ablauf der Thermenwartung" loading="lazy" decoding="async"/>
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Ablauf Rapido Thermentausch" loading="lazy" decoding="async">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Notdienst -->
-  <section class="service-section service-section--dark" id="notdienst-services">
+  <!-- 05 -->
+  <section class="service-section service-section--dark" id="sicherheit-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Rapido Notdienst Wien – 24 Stunden verfügbar</h2>
+        <h2>Montage, Betrieb und Sicherheit</h2>
         <p>
-          Bei akuten Problemen, Notfall-Situationen oder Ausfällen ist unser Notdienst jederzeit erreichbar –
-          rund um die Uhr, unabhängig von Uhrzeit oder Wochentag.
+          Eine fachgerechte Montage ist entscheidend für Sicherheit, Effizienz und Langlebigkeit der Rapido Therme.
+          Unsere Techniker und Mitarbeiter führen alle Arbeiten an Gasgeräte, Heizung und Anschlüssen fachgerecht aus und achten auf höchste Sicherheit.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Unser Techniker Team ist rasch vor Ort, erkennt Fehler schnell und sorgt für sichere Lösungen – damit kein weiterer Schaden entsteht.
+          Regelmäßige Rapido Thermenwartung, Rapido Thermenservice und ein starker Rapido Kundendienst sichern Betrieb, Zuverlässigkeit und lange Lebensdauer.
         </p>
 
         <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Beratung anfordern</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische Notfälle</h3>
+          <h3>Wichtige Punkte</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Therme startet nicht / Störungscode</li>
-            <li>Kein Warmwasser</li>
-            <li>Heizung bleibt kalt</li>
-            <li>Ungewöhnliche Geräusche</li>
-            <li>Gasgeruch / akuter Verdacht</li>
+            <li>Installation durch erfahrene Techniker</li>
+            <li>Saubere Montage an Anschlüssen &amp; Heizsystem</li>
+            <li>Kontrolle von Betrieb, Abgas &amp; Sicherheit</li>
+            <li>Hinweise zur Wartung &amp; Reinigung</li>
           </ul>
+          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
+            Sicherheit &amp; Zuverlässigkeit – in jeder Jahreszeit.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Kosten -->
-  <section class="service-section" id="preise-services">
+  <!-- 06 -->
+  <section class="service-section" id="kosten-services">
     <div class="service-container">
-      <div class="service-section__head">
-        <h2>Kosten, Preise & MwSt</h2>
-        <p>Transparente Preise, klare Leistungen und faire Abrechnung.</p>
-      </div>
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Kosten, Preise und Aktion</h2>
+            <p>
+              Die Kosten für einen Rapido Thermentausch in Wien hängen von Modell, Montageaufwand und Zustand der Anlage ab.
+              Transparente Preise schaffen Klarheit bei der Entscheidung. Eine Aktion oder ein spezielles Angebot ermöglicht zusätzliche Vorteile.
+            </p>
+            <p>
+              Moderne Rapido Gasgeräte senken Energiekosten, reduzieren Energieverbrauch und sorgen für effizienten Betrieb in allen Bereichen.
+              Klare Kosten ohne Überraschungen und langfristige Effizienz und Sicherheit stehen im Fokus.
+            </p>
 
-      <div class="service-grid service-grid--3">
-        <div class="service-pricecard">
-          <h3>Kosten der Rapido Thermenwartung</h3>
-          <p>Alle Arbeiten werden verständlich erklärt – ohne versteckte Zusatzkosten.</p>
-        </div>
-        <div class="service-pricecard">
-          <h3>Klare Leistungen</h3>
-          <p>Wartung, Service und Reparatur werden transparent besprochen und sauber umgesetzt.</p>
-        </div>
-        <div class="service-pricecard">
-          <h3>Wartungsvertrag (optional)</h3>
-          <p>Fixe Kosten, planbare Termine und langfristige Sicherheit durch regelmäßige Wartung.</p>
-        </div>
-      </div>
-
-      <div class="service-card" style="margin-top:14px;">
-        <p style="margin:0;">
-          Regelmäßige Wartung senkt Energiekosten und verlängert die Lebensdauer Ihrer Anlage. MwSt ist selbstverständlich ausgewiesen.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Warum wir -->
-  <section class="service-section service-section--soft" id="warumwir-services">
-    <div class="service-container service-split">
-      <div class="service-split__text">
-        <h2>Ihr Fachmann für Rapido Thermen in Wien</h2>
-        <p>
-          Als zuverlässiger Partner für Rapido Thermenservice, Rapido Kundendienst und technische Betreuung stehen wir für Qualität,
-          Professionalität und kundennahe Lösungen. Unser Team arbeitet serviceorientiert und mit hoher Sorgfalt.
-        </p>
-        <p style="margin-top:10px;">
-          Wir begleiten unsere Kunden von der ersten Beratung über Wartung bis zum Thermentausch – zuverlässig, transparent und kompetent.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Qualität</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Professionalität</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Kundennah</div>
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Preise</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Attraktive Aktion nutzen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Kosten</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Langfristige Effizienz</div></div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Fachpartner für Rapido Thermen" loading="lazy" decoding="async"/>
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Kosten Rapido Thermentausch" loading="lazy" decoding="async">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FAQ -->
+  <!-- 07 -->
+  <section class="service-section service-section--soft" id="region-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Thermentausch in Wien, Niederösterreich und Burgenland</h2>
+            <p>
+              Ein Rapido Thermentausch in Wien, Niederösterreich und Burgenland erfordert regionale Erfahrung und technisches Know-how.
+              Ob Wien, Umgebung oder ländliche Bereiche – jede Stelle bringt unterschiedliche Anforderungen an Heizsystem, Gasgeräte und Montage mit sich.
+            </p>
+            <p>
+              Unsere Installateure, Techniker und Experten sind regelmäßig im Einsatz und betreuen Kunden persönlich.
+              Wohnungen, Häuser und unterschiedliche Heizsysteme werden individuell geprüft. Durch strukturierte Planung, saubere Abwicklung und kurze Wege
+              entsteht ein reibungsloser Rapido Thermentausch für jede Jahreszeit.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Region Rapido Thermentausch" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 08 -->
+  <section class="service-section" id="warum-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Warum ein professioneller Rapido Thermentausch überzeugt</h2>
+            <p>
+              Ein fachgerecht durchgeführter Rapido Thermentausch erhöht die Sicherheit, verbessert die Effizienz und verlängert die Lebensdauer der neuen Therme.
+              Unsere Fachbetriebe prüfen Gasgeräte, Funktion, Abgasmessung und Betrieb sorgfältig.
+            </p>
+            <p>
+              Durch saubere Montage, regelmäßige Wartung und einen zuverlässigen Rapido Kundendienst bleibt der Betrieb stabil.
+              Kunden profitieren von persönlicher Beratung, schneller Rapido Thermenreparatur, Notdienst bei Notfall und einem starken Partner für Service und Ersatzteile.
+            </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrung &amp; Know-how</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Entsorgung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hohe Zuverlässigkeit</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Service &amp; Notdienst</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Warum Rapido Thermentausch" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 09 -->
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen</h2>
-        <p>Die wichtigsten Antworten zur Rapido Thermenwartung.</p>
+        <h2>Häufige Fragen zum Rapido Thermentausch</h2>
+        <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wie oft sollte eine Thermenwartung durchgeführt werden?</summary>
-          <p>Eine regelmäßige Thermenwartung wird empfohlen, um Sicherheit und Effizienz dauerhaft zu gewährleisten.</p>
+          <summary>Wann ist ein Rapido Thermentausch sinnvoll?</summary>
+          <p>Ein Austausch ist sinnvoll bei häufigen Störungen, steigenden Energiekosten oder wenn die bestehende Therme nicht mehr sicher arbeitet.</p>
         </details>
-
         <details>
-          <summary>Welche Regionen werden betreut?</summary>
-          <p>Wir sind in Wien, NÖ, Niederösterreich und im Burgenland tätig.</p>
+          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
+          <p>In der Regel erfolgt der Tausch inklusive Montage und Inbetriebnahme innerhalb eines Tages, abhängig vom Zustand der Anlage.</p>
         </details>
-
         <details>
-          <summary>Was tun bei Gasgeruch oder Notfall?</summary>
-          <p>Kontaktieren Sie sofort unseren Notdienst – wir reagieren umgehend.</p>
+          <summary>Welche Rapido Therme ist die richtige Wahl?</summary>
+          <p>Die Auswahl hängt von Heizsystem, Bedarf und Einsatzbereich ab. Unsere Experten beraten umfassend.</p>
         </details>
-
         <details>
-          <summary>Ist ein Thermentausch sinnvoll?</summary>
-          <p>Bei veralteten Anlagen oder häufigen Störungen ist ein Rapido Thermentausch empfehlenswert.</p>
+          <summary>Ist Thermenwartung nach dem Austausch notwendig?</summary>
+          <p>Ja, regelmäßige Thermenwartung und Rapido Thermenservice sichern Effizienz, Sicherheit und langfristigen Betrieb.</p>
         </details>
-
         <details>
-          <summary>Wie kann ich einen Termin vereinbaren?</summary>
-          <p>Per Telefon oder direkt über unsere Seite – wir richten uns nach Ihrem Wunsch.</p>
+          <summary>Was kostet ein Rapido Thermentausch?</summary>
+          <p>Die Kosten richten sich nach Gerät, Montage und Aufwand. Transparente Preise sorgen für Klarheit.</p>
+        </details>
+        <details>
+          <summary>Gibt es einen Rapido Notdienst?</summary>
+          <p>Ja, ein Rapido Notdienst steht bei Störungen und Notfällen schnell zur Verfügung.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
+  <!-- 10 -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Jetzt Rapido Thermenwartung in Wien sichern</h2>
-        <p>Setzen Sie auf Sicherheit, Effizienz und zuverlässigen Service – kompetent, transparent und kundenorientiert.</p>
+        <h2>Beratung &amp; Angebot anfordern</h2>
+        <p>
+          Sie planen einen Rapido Thermentausch in Wien, Niederösterreich oder Burgenland?
+          Unser Team berät Sie persönlich und erstellt ein individuelles Angebot inklusive Aktion, Service und transparenter Kosten.
+        </p>
         <p style="margin-top:10px;">
-          📞 Jetzt Kontakt aufnehmen – Ihr Ansprechpartner für Rapido Thermenservice in Wien.
+          👉 Jetzt Angebot anfordern und Rapido Thermentausch professionell umsetzen
         </p>
       </div>
 
@@ -851,7 +888,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Thermenmodell, Problem, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
@@ -861,11 +898,4 @@
   </section>
 </main>
 
-
-<script>
-  (function(){
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-  })();
-</script>
 @endsection
