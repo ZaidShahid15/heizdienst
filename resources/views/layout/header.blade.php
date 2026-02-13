@@ -294,9 +294,9 @@
                             <a class="dd-item" href="{{ url('/Thermenreparatur/junkers') }}"><img class="dd-logo" src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
                             <a class="dd-item" href="{{ url('/Thermenreparatur/viessmann') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
                             <a class="dd-item" href="{{ url('/Thermenreparatur/wolf') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
-                            <a class="dd-item" href="{{ url('/Thermenreparatur/saunier') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
+                            <!-- <a class="dd-item" href="{{ url('/Thermenreparatur/saunier') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
                             <a class="dd-item" href="{{ url('/Thermenreparatur/löblich') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
-                            <a class="dd-item" href="{{ url('/Thermenreparatur/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a> -->
                             <a class="dd-item" href="{{ url('/Thermenreparatur/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
                         </div>
                     </div>
@@ -406,9 +406,9 @@
                             <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/junkers') }}">Junkers</a>
                             <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/viessmann') }}">Viessmann</a>
                             <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/wolf') }}">Wolf</a>
-                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/saunier') }}">Saunier Duval</a>
+                            <!-- <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/saunier') }}">Saunier Duval</a>
                             <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/löblich') }}">Löblich</a>
-                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/ocean') }}">Ocean</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/ocean') }}">Ocean</a> -->
                             <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/rapido') }}">Rapido</a>
                         </div>
                     </div>
