@@ -18,7 +18,10 @@
     <!-- MOBILE MENU PANEL -->
     <div id="mobileMenuPanel" class="mobile-menu-panel">
         <a href="{{ url('/') }}" onclick="closeMobileMenu()">Startseite</a>
+<a href="{{ route('impressum') }}" onclick="closeMobileMenu()">Impressum</a>
+<a href="{{ route('datenschutzerklaerung') }}" onclick="closeMobileMenu()">Datenschutzerklärung</a>
 
+        <a href="#kontakt" onclick="closeMobileMenu()">Kontakt</a>
         <!-- MARKENÜBERSICHT -->
         <div class="nav-dropdown">
             <a href="#" aria-haspopup="true" aria-expanded="false"
@@ -129,7 +132,6 @@
             </div>
         </div>
 
-        <a href="#kontakt" onclick="closeMobileMenu()">Kontakt</a>
     </div>
 </div>
 
@@ -300,7 +302,8 @@
                             <a class="dd-item" href="{{ url('/Thermenreparatur/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
                         </div>
                     </div>
-
+                    <a href="{{ route('impressum') }}">Impressum</a>
+<a href="{{ route('datenschutzerklaerung') }}">Datenschutzerklärung</a>
                     <a href="#kontakt">Kontakt</a>
                 </nav>
 

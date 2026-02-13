@@ -618,7 +618,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Junkers Thermenservice Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/junkers.jpeg') }}" alt="Junkers Thermenservice Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
