@@ -51,25 +51,6 @@
   .service-btn--ghost-on-dark:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.22)}
   .service-btn--full{width:100%}
 
-  /* Quick tabs */
-  .service-quicktabs{padding:10px 0 20px}
-  .service-tabs{
-    display:flex; gap:10px; flex-wrap:wrap;
-    padding:10px;
-    border:1px solid var(--line);
-    border-radius:19px;
-    background:#fff;
-    justify-content: space-between;
-  }
-  .service-tab{
-    padding:10px 12px;
-    border-radius:999px;
-    font-weight:800;
-    color:var(--ink);
-    border:1px solid transparent;
-  }
-  .service-tab:hover{border-color:var(--line); background:rgba(24,64,72,.05)}
-
   /* Sections */
   .service-section{padding:54px 0}
   .service-section--soft{background:linear-gradient(0deg, var(--muted), #fff)}
@@ -107,7 +88,7 @@
   .service-checklist{margin:0; padding-left:18px}
   .service-checklist li{margin:8px 0}
 
-  /* Image box (box gets size, image fills 100%) */
+  /* Image box */
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
@@ -226,7 +207,7 @@
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch; /* so image equals content height */
+    align-items:stretch;
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
@@ -246,7 +227,6 @@
   .card-box p{margin:0}
   .card-box p + p{margin-top:10px}
 
-  /* IMPORTANT: image equals content size in card-split */
   .card-split__media{height:100%;}
   .card-split .service-media__box{
     height:100%;
@@ -386,14 +366,14 @@
   .promo-banner__content{
     position:relative;
     z-index:1;
-    /* display:flex; */
+    display:flex;
     align-items:center;
     justify-content:center;
     gap:16px;
     flex-wrap:wrap;
   }
-  .promo-banner__title{margin:0; font-size:20px}
-  .promo-banner__price{margin:0; font-size:18px}
+  .promo-banner__title{margin:0; font-size:20px;}
+  .promo-banner__price{margin:0; font-size:18px;}
   .promo-banner__btn{
     display:inline-flex;
     align-items:center;
@@ -405,7 +385,7 @@
     font-weight:900;
   }
 
-  /* TOC */
+  /* TOC (UPDATED: no extra blank space, no scrollbar, height = items only) */
   .toc-wrap{
     padding:18px 0 8px;
     background:linear-gradient(180deg, #fff, rgba(24,64,72,.03));
@@ -417,6 +397,11 @@
     box-shadow:0 12px 34px rgba(0,0,0,.06);
     overflow:hidden;
   }
+
+  /* default collapsed via class (JS will also set it) */
+  .toc-card.is-collapsed .toc-body{display:none;}
+  .toc-card:not(.is-collapsed) .toc-body{display:block;}
+
   .toc-head{
     display:flex;
     align-items:center;
@@ -443,30 +428,21 @@
     cursor:pointer;
     flex:0 0 auto;
   }
-  .toc-iconbtn svg{width:18px; height:18px; fill:var(--ink); transition:.18s ease}
-  .toc-card.is-open .toc-iconbtn svg{transform: rotate(180deg)}
-  .toc-card:not(.is-open) .toc-iconbtn svg{transform: rotate(0deg)}
+  .toc-iconbtn svg{width:18px; height:18px; fill:var(--ink); transition:transform .18s ease}
+
   .toc-body{
     border-top:1px solid var(--line);
     padding:12px 12px 14px;
-    display:none;
+    /* IMPORTANT: no fixed height + no overflow => no scrollbar + no empty space */
   }
-  .toc-card.is-open .toc-body{display:block}
+
   .toc-list{
     list-style:none;
     margin:0;
     padding:0;
-    max-height:260px;
-    overflow:auto;
-    padding-right:6px;
+    /* IMPORTANT: no max-height, no overflow => show only options space */
   }
-  .toc-list::-webkit-scrollbar{width:10px}
-  .toc-list::-webkit-scrollbar-thumb{
-    background:rgba(24,64,72,.20);
-    border-radius:999px;
-    border:3px solid #fff;
-  }
-  .toc-list::-webkit-scrollbar-track{background:transparent}
+
   .toc-item + .toc-item{margin-top:10px}
   .toc-item a{
     display:flex;
@@ -513,54 +489,53 @@
     .card-split .service-media__box{height:220px; min-height:220px;}
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
-    .toc-list{max-height:240px;}
   }
 </style>
 
 @push('meta')
-  <title>Vaillant Thermentausch Wien | Brennwert Therme inkl. Montage & MwSt</title>
-  <meta name="description" content="Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombitherme & VCW Modelle ✔ Transparente Preise inkl. MwSt ✔ Angebot & Aktionspreis sichern">
+  <title>Vaillant Thermenreparatur Wien – Notdienst &amp; Service rund um die Uhr</title>
+  <meta name="description" content="Professionelle Vaillant Thermenreparatur Wien mit Notdienst rund um die Uhr. Thermenservice, Thermenwartung, Thermentausch &amp; Kundendienst in Wien und Niederösterreich.">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">brennwert • montage • mwst</p>
+      <p class="wolf-hero__kicker">notdienst • service • reparatur</p>
 
       <h1>
-        Vaillant Thermentausch<br>
+        Vaillant Thermenreparatur<br>
         <em>Wien</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Ein professioneller Vaillant Thermentausch in Wien sorgt für effiziente Heizung, moderne Brennwerttechnik und zuverlässige Warmwasserbereitung.
+        Professionelle Vaillant Reparatur, Thermenservice und Notdienst in Wien und Niederösterreich – rund um die Uhr für Sie verfügbar.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Thermentausch Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Thermenreparatur Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Brennwerttherme</span>
-        <span class="wolf-pill">inkl. Montage</span>
-        <span class="wolf-pill">inkl. MwSt</span>
-        <span class="wolf-pill">Aktionspreis</span>
+        <span class="wolf-pill">Thermenservice</span>
+        <span class="wolf-pill">Thermenwartung</span>
+        <span class="wolf-pill">Reparaturen</span>
+        <span class="wolf-pill">Notdienst 24/7</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Angebot anfordern</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#service-services">Service ansehen</a>
       </div>
 
       <section class="promo-banner" id="vaillant-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Aktionspreis sichern</em></h2>
-            <p class="promo-banner__price"><strong>inkl. Montage & MwSt</strong></p>
+            <h2 class="promo-banner__title"><em>Vaillant Kundendienst</em></h2>
+            <p class="promo-banner__price"><strong>rund um die Uhr</strong></p>
 
-            <a class="promo-banner__btn" href="#kontakt-services" aria-label="Angebot">
-              Angebot
+            <a class="promo-banner__btn" href="#kontakt-services" aria-label="Kontakt">
+              Kontakt
             </a>
           </div>
         </div>
@@ -571,15 +546,21 @@
   <!-- TOC (AFTER HERO) -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
-      <div class="toc-card" id="tocCard">
-       <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+      <!-- default collapsed -->
+      <div class="toc-card is-collapsed" id="tocCard">
+        <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
           <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
           <div class="toc-actions">
-            <button class="toc-iconbtn" type="button" id="tocToggle"
-              aria-expanded="false" aria-controls="tocBody"
-              aria-label="Inhaltsverzeichnis umschalten">
-              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
+            <button
+              class="toc-iconbtn"
+              type="button"
+              id="tocToggle"
+              aria-expanded="false"
+              aria-controls="tocBody"
+              aria-label="Inhaltsverzeichnis umschalten"
+            >
+              <svg viewBox="0 0 448 512" aria-hidden="true">
                 <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
               </svg>
             </button>
@@ -587,258 +568,254 @@
         </div>
 
         <div class="toc-body" id="tocBody">
-          <ul class="toc-list">
-            <li class="toc-item"><a href="#wann-services"><span class="toc-badge">01</span><span class="toc-text">Wann sinnvoll</span></a></li>
-            <li class="toc-item"><a href="#systeme-services"><span class="toc-badge">02</span><span class="toc-text">Brennwertsysteme</span></a></li>
-            <li class="toc-item"><a href="#ablauf-services"><span class="toc-badge">03</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#montage-services"><span class="toc-badge">04</span><span class="toc-text">Montage & Sicherheit</span></a></li>
-            <li class="toc-item"><a href="#kosten-services"><span class="toc-badge">05</span><span class="toc-text">Kosten & Preise</span></a></li>
-            <li class="toc-item"><a href="#region-services"><span class="toc-badge">06</span><span class="toc-text">Wien & Umgebung</span></a></li>
-            <li class="toc-item"><a href="#warum-services"><span class="toc-badge">07</span><span class="toc-text">Warum Profi</span></a></li>
+          <!-- IMPORTANT: id="tocList" required by your JS -->
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item"><a href="#service-services"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
+            <li class="toc-item"><a href="#reparatur-services"><span class="toc-badge">02</span><span class="toc-text">Reparatur</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#hilfe-services"><span class="toc-badge">04</span><span class="toc-text">Schnelle Hilfe</span></a></li>
+            <li class="toc-item"><a href="#wartung-services"><span class="toc-badge">05</span><span class="toc-text">Wartung</span></a></li>
+            <li class="toc-item"><a href="#tausch-services"><span class="toc-badge">06</span><span class="toc-text">Thermentausch</span></a></li>
+            <li class="toc-item"><a href="#team-services"><span class="toc-badge">07</span><span class="toc-text">Team</span></a></li>
             <li class="toc-item"><a href="#faq-services"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">09</span><span class="toc-text">Angebot</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
- 
-
-  <!-- Wann sinnvoll -->
-  <section class="service-section" id="wann-services">
+  <!-- Service -->
+  <section class="service-section" id="service-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wann ein Thermentausch sinnvoll ist</h2>
+            <h2>Vaillant Thermenreparatur und Service in Wien</h2>
             <p>
-              Ein Thermentausch ist sinnvoll, wenn eine alte Gastherme häufige Reparatur benötigt, hohe Kosten verursacht oder nicht mehr dem aktuellen Stand der Technik entspricht.
-              Besonders bei veralteten Heizwert-Geräten lohnt sich der Austausch auf moderne Vaillant Brennwertthermen.
+              Eine funktionierende Vaillant Therme ist entscheidend für Warmwasser, Heizung und den sicheren Betrieb Ihrer Heizungsanlage.
+              Unsere Vaillant Thermenreparatur Wien bietet schnellen Thermenservice für alle Vaillant Gasthermen, moderne Geräte und bestehende Systeme.
             </p>
             <p>
-              Diese arbeiten effizienter, senken den Gasverbrauch und verbessern die Leistung der gesamten Heizung.
-              Auch bei einem steigenden Bedarf an Warmwasser oder bei Umbauten in Wohnungen und Mehrfamilienhäusern ist ein Thermentausch in Wien eine nachhaltige Entscheidung.
-              Ein erfahrener Installateur prüft Zustand, Anschlüsse und Einsatzmöglichkeiten und empfiehlt passende Geräte für langfristigen, sicheren Betrieb.
+              Ob Defekt, Fehlermeldung oder akutes Problem – unser Kundendienst analysiert die Ursache präzise und sorgt für eine fachgerechte Reparatur.
+              Als erfahrener Installateur in Wien und Niederösterreich stehen wir rund um die Uhr zur Verfügung. Wir arbeiten mit original Ersatzteile,
+              prüfen Gasgeräte sorgfältig und stellen die Sicherheit Ihrer Anlage sicher.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/viliant.jpeg') }}" alt="Vaillant Thermentausch Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/viliant.jpeg') }}" alt="Vaillant Thermenservice Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Moderne Brennwertsysteme -->
-  <section class="service-section service-section--soft" id="systeme-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Moderne Vaillant Brennwertsysteme</h2>
-        <p>Vaillant bietet leistungsstarke Brennwertsysteme für unterschiedliche Anforderungen, Wohnungsgrößen und Einsatzbereiche in Wien und Umgebung.</p>
-      </div>
-
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
-          <div>
-            <h3>Brennwert statt Heizwert</h3>
-            <p>Brennwerttechnik nutzt zusätzlich die Abwärme aus dem Abgas. Im Vergleich zum Heizwert arbeitet die Therme effizienter, spart Gas und schont Umwelt und Kosten langfristig.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🚿</div>
-          <div>
-            <h3>Kombitherme und Kombikessel</h3>
-            <p>Eine Kombitherme oder ein Kombikessel vereint Heizung und Warmwasserbereitung in einem Gerät. Ideal für Wohnungen mit begrenztem Platz und konstantem Warmwasserbedarf.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">📌</div>
-          <div>
-            <h3>VCW Modelle im Überblick</h3>
-            <p>Vaillant VCW Modelle wie der VCW 1740 bieten zuverlässige Brennwertleistung, kompakte Bauweise und moderne Funktionalitäten für einen effizienten Thermentausch in Wien.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">✅</div>
-          <div>
-            <h3>Planung nach Bedarf</h3>
-            <p>Leistung, Gerätegröße und Ausstattung werden passend zum tatsächlichen Bedarf geplant – damit Heizung und Warmwasser zuverlässig und wirtschaftlich laufen.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Ablauf -->
-  <section class="service-section" id="ablauf-services">
+  <!-- Reparatur -->
+  <section class="service-section service-section--soft" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>So läuft der Thermentausch ab</h2>
+            <h2>Reparatur Ihrer Vaillant Therme bei Defekt</h2>
             <p>
-              Ein strukturierter Ablauf sorgt für einen sicheren und reibungslosen Thermentausch. Nach einer Besichtigung erstellt der Fachmann einen Vorbefund
-              und klärt alle technischen Anliegen. Anschließend erfolgt die Installationsanzeige sowie die Abstimmung mit dem Rauchfangkehrer.
+              Ein Defekt an Ihrer Vaillant Therme kann schnell zu Heizungsausfall oder fehlendem Warmwasser führen.
+              Unsere Spezialisten reagieren rasch auf jede Thermenstörung oder Heizungsstörung in Wien.
             </p>
             <p>
-              Die Montage inklusive Anschlüsse wird fachgerecht durchgeführt, das Altgerät wird entsorgt und das neue Gasgerät installiert.
-              Nach der Inbetriebnahme prüft der Installateur alle Funktionen, stellt Raumthermostat und Raumtemperaturregelung ein und erklärt den Betrieb verständlich.
+              Nach strukturierter Fehlerdiagnose und gründlicher Fehleranalyse beheben unsere Techniker das Problem effizient.
+              Ob Wärmetauscher, Brenner oder andere Bauteile – wir tauschen Ersatzteile fachgerecht und sorgen für sicheren Betrieb Ihrer Gastherme.
+              Bei häufigen Störungen beraten wir transparent über Thermentausch oder weitere Arbeiten.
             </p>
-            <ul class="service-checklist">
-              <li>Besichtigung &amp; Vorbefund</li>
-              <li>Installationsanzeige &amp; Abstimmung mit Rauchfangkehrer</li>
-              <li>Montage, Anschlüsse und Austausch</li>
-              <li>Inbetriebnahme &amp; Funktionsprüfung</li>
-            </ul>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schnelle Diagnose</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Original Ersatzteile</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sicherer Betrieb</div></div>
+            </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Ablauf Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Vaillant Reparatur Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Montage & Sicherheit -->
-  <section class="service-section service-section--soft" id="montage-services">
+  <!-- Notdienst -->
+  <section class="service-section service-section--dark" id="notdienst-services">
+    <div class="service-container service-emergency">
+      <div class="service-emergency__text">
+        <h2>Vaillant Notdienst Wien rund um die Uhr</h2>
+        <p>
+          Bei akuten Problemen ist unser Vaillant Notdienst in Wien rund um die Uhr erreichbar.
+          Ob plötzliche Fehlermeldung, Gasgeruch oder kompletter Heizungsausfall – unser Notdienst sorgt für schnelle Hilfe.
+        </p>
+        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
+          Unsere Techniker sind im gesamten Raum Wien und Niederösterreich im Einsatz und rasch vor Ort.
+          Der Notdienst übernimmt Reparatur, Überprüfung und Sicherung Ihrer Anlage – besonders in dringenden Fällen.
+        </p>
+        <div class="service-emergency__actions">
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
+          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
+        </div>
+      </div>
+
+      <div class="service-emergency__panel">
+        <div class="service-panel">
+          <h3>Typische Notfälle</h3>
+          <ul class="service-checklist service-checklist--on-dark">
+            <li>Heizungsausfall</li>
+            <li>Fehlermeldung / Thermenstörung</li>
+            <li>Gasgeruch</li>
+            <li>Kein Warmwasser</li>
+          </ul>
+          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
+            Rund um die Uhr verfügbar – Wien &amp; Niederösterreich.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schnelle Hilfe -->
+  <section class="service-section" id="hilfe-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Montage, Anschlüsse und Sicherheit</h2>
-        <p>Eine fachgerechte Montage ist entscheidend für Sicherheit, Leistung und Lebensdauer der neuen Vaillant Therme.</p>
+        <h2>Schnelle Hilfe bei Heizungsausfall</h2>
+        <p>Bei Heizungsausfall oder schwerem Problem mit Ihrer Therme reagieren unsere Experten sofort und stellen den sicheren Betrieb schnellstmöglich wieder her.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏠</div>
+          <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Abgasführung, Kamin und Rauchfangkehrer</h3>
-            <p>Abgasrohre, Kamin und die Freigabe des Rauchfangkehrers müssen exakt abgestimmt sein. So wird ein sicherer Betrieb der Brennwerttherme gewährleistet.</p>
+            <h3>Rasche Störungsbehebung</h3>
+            <p>Wir reagieren schnell auf Thermenstörung, Fehlermeldung oder Ausfall und bringen Warmwasser und Heizung zuverlässig zurück.</p>
           </div>
         </article>
 
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔌</div>
-          <div>
-            <h3>Gas, Wasser und elektrische Anschlüsse</h3>
-            <p>Gas, Wasser und elektrische Anschlüsse werden normgerecht hergestellt. Alle Anschlüsse werden geprüft, dokumentiert und für einen sicheren Einsatz vorbereitet.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Kosten -->
-  <section class="service-section" id="kosten-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Kosten, Preise und Aktionsangebote</h2>
-            <p>
-              Die Kosten für einen Vaillant Thermentausch in Wien hängen vom Modell, Zubehör, Montageaufwand und den Anschlüssen ab.
-              Moderne Brennwertthermen sind in verschiedenen Preisklassen verfügbar und oft im Aktionspreis erhältlich.
-            </p>
-            <p>
-              Ein transparenter Kostenvoranschlag gibt Überblick über Preis, MwSt, Kleinmaterial und Installation.
-              So behalten Kunden die Kontrolle über Kosten, ohne versteckte Abfahrtskosten oder Wegzeit.
-              Aktionen ermöglichen zusätzliche Einsparungen und erhöhen die Wirtschaftlichkeit des Austauschs.
-            </p>
-
-            <ul class="service-checklist">
-              <li>Preis inkl. MwSt</li>
-              <li>Aktionspreis bei ausgewählten Geräten</li>
-              <li>Transparenter Kostenvoranschlag</li>
-              <li>Keine versteckten Abfahrtskosten</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Kosten Vaillant Thermentausch" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Region -->
-  <section class="service-section service-section--soft" id="region-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Thermentausch in Wien und Umgebung</h2>
-            <p>
-              Ein professioneller Thermentausch in Wien und Umgebung erfordert Erfahrung mit unterschiedlichen Gebäudetypen, Anschlüssen und gesetzlichen Vorgaben.
-              Ob Altbau, Neubau, Wohnungen oder Mehrfamilienhäuser – jede Situation stellt andere Anforderungen an Gerät, Montage und Leistung.
-            </p>
-            <p>
-              Unsere Installateuren kennen die Besonderheiten in Wien, stimmen sich mit Gaswerk und Rauchfangkehrers ab und sorgen für einen reibungslosen Ablauf.
-              Auch in der Umgebung profitieren Kunden von kurzen Wegzeiten, klarer Planung und zuverlässigem Einsatz.
-              So wird der Thermentausch langfristig sicher, effizient und passend zum tatsächlichen Bedarf umgesetzt.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Wien & Umgebung" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Warum Profi -->
-  <section class="service-section" id="warum-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Warum ein professioneller Thermentausch entscheidet</h2>
-        <p>Ein fachgerecht durchgeführter Thermentausch erhöht Effizienz, Sicherheit und Lebensdauer – mit sauberer Montage, korrekter Anzeige und dokumentierter Inbetriebnahme.</p>
-      </div>
-
-      <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
           <div>
-            <h3>Erfahrung und Fachmann-Know-how</h3>
-            <p>Ein erfahrener Fachmann beurteilt Anschlüsse, Kamin, Zubehör und passende Vaillant Geräte objektiv – für sichere Entscheidungen und zuverlässigen Betrieb.</p>
+            <h3>Techniker in Wien und Niederösterreich</h3>
+            <p>Unser Team aus erfahrenen Techniker betreut Kunden in Wien und Niederösterreich zuverlässig und steht rund um die Uhr zur Verfügung.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wartung -->
+  <section class="service-section service-section--soft" id="wartung-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Thermenwartung und Sicherheit Ihrer Heizungsanlage</h2>
+            <p>
+              Eine regelmäßige Vaillant Thermenwartung ist entscheidend für Sicherheit, Effizienz und Langlebigkeit Ihrer Therme.
+              Durch professionelle Wartung und gründliche Überprüfung aller relevanten Komponenten vermeiden Sie Störungen und unnötige Reparatur Kosten.
+            </p>
+            <p>
+              Unser Thermenservice umfasst Reinigung, Kontrolle von Brenner und Wärmetauscher sowie Optimierung der gesamten Heizungsanlage.
+              So senken wir langfristig den Gas Verbrauch und reduzieren das Risiko von Defekt oder Heizungsstörung deutlich.
+            </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Niedriger Verbrauch</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Vaillant Thermenwartung Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Thermentausch -->
+  <section class="service-section" id="tausch-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Vaillant Thermentausch und neue Installation</h2>
+            <p>
+              Wenn Ihre Vaillant Therme häufig defekt ist oder die Leistung nachlässt, kann ein Vaillant Thermentausch sinnvoll sein.
+              Unsere Spezialisten beraten transparent zu Thermentausch, Neuinstallation und modernen Vaillant Gasthermen.
+            </p>
+            <p>
+              Wir prüfen die bestehende Heizungsanlage, analysieren den Zustand der Geräte und erstellen einen klaren Kostenvoranschlag.
+              Die Installation erfolgt fachgerecht durch erfahrene Installateur und Techniker – mit Fokus auf Sicherheit, Effizienz und optimaler Abstimmung.
+            </p>
+
+            <ul class="service-checklist">
+              <li>Beratung &amp; Kostenvoranschlag</li>
+              <li>Fachgerechte Neuinstallation</li>
+              <li>Moderne Vaillant Geräte</li>
+              <li>Langfristige Effizienz</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Vaillant Thermentausch Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="service-section service-section--soft" id="team-services">
+    <div class="service-container">
+      <div class="service-section__head">
+        <h2>Warum wir Ihr Vaillant Spezialisten Team sind</h2>
+        <p>Kompetenz, Fachwissen und persönliche Betreuung – mit original Ersatzteile, Herstellervorgaben und einem Kundendienst, der rund um die Uhr erreichbar ist.</p>
+      </div>
+
+      <div class="service-grid service-grid--2">
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">✅</div>
+          <div>
+            <h3>Erfahrung &amp; Know-how</h3>
+            <p>Unsere geschulten Techniker verfügen über umfassende Erfahrung bei Vaillant Thermenreparatur, Thermenservice und Thermenwartung in Wien.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♻️</div>
+          <div class="service-feature__icon" aria-hidden="true">🧩</div>
           <div>
-            <h3>Saubere Entsorgung des Altgeräts</h3>
-            <p>Das Altgerät wird fachgerecht entsorgt und der Austausch sauber dokumentiert – damit alles technisch und organisatorisch passt.</p>
+            <h3>Original Ersatzteile</h3>
+            <p>Wir verwenden originale Ersatzteile vom Hersteller Vaillant – für maximale Sicherheit, Langlebigkeit und zuverlässige Leistung Ihrer Gastherme.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⏳</div>
+          <div class="service-feature__icon" aria-hidden="true">🔍</div>
           <div>
-            <h3>Längere Lebensdauer der neuen Therme</h3>
-            <p>Durch korrekte Montage, Einstellungen und Funktionsprüfung läuft die neue Therme stabiler – weniger Störungen, mehr Lebensdauer.</p>
+            <h3>Transparente Beratung</h3>
+            <p>Ob Reparatur, Wartung oder Thermentausch: Wir erklären Schritte verständlich, planen sauber und setzen Arbeiten lösungsorientiert um.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">📞</div>
+          <div class="service-feature__icon" aria-hidden="true">🕒</div>
           <div>
-            <h3>Ein Ansprechpartner von Planung bis Betrieb</h3>
-            <p>Kunden profitieren von einem klaren Überblick, festen Ansprechpartnern und professionellem Kundendienst – von der Einführung bis zum laufenden Betrieb.</p>
+            <h3>24/7 für Wien &amp; Niederösterreich</h3>
+            <p>Unser Team betreut Kunden in Wien und Niederösterreich zuverlässig – inklusive Notdienst rund um die Uhr.</p>
           </div>
         </article>
       </div>
@@ -846,42 +823,42 @@
   </section>
 
   <!-- FAQ -->
-  <section class="service-section service-section--soft" id="faq-services">
+  <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zum Vaillant Thermentausch</h2>
+        <h2>Häufige Fragen zur Vaillant Thermenreparatur Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wann ist ein Thermentausch sinnvoll?</summary>
-          <p>Ein Thermentausch ist sinnvoll bei häufigen Reparaturen, hohem Gasverbrauch oder wenn die bestehende Gastherme technisch überholt ist und nicht mehr effizient arbeitet.</p>
+          <summary>Wann sollte ich eine Vaillant Thermenreparatur durchführen lassen?</summary>
+          <p>Bei Fehlermeldung, Defekt, ungewöhnlichen Geräuschen oder Heizungsstörung sollte sofort unser Kundendienst in Wien kontaktiert werden.</p>
         </details>
 
         <details>
-          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
-          <p>In den meisten Fällen dauert der Austausch inklusive Montage, Anschlüsse und Inbetriebnahme einen Arbeitstag, abhängig von Vorbefund und baulichen Gegebenheiten.</p>
+          <summary>Ist Ihr Vaillant Notdienst rund um die Uhr erreichbar?</summary>
+          <p>Ja, unser Vaillant Notdienst in Wien und Niederösterreich ist rund um die Uhr verfügbar – auch an Wochenenden und in dringenden Fällen.</p>
         </details>
 
         <details>
-          <summary>Welche Vaillant Geräte eignen sich für Wohnungen?</summary>
-          <p>Für Wohnungen sind kompakte Kombithermen und VCW Brennwertthermen ideal, da sie Heizung und Warmwasserbereitung platzsparend kombinieren.</p>
+          <summary>Wie oft ist eine Vaillant Thermenwartung sinnvoll?</summary>
+          <p>Eine jährliche Thermenwartung erhöht Sicherheit, reduziert Risiko und verlängert die Lebensdauer Ihrer Vaillant Therme.</p>
         </details>
 
         <details>
-          <summary>Sind Vorbefund und Installationsanzeige notwendig?</summary>
-          <p>Ja, Vorbefund und Installationsanzeige sind gesetzlich vorgeschrieben und werden gemeinsam mit Rauchfangkehrer und Gaswerk abgestimmt.</p>
+          <summary>Verwenden Sie originale Ersatzteile von Vaillant?</summary>
+          <p>Ja, wir setzen ausschließlich auf original Ersatzteile vom Hersteller Vaillant für maximale Sicherheit und Langlebigkeit.</p>
         </details>
 
         <details>
-          <summary>Was kostet ein Vaillant Thermentausch inkl. MwSt?</summary>
-          <p>Der Preis hängt von Modell, Leistung, Zubehör und Montage ab. Ein transparenter Kostenvoranschlag zeigt alle Kosten inklusive MwSt und Aktionspreis.</p>
+          <summary>Wann lohnt sich ein Vaillant Thermentausch?</summary>
+          <p>Bei häufigem Defekt, steigenden Reparatur Kosten oder veralteten Geräten empfehlen unsere Spezialisten einen Thermentausch.</p>
         </details>
 
         <details>
-          <summary>Ist Wartung nach dem Thermentausch erforderlich?</summary>
-          <p>Regelmäßige Wartung und Thermenwartung sichern den effizienten Betrieb, erhöhen die Lebensdauer und erhalten die Herstellergarantie.</p>
+          <summary>Betreuen Sie auch Kunden außerhalb von Wien?</summary>
+          <p>Unser Service steht Kunden in Wien und Niederösterreich zuverlässig zur Verfügung, inklusive Installation und Reparaturservice.</p>
         </details>
       </div>
     </div>
@@ -891,12 +868,13 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Beratung &amp; Angebot anfordern</h2>
+        <h2>Jetzt Vaillant Reparatur in Wien beauftragen</h2>
         <p>
-          Sie planen einen Vaillant Thermentausch in Wien oder Umgebung? Lassen Sie sich unverbindlich beraten und erhalten Sie ein maßgeschneidertes Angebot inklusive Aktionspreis, Montage und MwSt.
+          Benötigen Sie schnelle Hilfe bei einer Thermenstörung oder planen Sie eine professionelle Vaillant Thermenwartung?
+          Unser Team steht Ihnen in Wien und Niederösterreich rund um die Uhr zur Verfügung.
         </p>
         <p style="margin-top:10px;">
-          👉 Jetzt Angebot anfordern und Thermentausch professionell umsetzen
+          Ob Vaillant Thermenreparatur Wien, Thermentausch, Installation oder Thermenservice – wir bieten klare Abläufe, transparente Preise und zuverlässigen Kundendienst.
         </p>
       </div>
 
@@ -915,7 +893,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Wohnung/Haus, Gerät/Modell, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
@@ -924,51 +902,6 @@
     </div>
   </section>
 </main>
-<!-- 
-<script>
-  (function(){
-    // Smooth scroll
-    document.querySelectorAll('a[href^="#"]').forEach(function(link){
-      link.addEventListener('click', function(e){
-        var id = this.getAttribute('href');
-        if (!id || id === '#') return;
-        var el = document.querySelector(id);
-        if (!el) return;
-        e.preventDefault();
-        el.scrollIntoView({ behavior:'smooth', block:'start' });
-      });
-    });
 
-    // TOC toggle (default collapsed)
-    var tocCard = document.getElementById('tocCard');
-    var tocToggle = document.getElementById('tocToggle');
-    var tocBody = document.getElementById('tocBody');
 
-    function setToc(open){
-      if (!tocCard || !tocToggle || !tocBody) return;
-      tocCard.classList.toggle('is-open', !!open);
-      tocToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    }
-
-    setToc(false);
-
-    if (tocToggle){
-      tocToggle.addEventListener('click', function(){
-        var isOpen = tocCard.classList.contains('is-open');
-        setToc(!isOpen);
-      });
-
-      tocToggle.addEventListener('keydown', function(e){
-        if (e.key === 'Enter' || e.key === ' '){
-          e.preventDefault();
-          var isOpen = tocCard.classList.contains('is-open');
-          setToc(!isOpen);
-        }
-      });
-    }
-
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-  })();
-</script> -->
 @endsection

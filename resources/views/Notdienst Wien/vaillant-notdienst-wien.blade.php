@@ -51,25 +51,6 @@
   .service-btn--ghost-on-dark:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.22)}
   .service-btn--full{width:100%}
 
-  /* Quick tabs */
-  .service-quicktabs{padding:10px 0 20px}
-  .service-tabs{
-    display:flex; gap:10px; flex-wrap:wrap;
-    padding:10px;
-    border:1px solid var(--line);
-    border-radius:19px;
-    background:#fff;
-    justify-content: space-between;
-  }
-  .service-tab{
-    padding:10px 12px;
-    border-radius:999px;
-    font-weight:800;
-    color:var(--ink);
-    border:1px solid transparent;
-  }
-  .service-tab:hover{border-color:var(--line); background:rgba(24,64,72,.05)}
-
   /* Sections */
   .service-section{padding:54px 0}
   .service-section--soft{background:linear-gradient(0deg, var(--muted), #fff)}
@@ -118,7 +99,7 @@
   .service-checklist{margin:0; padding-left:18px}
   .service-checklist li{margin:8px 0}
 
-  /* ====== IMAGE BOX (UPDATED: image equals content height) ====== */
+  /* Media */
   .service-media{width:100%; height:100%;}
   .service-media__box{
     width:100%;
@@ -222,7 +203,7 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* HERO (wolf) - keep as-is */
+  /* HERO */
   .wolf-hero{
     position:relative;
     min-height:520px;
@@ -325,7 +306,7 @@
     color:#fff;
   }
 
-  /* Promo banner (kept minimal, but fixed positioning) */
+  /* Promo banner */
   .promo-banner{margin-top:22px}
   .promo-banner__inner{
     position:relative;
@@ -352,8 +333,8 @@
     gap:16px;
     flex-wrap:wrap;
   }
-  .promo-banner__title{margin:0; color:#fff; font-size:20px}
-  .promo-banner__price{margin:0; color:#fff; font-size:18px}
+  .promo-banner__title{margin:0; font-size:20px}
+  .promo-banner__price{margin:0; font-size:18px}
   .promo-banner__btn{
     display:inline-flex;
     align-items:center;
@@ -365,7 +346,7 @@
     font-weight:900;
   }
 
-  /* ====== TOC (ADDED + placed after hero) ====== */
+  /* TOC */
   .toc-wrap{padding:14px 0 6px; background:#fff;}
   .toc-card{
     border:1px solid var(--line);
@@ -403,14 +384,17 @@
   .toc-iconbtn svg{width:18px; height:18px; fill:var(--ink); transition:.18s ease}
   .toc-body{padding:10px 14px 14px}
   .toc-body.is-collapsed{display:none;}
+
+  /* ✅ one option in one row */
   .toc-list{
     list-style:none;
     margin:0;
     padding:0;
     display:grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap:8px 10px;
+    grid-template-columns: 1fr;
+    gap:8px;
   }
+
   .toc-item a{
     display:flex;
     align-items:center;
@@ -440,7 +424,7 @@
   }
   .toc-text{font-weight:900; color:var(--ink);}
 
-  /* Card split (UPDATED: stretch + image equals content height) */
+  /* Card split */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
@@ -471,8 +455,50 @@
     .card-split--reverse .card-split__media{order:2}
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
-    .toc-list{grid-template-columns:1fr;}
   }
+
+  /* =========================
+   TOC COMPACT SIZE (OVERRIDE)
+========================= */
+.toc-wrap{padding:10px 0 4px;}
+.toc-head{padding:10px 12px;}
+.toc-head h4{font-size:16px;}
+
+.toc-iconbtn{
+  width:34px;
+  height:34px;
+  border-radius:10px;
+}
+.toc-iconbtn svg{width:16px;height:16px;}
+
+.toc-body{padding:8px 12px 12px;}
+
+/* one option in one row (already ok) */
+.toc-list{
+  gap:6px;
+}
+
+/* ✅ make each row smaller */
+.toc-item a{
+  padding:8px 10px;          /* was 10px 10px */
+  border-radius:12px;        /* was 14px */
+  gap:8px;                   /* was 10px */
+}
+
+/* ✅ badge smaller */
+.toc-badge{
+  width:28px;                /* was 34px */
+  height:28px;               /* was 34px */
+  border-radius:10px;        /* was 12px */
+  font-size:.85rem;
+}
+
+/* ✅ text smaller */
+.toc-text{
+  font-size:14px;
+  line-height:1.2;
+}
+
 </style>
 
 @push('meta')
@@ -481,7 +507,8 @@
 @endpush
 
 <main>
-  <!-- HERO (KEEP AS-IS) -->
+
+  <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
       <p class="wolf-hero__kicker">rund um die uhr erreichbar</p>
@@ -516,47 +543,41 @@
           <div class="promo-banner__content">
             <h2 class="promo-banner__title"><em>Vaillant Kundendienst Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
-
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
-              <span class="promo-banner__btn-ico">  </span>
-              AKTION
-            </a>
+            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">AKTION</a>
           </div>
         </div>
       </section>
     </div>
   </section>
 
-  <!-- ✅ TOC AFTER HERO -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
-    <div class="toc-card is-collapsed" id="tocCard">
+    <div class="toc-card" id="tocCard">
       <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
         <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
-        <div class="toc-actions">
-          <button class="toc-iconbtn" type="button" id="tocToggle"
-            aria-expanded="false" aria-controls="tocBody"
-            aria-label="Inhaltsverzeichnis umschalten">
-            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
-              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
-            </svg>
-          </button>
-        </div>
+        <button class="toc-iconbtn" type="button" id="tocToggle"
+          aria-expanded="false" aria-controls="tocBody"
+          aria-label="Inhaltsverzeichnis umschalten">
+          <svg viewBox="0 0 448 512" aria-hidden="true" id="tocChevron">
+            <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+          </svg>
+        </button>
       </div>
 
-      <div class="toc-body" id="tocBody">
+      <div class="toc-body is-collapsed" id="tocBody">
         <ul class="toc-list" id="tocList">
-          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
-          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
-          <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
-          <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
-          <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
-          <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-          <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-          <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+          <li class="toc-item"><a href="#notdienst24-services"><span class="toc-badge">01</span><span class="toc-text">24/7</span></a></li>
+          <li class="toc-item"><a href="#kundendienst-services"><span class="toc-badge">02</span><span class="toc-text">Kundendienst</span></a></li>
+          <li class="toc-item"><a href="#notdienst-services"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
+          <li class="toc-item"><a href="#wartung-services"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
+          <li class="toc-item"><a href="#leistungen-services"><span class="toc-badge">05</span><span class="toc-text">Leistungen</span></a></li>
+          <li class="toc-item"><a href="#preise-services"><span class="toc-badge">06</span><span class="toc-text">Kosten</span></a></li>
+          <li class="toc-item"><a href="#gebiet-services"><span class="toc-badge">07</span><span class="toc-text">Region</span></a></li>
+          <li class="toc-item"><a href="#sicherheit-services"><span class="toc-badge">08</span><span class="toc-text">Sicherheit</span></a></li>
+          <li class="toc-item"><a href="#vertrauen-services"><span class="toc-badge">09</span><span class="toc-text">Vertrauen</span></a></li>
+          <li class="toc-item"><a href="#faq-services"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
+          <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
         </ul>
       </div>
     </div>
@@ -564,35 +585,14 @@
 </section>
 
 
-  <!-- Quick tabs (kept) -->
-  <section class="service-quicktabs" id="quicktabs-services">
-    <div class="service-container">
-      <div class="service-tabs">
-        <a class="service-tab" href="#notdienst24-services">24/7</a>
-        <a class="service-tab" href="#kundendienst-services">Kundendienst</a>
-        <a class="service-tab" href="#notdienst-services">Notdienst</a>
-        <a class="service-tab" href="#wartung-services">Wartung</a>
-        <a class="service-tab" href="#leistungen-services">Leistungen</a>
-        <a class="service-tab" href="#preise-services">Preise</a>
-        <a class="service-tab" href="#gebiet-services">Einsatzgebiet</a>
-        <a class="service-tab" href="#sicherheit-services">Sicherheit</a>
-        <a class="service-tab" href="#vertrauen-services">Vertrauen</a>
-        <a class="service-tab" href="#faq-services">FAQ</a>
-        <a class="service-tab" href="#kontakt-services">Kontakt</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- 1) Vaillant Notdienst Wien 24/7 (benefits) -->
+  <!-- 1) 24/7 BENEFITS -->
   <section class="service-section service-section--soft" id="notdienst24-services">
     <div class="service-container">
-      <div class="card-split mb-5">
+      <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
             <h2>Vaillant Notdienst Wien 24/7</h2>
-            <p>
-              Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.
-            </p>
+            <p>Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.</p>
           </div>
         </div>
 
@@ -602,6 +602,8 @@
           </div>
         </div>
       </div>
+
+      <div style="height:14px"></div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
@@ -639,7 +641,7 @@
     </div>
   </section>
 
-  <!-- 2) Kundendienst für Zuhause -->
+  <!-- 2) KUNDENDIENST -->
   <section class="service-section" id="kundendienst-services">
     <div class="service-container">
       <div class="card-split">
@@ -673,7 +675,7 @@
     </div>
   </section>
 
-  <!-- 3) Notdienst + typische Notfälle (dark) -->
+  <!-- 3) NOTDIENST (DARK) -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
@@ -721,7 +723,7 @@
     </div>
   </section>
 
-  <!-- 4) Reparatur, Wartung und Thermenwartung -->
+  <!-- 4) WARTUNG -->
   <section class="service-section" id="wartung-services">
     <div class="service-container">
       <div class="card-split">
@@ -755,7 +757,7 @@
     </div>
   </section>
 
-  <!-- 5) Leistungen (grid) -->
+  <!-- 5) LEISTUNGEN -->
   <section class="service-section service-section--soft" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -815,7 +817,7 @@
     </div>
   </section>
 
-  <!-- 6) Preise, Angebot und MwSt -->
+  <!-- 6) PREISE -->
   <section class="service-section" id="preise-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
@@ -848,7 +850,7 @@
     </div>
   </section>
 
-  <!-- 7) Einsatzgebiet -->
+  <!-- 7) REGION -->
   <section class="service-section service-section--soft" id="gebiet-services">
     <div class="service-container">
       <div class="card-split">
@@ -875,7 +877,7 @@
     </div>
   </section>
 
-  <!-- 8) Garantie / Gewährleistung / Sicherheit -->
+  <!-- 8) SICHERHEIT -->
   <section class="service-section" id="sicherheit-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -919,7 +921,7 @@
     </div>
   </section>
 
-  <!-- 9) Warum Kunden vertrauen -->
+  <!-- 9) VERTRAUEN -->
   <section class="service-section service-section--soft" id="vertrauen-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -969,47 +971,38 @@
           <summary>1. Wann sollte ich den Kundendienst kontaktieren?</summary>
           <p>Wenn Therme, Gastherme oder Heizung nicht richtig funktioniert. In Wien steht unser Notdienst schnell zur Verfügung, um eine sichere Lösung zu finden.</p>
         </details>
-
         <details>
           <summary>2. Gibt es einen Notdienst für Vaillant in Wien?</summary>
           <p>Ja, unser Notdienst für Vaillant ist in Wien rund um die Uhr erreichbar. Der Vaillant Kundendienst hilft bei Störungen, Ausfall oder akuten Problemen.</p>
         </details>
-
         <details>
           <summary>3. Welche Vaillant Gasgeräte werden betreut?</summary>
           <p>Wir servicieren alle Vaillant Gasgeräte und Vaillant Geräte – neue und ältere Modelle – fachgerecht und zuverlässig.</p>
         </details>
-
         <details>
           <summary>4. Wie schnell ist der Notdienst vor Ort?</summary>
           <p>Unser Notdienst ist in Wien meist rasch beim Kunden. Ein erfahrener Installateur analysiert das Problem direkt und leitet alles Weitere ein.</p>
         </details>
-
         <details>
           <summary>5. Bieten Sie auch Thermenwartung an?</summary>
           <p>Ja, neben dem Notdienst übernehmen wir Wartung für Therme und Gastherme, um Ausfälle zu vermeiden und die Heizung effizient zu halten.</p>
         </details>
-
         <details>
           <summary>6. Wann ist ein Thermentausch sinnvoll?</summary>
           <p>Ein Thermentausch ist sinnvoll bei häufigen Störungen oder hohem Verbrauch. Wir beraten transparent zu Tausch, Preisen und passenden Vaillant Geräten.</p>
         </details>
-
         <details>
           <summary>7. Sind Preise und MwSt transparent?</summary>
           <p>Ja, unsere Preise sind klar strukturiert und die MwSt ist immer ausgewiesen. Vor Beginn erklären wir alles, damit Sie Sicherheit haben.</p>
         </details>
-
         <details>
           <summary>8. Arbeitet der Vaillant Kundendienst auch nachts?</summary>
           <p>Ja, als Notdienst sind wir rund um die Uhr erreichbar – auch nachts, am Wochenende und an Feiertagen in Wien.</p>
         </details>
-
         <details>
           <summary>9. Wird auch bei Heizungsproblemen geholfen?</summary>
           <p>Ja, wir unterstützen bei Problemen mit Heizung, Therme und Gastherme. Ziel ist immer eine sichere und schnelle Lösung.</p>
         </details>
-
         <details>
           <summary>10. Warum einen Fachbetrieb in Wien wählen?</summary>
           <p>Ein lokaler Kundendienst kennt die Anlagen vor Ort, reagiert schneller und bietet zuverlässige Lösungen mit fairen Preisen und korrekter MwSt.</p>
@@ -1018,7 +1011,7 @@
     </div>
   </section>
 
-  <!-- 11) Contact -->
+  <!-- 11) CONTACT -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
@@ -1062,7 +1055,84 @@
       </form>
     </div>
   </section>
+
 </main>
+<script>
+(function () {
+  const tocBody = document.getElementById('tocBody');
+  const tocToggle = document.getElementById('tocToggle');
+  const tocHead = document.getElementById('tocHead');
+  const chevron = document.getElementById('tocChevron');
+
+  if (!tocBody || !tocToggle || !tocHead || !chevron) return;
+
+  function setOpen(isOpen){
+    tocBody.classList.toggle('is-collapsed', !isOpen);
+    tocToggle.setAttribute('aria-expanded', String(isOpen));
+    tocHead.setAttribute('aria-expanded', String(isOpen));
+    chevron.style.transform = isOpen ? 'rotate(180deg)' : 'rotate(0deg)';
+  }
+
+  function toggle(){
+    const nowOpen = tocToggle.getAttribute('aria-expanded') === 'true';
+    setOpen(!nowOpen);
+  }
+
+  // ✅ Default collapsed
+  setOpen(false);
+
+  // ✅ Replace TOC labels with section <h2> text (same requirement)
+  (function updateTocHeadings(){
+    document.querySelectorAll('#tocList a[href^="#"]').forEach(function(link){
+      const target = link.getAttribute('href');
+      const section = target ? document.querySelector(target) : null;
+      const h2 = section ? section.querySelector('h2') : null;
+      if (!h2) return;
+
+      const full = (h2.textContent || '').trim().replace(/\s+/g,' ');
+      if (!full) return;
+
+      const textEl = link.querySelector('.toc-text');
+      if (textEl) textEl.textContent = full;
+    });
+  })();
+
+  // ✅ Toggle
+  tocToggle.addEventListener('click', function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    toggle();
+  });
+
+  tocHead.addEventListener('click', function(e){
+    if (e.target.closest('#tocToggle')) return;
+    toggle();
+  });
+
+  tocHead.addEventListener('keydown', function(e){
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggle();
+    }
+  });
+
+  // ✅ Smooth scroll (TOC links only)
+  document.querySelectorAll('.toc-list a[href^="#"]').forEach(a=>{
+    a.addEventListener('click', function(e){
+      const id = this.getAttribute('href');
+      const el = document.querySelector(id);
+      if(!el) return;
+      e.preventDefault();
+
+      // optional: close after click on mobile
+      if(window.innerWidth < 980) setOpen(false);
+
+      const y = el.getBoundingClientRect().top + window.pageYOffset - 90;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    });
+  });
+})();
+</script>
 
 
 @endsection

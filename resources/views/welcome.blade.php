@@ -5,6 +5,10 @@
     $metaDescription = 'Professionelle Thermenwartung, Thermenservice & Reparatur in Wien und Niederösterreich. Alle Marken, transparente Preise inkl. MwSt, schnelle Hilfe & Notdienst.';
 @endphp
 
+    <!-- Owl Carousel (for mobile slider in 'Bekannt aus')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/> -->
+
     <style>
         .m-hero::before {
             content: "";
@@ -79,7 +83,91 @@
   }
 }
 
-    </style>
+    
+/* --- BEKANNT AUS: make it a slider on mobile (Owl Carousel) --- */
+@media (max-width: 768px){
+  .as-seen .as-seen-logos{
+    display: block;
+  }
+  .as-seen .as-seen-logo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 6px 0;
+  }
+  .as-seen .as-seen-logo img{
+    width: auto;
+    max-height: 34px;
+  }
+  .as-seen .owl-stage{
+    display:flex;
+    align-items:center;
+  }
+  .as-seen .owl-dots{
+    margin-top: 10px;
+  }
+}
+
+    
+
+/* ===================== MOBILE "BEKANNT AUS" SLIDER (Owl) ===================== */
+@media (max-width: 768px){
+  .as-seen .as-seen-logos{
+    position: relative;
+    display:block;           /* owl will handle layout */
+    padding: 0 44px;         /* space for nav buttons */
+  }
+
+  /* each logo item */
+  .as-seen .as-seen-item{
+    display:flex !important;
+    align-items:center;
+    justify-content:center;
+    height: 48px;
+  }
+
+  .as-seen .as-seen-logo img{
+    max-height: 28px;
+    width: auto;
+    opacity: 1;
+    filter: grayscale(0);
+  }
+
+  /* NAV buttons like your reference */
+  .as-seen .owl-nav{
+    pointer-events:none;     /* only buttons clickable */
+  }
+  .as-seen .owl-nav button{
+    pointer-events:auto;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    background: rgba(0,0,0,.28) !important;
+    border: 0 !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .as-seen .owl-nav button.owl-prev{ left: 10px; }
+  .as-seen .owl-nav button.owl-next{ right: 10px; }
+
+  .as-seen .owl-nav button span{
+    font-size: 22px;
+    line-height: 1;
+    color: #fff;
+    margin-top: -2px;
+  }
+
+  .as-seen .owl-dots{ display:none !important; }
+}
+/* ===================== /MOBILE "BEKANNT AUS" SLIDER (Owl) ===================== */
+
+</style>
     
    {{-- REPLACE your <section class="m-hero" ...> with this version.
    It keeps your m-hero wrapper, but uses the SAME content structure as your .hero section
@@ -307,50 +395,136 @@
             </div>
         </section>
 
-        <!-- BEKANNT AUS -->
-        <section class="as-seen" aria-label="Bekannt aus">
-            <div class="container">
-                <div class="as-seen-row">
-                    <h2 class="as-seen-title">BEKANNT AUS</h2>
+       <!-- BEKANNT AUS (DESKTOP + MOBILE CAROUSEL) -->
+<section class="as-seen" aria-label="Bekannt aus">
+  <div class="container">
+    <div class="as-seen-row">
+      <h2 class="as-seen-title">BEKANNT AUS</h2>
 
-                    <div class="as-seen-logos">
-                        <a class="as-seen-logo" href="#" target="_blank" rel="noopener">
-                            <img src="https://framerusercontent.com/images/Aj0ohdrCqIDq51KTZbflsVSnyg.webp?scale-down-to=1024"
-                                alt="ORF">
-                        </a>
+      <div class="as-seen-slider" id="asSeenSlider">
+        <button class="as-seen-btn as-seen-prev" type="button" aria-label="Previous">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </button>
 
-                        <a class="as-seen-logo" href="#" target="_blank" rel="noopener">
-                            <img src="https://framerusercontent.com/images/6XAaIjZdEa80WhL7h7kwuRTA.webp?scale-down-to=1024"
-                                alt="Kurier">
-                        </a>
+        <div class="as-seen-viewport">
+          <div class="as-seen-track" id="asSeenTrack">
+            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
+              <img src="https://framerusercontent.com/images/Aj0ohdrCqIDq51KTZbflsVSnyg.webp?scale-down-to=1024" alt="ORF">
+            </a>
+            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
+              <img src="https://framerusercontent.com/images/6XAaIjZdEa80WhL7h7kwuRTA.webp?scale-down-to=1024" alt="Kurier">
+            </a>
+            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
+              <img src="https://framerusercontent.com/images/5iqByNcOVDmWk2oQV9BInbXp6w.webp?scale-down-to=1024" alt="Der Standard">
+            </a>
+            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
+              <img src="https://framerusercontent.com/images/DdNjJ15OOHoRVb88Uv9kNQp7zqY.webp?scale-down-to=1024" alt="Die Presse">
+            </a>
+            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
+              <img src="https://framerusercontent.com/images/Pyq6n8jcA6V3xqurte7I88cBU5U.webp?scale-down-to=1024" alt="Kleine Zeitung">
+            </a>
+            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
+              <img src="https://framerusercontent.com/images/9O0tMXl2NeMgsnUz4Nrw9efV5k.webp" alt="Gewinn">
+            </a>
+          </div>
+        </div>
 
-                        <a class="as-seen-logo" href="#" target="_blank" rel="noopener">
-                            <img src="https://framerusercontent.com/images/5iqByNcOVDmWk2oQV9BInbXp6w.webp?scale-down-to=1024"
-                                alt="Der Standard">
-                        </a>
+        <button class="as-seen-btn as-seen-next" type="button" aria-label="Next">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
 
-                        <a class="as-seen-logo" href="#" target="_blank" rel="noopener">
-                            <img src="https://framerusercontent.com/images/DdNjJ15OOHoRVb88Uv9kNQp7zqY.webp?scale-down-to=1024"
-                                alt="Die Presse">
-                        </a>
+<style>
+    .as-seen { padding: 18px 0; }
+.as-seen-row{
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
 
-                        <a class="as-seen-logo" href="#" target="_blank" rel="noopener">
-                            <img src="https://framerusercontent.com/images/Pyq6n8jcA6V3xqurte7I88cBU5U.webp?scale-down-to=1024"
-                                alt="Kleine Zeitung">
-                        </a>
+.as-seen-title{
+  margin:0;
+  font-weight:900;
+  letter-spacing:.06em;
+  font-size:22px;
+  white-space:nowrap;
+}
 
-                        <a class="as-seen-logo" href="#" target="_blank" rel="noopener">
-                            <img src="https://framerusercontent.com/images/9O0tMXl2NeMgsnUz4Nrw9efV5k.webp"
-                                alt="Gewinn">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+.as-seen-slider{
+  position:relative;
+  flex:1 1 auto;
+  min-width:0;
+  padding: 0 54px; /* space for buttons */
+}
+
+.as-seen-viewport{
+  overflow:hidden;
+}
+
+.as-seen-track{
+  display:flex;
+  /* align-items:center; */
+  gap: 26px;
+  will-change: transform;
+  /* transition: transform .28s ease; */
+}
+
+.as-seen-item{
+  flex: 0 0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 52px;
+}
+
+.as-seen-item img{
+  max-height: 34px;
+  width:auto;
+  display:block;
+}
+
+/* Buttons (same look as reference) */
+.as-seen-btn{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:40px;
+  height:40px;
+  border-radius:999px;
+  border:0;
+  background: rgba(0,0,0,.28);
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:0;
+  cursor:pointer;
+  z-index:5;
+}
+.as-seen-prev{ left:8px; }
+.as-seen-next{ right:8px; }
+.as-seen-btn svg{ width:20px; height:20px; }
+
+@media (max-width:768px){
+  .as-seen-title{ font-size:18px; }
+  .as-seen-slider{ padding: 0 46px; }
+  .as-seen-item{ height: 48px; }
+  .as-seen-item img{ max-height: 28px; }
+}
+
+</style>
 
 
 
-        <!-- Intro + Form -->
+
+        <!-- Intro + Form
         <section class="intro" id="service">
             <div class="container">
                 <div class="intro-grid">
@@ -402,7 +576,242 @@
                     </aside>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+<!-- ===================== INTRO + BOOKING (REDESIGNED) ===================== -->
+<section class="service-intro">
+  <div class="container">
+    <div class="service-intro-grid">
+
+      <!-- LEFT CONTENT -->
+      <div class="service-intro-content">
+        <span class="service-kicker">Thermenservice Wien & NÖ</span>
+
+        <h2>
+          Ihr zuverlässiger Partner für<br>
+          Thermenwartung & Reparatur
+        </h2>
+
+        <p class="service-lead">
+          Professionelle Wartung, schnelle Reparatur und transparente Preise –
+          für Wohnungen, Häuser und Gewerbe in Wien & Niederösterreich.
+        </p>
+
+        <div class="service-features">
+          <div class="service-feature">
+            <div class="icon">✓</div>
+            <div>
+              <strong>Alle Marken & Hersteller</strong>
+              <span>Vaillant, Junkers, Baxi, Buderus uvm.</span>
+            </div>
+          </div>
+
+          <div class="service-feature">
+            <div class="icon">✓</div>
+            <div>
+              <strong>Transparente Preise</strong>
+              <span>Fixpreise inkl. MwSt – keine versteckten Kosten</span>
+            </div>
+          </div>
+
+          <div class="service-feature">
+            <div class="icon">✓</div>
+            <div>
+              <strong>Schnelle Termine</strong>
+              <span>Flexible Wunschtermine & Notdienst möglich</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT FORM -->
+      <div class="service-booking-card">
+        <div class="booking-head">
+          <h3>Online Termin vereinbaren</h3>
+          <p>Unverbindliche Anfrage in wenigen Sekunden</p>
+        </div>
+
+        <form class="booking-form">
+          <input type="text" placeholder="Marke z.B. Vaillant" required>
+
+          <div class="form-row">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="E-Mail" required>
+          </div>
+
+          <div class="form-row">
+            <input type="tel" placeholder="Telefonnummer" required>
+            <input type="text" placeholder="Wunschtermin">
+          </div>
+
+          <input type="text" placeholder="Straße, PLZ, Ort" required>
+
+          <textarea placeholder="Ihre Nachricht"></textarea>
+
+          <button type="submit" class="booking-btn">
+            Jetzt Thermenwartung anfragen
+          </button>
+
+          <span class="form-note">
+            ✓ Schnell · ✓ Sicher · ✓ Unverbindlich
+          </span>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+        <style>
+.service-intro{
+  padding:80px 0;
+  background:#f7f9fb;
+}
+
+.service-intro-grid{
+  display:grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap:50px;
+  align-items:center;
+}
+
+.service-kicker{
+  font-weight:700;
+  font-size:14px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:#EE7C20;
+  display:block;
+  margin-bottom:12px;
+}
+
+.service-intro-content h2{
+  font-size:34px;
+  font-weight:800;
+  line-height:1.2;
+  margin-bottom:18px;
+}
+
+.service-lead{
+  font-size:17px;
+  color:#555;
+  margin-bottom:28px;
+  max-width:520px;
+}
+
+.service-features{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.service-feature{
+  display:flex;
+  gap:14px;
+  align-items:flex-start;
+}
+
+.service-feature .icon{
+  width:28px;
+  height:28px;
+  border-radius:8px;
+  background:#EE7C20;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+}
+
+.service-feature strong{
+  display:block;
+  font-size:15px;
+}
+
+.service-feature span{
+  font-size:14px;
+  color:#666;
+}
+
+/* BOOKING CARD */
+.service-booking-card{
+  background:#fff;
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.booking-head h3{
+  font-size:20px;
+  font-weight:700;
+  margin-bottom:4px;
+}
+
+.booking-head p{
+  font-size:14px;
+  color:#666;
+  margin-bottom:20px;
+}
+
+.booking-form input,
+.booking-form textarea{
+  width:100%;
+  border-radius:12px;
+  border:1px solid #e2e6ea;
+  padding:12px 14px;
+  margin-bottom:14px;
+  font-size:14px;
+}
+
+.booking-form textarea{
+  resize:none;
+  height:100px;
+}
+
+.form-row{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.booking-btn{
+  width:100%;
+  background:#EE7C20;
+  color:#fff;
+  border:0;
+  padding:14px;
+  border-radius:12px;
+  font-weight:700;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.booking-btn:hover{
+  background:#e67f0f;
+}
+
+.form-note{
+  display:block;
+  margin-top:12px;
+  font-size:12px;
+  color:#777;
+  text-align:center;
+}
+
+/* Responsive */
+@media (max-width:992px){
+  .service-intro-grid{
+    grid-template-columns:1fr;
+  }
+  .form-row{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+
+
+
 
         <!-- Steps -->
         <section class="steps">
@@ -1779,4 +2188,275 @@ html{ scroll-behavior:smooth; }
             </div>
         </section>
     </main>
+
+    <!-- Owl Carousel JS (mobile slider for 'Bekannt aus') -->
+    <script>
+      (function () {
+        function loadScript(src, cb) {
+          var s = document.createElement('script');
+          s.src = src;
+          s.async = true;
+          s.onload = cb;
+          document.head.appendChild(s);
+        }
+
+        function ensureJquery(next) {
+          if (window.jQuery) return next();
+          loadScript('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js', next);
+        }
+
+        function ensureOwl(next) {
+          ensureJquery(function () {
+            if (window.jQuery && window.jQuery.fn && window.jQuery.fn.owlCarousel) return next();
+            loadScript('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js', next);
+          });
+        }
+
+        function destroyOwl($el) {
+          // If not initialized, nothing to do
+          if (!$el.hasClass('owl-loaded')) return;
+
+          $el.trigger('destroy.owl.carousel');
+          $el.removeClass('owl-carousel owl-loaded owl-theme');
+
+          // unwrap Owl markup (stage-outer -> stage -> item)
+          $el.find('.owl-stage-outer').children().unwrap();
+          $el.find('.owl-stage').children().unwrap();
+          $el.find('.owl-item').children().unwrap();
+
+          // remove controls
+          $el.find('.owl-nav, .owl-dots').remove();
+        }
+
+        function initAsSeen() {
+          var $ = window.jQuery;
+          if (!$) return;
+
+          var $el = $('.js-as-seen-carousel');
+          if (!$el.length) return;
+
+          var isMobile = window.innerWidth <= 768;
+
+          if (isMobile) {
+            if ($el.hasClass('owl-loaded')) return;
+
+            $el.addClass('owl-carousel owl-theme');
+            $el.owlCarousel({
+              loop: true,
+              margin: 18,
+              nav: false,
+              dots: true,
+              autoplay: true,
+              autoplayTimeout: 2500,
+              autoplayHoverPause: true,
+              responsive: {
+                0: { items: 2 },
+                480: { items: 3 },
+                640: { items: 4 }
+              }
+            });
+          } else {
+            destroyOwl($el);
+          }
+        }
+
+        function debounce(fn, wait) {
+          var t;
+          return function () {
+            clearTimeout(t);
+            t = setTimeout(fn, wait);
+          };
+        }
+
+        ensureOwl(function () {
+          document.addEventListener('DOMContentLoaded', function () {
+            initAsSeen();
+            window.addEventListener('resize', debounce(initAsSeen, 200));
+          });
+        });
+      })();
+    </script>
+
+<!-- Owl Carousel (mobile only) -->
+  <!-- <script>
+(function(){
+  const slider = document.getElementById('asSeenSlider');
+  const track  = document.getElementById('asSeenTrack');
+  if(!slider || !track) return;
+
+  // Clone items for seamless looping (mobile only)
+  function setupLoop(){
+    if(!window.matchMedia('(max-width: 768px)').matches) return;
+
+    // Avoid double setup
+    if(track.dataset.loopReady === '1') return;
+    track.dataset.loopReady = '1';
+
+    const items = Array.from(track.children);
+    const cloneHead = items.map(n => n.cloneNode(true));
+    const cloneTail = items.map(n => n.cloneNode(true));
+
+    cloneHead.forEach(n => { n.dataset.clone="1"; track.appendChild(n); });
+    cloneTail.reverse().forEach(n => { n.dataset.clone="1"; track.insertBefore(n, track.firstChild); });
+
+    // Jump to the "real" first set (middle)
+    requestAnimationFrame(() => {
+      const jumpTo = items[0].offsetLeft; // after prep, offsetLeft points to middle area
+      track.scrollLeft = jumpTo;
+    });
+  }
+
+  function getStep(){
+    // step = one item width + gap
+    const first = track.querySelector('.as-seen-item');
+    if(!first) return 120;
+    const style = getComputedStyle(track);
+    const gap = parseFloat(style.columnGap || style.gap || 18);
+    return first.getBoundingClientRect().width + gap;
+  }
+
+  function move(dir){
+    const step = getStep();
+    track.scrollBy({ left: dir * step, behavior: 'smooth' });
+  }
+
+  // Seamless loop correction
+  function handleLoop(){
+    if(!window.matchMedia('(max-width: 768px)').matches) return;
+    const items = track.querySelectorAll('.as-seen-item:not([data-clone="1"])');
+    if(!items.length) return;
+
+    const firstReal = items[0];
+    const lastReal  = items[items.length - 1];
+
+    const leftEdge  = track.scrollLeft;
+    const rightEdge = track.scrollLeft + track.clientWidth;
+
+    // If user reaches far left (into clones), jump to same position in real set
+    if(leftEdge <= firstReal.offsetLeft - track.clientWidth){
+      track.scrollLeft = lastReal.offsetLeft;
+    }
+
+    // If user reaches far right (into clones), jump back
+    if(rightEdge >= lastReal.offsetLeft + lastReal.offsetWidth + track.clientWidth){
+      track.scrollLeft = firstReal.offsetLeft;
+    }
+  }
+
+  // Buttons
+  slider.querySelector('.as-seen-prev')?.addEventListener('click', () => move(-1));
+  slider.querySelector('.as-seen-next')?.addEventListener('click', () => move(1));
+
+  // Init loop on load + resize
+  setupLoop();
+  track.addEventListener('scroll', () => { window.requestAnimationFrame(handleLoop); }, { passive:true });
+
+  window.addEventListener('resize', () => {
+    // Reset loop when switching desktop/mobile
+    if(!window.matchMedia('(max-width: 768px)').matches){
+      // remove clones if exist
+      [...track.querySelectorAll('[data-clone="1"]')].forEach(n => n.remove());
+      delete track.dataset.loopReady;
+      track.scrollLeft = 0;
+    } else {
+      setupLoop();
+    }
+  }, { passive:true });
+})();
+</script> -->
+
+<script>
+(function(){
+  const slider = document.getElementById('asSeenSlider');
+  const track  = document.getElementById('asSeenTrack');
+  if(!slider || !track) return;
+
+  function getStep(){
+    const first = track.querySelector('.as-seen-item');
+    if(!first) return 200;
+    const gap = parseFloat(getComputedStyle(track).gap || 26);
+    return first.getBoundingClientRect().width + gap;
+  }
+
+  function move(dir){
+    // move by ~3 items on desktop, ~2 items on mobile
+    const step = getStep();
+    const perClick = window.matchMedia('(max-width: 768px)').matches ? 2 : 3;
+    track.scrollBy({ left: dir * step * perClick, behavior: 'smooth' });
+  }
+
+  slider.querySelector('.as-seen-prev')?.addEventListener('click', () => move(-1));
+  slider.querySelector('.as-seen-next')?.addEventListener('click', () => move(1));
+
+  // Keyboard support (optional nice)
+  track.addEventListener('keydown', (e) => {
+    if(e.key === 'ArrowLeft') move(-1);
+    if(e.key === 'ArrowRight') move(1);
+  });
+})();
+</script>
+<script>
+(function(){
+  const slider = document.getElementById('asSeenSlider');
+  const track  = document.getElementById('asSeenTrack');
+  if(!slider || !track) return;
+
+  const prevBtn = slider.querySelector('.as-seen-prev');
+  const nextBtn = slider.querySelector('.as-seen-next');
+
+  const AUTO_SPEED = 0.5; // smaller = slower
+  let position = 0;
+  let animationFrame;
+
+  // Clone items for seamless infinite loop
+  function setupClones(){
+    const items = Array.from(track.children);
+    items.forEach(item => {
+      const clone = item.cloneNode(true);
+      track.appendChild(clone);
+    });
+  }
+
+  function getTrackWidth(){
+    return track.scrollWidth / 2;
+  }
+
+  function animate(){
+    position -= AUTO_SPEED;
+
+    if(Math.abs(position) >= getTrackWidth()){
+      position = 0; // seamless reset
+    }
+
+    track.style.transform = `translateX(${position}px)`;
+    animationFrame = requestAnimationFrame(animate);
+  }
+
+  function stop(){
+    cancelAnimationFrame(animationFrame);
+  }
+
+  function start(){
+    stop();
+    animate();
+  }
+
+  function move(dir){
+    position += dir * 200; // manual step
+  }
+
+  prevBtn?.addEventListener('click', () => move(1));
+  nextBtn?.addEventListener('click', () => move(-1));
+
+  slider.addEventListener('mouseenter', stop);
+  slider.addEventListener('mouseleave', start);
+
+  // Init
+  setupClones();
+  start();
+
+})();
+</script>
+
+
 @endsection

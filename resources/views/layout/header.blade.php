@@ -85,6 +85,50 @@
             </div>
         </div>
 
+        <!-- THERMENTAUSCH (NEW) -->
+        <div class="nav-dropdown">
+            <a href="#" aria-haspopup="true" aria-expanded="false"
+               onclick="event.preventDefault(); this.parentElement.classList.toggle('open');">
+                Thermentausch <span class="chev">▾</span>
+            </a>
+
+            <div class="nav-dropdown-panel" role="menu" aria-label="Thermentausch">
+                <div class="dd-title">Thermentausch</div>
+                <a class="dd-item" href="{{ url('/Thermentausch/vaillant') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
+                <a class="dd-item" href="{{ url('/Thermentausch/buderus') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
+                <a class="dd-item" href="{{ url('/Thermentausch/baxi') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
+                <a class="dd-item" href="{{ url('/Thermentausch/junkers') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
+                <a class="dd-item" href="{{ url('/Thermentausch/viessmann') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
+                <a class="dd-item" href="{{ url('/Thermentausch/wolf') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
+                <a class="dd-item" href="{{ url('/Thermentausch/saunier') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
+                <a class="dd-item" href="{{ url('/Thermentausch/löblich') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+                <a class="dd-item" href="{{ url('/Thermentausch/ocean') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
+                <a class="dd-item" href="{{ url('/Thermentausch/rapido') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+            </div>
+        </div>
+
+        <!-- THERMENREPARATUR (NEW) -->
+        <div class="nav-dropdown">
+            <a href="#" aria-haspopup="true" aria-expanded="false"
+               onclick="event.preventDefault(); this.parentElement.classList.toggle('open');">
+                Thermenreparatur <span class="chev">▾</span>
+            </a>
+
+            <div class="nav-dropdown-panel" role="menu" aria-label="Thermenreparatur">
+                <div class="dd-title">Thermenreparatur</div>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/vaillant') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/buderus') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/baxi') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/junkers') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/viessmann') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/wolf') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/saunier') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/löblich') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/ocean') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
+                <a class="dd-item" href="{{ url('/Thermenreparatur/rapido') }}" onclick="closeMobileMenu()"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+            </div>
+        </div>
+
         <a href="#kontakt" onclick="closeMobileMenu()">Kontakt</a>
     </div>
 </div>
@@ -148,7 +192,7 @@
 
     <!-- MAIN HEADER -->
     <div class="main-header">
-        <div class="container">
+        <div class="container-fluid px-5">
             <div class="header-inner">
                 <a class="brand" href="{{ url('/') }}" aria-label="Thermendienst Startseite">
                     <img src="{{ asset('img/logo.jpeg') }}" width="140" alt="Thermendienst Logo">
@@ -214,6 +258,46 @@
                             <a class="dd-item" href="{{ url('/notdienstwien/löblich') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
                             <a class="dd-item" href="{{ url('/notdienstwien/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
                             <a class="dd-item" href="{{ url('/notdienstwien/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+                        </div>
+                    </div>
+
+                    <!-- THERMENTAUSCH (NEW) -->
+                    <div class="nav-dropdown">
+                        <a href="#" aria-haspopup="true" aria-expanded="false">
+                            Thermentausch <span class="chev">▾</span>
+                        </a>
+                        <div class="nav-dropdown-panel" role="menu" aria-label="Thermentausch">
+                            <div class="dd-title">Thermentausch</div>
+                            <a class="dd-item" href="{{ url('/Thermentausch/vaillant') }}"><img class="dd-logo" src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
+                            <a class="dd-item" href="{{ url('/Thermentausch/buderus') }}"><img class="dd-logo" src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
+                            <a class="dd-item" href="{{ url('/Thermentausch/baxi') }}"><img class="dd-logo" src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
+                            <a class="dd-item" href="{{ url('/Thermentausch/junkers') }}"><img class="dd-logo" src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
+                            <a class="dd-item" href="{{ url('/Thermentausch/viessmann') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
+                            <a class="dd-item" href="{{ url('/Thermentausch/wolf') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
+                            <a class="dd-item" href="{{ url('/Thermentausch/saunier') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
+                            <a class="dd-item" href="{{ url('/Thermentausch/löblich') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+                            <a class="dd-item" href="{{ url('/Thermentausch/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
+                            <a class="dd-item" href="{{ url('/Thermentausch/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+                        </div>
+                    </div>
+
+                    <!-- THERMENREPARATUR (NEW) -->
+                    <div class="nav-dropdown">
+                        <a href="#" aria-haspopup="true" aria-expanded="false">
+                            Thermenreparatur <span class="chev">▾</span>
+                        </a>
+                        <div class="nav-dropdown-panel" role="menu" aria-label="Thermenreparatur">
+                            <div class="dd-title">Thermenreparatur</div>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/vaillant') }}"><img class="dd-logo" src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/buderus') }}"><img class="dd-logo" src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/baxi') }}"><img class="dd-logo" src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/junkers') }}"><img class="dd-logo" src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/viessmann') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/wolf') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/saunier') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/löblich') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
+                            <a class="dd-item" href="{{ url('/Thermenreparatur/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
                         </div>
                     </div>
 
@@ -288,6 +372,44 @@
                             <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/notdienstwien/löblich') }}">Löblich</a>
                             <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/notdienstwien/ocean') }}">Ocean</a>
                             <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/notdienstwien/rapido') }}">Rapido</a>
+                        </div>
+                    </div>
+
+                    <!-- THERMENTAUSCH block (NEW) -->
+                    <div style="margin-top:10px; border-radius:12px; overflow:hidden; border:1px solid var(--line);">
+                        <div style="padding:12px 14px; font-weight:900; background:#122a57; color:#fff;">
+                            Thermentausch
+                        </div>
+                        <div style="background:#122a57; padding:6px 0;">
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/vaillant') }}">Vaillant</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/buderus') }}">Buderus</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/baxi') }}">Baxi</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/junkers') }}">Junkers</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/viessmann') }}">Viessmann</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/wolf') }}">Wolf</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/saunier') }}">Saunier Duval</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/löblich') }}">Löblich</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/ocean') }}">Ocean</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/rapido') }}">Rapido</a>
+                        </div>
+                    </div>
+
+                    <!-- THERMENREPARATUR block (NEW) -->
+                    <div style="margin-top:10px; border-radius:12px; overflow:hidden; border:1px solid var(--line);">
+                        <div style="padding:12px 14px; font-weight:900; background:#122a57; color:#fff;">
+                            Thermenreparatur
+                        </div>
+                        <div style="background:#122a57; padding:6px 0;">
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/vaillant') }}">Vaillant</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/buderus') }}">Buderus</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/baxi') }}">Baxi</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/junkers') }}">Junkers</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/viessmann') }}">Viessmann</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/wolf') }}">Wolf</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/saunier') }}">Saunier Duval</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/löblich') }}">Löblich</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/ocean') }}">Ocean</a>
+                            <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/rapido') }}">Rapido</a>
                         </div>
                     </div>
 

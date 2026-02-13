@@ -74,3 +74,17 @@ Route::prefix('Thermentausch')->group(function(){
     Route::get('/ocean',fn() => view('Thermentausch.ocean'));
     Route::get('/rapido',fn() => view('Thermentausch.rapido'));
 });
+
+
+Route::prefix('Thermenreparatur')->group(function(){
+    Route::get('/vaillant',fn() => view('Thermenreparatur.vaillant'));
+    Route::get('/junkers',fn() => view('Thermenreparatur.junkers'));
+    Route::get('/viessmann',fn() => view('Thermenreparatur.viessmann'));
+    Route::get('/wolf',fn() => view('Thermenreparatur.wolf'));
+    Route::get('/baxi',fn() => view('Thermenreparatur.baxi'));
+    Route::get('/buderus',fn() => view('Thermenreparatur.buderus'));
+    // Route::get('/saunier',fn() => view('Thermenreparatur.saunier'));
+    // Route::get('/löblich',fn() => view('Thermenreparatur.löblich'));
+    // Route::get('/ocean',fn() => view('Thermenreparatur.ocean'));
+    Route::get('/rapido',fn() => view('Thermenreparatur.rapido'));
+});
