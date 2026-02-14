@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-     ;
+    
     object-position:center;
   }
 
@@ -434,19 +434,68 @@
 </section>
 
 
-  <!-- Quick tabs -->
-  <section class="service-quicktabs" id="quicktabs-services">
-    <div class="service-container">
-      <div class="service-tabs">
-        <a class="service-tab" href="#vorteile-services">Vorteile</a>
-        <a class="service-tab" href="#partner-services">Fachbetrieb</a>
-        <a class="service-tab" href="#leistungen-services">Leistungen</a>
-        <a class="service-tab" href="#geraete-services">Geräte</a>
-        <a class="service-tab" href="#ablauf-services">Ablauf</a>
-        <a class="service-tab" href="#notdienst-services">Notdienst</a>
-        <a class="service-tab" href="#preise-services">Kosten</a>
-        <a class="service-tab" href="#faq-services">FAQ</a>
-        <a class="service-tab" href="#kontakt-services">Kontakt</a>
+      <!-- ✅ TOC AFTER HERO -->
+<section class="toc-wrap" aria-label="Inhaltsverzeichnis">
+  <div class="service-container">
+    <div class="toc-card is-collapsed" id="tocCard">
+      <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+        <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+
+        <div class="toc-actions">
+          <button class="toc-iconbtn" type="button" id="tocToggle"
+            aria-expanded="false" aria-controls="tocBody"
+            aria-label="Inhaltsverzeichnis umschalten">
+            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
+              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="toc-body" id="tocBody">
+        <ul class="toc-list" id="tocList">
+          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
+          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
+          <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
+          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
+          <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
+          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
+          <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
+          <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
+          <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+          <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Partner -->
+  <section class="service-section service-section--soft" id="partner-services">
+    <div class="service-container service-split">
+      <div class="service-split__text">
+        <h2>Ihr Viessmann Partner in Wien & Umgebung</h2>
+        <p>
+          Als zuverlässiger Partner für Viessmann Thermenwartung, Thermenwartung in Wien und professionellen Thermenservice
+          stehen wir unseren Kunden mit Erfahrung, Expertise und technischem Know-how zur Seite.
+        </p>
+        <p style="margin-top:10px;">
+          Wir arbeiten strikt nach Vorgaben des Herstellers Viessmann, verwenden geprüfte Komponenten, moderne Gasgeräte
+          und hochwertige Bauteile. Als erfahrener Installateur sind wir in Wien, Niederösterreich, NÖ und angrenzenden Regionen
+          im Einsatz – zuverlässig, sicher und effizient.
+        </p>
+
+        <div class="service-stats">
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hersteller-Standards</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Moderne Geräte</div></div>
+          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & NÖ</div></div>
+        </div>
+      </div>
+
+      <div class="service-split__media service-media">
+        <div class="service-media__box">
+          <img class="service-media__img" src="{{ asset('img/viesman.jpeg') }}" alt="Viessmann Partner Wien" loading="lazy" decoding="async"/>
+        </div>
       </div>
     </div>
   </section>
@@ -493,35 +542,7 @@
     </div>
   </section>
 
-  <!-- Partner -->
-  <section class="service-section service-section--soft" id="partner-services">
-    <div class="service-container service-split">
-      <div class="service-split__text">
-        <h2>Ihr Viessmann Partner in Wien & Umgebung</h2>
-        <p>
-          Als zuverlässiger Partner für Viessmann Thermenwartung, Thermenwartung in Wien und professionellen Thermenservice
-          stehen wir unseren Kunden mit Erfahrung, Expertise und technischem Know-how zur Seite.
-        </p>
-        <p style="margin-top:10px;">
-          Wir arbeiten strikt nach Vorgaben des Herstellers Viessmann, verwenden geprüfte Komponenten, moderne Gasgeräte
-          und hochwertige Bauteile. Als erfahrener Installateur sind wir in Wien, Niederösterreich, NÖ und angrenzenden Regionen
-          im Einsatz – zuverlässig, sicher und effizient.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hersteller-Standards</div></div>
-          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Moderne Geräte</div></div>
-          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & NÖ</div></div>
-        </div>
-      </div>
-
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/viesman.jpeg') }}" alt="Viessmann Partner Wien" loading="lazy" decoding="async"/>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">

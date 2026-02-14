@@ -1,11 +1,3 @@
-Löblich.html
-
-
-
-
-
-
-
 @extends('layout.app')
 
 @section('main')
@@ -59,25 +51,6 @@ Löblich.html
   .service-btn--ghost-on-dark:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.22)}
   .service-btn--full{width:100%}
 
-  /* Quick tabs */
-  .service-quicktabs{padding:10px 0 20px}
-  .service-tabs{
-    display:flex; gap:10px; flex-wrap:wrap;
-    padding:10px;
-    border:1px solid var(--line);
-    border-radius:19px;
-    background:#fff;
-    justify-content: space-between;
-  }
-  .service-tab{
-    padding:10px 12px;
-    border-radius:999px;
-    font-weight:800;
-    color:var(--ink);
-    border:1px solid transparent;
-  }
-  .service-tab:hover{border-color:var(--line); background:rgba(24,64,72,.05)}
-
   /* Sections */
   .service-section{padding:54px 0}
   .service-section--soft{background:linear-gradient(0deg, var(--muted), #fff)}
@@ -92,13 +65,6 @@ Löblich.html
 
   .service-grid{display:grid; gap:14px}
   .service-grid--2{grid-template-columns: repeat(2, 1fr)}
-
-  .service-card{
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius: var(--radius);
-    padding:16px;
-  }
 
   .service-feature{
     display:flex; gap:12px;
@@ -119,71 +85,34 @@ Löblich.html
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  .service-checklist{margin:0; padding-left:18px}
-  .service-checklist li{margin:8px 0}
-
-  /* =====================================================
-     ✅ IMAGES EQUAL HEIGHT AS CONTENT (CARD-SPLIT)
-     ===================================================== */
-  .card-split{
+  /* ✅ stats pills (2 in a row) */
+  .service-stats{
     display:grid;
-    grid-template-columns: 1.12fr .88fr;
-    gap:18px;
-    align-items:stretch; /* ✅ equal height columns */
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap:10px;
+    margin-top:14px;
   }
-  .card-split--reverse .card-split__text{order:2}
-  .card-split--reverse .card-split__media{order:1}
-
-  .card-split__text,
-  .card-split__media{
-    display:flex; /* ✅ allow child to stretch */
-  }
-
-  .card-box{
-    width:100%;
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius:var(--radius2);
-    padding:18px;
-  }
-  .card-box h2{
-    margin:0 0 8px;
-    color:var(--ink);
-    font-size: clamp(22px, 2.2vw, 30px);
-    letter-spacing:-.02em;
-  }
-  .card-box p{margin:0}
-  .card-box p + p{margin-top:10px}
-
-  /* Image box */
-  .service-media{width:100%;}
-  .service-media__box{
-    width:100%;
-    height:100%;       /* ✅ match text height */
-    border-radius: var(--radius2);
-    border:1px solid var(--line);
-    box-shadow:0 18px 50px rgba(0,0,0,.12);
-    overflow:hidden;
-    background: var(--muted);
-  }
-  .service-media__img{
-    width:100%;
-    height:100%;
-    display:block;
-    /* object-fit:cover;  ✅ fill nicely */
-    object-position:center;
-  }
-
-  .service-stats{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;}
   .service-stat{
-    display:flex; align-items:center; gap:10px;
-    padding:10px 12px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 14px;
     border-radius:999px;
     background:rgba(24,64,72,.06);
-    border:1px solid var(--line);
+    border:1px solid rgba(24,64,72,.18);
   }
-  .service-stat__num{font-weight:900; color:var(--ink)}
-  .service-stat__label{font-weight:800}
+  .service-stat__num{
+    width:22px; height:22px;
+    border-radius:999px;
+    display:grid; place-items:center;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.22);
+    font-weight:900;
+    color:var(--ink);
+    line-height:1;
+    flex:0 0 auto;
+  }
+  .service-stat__label{font-weight:800; color:var(--ink)}
 
   /* Dark section */
   .service-section--dark{
@@ -206,6 +135,7 @@ Löblich.html
     border-radius:var(--radius);
     padding:16px;
   }
+  .service-checklist{margin:0; padding-left:18px}
   .service-checklist--on-dark{color:rgba(255,255,255,.92)}
   .service-checklist--on-dark li{margin:10px 0}
 
@@ -267,6 +197,57 @@ Löblich.html
   .service-formrow{display:grid; grid-template-columns: 1fr 1fr; gap:10px;}
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
+
+  /* ===== ✅ Card split (EQUAL HEIGHT like your previous site) ===== */
+  .card-split{
+    display:grid;
+    grid-template-columns: 1.12fr .88fr;
+    gap:18px;
+    align-items:stretch; /* ✅ stretch for equal height */
+  }
+  .card-split--reverse .card-split__text{order:2}
+  .card-split--reverse .card-split__media{order:1}
+
+  .card-split__text,
+  .card-split__media{
+    display:flex; /* ✅ make children fill height */
+  }
+
+  .card-box{
+    width:100%;
+    height:100%;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius2);
+    padding:18px;
+  }
+  .card-box h2{
+    margin:0 0 8px;
+    color:var(--ink);
+    font-size: clamp(22px, 2.2vw, 30px);
+    letter-spacing:-.02em;
+  }
+  .card-box p{margin:0}
+  .card-box p + p{margin-top:10px}
+
+  /* ✅ Image box = equal height with content (fills full) */
+  .service-media{width:100%;}
+  .service-media__box{
+    width:100%;
+    height:100%;            /* ✅ same height as text card */
+    border-radius: var(--radius2);
+    border:1px solid var(--line);
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+    overflow:hidden;
+    background: var(--muted);
+  }
+  .service-media__img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position:center;
+  }
 
   /* ===== HERO (wolf) ===== */
   .wolf-hero{
@@ -344,6 +325,7 @@ Löblich.html
   }
   .wolf-hero__logo{margin:22px 0 20px; display:flex; justify-content:center;}
   .wolf-hero__logo img{width:170px; max-width:60vw; transform: rotate(-6deg);}
+
   .wolf-hero__bullets{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:0 0 6px;}
   .wolf-pill{
     padding:8px 10px;
@@ -387,7 +369,7 @@ Löblich.html
   }
 
   /* =========================
-     ✅ TOC (AFTER HERO)
+     ✅ TOC (after hero, full width)
      ========================= */
   .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
@@ -407,12 +389,7 @@ Löblich.html
     background:linear-gradient(0deg, #f7fbfb, #fff);
     border-bottom:1px solid rgba(24,64,72,.12);
   }
-  .toc-head h4{
-    margin:0;
-    font-size:15px;
-    font-weight:900;
-    color:var(--ink);
-  }
+  .toc-head h4{margin:0; font-size:15px; font-weight:900; color:var(--ink);}
   .toc-actions{display:flex; gap:8px; align-items:center;}
   .toc-iconbtn{
     width:34px; height:34px;
@@ -429,7 +406,6 @@ Löblich.html
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-    
     overflow:auto;
   }
   .toc-list{
@@ -462,11 +438,7 @@ Löblich.html
     flex:0 0 auto;
   }
   .toc-text{font-weight:900; color:#0f3a40; font-size:14px; line-height:1.2;}
-  .toc-card.is-collapsed .toc-body{
-    max-height:0;
-    padding:0 12px;
-    overflow:hidden;
-  }
+  .toc-card.is-collapsed .toc-body{max-height:0; padding:0 12px; overflow:hidden;}
 
   /* Mobile */
   @media (max-width: 980px){
@@ -474,43 +446,51 @@ Löblich.html
     .service-emergency{grid-template-columns:1fr}
     .service-cta__inner{grid-template-columns:1fr}
     .service-formrow{grid-template-columns:1fr}
+
+    .service-stats{grid-template-columns:1fr;} /* stats 1 per row on mobile */
+
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
+
+    .card-split__text,
+    .card-split__media{display:block;}
+
+    .service-media__box{min-height:220px; height:auto;} /* ✅ nice on mobile */
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
 </style>
 
 @push('meta')
-  <title>Löblich Thermenreparatur Wien – Thermenservice & Thermenwartung Wien</title>
-  <meta name="description" content="Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wien, Reparaturen, Thermentausch und Service in Wien, Niederösterreich und Burgenland.">
+  <title>Windhager Kundendienst Wien | Thermenwartung, Reparatur & Notdienst</title>
+  <meta name="description" content="Windhager Kundendienst Wien für Gastherme & Heizung. Thermenwartung, Reparatur, Fehlercode-Diagnose und Notdienst rund um die uhr in Wien, NÖ & Burgenland.">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">Löblich Thermenservice rund um die Uhr</p>
+      <p class="wolf-hero__kicker">service rund um die uhr</p>
 
       <h1>
-        Löblich Thermenreparatur Wien<br>
-        <em>Thermenservice & Thermenwartung Wien</em>
+        Windhager Kundendienst Wien<br>
+        <em>service rund um die uhr</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Zuverlässige Hilfe für Ihre Löblich Thermen in Wien – Thermenservice, Thermenwartung und Reparaturen für Ihr Zuhause.
+        Professioneller Windhager Kundendienst Wien für Gastherme, Heizung und Thermenwartung inklusive Reparatur und Notdienst.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich Thermenreparatur Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Windhager Kundendienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
         <span class="wolf-pill">Thermenwartung</span>
-        <span class="wolf-pill">Reparaturen</span>
-        <span class="wolf-pill">Thermentausch</span>
-        <span class="wolf-pill">Notdienst</span>
+        <span class="wolf-pill">Reparatur</span>
+        <span class="wolf-pill">Fehlercode-Diagnose</span>
+        <span class="wolf-pill">Notdienst rund um die uhr</span>
       </div>
 
       <div class="wolf-hero__actions">
@@ -521,8 +501,8 @@ Löblich.html
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Löblich Thermenreparatur Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab €95</strong></p>
+            <h2 class="promo-banner__title"><em>Windhager Kundendienst Aktion</em></h2>
+            <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
               <span class="promo-banner__btn-ico">  </span>
@@ -534,7 +514,7 @@ Löblich.html
     </div>
   </section>
 
-<!-- ✅ TOC AFTER HERO -->
+ <!-- ✅ TOC AFTER HERO -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
     <div class="toc-card is-collapsed" id="tocCard">
@@ -554,12 +534,12 @@ Löblich.html
 
       <div class="toc-body" id="tocBody">
         <ul class="toc-list" id="tocList">
-          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Löblich Service</span></a></li>
-          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Experten</span></a></li>
+          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
+          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
           <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Thermenwartung</span></a></li>
+          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
           <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notfall</span></a></li>
+          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
           <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
           <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
           <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
@@ -570,194 +550,214 @@ Löblich.html
   </div>
 </section>
 
-  <!-- ✅ UPDATED: card box left + image right -->
+  <!-- Service -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermenreparatur Wien und Thermenservice</h2>
+            <h2>Windhager Service in Wien</h2>
             <p>
-              Unsere Löblich Thermenreparatur Wien steht für professionellen Löblich Thermenservice und fachgerechte Reparaturen an allen Löblich Thermen. Als erfahrener Installateur betreuen wir Gasthermen, Gasgeräte und jedes einzelne Gerät direkt bei Ihnen zuhause in Wien und Umgebung.
+              Der Windhager Kundendienst Wien bietet zuverlässigen Service für Windhager Gastherme, Thermen und moderne Heizsysteme direkt am Ort.
+              Kunden in Wien und Niederösterreich profitieren von schneller Hilfe, persönlicher Beratung und professioneller Betreuung.
             </p>
             <p>
-              Unser Kundendienst ist rasch im Einsatz und sorgt für sichere Überprüfung, gründliche Kontrolle und nachhaltige Lösung bei jedem Problem. Löblich arbeitet nach aktuellen Richtlinien der Hersteller und setzt auf hochwertige Ersatzteile für maximale Sicherheit. Ob für Mieter, Vermieter oder Eigentümer – wir kümmern uns um Thermenservice, Thermenwartung und optimale Funktionen Ihrer Heizungsanlage. Auch in Niederösterreich und im Burgenland stehen wir als verlässlicher Partner zur Verfügung.
+              Als Meisterbetrieb arbeiten wir nach höchsten Standards und betreuen unterschiedliche Modelle der Marke Windhager.
+              Unser Service umfasst Thermenwartung, Wartung, Reparatur und umfassende Überprüfung aller Komponenten.
+              Ziel unseres Unternehmens ist es, Sicherheit, Effizienz und langfristigen Betrieb Ihrer Heizung zu gewährleisten.
+              Auch im Burgenland stehen unsere Profis für kompetente Unterstützung zur Verfügung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="Löblich Thermenreparatur Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/wolf.jpeg') }}" alt="Windhager Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left, content right) -->
+  <!-- Team -->
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermenreparatur Wien Experten</h2>
+            <h2>Techniker, Meisterbetrieb & Profis</h2>
             <p>
-              Unser Team besteht aus erfahrenen Servicetechnikern und Installateuren mit umfassendem Know-how im Umgang mit Löblich Thermen und Gasthermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards und führt Reparaturen mit höchster Professionalität durch.
+              Unser Windhager Kundendienst wird von erfahrenen Technikern, Installateur-Fachkräften und Profis durchgeführt.
+              Mit fundierter Erfahrung, Diagnose-Kompetenz und präziser Arbeit sorgen wir für schnelle Behebung jedes Problems.
             </p>
             <p>
-              Durch laufende Schulungen sichern wir eine kompetente Betreuung aller Systeme. Klare Abläufe, Zuverlässigkeit und persönliche Betreuung schaffen Vertrauen und langfristige Kundenzufriedenheit. Unsere Techniker betreuen auch andere Marken, arbeiten jedoch spezialisiert mit Löblich Thermenservice.
+              Unsere Experten analysieren Fehlercode-Anzeigen wie E02 Überhitzungsschutz, E110 Kessel, E133 Zündungsfehler,
+              E161 Lüfterfehler oder E164 Lüfterfehler sorgfältig. Auch komplexe Fehlermeldungen wie E21 E22 oder E97 E99
+              werden fachgerecht überprüft. Durch strukturierte Fehlersuche, Überprüfung und Reinigung sichern wir einen stabilen
+              Betrieb Ihrer Windhager Therme. Zuverlässigkeit und professionelle Betreuung stehen dabei im Mittelpunkt.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Qualitätsstandards</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Herstellerrichtlinien</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Persönliche Betreuung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Diagnose-Kompetenz</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Strukturierte Fehlersuche</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Professionelle Betreuung</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.jpeg') }}" alt="Löblich Thermenreparatur Wien Experten" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Techniker, Meisterbetrieb & Profis" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen (kept as grid) -->
+  <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen unseres Löblich Kundendienstes</h2>
-        <p>Reparaturen, Thermenwartung, Thermentausch und Service – professionell betreut.</p>
+        <h2>Leistungen unseres Kundendienstes</h2>
+        <p>Thermenservice, Thermenwartung, Reparatur, Diagnose und Thermentausch – professionell betreut.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Reparaturen und Einsatz bei Gasthermen</h3>
-            <p>Wenn Ihre Löblich Therme nicht mehr einwandfrei im Betrieb ist, übernehmen unsere Techniker professionelle Reparaturen direkt vor Ort. Wir prüfen Gasthermen sorgfältig und führen Funktionsprüfung durch.</p>
+            <h3>Windhager Thermenservice</h3>
+            <p>Professioneller Windhager Thermenservice für Wartung, Überprüfung und sicheren Betrieb Ihrer Therme.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Thermenwartung Wien</h3>
-            <p>Eine regelmäßige Thermenwartung ist entscheidend für Effizienz, Sicherheit und Umweltschutz. Unsere Löblich Thermenwartung beinhaltet gründliche Überprüfung und Kontrolle aller Einstellungen.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏠</div>
-          <div>
-            <h3>Gasthermen & Heizsysteme</h3>
-            <p>Betreuung von Gasthermen und Heizsystemen mit Fokus auf Qualität, Zuverlässigkeit und optimale Leistung. Wir sichern langfristige Lebensdauer Ihrer Löblich Therme.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♨️</div>
-          <div>
-            <h3>Abgasmessung & Reinigung</h3>
-            <p>Wir führen gründliche Abgasmessung, Reinigung und Funktionskontrolle durch und erkennen mögliche Gefahren wie Kohlenmonoxid frühzeitig.</p>
+            <h3>Thermenwartung & Überprüfen</h3>
+            <p>Gründliche Thermenwartung inklusive Überprüfen aller sicherheitsrelevanten Komponenten.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Störungsbehebung & Reparaturen</h3>
-            <p>Rasche Störungsbehebung und Reparaturen durch Experten mit klarer Lösung und effizienter Durchführung. Wir stellen den optimalen Zustand Ihrer Thermen wieder her.</p>
+            <h3>Reparatur & Behebung</h3>
+            <p>Schnelle Reparatur und Behebung bei Störungen oder angezeigtem Fehlercode.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🚨</div>
+          <div>
+            <h3>Windhager Notdienst Einsatz</h3>
+            <p>Zuverlässiger Windhager Notdienst im Einsatz bei Notfällen oder akuten Problemen.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🔎</div>
+          <div>
+            <h3>Diagnose & Fehlersuche</h3>
+            <p>Präzise Diagnose und Fehlersuche bei elektronischen oder mechanischen Fehlern.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Löblich Thermentausch & Montage</h3>
-            <p>Wenn Reparaturen nicht mehr wirtschaftlich sind, beraten wir Sie umfassend zum Thermentausch. Der Austausch alter Löblich Thermen gegen moderne Neugeräte steigert Effizienz.</p>
+            <h3>Windhager Thermentausch</h3>
+            <p>Beratung und Windhager Thermentausch bei veralteten oder irreparablen Geräten.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
+  <!-- Thermenwartung -->
   <section class="service-section service-section--soft" id="warum-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermenwartung und langfristige Werterhaltung</h2>
+            <h2>Windhager Thermenwartung & Wartungsarbeiten</h2>
             <p>
-              Eine professionelle Löblich Thermenwartung sorgt für dauerhafte Sicherheit, optimale Effizienz und stabile Leistung Ihrer Thermen. Unsere regelmäßige Thermenwartung umfasst Reinigung, Kontrolle aller sicherheitsrelevanten Komponenten sowie genaue Überprüfung der Gasgeräte.
+              Eine regelmäßige Windhager Thermenwartung erhöht die Lebensdauer Ihrer Gastherme und sorgt für sicheren Betrieb.
+              Unsere Windhager Thermenwartung umfasst Überprüfung von Brenner, Heizkreislauf, Thermostats und Elektronik.
+              Auch Parameter-Einstellungen, Reinigung sowie Kontrolle des Heizungsthermistor Thermistor gehören dazu.
             </p>
             <p>
-              Durch strukturierte Wartung Ihrer Löblich Therme verlängern wir die Lebensdauer deutlich und senken langfristig Energiekosten sowie Heizkosten. Unsere Techniker prüfen Funktionen, Zustand und Einstellungen der Anlage sorgfältig. Dabei berücksichtigen wir auch Vorgaben vom Hersteller und achten auf umweltfreundliche Werte bei Emissionen.
+              Thermenwartung reduziert Störungen, verbessert Effizienz und schützt vor teuren Reparaturen.
+              Unsere Wartungsarbeiten sichern zuverlässige Funktion von Kessel, Heizkörper und dem gesamten System.
+              Kunden erhalten transparente Beratung zu Intervallen und Vorteilen einer regelmäßigen Wartung.
             </p>
 
             <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Emissionen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sicherer Betrieb</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Löblich Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Windhager Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left) -->
+  <!-- Reparaturen -->
   <section class="service-section" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparaturen und Einsatz bei Gasthermen</h2>
+            <h2>Reparatur & Ersatzteile</h2>
             <p>
-              Wenn Ihre Löblich Therme nicht mehr einwandfrei im Betrieb ist, übernehmen unsere Techniker professionelle Reparaturen direkt vor Ort. Wir prüfen Gasthermen sorgfältig, führen Funktionsprüfung, Reinigung und Abgasmessung durch und erkennen mögliche Gefahren wie Kohlenmonoxid frühzeitig.
+              Der Windhager Kundendienst Wien übernimmt fachgerechte Reparaturarbeiten an Gastherme, Therme und Heizung.
+              Unsere Techniker prüfen die Ursache, führen eine präzise Diagnose durch und beheben Störungen zuverlässig.
+              Dabei berücksichtigen wir Fehler, Fehlermeldungen und typische Fehlercode-Hinweise wie E02 Überhitzungsschutz,
+              E133 Zündungsfehler oder E161 Lüfterfehler.
             </p>
             <p>
-              Der fachgerechte Einsatz garantiert Sicherheit, stabile Heizung und effizienten Verbrauch. Mit Erfahrung und präzisen Arbeitsschritten stellen wir den optimalen Zustand Ihrer Thermen wieder her. So sichern wir langfristige Lebensdauer, stabile Heizkosten und mehr Komfort in Ihrem Hause.
+              Wenn Bauteile getauscht werden müssen, setzen wir passende Ersatzteile ein und sorgen für saubere Arbeit am System.
+              Bei wiederkehrenden Problemen beraten wir transparent zu Windhager Thermentausch, Austausch oder einer sinnvollen Lösung.
+              Ziel ist ein sicherer Betrieb, stabile Wärme und langfristige Zuverlässigkeit.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hochwertige Ersatzteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Professionelle Diagnose</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Nachhaltige Lösungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Passende Ersatzteile</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Präzise Diagnose</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Stabile Wärme</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Reparaturen an Löblich Gasthermen" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Windhager Reparatur & Ersatzteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Notdienst (kept dark) -->
+  <!-- Notdienst -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Sicherheit und Kontrolle im Notfall</h2>
+        <h2>Windhager Notdienst rund um die uhr</h2>
         <p>
-          Bei einem Notfall mit Gas oder Wasser reagieren wir rasch, prüfen den Zustand Ihrer Therme und sorgen für sichere Abwicklung aller Arbeiten. Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Der Windhager Notdienst steht rund um die uhr bereit, auch bei dringenden Anliegen außerhalb der üblichen Zeiten.
+          Bei Ausfall der Heizung, Störungen an der Gastherme oder akuten Problemen mit Wasser und Brenner reagieren wir rasch.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Sicherheit hat dabei höchste Priorität. Unsere Servicetechniker analysieren die Situation, leiten Sofortmaßnahmen ein und sorgen für eine stabile Lösung – rund um die Uhr in Wien, Niederösterreich und Burgenland.
+          Unsere Profis sind im Einsatz in Wien und unterstützen ebenso in Niederösterreich und dem Burgenland.
+          Sicherheit hat Priorität, daher prüfen wir System, Elektronik, Heizkreislauf und relevante Parameter sorgfältig.
+          Im Notfall leiten wir Sofortmaßnahmen ein und stellen die Funktion der Therme schnellstmöglich wieder her.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
@@ -770,62 +770,64 @@ Löblich.html
           <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Ausfall der Heizung</li>
-            <li>Gasgeruch oder Kohlenmonoxid-Verdacht</li>
-            <li>Wasseraustritt an der Therme</li>
-            <li>Komplettausfall der Warmwasserversorgung</li>
+            <li>Störungen an der Gastherme</li>
+            <li>Fehlermeldungen / Fehlercode</li>
+            <li>Akute Probleme mit Wasser oder Brenner</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die Uhr erreichbar – schnelle Hilfe vor Ort in Wien, Niederösterreich und Burgenland.
+            Rund um die uhr im Einsatz – schnelle Hilfe vor Ort in Wien, Niederösterreich und dem Burgenland.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
+  <!-- Kosten -->
   <section class="service-section" id="preise-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermentausch, Montage und Neugeräte</h2>
+            <h2>Preis, Angebot & MwSt</h2>
             <p>
-              Wenn Reparaturen nicht mehr wirtschaftlich sind, beraten wir Sie umfassend zum Thermentausch. Der Austausch alter Löblich Thermen gegen moderne Neugeräte steigert Effizienz, senkt Verbrauch und erhöht den Komfort im Hause.
+              Transparenz bei Preis und Angebot ist ein zentraler Bestandteil unseres Kundendienstes.
+              Vor Beginn der Arbeit informieren wir klar über Leistungen, Preise und mögliche Kostenfaktoren.
+              Kunden erhalten auf Wunsch ein konkretes Angebot, abgestimmt auf Wartung, Reparatur oder Windhager Thermentausch.
             </p>
             <p>
-              Unsere Installateure übernehmen Montage, fachgerechte Installation und komplette Entsorgung alter Geräte. Wir erstellen auf Wunsch einen transparenten Kostenvoranschlag mit klaren Preisen und informieren Sie über aktuelle Aktionen. Als erfahrener Partner begleiten wir Sie von der Beratung bis zur finalen Abwicklung.
+              Auch bei Notdienst-Einsätzen kommunizieren wir nachvollziehbar und fair.
+              Unser Meisterbetrieb legt Wert auf saubere Dokumentation, klare Beratung und planbare Abläufe.
+              So behalten Kunden jederzeit den Überblick – von der Diagnose bis zur Behebung – und können Entscheidungen sicher und informiert treffen.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Löblich Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Preis, Angebot & MwSt" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left) -->
+  <!-- Region -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Techniker in Wien, NÖ und Umgebung</h2>
+            <h2>Lokale Abdeckung</h2>
             <p>
-              Unser Team betreut Wien, Niederösterreich, NÖ und Burgenland zuverlässig mit professioneller Wartung, Reparaturen und persönlicher Betreuung vor Ort. Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
-            </p>
-            <p>
-              Ob in Wien, Niederösterreich oder Burgenland – unser Thermenservice garantiert zuverlässigen Betrieb, mehr Komfort zuhause und nachhaltige Effizienz Ihrer Heizung.
+              Wir betreuen alle relevanten Orte in Wien sowie Niederösterreich und das Burgenland.
+              Kurze Wege sichern schnelle Hilfe, zum Beispiel auch in Liesing und der Umgebung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Techniker in Wien NÖ Burgenland" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Lokale Abdeckung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -836,54 +838,57 @@ Löblich.html
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zur Löblich Thermenreparatur Wien</h2>
+        <h2>Fragen zum Kundendienst</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
+          <summary>Was umfasst der Windhager Kundendienst Wien?</summary>
+          <p>Unser Kundendienst umfasst Thermenservice, Wartung, Thermenwartung, Reparatur, Diagnose und Notdienst für Windhager Geräte.</p>
+        </details>
+
+        <details>
           <summary>Wie oft sollte eine Thermenwartung durchgeführt werden?</summary>
-          <p>Eine jährliche Thermenwartung erhöht Sicherheit, Effizienz und verlängert die Lebensdauer Ihrer Löblich Therme.</p>
+          <p>Eine regelmäßige Thermenwartung erhöht Sicherheit, senkt Störungen und verlängert die Lebensdauer Ihrer Gastherme.</p>
         </details>
 
         <details>
-          <summary>Bieten Sie Service auch in Niederösterreich an?</summary>
-          <p>Ja, wir betreuen Wien, Niederösterreich, NÖ und Burgenland zuverlässig vor Ort.</p>
+          <summary>Welche Fehlercodes werden häufig geprüft?</summary>
+          <p>Wir prüfen unter anderem Fehlercode-Hinweise wie E02 Überhitzungsschutz, E110 Kessel, E133 Zündungsfehler, E161 Lüfterfehler und E164 Lüfterfehler.</p>
         </details>
 
         <details>
-          <summary>Was beinhaltet der Löblich Thermenservice?</summary>
-          <p>Der Löblich Thermenservice umfasst Wartung, Überprüfung, Reinigung, Reparaturen und professionelle Kontrolle Ihrer Gasgeräte.</p>
+          <summary>Was passiert bei Störungen oder Fehlermeldungen?</summary>
+          <p>Unsere Techniker führen Fehlersuche, Überprüfung und Behebung durch, inklusive Kontrolle von Elektronik, Brenner und Heizkreislauf.</p>
         </details>
 
         <details>
-          <summary>Wann ist ein Thermentausch sinnvoll?</summary>
-          <p>Bei häufigen Reparaturen, hohem Verbrauch oder schlechter Effizienz empfehlen wir einen Austausch.</p>
+          <summary>Bietet ihr auch Thermentausch an?</summary>
+          <p>Ja, wir beraten zu Windhager Thermentausch und übernehmen Austausch sowie fachgerechte Umsetzung.</p>
         </details>
 
         <details>
-          <summary>Erhalte ich einen Kostenvoranschlag vorab?</summary>
-          <p>Ja, wir erstellen transparente Preise und auf Wunsch einen detaillierten Kostenvoranschlag.</p>
-        </details>
-
-        <details>
-          <summary>Sind Ersatzteile verfügbar?</summary>
-          <p>Ja, wir verwenden hochwertige Ersatzteile für eine sichere und langlebige Reparatur.</p>
+          <summary>In welchen Regionen seid ihr im Einsatz?</summary>
+          <p>Wir sind in Wien sowie in Niederösterreich und dem Burgenland für Kunden im Einsatz.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- ✅ CONTACT FORM ALWAYS LAST -->
+  <!-- CONTACT -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Jetzt Löblich Thermenservice in Wien sichern</h2>
+        <h2>Kontakt & Hotline</h2>
         <p>
-          Ob Löblich Thermenreparatur Wien, Thermenwartung oder fachgerechte Montage – wir stehen Ihnen mit Kompetenz und Erfahrung zur Verfügung. Vereinbaren Sie noch heute einen Termin und profitieren Sie von professioneller Betreuung, transparenter Abwicklung und nachhaltiger Lösung für Ihre Thermen.
+          Für Anliegen, Fragen und Terminabstimmung stehen mehrere Kontaktmöglichkeiten zur Verfügung.
+          Ein Anruf über Telefon ist der schnellste Weg, um Einsatz, Wartung oder Reparatur zu planen.
         </p>
         <p style="margin-top:10px;">
-          Für Fragen, Anliegen oder Terminvereinbarungen steht unser Kundendienst jederzeit zur Verfügung. Über Telefon oder direkten Kontakt erreichen Sie unser Team schnell und unkompliziert. Wir beraten verständlich, nehmen Ihre Bedürfnisse ernst und koordinieren rasch die Durchführung aller Arbeiten.
+          Alternativ können Kunden die Kontaktmöglichkeiten auf dieser Seite nutzen; Pflichtfelder sorgen für eine zügige Bearbeitung.
+          Unser Team nimmt jedes Problem ernst, berät verständlich und koordiniert rasch einen Techniker vor Ort.
+          Ob Thermenservice, Windhager Thermenwartung oder Notdienst – wir stehen zuverlässig zur Verfügung und kümmern uns um einen sicheren Betrieb Ihrer Heizung.
         </p>
       </div>
 
@@ -902,7 +907,7 @@ Löblich.html
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell (z.B. Löblich Therme), Problem, Wunschtermin..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>

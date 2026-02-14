@@ -1004,7 +1004,7 @@
 
 </main>
 
-<script>
+<!-- <script>
 (function(){
 
   // Smooth scroll
@@ -1090,7 +1090,7 @@
   }
 
 })();
-</script>
+</script> -->
 
 <!-- <script>
   (function(){

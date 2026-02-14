@@ -5,9 +5,9 @@
     $metaDescription = 'Professionelle Thermenwartung, Thermenservice & Reparatur in Wien und Niederösterreich. Alle Marken, transparente Preise inkl. MwSt, schnelle Hilfe & Notdienst.';
 @endphp
 
-    <!-- Owl Carousel (for mobile slider in 'Bekannt aus')
+    <!-- Owl Carousel (for mobile slider in 'Bekannt aus') -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
 
     <style>
         .m-hero::before {
@@ -112,11 +112,14 @@
 
 /* ===================== MOBILE "BEKANNT AUS" SLIDER (Owl) ===================== */
 @media (max-width: 768px){
-  .as-seen .as-seen-logos{
-    position: relative;
-    display:block;           /* owl will handle layout */
-    padding: 0 44px;         /* space for nav buttons */
-  }
+.as-seen .as-seen-logos
+ {
+        position: relative;
+        display: flex;
+        padding: 0 20px;
+        text-align: center;
+        justify-content: center;
+    }
 
   /* each logo item */
   .as-seen .as-seen-item{
@@ -395,54 +398,131 @@
             </div>
         </section>
 
+            <section class="brand-row" aria-label="Marken">
+  <div class="container">
+    <div class="brand-slider no-arrows">
+      <div class="brand-slider-viewport">
+        <div class="brand-slider-track">
+          <!-- 1st set -->
+          <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
+          <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">
+          <img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">
+          <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">
+          <img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">
+          <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">
+          <img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">
+          <img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">
+          <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">
+          <img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">
+
+          <!-- ✅ 2nd set (duplicate) for seamless loop -->
+          <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
+          <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">
+          <img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">
+          <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">
+          <img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">
+          <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">
+          <img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">
+          <img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">
+          <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">
+          <img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .brand-row{ padding: 18px 0; }
+
+  .brand-slider.no-arrows .brand-slider-btn{ display:none !important; }
+
+  .brand-slider-viewport{
+    overflow:hidden;
+    position:relative;
+  }
+
+  .brand-slider-track{
+    display:flex;
+    align-items:center;
+    gap: 28px;
+    width:max-content;
+    will-change: transform;
+
+    /* ✅ continuous auto slide */
+    animation: brandMarquee 18s linear infinite;
+  }
+
+  /* Pause on hover (optional) */
+  .brand-slider-viewport:hover .brand-slider-track{
+    animation-play-state: paused;
+  }
+
+  .brand-slider-track img{
+    height: 59px;
+    width:auto;
+    display:block;
+    border-radius: 999px;
+  }
+
+  /* ✅ Move exactly half, because we duplicated the items */
+  @keyframes brandMarquee{
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  /* Speed control on mobile */
+  @media (max-width: 768px){
+    .brand-slider-track{ animation-duration: 14s; }
+    .brand-slider-track img{ height: 49px; }
+    .brand-slider-track{ gap: 18px; }
+  }
+
+  /* If user prefers reduced motion */
+  @media (prefers-reduced-motion: reduce){
+    .brand-slider-track{ animation: none; }
+  }
+</style>
+
+
        <!-- BEKANNT AUS (DESKTOP + MOBILE CAROUSEL) -->
 <section class="as-seen" aria-label="Bekannt aus">
   <div class="container">
     <div class="as-seen-row">
       <h2 class="as-seen-title">BEKANNT AUS</h2>
 
-      <div class="as-seen-slider" id="asSeenSlider">
-        <button class="as-seen-btn as-seen-prev" type="button" aria-label="Previous">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </button>
+      <div class="as-seen-logos">
+        <a class="as-seen-item logo-orf" href="#" target="_blank" rel="noopener">
+          <img src="https://framerusercontent.com/images/Aj0ohdrCqIDq51KTZbflsVSnyg.webp?scale-down-to=1024" alt="ORF">
+        </a>
 
-        <div class="as-seen-viewport">
-          <div class="as-seen-track" id="asSeenTrack">
-            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
-              <img src="https://framerusercontent.com/images/Aj0ohdrCqIDq51KTZbflsVSnyg.webp?scale-down-to=1024" alt="ORF">
-            </a>
-            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
-              <img src="https://framerusercontent.com/images/6XAaIjZdEa80WhL7h7kwuRTA.webp?scale-down-to=1024" alt="Kurier">
-            </a>
-            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
-              <img src="https://framerusercontent.com/images/5iqByNcOVDmWk2oQV9BInbXp6w.webp?scale-down-to=1024" alt="Der Standard">
-            </a>
-            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
-              <img src="https://framerusercontent.com/images/DdNjJ15OOHoRVb88Uv9kNQp7zqY.webp?scale-down-to=1024" alt="Die Presse">
-            </a>
-            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
-              <img src="https://framerusercontent.com/images/Pyq6n8jcA6V3xqurte7I88cBU5U.webp?scale-down-to=1024" alt="Kleine Zeitung">
-            </a>
-            <a class="as-seen-item" href="#" target="_blank" rel="noopener">
-              <img src="https://framerusercontent.com/images/9O0tMXl2NeMgsnUz4Nrw9efV5k.webp" alt="Gewinn">
-            </a>
-          </div>
-        </div>
+        <a class="as-seen-item logo-kurier" href="#" target="_blank" rel="noopener">
+          <img src="https://framerusercontent.com/images/6XAaIjZdEa80WhL7h7kwuRTA.webp?scale-down-to=1024" alt="Kurier">
+        </a>
 
-        <button class="as-seen-btn as-seen-next" type="button" aria-label="Next">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </button>
+        <a class="as-seen-item logo-standard" href="#" target="_blank" rel="noopener">
+          <img src="https://framerusercontent.com/images/5iqByNcOVDmWk2oQV9BInbXp6w.webp?scale-down-to=1024" alt="Der Standard">
+        </a>
+
+        <a class="as-seen-item logo-presse" href="#" target="_blank" rel="noopener">
+          <img src="https://framerusercontent.com/images/DdNjJ15OOHoRVb88Uv9kNQp7zqY.webp?scale-down-to=1024" alt="Die Presse">
+        </a>
+
+        <a class="as-seen-item logo-kleine" href="#" target="_blank" rel="noopener">
+          <img src="https://framerusercontent.com/images/Pyq6n8jcA6V3xqurte7I88cBU5U.webp?scale-down-to=1024" alt="Kleine Zeitung">
+        </a>
+
+        <a class="as-seen-item logo-gewinn" href="#" target="_blank" rel="noopener">
+          <img src="https://framerusercontent.com/images/9O0tMXl2NeMgsnUz4Nrw9efV5k.webp" alt="Gewinn">
+        </a>
       </div>
     </div>
   </div>
 </section>
 
+
 <style>
-    .as-seen { padding: 18px 0; }
+ .as-seen { padding: 18px 0; }
+
 .as-seen-row{
   display:flex;
   align-items:center;
@@ -457,67 +537,65 @@
   white-space:nowrap;
 }
 
-.as-seen-slider{
-  position:relative;
+/* DESKTOP: one row, static */
+.as-seen-logos{
   flex:1 1 auto;
   min-width:0;
-  padding: 0 54px; /* space for buttons */
-}
-
-.as-seen-viewport{
-  overflow:hidden;
-}
-
-.as-seen-track{
   display:flex;
-  /* align-items:center; */
-  gap: 26px;
-  will-change: transform;
-  /* transition: transform .28s ease; */
+  align-items:center;
+  justify-content:space-between;
+  gap:26px;
 }
 
 .as-seen-item{
-  flex: 0 0 auto;
+  flex:0 0 auto;
   display:flex;
   align-items:center;
   justify-content:center;
-  height: 52px;
+  height:52px;
 }
 
 .as-seen-item img{
-  max-height: 34px;
+  max-height:34px;
   width:auto;
   display:block;
 }
 
-/* Buttons (same look as reference) */
-.as-seen-btn{
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%);
-  width:40px;
-  height:40px;
-  border-radius:999px;
-  border:0;
-  background: rgba(0,0,0,.28);
-  color:#fff;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:0;
-  cursor:pointer;
-  z-index:5;
-}
-.as-seen-prev{ left:8px; }
-.as-seen-next{ right:8px; }
-.as-seen-btn svg{ width:20px; height:20px; }
+/* MOBILE: static grid (no slider) */
+@media (max-width: 768px){
+  .as-seen-row{
+    align-items:flex-start;
+  }
 
-@media (max-width:768px){
-  .as-seen-title{ font-size:18px; }
-  .as-seen-slider{ padding: 0 46px; }
-  .as-seen-item{ height: 48px; }
-  .as-seen-item img{ max-height: 28px; }
+  .as-seen-title{
+    font-size:18px;
+    margin-top:6px;
+    margin:auto;
+  }
+
+  .as-seen-logos{
+    justify-content:flex-start;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:12px 14px;
+  }
+
+  .as-seen-item{
+    height:44px;
+  }
+
+  .as-seen-item img{
+    max-height:28px;
+    margin:auto;
+  }
 }
+
+@media (max-width: 420px){
+  .as-seen-logos{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 
 </style>
 
@@ -1030,32 +1108,7 @@
 
         <!-- ===================== BRAND SPOTLIGHTS (ALL) ===================== -->
         <!-- Brand logos row -->
-        <section class="brand-row" aria-label="Marken">
-            <div class="container">
-                <div class="brand-slider">
-
-                    <button class="brand-slider-btn brand-slider-prev" aria-label="Previous"></button>
-
-                    <div class="brand-slider-viewport">
-                        <div class="brand-slider-track">
-                            <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
-                            <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">
-                            <img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">
-                            <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">
-                            <img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">
-                            <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">
-                            <img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">
-                            <img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">
-                            <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">
-                            <img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">
-                        </div>
-                    </div>
-
-                    <button class="brand-slider-btn brand-slider-next" aria-label="Next"></button>
-
-                </div>
-            </div>
-        </section>
+    
         <section class="spotlight" id="vaillant">
             <div class="container">
                 <div class="row">

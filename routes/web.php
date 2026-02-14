@@ -46,6 +46,8 @@ Route::prefix('kundendienst')->group(function () {
     Route::get('/löblich', fn() => view('kundendienst.löblich-kaundseint'));
     Route::get('/buderus', fn() => view('kundendienst.buderus-kaundseint'));
     Route::get('/baxi', fn() => view('kundendienst.baxi-kaundseint'));
+    Route::get('/nordgas', fn() => view('kundendienst.nordgas-kaundseint'));
+    Route::get('/windhager', fn() => view('kundendienst.windhager-kaundseint'));
 
 });
 
@@ -87,8 +89,10 @@ Route::prefix('Thermenreparatur')->group(function(){
     Route::get('/wolf',fn() => view('Thermenreparatur.wolf'));
     Route::get('/baxi',fn() => view('Thermenreparatur.baxi'));
     Route::get('/buderus',fn() => view('Thermenreparatur.buderus'));
-    // Route::get('/saunier',fn() => view('Thermenreparatur.saunier'));
-    // Route::get('/löblich',fn() => view('Thermenreparatur.löblich'));
-    // Route::get('/ocean',fn() => view('Thermenreparatur.ocean'));
+    Route::get('/saunier',fn() => view('Thermenreparatur.saunier'));
+    Route::get('/löblich',fn() => view('Thermenreparatur.löblich'));
+    Route::get('/ocean',fn() => view('Thermenreparatur.ocean'));
     Route::get('/rapido',fn() => view('Thermenreparatur.rapido'));
+    Route::get('/windhager',fn() => view('Thermenreparatur.windhager'));
+    Route::get('/nordgas',fn() => view('Thermenreparatur.nordgas'));
 });

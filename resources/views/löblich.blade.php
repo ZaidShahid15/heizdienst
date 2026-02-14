@@ -801,7 +801,7 @@
   </section>
 
 </main>
-
+<!-- 
 <script>
 (function(){
   document.addEventListener('DOMContentLoaded', function(){
@@ -891,6 +891,6 @@
 
   });
 })();
-</script>
+</script> -->
 
 @endsection

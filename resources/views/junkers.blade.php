@@ -1016,7 +1016,7 @@
     </div>
   </section>
 </main>
-
+<!-- 
 <script>
 (function(){
 
@@ -1104,5 +1104,5 @@
   if (y) y.textContent = new Date().getFullYear();
 
 })();
-</script>
+</script> -->
 @endsection

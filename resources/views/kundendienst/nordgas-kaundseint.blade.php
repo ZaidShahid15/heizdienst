@@ -1,11 +1,3 @@
-Löblich.html
-
-
-
-
-
-
-
 @extends('layout.app')
 
 @section('main')
@@ -59,25 +51,6 @@ Löblich.html
   .service-btn--ghost-on-dark:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.22)}
   .service-btn--full{width:100%}
 
-  /* Quick tabs */
-  .service-quicktabs{padding:10px 0 20px}
-  .service-tabs{
-    display:flex; gap:10px; flex-wrap:wrap;
-    padding:10px;
-    border:1px solid var(--line);
-    border-radius:19px;
-    background:#fff;
-    justify-content: space-between;
-  }
-  .service-tab{
-    padding:10px 12px;
-    border-radius:999px;
-    font-weight:800;
-    color:var(--ink);
-    border:1px solid transparent;
-  }
-  .service-tab:hover{border-color:var(--line); background:rgba(24,64,72,.05)}
-
   /* Sections */
   .service-section{padding:54px 0}
   .service-section--soft{background:linear-gradient(0deg, var(--muted), #fff)}
@@ -92,13 +65,6 @@ Löblich.html
 
   .service-grid{display:grid; gap:14px}
   .service-grid--2{grid-template-columns: repeat(2, 1fr)}
-
-  .service-card{
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius: var(--radius);
-    padding:16px;
-  }
 
   .service-feature{
     display:flex; gap:12px;
@@ -119,71 +85,34 @@ Löblich.html
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  .service-checklist{margin:0; padding-left:18px}
-  .service-checklist li{margin:8px 0}
-
-  /* =====================================================
-     ✅ IMAGES EQUAL HEIGHT AS CONTENT (CARD-SPLIT)
-     ===================================================== */
-  .card-split{
+  /* ✅ stats pills (2 in a row) */
+  .service-stats{
     display:grid;
-    grid-template-columns: 1.12fr .88fr;
-    gap:18px;
-    align-items:stretch; /* ✅ equal height columns */
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap:10px;
+    margin-top:14px;
   }
-  .card-split--reverse .card-split__text{order:2}
-  .card-split--reverse .card-split__media{order:1}
-
-  .card-split__text,
-  .card-split__media{
-    display:flex; /* ✅ allow child to stretch */
-  }
-
-  .card-box{
-    width:100%;
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius:var(--radius2);
-    padding:18px;
-  }
-  .card-box h2{
-    margin:0 0 8px;
-    color:var(--ink);
-    font-size: clamp(22px, 2.2vw, 30px);
-    letter-spacing:-.02em;
-  }
-  .card-box p{margin:0}
-  .card-box p + p{margin-top:10px}
-
-  /* Image box */
-  .service-media{width:100%;}
-  .service-media__box{
-    width:100%;
-    height:100%;       /* ✅ match text height */
-    border-radius: var(--radius2);
-    border:1px solid var(--line);
-    box-shadow:0 18px 50px rgba(0,0,0,.12);
-    overflow:hidden;
-    background: var(--muted);
-  }
-  .service-media__img{
-    width:100%;
-    height:100%;
-    display:block;
-    /* object-fit:cover;  ✅ fill nicely */
-    object-position:center;
-  }
-
-  .service-stats{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;}
   .service-stat{
-    display:flex; align-items:center; gap:10px;
-    padding:10px 12px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 14px;
     border-radius:999px;
     background:rgba(24,64,72,.06);
-    border:1px solid var(--line);
+    border:1px solid rgba(24,64,72,.18);
   }
-  .service-stat__num{font-weight:900; color:var(--ink)}
-  .service-stat__label{font-weight:800}
+  .service-stat__num{
+    width:22px; height:22px;
+    border-radius:999px;
+    display:grid; place-items:center;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.22);
+    font-weight:900;
+    color:var(--ink);
+    line-height:1;
+    flex:0 0 auto;
+  }
+  .service-stat__label{font-weight:800; color:var(--ink)}
 
   /* Dark section */
   .service-section--dark{
@@ -206,6 +135,7 @@ Löblich.html
     border-radius:var(--radius);
     padding:16px;
   }
+  .service-checklist{margin:0; padding-left:18px}
   .service-checklist--on-dark{color:rgba(255,255,255,.92)}
   .service-checklist--on-dark li{margin:10px 0}
 
@@ -267,6 +197,57 @@ Löblich.html
   .service-formrow{display:grid; grid-template-columns: 1fr 1fr; gap:10px;}
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
+
+  /* ===== ✅ Card split (EQUAL HEIGHT like your previous site) ===== */
+  .card-split{
+    display:grid;
+    grid-template-columns: 1.12fr .88fr;
+    gap:18px;
+    align-items:stretch; /* ✅ stretch for equal height */
+  }
+  .card-split--reverse .card-split__text{order:2}
+  .card-split--reverse .card-split__media{order:1}
+
+  .card-split__text,
+  .card-split__media{
+    display:flex; /* ✅ make children fill height */
+  }
+
+  .card-box{
+    width:100%;
+    height:100%;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius2);
+    padding:18px;
+  }
+  .card-box h2{
+    margin:0 0 8px;
+    color:var(--ink);
+    font-size: clamp(22px, 2.2vw, 30px);
+    letter-spacing:-.02em;
+  }
+  .card-box p{margin:0}
+  .card-box p + p{margin-top:10px}
+
+  /* ✅ Image box = equal height with content (fills full) */
+  .service-media{width:100%;}
+  .service-media__box{
+    width:100%;
+    height:100%;            /* ✅ same height as text card */
+    border-radius: var(--radius2);
+    border:1px solid var(--line);
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+    overflow:hidden;
+    background: var(--muted);
+  }
+  .service-media__img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position:center;
+  }
 
   /* ===== HERO (wolf) ===== */
   .wolf-hero{
@@ -344,6 +325,7 @@ Löblich.html
   }
   .wolf-hero__logo{margin:22px 0 20px; display:flex; justify-content:center;}
   .wolf-hero__logo img{width:170px; max-width:60vw; transform: rotate(-6deg);}
+
   .wolf-hero__bullets{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:0 0 6px;}
   .wolf-pill{
     padding:8px 10px;
@@ -387,7 +369,7 @@ Löblich.html
   }
 
   /* =========================
-     ✅ TOC (AFTER HERO)
+     ✅ TOC (after hero, full width)
      ========================= */
   .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
@@ -407,12 +389,7 @@ Löblich.html
     background:linear-gradient(0deg, #f7fbfb, #fff);
     border-bottom:1px solid rgba(24,64,72,.12);
   }
-  .toc-head h4{
-    margin:0;
-    font-size:15px;
-    font-weight:900;
-    color:var(--ink);
-  }
+  .toc-head h4{margin:0; font-size:15px; font-weight:900; color:var(--ink);}
   .toc-actions{display:flex; gap:8px; align-items:center;}
   .toc-iconbtn{
     width:34px; height:34px;
@@ -429,7 +406,7 @@ Löblich.html
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-    
+
     overflow:auto;
   }
   .toc-list{
@@ -462,11 +439,7 @@ Löblich.html
     flex:0 0 auto;
   }
   .toc-text{font-weight:900; color:#0f3a40; font-size:14px; line-height:1.2;}
-  .toc-card.is-collapsed .toc-body{
-    max-height:0;
-    padding:0 12px;
-    overflow:hidden;
-  }
+  .toc-card.is-collapsed .toc-body{max-height:0; padding:0 12px; overflow:hidden;}
 
   /* Mobile */
   @media (max-width: 980px){
@@ -474,43 +447,51 @@ Löblich.html
     .service-emergency{grid-template-columns:1fr}
     .service-cta__inner{grid-template-columns:1fr}
     .service-formrow{grid-template-columns:1fr}
+
+    .service-stats{grid-template-columns:1fr;} /* stats 1 per row on mobile */
+
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
+
+    .card-split__text,
+    .card-split__media{display:block;}
+
+    .service-media__box{min-height:220px; height:auto;} /* ✅ nice on mobile */
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
 </style>
 
 @push('meta')
-  <title>Löblich Thermenreparatur Wien – Thermenservice & Thermenwartung Wien</title>
-  <meta name="description" content="Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wien, Reparaturen, Thermentausch und Service in Wien, Niederösterreich und Burgenland.">
+  <title>Nordgas Kundendienst Wien | Wartung, Reparatur & Notdienst</title>
+  <meta name="description" content="Nordgas Kundendienst Wien für Gastherme & Heizung. Thermenwartung, Reparaturen, Notdienst rund um die Uhr in Wien, NÖ & Burgenland. Jetzt kontaktieren.">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">Löblich Thermenservice rund um die Uhr</p>
+      <p class="wolf-hero__kicker">service rund um die uhr</p>
 
       <h1>
-        Löblich Thermenreparatur Wien<br>
-        <em>Thermenservice & Thermenwartung Wien</em>
+        Nordgas Kundendienst Wien<br>
+        <em>service rund um die uhr</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Zuverlässige Hilfe für Ihre Löblich Thermen in Wien – Thermenservice, Thermenwartung und Reparaturen für Ihr Zuhause.
+        Zuverlässiger Nordgas Kundendienst Wien für Gastherme, Heizung und Geräte inklusive Wartung, Reparaturen und Notdienst.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich Thermenreparatur Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/NordGas.png') }}" alt="Nordgas Kundendienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Thermenwartung</span>
+        <span class="wolf-pill">Wartung</span>
         <span class="wolf-pill">Reparaturen</span>
-        <span class="wolf-pill">Thermentausch</span>
-        <span class="wolf-pill">Notdienst</span>
+        <span class="wolf-pill">Thermenservice</span>
+        <span class="wolf-pill">Notdienst rund um die uhr</span>
       </div>
 
       <div class="wolf-hero__actions">
@@ -521,8 +502,8 @@ Löblich.html
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Löblich Thermenreparatur Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab €95</strong></p>
+            <h2 class="promo-banner__title"><em>Nordgas Kundendienst Aktion</em></h2>
+            <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
               <span class="promo-banner__btn-ico">  </span>
@@ -534,7 +515,7 @@ Löblich.html
     </div>
   </section>
 
-<!-- ✅ TOC AFTER HERO -->
+ <!-- ✅ TOC AFTER HERO -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
     <div class="toc-card is-collapsed" id="tocCard">
@@ -554,12 +535,12 @@ Löblich.html
 
       <div class="toc-body" id="tocBody">
         <ul class="toc-list" id="tocList">
-          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Löblich Service</span></a></li>
-          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Experten</span></a></li>
+          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
+          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
           <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Thermenwartung</span></a></li>
+          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
           <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notfall</span></a></li>
+          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
           <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
           <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
           <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
@@ -570,194 +551,208 @@ Löblich.html
   </div>
 </section>
 
-  <!-- ✅ UPDATED: card box left + image right -->
+  <!-- Service -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermenreparatur Wien und Thermenservice</h2>
+            <h2>Nordgas Service in Wien</h2>
             <p>
-              Unsere Löblich Thermenreparatur Wien steht für professionellen Löblich Thermenservice und fachgerechte Reparaturen an allen Löblich Thermen. Als erfahrener Installateur betreuen wir Gasthermen, Gasgeräte und jedes einzelne Gerät direkt bei Ihnen zuhause in Wien und Umgebung.
+              Der Nordgas Kundendienst Wien bietet professionellen Service für Nordgas Therme, Gastherme und weitere Geräte direkt vor Ort.
+              Kunden in Wien NÖ profitieren von schneller Anfahrt, klarer Beratung und zuverlässigem Werkskundendienst.
             </p>
             <p>
-              Unser Kundendienst ist rasch im Einsatz und sorgt für sichere Überprüfung, gründliche Kontrolle und nachhaltige Lösung bei jedem Problem. Löblich arbeitet nach aktuellen Richtlinien der Hersteller und setzt auf hochwertige Ersatzteile für maximale Sicherheit. Ob für Mieter, Vermieter oder Eigentümer – wir kümmern uns um Thermenservice, Thermenwartung und optimale Funktionen Ihrer Heizungsanlage. Auch in Niederösterreich und im Burgenland stehen wir als verlässlicher Partner zur Verfügung.
+              Als Fachbetrieb arbeiten wir nach Stand der Technik und betreuen Gasgeräte, Heizkörper sowie moderne Heizsysteme.
+              Unser Service umfasst Wartung, Thermenservice, Inbetriebnahme und Reparaturen durch erfahrene Techniker.
+              Sicherheit, Qualität und Wohnkomfort stehen dabei im Mittelpunkt. Auch in Niederösterreich und dem Burgenland sind wir für Kunden im Einsatz und bieten Lösungen für jede Heizung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="Löblich Thermenreparatur Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1NordGas.png') }}" alt="Nordgas Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left, content right) -->
+  <!-- Team -->
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermenreparatur Wien Experten</h2>
+            <h2>Techniker Team & Werkskundendienst</h2>
             <p>
-              Unser Team besteht aus erfahrenen Servicetechnikern und Installateuren mit umfassendem Know-how im Umgang mit Löblich Thermen und Gasthermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards und führt Reparaturen mit höchster Professionalität durch.
+              Unser Team besteht aus qualifizierten Technikern, Installateur-Fachkräften und geschulten Elektriker-Partnern mit umfassendem Know how.
+              Der Nordgas Werkskundendienst garantiert fachgerechte Überprüfung, Reinigung und Optimierung aller Bauteile.
             </p>
             <p>
-              Durch laufende Schulungen sichern wir eine kompetente Betreuung aller Systeme. Klare Abläufe, Zuverlässigkeit und persönliche Betreuung schaffen Vertrauen und langfristige Kundenzufriedenheit. Unsere Techniker betreuen auch andere Marken, arbeiten jedoch spezialisiert mit Löblich Thermenservice.
+              Durch regelmäßige Schulungen bleiben unsere Mitarbeiter am Stand der Technik.
+              Unsere Techniker erkennen Fehlermeldungen, Störungen oder Defekte frühzeitig und sorgen für sichere Lösungen.
+              Kunden wissen ihre Nordgas Therme in guten Händen. Erfahrung, Fachwissen und strukturierte Arbeit zeichnen unseren Betrieb aus und sichern langfristige Qualität.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Qualitätsstandards</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Herstellerrichtlinien</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Persönliche Betreuung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Stand der Technik</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Regelmäßige Schulungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Lösungen</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.jpeg') }}" alt="Löblich Thermenreparatur Wien Experten" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Techniker Team & Werkskundendienst" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen (kept as grid) -->
+  <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen unseres Löblich Kundendienstes</h2>
-        <p>Reparaturen, Thermenwartung, Thermentausch und Service – professionell betreut.</p>
+        <h2>Leistungen unseres Kundendienstes</h2>
+        <p>Nordgas Thermenservice, Wartung, Reparaturen, Inbetriebnahme und Systemlösungen – professionell betreut.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Reparaturen und Einsatz bei Gasthermen</h3>
-            <p>Wenn Ihre Löblich Therme nicht mehr einwandfrei im Betrieb ist, übernehmen unsere Techniker professionelle Reparaturen direkt vor Ort. Wir prüfen Gasthermen sorgfältig und führen Funktionsprüfung durch.</p>
+            <h3>Nordgas Thermenservice</h3>
+            <p>Professioneller Thermenservice für Nordgas Therme inklusive Überprüfung, Reinigung und Abgasmessung.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Thermenwartung Wien</h3>
-            <p>Eine regelmäßige Thermenwartung ist entscheidend für Effizienz, Sicherheit und Umweltschutz. Unsere Löblich Thermenwartung beinhaltet gründliche Überprüfung und Kontrolle aller Einstellungen.</p>
+            <h3>Wartung & Thermenwartung</h3>
+            <p>Gründliche Wartung und Thermenwartung für sichere Funktion und lange Lebensdauer.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🏠</div>
           <div>
-            <h3>Gasthermen & Heizsysteme</h3>
-            <p>Betreuung von Gasthermen und Heizsystemen mit Fokus auf Qualität, Zuverlässigkeit und optimale Leistung. Wir sichern langfristige Lebensdauer Ihrer Löblich Therme.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♨️</div>
-          <div>
-            <h3>Abgasmessung & Reinigung</h3>
-            <p>Wir führen gründliche Abgasmessung, Reinigung und Funktionskontrolle durch und erkennen mögliche Gefahren wie Kohlenmonoxid frühzeitig.</p>
+            <h3>Gastherme & Gasgeräte</h3>
+            <p>Service für Gastherme und Gasgeräte mit Fokus auf Sicherheit und Effizienz.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Störungsbehebung & Reparaturen</h3>
-            <p>Rasche Störungsbehebung und Reparaturen durch Experten mit klarer Lösung und effizienter Durchführung. Wir stellen den optimalen Zustand Ihrer Thermen wieder her.</p>
+            <h3>Reparaturen & Störungen</h3>
+            <p>Schnelle Reparaturen bei Störungen und Fehlermeldungen durch erfahrene Techniker.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Löblich Thermentausch & Montage</h3>
-            <p>Wenn Reparaturen nicht mehr wirtschaftlich sind, beraten wir Sie umfassend zum Thermentausch. Der Austausch alter Löblich Thermen gegen moderne Neugeräte steigert Effizienz.</p>
+            <h3>Inbetriebnahme & Austausch</h3>
+            <p>Fachgerechte Inbetriebnahme sowie Austausch defekter Einzelteile oder kompletter Geräte.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">♨️</div>
+          <div>
+            <h3>Wärmepumpen & Heizung</h3>
+            <p>Service für Wärmepumpen, Heizung und Heizsysteme nach Stand der Technik.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
+  <!-- Thermenwartung -->
   <section class="service-section service-section--soft" id="warum-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermenwartung und langfristige Werterhaltung</h2>
+            <h2>Thermenwartung & Wartung</h2>
             <p>
-              Eine professionelle Löblich Thermenwartung sorgt für dauerhafte Sicherheit, optimale Effizienz und stabile Leistung Ihrer Thermen. Unsere regelmäßige Thermenwartung umfasst Reinigung, Kontrolle aller sicherheitsrelevanten Komponenten sowie genaue Überprüfung der Gasgeräte.
+              Eine regelmäßige Thermenwartung ist entscheidend für Sicherheit, Effizienz und lange Lebensdauer Ihrer Nordgas Gastherme.
+              Unsere Wartung umfasst gründliche Überprüfung, Abgasmessung, Reinigung und Kontrolle aller relevanten Einzelteile wie Wärmetauschers.
             </p>
             <p>
-              Durch strukturierte Wartung Ihrer Löblich Therme verlängern wir die Lebensdauer deutlich und senken langfristig Energiekosten sowie Heizkosten. Unsere Techniker prüfen Funktionen, Zustand und Einstellungen der Anlage sorgfältig. Dabei berücksichtigen wir auch Vorgaben vom Hersteller und achten auf umweltfreundliche Werte bei Emissionen.
+              Durch korrekte Einstellungen und Optimierung wird Energie effizient genutzt und unnötige Kosten werden vermieden.
+              Nordgas Thermenservice in Wien unterstützt den stabilen Betrieb Ihrer Heizung und schützt vor teuren Schäden.
+              Kunden profitieren von transparenter Beratung, fairen Preisen und der Möglichkeit eines Wartungsplans für ihre Geräte.
             </p>
 
             <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Emissionen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wartungsplan möglich</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Löblich Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Thermenwartung & Wartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left) -->
+  <!-- Reparaturen / Notdienst / Hilfe -->
   <section class="service-section" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparaturen und Einsatz bei Gasthermen</h2>
+            <h2>Reparatur, Notdienst & Hilfe</h2>
             <p>
-              Wenn Ihre Löblich Therme nicht mehr einwandfrei im Betrieb ist, übernehmen unsere Techniker professionelle Reparaturen direkt vor Ort. Wir prüfen Gasthermen sorgfältig, führen Funktionsprüfung, Reinigung und Abgasmessung durch und erkennen mögliche Gefahren wie Kohlenmonoxid frühzeitig.
+              Der Nordgas Kundendienst Wien unterstützt Kunden bei Reparaturen, Störungen und akuten Notfällen zuverlässig.
+              Unsere Techniker analysieren Probleme an Nordgas Gastherme, Nordgas Therme und weiteren Geräten systematisch und sorgen für schnelle Lösungen.
             </p>
             <p>
-              Der fachgerechte Einsatz garantiert Sicherheit, stabile Heizung und effizienten Verbrauch. Mit Erfahrung und präzisen Arbeitsschritten stellen wir den optimalen Zustand Ihrer Thermen wieder her. So sichern wir langfristige Lebensdauer, stabile Heizkosten und mehr Komfort in Ihrem Hause.
+              Der Notdienst ist rund um die uhr erreichbar – auch an Feiertagen.
+              Bei Gasgeruch, Fehlermeldungen oder Ausfällen leisten wir rasche Hilfe vor Ort.
+              Durch fachgerechte Überprüfung, Reinigung und Optimierung vermeiden wir Folgeschäden und unnötige Kosten.
+              Unser Ziel ist ein sicherer Betrieb Ihrer Heizung sowie nachhaltige Stabilität im Zuhause.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hochwertige Ersatzteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Professionelle Diagnose</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Nachhaltige Lösungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schnelle Lösungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Auch an Feiertagen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sicherer Betrieb</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Reparaturen an Löblich Gasthermen" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Reparatur, Notdienst & Hilfe" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Notdienst (kept dark) -->
+  <!-- Notdienst -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Sicherheit und Kontrolle im Notfall</h2>
+        <h2>Nordgas Notdienst im Notfall</h2>
         <p>
-          Bei einem Notfall mit Gas oder Wasser reagieren wir rasch, prüfen den Zustand Ihrer Therme und sorgen für sichere Abwicklung aller Arbeiten. Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Sicherheit hat dabei höchste Priorität. Unsere Servicetechniker analysieren die Situation, leiten Sofortmaßnahmen ein und sorgen für eine stabile Lösung – rund um die Uhr in Wien, Niederösterreich und Burgenland.
+          Bei Gasgeruch, Fehlermeldungen oder Ausfällen leisten wir rasche Hilfe vor Ort – rund um die uhr, auch an Feiertagen.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
@@ -770,62 +765,64 @@ Löblich.html
           <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Ausfall der Heizung</li>
-            <li>Gasgeruch oder Kohlenmonoxid-Verdacht</li>
-            <li>Wasseraustritt an der Therme</li>
-            <li>Komplettausfall der Warmwasserversorgung</li>
+            <li>Fehlermeldungen & Störungen</li>
+            <li>Gasgeruch / sicherheitsrelevante Situationen</li>
+            <li>Wasser-, Gas- oder Wärmeprobleme</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die Uhr erreichbar – schnelle Hilfe vor Ort in Wien, Niederösterreich und Burgenland.
+            Rund um die uhr erreichbar – schnelle Hilfe vor Ort in Wien, Niederösterreich und Burgenland.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: card split (image right) -->
+  <!-- Kosten -->
   <section class="service-section" id="preise-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermentausch, Montage und Neugeräte</h2>
+            <h2>Preise, Kosten & Garantie</h2>
             <p>
-              Wenn Reparaturen nicht mehr wirtschaftlich sind, beraten wir Sie umfassend zum Thermentausch. Der Austausch alter Löblich Thermen gegen moderne Neugeräte steigert Effizienz, senkt Verbrauch und erhöht den Komfort im Hause.
+              Transparente Preise und faire Kosten sind ein zentraler Bestandteil unseres Service.
+              Vor Beginn der Arbeiten informieren wir klar über Aufwand, Anfahrt und mögliche Ersatzteilen.
+              Kunden erhalten auf Wunsch ein individuelles Angebot für Wartung, Reparaturen oder Austausch.
             </p>
             <p>
-              Unsere Installateure übernehmen Montage, fachgerechte Installation und komplette Entsorgung alter Geräte. Wir erstellen auf Wunsch einen transparenten Kostenvoranschlag mit klaren Preisen und informieren Sie über aktuelle Aktionen. Als erfahrener Partner begleiten wir Sie von der Beratung bis zur finalen Abwicklung.
+              Regelmäßige Thermenwartung verlängert die Lebensdauer der Geräte, spart Geld und erhöht die Effizienz.
+              Unsere Dienstleistungen erfolgen nach Herstellervorgaben und sichern Garantie sowie Qualität.
+              So behalten Kunden jederzeit den Überblick über Leistungen, Kosten und Vorteile.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Löblich Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Preise, Kosten & Garantie" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ UPDATED: reverse (image left) -->
+  <!-- Region -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Techniker in Wien, NÖ und Umgebung</h2>
+            <h2>Wien, Niederösterreich & Burgenland</h2>
             <p>
-              Unser Team betreut Wien, Niederösterreich, NÖ und Burgenland zuverlässig mit professioneller Wartung, Reparaturen und persönlicher Betreuung vor Ort. Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
-            </p>
-            <p>
-              Ob in Wien, Niederösterreich oder Burgenland – unser Thermenservice garantiert zuverlässigen Betrieb, mehr Komfort zuhause und nachhaltige Effizienz Ihrer Heizung.
+              Wir betreuen Kunden in Wien, Niederösterreich und dem Burgenland.
+              Kurze Wege, schnelle Anfahrt und flexible Einsatzzeiten sichern zuverlässigen Kundendienst in allen Regionen.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Techniker in Wien NÖ Burgenland" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Wien, Niederösterreich & Burgenland" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -836,54 +833,57 @@ Löblich.html
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zur Löblich Thermenreparatur Wien</h2>
+        <h2>Fragen zum Kundendienst</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wie oft sollte eine Thermenwartung durchgeführt werden?</summary>
-          <p>Eine jährliche Thermenwartung erhöht Sicherheit, Effizienz und verlängert die Lebensdauer Ihrer Löblich Therme.</p>
+          <summary>Was umfasst der Nordgas Kundendienst Wien?</summary>
+          <p>Unser Kundendienst bietet Wartung, Thermenservice, Reparaturen, Notdienst und Betreuung von Nordgas Geräten.</p>
         </details>
 
         <details>
-          <summary>Bieten Sie Service auch in Niederösterreich an?</summary>
-          <p>Ja, wir betreuen Wien, Niederösterreich, NÖ und Burgenland zuverlässig vor Ort.</p>
+          <summary>Wie wichtig ist regelmäßige Thermenwartung?</summary>
+          <p>Thermenwartung erhöht Sicherheit, senkt Kosten und verlängert die Lebensdauer der Gastherme.</p>
         </details>
 
         <details>
-          <summary>Was beinhaltet der Löblich Thermenservice?</summary>
-          <p>Der Löblich Thermenservice umfasst Wartung, Überprüfung, Reinigung, Reparaturen und professionelle Kontrolle Ihrer Gasgeräte.</p>
+          <summary>Gibt es einen Notdienst?</summary>
+          <p>Ja, unser Notdienst ist rund um die uhr erreichbar, auch an Feiertagen.</p>
         </details>
 
         <details>
-          <summary>Wann ist ein Thermentausch sinnvoll?</summary>
-          <p>Bei häufigen Reparaturen, hohem Verbrauch oder schlechter Effizienz empfehlen wir einen Austausch.</p>
+          <summary>Welche Regionen werden betreut?</summary>
+          <p>Wien, Niederösterreich (NÖ) und das Burgenland.</p>
         </details>
 
         <details>
-          <summary>Erhalte ich einen Kostenvoranschlag vorab?</summary>
-          <p>Ja, wir erstellen transparente Preise und auf Wunsch einen detaillierten Kostenvoranschlag.</p>
+          <summary>Wie erfolgt der Kontakt?</summary>
+          <p>Per Tel oder E Mail direkt über unsere Seite.</p>
         </details>
 
         <details>
-          <summary>Sind Ersatzteile verfügbar?</summary>
-          <p>Ja, wir verwenden hochwertige Ersatzteile für eine sichere und langlebige Reparatur.</p>
+          <summary>Welche Geräte werden betreut?</summary>
+          <p>Wir betreuen Nordgas Therme, Gastherme und weitere Gasgeräte sowie Heizsysteme nach Stand der Technik.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- ✅ CONTACT FORM ALWAYS LAST -->
+  <!-- CONTACT -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Jetzt Löblich Thermenservice in Wien sichern</h2>
+        <h2>Kontakt, Tel & E-Mail</h2>
         <p>
-          Ob Löblich Thermenreparatur Wien, Thermenwartung oder fachgerechte Montage – wir stehen Ihnen mit Kompetenz und Erfahrung zur Verfügung. Vereinbaren Sie noch heute einen Termin und profitieren Sie von professioneller Betreuung, transparenter Abwicklung und nachhaltiger Lösung für Ihre Thermen.
+          Für Kontakt, Fragen oder Terminvereinbarung steht der Nordgas Kundendienst Wien jederzeit zur Verfügung.
+          Sie erreichen uns per Tel oder E Mail schnell und unkompliziert.
         </p>
         <p style="margin-top:10px;">
-          Für Fragen, Anliegen oder Terminvereinbarungen steht unser Kundendienst jederzeit zur Verfügung. Über Telefon oder direkten Kontakt erreichen Sie unser Team schnell und unkompliziert. Wir beraten verständlich, nehmen Ihre Bedürfnisse ernst und koordinieren rasch die Durchführung aller Arbeiten.
+          Unser Team koordiniert Termine flexibel und steht für Beratung, Wartung, Reparaturen oder Notdienst bereit.
+          Kunden profitieren von persönlicher Betreuung, klarer Kommunikation und schneller Hilfe.
+          Unser Service ist Ihr verlässlicher Partner rund um Nordgas Heizung und Gasgeräte.
         </p>
       </div>
 
@@ -902,7 +902,7 @@ Löblich.html
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell (z.B. Löblich Therme), Problem, Wunschtermin..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>

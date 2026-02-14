@@ -1112,7 +1112,7 @@
     if (y) y.textContent = new Date().getFullYear();
   })();
 </script>
-
+<!-- 
 <script>
 (function(){
   // ✅ Make sure HTML exists before running (fixes “not collapsing” issues)
@@ -1201,6 +1201,6 @@
 
   });
 })();
-</script>
+</script> -->
 
 @endsection
