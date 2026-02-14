@@ -483,7 +483,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/windhager.png') }}" alt="Windhager Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/Windhager.png') }}" alt="Windhager Kundendienst Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
