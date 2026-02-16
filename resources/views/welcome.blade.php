@@ -53,7 +53,7 @@
   .my-banner {
         width: 169px;
         top: -106px;
-        right: -57px;
+        right: -42px;
         transform: translate(15%, -15%);
     }
 
@@ -2113,7 +2113,8 @@ html{ scroll-behavior:smooth; }
             } */
 
             .accordion-button:not(.collapsed) {
-                color: var(--bs-accordion-active-color) !important;
+                /* color: var(--bs-accordion-active-color) !important; */
+                color:white !important;
                 background-color: transparent !important;
                 box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
             }

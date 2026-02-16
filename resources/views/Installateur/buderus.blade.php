@@ -439,12 +439,13 @@
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
     .service-stats{grid-template-columns:1fr;}
+    .service-emergency{grid-template-columns:1fr}
   }
 </style>
 
 @push('meta')
-  <title>Buderus Thermentausch Wien | Gastherme & Brennwert inkl. Montage</title>
-  <meta name="description" content="Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme & Brennwerttechnik ✔ Transparente Kosten ✔ Thermenservice & Wartung vom Profi">
+  <title>Buderus Installateur Wien | Thermenwartung & Service</title>
+  <meta name="description" content="Buderus Installateur Wien für Buderus Thermenwartung, Reparatur & Thermentausch. Transparente Preise inkl. MwSt. Jetzt Termin vereinbaren.">
 @endpush
 
 <main>
@@ -452,37 +453,37 @@
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">Buderus Thermentausch Wien</p>
+      <p class="wolf-hero__kicker">Buderus Installateur Wien</p>
 
       <h1>
-        Buderus Thermentausch Wien<br>
-        <em>Gastherme & Brennwert inkl. Montage</em>
+        Buderus Installateur Wien<br>
+        <em>Thermenwartung & Service</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Ein professioneller Buderus Thermentausch Wien sorgt für zuverlässige Wärme, moderne Gastherme und hohe Energieeffizienz in Ihrem Zuhause.
+        Als Buderus Installateur Wien bieten wir professionelle Thermenwartung, Reparatur und Installation für Buderus Therme und Gastherme in Wien.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Thermentausch Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Installateur Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Brennwerttechnik</span>
-        <span class="wolf-pill">Transparente Kosten</span>
-        <span class="wolf-pill">Thermenservice</span>
-        <span class="wolf-pill">Wartung vom Profi</span>
+        <span class="wolf-pill">Thermenwartung</span>
+        <span class="wolf-pill">Reparatur</span>
+        <span class="wolf-pill">Thermentausch</span>
+        <span class="wolf-pill">Preise inkl. MwSt</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Angebot anfordern</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
         <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
       </div>
 
       <section class="promo-banner" id="buderus-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Buderus Thermentausch Aktion</em></h2>
+            <h2 class="promo-banner__title"><em>Buderus Service Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
@@ -515,246 +516,241 @@
 
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item"><a href="#sinnvoll-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Wann sinnvoll</span></a></li>
-            <li class="toc-item"><a href="#systeme-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Heizlösungen</span></a></li>
-            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#montage-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Montage</span></a></li>
-            <li class="toc-item"><a href="#kosten-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Kosten</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Vorteile</span></a></li>
+            <li class="toc-item"><a href="#fachpartner-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Fachpartner</span></a></li>
+            <li class="toc-item"><a href="#service-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Service</span></a></li>
+            <li class="toc-item"><a href="#heizung-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Heizung & Geräte</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Preise</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Wien & Umgebung</span></a></li>
+            <li class="toc-item"><a href="#thermentausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Thermentausch</span></a></li>
             <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Angebot</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 1) Wann sinnvoll -->
-  <section class="service-section" id="sinnvoll-services">
+  <!-- 1) Fachpartner -->
+  <section class="service-section" id="fachpartner-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
+            <h2>Buderus Fachpartner in Wien</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Heizkosten steigen.
-              Besonders ältere Buderus Gasthermen verlieren mit der Zeit an Effizienz und Zuverlässigkeit.
+              Als erfahrener Installateur und kompetenter Partner für Buderus in Wien stehen wir für Qualität, Sicherheit und nachhaltige Betreuung.
+              Unsere Mitarbeiter und unser geschultes Fachpersonal verfügen über langjährige Erfahrung im Bereich Buderus Heizsystem, Buderus Gastherme und moderne Heizkessel.
             </p>
             <p>
-              Moderne Buderus Brennwert Thermen bieten eine bessere Nutzung der Energie, erhöhen den Wohnkomfort und reduzieren Energiekosten.
-              Auch bei Gasgeruch, Defekt oder wiederkehrenden Ausfällen empfiehlt sich ein Austausch.
-              Ein erfahrener Installateur prüft Anlage, Gerät, Wärmetauscher und Heizsysteme und empfiehlt eine sichere Lösung für Wien und Umgebung.
+              Wir betreuen Kunden in Wien und Umgebung zuverlässig und mit kurzen Wegzeit. Ob Wohnung, Restaurants oder gewerblicher Betrieb – wir kennen die Anforderungen vor Ort und reagieren schnell.
+              Unsere Kompetenz als Fachmann zeigt sich in professioneller Wartung, strukturierter Prüfung und persönlicher Beratung.
+              Buderus steht als Marke für Leistung, Langlebigkeit und Umweltbewusstsein – Werte, die wir bei jeder Installation und jedem Service umsetzen.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Wann ein Thermentausch in Wien sinnvoll ist" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Fachpartner in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 2) Heizlösungen -->
-  <section class="service-section service-section--soft" id="systeme-services">
+  <!-- 2) Installation, Wartung und Service -->
+  <section class="service-section service-section--soft" id="service-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Moderne Buderus Heizlösungen im Überblick</h2>
-        <p>Buderus steht als Hersteller für langlebige Heizsystemen, hohe Qualität und zuverlässige Gasgeräte für unterschiedliche Anforderungen.</p>
-      </div>
-
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
-          <div>
-            <h3>Brennwerttechnik für effiziente Wärme</h3>
-            <p>Buderus Brennwert Thermen nutzen die Energie des Gases besonders effizient. Das senkt Heizkosten, steigert die Energieeffizienz und schont die Umwelt.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🚿</div>
-          <div>
-            <h3>Kombi Therme für Heizung und Komfort</h3>
-            <p>Eine Buderus Kombi Therme verbindet Heizung und Warmwasser in einem Gerät. Ideal für Wohnungen und Häuser mit begrenztem Platzbedarf.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
-          <div>
-            <h3>Buderus Modelle passend zur Anlage</h3>
-            <p>Jedes Buderus Gerät wird passend zur Anlage, Wärmeleistung und Nutzung ausgewählt. So entsteht eine zuverlässige und langlebige Heizlösung.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛡️</div>
-          <div>
-            <h3>Sichere Technik & stabile Leistung</h3>
-            <p>Moderne Buderus Gasgeräte überzeugen mit hoher Zuverlässigkeit, sicherer Regelung und effizienten Komponenten für den langfristigen Betrieb.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- 3) Ablauf -->
-  <section class="service-section" id="ablauf-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>So läuft der Buderus Thermentausch ab</h2>
+        <h2>Installation, Wartung und Service</h2>
         <p>
-          Der Buderus Thermentausch erfolgt strukturiert und sicher. Nach der Kontaktaufnahme erfolgt eine Überprüfung der bestehenden Heizthermen und Anlage.
-          Anschließend werden die Arbeiten geplant, die Installation vorbereitet und die alte Therme fachgerecht ausgebaut.
-          Die neue Buderus Therme wird montiert, angeschlossen und in Betrieb genommen.
-          Abschließend erfolgt eine Kontrolle aller Funktionen sowie Hinweise zu Wartung, Thermenservice und Sicherheit.
+          Unser Service umfasst Installation, regelmäßige Wartung und professionelle Buderus Thermenwartung für alle Buderus Geräte.
+        </p>
+      </div>
+
+      <div class="card-box" style="margin-bottom:14px;">
+        <p>
+          Eine fachgerechte Montage Ihrer Buderus Therme oder Buderus Gastherme stellt sicher, dass Heizung und Heizkörper effizient arbeiten.
+          Die Thermenwartung Buderus beinhaltet Reinigung, Funktionsprüfung, Nachjustierung und Kontrolle der Abgaswerte.
+          Durch regelmäßige Wartung reduzieren Sie Risiko, unnötigen Gasverbrauch und langfristige Kosten.
+        </p>
+        <p>
+          Unser Buderus Thermenservice erstellt ein Prüfprotokoll und informiert transparent über Leistung und Zustand Ihrer Anlage.
+          Kunden profitieren von zuverlässigem Kundendienst, transparenter Terminvergabe und fairem Preis Leistungsverhältnis inklusive MwSt.
         </p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔎</div>
+          <div class="service-feature__icon" aria-hidden="true">🔧</div>
           <div>
-            <h3>Überprüfung und Beratung vor Ort</h3>
-            <p>Wir prüfen Gerät, Anlage und Heizsysteme – inklusive Wärmetauscher und Sicherheit – und klären den Bedarf für eine passende Lösung.</p>
+            <h3>Buderus Therme Installation</h3>
+            <p>Wir übernehmen die fachgerechte Installation Ihrer Buderus Therme inklusive Montage, Anschluss an Heizkörper und sichere Inbetriebnahme des Heizsystems.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🗓️</div>
+          <div class="service-feature__icon" aria-hidden="true">🧼</div>
           <div>
-            <h3>Planung der Arbeiten und Installation</h3>
-            <p>Wir planen Ablauf, Montage und Material. So läuft die Installation strukturiert, sauber und abgestimmt auf die Gegebenheiten vor Ort.</p>
+            <h3>Buderus Thermenwartung Service</h3>
+            <p>Unsere Buderus Thermenwartung sowie Thermenwartung in Wien umfasst Zerlegung, Reinigung, Funktionsprüfung und Kontrolle der Abgaswerte Ihrer Therme.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♻️</div>
+          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Austausch der alten Therme</h3>
-            <p>Die alte Therme wird fachgerecht demontiert und entsorgt. Anschlüsse und Komponenten werden für die neue Buderus Therme vorbereitet.</p>
+            <h3>Reparatur und Ersatzteile</h3>
+            <p>Bei Reparatur verwenden wir hochwertige Ersatzteile, prüfen Wärmetauscher und Brennwert-Komponenten und beheben jedes Problem effizient.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">✅</div>
+          <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Inbetriebnahme und Kontrolle</h3>
-            <p>Nach Montage folgt die Inbetriebnahme, Funktionsprüfung und Kontrolle – inklusive Hinweise zu Thermenservice und Wartung.</p>
+            <h3>Notdienst in Wien</h3>
+            <p>Unser Notdienst steht in Wien und Umgebung zur Verfügung und hilft bei akuten Problemen oder Ausfällen Ihrer Gastherme schnell vor Ort.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- 4) Montage -->
-  <section class="service-section service-section--soft" id="montage-services">
+  <!-- 3) Heizung, Gastherme und Heizkessel -->
+  <section class="service-section" id="heizung-services">
     <div class="service-container">
-      <div class="card-split">
+      <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Montage, Betrieb und Sicherheit</h2>
+            <h2>Heizung, Gastherme und Heizkessel</h2>
             <p>
-              Eine fachgerechte Montage ist entscheidend für Sicherheit, Komfort und die Lebensdauer der Buderus Therme.
+              Wir betreuen Buderus Heizungssysteme, Buderus Gastherme, Kombitherme und moderne Heizkessel im gesamten Leistungsbereich.
+              Eine regelmäßige Thermenwartung Buderus verbessert die Leistung, verlängert die Lebensdauer und reduziert Gasverbrauch.
             </p>
-            <p><strong>Installation und technische Arbeiten</strong><br>
-              Alle Installationsarbeiten an Gas, Anlage und Gerät erfolgen nach aktuellem Standard. Sicherheit und zuverlässiger Betrieb stehen im Fokus.
-            </p>
-            <p><strong>Wartung, Thermenservice und Schutz</strong><br>
-              Regelmäßige Buderus Thermenwartung, Thermenservice und Überprüfung schützen vor Problemen, erhöhen die Zuverlässigkeit und sichern den Betrieb.
+            <p>
+              Unsere Wartung umfasst Entleerung, Zerlegung relevanter Komponenten sowie Überprüfung aller sicherheitsrelevanten Funktionen.
+              Durch sorgfältige Prüfung stellen wir sicher, dass Heizsystem und Heizkessel effizient arbeiten und Umwelt sowie Budget geschont werden.
+              Kunden in Wien und Umgebung profitieren von nachhaltiger Betreuung und professionellem Buderus Kundendienst.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Montage, Betrieb und Sicherheit" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Heizung, Gastherme und Heizkessel" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 5) Kosten -->
-  <section class="service-section" id="kosten-services">
+  <!-- 4) Preise, Angebot und Beratung -->
+  <section class="service-section service-section--soft" id="preise-services">
     <div class="service-container">
-      <div class="card-split card-split--reverse">
+      <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Transparenz</h2>
+            <h2>Preise, Angebot und Beratung</h2>
             <p>
-              Die Kosten für einen Buderus Thermentausch in Wien hängen von Gerät, Anlage und Montageaufwand ab.
-              Ein transparenter Kostenvoranschlag zeigt alle Kosten klar auf. Moderne Buderus Thermen reduzieren Energiekosten und verbessern die Energieeffizienz langfristig.
+              Transparente Preise und faire Kosten sind Teil unseres Service in Wien.
+              Vor jeder Thermenwartung Buderus oder Reparatur erhalten Sie ein klares Angebot inklusive MwSt.
             </p>
             <p>
-              Durch klare Planung, faire Kosten und strukturierte Arbeiten entsteht eine wirtschaftliche Lösung für Ihr Zuhause.
+              Wir beraten individuell zu Thermentausch, Modernisierung oder möglicher Aktion.
+              Dank effizienter Wegzeit sparen Kunden Zeit und Geld.
+              Unser Ziel ist es, ein optimales Preis Leistungsverhältnis zu bieten – ohne versteckte Zusatzkosten.
+              Ob Anfrage über Telefon oder E Mail Adresse, wir stehen für Beratung, Betreuung und verlässliche Terminvergabe zur Verfügung.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Kostenübersicht</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparenter Kostenvoranschlag</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Faire Preise ohne Überraschungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Langfristige Einsparungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Angebot inkl. MwSt</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Keine versteckten Kosten</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Faire Preisstruktur</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Effiziente Wegzeit</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Kosten, Preise und Transparenz" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Preise, Angebot und Beratung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 6) Region -->
+  <!-- 5) Ablauf -->
+  <section class="service-section" id="ablauf-services">
+    <div class="service-container">
+      <div class="service-section__head">
+        <h2>Ablauf von Anfrage bis Termin</h2>
+        <p>Strukturiert, transparent und mit schneller Terminvergabe in Wien.</p>
+      </div>
+
+      <div class="card-box">
+        <p>
+          Nach Ihrer Anfrage per Telefon, E Mail Adresse oder direkt über unsere Seite erfolgt eine rasche Terminvergabe.
+          Unser Buderus Installateur Wien prüft vor Ort Ihre Buderus Therme, Buderus Gastherme oder den Heizkessel und führt eine detaillierte Prüfung durch.
+        </p>
+        <p>
+          Dabei werden Abgaswerte, Funktionsprüfung, Gasverbrauch und sicherheitsrelevante Komponenten kontrolliert.
+          Anschließend erhalten Sie transparente Infos zu Wartung, Reparatur oder möglichem Thermentausch inklusive Kosten und MwSt.
+          Unser Kundendienst erstellt auf Wunsch ein Prüfprotokoll und bespricht alle weiteren Schritte verständlich.
+        </p>
+        <p>
+          Ziel ist eine effiziente Lösung mit minimaler Wegzeit und maximaler Sicherheit für Ihr Heizsystem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6) Wien und Umgebung -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermentausch in Wien und Niederösterreich</h2>
+            <h2>Wien und Umgebung</h2>
             <p>
-              Ein Buderus Thermentausch in Wien und Niederösterreich erfordert Erfahrung mit regionalen Vorschriften, Gebäudetypen und Heizsystemen.
-              Ob Wien, Umgebung, Burgenland oder Niederösterreich – jede Anlage bringt unterschiedliche Voraussetzungen mit sich.
+              Unser Buderus Installateur Service ist in ganz Wien und Umgebung sowie in Wien und Umgebung angrenzenden Bezirken im Einsatz.
+              Dank kurzer Wegzeit sind wir schnell am Ort und betreuen Wohnungen, Restaurants und gewerbliche Objekte gleichermaßen.
             </p>
             <p>
-              Unsere Installateure sind regelmäßig im Einsatz und betreuen Kunden direkt vor Ort.
-              Wohnungen, Einfamilienhäuser und verschiedene Heizsysteme werden individuell beurteilt.
-              Durch strukturierte Planung, saubere Arbeiten und abgestimmten Einsatz entsteht ein reibungsloser Thermentausch in Wien und Niederösterreich – zuverlässig, sicher und effizient.
+              Die Nähe zum Kunden ermöglicht rasche Reaktion bei Thermenwartung Buderus, Reparatur oder Notdienst.
+              Unsere Mitarbeiter kennen die regionalen Anforderungen und bieten zuverlässige Betreuung für Buderus Heizsysteme.
+              Kunden schätzen unseren strukturierten Ablauf, klare Kommunikation und kompetenten Buderus Kundendienst direkt in Wien.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Thermentausch in Wien und Niederösterreich" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Wien und Umgebung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 7) Vorteile (dark) -->
-  <section class="service-section service-section--dark" id="vorteile-services">
+  <!-- 7) Thermentausch und Modernisierung (dark) -->
+  <section class="service-section service-section--dark" id="thermentausch-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Warum ein professioneller Buderus Thermentausch überzeugt</h2>
+        <h2>Thermentausch und Modernisierung</h2>
         <p>
-          Ein fachgerecht umgesetzter Buderus Thermentausch erhöht die Sicherheit, senkt Energiekosten und verbessert den Wohnkomfort dauerhaft.
-          Unsere Experten prüfen Anlage, Gerät, Wärmetauscher und Heizsysteme sorgfältig.
+          Ein Thermentausch ist empfehlenswert, wenn Ihre Buderus Therme häufige Störungen aufweist oder nicht mehr dem aktuellen Brennwert-Standard entspricht.
+          Wir beraten zu modernen Buderus Produkten, effizienter Kombitherme oder neuem Heizkessel im passenden Leistungsbereich.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Durch saubere Montage, regelmäßige Buderus Thermenwartung und zuverlässigen Kundendienst bleibt die neue Therme langlebig und effizient.
-          Kunden profitieren von persönlicher Beratung, erfahrenem Team und einem festen Partner für Thermenservice, Reparatur und Kundenservice – alles aus einer Hand.
+          Der Austausch erfolgt fachgerecht inklusive Demontage, Montage und Installation der neuen Anlage.
+          Dabei prüfen wir Wärmetauscher, Brennwert-Komponenten und passen das Heizsystem an aktuelle Anforderungen an.
+          Ein moderner Thermentausch reduziert Gasverbrauch, senkt Risiko und verlängert die Lebensdauer der gesamten Anlage.
+          Kunden profitieren von mehr Leistung, besserer Umweltbilanz und langfristiger Sicherheit.
         </p>
         <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Angebot anfordern</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Beratung anfordern</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
@@ -763,10 +759,10 @@
         <div class="service-panel">
           <h3>Ihre Vorteile</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Erfahrung, Fachwissen und Expertise</li>
-            <li>Zuverlässige Entsorgung und sicherer Austausch</li>
-            <li>Hohe Lebensdauer und Qualität</li>
-            <li>Ein Team für Service, Wartung und Betrieb</li>
+            <li>Fachgerechte Demontage & Montage</li>
+            <li>Prüfung von Wärmetauscher & Brennwert</li>
+            <li>Reduzierter Gasverbrauch</li>
+            <li>Mehr Betriebssicherheit</li>
           </ul>
         </div>
       </div>
@@ -777,39 +773,39 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zum Buderus Thermentausch</h2>
+        <h2>Häufige Fragen zu Buderus</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wann ist ein Buderus Thermentausch sinnvoll?</summary>
-          <p>Ein Austausch ist sinnvoll bei häufigen Störungen, steigenden Heizkosten, Defekt oder wenn die bestehende Therme nicht mehr effizient arbeitet.</p>
+          <summary>Wie oft sollte eine Thermenwartung Buderus erfolgen?</summary>
+          <p>Eine jährliche Thermenwartung wird empfohlen, um Leistung, Sicherheit und Lebensdauer Ihrer Buderus Therme zu erhalten.</p>
         </details>
 
         <details>
-          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
-          <p>In den meisten Fällen erfolgt der Austausch inklusive Montage und Inbetriebnahme innerhalb eines Tages, abhängig von Anlage und Umfang der Arbeiten.</p>
+          <summary>Was umfasst die Buderus Thermenwartung?</summary>
+          <p>Die Buderus Thermenwartung beinhaltet Zerlegung, Reinigung, Funktionsprüfung, Kontrolle der Abgaswerte sowie Nachjustierung wichtiger Komponenten.</p>
         </details>
 
         <details>
-          <summary>Welche Buderus Therme ist die richtige Wahl?</summary>
-          <p>Die Wahl hängt von Heizsystem, Wärmebedarf, Anlage und Nutzung ab. Unsere Experten beraten umfassend zur passenden Lösung.</p>
+          <summary>Gibt es einen Buderus Notdienst in Wien?</summary>
+          <p>Ja, unser Notdienst ist in Wien und Umgebung verfügbar und hilft bei dringenden Problemen schnell weiter.</p>
         </details>
 
         <details>
-          <summary>Ist Thermenwartung nach dem Thermentausch notwendig?</summary>
-          <p>Ja, regelmäßige Thermenwartung Wien und Buderus Thermenservice sichern Energieeffizienz, Sicherheit und lange Lebensdauer.</p>
+          <summary>Wie transparent sind Preise und MwSt?</summary>
+          <p>Alle Preise und MwSt werden vorab klar kommuniziert. Sie erhalten ein nachvollziehbares Angebot ohne versteckte Kosten.</p>
         </details>
 
         <details>
-          <summary>Was kostet ein Buderus Thermentausch?</summary>
-          <p>Die Kosten richten sich nach Gerät, Montage und Aufwand. Ein transparenter Kostenvoranschlag schafft volle Klarheit.</p>
+          <summary>Wann ist ein Thermentausch sinnvoll?</summary>
+          <p>Ein Thermentausch empfiehlt sich bei wiederkehrendem Problem, ineffizientem Betrieb oder veralteter Buderus Gastherme.</p>
         </details>
 
         <details>
-          <summary>Gibt es Wartungsverträge für Buderus Thermen?</summary>
-          <p>Ja, ein Wartungsvertrag bietet regelmäßige Überprüfung, Schutz vor Ausfällen und langfristige Betriebssicherheit.</p>
+          <summary>Wie schnell bekomme ich einen Termin?</summary>
+          <p>Nach Ihrer Anfrage erfolgt eine schnelle Terminvergabe mit möglichst geringer Wegzeit innerhalb von Wien.</p>
         </details>
       </div>
     </div>
@@ -819,13 +815,17 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Beratung & Angebot anfordern</h2>
+        <h2>Kontakt zum Installateur</h2>
         <p>
-          Sie planen einen Buderus Thermentausch in Wien oder Niederösterreich?
-          Unser Team berät Sie persönlich und erstellt ein individuelles Angebot inklusive transparenter Kosten und zuverlässigem Service.
+          Für professionelle Buderus Thermenwartung, Reparatur oder Installation steht Ihnen unser Buderus Installateur Wien jederzeit zur Verfügung.
+          Unser Team aus erfahrenen Mitarbeitern und geschultem Fachpersonal betreut Buderus Therme, Gastherme und Heizkessel zuverlässig.
         </p>
         <p style="margin-top:10px;">
-          👉 Jetzt Angebot anfordern und Buderus Thermentausch professionell umsetzen
+          Über unsere Telefon Nummer oder per E Mail Adresse erreichen Sie unseren Kundenservice schnell und unkompliziert.
+          Wir beantworten Fragen transparent, beraten kompetent und sorgen für eine sichere Heizung in Ihrem Zuhause.
+        </p>
+        <p style="margin-top:10px;">
+          Vertrauen Sie auf Kompetenz, Erfahrung und einen Servicepartner, der Qualität und langfristige Betreuung in den Mittelpunkt stellt.
         </p>
       </div>
 

@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('main')
-<style>
+<!-- <style>
   :root{
     --ink:#184048;
     --bg:#ffffff;
@@ -351,12 +351,43 @@
   .wolf-btn--ghost{background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.28); color:#fff;}
   .wolf-btn--ghost:hover, .wolf-btn--accent:hover{transform:translateY(-1px);}
 
+  .promo-banner{margin-top:22px}
+  .promo-banner__inner{
+    position:relative;
+    overflow:hidden;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.18);
+    background:rgba(255,255,255,.06);
+    padding:16px;
+  }
   .promo-banner__inner::after{
     content:"";
     position:absolute;
     inset:0;
     background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
     z-index:0;
+  }
+  .promo-banner__content{
+    position:relative;
+    z-index:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+    flex-wrap:wrap;
+    text-align:center;
+  }
+  .promo-banner__title{margin:0; font-size:20px; color:#fff;}
+  .promo-banner__price{margin:0; font-size:18px; color:#fff;}
+  .promo-banner__btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 16px;
+    border-radius:999px;
+    background:var(--accent);
+    color:#1a1a1a;
+    font-weight:900;
   }
 
   /* TOC */
@@ -446,45 +477,37 @@
     .wolf-hero__sub{font-size:14px}
   }
 
-
   /* ✅ FIX: make media column + box stretch and fill */
-.card-split__text,
-.card-split__media{
-  display:flex;
-  align-items:stretch; /* important */
-}
-
-/* media wrapper must be flexible */
-.service-media{
-  width:100%;
-  display:flex;
-  align-items:stretch;
-}
-
-/* box must grow to full height */
-.service-media__box{
-  flex:1;                 /* ✅ fill available height */
-  width:100%;
-  min-height:100%;        /* ✅ ensures full height */
-  display:flex;           /* ✅ so img can stretch */
-  align-items:stretch;
-}
-
-/* img fills box completely */
-.service-media__img{
-  flex:1;                 /* ✅ fill box */
-  width:100%;
-  height:100%;
-  /* object-fit:cover;       ✅ cover */
-  object-position:center;
-  display:block;
-}
-
-</style>
+  .card-split__text,
+  .card-split__media{
+    display:flex;
+    align-items:stretch;
+  }
+  .service-media{
+    width:100%;
+    display:flex;
+    align-items:stretch;
+  }
+  .service-media__box{
+    flex:1;
+    width:100%;
+    min-height:100%;
+    display:flex;
+    align-items:stretch;
+  }
+  .service-media__img{
+    flex:1;
+    width:100%;
+    height:100%;
+    /* object-fit:cover; */
+    object-position:center;
+    display:block;
+  }
+</style> -->
 
 @push('meta')
-  <title>Wolf Thermentausch Wien | Neue Gastherme inkl. Montage & MwSt</title>
-  <meta name="description" content="Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Service & Angebot vom Fachbetrieb">
+  <title>Wolf Installateur Wien | Thermenservice, Wartung &amp; Notdienst</title>
+  <meta name="description" content="Erfahrener Wolf Installateur Wien für Wolf Thermenservice, Thermenwartung, Reparatur &amp; Notdienst. Wien, NÖ &amp; Burgenland. Jetzt Termin sichern.">
 @endpush
 
 <main>
@@ -492,42 +515,41 @@
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">Wolf Thermentausch Wien</p>
+      <p class="wolf-hero__kicker">Wolf Installateur Wien</p>
 
       <h1>
-        Wolf Thermentausch Wien<br>
-        <em>Neue Gastherme inkl. Montage & MwSt</em>
+        Wolf Installateur Wien<br>
+        <em>Thermenservice, Wartung &amp; Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Ein professioneller Wolf Thermentausch Wien sorgt für zuverlässige Heizung, moderne Gastherme und hohen Wohnkomfort in Ihrem Zuhause.
+        Als Wolf Installateur Wien bieten wir professionelle Installation, Thermenservice und Wartung für Wolf Thermen, Heizung und Gasgeräte in Wien.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Wolf Thermentausch Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Wolf Installateur Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Brennwerttechnik</span>
-        <span class="wolf-pill">Montage inkl. MwSt</span>
-        <span class="wolf-pill">Beratung & Service</span>
-        <span class="wolf-pill">Fachbetrieb</span>
+        <span class="wolf-pill">Thermenservice</span>
+        <span class="wolf-pill">Thermenwartung</span>
+        <span class="wolf-pill">Reparatur</span>
+        <span class="wolf-pill">Notdienst</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Beratung anfordern</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin sichern</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
       </div>
 
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Wolf Thermentausch Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab  €95</strong></p>
+            <h2 class="promo-banner__title"><em>Wolf Service &amp; Notdienst</em></h2>
+            <p class="promo-banner__price"><strong>Wien • NÖ • Burgenland</strong></p>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
-              <span class="promo-banner__btn-ico">  </span>
-              AKTION
+            <a class="promo-banner__btn" href="#kontakt-services" aria-label="Termin">
+              Termin
             </a>
           </div>
         </div>
@@ -535,378 +557,383 @@
     </div>
   </section>
 
-<!-- TOC -->
-<section class="toc-wrap" aria-label="Inhaltsverzeichnis">
-  <div class="service-container">
-    <div class="toc-card" id="tocCard">
-      <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
-        <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+  <!-- TOC -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
+    <div class="service-container">
+      <div class="toc-card" id="tocCard">
+        <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+          <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
-        <div class="toc-actions">
-          <button class="toc-iconbtn" type="button" id="tocToggle"
-            aria-expanded="false" aria-controls="tocBody"
-            aria-label="Inhaltsverzeichnis umschalten">
-            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
-              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
-            </svg>
-          </button>
+          <div class="toc-actions">
+            <button class="toc-iconbtn" type="button" id="tocToggle"
+              aria-expanded="false" aria-controls="tocBody"
+              aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+              </svg>
+            </button>
+          </div>
         </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item">
+              <a href="#partner-services" class="toc-link">
+                <span class="toc-badge">01</span>
+                <span class="toc-text">Fachpartner</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#leistungen-services" class="toc-link">
+                <span class="toc-badge">02</span>
+                <span class="toc-text">Leistungen</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#heizung-services" class="toc-link">
+                <span class="toc-badge">03</span>
+                <span class="toc-text">Heizung &amp; Gas</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#preise-services" class="toc-link">
+                <span class="toc-badge">04</span>
+                <span class="toc-text">Preise</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#ablauf-services" class="toc-link">
+                <span class="toc-badge">05</span>
+                <span class="toc-text">Ablauf</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#region-services" class="toc-link">
+                <span class="toc-badge">06</span>
+                <span class="toc-text">Einsatzgebiet</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#tausch-services" class="toc-link">
+                <span class="toc-badge">07</span>
+                <span class="toc-text">Geräteaustausch</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#faq-services" class="toc-link">
+                <span class="toc-badge">08</span>
+                <span class="toc-text">FAQ</span>
+              </a>
+            </li>
+            <li class="toc-item">
+              <a href="#kontakt-services" class="toc-link">
+                <span class="toc-badge">09</span>
+                <span class="toc-text">Kontakt</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
       </div>
-
-      <div class="toc-body" id="tocBody">
-        <!-- ✅ IMPORTANT: add id="tocList" (your JS needs this) -->
-        <ul class="toc-list" id="tocList">
-          <li class="toc-item">
-            <a href="#sinnvoll-services" class="toc-link">
-              <span class="toc-badge">01</span>
-              <span class="toc-text">Wann sinnvoll</span>
-            </a>
-          </li>
-
-          <li class="toc-item">
-            <a href="#systeme-services" class="toc-link">
-              <span class="toc-badge">02</span>
-              <span class="toc-text">Heizsysteme</span>
-            </a>
-          </li>
-
-          <li class="toc-item">
-            <a href="#ablauf-services" class="toc-link">
-              <span class="toc-badge">03</span>
-              <span class="toc-text">Ablauf</span>
-            </a>
-          </li>
-
-          <li class="toc-item">
-            <a href="#montage-services" class="toc-link">
-              <span class="toc-badge">04</span>
-              <span class="toc-text">Montage &amp; Sicherheit</span>
-            </a>
-          </li>
-
-          <li class="toc-item">
-            <a href="#kosten-services" class="toc-link">
-              <span class="toc-badge">05</span>
-              <span class="toc-text">Kosten</span>
-            </a>
-          </li>
-
-          <li class="toc-item">
-            <a href="#region-services" class="toc-link">
-              <span class="toc-badge">06</span>
-              <span class="toc-text">Region</span>
-            </a>
-          </li>
-
-          <li class="toc-item">
-            <a href="#vorteile-services" class="toc-link">
-              <span class="toc-badge">07</span>
-              <span class="toc-text">Warum Wolf</span>
-            </a>
-          </li>
-
-          <li class="toc-item">
-            <a href="#faq-services" class="toc-link">
-              <span class="toc-badge">08</span>
-              <span class="toc-text">FAQ</span>
-            </a>
-          </li>
-
-          <li class="toc-item">
-            <a href="#kontakt-services" class="toc-link">
-              <span class="toc-badge">09</span>
-              <span class="toc-text">Angebot</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-
-  <!-- 1) Sinnvoll -->
-  <section class="service-section" id="sinnvoll-services">
+  <!-- 1) Wolf Fachpartner in Wien -->
+  <section class="service-section" id="partner-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
+            <h2>Wolf Fachpartner in Wien</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine alte Therme häufige Reparaturen benötigt, der Energieverbrauch steigt
-              oder die Heizleistung nicht mehr ausreicht. Besonders bei älteren Wolf Gasthermen nimmt die Effizienz mit dem Alter ab,
-              was höhere Betriebskosten verursacht.
+              Als erfahrener Wolf Fachpartner in Wien betreuen wir Kunden mit hoher Fachkompetenz, langjähriger Erfahrung und zuverlässigem Service.
+              Unser Fachbetrieb arbeitet eng mit dem Hersteller Wolf zusammen und kennt den aktuellen Stand moderner Heiztechnik.
             </p>
             <p>
-              Moderne Wolf Thermen bieten eine verbesserte Brennwerttechnik, geringeren Energieverbrauch und mehr Sicherheit.
-              Ein erfahrener Installateur prüft die bestehende Heizungsanlage, bewertet Zustand, Nutzung und Ziel und empfiehlt die passende neue Therme
-              für langfristigen Betrieb in Wien und Umgebung.
+              Wir betreuen Wolf Geräte, Wolf Gasgeräte und Wolf Thermen für Wohnungen und Häuser in Wien und der Umgebung.
+              Unsere Installateure und Techniker sind geschulte Experten und sorgen für sichere Lösungen rund um Therme, Heizung und Gas.
+              Qualität, Kompetenz und Kundenzufriedenheit stehen für uns im Mittelpunkt.
+              Als Partner begleiten wir unsere Kunden persönlich – von der ersten Beratung bis zum laufenden Betrieb.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/wolf.jpeg') }}" alt="Thermentausch sinnvoll" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/wolf.jpeg') }}" alt="Wolf Fachpartner in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-<!-- 2) Systeme (UPDATED like first image: full width + 2-column cards, NO image) -->
-<section class="service-section service-section--soft" id="systeme-services">
-  <div class="service-container">
-
-    <div class="service-section__head">
-      <h2>Moderne Wolf Heizsysteme im Überblick</h2>
-      <p>Wolf steht für langlebige Heizsysteme, hohe Qualität und ein sehr gutes Preis-Leistungs-Verhältnis bei Gasgeräten.</p>
-    </div>
-
-    <div class="service-grid service-grid--2">
-      <article class="service-feature">
-        <div class="service-feature__icon" aria-hidden="true">🔥</div>
-        <div>
-          <h3>Brennwerttechnik für mehr Effizienz</h3>
-          <p>Eine Wolf Brennwerttherme nutzt die eingesetzte Energie besonders effizient. Der geringere Gasverbrauch senkt Energiekosten und schont Umwelt und Ressourcen.</p>
-        </div>
-      </article>
-
-      <article class="service-feature">
-        <div class="service-feature__icon" aria-hidden="true">🏠</div>
-        <div>
-          <h3>Wolf Gastherme für Wohnkomfort</h3>
-          <p>Die Wolf Gastherme kombiniert zuverlässige Heizleistung mit hohem Wohnkomfort. Sie eignet sich ideal für Wohnungen, Einfamilienhäuser und moderne Heizsysteme.</p>
-        </div>
-      </article>
-
-      <article class="service-feature">
-        <div class="service-feature__icon" aria-hidden="true">⚙️</div>
-        <div>
-          <h3>Wolf Thermenmodelle im Einsatz</h3>
-          <p>Wolf Thermen überzeugen durch robuste Bauweise, lange Lebensdauer und flexible Auswahl. Jedes Gerät wird passend zur Anlage und Heizleistung ausgewählt.</p>
-        </div>
-      </article>
-
-      <article class="service-feature">
-        <div class="service-feature__icon" aria-hidden="true">🛡️</div>
-        <div>
-          <h3>Sicherheit & zuverlässiger Betrieb</h3>
-          <p>Moderne Wolf Geräte bieten stabile Heizleistung, sichere Komponenten und einen zuverlässigen Betrieb – ideal für den langfristigen Einsatz im Alltag.</p>
-        </div>
-      </article>
-    </div>
-
-  </div>
-</section>
-
-
-  <!-- 3) Ablauf -->
-  <section class="service-section" id="ablauf-services">
+  <!-- 2) Installation, Wartung und Service -->
+  <section class="service-section service-section--soft" id="leistungen-services">
     <div class="service-container">
+
       <div class="service-section__head">
-        <h2>So läuft der Wolf Thermentausch ab</h2>
-        <p>Der Wolf Thermentausch folgt einem klaren Ablauf – strukturiert und transparent.</p>
+        <h2>Installation, Wartung und Service</h2>
+        <p>
+          Unser Installateur Service für Wolf in Wien umfasst fachgerechte Installation, laufende Wartung und umfassenden Kundendienst – professionell, transparent und serviceorientiert.
+        </p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔎</div>
-          <div>
-            <h3>Besichtigung und Planung</h3>
-            <p>Nach der Kontaktaufnahme erfolgt die Besichtigung der alten Therme und der Heizungsanlage. Danach plant der Fachmann den Austausch.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔧</div>
           <div>
-            <h3>Installation und Montage der Anlage</h3>
-            <p>Installation, Montage und Koordination aller Arbeiten – fachgerecht, sauber und abgestimmt auf Ihre Anlage.</p>
+            <h3>Wolf Therme Installation</h3>
+            <p>Wir installieren Wolf Therme inklusive Montage, Anschluss an Heizung und Gas sowie sicherer Inbetriebnahme durch erfahrene Techniker.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♻️</div>
+          <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
-            <h3>Austausch und Entsorgung der alten Therme</h3>
-            <p>Die alte Therme wird fachgerecht entsorgt. Anschlüsse und Sicherheit werden geprüft, bevor die neue Therme eingebaut wird.</p>
+            <h3>Wolf Thermenwartung Service</h3>
+            <p>Unsere Wolf Thermenwartung und der Wolf Thermenservice sichern den zuverlässigen Betrieb, optimieren Einstellungen und reduzieren Störungen langfristig.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">✅</div>
+          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Inbetriebnahme und Einschulung</h3>
-            <p>Zum Abschluss: Inbetriebnahme, Funktionscheck und Einschulung zu Nutzung, Wartung und Sicherheit.</p>
+            <h3>Reparatur und Austausch</h3>
+            <p>Bei Reparatur oder Austausch beheben wir Probleme effizient und sorgen für funktionierende Geräte mit hoher Qualität und Sicherheit.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">⏱️</div>
+          <div>
+            <h3>Notdienst rund um Uhr</h3>
+            <p>Unser Wolf Notdienst ist rund um die Uhr erreichbar und steht bei akuten Problemen schnell zur Verfügung.</p>
           </div>
         </article>
       </div>
+
     </div>
   </section>
 
-  <!-- 4) Montage -->
-  <section class="service-section service-section--soft" id="montage-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Montage, Betrieb und Sicherheit</h2>
-            <p>
-              Eine fachgerechte Montage ist entscheidend für Sicherheit, Effizienz und lange Lebensdauer der Wolf Therme.
-            </p>
-
-            <p><strong>Installation durch erfahrene Techniker</strong><br>
-              Erfahrene Techniker führen alle Arbeiten an Gas, Anlage und Gerät fachgerecht aus. Sicherheit und zuverlässiger Betrieb stehen dabei im Fokus.
-            </p>
-
-            <p><strong>Wartung, Kundendienst und Service</strong><br>
-              Regelmäßige Wartung, Wolf Thermenwartung und ein starker Kundendienst sichern den langfristigen Einsatz der Wolf Therme und reduzieren Reparaturen.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Montage und Sicherheit" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 5) Kosten -->
-  <section class="service-section" id="kosten-services">
+  <!-- 3) Heizung, Gas und Wärme -->
+  <section class="service-section" id="heizung-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Förderungen</h2>
+            <h2>Heizung, Gas und Wärme</h2>
             <p>
-              Die Kosten für einen Wolf Thermentausch in Wien hängen von Gerät, Heizleistung, Installation und Zustand der Anlage ab.
-              Ein transparenter Kostenvoranschlag zeigt Preise inklusive MwSt und mögliche Förderungen.
+              Wir betreuen Wolf Heiztechnik, Gasgeräte und moderne Heizsysteme für ein angenehmes Raumklima.
+              Ob Gasthermen, Heizung oder komplette Heizsystems – unsere Installateure sorgen für effiziente Einstellungen, stabile Wärme und zuverlässigen Betrieb.
             </p>
             <p>
-              Neue Wolf Thermen senken Betriebskosten, reduzieren Energieverbrauch und bieten langfristige Einsparungen.
-              Durch klare Preise, faire Kosten und saubere Planung erhalten Kunden eine wirtschaftliche Lösung für ihr Zuhause.
+              Durch regelmäßige Überprüfung und fachgerechten Thermenservice lassen sich Energiekosten senken und Heizkosten langfristig reduzieren.
+              Auch Aspekte wie Umwelt, Energie und Komfort fließen in unsere Arbeit ein.
+              Wolf Technik steht für Qualität und Effizienz – wir setzen diese Vorteile im Alltag unserer Kunden konsequent um.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Preise inkl. MwSt</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparenter Kostenvoranschlag</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mögliche Förderungen nutzen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Kosten ohne Überraschungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Stabile Wärme</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Effiziente Einstellungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kosten reduzieren</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Komfort &amp; Umwelt</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Kosten Wolf Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Heizung Gas und Wärme" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 6) Region -->
+  <!-- 4) Preise, Transparenz und Vorteile -->
+  <section class="service-section service-section--soft" id="preise-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Preise, Transparenz und Vorteile</h2>
+            <p>
+              Faire Preise und transparente Abläufe sind ein zentraler Teil unseres Kundenservice.
+              Vor jedem Einsatz informieren wir klar über Preise, Leistungen und mögliche Vorteile unserer Lösungen.
+            </p>
+            <p>
+              Die Terminvergabe erfolgt unkompliziert über Hotline oder direkten Anruf.
+              Kunden profitieren von nachvollziehbaren Kosten, professioneller Beratung und einem starken Preis-Leistungs-Verhältnis.
+              Dank Erfahrung, Fachkompetenz und zuverlässigem Team schaffen wir Vertrauen und langfristige Zufriedenheit – alles aus einer Hand für Wolf Thermenservice in Wien.
+            </p>
+
+            <ul class="service-checklist">
+              <li>Klare Preise vorab</li>
+              <li>Unkomplizierte Terminvergabe</li>
+              <li>Professionelle Beratung</li>
+              <li>Starkes Preis-Leistungs-Verhältnis</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Preise Transparenz Vorteile" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5) Ablauf von Anfrage bis Termin -->
+  <section class="service-section" id="ablauf-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Ablauf von Anfrage bis Termin</h2>
+            <p>
+              Der Weg zu Ihrem Wolf Thermenservice ist einfach und klar strukturiert.
+              Nach Ihrer Kontaktaufnahme über Hotline, Anruf oder Terminformular klären wir Ihr Anliegen persönlich und erfassen alle relevanten Details zu Therme, Heizung oder Gasgeräten.
+            </p>
+            <p>
+              Anschließend erfolgt eine fachliche Einschätzung durch unsere Experten sowie eine transparente Terminvergabe.
+              Unsere Techniker kommen pünktlich zum vereinbarten Termin, führen Installation, Wartung oder Reparatur durch und nehmen alle notwendigen Einstellungen vor.
+              Während des gesamten Einsatzes steht unser Kundendienst zur Verfügung.
+              Ziel ist ein reibungsloser Ablauf, ein sicherer Betrieb und ein spürbarer Komfort im Zuhause.
+            </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hotline / Anruf / Formular</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Terminvergabe</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Pünktliche Techniker</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sicherer Betrieb</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Ablauf Wolf Terminvergabe" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6) Wien, Umgebung und Einsatzgebiet -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermentausch in Wien, Niederösterreich und Umgebung</h2>
+            <h2>Wien, Umgebung und Einsatzgebiet</h2>
             <p>
-              Ein Wolf Thermentausch in Wien, Niederösterreich und der näheren Umgebung erfordert regionale Erfahrung und technisches Fachwissen.
-              Ob Wien, St. Pölten oder umliegende Orte – jede Immobilie bringt andere Voraussetzungen mit.
+              Unser Wolf Installateur Service ist nicht nur in Wien, sondern auch in der Umgebung, in Niederösterreich und im Burgenland im Einsatz.
+              Dank mehrerer Standorte und mobiler Teams reagieren wir flexibel und schnell auf Einsätze.
             </p>
             <p>
-              Unsere Installateure und Techniker sind regelmäßig in Wien und Niederösterreich im Einsatz und kennen die lokalen Gegebenheiten.
-              Durch kurze Wege, klare Organisation und abgestimmten Einsatz entsteht ein reibungsloser Thermentausch – zuverlässig, sicher und effizient.
+              Wir betreuen Wohnungen, Häuser und Betriebe und kennen die regionalen Anforderungen an Heiztechnik, Gas und Sanitär genau.
+              Kurze Wege ermöglichen rasche Hilfe bei Notdienstfällen und geplanten Terminen.
+              Kunden schätzen unsere Verfügbarkeit, klare Kommunikation und den persönlichen Service direkt vor Ort.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Region Wien Niederösterreich" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Einsatzgebiet Wien NÖ Burgenland" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 7) Vorteile (dark) -->
-  <section class="service-section service-section--dark" id="vorteile-services">
-    <div class="service-container service-emergency">
-      <div class="service-emergency__text">
-        <h2>Warum ein professioneller Wolf Thermentausch überzeugt</h2>
+  <!-- 7) Kesseltausch und Geräteaustausch -->
+  <section class="service-section" id="tausch-services">
+    <div class="service-container">
+
+      <div class="service-section__head">
+        <h2>Kesseltausch und Geräteaustausch</h2>
         <p>
-          Ein fachgerecht durchgeführter Wolf Thermentausch sorgt für langfristige Sicherheit, hohe Effizienz und stabile Heizleistung.
-          Unsere Experten prüfen alte Therme, Anlage, Gasgeräte und Heizsystemen sorgfältig.
+          Ein moderner Austausch veralteter Heizgeräte verbessert Effizienz, Sicherheit und Komfort deutlich.
         </p>
-        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Durch saubere Montage, den Einsatz original Ersatzteile und regelmäßige Wolf Thermenwartung bleibt die neue Therme langlebig und zuverlässig.
-          Kunden profitieren von persönlichem Service, starkem Kundendienst und einem festen Partner für Wartung, Reparaturen und Wolf Notdienst – alles aus einer Hand.
-        </p>
-        <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Angebot anfordern</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
-        </div>
       </div>
 
-      <div class="service-emergency__panel">
-        <div class="service-panel">
-          <h3>Ihre Vorteile</h3>
-          <ul class="service-checklist service-checklist--on-dark">
-            <li>Erfahrung, Fachwissen und Expertise</li>
-            <li>Saubere Entsorgung und sicherer Austausch</li>
-            <li>Hohe Langlebigkeit und Qualität</li>
-            <li>Ein Team für Service, Wartung und Betrieb</li>
-          </ul>
-        </div>
+      <div class="service-grid service-grid--2">
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🔁</div>
+          <div>
+            <h3>Austausch nach neuem Stand</h3>
+            <p>Wir unterstützen beim Austausch von Wolf Thermen, Gasthermen und Heizsystems durch aktuelle Wolf Geräte nach neuem Stand der Technik.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">💡</div>
+          <div>
+            <h3>Beratung zu Vorteilen</h3>
+            <p>Unsere Fachpartner beraten zu passenden Lösungen, Vorteilen moderner Heiztechnik und möglichen Einsparungen bei Energiekosten.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🧰</div>
+          <div>
+            <h3>Montage &amp; Inbetriebnahme</h3>
+            <p>Nach der Auswahl übernehmen wir Montage, Installation und die fachgerechte Inbetriebnahme für einen sicheren, effizienten Betrieb.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">♻️</div>
+          <div>
+            <h3>Sichere Entsorgung</h3>
+            <p>Alte Geräte werden sicher außer Betrieb genommen und fachgerecht entsorgt – sauber, zuverlässig und nach aktuellem Standard.</p>
+          </div>
+        </article>
       </div>
+
     </div>
   </section>
 
   <!-- 8) FAQ -->
-  <section class="service-section" id="faq-services">
+  <section class="service-section service-section--soft" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zum Wolf Thermentausch</h2>
+        <h2>Häufige Fragen zu Wolf</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wann ist ein Wolf Thermentausch sinnvoll?</summary>
-          <p>Ein Austausch ist sinnvoll, wenn eine alte Therme häufige Reparaturen verursacht, der Energieverbrauch steigt oder die Heizleistung nicht mehr ausreicht.</p>
+          <summary>Wie oft ist eine Wolf Thermenwartung sinnvoll?</summary>
+          <p>Eine regelmäßige Thermenwartung einmal jährlich erhöht Sicherheit, Effizienz und die Langlebigkeit Ihrer Wolf Therme.</p>
         </details>
 
         <details>
-          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
-          <p>In den meisten Fällen erfolgt der Austausch inklusive Montage und Inbetriebnahme innerhalb eines Tages, abhängig von Anlage und Ort.</p>
+          <summary>Bieten Sie Wolf Thermenservice rund um die Uhr an?</summary>
+          <p>Ja, unser Wolf Thermenservice und Notdienst sind rund um die Uhr erreichbar und einsatzbereit.</p>
         </details>
 
         <details>
-          <summary>Welche Wolf Therme ist die richtige Auswahl?</summary>
-          <p>Die Auswahl hängt von Heizleistung, Heizsystemen, Nutzung und Zuhause ab. Unsere Experten beraten umfassend vor dem Kauf.</p>
+          <summary>Welche Wolf Geräte betreuen Sie?</summary>
+          <p>Wir betreuen alle Wolf Geräte, Wolf Gasgeräte, Gasthermen sowie moderne Heizsystems und Solaranlagen.</p>
         </details>
 
         <details>
-          <summary>Sind Wartung und Thermenservice notwendig?</summary>
-          <p>Ja, regelmäßige Wartung, Wolf Thermenservice und Kundendienst sichern Effizienz, Sicherheit und lange Lebensdauer.</p>
+          <summary>Sind Sie auch außerhalb von Wien tätig?</summary>
+          <p>Ja, wir sind in Wien, der Umgebung, Niederösterreich und im Burgenland für unsere Kunden im Einsatz.</p>
         </details>
 
         <details>
-          <summary>Was kostet ein Wolf Thermentausch inkl. MwSt?</summary>
-          <p>Die Preise richten sich nach Gerät, Installation und Aufwand. Ein Kostenvoranschlag zeigt alle Kosten inkl. MwSt transparent auf.</p>
+          <summary>Wie läuft die Terminvergabe ab?</summary>
+          <p>Nach Anruf oder Kontaktaufnahme erfolgt eine rasche Terminvergabe über unsere Hotline oder direkt mit dem Team.</p>
         </details>
 
         <details>
-          <summary>Gibt es Förderungen für neue Wolf Thermen?</summary>
-          <p>Je nach Möglichkeit und Region können Förderungen genutzt werden. Wir informieren Kunden über aktuelle Optionen.</p>
+          <summary>Warum einen Wolf Fachpartner wählen?</summary>
+          <p>Als Fachbetrieb bieten wir Erfahrung, Fachkompetenz, Qualität und zuverlässigen Kundenservice aus einer Hand.</p>
         </details>
       </div>
     </div>
@@ -916,13 +943,15 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Beratung & Angebot anfordern</h2>
+        <h2>Kontakt zum Installateur Wolf</h2>
         <p>
-          Sie planen einen Wolf Thermentausch in Wien oder Niederösterreich?
-          Unser Team berät Sie persönlich und erstellt ein maßgeschneidertes Angebot inklusive MwSt, Service und Betreuung.
+          Für Installation, Wartung, Thermenservice oder Reparatur steht Ihnen unser Installateur Wolf jederzeit zur Verfügung.
+          Unser Team aus erfahrenen Technikern, Mitarbeitern und Experten berät Sie persönlich und lösungsorientiert.
         </p>
         <p style="margin-top:10px;">
-          👉 Jetzt Angebot anfordern und Wolf Thermentausch professionell umsetzen
+          Über Hotline, Anruf oder Terminformular erreichen Sie unseren Kundenservice schnell und unkompliziert.
+          Wir nehmen uns Zeit für Ihr Anliegen und sorgen für einen sicheren, effizienten Betrieb Ihrer Heizung.
+          Vertrauen Sie auf Qualität, Erfahrung und zuverlässigen Service – in Wien, Niederösterreich und Burgenland.
         </p>
       </div>
 
@@ -941,7 +970,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Modell/Anlage, Ort, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Therme/Heizung/Gasgerät, Ort, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
@@ -951,6 +980,7 @@
   </section>
 
 </main>
+
 <!-- 
 <script>
   (function(){
@@ -1001,5 +1031,6 @@
       });
     });
   })();
-</script> -->
+</script> 
+-->
 @endsection

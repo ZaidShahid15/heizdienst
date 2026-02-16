@@ -245,7 +245,7 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* ===== HERO ===== */
+  /* ===== HERO (kept same class names) ===== */
   .wolf-hero{
     position:relative;
     min-height:520px;
@@ -353,17 +353,7 @@
   .wolf-btn--ghost{background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.28); color:#fff;}
   .wolf-btn--ghost:hover, .wolf-btn--accent:hover{transform:translateY(-1px);}
 
-  .promo-banner__inner::after{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
-    z-index:0;
-  }
-
-  /* =========================
-     TOC
-     ========================= */
+  /* TOC */
   .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
     width:100%;
@@ -433,7 +423,6 @@
   .toc-text{font-weight:900; color:#0f3a40; font-size:14px; line-height:1.2;}
   .toc-card.is-collapsed .toc-body{max-height:0; padding:0 12px; overflow:hidden;}
 
-  /* Mobile */
   @media (max-width: 980px){
     .service-grid--2{grid-template-columns:1fr}
     .service-cta__inner{grid-template-columns:1fr}
@@ -453,8 +442,8 @@
 </style>
 
 @push('meta')
-  <title>Baxi Thermentausch Wien | Gastherme inkl. Montage & MwSt</title>
-  <meta name="description" content="Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Service & Angebot vom Fachbetrieb">
+  <title>Baxi Installateur Wien | Wartung, Reparatur &amp; Notdienst</title>
+  <meta name="description" content="Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparatur &amp; 24/7 Baxi Notdienst. Baxi Kundendienst Wien mit fairen Preisen. Jetzt Termin sichern.">
 @endpush
 
 <main>
@@ -462,42 +451,41 @@
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">Baxi Thermentausch Wien</p>
+      <p class="wolf-hero__kicker">Baxi Installateur Wien</p>
 
       <h1>
-        Baxi Thermentausch Wien<br>
-        <em>Gastherme inkl. Montage & MwSt</em>
+        Baxi Installateur Wien<br>
+        <em>Wartung, Reparatur &amp; Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Ein professioneller Baxi Thermentausch Wien sorgt für effiziente Heizung, zuverlässige Gastherme und modernen Komfort in Ihrem Zuhause.
+        Als erfahrener Baxi Installateur Wien bieten wir professionelle Installation, Wartung und Reparatur für Baxi Thermen, Gasgeräte und Heizsysteme in Wien und Umgebung.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi Thermentausch Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi Installateur Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Brennwerttechnik</span>
-        <span class="wolf-pill">Montage inkl. MwSt</span>
-        <span class="wolf-pill">Beratung & Service</span>
-        <span class="wolf-pill">Fachbetrieb</span>
+        <span class="wolf-pill">Thermenwartung</span>
+        <span class="wolf-pill">Reparatur</span>
+        <span class="wolf-pill">Baxi Kundendienst</span>
+        <span class="wolf-pill">24/7 Notdienst</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Beratung anfordern</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin sichern</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
       </div>
 
       <section class="promo-banner" id="baxi-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Baxi Thermentausch Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab  €95</strong></p>
+            <h2 class="promo-banner__title"><em>Baxi Service &amp; Notdienst</em></h2>
+            <p class="promo-banner__price"><strong>Wien • Umgebung • NÖ</strong></p>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
-              <span class="promo-banner__btn-ico">  </span>
-              AKTION
+            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="HOTLINE">
+              Hotline
             </a>
           </div>
         </div>
@@ -516,7 +504,7 @@
             <button class="toc-iconbtn" type="button" id="tocToggle"
               aria-expanded="false" aria-controls="tocBody"
               aria-label="Inhaltsverzeichnis umschalten">
-              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
+              <svg viewBox="0 0 448 512" aria-hidden="true">
                 <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
               </svg>
             </button>
@@ -525,317 +513,308 @@
 
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item"><a href="#sinnvoll-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Wann sinnvoll</span></a></li>
-            <li class="toc-item"><a href="#systeme-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Heizlösungen</span></a></li>
-            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#montage-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Montage</span></a></li>
-            <li class="toc-item"><a href="#kosten-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Kosten & Aktion</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Warum Baxi</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Fachpartner</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#anlage-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Heizung &amp; Gasgeräte</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Preise</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Wien &amp; Umgebung</span></a></li>
+            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Thermentausch</span></a></li>
             <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Angebot</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 1) Sinnvoll -->
-  <section class="service-section" id="sinnvoll-services">
+  <!-- Baxi Fachpartner -->
+  <section class="service-section" id="partner-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
+            <h2>Baxi Fachpartner in Wien</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Betriebssicherheit nicht mehr gegeben ist.
-              Besonders ältere Baxi Thermen oder Gasgeräte verlieren mit der Zeit an Leistung und Zuverlässigkeit.
+              Als zertifizierter Baxi Fachpartner in Wien stehen wir für Kompetenz, Erfahrung und zuverlässigen Service rund um Baxi Thermen und moderne Heizungsanlagen.
+              Unser Installateurbetrieb betreut sämtliche Baxi Produkte gemäß Vorgaben des Herstellers und arbeitet ausschließlich mit geprüften Original Ersatzteilen.
             </p>
             <p>
-              Moderne Baxi Gasthermen bieten höhere Effizienz, bessere Sicherheit und einen stabilen Betrieb.
-              Auch bei steigenden Anforderungen an Warmwasser und Heizung lohnt sich der rechtzeitige Thermentausch.
-              Ein erfahrener Fachmann oder Installateur prüft Zustand, Bedarf und Anlage und empfiehlt eine passende Lösung für Wien und Umgebung.
+              Unsere Techniker verfügen über umfassendes Know how und regelmäßige Schulungen im Bereich Baxi Gasgeräte, Heizsysteme und Baxi Heizung.
+              Wir betreuen Kunden in Wien und Umgebung sowie in NÖ und legen großen Wert auf langfristige Betreuung, transparente Kommunikation und nachhaltige Lösungen.
+              Dank strukturierter Arbeitsweise und hoher Kompetenz gewährleisten wir sichere Installation, zuverlässige Wartung und professionellen Baxi Kundendienst.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Wann ein Thermentausch in Wien sinnvoll ist" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Fachpartner in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 2) Systeme (NO IMAGE - like first screenshot cards grid) -->
-  <section class="service-section service-section--soft" id="systeme-services">
+  <!-- Leistungen -->
+  <section class="service-section service-section--soft" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Moderne Baxi Heizlösungen im Überblick</h2>
-        <p>Baxi bietet eine breite Palette an Gasgeräten für unterschiedliche Heizsystemen, Wohnsituationen und Anforderungen.</p>
-      </div>
-
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
-          <div>
-            <h3>Brennwerttechnik für effizienten Betrieb</h3>
-            <p>Eine Baxi Brennwerttherme nutzt Energie besonders effizient. Der geringere Gasverbrauch senkt Kosten, schont die Umwelt und erhöht die Wirtschaftlichkeit.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🚿</div>
-          <div>
-            <h3>Kombithermen und Durchlauferhitzer</h3>
-            <p>Baxi Kombithermen und Durchlauferhitzer verbinden Heizung und Warmwasser in einem Gerät. Ideal für Wohnungen mit begrenztem Platz und konstantem Bedarf.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
-          <div>
-            <h3>Baxi Modelle wie Luna Platinum</h3>
-            <p>Modelle wie die Baxi Luna Platinum stehen für hohe Qualität, Zuverlässigkeit und lange Langlebigkeit im täglichen Betrieb.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛡️</div>
-          <div>
-            <h3>Sichere Komponenten & stabiler Betrieb</h3>
-            <p>Moderne Baxi Geräte bieten einen stabilen Betrieb, höhere Sicherheit und zuverlässige Leistung – ideal für den langfristigen Einsatz im eigenen Zuhause.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- 3) Ablauf (4 cards) -->
-  <section class="service-section" id="ablauf-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>So läuft der Baxi Thermentausch ab</h2>
+        <h2>Installation, Wartung und Service</h2>
         <p>
-          Der Baxi Thermentausch erfolgt strukturiert und transparent. Nach der Anfrage vereinbaren unsere Installateure einen Termin zur Überprüfung der bestehenden Anlage.
-          Anschließend werden Installation und Montage geplant, die alte Therme demontiert und fachgerecht entsorgt.
-          Die neue Baxi Gastherme wird installiert, geprüft und in Betrieb genommen. Zum Abschluss erhalten Kunden eine Einschulung zur Nutzung, Wartung und Sicherheit.
-          So entsteht eine saubere Abwicklung mit klarer Lösung für jedes Problem.
+          Unser Baxi Installateur Service umfasst die fachgerechte Installation, regelmäßige Wartung und professionelle Reparatur Ihrer Baxi Therme oder Baxi Gastherme – alles aus einer Hand.
         </p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔎</div>
-          <div>
-            <h3>Überprüfung und Beratung vor Ort</h3>
-            <p>Wir prüfen Therme, Anlage und Bedarf und klären alle Fragen – Grundlage für ein passendes Angebot und eine sichere Planung.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔧</div>
           <div>
-            <h3>Installation und Montage der Anlage</h3>
-            <p>Die Montage wird sauber vorbereitet und fachgerecht umgesetzt – abgestimmt auf Heizsystem, Anschlüsse und Wohnsituation.</p>
+            <h3>Baxi Therme Installation</h3>
+            <p>Wir übernehmen die fachgerechte Installation Ihrer Baxi Therme inklusive Anschluss an Heizung, Warmwasser und Gas sowie sichere Inbetriebnahme der Anlage.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♻️</div>
+          <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
-            <h3>Thermentausch und Entsorgung</h3>
-            <p>Die alte Therme wird demontiert und fachgerecht entsorgt. Anschlüsse und Sicherheit werden vor Inbetriebnahme geprüft.</p>
+            <h3>Baxi Thermenwartung Service</h3>
+            <p>Unsere Baxi Thermenwartung sowie Thermenservice und Baxi Gasgeräte Wartung sichern die Funktion, erhöhen die Heizleistung und verhindern Störung oder Defekten frühzeitig.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">✅</div>
+          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Inbetriebnahme und Einschulung</h3>
-            <p>Zum Abschluss: Funktionscheck, Inbetriebnahme und Einschulung zu Bedienung, Wartung und sicherem Betrieb.</p>
+            <h3>Reparatur mit Original Ersatzteilen</h3>
+            <p>Bei Reparatur verwenden wir ausschließlich Original Ersatzteilen des Herstellers, beheben Fehlercodes effizient und stellen den sicheren Betrieb Ihrer Baxi Geräte wieder her.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">⏱️</div>
+          <div>
+            <h3>Baxi Notdienst rund um Uhr</h3>
+            <p>Unser Baxi Notdienst sowie 24 7 Baxi Notdienst ist rund um die Uhr verfügbar und hilft bei Notfällen schnell in Wien und Umgebung.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- 4) Montage -->
-  <section class="service-section service-section--soft" id="montage-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Montage, Betrieb und Sicherheit</h2>
-            <p>
-              Eine fachgerechte Montage ist entscheidend für Sicherheit, Zuverlässigkeit und den langfristigen Betrieb der Baxi Therme.
-            </p>
-            <p><strong>Installation durch erfahrene Techniker</strong><br>
-              Unsere Techniker führen alle Arbeiten an Gastherme, Anlage und Geräten fachgerecht aus. Sicherheit und korrekter Betrieb stehen im Mittelpunkt.
-            </p>
-            <p><strong>Wartung, Kundendienst und Schutz</strong><br>
-              Regelmäßige Wartung, Thermenwartung und ein zuverlässiger Kundendienst schützen vor Schäden, erhöhen die Lebensdauer und sichern den Betrieb.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.jpeg') }}" alt="Montage, Betrieb und Sicherheit" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 5) Kosten -->
-  <section class="service-section" id="kosten-services">
+  <!-- Heizung, Gasgeräte und Anlage -->
+  <section class="service-section" id="anlage-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Aktion</h2>
+            <h2>Heizung, Gasgeräte und Anlage</h2>
             <p>
-              Die Kosten für einen Baxi Thermentausch in Wien hängen von Modell, Montageaufwand und Bedarf ab.
-              Ein transparenter Kostenvoranschlag zeigt alle Preise inklusive MwSt. Durch eine Aktion oder ein attraktives Angebot lassen sich zusätzliche Einsparungen erzielen.
+              Wir betreuen Baxi Heizung, Baxi Gasgeräte und komplette Heizungsanlage mit höchstem Fachwissen.
+              Ob Baxi Gastherme, Wärmetauscher, Brenner oder komplexe Heizsysteme – unsere Techniker prüfen jedes Modell sorgfältig.
             </p>
             <p>
-              Moderne Baxi Thermen überzeugen durch gutes Preis-Leistungs-Verhältnis, niedrige Betriebskosten und hohe Effizienz – eine nachhaltige Entscheidung für Ihr Zuhause.
+              Durch regelmäßige Wartung, gründliche Überprüfung und professionelle Reinigung sichern wir Effizienz, Sicherheit und stabile Warmwasser-Versorgung.
+              Moderne Baxi Thermen bieten hohe Energieeffizienz und zuverlässige Heizleistung im Alltag.
+              Unser Baxi Kundendienst Wien sorgt dafür, dass Ihre Anlage optimal arbeitet und langfristig einsatzbereit bleibt.
+              Auch Sanitäranlagen und angrenzende Systeme werden bei Bedarf überprüft.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Preise inkl. MwSt</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Aktion und attraktives Angebot</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparenter Kostenvoranschlag</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Kosten ohne Überraschungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Effizienz &amp; Sicherheit</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Stabile Warmwasser-Versorgung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Gründliche Überprüfung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Professionelle Reinigung</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Kosten, Preise und Aktion" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Heizung, Gasgeräte und Anlage" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 6) Region -->
-  <section class="service-section service-section--soft" id="region-services">
+  <!-- Preise -->
+  <section class="service-section service-section--soft" id="preise-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermentausch in Wien und Umgebung</h2>
+            <h2>Preise, Service und Kompetenz</h2>
             <p>
-              Ein Baxi Thermentausch in Wien und Umgebung erfordert Erfahrung mit unterschiedlichen Gebäuden, Anlagen und regionalen Vorgaben.
-              Ob Wien, Niederösterreich oder St. Pölten – jede Umgebung stellt andere Anforderungen an Installation, Montage und Betrieb.
+              Faire Preise und transparenter Service sind fester Bestandteil unseres Installateurbetrieb.
+              Vor Beginn aller Arbeiten informieren wir klar über Kosten, Leistungen und notwendigen Austausch.
             </p>
             <p>
-              Unsere Installateure und Techniker sind regelmäßig im Einsatz und betreuen Kunden direkt vor Ort.
-              Wohnungen, Einfamilienhäuser und verschiedene Heizsystemen werden individuell beurteilt.
-              Durch kurze Wege, strukturierte Planung und abgestimmten Einsatz entsteht ein reibungsloser Thermentausch in Wien und Umgebung – zuverlässig und sicher.
+              Kunden profitieren von nachvollziehbarer Preisstruktur, kompetenter Beratung und persönlichem Kundenservice.
+              Unser Team steht für Kompetenz, Erfahrung und strukturierte Abläufe – vom ersten Termin bis zum laufenden Betrieb Ihrer Baxi Therme.
+              Vertrauen, Qualität und nachhaltige Betreuung stehen dabei im Mittelpunkt unseres täglichen Einsatzes in Wien.
+            </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Faire Preise</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Kosten</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kompetente Beratung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Strukturierte Abläufe</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Preise, Service und Kompetenz" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ablauf -->
+  <section class="service-section" id="ablauf-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Ablauf von Anfrage bis Termin</h2>
+            <p>
+              Der Ablauf bei unserem Baxi Installateur Wien ist klar strukturiert und kundenorientiert.
+              Nach Ihrer Kontaktaufnahme über diese Seite vereinbaren wir rasch einen Termin für Wien und Umgebung oder NÖ.
+            </p>
+            <p>
+              Unser Baxi Kundendienst Wien analysiert vor Ort Ihre Baxi Therme, Baxi Gastherme oder gesamte Heizungsanlage und führt eine sorgfältige Überprüfung durch.
+              Anschließend erhalten Sie eine transparente Einschätzung zu Wartung, Reparatur oder notwendigem Austausch.
+              Unsere Techniker erklären mögliche Fehlercodes, zeigen Lösungen auf und setzen alle Arbeiten fachgerecht um.
+              Dank Erfahrung, Kompetenz und effizienter Organisation stellen wir einen sicheren Betrieb Ihrer Anlage sicher – schnell, zuverlässig und professionell.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Thermentausch in Wien und Umgebung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Ablauf von Anfrage bis Termin" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 7) Vorteile (dark) -->
-  <section class="service-section service-section--dark" id="vorteile-services">
-    <div class="service-container service-emergency">
-      <div class="service-emergency__text">
-        <h2>Warum ein professioneller Baxi Thermentausch überzeugt</h2>
-        <p>
-          Ein fachgerecht umgesetzter Baxi Thermentausch erhöht die Sicherheit, senkt Kosten und verbessert den Komfort dauerhaft.
-          Unsere Fachleute prüfen Anlage, Geräte und Betrieb sorgfältig.
-        </p>
-        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Durch saubere Montage, den Einsatz hochwertiger Bauteile und regelmäßige Thermenwartung bleibt die neue Therme zuverlässig und langlebig.
-          Kunden profitieren von persönlicher Beratung, erfahrenem Team und einem starken Partner für Wartung, Reparaturen, Thermenreparatur und Baxi Notdienst – alles aus einer Hand.
-        </p>
-        <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Angebot anfordern</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
+  <!-- Wien und Umgebung -->
+  <section class="service-section service-section--soft" id="region-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Wien und Umgebung</h2>
+            <p>
+              Unser Baxi Installateur Service ist in ganz Wien und Umgebung sowie in NÖ im Einsatz.
+              Durch kurze Anfahrtswege reagieren wir flexibel auf Terminwünsche, Notfällen oder akute Störung.
+            </p>
+            <p>
+              Unser Baxi Kundendienst steht rund um die Uhr zur Verfügung und betreut Wohnungen, Häuser und kleinere Betriebe gleichermaßen.
+              Kunden schätzen unsere Verlässlichkeit, klare Kommunikation und schnelle Reaktionszeiten.
+              Als regionaler Fachpartner kennen wir die technischen Gegebenheiten vor Ort und bieten nachhaltige Lösungen für Heizung, Gasgeräte und Warmwasser-Systeme.
+              Unser Servicepartner-Team sorgt dafür, dass Ihre Baxi Thermen dauerhaft effizient arbeiten.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="service-emergency__panel">
-        <div class="service-panel">
-          <h3>Ihre Vorteile</h3>
-          <ul class="service-checklist service-checklist--on-dark">
-            <li>Erfahrung, Berufserfahrung und Expertise</li>
-            <li>Fachgerechte Entsorgung der alten Therme</li>
-            <li>Hohe Zuverlässigkeit und lange Lebensdauer</li>
-            <li>Ein Team für Service, Wartung und Betrieb</li>
-          </ul>
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Wien und Umgebung" loading="lazy" decoding="async">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 8) FAQ -->
-  <section class="service-section" id="faq-services">
+  <!-- Thermentausch -->
+  <section class="service-section" id="tausch-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Thermentausch und Austausch</h2>
+            <p>
+              Ein Thermentausch ist sinnvoll, wenn Ihre Baxi Therme häufige Defekten oder wiederkehrende Störung aufweist.
+              Unser Baxi Installateur prüft das bestehende Modell, analysiert Energieeffizienz und Heizleistung und empfiehlt bei Bedarf einen modernen Ersatz.
+            </p>
+            <p>
+              Der Austausch erfolgt fachgerecht inklusive Demontage, Installation und Inbetriebnahme der neuen Anlage.
+              Wir beraten zur Wahl passender Baxi Produkte und sorgen für optimale Anpassung an Ihr Heizsystem.
+              Durch moderne Technik, hochwertige Komponenten und geprüfte Original Ersatzteilen wird die Lebensdauer deutlich verlängert.
+              So profitieren Kunden von stabilem Betrieb, niedrigeren Kosten und langfristiger Sicherheit.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Thermentausch und Austausch" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="service-section service-section--soft" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zum Baxi Thermentausch</h2>
+        <h2>Häufige Fragen zu Baxi</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wann ist ein Baxi Thermentausch sinnvoll?</summary>
-          <p>Ein Austausch ist sinnvoll bei häufigen Störungen, steigenden Kosten oder wenn die bestehende Therme nicht mehr zuverlässig arbeitet.</p>
-        </details>
-
-        <details>
-          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
-          <p>In der Regel erfolgt der Thermentausch inklusive Montage und Inbetriebnahme innerhalb eines Tages, abhängig von Anlage und Einsatz.</p>
-        </details>
-
-        <details>
-          <summary>Welche Baxi Therme ist die richtige Auswahl?</summary>
-          <p>Die Auswahl hängt von Bedarf, Heizsystemen und Warmwasserleistung ab. Unsere Experten beraten umfassend zur passenden Entscheidung.</p>
-        </details>
-
-        <details>
-          <summary>Sind Wartung und Wartungsvertrag empfehlenswert?</summary>
-          <p>Ja, regelmäßige Wartung oder ein Wartungsvertrag sichern Betrieb, Schutz und langfristige Zuverlässigkeit der Baxi Therme.</p>
-        </details>
-
-        <details>
-          <summary>Was kostet ein Baxi Thermentausch inkl. MwSt?</summary>
-          <p>Die Preise richten sich nach Modell, Montage und Aufwand. Ein Angebot zeigt alle Kosten inkl. MwSt transparent auf.</p>
+          <summary>Wie oft ist eine Baxi Thermenwartung notwendig?</summary>
+          <p>Eine regelmäßige Wartung einmal jährlich wird empfohlen. Die Wartung Ihrer Baxi Therme erhöht Lebensdauer, Effizienz und reduziert Störung.</p>
         </details>
 
         <details>
           <summary>Gibt es einen Baxi Notdienst?</summary>
-          <p>Ja, bei Störung oder Problem steht ein Baxi Notdienst zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
+          <p>Ja, unser Baxi Notdienst sowie 24 7 Baxi Notdienst ist rund um die Uhr erreichbar – auch bei akuten Notfällen.</p>
+        </details>
+
+        <details>
+          <summary>Was macht der Baxi Kundendienst Wien?</summary>
+          <p>Der Baxi Kundendienst Wien übernimmt Wartung, Reparatur, Thermenservice und Behebung von Fehlercodes.</p>
+        </details>
+
+        <details>
+          <summary>Verwenden Sie Original Ersatzteilen?</summary>
+          <p>Ja, wir arbeiten ausschließlich mit Original Ersatzteilen des Herstellers für maximale Sicherheit.</p>
+        </details>
+
+        <details>
+          <summary>Betreuen Sie auch Wien und Umgebung?</summary>
+          <p>Unser Baxi Installateur Service ist in Wien und Umgebung sowie NÖ zuverlässig im Einsatz.</p>
+        </details>
+
+        <details>
+          <summary>Wie schnell bekomme ich einen Termin?</summary>
+          <p>Nach Ihrer Anfrage erhalten Sie rasch einen Termin – unser Team reagiert flexibel und kundenorientiert.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- 9) CONTACT -->
+  <!-- CONTACT -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Beratung & Angebot anfordern</h2>
+        <h2>Kontakt zum Installateur</h2>
         <p>
-          Sie planen einen Baxi Thermentausch in Wien oder Niederösterreich?
-          Unser Team berät Sie persönlich und erstellt ein individuelles Angebot inklusive MwSt, Montage und Service.
+          Für professionelle Wartung, Reparatur oder Installation steht Ihnen unser Baxi Installateur Wien jederzeit zur Verfügung.
+          Unser Team aus erfahrenen Technikern und qualifizierten Fachkräften betreut Baxi Thermen, Baxi Gasgeräte und komplette Heizungsanlage zuverlässig.
         </p>
         <p style="margin-top:10px;">
-          👉 Jetzt Angebot anfordern und Baxi Thermentausch professionell umsetzen
+          Über diese Seite können Sie unkompliziert Kontakt aufnehmen und einen Termin vereinbaren.
+          Unser Baxi Kundendienst Wien steht rund um die Uhr bereit, um Probleme schnell zu lösen.
+          Vertrauen Sie auf Erfahrung, Fachwissen und einen Installateurbetrieb, der Service, Kompetenz und langfristige Betreuung in den Mittelpunkt stellt.
         </p>
       </div>
 
@@ -854,7 +833,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Modell/Anlage, Ort, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Therme/Anlage, Ort, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
@@ -864,6 +843,5 @@
   </section>
 
 </main>
-
 
 @endsection

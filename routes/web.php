@@ -101,3 +101,19 @@ Route::prefix('Thermenreparatur')->group(function(){
     Route::get('/windhager',fn() => view('Thermenreparatur.windhager'));
     Route::get('/nordgas',fn() => view('Thermenreparatur.nordgas'));
 });
+
+
+Route::prefix('Installateur')->group(function(){
+    Route::get('/vaillant',fn() => view('Installateur.vaillant'));
+    Route::get('/junkers',fn() => view('Installateur.junkers'));
+    Route::get('/viessmann',fn() => view('Installateur.viessmann'));
+    Route::get('/wolf',fn() => view('Installateur.wolf'));
+    Route::get('/baxi',fn() => view('Installateur.baxi'));
+    Route::get('/buderus',fn() => view('Installateur.buderus'));
+    Route::get('/saunier',fn() => view('Installateur.saunier'));
+    Route::get('/löblich',fn() => view('Installateur.löblich'));
+    Route::get('/ocean',fn() => view('Installateur.ocean'));
+    Route::get('/rapido',fn() => view('Installateur.rapido'));
+    Route::get('/windhager',fn() => view('Installateur.windhager'));
+    Route::get('/nordgas',fn() => view('Installateur.nordgas'));
+});

@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('main')
-<style>
+<!-- <style>
   :root{
     --ink:#184048;
     --bg:#ffffff;
@@ -308,7 +308,6 @@
     font-weight:800;
     color:#fff;
     margin:0 0 12px;
-    text-transform:lowercase;
   }
   .wolf-hero h1{
     margin:0 0 10px;
@@ -380,8 +379,8 @@
     padding:16px;
   }
   .promo-banner__content{position:relative; z-index:1; display:flex;flex-direction:column; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap;}
-  .promo-banner__title{margin:0; font-size:18px; font-weight:900;}
-  .promo-banner__price{margin:0;  font-weight:900; font-size:18px;}
+  .promo-banner__title{margin:0; font-size:18px; font-weight:900; color:#fff;}
+  .promo-banner__price{margin:0; font-weight:900; font-size:18px; color:#fff;}
   .promo-banner__btn{
     display:inline-flex; align-items:center; justify-content:center;
     padding:10px 14px;
@@ -486,48 +485,48 @@
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
-</style>
+</style> -->
 
 @push('meta')
-  <title>Rapido Notdienst Wien – Thermenservice & Gastherme 24h</title>
-  <meta name="description" content="Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & Reparatur ✔ Gastherme, Heizung & Kundendienst rund um die Uhr in Wien & NÖ.">
+  <title>Rapido Installateur Wien | Wartung, Reparatur & Notdienst</title>
+  <meta name="description" content="Rapido Installateur Wien für Rapido Thermenwartung, Reparatur & 24 Stunden Notdienst. Service in Wien, Niederösterreich & Burgenland. Jetzt Termin sichern.">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">notdienst rund um die uhr</p>
+      <p class="wolf-hero__kicker">Rapido Installateur Wien</p>
 
       <h1>
-        Rapido Notdienst Wien<br>
-        <em>Thermenservice &amp; Gastherme 24h</em>
+        Rapido Installateur Wien<br>
+        <em>Wartung, Reparatur &amp; Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Schnelle Hilfe bei Störungen, Ausfall oder Problemen mit der Gastherme – der Rapido Notdienst Wien ist zuverlässig für Sie da.
+        Als Rapido Installateur Wien bieten wir professionelle Rapido Thermenwartung, Reparatur und 24 Stunden Notdienst für Rapido Therme und Gasgeräte in Wien.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1rapido.jpeg') }}" alt="Rapido Notdienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1rapido.jpeg') }}" alt="Rapido Installateur Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Thermenservice</span>
         <span class="wolf-pill">Thermenwartung</span>
         <span class="wolf-pill">Reparatur</span>
-        <span class="wolf-pill">Notdienst 24h</span>
+        <span class="wolf-pill">24h Notdienst</span>
+        <span class="wolf-pill">ÖVGW Standards</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin sichern</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
       </div>
 
-      <section class="promo-banner" id="wolf-aktion">
+      <section class="promo-banner" id="rapido-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Rapido Notdienst Aktion</em></h2>
+            <h2 class="promo-banner__title"><em>Rapido Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
@@ -559,306 +558,217 @@
         </div>
 
         <div class="toc-body" id="tocBody">
-          <!-- ✅ IMPORTANT: add id="tocList" so your JS can update headings -->
           <ul class="toc-list" id="tocList">
-            <!-- ✅ Only keep links for sections that exist (missing sections auto-removed by JS too) -->
-            <li class="toc-item"><a href="#kundendienst-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Kundendienst</span></a></li>
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Vorteile</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Notdienst</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Wartung</span></a></li>
-            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Reparatur</span></a></li>
-            <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Team</span></a></li>
-            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Preise</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
+            <li class="toc-item"><a href="#intro-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Intro</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Partner Wien</span></a></li>
+            <li class="toc-item"><a href="#service-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Installation & Service</span></a></li>
+            <li class="toc-item"><a href="#heizung-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Heizung & System</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Preise</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Thermentausch</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Kundendienst -->
-  <section class="service-section" id="kundendienst-services">
+  <!-- Intro -->
+  <section class="service-section service-section--soft" id="intro-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Rapido Notdienst und Kundendienst in Wien und Umgebung</h2>
+            <h2>Rapido Installateur Wien</h2>
             <p>
-              Thermenwartung, Reparatur und Rapido Thermenservice aus einer Hand – erfahrenes Techniker Team mit Know-how.
-              Service rund um die Uhr, auch im Winter und in jeder Jahreszeit.
-            </p>
-            <p>
-              Unser Team aus qualifizierten Technikern und Installateuren bringt umfassendes Fachwissen, langjährige Erfahrung und praxisnahes Know-how mit.
-              Jede Überprüfung erfolgt strukturiert, damit Probleme frühzeitig erkannt und eine passende Lösung umgesetzt wird.
-              Ziel ist Sicherheit, Komfort und eine stabile Funktion Ihrer Anlage.
+              Als Rapido Installateur Wien bieten wir professionelle Rapido Thermenwartung, Reparatur und 24 Stunden Notdienst für Rapido Therme und Gasgeräte in Wien.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/rapido.jpeg') }}" alt="Rapido Kundendienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/rapido.jpeg') }}" alt="Rapido Installateur Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Vorteile -->
-  <section class="service-section service-section--soft" id="vorteile-services">
+  <!-- Partner -->
+  <section class="service-section" id="partner-services">
     <div class="service-container">
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧰</div>
-          <div>
-            <h3>Thermenwartung &amp; Service</h3>
-            <p>Regelmäßige Wartung verbessert Sicherheit, senkt Verbrauch und reduziert Ausfälle im Heizbetrieb.</p>
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Rapido Partner in Wien</h2>
+            <p>
+              Als erfahrener Installateur und zuverlässiger Partner für Rapido in Wien stehen wir für Qualität, Sicherheit und nachhaltigen Service.
+              Unser Techniker Team betreut Rapido Therme, Rapido Gastherme und moderne Heizsysteme mit umfassendem Know how.
+            </p>
+            <p>
+              Wir arbeiten nach aktuellen Richtlinien sowie ÖVGW-Standards und betreuen Kunden in Wien und Umgebung, Wien Niederösterreich sowie im Burgenland.
+              Dank langjähriger Erfahrung kennen wir die meisten Rapido Modelle und bieten individuelle Lösungen für jedes Heizsystem.
+              Unser Fokus liegt auf Effizienz, Sicherheit und stabiler Funktion Ihrer Heizanlage – alles aus einer Hand durch unser eingespieltes Team.
+            </p>
           </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚡</div>
-          <div>
-            <h3>Reparatur &amp; Störungsbehebung</h3>
-            <p>Schnelle Hilfe bei Fehlfunktionen, Druckproblemen oder Störungen – sauber, strukturiert und zuverlässig.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
-          <div>
-            <h3>Techniker mit Know-how</h3>
-            <p>Qualifizierte Techniker und Installateure mit Erfahrung – praxisnah, professionell und lösungsorientiert.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🕒</div>
-          <div>
-            <h3>24h erreichbar</h3>
-            <p>Notdienst rund um die Uhr – auch an Wochenenden, Feiertagen und in der kalten Jahreszeit.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Notdienst -->
-  <section class="service-section service-section--dark" id="notdienst-services">
-    <div class="service-container service-emergency">
-      <div class="service-emergency__text">
-        <h2>Rapido Notdienst rund um die Uhr</h2>
-        <p>
-          Ein plötzlicher Ausfall der Gastherme, Gasgeruch oder wiederkehrende Störungen erfordern rasches Handeln.
-          Der Notdienst von Rapido ist rund um die Uhr erreichbar und hilft im akuten Notfall schnell weiter.
-        </p>
-        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Auch nachts, an Wochenenden oder Feiertagen sind wir im Einsatz und organisieren eine rasche Anfahrt direkt zum Ort.
-          Unsere Experten prüfen Gasgeräte und Heizsysteme sorgfältig, um Risiken zu minimieren und Sicherheit zu gewährleisten –
-          in Wien, Niederösterreich (NÖ) und Burgenland.
-        </p>
-
-        <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
         </div>
-      </div>
 
-      <div class="service-emergency__panel">
-        <div class="service-panel">
-          <h3>Typische Einsätze im Notdienst</h3>
-          <ul class="service-checklist service-checklist--on-dark">
-            <li>Ausfall der Gastherme oder Heizung</li>
-            <li>Fehlfunktionen, Störungen oder Druckprobleme</li>
-            <li>Sicherheitsrelevante Auffälligkeiten an Gasgeräten</li>
-          </ul>
-          <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            24h erreichbar – schnelle Hilfe in Wien &amp; NÖ.
-          </p>
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Rapido Partner in Wien" loading="lazy" decoding="async">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen -->
-  <section class="service-section" id="leistungen-services">
+  <!-- Installation, Wartung und Service -->
+  <section class="service-section service-section--soft" id="service-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen rund um Thermenservice</h2>
-        <p>Thermenwartung, Reparatur, geprüfte Ersatzteile und Thermentausch – alles aus einer Hand, sauber und nachvollziehbar.</p>
+        <h2>Installation, Wartung und Service</h2>
+        <p>
+          Unsere Dienstleistungen umfassen Installationstechnik, regelmäßige Wartung und professionelles Rapido Thermenservice – transparent, sicher und zuverlässig.
+        </p>
+      </div>
+
+      <div class="card-box" style="margin-bottom:14px;">
+        <p>
+          Unsere Dienstleistungen umfassen Installationstechnik, regelmäßige Wartung und professionelles Rapido Thermenservice für alle Rapido Produkte.
+          Eine sorgfältige Überprüfung, Reinigung und Abgasmessung sichern die optimale Funktion Ihrer Rapido Therme oder Rapido Gastherme.
+        </p>
+        <p>
+          Durch regelmäßige Rapido Thermenwartung reduzieren Sie Energiekosten und erhöhen die Effizienz Ihrer Heizung.
+          Unser Rapido Kundendienst steht bei Problemen, Reparatur oder Notfall schnell zur Verfügung.
+          Unsere Mitarbeiter führen Montage, Austausch und Reparatur fachgerecht durch und gewährleisten sicheren Betrieb – rund um die Uhr auch an Feiertagen.
+          Kunden in Wien und Umgebung profitieren von transparenten Preisen und verlässlicher Betreuung.
+        </p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧽</div>
+          <div class="service-feature__icon" aria-hidden="true">🧱</div>
           <div>
-            <h3>Rapido Thermenservice</h3>
-            <p>Reinigung, Überprüfung, Einstellung und Funktionskontrolle – für einen zuverlässigen Heizbetrieb.</p>
+            <h3>Rapido Therme Installation</h3>
+            <p>Wir übernehmen Montage und Installation Ihrer Rapido Therme inklusive Anschluss an Gastherme, Heizsystem und fachgerechter Inbetriebnahme vor Ort.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧪</div>
+          <div class="service-feature__icon" aria-hidden="true">🧼</div>
           <div>
-            <h3>Thermenwartung</h3>
-            <p>Regelmäßige Wartung steigert Effizienz, senkt Energiekosten und verlängert die Lebensdauer Ihrer Anlage.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚡</div>
-          <div>
-            <h3>Reparatur &amp; Thermenreparatur</h3>
-            <p>Fachgerechte Reparatur bei Ausfällen – wir setzen auf geprüfte Ersatzteile und nachhaltige Lösungen.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
-          <div>
-            <h3>Gastherme &amp; Gasgeräte</h3>
-            <p>Prüfung von Gastherme, Gasgeräten und Heizsystem – inklusive Sicherheitscheck bei Bedarf.</p>
+            <h3>Rapido Thermenwartung Service</h3>
+            <p>Unsere Rapido Thermenwartung umfasst Wartung, Überprüfung, Reinigung und Kontrolle aller sicherheitsrelevanten Komponenten Ihrer Therme.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Thermentausch</h3>
-            <p>Wenn Reparatur nicht sinnvoll ist: Beratung zum Thermentausch oder Gasgerätetausch.</p>
+            <h3>Reparatur und Austausch</h3>
+            <p>Bei Reparatur oder Rapido Gasgerätetausch analysieren unsere Experten Probleme und führen notwendigen Austausch effizient durch.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧯</div>
+          <div class="service-feature__icon" aria-hidden="true">🕒</div>
           <div>
-            <h3>Sicherheit &amp; Abgasmessung</h3>
-            <p>Reinigung, Abgasmessung und Kontrolle – für sicheren Betrieb und stabile Funktion, besonders im Winter.</p>
+            <h3>24 Stunden Notdienst</h3>
+            <p>Unser Notdienst ist 24 Stunden rund um die Uhr in Wien Niederösterreich und Burgenland im Einsatz – auch an Feiertagen.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Wartung -->
-  <section class="service-section service-section--soft" id="wartung-services">
+  <!-- Heizung, Gasgeräte und Heizsystem -->
+  <section class="service-section" id="heizung-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermenwartung, Thermenservice und Reparatur</h2>
+            <h2>Heizung, Gasgeräte und Heizsystem</h2>
             <p>
-              Regelmäßige Thermenwartung ist ein wichtiger Bestandteil eines zuverlässigen Heizbetriebs.
-              Unsere Wartung umfasst Reinigung, Überprüfung, Einstellung und Funktionskontrolle aller relevanten Geräte.
+              Wir betreuen Rapido Heizung, Gasgeräte, Gastherme und komplette Heizsysteme mit moderner Installationstechnik.
+              Unsere Experten prüfen Funktion, Sicherheit und Brennwert-Komponenten sorgfältig.
             </p>
             <p>
-              Bei Bedarf führen wir eine fachgerechte Reparatur durch und setzen auf geprüfte Ersatzteile.
-              So lassen sich Ausfälle vermeiden, Effizienz steigern und Energiekosten reduzieren – besonders in der kalten Jahreszeit.
+              Durch regelmäßige Wartung und professionelle Überprüfung bleiben Rapido Geräte im optimalen Betrieb.
+              Neben Rapido betreuen wir auch ausgewählte Marken wie Saunier Duval, De Dietrich und Viessmann.
+              So bieten wir eine breite Palette an Lösungen für Heizanlage, Klimaanlagen und Sanitärsysteme.
+              Unser Service deckt alles von Planung bis Montage ab und sorgt für nachhaltige Effizienz.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Heizung, Gasgeräte und Heizsystem" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preise, Planung und Betreuung -->
+  <section class="service-section service-section--soft" id="preise-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Preise, Planung und Betreuung</h2>
+            <p>
+              Transparente Preise, klarer Pauschalpreis und individuelle Planung sind Teil unseres Rapido Service in Wien.
+              Vor Beginn aller Arbeiten erhalten Kunden einen genauen Überblick über Kosten, Leistungen und mögliche Lösungen.
+            </p>
+            <p>
+              Unser Team steht für Beratung, Betreuung und kompetente Terminvergabe zur Verfügung.
+              Als erfahrener Installateurbetrieb setzen wir auf Qualität, Erfahrung und langfristige Partnerschaft.
+              Unser Ziel ist es, alles rund um Ihre Rapido Therme effizient, sicher und zuverlässig umzusetzen.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">weniger Ausfälle</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">mehr Komfort</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Preise</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klarer Pauschalpreis</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Individuelle Planung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Starke Betreuung</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Rapido Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Preise, Planung und Betreuung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Reparatur / Thermentausch -->
-  <section class="service-section" id="reparatur-services">
+  <!-- Ablauf -->
+  <section class="service-section" id="ablauf-services">
     <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Montage, Planung und Thermentausch</h2>
-            <p>
-              Wenn eine Reparatur nicht mehr sinnvoll ist, beraten wir transparent zum Thermentausch oder Gasgerätetausch.
-              Unsere Dienstleistungen umfassen Planung, Montage, Durchführung und Inbetriebnahme neuer Systeme.
-            </p>
-            <p>
-              Dabei berücksichtigen wir unterschiedliche Modelle, passende Marken und den tatsächlichen Bedarf Ihres Haushalts.
-              Auch Neuinstallation oder Austausch einzelner Komponenten werden professionell umgesetzt – alles aus einer Hand.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Rapido Thermentausch" loading="lazy" decoding="async">
-          </div>
-        </div>
+      <div class="service-section__head">
+        <h2>Ablauf von Anfrage bis Termin</h2>
+        <p>Klare Schritte – von Terminvergabe bis Umsetzung, inklusive Sicherheits- und Effizienz-Check.</p>
       </div>
-    </div>
-  </section>
 
-  <!-- Team -->
-  <section class="service-section service-section--soft" id="team-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Team, Kundenservice und Expertise</h2>
-            <p>
-              Unser engagiertes Team besteht aus qualifizierten Technikern, Installateuren und echten Experten.
-              Der Kundenservice legt Wert auf klare Kommunikation, feste Ansprechpartner und hohe Kundenzufriedenheit.
-            </p>
-            <p>
-              Durch regelmäßige Schulungen sichern wir aktuelles Fachwissen und arbeiten herstellerkonform.
-              Diese Kombination aus Erfahrung und Know-how ermöglicht präzise Diagnosen und nachhaltige Lösungen.
-            </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">klare Abläufe</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">fixe Ansprechpartner</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schulungen</div></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Rapido Team" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Preise -->
-  <section class="service-section" id="preise-services">
-    <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Preise, Kosten und transparente Abrechnung</h2>
-            <p>
-              Faire Preise und nachvollziehbare Kosten sind ein zentraler Bestandteil unseres Services.
-              Vor Beginn jeder Arbeit informieren wir offen über Umfang, mögliche Ersatzteile und den Aufwand.
-            </p>
-            <p>
-              Auf Wunsch erhalten Kunden ein klares Angebot – auch per E-Mail.
-              So behalten Sie jederzeit den Überblick und können Entscheidungen ruhig treffen, ohne Überraschungen.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Rapido Preise und Kosten" loading="lazy" decoding="async">
-          </div>
-        </div>
+      <div class="card-box">
+        <p>
+          Nach Ihrer Kontaktaufnahme per Telefon oder über diese Seite erfolgt eine rasche Terminvergabe für Wien und Umgebung.
+          Unser Rapido Installateur Wien verschafft sich vor Ort einen genauen Überblick über Ihre Rapido Therme, Rapido Gastherme oder gesamte Heizanlage.
+        </p>
+        <p>
+          Unsere Experten führen eine sorgfältige Überprüfung, Abgasmessung und technische Kontrolle durch.
+          Anschließend erhalten Sie transparente Informationen zu Wartung, Reparatur oder notwendigem Austausch.
+          Bei einem Notfall steht unser Rapido Kundendienst sofort zur Verfügung.
+        </p>
+        <p>
+          Alle Arbeiten erfolgen nach gültigen Richtlinien, mit Fokus auf Sicherheit, Effizienz und nachhaltigen Betrieb Ihrer Heizung in Wien Niederösterreich und Burgenland.
+        </p>
       </div>
     </div>
   </section>
@@ -869,21 +779,58 @@
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Einsatzgebiet Wien, Niederösterreich und Burgenland</h2>
+            <h2>Wien, Niederösterreich und Burgenland</h2>
             <p>
-              Der Rapido Notdienst Wien ist in ganz Wien, Niederösterreich (NÖ) sowie im Burgenland im Einsatz.
-              Dank effizienter Einsatzplanung und kurzer Anfahrt sind unsere Techniker rasch vor Ort – auch in der weiteren Umgebung.
+              Unser Rapido Service ist in Wien und Umgebung sowie in Niederösterreich, NÖ und Burgenland im Einsatz.
+              Dank kurzer Wege reagieren wir schnell bei Notdienst, Reparatur oder geplanter Rapido Thermenwartung.
             </p>
             <p>
-              Unser Notdienst steht Kunden jederzeit zur Verfügung – zuverlässig in jeder Jahreszeit, besonders im Winter.
+              Unsere Einsatzgebiete umfassen private Haushalte ebenso wie gewerbliche Kunden.
+              Unser Team steht rund um die Uhr zur Verfügung und betreut alle Rapido Geräte zuverlässig.
+              Durch regionale Nähe sichern wir schnelle Hilfe im Notfall, transparente Betreuung und effiziente Lösungen für Heizung, Gastherme und Heizsystem.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Rapido Einsatzgebiet" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Region Wien, Niederösterreich und Burgenland" loading="lazy" decoding="async">
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Thermentausch -->
+  <section class="service-section service-section--dark" id="tausch-services">
+    <div class="service-container service-emergency">
+      <div class="service-emergency__text">
+        <h2>Thermentausch und Modernisierung</h2>
+        <p>
+          Ein Thermentausch ist sinnvoll, wenn Ihre Rapido Therme wiederholt Probleme verursacht oder nicht mehr effizient arbeitet.
+          Unsere Experten beraten zu modernen Rapido Gastherme Modellen, Brennwert-Technik und energieeffizienten Heizsystemen.
+        </p>
+        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
+          Der Austausch erfolgt fachgerecht inklusive Demontage, Montage und sicherer Inbetriebnahme.
+          Mit Rapido Gasgerätetausch reduzieren Sie Energiekosten und steigern die Effizienz Ihrer Anlage deutlich.
+          Wir sorgen dafür, dass alles optimal funktioniert und langfristig im stabilen Betrieb bleibt.
+        </p>
+
+        <div class="service-emergency__actions">
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Beratung anfordern</a>
+          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
+        </div>
+      </div>
+
+      <div class="service-emergency__panel">
+        <div class="service-panel">
+          <h3>Ihre Vorteile</h3>
+          <ul class="service-checklist service-checklist--on-dark">
+            <li>Mehr Effizienz durch Brennwert-Technik</li>
+            <li>Weniger Energiekosten</li>
+            <li>Sichere Montage & Inbetriebnahme</li>
+            <li>Langfristig stabiler Betrieb</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -893,34 +840,39 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>FAQs – Rapido Notdienst &amp; Thermenservice Wien</h2>
+        <h2>Häufige Fragen zu Rapido</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>1. Wann sollte ich den Notdienst kontaktieren?</summary>
-          <p>Bei akuten Problemen mit Gastherme oder Heizung – rund um die Uhr in Wien und Niederösterreich.</p>
+          <summary>Wie oft sollte eine Rapido Thermenwartung erfolgen?</summary>
+          <p>Eine jährliche Rapido Thermenwartung erhöht Effizienz, Sicherheit und verlängert die Lebensdauer Ihrer Rapido Therme.</p>
         </details>
 
         <details>
-          <summary>2. Was umfasst der Thermenservice?</summary>
-          <p>Thermenwartung, Überprüfung, Reinigung, Abgasmessung und bei Bedarf Reparatur.</p>
+          <summary>Gibt es einen 24 Stunden Notdienst?</summary>
+          <p>Ja, unser 24 Stunden Notdienst ist rund um die Uhr in Wien Niederösterreich und Burgenland verfügbar.</p>
         </details>
 
         <details>
-          <summary>3. Gibt es Thermenwartung in Wien und Niederösterreich?</summary>
-          <p>Ja, wir sind in Wien, Niederösterreich (NÖ) und Umgebung im Einsatz.</p>
+          <summary>Was umfasst das Rapido Thermenservice?</summary>
+          <p>Das Rapido Thermenservice beinhaltet Überprüfung, Reinigung, Wartung und technische Kontrolle aller Komponenten.</p>
         </details>
 
         <details>
-          <summary>4. Wer führt die Arbeiten durch?</summary>
-          <p>Ein erfahrenes Techniker-Team mit Know-how übernimmt alle Einsätze.</p>
+          <summary>Bieten Sie auch Reparatur bei Gastherme Problemen?</summary>
+          <p>Ja, unser Rapido Kundendienst übernimmt Reparatur und Austausch bei Problemen mit Rapido Gastherme oder anderen Gasgeräte.</p>
         </details>
 
         <details>
-          <summary>5. Ist der Kundendienst auch im Winter verfügbar?</summary>
-          <p>Ja, wir sind besonders im Winter und in jeder Jahreszeit im Einsatz.</p>
+          <summary>Welche Marken betreuen Sie zusätzlich?</summary>
+          <p>Neben Rapido betreuen wir auch Marken wie Saunier Duval, De Dietrich und Viessmann.</p>
+        </details>
+
+        <details>
+          <summary>Wie schnell erhalte ich einen Termin?</summary>
+          <p>Nach Ihrer Anfrage erfolgt eine rasche Terminvergabe – unser Team reagiert flexibel und kundenorientiert.</p>
         </details>
       </div>
     </div>
@@ -930,13 +882,15 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Kontakt, Fragen und schnelle Hilfe</h2>
+        <h2>Kontakt zum Installateur</h2>
         <p>
-          Bei Fragen, Störungen oder im akuten Notfall erreichen Sie uns schnell und unkompliziert.
-          Über das Formular koordinieren wir rasch einen Einsatz.
+          Für professionelle Rapido Thermenwartung, Reparatur oder Installation steht Ihnen unser Rapido Installateur Wien jederzeit zur Verfügung.
+          Unser erfahrenes Techniker Team betreut Rapido Therme, Rapido Gastherme, Gasgeräte und komplette Heizsysteme zuverlässig.
         </p>
         <p style="margin-top:10px;">
-          Thermenservice, Wartung, Reparatur und Thermentausch – zuverlässig in Wien, Niederösterreich und Burgenland.
+          Über Telefon oder direkt über diese Seite erreichen Sie uns schnell und unkompliziert.
+          Unser Service ist rund um die Uhr verfügbar – auch an Feiertagen – damit Ihre Heizung jederzeit sicher funktioniert.
+          Vertrauen Sie auf Rapido als kompetenten Partner für Heizung und Installationstechnik in Wien, Niederösterreich und Burgenland.
         </p>
       </div>
 
@@ -955,7 +909,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Gerät/Modell, Ort, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>

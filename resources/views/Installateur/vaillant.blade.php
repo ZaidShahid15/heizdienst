@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('main')
-<style>
+<!-- <style>
   :root{
     --ink:#184048;
     --bg:#ffffff;
@@ -514,7 +514,7 @@
     .wolf-hero__sub{font-size:14px}
     .toc-list{max-height:240px;}
   }
-</style>
+</style> -->
 
 @push('meta')
   <title>Vaillant Installateur Wien | Service, Wartung & Notdienst</title>
@@ -926,49 +926,67 @@
   </section>
 </main>
 
-{{-- Optional JS (TOC toggle + smooth scroll) --}}
-<!--
-<script>
-  (function(){
-    // Smooth scroll
-    document.querySelectorAll('a[href^="#"]').forEach(function(link){
-      link.addEventListener('click', function(e){
-        var id = this.getAttribute('href');
-        if (!id || id === '#') return;
-        var el = document.querySelector(id);
-        if (!el) return;
-        e.preventDefault();
-        el.scrollIntoView({ behavior:'smooth', block:'start' });
-      });
-    });
+<!-- {{-- Oaptional JS (TOC toggle + smooth scroll) --}} -->
+<!-- <script>
+  (function () {
+    const tocCard  = document.getElementById('tocCard');
+    const tocHead  = document.getElementById('tocHead');
+    const tocBody  = document.getElementById('tocBody');
+    const tocToggle= document.getElementById('tocToggle');
 
-    // TOC toggle (default collapsed)
-    var tocCard = document.getElementById('tocCard');
-    var tocToggle = document.getElementById('tocToggle');
+    if (!tocCard || !tocHead || !tocBody || !tocToggle) return;
 
-    function setToc(open){
-      if (!tocCard || !tocToggle) return;
-      tocCard.classList.toggle('is-open', !!open);
+    function setToc(open) {
+      tocCard.classList.toggle('is-open', open);
+      tocHead.setAttribute('aria-expanded', open ? 'true' : 'false');
       tocToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     }
 
+    // default closed
     setToc(false);
 
-    if (tocToggle){
-      tocToggle.addEventListener('click', function(){
-        var isOpen = tocCard.classList.contains('is-open');
-        setToc(!isOpen);
-      });
+    // toggle helper
+    function toggleToc(e){
+      // button clicks handled too, but prevent double toggle
+      if (e && e.target && e.target.closest('#tocToggle')) return;
 
-      tocToggle.addEventListener('keydown', function(e){
-        if (e.key === 'Enter' || e.key === ' '){
-          e.preventDefault();
-          var isOpen = tocCard.classList.contains('is-open');
-          setToc(!isOpen);
-        }
-      });
+      const isOpen = tocCard.classList.contains('is-open');
+      setToc(!isOpen);
     }
+
+    // Click on header toggles
+    tocHead.addEventListener('click', toggleToc);
+
+    // Click on icon button toggles (and stops bubbling)
+    tocToggle.addEventListener('click', function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      const isOpen = tocCard.classList.contains('is-open');
+      setToc(!isOpen);
+    });
+
+    // Keyboard accessibility
+    tocHead.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        const isOpen = tocCard.classList.contains('is-open');
+        setToc(!isOpen);
+      }
+    });
+
+    // Smooth scroll for TOC links (optional)
+    document.querySelectorAll('.toc-list a[href^="#"]').forEach(function(link){
+      link.addEventListener('click', function(e){
+        const id = this.getAttribute('href');
+        if (!id || id === '#') return;
+        const el = document.querySelector(id);
+        if (!el) return;
+        e.preventDefault();
+        el.scrollIntoView({ behavior:'smooth', block:'start' });
+        setToc(false); // close after click (optional)
+      });
+    });
   })();
-</script>
--->
+</script> -->
+
 @endsection

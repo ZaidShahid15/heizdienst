@@ -6,6 +6,11 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
 ✅ Mobile dropdowns = Bootstrap accordion
 ✅ Desktop header + dropdowns unchanged
 ✅ Tablet menuPanel toggle unchanged
+✅ Installateur (Vaillant..Nordgas) added PROPERLY in:
+   - Mobile Accordion ✅
+   - Desktop Dropdown ✅
+   - Tablet Panel ✅
+✅ #kontakt links fixed to #kontakt-services (your page id)
 ========================================================= -->
 
 <!-- =========================
@@ -111,8 +116,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ url('/kundendienst/löblich') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/kundendienst/ocean') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/kundendienst/rapido') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
-                <a class="mm-dd-item mm-navlink" href="{{ url('/kundendienst/windhager') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
-                <a class="mm-dd-item mm-navlink" href="{{ url('/kundendienst/nordgas') }}"><img src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/kundendienst/windhager') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/kundendienst/nordgas') }}"><img src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
         </div>
@@ -165,6 +170,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermentausch/löblich') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermentausch/ocean') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermentausch/rapido') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Thermentausch/windhager') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Thermentausch/nordgas') }}"><img src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
         </div>
@@ -185,13 +192,40 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/baxi') }}"><img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/junkers') }}"><img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/viessmann') }}"><img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
-                <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/saunier') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
-                <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/löblich') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
-                <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/ocean') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/saunier') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/löblich') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/ocean') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/wolf') }}"><img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/rapido') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/windhager') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/Thermenreparatur/nordgas') }}"><img src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ✅ INSTALLATEUR (NEW) -->
+        <div class="accordion-item mm-acc-item">
+          <h2 class="accordion-header" id="accInstallH">
+            <button class="accordion-button collapsed mm-acc-btn" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#accInstall"
+                    aria-expanded="false" aria-controls="accInstall">
+              Installateur
+            </button>
+          </h2>
+          <div id="accInstall" class="accordion-collapse collapse" aria-labelledby="accInstallH" data-bs-parent="#mobileNavAccordion">
+            <div class="accordion-body mm-acc-body">
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/vaillant') }}"><img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/buderus') }}"><img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/baxi') }}"><img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/junkers') }}"><img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/viessmann') }}"><img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/saunier') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/wolf') }}"><img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/löblich') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/ocean') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/rapido') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/windhager') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/Installateur/nordgas') }}"><img src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
         </div>
@@ -201,7 +235,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
       <!-- Footer links (inside scroll) -->
       <div class="mm-divider"></div>
       <div class="px-3 pb-3">
-        <a class="mm-footer-link mm-navlink" href="#kontakt">Kontakt</a>
+        <!-- ✅ fixed id -->
+        <a class="mm-footer-link mm-navlink" href="#kontakt-services">Kontakt</a>
         <a class="mm-footer-link mm-navlink mt-2" href="{{ route('datenschutzerklaerung') }}">Datenschutzerklärung</a>
         <a class="mm-footer-link mm-navlink mt-2" href="{{ route('impressum') }}">Impressum</a>
       </div>
@@ -211,7 +246,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
 </div>
 
 <!-- =========================
-     DESKTOP FIXED HEADER (same as your code)
+     DESKTOP FIXED HEADER
 ========================= -->
 <div class="fixed-header d-none d-lg-block">
   <!-- TOP STRIP -->
@@ -342,14 +377,37 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" href="{{ url('/Thermenreparatur/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="dd-item" href="{{ url('/Thermenreparatur/wolf') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
               <a class="dd-item" href="{{ url('/Thermenreparatur/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
-                <a class="dd-item" href="{{ url('/Thermenreparatur/windhager') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
-                <a class="dd-item" href="{{ url('/Thermenreparatur/nordgas') }}"><img class="dd-logo" src="{{ asset('img/Nordgas.png') }}" alt="Nordgas">Nordgas</a>
+              <a class="dd-item" href="{{ url('/Thermenreparatur/windhager') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="dd-item" href="{{ url('/Thermenreparatur/nordgas') }}"><img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
 
-          <a href="{{ route('impressum') }}">Impressum</a>
-          <a href="{{ route('datenschutzerklaerung') }}">Datenschutzerklärung</a>
-          <a href="#kontakt">Kontakt</a>
+          <!-- ✅ INSTALLATEUR (DESKTOP DROPDOWN) -->
+          <div class="nav-dropdown">
+            <a href="#" aria-haspopup="true" aria-expanded="false">
+              Installateur <span class="chev">▾</span>
+            </a>
+            <div class="nav-dropdown-panel" role="menu" aria-label="Installateur">
+              <div class="dd-title">Installateur</div>
+              <a class="dd-item" href="{{ url('/Installateur/vaillant') }}"><img class="dd-logo" src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
+              <a class="dd-item" href="{{ url('/Installateur/buderus') }}"><img class="dd-logo" src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
+              <a class="dd-item" href="{{ url('/Installateur/baxi') }}"><img class="dd-logo" src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
+              <a class="dd-item" href="{{ url('/Installateur/junkers') }}"><img class="dd-logo" src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
+              <a class="dd-item" href="{{ url('/Installateur/viessmann') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
+              <a class="dd-item" href="{{ url('/Installateur/saunier') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
+              <a class="dd-item" href="{{ url('/Installateur/wolf') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
+              <a class="dd-item" href="{{ url('/Installateur/löblich') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="dd-item" href="{{ url('/Installateur/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
+              <a class="dd-item" href="{{ url('/Installateur/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+              <a class="dd-item" href="{{ url('/Installateur/windhager') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="dd-item" href="{{ url('/Installateur/nordgas') }}"><img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
+            </div>
+          </div>
+
+          <!-- <a href="{{ route('impressum') }}">Impressum</a>
+          <a href="{{ route('datenschutzerklaerung') }}">Datenschutzerklärung</a> -->
+          <!-- ✅ fixed id -->
+          <a href="#kontakt-services">Kontakt</a>
         </nav>
 
         <button type="button" class="burger" aria-label="Menü öffnen" onclick="toggleDesktopMenu()">
@@ -359,7 +417,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
     </div>
 
     <!-- =========================
-         TABLET DROPDOWN PANEL (same as your code)
+         TABLET DROPDOWN PANEL
     ========================= -->
     <div id="menuPanel" style="display:none; border-top:1px solid var(--line); background:#fff">
       <div class="container" style="padding:10px 0 14px">
@@ -401,8 +459,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/kundendienst/löblich') }}">Löblich</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/kundendienst/ocean') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/kundendienst/rapido') }}">Rapido</a>
-                <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/kundendienst/windhager') }}">Windhager</a>
-                <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/kundendienst/nordgas') }}">Nordgas</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/kundendienst/windhager') }}">Windhager</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/kundendienst/nordgas') }}">Nordgas</a>
             </div>
           </div>
 
@@ -422,6 +480,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/notdienstwien/löblich') }}">Löblich</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/notdienstwien/ocean') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/notdienstwien/rapido') }}">Rapido</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/notdienstwien/windhager') }}">Windhager</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/notdienstwien/nordgas') }}">Nordgas</a>
             </div>
           </div>
 
@@ -442,7 +502,6 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/ocean') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/rapido') }}">Rapido</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/windhager') }}">Windhager</a>
-
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/nordgas') }}">Nordgas</a>
             </div>
           </div>
@@ -460,12 +519,37 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/viessmann') }}">Viessmann</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/saunier') }}">Saunier Duval</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/wolf') }}">Wolf</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/löblich') }}">Löblich</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/ocean') }}">Ocean</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/rapido') }}">Rapido</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/windhager') }}">Windhager</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/nordgas') }}">Nordgas</a>
             </div>
           </div>
 
-          <a href="#kontakt">Kontakt</a>
+          <!-- ✅ INSTALLATEUR block (TABLET PANEL) -->
+          <div style="margin-top:10px; border-radius:12px; overflow:hidden; border:1px solid var(--line);">
+            <div style="padding:12px 14px; font-weight:900; background:#122a57; color:#fff;">
+              Installateur
+            </div>
+            <div style="background:#122a57; padding:6px 0;">
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/vaillant') }}">Vaillant</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/buderus') }}">Buderus</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/baxi') }}">Baxi</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/junkers') }}">Junkers</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/viessmann') }}">Viessmann</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/saunier') }}">Saunier Duval</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/wolf') }}">Wolf</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/löblich') }}">Löblich</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/ocean') }}">Ocean</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/rapido') }}">Rapido</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/windhager') }}">Windhager</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Installateur/nordgas') }}">Nordgas</a>
+            </div>
+          </div>
+
+          <!-- ✅ fixed id -->
+          <a href="#kontakt-services">Kontakt</a>
         </div>
       </div>
     </div>
@@ -482,7 +566,6 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
   .mobile-fixed-header{
     background:#0f2f3f;
     border-bottom:1px solid rgba(255,255,255,.08);
-    /* position: sticky; */
     top: 0;
     z-index: 999;
   }
@@ -577,7 +660,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
   .mm-dd-item:hover{ color:#fff; }
   .mm-dd-item:active{ background: rgba(255,255,255,.08); }
   .mm-dd-item img{
-     height: 38px;
+    height: 38px;
     border-radius: 12px;
     object-fit: cover;
     border: 1px solid rgba(255,255,255,.08);
@@ -679,3 +762,6 @@ REQUIRED:
 Bootstrap 5 bundle (includes Offcanvas + Collapse):
 <script src=".../bootstrap.bundle.min.js"></script>
 ========================================================= -->
+
+
+

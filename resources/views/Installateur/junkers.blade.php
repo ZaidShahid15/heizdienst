@@ -526,49 +526,49 @@
 </style>
 
 @push('meta')
-  <title>Junkers Thermentausch Wien | Gastherme & HG15 inkl. Montage und MwSt</title>
-  <meta name="description" content="Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombitherme ✔ Effiziente Brennwerttechnik ✔ Preis inkl. MwSt ✔ Jetzt Angebot anfordern">
+  <title>Junkers Installateur Wien | Service, Wartung &amp; Notdienst</title>
+  <meta name="description" content="Zuverlässiger Junkers Installateur Wien für Installation, Wartung, Reparatur &amp; Notdienst. Faire Preise, erfahrenes Team. Jetzt Termin vereinbaren.">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">brennwert • montage • mwst</p>
+      <p class="wolf-hero__kicker">service • wartung • notdienst</p>
 
       <h1>
-        Junkers Thermentausch<br>
+        Junkers Installateur<br>
         <em>Wien</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Ein professioneller Junkers Thermentausch Wien sorgt für effiziente Heizung, zuverlässiges Warmwasser und moderne Brennwerttechnik direkt bei Ihnen zuhause.
+        Als erfahrener Junkers Installateur Wien bieten wir zuverlässige Installation, Wartung und Service für Junkers Therme, Heizung und Gas in Wien.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Junkers Thermentausch Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Junkers Installateur Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">HG15</span>
-        <span class="wolf-pill">Gastherme</span>
-        <span class="wolf-pill">inkl. Montage</span>
-        <span class="wolf-pill">inkl. MwSt</span>
+        <span class="wolf-pill">Installation</span>
+        <span class="wolf-pill">Wartung</span>
+        <span class="wolf-pill">Reparatur</span>
+        <span class="wolf-pill">24/7 Notdienst</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Angebot anfordern</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
       </div>
 
       <section class="promo-banner" id="junkers-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Junkers Aktion</em></h2>
-            <p class="promo-banner__price"><strong>Preis inkl. MwSt</strong></p>
+            <h2 class="promo-banner__title"><em>Transparente Preise</em></h2>
+            <p class="promo-banner__price"><strong>Faire Abrechnung</strong></p>
 
-            <a class="promo-banner__btn" href="#kontakt-services" aria-label="Angebot">
-              Angebot
+            <a class="promo-banner__btn" href="#kontakt-services" aria-label="Termin">
+              Termin
             </a>
           </div>
         </div>
@@ -580,7 +580,7 @@
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card" id="tocCard">
-       <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+        <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
           <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
           <div class="toc-actions">
@@ -596,256 +596,270 @@
 
         <div class="toc-body" id="tocBody">
           <ul class="toc-list">
-            <li class="toc-item"><a href="#wann-services"><span class="toc-badge">01</span><span class="toc-text">Wann sinnvoll</span></a></li>
-            <li class="toc-item"><a href="#systeme-services"><span class="toc-badge">02</span><span class="toc-text">Brennwertlösungen</span></a></li>
-            <li class="toc-item"><a href="#ablauf-services"><span class="toc-badge">03</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#montage-services"><span class="toc-badge">04</span><span class="toc-text">Montage & Sicherheit</span></a></li>
-            <li class="toc-item"><a href="#kosten-services"><span class="toc-badge">05</span><span class="toc-text">Kosten & Preis</span></a></li>
-            <li class="toc-item"><a href="#region-services"><span class="toc-badge">06</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#warum-services"><span class="toc-badge">07</span><span class="toc-text">Warum Profi</span></a></li>
+            <li class="toc-item"><a href="#fachpartner-services"><span class="toc-badge">01</span><span class="toc-text">Fachpartner</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services"><span class="toc-badge">02</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#technik-services"><span class="toc-badge">03</span><span class="toc-text">Heizung &amp; Gas</span></a></li>
+            <li class="toc-item"><a href="#preise-services"><span class="toc-badge">04</span><span class="toc-text">Preise</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#region-services"><span class="toc-badge">06</span><span class="toc-text">Wien &amp; Umgebung</span></a></li>
+            <li class="toc-item"><a href="#tausch-services"><span class="toc-badge">07</span><span class="toc-text">Thermentausch</span></a></li>
             <li class="toc-item"><a href="#faq-services"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">09</span><span class="toc-text">Angebot</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
- 
-
-  <!-- Wann sinnvoll -->
-  <section class="service-section" id="wann-services">
+  <!-- Junkers Fachpartner in Wien -->
+  <section class="service-section" id="fachpartner-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wann ein Thermentausch in Wien sinnvoll wird</h2>
+            <h2>Junkers Fachpartner in Wien</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme veraltet ist, häufige Störungen auftreten oder der Gasverbrauch steigt.
-              Besonders ältere Heizwert-Gasthermen erreichen nicht mehr die gewünschte Energieeffizienz.
+              Als zertifizierter Junkers Fachpartner in Wien stehen wir Kunden mit Kompetenz, Erfahrung und hoher Servicequalität zur Verfügung.
+              Unser Unternehmen arbeitet eng mit Junkers und Bosch zusammen und betreut sämtliche Produkte dieser Marke professionell.
             </p>
             <p>
-              Moderne Junkers Geräte – heute Teil von Junkers Bosch – bieten verbesserte Brennwerttechnik, leisen Betrieb und hohe Sicherheit.
-              Ob Einfamilienhäuser oder Etagenwohnungen, ein rechtzeitiger Tausch erhöht Komfort und senkt langfristig Kosten.
-              Ein erfahrener Installateur bewertet Leistung, Zustand, Kamin Vorbefund und Anschlüsse und empfiehlt das passende Modell für Heizung und Warmwasserbereitung.
+              Unsere Installateure sind geschulte Fachkräfte mit fundiertem Know-how in Heiztechnik, Gas und modernen Heizungsanlagen.
+              Dank regelmäßiger Weiterbildung und technischer Expertise gewährleisten wir Sicherheit, Energieeffizienz und lange Lebensdauer jeder Junkers Therme.
+              Wir sind in Wien und Umgebung sowie in Niederösterreich im Einsatz und bieten persönliche Betreuung für private Kunden und Betriebe.
+              Vertrauen, Qualität und transparente Abläufe stehen bei unserem Service stets im Mittelpunkt.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Junkers Thermentausch Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Junkers Fachpartner Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Moderne Brennwertlösungen -->
-  <section class="service-section service-section--soft" id="systeme-services">
+  <!-- Installation, Wartung und Service -->
+  <section class="service-section service-section--soft" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Moderne Junkers Brennwertlösungen</h2>
-        <p>Junkers bietet leistungsstarke Gasgeräte für unterschiedliche Wohnsituationen, abgestimmt auf Bedarf, Komfort und Energieeffizienz.</p>
+        <h2>Installation, Wartung und Service</h2>
+        <p>
+          Unser Installateur Service für Junkers in Wien umfasst Installation, laufende Wartung und professionellen Kundendienst – für sicheren Betrieb, klare Preise und zuverlässige Betreuung.
+        </p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
+          <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Brennwert statt Heizwert</h3>
-            <p>Brennwerttechnik nutzt zusätzlich die Energie aus Abgasen. Im Vergleich zum Heizwert reduziert sich der Gasverbrauch deutlich, während Effizienz und Umweltfreundlichkeit steigen.</p>
+            <h3>Junkers Therme Installation</h3>
+            <p>Wir führen die Installation Ihrer Junkers Therme inklusive Montage, Anschluss an Heizanlage und Gas sowie sicherer Inbetriebnahme durch erfahrene Installateure durch.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🚿</div>
+          <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
-            <h3>Kombitherme für Heizung und Warmwasser</h3>
-            <p>Eine Junkers Kombitherme vereint Heizung und Warmwasserbereitung in einem Gerät. Ideal für Wohnungen mit begrenztem Platz und konstantem Warmwasserbedarf.</p>
+            <h3>Junkers Thermenwartung Service</h3>
+            <p>Unsere Junkers Thermenwartung und regelmäßige Thermenwartung sichern den zuverlässigen Betrieb, erhöhen die Lebensdauer und beugen Störungen frühzeitig vor.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
+          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>HG15 Modelle im Überblick</h3>
-            <p>Modelle wie die Junkers Therme HG15, HG15 2 WK 19 oder HG15 19kW bieten zuverlässige Leistung, leise Brenner, stabile Pumpe und hohe Warmwasserleistung.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">✅</div>
-          <div>
-            <h3>Passend zum Bedarf</h3>
-            <p>Leistung und Ausstattung werden passend zu Wohnung oder Haus geplant – damit Heizung und Warmwasser zuverlässig, effizient und komfortabel funktionieren.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Ablauf -->
-  <section class="service-section" id="ablauf-services">
-    <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>So läuft der Junkers Thermentausch ab</h2>
-            <p>
-              Der Thermentausch erfolgt in klar definierten Schritten. Nach der Anfrage wird ein Termin zur Besichtigung vereinbart,
-              inklusive Kamin Vorbefund durch den Rauchfangkehrer. Danach folgt die Planung, Installation und Montage des neuen Gasgeräts.
-            </p>
-            <p>
-              Die Demontage und Entsorgung der alten Therme erfolgt fachgerecht. Nach der Inbetriebnahme wird das Gerät eingeschult,
-              alle Daten erklärt und der sichere Betrieb dokumentiert. So entsteht ein transparenter Ablauf mit klarer Terminvergabe und einem festen Ansprechpartner.
-            </p>
-            <ul class="service-checklist">
-              <li>Besichtigung &amp; Kamin Vorbefund</li>
-              <li>Abstimmung mit Rauchfangkehrer</li>
-              <li>Montage, Anschlüsse und Tausch</li>
-              <li>Inbetriebnahme &amp; Einschulung</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Junkers Thermentausch Ablauf" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Montage & Sicherheit -->
-  <section class="service-section service-section--soft" id="montage-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Montage, Anschlüsse und Sicherheit</h2>
-        <p>Eine fachgerechte Montage ist entscheidend für Effizienz, Sicherheit und Garantie der neuen Junkers Therme.</p>
-      </div>
-
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏠</div>
-          <div>
-            <h3>Abgasführung, Kamin und Rauchfangkehrer</h3>
-            <p>Abgasrohre, Kamin und Freigabe durch den Rauchfangkehrer müssen exakt abgestimmt sein, um einen sicheren Betrieb der Brennwerttechnik zu gewährleisten.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔌</div>
-          <div>
-            <h3>Gas, Wasser und elektrische Anschlüsse</h3>
-            <p>Gas, Wasser und elektrische Anschlüsse werden normgerecht hergestellt. Alle Anschlüsse werden geprüft, dokumentiert und für den dauerhaften Einsatz vorbereitet.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Kosten -->
-  <section class="service-section" id="kosten-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Kosten, Preis und Aktion</h2>
-            <p>
-              Die Kosten für einen Junkers Thermentausch in Wien hängen vom Modell, Leistung, Montageaufwand und Zubehör ab.
-              Ein detaillierter Kostenvoranschlag schafft Transparenz über Preis, MwSt und mögliche Aktion.
-            </p>
-            <p>
-              Moderne Junkers Bosch Geräte bieten hohe Energieeffizienz und lange Gewährleistung.
-              Aktionsangebote ermöglichen attraktive Einsparungen, ohne Abstriche bei Qualität, Sicherheit oder Garantie.
-            </p>
-
-            <ul class="service-checklist">
-              <li>Preis inkl. MwSt</li>
-              <li>Aktion bei ausgewählten Geräten</li>
-              <li>Transparenter Kostenvoranschlag</li>
-              <li>Keine versteckten Kosten</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Kosten Junkers Thermentausch" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Region -->
-  <section class="service-section service-section--soft" id="region-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Thermentausch in Wien, Niederösterreich und Umgebung</h2>
-            <p>
-              Ein Junkers Thermentausch in Wien, Niederösterreich und der umliegenden Region erfordert genaue Kenntnis lokaler Vorgaben und Gebäudetypen.
-              Ob Wohnungen, Etagenwohnungen oder Einfamilienhäuser – jede Immobilie stellt unterschiedliche Anforderungen an Gerät, Anschlüsse und Leistung.
-            </p>
-            <p>
-              Unser Team ist in Wien und Niederösterreich im Einsatz und koordiniert alle Schritte direkt vor Ort.
-              Durch kurze Wege, klare Terminvergabe und eingespielte Abläufe profitieren Kunden von einem effizienten Tausch,
-              abgestimmt auf ihr Zuhause und den tatsächlichen Bedarf an Heizung und Warmwasser.
-            </p>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Junkers Thermentausch Region" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Warum Profi -->
-  <section class="service-section" id="warum-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Warum ein fachgerechter Junkers Thermentausch entscheidend ist</h2>
-        <p>Ein professioneller Thermentausch erhöht Effizienz, Komfort und Sicherheit – mit korrekter Installation, dokumentierter Inbetriebnahme und erhaltener Gewährleistung.</p>
-      </div>
-
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
-          <div>
-            <h3>Fachmann mit Junkers Bosch Expertise</h3>
-            <p>Ein qualifizierter Fachmann prüft Gas, Anschlüsse, Brenner, Pumpe und Abgasführung sorgfältig – für sicheren Betrieb und passende Lösungen.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">♻️</div>
-          <div>
-            <h3>Saubere Demontage und Entsorgung</h3>
-            <p>Die alte Therme wird fachgerecht demontiert und entsorgt – sauber, sicher und nachvollziehbar dokumentiert.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛡️</div>
-          <div>
-            <h3>Hohe Sicherheit und lange Lebensdauer</h3>
-            <p>Durch korrekte Montage, Prüfungen und Einstellungen läuft die Anlage stabiler – weniger Störungen, mehr Lebensdauer und zuverlässiges Warmwasser.</p>
+            <h3>Reparatur und Ersatzteile</h3>
+            <p>Bei Reparatur und Thermenreparatur verwenden wir geprüfte Ersatzteile und beheben Probleme effizient, sicher und nachhaltig durch qualifiziertes Fachpersonal.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
-            <h3>Ein Partner von Planung bis Betrieb</h3>
-            <p>Kunden profitieren von klarer Beratung, zuverlässigem Kundendienst und langfristiger Energieeffizienz im täglichen Betrieb.</p>
+            <h3>Notdienst rund um Uhr</h3>
+            <p>Unser Junkers Notdienst ist rund um die Uhr verfügbar und hilft bei akuten Störungen schnell vor Ort in Wien und Umgebung.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Heizung, Gas und Technik -->
+  <section class="service-section" id="technik-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Heizung, Gas und Technik</h2>
+            <p>
+              Wir betreuen Junkers Heizungssysteme, Gasgeräte und moderne Heiztechnik mit hoher Fachkompetenz.
+              Ob Gastherme, Heizungsanlage oder komplettes Heizsystem – unsere Installateure sorgen für sicheren Betrieb und optimale Leistung.
+            </p>
+            <p>
+              Durch regelmäßige Überprüfung, fachgerechte Wartung und gezielte Behebung von Problemen erhöhen wir die Energieeffizienz und reduzieren Gasverbrauch.
+              Moderne Technik, Bosch-Standards und unsere Expertise ermöglichen langlebige Lösungen für Wohnräume und Betriebe.
+              Sicherheit, Qualität und zuverlässige Funktion stehen dabei im Fokus unseres Service in Wien.
+            </p>
+            <ul class="service-checklist">
+              <li>Überprüfung &amp; Sicherheitscheck</li>
+              <li>Effizienzsteigerung &amp; Gasverbrauch senken</li>
+              <li>Wartung nach Herstellervorgaben</li>
+              <li>Gezielte Fehlerdiagnose &amp; Reparatur</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Heizung Gas Technik Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preise, Transparenz und Vertrauen -->
+  <section class="service-section service-section--soft" id="preise-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Preise, Transparenz und Vertrauen</h2>
+            <p>
+              Faire Preise und transparente Abrechnung sind für uns selbstverständlich.
+              Unsere Kunden erhalten vor jedem Einsatz klare Informationen zu Preisen, Leistungen und Umfang der Arbeiten.
+            </p>
+            <p>
+              Die Terminvergabe erfolgt unkompliziert, und alle Kosten werden nachvollziehbar erklärt.
+              Dank positiver Bewertungen und langjähriger Erfahrung genießen wir das Vertrauen vieler Kunden in Wien.
+              Unser Ziel ist ein Service, der Qualität, Kompetenz und faire Preisgestaltung vereint.
+              Dafür danken wir unseren Kunden, die unsere Arbeit schätzen und weiterempfehlen.
+            </p>
+
+            <ul class="service-checklist">
+              <li>Klare Infos vor Arbeitsbeginn</li>
+              <li>Nachvollziehbare Abrechnung</li>
+              <li>Faire Preisgestaltung</li>
+              <li>Transparente Abläufe</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Preise Transparenz Vertrauen Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ablauf von Anfrage bis Termin -->
+  <section class="service-section" id="ablauf-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Ablauf von Anfrage bis Termin</h2>
+            <p>
+              Der Ablauf bei unserem Junkers Installateur Service in Wien ist klar, effizient und kundenorientiert.
+              Nach Ihrer Anfrage über unsere Website, per Telefon oder Mail klären wir Ihr Anliegen und vereinbaren eine passende Terminvergabe.
+            </p>
+            <p>
+              Unsere Installateure analysieren vor Ort die Situation, führen eine fachgerechte Überprüfung durch und beraten transparent zu Lösung, Preisen und дальней Vorgehensweise.
+              Anschließend erfolgt die professionelle Installation, Wartung oder Reparatur der Junkers Therme.
+              Unser Kundendienst steht Ihnen während des gesamten Einsatzes zur Verfügung und sorgt für einen reibungslosen Ablauf.
+              Ziel ist ein sicherer Betrieb, minimale Ausfallzeiten und volle Zufriedenheit unserer Kunden.
+            </p>
+            <ul class="service-checklist">
+              <li>Anfrage &amp; Terminvergabe</li>
+              <li>Analyse &amp; Überprüfung vor Ort</li>
+              <li>Transparente Beratung zu Lösung &amp; Preis</li>
+              <li>Installation / Wartung / Reparatur</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Ablauf Junkers Installateur Wien" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wien und Umgebung -->
+  <section class="service-section service-section--soft" id="region-services">
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Wien und Umgebung</h2>
+            <p>
+              Unser Junkers Installateur Team ist in ganz Wien und Umgebung im Einsatz.
+              Durch unsere regionale Nähe reagieren wir schnell auf Termine, Störungen und Notdienst-Einsätze.
+              Auch in Niederösterreich stehen wir Kunden zuverlässig zur Verfügung.
+            </p>
+            <p>
+              Unsere Erfahrung mit unterschiedlichen Gebäuden, Heizungsanlagen und Gasinstallationen ermöglicht effiziente Betreuung direkt am Ort.
+              Als regionaler Anbieter legen wir Wert auf persönliche Betreuung, kurze Wege und verlässlichen Service.
+              Kunden profitieren von schneller Erreichbarkeit, klarer Kommunikation und einem starken Partner für Junkers Heiztechnik in Wien und der Umgebung.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Wien und Umgebung Junkers Installateur" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Thermentausch und Austausch -->
+  <section class="service-section" id="tausch-services">
+    <div class="service-container">
+      <div class="service-section__head">
+        <h2>Thermentausch und Austausch</h2>
+        <p>
+          Ein Thermentausch ist sinnvoll, wenn die bestehende Junkers Therme häufige Störungen verursacht oder die Energieeffizienz nicht mehr zeitgemäß ist.
+        </p>
+      </div>
+
+      <div class="service-grid service-grid--2">
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🔁</div>
+          <div>
+            <h3>Beratung zu modernen Geräten</h3>
+            <p>Wir beraten umfassend zu modernen Junkers Geräten, Bosch Technologien und passenden Heizungsanlagen – abgestimmt auf Ihren Bedarf und Ihr Objekt.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🧱</div>
+          <div>
+            <h3>Montage &amp; fachgerechter Austausch</h3>
+            <p>Nach Auswahl der optimalen Lösung übernehmen wir Montage, Installation und den fachgerechten Austausch der alten Anlage – sauber, sicher und effizient.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🛡️</div>
+          <div>
+            <h3>Sicherheit &amp; Lebensdauer</h3>
+            <p>Wir achten auf Sicherheit, saubere Umsetzung und eine lange Lebensdauer der neuen Heizanlage – für zuverlässigen Betrieb und stabile Leistung.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">📉</div>
+          <div>
+            <h3>Weniger Gasverbrauch</h3>
+            <p>Kunden erhalten eine zukunftssichere Lösung mit besserer Leistung, geringerem Gasverbrauch und zuverlässigem Betrieb – für mehr Komfort im Alltag.</p>
           </div>
         </article>
       </div>
@@ -856,39 +870,39 @@
   <section class="service-section service-section--soft" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zum Junkers Thermentausch</h2>
+        <h2>Häufige Fragen zu Junkers</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wann ist ein Junkers Thermentausch sinnvoll?</summary>
-          <p>Ein Thermentausch ist sinnvoll, wenn die bestehende Gastherme häufig ausfällt, hohe Kosten verursacht oder nicht mehr effizient arbeitet.</p>
+          <summary>Wie oft ist eine Junkers Thermenwartung notwendig?</summary>
+          <p>Eine regelmäßige Wartung einmal jährlich wird empfohlen, um Sicherheit, Effizienz und die Lebensdauer der Junkers Therme zu erhalten.</p>
         </details>
 
         <details>
-          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
-          <p>In der Regel erfolgt der Tausch inklusive Montage, Anschlüsse und Inbetriebnahme innerhalb eines Tages, abhängig vom Kamin Vorbefund.</p>
+          <summary>Bieten Sie einen Junkers Notdienst an?</summary>
+          <p>Ja, unser Junkers Notdienst ist rund um die Uhr erreichbar und hilft bei akuten Störungen oder Ausfällen schnell weiter.</p>
         </details>
 
         <details>
-          <summary>Welche Junkers Geräte eignen sich für Wohnungen?</summary>
-          <p>Kompakte Kombithermen wie die HG15 Modelle sind ideal für Wohnungen und Etagenwohnungen mit begrenztem Platz.</p>
+          <summary>Welche Geräte betreuen Sie?</summary>
+          <p>Wir betreuen alle Junkers Geräte, Gasthermen, Heizungsanlagen sowie ausgewählte Klimaanlagen.</p>
         </details>
 
         <details>
-          <summary>Ist ein Kamin Vorbefund notwendig?</summary>
-          <p>Ja, der Kamin Vorbefund durch den Rauchfangkehrer ist verpflichtend und Teil jedes Thermentauschs in Wien.</p>
+          <summary>Wie transparent sind Ihre Preise?</summary>
+          <p>Unsere Preise sind klar, fair und werden vor Beginn der Arbeiten transparent kommuniziert.</p>
         </details>
 
         <details>
-          <summary>Was kostet ein Junkers Thermentausch inkl. MwSt?</summary>
-          <p>Der Preis hängt von Modell, Leistung und Montage ab. Ein transparenter Kostenvoranschlag zeigt alle Kosten inkl. MwSt.</p>
+          <summary>Sind Sie auch außerhalb von Wien tätig?</summary>
+          <p>Ja, wir betreuen Wien und Umgebung sowie Niederösterreich zuverlässig mit kurzen Reaktionszeiten.</p>
         </details>
 
         <details>
-          <summary>Ist Wartung nach dem Thermentausch erforderlich?</summary>
-          <p>Regelmäßige Thermenwartung sichert Effizienz, Garantie und einen störungsfreien Betrieb der neuen Junkers Therme.</p>
+          <summary>Wie läuft die Terminvergabe ab?</summary>
+          <p>Nach Ihrer Anfrage erfolgt eine rasche Terminvergabe und persönliche Betreuung durch unser Team.</p>
         </details>
       </div>
     </div>
@@ -898,12 +912,15 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Beratung &amp; Angebot anfordern</h2>
+        <h2>Kontakt zum Installateur</h2>
         <p>
-          Sie planen einen Junkers Thermentausch in Wien oder Niederösterreich? Senden Sie jetzt Ihre Anfrage und erhalten Sie ein individuelles Angebot inklusive MwSt, Montage und aktueller Aktion.
+          Für Service, Wartung oder Reparatur steht Ihnen unser Junkers Installateur Wien jederzeit zur Verfügung.
+          Unser Team aus erfahrenen Mitarbeitern, Fachkräften und Technikern berät Sie kompetent und lösungsorientiert.
+          Über unsere Website, telefonisch oder per Mail erreichen Sie unseren Kundendienst schnell und unkompliziert.
         </p>
         <p style="margin-top:10px;">
-          👉 Jetzt Angebot anfordern und Junkers Thermentausch professionell umsetzen
+          Wir nehmen jedes Anliegen ernst und stellen einen zuverlässigen Betrieb Ihrer Heizung sicher.
+          Vertrauen Sie auf Erfahrung, Kompetenz und einen Fachbetrieb, der Qualität und Sicherheit in den Mittelpunkt stellt.
         </p>
       </div>
 
@@ -922,7 +939,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Wohnung/Haus, Gerät/Modell, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Therme/Heizung, Anliegen (Wartung/Reparatur/Installation), Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>

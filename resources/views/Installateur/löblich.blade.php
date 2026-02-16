@@ -476,38 +476,39 @@
 </style>
 
 @push('meta')
-  <title>Löblich Thermentausch Wien | Gasthermen-Service & sichere Montage</title>
-  <meta name="description" content="Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen & Thermenwartung ✔ Transparente Kosten ✔ Service, Notdienst & Beratung vom Profi">
+  <title>Löblich Installateur Wien | Thermenwartung & Notdienst</title>
+  <meta name="description" content="Löblich Installateur Wien für professionelle Löblich Thermenwartung, Thermenservice & Notdienst. Transparente Preise. Jetzt Termin vereinbaren.">
 @endpush
 
 <main>
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">Löblich Thermentausch Wien</p>
+      <p class="wolf-hero__kicker">Löblich Installateur Wien</p>
 
       <h1>
-        Löblich Thermentausch Wien<br>
-        <em>sichere Montage</em>
+        Löblich Installateur Wien<br>
+        <em>Thermenwartung & Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Ein professioneller Löblich Thermentausch Wien sorgt für sichere Wärme, zuverlässige Gasthermen und hohen Komfort in Ihrem Zuhause.
+        Als Löblich Installateur Wien bieten wir professionelle Löblich Thermenwartung, Thermenservice und Notdienst für Therme und Gasgerät in Wien.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich Thermentausch Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich Installateur Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Gasthermen-Service</span>
         <span class="wolf-pill">Thermenwartung</span>
-        <span class="wolf-pill">Transparente Kosten</span>
-        <span class="wolf-pill">Notdienst & Beratung</span>
+        <span class="wolf-pill">Thermenservice</span>
+        <span class="wolf-pill">Reparaturen</span>
+        <span class="wolf-pill">Notdienst 24/7</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Angebot anfordern</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Termin vereinbaren</a>
         <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
       </div>
 
@@ -547,251 +548,242 @@
 
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-
-            <li class="toc-item"><a href="#sinnvoll-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Wann sinnvoll</span></a></li>
-            <li class="toc-item"><a href="#heizloesungen-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Heizlösungen</span></a></li>
-            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#montage-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Montage</span></a></li>
-            <li class="toc-item"><a href="#kosten-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Kosten</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Warum Profi</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Partner Wien</span></a></li>
+            <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Thermenwartung</span></a></li>
+            <li class="toc-item"><a href="#therme-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Therme & Gasgerät</span></a></li>
+            <li class="toc-item"><a href="#kosten-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Kosten</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Wien & NÖ</span></a></li>
+            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Thermentausch</span></a></li>
             <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Angebot</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ Wann sinnvoll -->
-  <section class="service-section" id="sinnvoll-services">
+  <!-- 01 Löblich Partner in Wien -->
+  <section class="service-section" id="partner-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
+            <h2>Löblich Partner in Wien</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen
-              oder Sicherheitsaspekte nicht mehr erfüllt sind. Besonders ältere Löblich Thermen oder Gasgeräte verlieren mit der Zeit
-              an Effizienz und verursachen steigende Energiekosten.
+              Als erfahrener Installateur und regionaler Anbieter steht Löblich in Wien für Qualität, Sicherheit und nachhaltige Betreuung.
+              Unser Team betreut Therme, Kombitherme und moderne Geräte verschiedener Hersteller zuverlässig und fachgerecht.
             </p>
             <p>
-              Regelmäßige Thermenwartung kann die Lebensdauer verlängern, doch bei Schäden, Gasgeruch oder Problemen mit Abgasmessung
-              und Emissionen ist ein Austausch die bessere Lösung. Ein erfahrener Installateur oder Experte prüft Zustand, Heizsystem,
-              Wasseranschlüsse und Betrieb und empfiehlt einen passenden Löblich Thermentausch für Wien und Umgebung.
+              Löblich Thermenwartung erfolgt nach aktuellen Standards und berücksichtigt individuelle Betriebsbedingungen sowie den Zustand der Anlage.
+              Wir arbeiten eng mit Vermieter, Hausverwaltung und Rauchfangkehrer zusammen, um Pflicht, Sicherheit und Komfort zu gewährleisten.
+              Dank langjähriger Erfahrung kennen wir die Anforderungen in Wien und Niederösterreich genau.
+              Löblich steht als Partner für transparente Preise, faire Kosten und persönliche Beratung rund um Therme und Thermenservice.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="Wann ein Löblich Thermentausch sinnvoll ist" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="Löblich Partner in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ Heizlösungen -->
-  <section class="service-section service-section--soft" id="heizloesungen-services">
+  <!-- 02 Thermenwartung, Service und Reparaturen -->
+  <section class="service-section service-section--soft" id="wartung-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Moderne Löblich Heizlösungen im Überblick</h2>
-        <p>Löblich steht für zuverlässige Thermenservice-Leistungen, hohe Qualität und moderne Gasthermen für unterschiedliche Anforderungen.</p>
-      </div>
-
-      <div class="service-grid service-grid--2">
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
-          <div>
-            <h3>Effiziente Gasthermen für den Alltag</h3>
-            <p>Moderne Löblich Gasthermen bieten einen stabilen Betrieb, geringeren Verbrauch und ein angenehmes Raumklima für Wohnungen und Häuser.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧽</div>
-          <div>
-            <h3>Wartung, Reinigung und Lebensdauer</h3>
-            <p>Regelmäßige Wartung, Reinigung und Überprüfung erhöhen die Lebensdauer der Löblich Therme und beugen Schäden, Störungen und Kohlenmonoxid-Risiken vor.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
-          <div>
-            <h3>Löblich Geräte und Funktionen</h3>
-            <p>Löblich Geräte überzeugen durch durchdachte Funktionen, einfache Einstellungen und zuverlässige Technik für den täglichen Einsatz im Zuhause.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛡️</div>
-          <div>
-            <h3>Sicherheit & Emissionen im Blick</h3>
-            <p>Kontrollen bei Abgasmessung, Betrieb und Emissionen schaffen Sicherheit und schützen Haushalt, Mieter und Eigentümer langfristig.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ✅ Ablauf -->
-  <section class="service-section" id="ablauf-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>So läuft der Löblich Thermentausch ab</h2>
+        <h2>Thermenwartung, Service und Reparaturen</h2>
         <p>
-          Der Löblich Thermentausch erfolgt strukturiert und transparent. Nach der Terminvergabe wird die bestehende Therme überprüft und ein Wartungs-
-          oder Austauschbedarf festgestellt. Anschließend erfolgt die Planung, Montage und der fachgerechte Austausch der alten Therme.
-          Nach der Installation werden Funktionsprüfung, Kontrolle und Einstellungen durchgeführt. Abschließend erhalten Kunden Hinweise zu Betrieb,
-          Wartungsintervall und Sicherheit. So entsteht ein reibungsloser Ablauf mit klarer Verantwortung.
+          Unsere Löblich Thermenwartung umfasst regelmäßige Thermenwartung, professionelle Wartung und umfassenden Thermenservice für alle gängigen Marken.
+        </p>
+      </div>
+
+      <div class="card-box" style="margin-bottom:14px;">
+        <p>
+          Durch sorgfältige Überprüfung, Reinigung, Funktionsprüfung und Kontrolle von Wasserdruck, Dichtungen und Verschleißteilen sichern wir die optimale
+          Funktion Ihrer Therme. Löblich Thermenwartung reduziert Risiko, verhindert Schäden und verlängert die Lebensdauer Ihrer Geräte deutlich.
+        </p>
+        <p>
+          Bei Reparaturen oder Störungen steht unser Notdienst in Wien schnell zur Verfügung. Unser Installateur-Team übernimmt Montage, Einstellung und Austausch
+          von Ersatzteile fachgerecht. Kunden profitieren von klarer Terminvergabe, transparenter Kostenübersicht und zuverlässigem Service.
         </p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔎</div>
+          <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Überprüfung und Planung</h3>
-            <p>Wir prüfen Zustand, Heizsystem, Gasgeräte und Wasseranschlüsse und planen den Tausch passend zu Ihrem Zuhause und Bedarf.</p>
+            <h3>Löblich Thermenwartung Service</h3>
+            <p>Unsere Löblich Thermenwartung beinhaltet Überprüfung, Reinigung, Abgasmessung und Kontrolle aller sicherheitsrelevanten Komponenten Ihrer Therme.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
+          <div class="service-feature__icon" aria-hidden="true">📄</div>
           <div>
-            <h3>Montage und Austausch der Therme</h3>
-            <p>Fachgerechte Demontage und Entsorgung der alten Therme sowie sichere Montage der neuen Löblich Lösung.</p>
+            <h3>Thermenservice und Wartungsvertrag</h3>
+            <p>Mit Thermenservice und optionalem Wartungsvertrag sichern Sie langfristige Wartung, stabile Funktion und geringere Heizkosten.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">✅</div>
+          <div class="service-feature__icon" aria-hidden="true">🔩</div>
           <div>
-            <h3>Funktionsprüfung und Kontrolle</h3>
-            <p>Nach dem Anschluss erfolgt die Kontrolle: Betrieb, Dichtheit, Funktion, Abgasmessung sowie sicherheitsrelevante Werte.</p>
+            <h3>Reparaturen mit Ersatzteile</h3>
+            <p>Bei Reparaturen verwenden wir hochwertige Ersatzteile und beheben Schäden effizient, um Risiko und Folgekosten zu minimieren.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
+          <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Einstellungen und Übergabe</h3>
-            <p>Wir stellen das Gerät optimal ein und geben klare Hinweise zu Wartungsintervall, Betrieb und Sicherheit.</p>
+            <h3>Notdienst rund um Uhr</h3>
+            <p>Unser Notdienst ist in Wien und Niederösterreich rund um die Uhr erreichbar und hilft bei akuten Problemen sofort.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- ✅ Montage / Sicherheit -->
-  <section class="service-section service-section--soft" id="montage-services">
+  <!-- 03 Therme, Gasgerät und Wasser -->
+  <section class="service-section" id="therme-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Montage, Betrieb und Sicherheit</h2>
+            <h2>Therme, Gasgerät und Wasser</h2>
             <p>
-              Eine fachgerechte Montage ist entscheidend für Sicherheit, Betrieb und langfristige Zuverlässigkeit der Löblich Therme.
+              Wir betreuen Therme, Gasgerät und wasserführende Systeme mit präziser Kontrolle und fachgerechter Einstellung.
+              Eine regelmäßige Thermenwartung Löblich sorgt für optimale Verbrennung, sichere Funktion und stabiles Raumklima.
             </p>
             <p>
-              <strong>Installation durch erfahrene Techniker</strong><br>
-              Erfahrene Techniker und Servicetechniker führen alle Arbeiten an Gasthermen, Wasser und Heizsystem fachgerecht aus und achten auf alle Richtlinien.
-            </p>
-            <p>
-              <strong>Wartung, Thermenservice und Notdienst</strong><br>
-              Regelmäßige Löblich Thermenwartung, Thermenservice und ein zuverlässiger Notdienst sichern den Betrieb, erhöhen die Sicherheit und schützen vor Ausfällen.
+              Durch Abgasmessung, Überprüfung der Dichtungen und Anpassung der Einstellung wird die Anlage effizient betrieben.
+              So lassen sich Energiekosten und Heizkosten reduzieren, während Sicherheit und Komfort steigen.
+              Löblich Thermenservice berücksichtigt alle relevanten Faktoren wie Betriebsbedingungen, Zustand und Alter der Therme in Wien.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Montage, Betrieb und Sicherheit" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Therme, Gasgerät und Wasser" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ Kosten -->
-  <section class="service-section" id="kosten-services">
+  <!-- 04 Kosten, Preise und Beratung -->
+  <section class="service-section service-section--soft" id="kosten-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Vorteile und Transparenz</h2>
+            <h2>Kosten, Preise und Beratung</h2>
             <p>
-              Die Kosten für einen Löblich Thermentausch in Wien hängen von Gerät, Montageaufwand und Zustand der Anlage ab.
-              Transparente Kosten schaffen Vertrauen und Planungssicherheit.
+              Transparente Kosten und faire Preise sind ein zentraler Bestandteil unserer Löblich Thermenwartung.
+              Vor Beginn aller Arbeiten erhalten Sie klare Informationen zu Wartung, Reparaturen oder möglicher Montage.
             </p>
             <p>
-              Moderne Löblich Thermen senken Heizkosten, reduzieren Energieverbrauch und unterstützen Umweltschutz.
-              Die Vorteile liegen in höherer Sicherheit, besserem Komfort und langfristiger Zufriedenheit für Mieter, Vermieter und Eigentümer.
+              Unser Installateur-Team berät verständlich zu Zustand, Pflicht zur Wartung und langfristigen Vorteilen.
+              Dank effizienter Arbeitsweise sparen Kunden Zeit und unnötige Kosten.
+              Für Terminvergabe erreichen Sie uns telefonisch oder über unsere E Mail Adresse.
+              Löblich steht in Wien für zuverlässigen Service, transparente Preisstruktur und persönliche Betreuung.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Kostenübersicht</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Langfristige Vorteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Ohne Überraschungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Preise</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Kostenübersicht</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Faire Beratung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Effiziente Arbeitsweise</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Kosten & Transparenz" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Kosten, Preise und Beratung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ Region -->
+  <!-- 05 Ablauf von Anfrage bis Termin -->
+  <section class="service-section" id="ablauf-services">
+    <div class="service-container">
+      <div class="service-section__head">
+        <h2>Ablauf von Anfrage bis Termin</h2>
+        <p>So läuft es bei Löblich – schnell, transparent und nachvollziehbar.</p>
+      </div>
+
+      <div class="card-box">
+        <p>
+          Nach Ihrer Kontaktaufnahme per Telefon oder E Mail Adresse erfolgt eine schnelle Terminvergabe in Wien und Niederösterreich.
+          Unser Löblich Installateur Wien prüft vor Ort den Zustand Ihrer Therme und führt eine sorgfältige Überprüfung aller relevanten Komponenten durch.
+        </p>
+        <p>
+          Dabei werden Wasserdruck, Abgasmessung, Dichtungen und Verschleißteilen kontrolliert.
+          Anschließend erhalten Sie klare Informationen zu notwendigen Arbeiten, Wartung oder Reparaturen inklusive transparenter Kostenübersicht.
+          Unser Thermenservice erstellt auf Wunsch eine Dokumentation für Vermieter oder Hausverwaltung.
+        </p>
+        <p>
+          Ziel ist eine sichere Funktion Ihrer Anlage unter optimalen Betriebsbedingungen und maximale Lebensdauer.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 Wien und Niederösterreich -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermentausch in Wien, Niederösterreich und Burgenland</h2>
+            <h2>Wien und Niederösterreich</h2>
             <p>
-              Ein Löblich Thermentausch in Wien, Niederösterreich und Burgenland erfordert regionale Erfahrung und genaue Kenntnis der lokalen Richtlinien.
-              Ob Wien, Umgebung, NÖ oder Burgenland – jede Immobilie stellt andere Anforderungen an Heizsystem, Gasgeräte und Betrieb.
+              Unser Löblich Thermenservice ist in ganz Wien sowie in Niederösterreich im Einsatz.
+              Durch kurze Wege reagieren wir flexibel auf Notdienst-Anfragen und geplante Thermenwartung.
             </p>
             <p>
-              Unsere Installateure, Mitarbeiter und Techniker sind regelmäßig im Einsatz und betreuen Kunden direkt vor Ort.
-              Wohnungen, Häuser und unterschiedliche Heizsysteme werden individuell beurteilt. Durch strukturierte Planung, kurze Wege und klare Terminvergabe
-              entsteht ein reibungsloser Thermentausch für Ihr Zuhause.
+              Kunden profitieren von regionaler Nähe, schneller Terminvergabe und persönlicher Betreuung.
+              Ob Wohnung, Haus oder betreute Liegenschaft – wir kennen die Anforderungen vor Ort genau.
+              Löblich steht für zuverlässige Arbeiten, klare Kommunikation und professionelle Betreuung im gesamten Einsatzgebiet.
+              So gewährleisten wir langfristige Sicherheit und effizienten Betrieb Ihrer Therme.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Region Wien Niederösterreich Burgenland" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Wien und Niederösterreich" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ Warum Profi (dark) -->
-  <section class="service-section service-section--dark" id="vorteile-services">
+  <!-- 07 Thermentausch und Modernisierung (dark) -->
+  <section class="service-section service-section--dark" id="tausch-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Warum ein professioneller Löblich Thermentausch überzeugt</h2>
+        <h2>Thermentausch und Modernisierung</h2>
         <p>
-          Ein fachgerecht umgesetzter Löblich Thermentausch erhöht die Sicherheit, senkt Energiekosten und verbessert das Raumklima dauerhaft.
-          Unsere Experten prüfen Therme, Heizsystem, Wasseranschlüsse und Emissionen sorgfältig.
+          Ein Thermentausch ist sinnvoll, wenn Ihre Therme häufige Reparaturen benötigt oder nicht mehr effizient arbeitet.
+          Unser Löblich Installateur prüft Zustand und Funktion der bestehenden Anlage und berät zu modernen Lösungen verschiedener Hersteller.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Durch saubere Montage, regelmäßige Löblich Thermenwartung und zuverlässigen Kundendienst bleibt die neue Therme langlebig und effizient.
-          Kunden profitieren von persönlicher Betreuung, hoher Kompetenz und einem festen Partner für Wartung, Reparaturen, Löblich Thermenreparatur und Notdienst.
+          Der Austausch erfolgt fachgerecht inklusive Montage, Kontrolle und Anpassung aller Einstellungen.
+          Dabei berücksichtigen wir Komfort, Energiekosten und langfristige Vorteile für Ihr Raumklima.
+          Durch professionelle Löblich Thermenwartung und rechtzeitigen Thermentausch lassen sich Schäden vermeiden
+          und das Risiko technischer Ausfälle deutlich reduzieren.
         </p>
         <div class="service-emergency__actions">
-          <a class="service-btn service-btn--accent" href="#kontakt-services">Beratung anfordern</a>
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Termin anfragen</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
@@ -800,69 +792,71 @@
         <div class="service-panel">
           <h3>Ihre Vorteile</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Erfahrung, Kompetenz und Fachwissen</li>
-            <li>Sichere Entsorgung und fachgerechte Arbeit</li>
-            <li>Lange Lebensdauer und hohe Qualität</li>
-            <li>Ein Team für Service, Wartung und Betrieb</li>
+            <li>Fachgerechte Montage & Einstellungen</li>
+            <li>Weniger Risiko & Ausfälle</li>
+            <li>Effizienterer Betrieb & Heizkosten</li>
+            <li>Mehr Komfort & Sicherheit</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ✅ FAQ -->
+  <!-- 08 FAQ -->
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zum Löblich Thermentausch</h2>
+        <h2>Häufige Fragen zu Löblich</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wann ist ein Löblich Thermentausch sinnvoll?</summary>
-          <p>Ein Austausch ist sinnvoll bei häufigen Störungen, steigenden Energiekosten, Defekt oder wenn Sicherheitsvorgaben nicht mehr erfüllt sind.</p>
+          <summary>Wie oft sollte eine Löblich Thermenwartung erfolgen?</summary>
+          <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit, Funktion und Lebensdauer Ihrer Therme sicherzustellen.</p>
         </details>
 
         <details>
-          <summary>Wie lange dauert ein Thermentausch in Wien?</summary>
-          <p>In der Regel erfolgt der Austausch inklusive Montage und Funktionsprüfung innerhalb eines Tages, abhängig von Anlage und Umfang der Arbeit.</p>
+          <summary>Ist eine Thermenwartung Pflicht?</summary>
+          <p>Für viele Vermieter und Hausverwaltung ist die regelmäßige Wartung Pflicht, um Schäden und Risiko zu vermeiden.</p>
         </details>
 
         <details>
-          <summary>Ist Thermenwartung auch nach dem Austausch notwendig?</summary>
-          <p>Ja, regelmäßige Thermenwartung, Reinigung und Abgasmessung sichern Betrieb, Sicherheit und lange Lebensdauer.</p>
+          <summary>Was beinhaltet der Löblich Thermenservice?</summary>
+          <p>Thermenservice umfasst Reinigung, Funktionsprüfung, Abgasmessung, Kontrolle von Verschleißteilen und Einstellung der Anlage.</p>
         </details>
 
         <details>
-          <summary>Gibt es einen Wartungsvertrag für Löblich Thermen?</summary>
-          <p>Ja, ein Wartungsvertrag sorgt für planbare Wartungsintervalle, Schutz vor Ausfällen und zuverlässigen Betrieb.</p>
+          <summary>Gibt es einen Notdienst in Wien?</summary>
+          <p>Ja, unser Notdienst ist rund um die Uhr in Wien und Niederösterreich erreichbar.</p>
         </details>
 
         <details>
-          <summary>Was kostet ein Löblich Thermentausch?</summary>
-          <p>Die Kosten richten sich nach Gerät, Montage und Aufwand. Transparente Preise schaffen Planungssicherheit.</p>
+          <summary>Welche Kosten entstehen bei einer Wartung?</summary>
+          <p>Die Kosten hängen vom Zustand der Therme ab. Preise werden vorab transparent kommuniziert.</p>
         </details>
 
         <details>
-          <summary>Wer ist Ansprechpartner für Service und Notdienst?</summary>
-          <p>Unser Kundenservice, Servicetechniker und Notdienst stehen bei Anliegen, Störungen oder Fragen zuverlässig zur Verfügung.</p>
+          <summary>Wie schnell bekomme ich einen Termin?</summary>
+          <p>Nach Ihrer Anfrage per Telefon oder E Mail Adresse erfolgt eine rasche Terminvergabe.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- ✅ CONTACT -->
+  <!-- 09 Kontakt -->
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Beratung & Angebot anfordern</h2>
+        <h2>Kontakt zum Installateur</h2>
         <p>
-          Sie planen einen Löblich Thermentausch in Wien, Niederösterreich oder Burgenland?
-          Unser Team berät Sie persönlich und erstellt eine maßgeschneiderte Lösung für Ihr Zuhause.
+          Für professionelle Löblich Thermenwartung, Reparaturen oder Montage steht Ihnen unser Löblich Installateur Wien jederzeit zur Verfügung.
+          Unser Team betreut Therme, Gasgerät und Kombitherme zuverlässig und herstellerunabhängig.
         </p>
         <p style="margin-top:10px;">
-          👉 Jetzt Beratung anfordern und Löblich Thermentausch professionell umsetzen
+          Über Telefon oder E Mail Adresse erreichen Sie uns schnell und unkompliziert.
+          Wir beantworten Fragen verständlich und sorgen für sichere Funktion, langfristigen Komfort und optimale Betriebsbedingungen Ihrer Anlage.
+          Vertrauen Sie auf Löblich als erfahrenen Partner für Thermenservice in Wien.
         </p>
       </div>
 
@@ -881,7 +875,7 @@
 
         <label style="margin-top:10px;">
           <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Ort, Wunschzeit..." required></textarea>
+          <textarea name="message" rows="4" placeholder="Therme/Problem, Ort, Wunschzeit..." required></textarea>
         </label>
 
         <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
@@ -889,6 +883,7 @@
       </form>
     </div>
   </section>
+
 </main>
 
 @endsection
