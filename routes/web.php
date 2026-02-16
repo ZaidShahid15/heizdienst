@@ -64,6 +64,9 @@ Route::prefix('notdienstwien')->group(function () {
     Route::get('/löblich', fn() => view('Notdienst Wien.löblich-notdienst-wien'));
     Route::get('/buderus', fn() => view('Notdienst Wien.buderus-notdienst-wien'));
     Route::get('/baxi', fn() => view('Notdienst Wien.baxi-notdienst-wien'));
+    Route::get('/nordgas', fn() => view('Notdienst Wien.nordgas'));
+    Route::get('/windhager', fn() => view('Notdienst Wien.windhager'));
+
 
 });
 
@@ -79,6 +82,8 @@ Route::prefix('Thermentausch')->group(function(){
     Route::get('/löblich',fn() => view('Thermentausch.löblich'));
     Route::get('/ocean',fn() => view('Thermentausch.ocean'));
     Route::get('/rapido',fn() => view('Thermentausch.rapido'));
+    Route::get('/windhager',fn() => view('Thermentausch.windhager'));
+    Route::get('/nordgas',fn() => view('Thermentausch.nordgas'));
 });
 
 

@@ -544,7 +544,7 @@
 
         .spot-text p {
             margin: 0 0 14px;
-            color: var(--muted);
+            /* color: var(--muted); */
             line-height: 1.75;
             font-size: 15px;
         }
@@ -841,7 +841,7 @@
             position: relative;
             background: none;
             overflow: hidden;
-            padding-top: 80px;
+            padding-top: 149px !important;
             /* Space for fixed mobile header */
             padding-bottom: 96px;
         }
@@ -2110,7 +2110,7 @@
 
         /* dark overlay */
        .m-hero::after {
-    content: "";x
+    content: "";
     position: absolute;
     inset: 0;
     z-index: 1;

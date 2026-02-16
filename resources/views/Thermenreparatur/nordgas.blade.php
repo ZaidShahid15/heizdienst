@@ -406,7 +406,6 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-
     overflow:auto;
   }
   .toc-list{
@@ -515,43 +514,42 @@
     </div>
   </section>
 
- <!-- ✅ TOC AFTER HERO -->
-<section class="toc-wrap" aria-label="Inhaltsverzeichnis">
-  <div class="service-container">
-    <div class="toc-card is-collapsed" id="tocCard">
-      <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
-        <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+  <!-- ✅ TOC AFTER HERO -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
+    <div class="service-container">
+      <div class="toc-card is-collapsed" id="tocCard">
+        <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+          <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
-        <div class="toc-actions">
-          <button class="toc-iconbtn" type="button" id="tocToggle"
-            aria-expanded="false" aria-controls="tocBody"
-            aria-label="Inhaltsverzeichnis umschalten">
-            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
-              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
-            </svg>
-          </button>
+          <div class="toc-actions">
+            <button class="toc-iconbtn" type="button" id="tocToggle"
+              aria-expanded="false" aria-controls="tocBody"
+              aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Kundendienst</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Thermenwartung</span></a></li>
+            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Thermentausch</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Region</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Warum Nordgas</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
+          </ul>
         </div>
       </div>
-
-      <div class="toc-body" id="tocBody">
-        <ul class="toc-list" id="tocList">
-          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
-          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
-          <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
-          <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
-          <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
-          <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-          <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-          <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
-        </ul>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-  <!-- Service -->
+  <!-- Kundendienst / Main Content -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="card-split">
@@ -568,6 +566,12 @@
               Mit Erfahrung, Kompetenz und Know how sorgen wir für Sicherheit, Qualität und langfristige Funktion Ihrer Heizung.
               Auch in Niederösterreich, NÖ und Wiener Neustadt stehen wir als verlässlicher Partner zur Verfügung.
             </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Thermenservice aus einer Hand</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien, NÖ & Wiener Neustadt</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Nachhaltige Lösungen</div></div>
+            </div>
           </div>
         </div>
 
@@ -580,8 +584,8 @@
     </div>
   </section>
 
-  <!-- Team -->
-  <section class="service-section service-section--soft" id="partner-services">
+  <!-- Reparaturen -->
+  <section class="service-section service-section--soft" id="leistungen-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
@@ -599,9 +603,9 @@
             </p>
 
             <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Funktionsprüfung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Dichtheit Kontrollen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Geprüfte Teile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Zuverlässiger Betrieb</div></div>
             </div>
           </div>
         </div>
@@ -612,15 +616,12 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Leistungen -->
-  <section class="service-section" id="leistungen-services">
-    <div class="service-container">
+      <div style="height:14px"></div>
+
       <div class="service-section__head">
-        <h2>Leistungen unseres Kundendienstes</h2>
-        <p>Thermenservice, Thermenwartung, Thermentausch und Notdienst – Nordgas Service für Wien und Niederösterreich.</p>
+        <h2>Nordgas Thermenservice, Wartung, Thermentausch & Notdienst</h2>
+        <p>Professioneller Kundendienst für Nordgas Therme und Gasgeräte in Wien, Niederösterreich und Wiener Neustadt.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -628,47 +629,47 @@
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
             <h3>Nordgas Thermenreparatur</h3>
-            <p>Professionelle Reparaturen bei Fehlermeldungen, Störungen und Problemen im Betrieb – direkt vor Ort.</p>
+            <p>Schnelle Reparaturen bei Fehlermeldungen, Störungen und Problemen im Betrieb – direkt vor Ort.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧰</div>
-          <div>
-            <h3>Nordgas Thermenwartung</h3>
-            <p>Regelmäßige Wartung mit Überprüfung, Reinigung und Einstellung – für mehr Effizienz und Sicherheit.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔎</div>
+          <div class="service-feature__icon" aria-hidden="true">🧽</div>
           <div>
             <h3>Überprüfung & Reinigung</h3>
-            <p>Gründliche Kontrolle sensibler Bauteile, Dichtheit und Funktionsprüfung – zur Vermeidung teurer Schäden.</p>
+            <p>Gründliche Überprüfung, Reinigung und Dichtheit Kontrolle sensibler Bauteile – zur Vermeidung teurer Schäden.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
+          <div>
+            <h3>Thermenwartung</h3>
+            <p>Regelmäßige Wartung mit präziser Einstellung – für mehr Effizienz, Sicherheit und längere Lebensdauer.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Nordgas Thermentausch</h3>
-            <p>Beratung und Austausch älterer Nordgas Geräte gegen moderne Systeme – angepasst an Ihre Heizungsanlage.</p>
+            <h3>Thermentausch</h3>
+            <p>Beratung und Austausch älterer Nordgas Geräte gegen moderne Systeme – optimal angepasst an Ihre Heizungsanlage.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Nordgas Notdienst</h3>
-            <p>Rund um die Uhr im Einsatz bei Notfall, Gasgeruch oder Ausfall – Wien, NÖ und Wiener Neustadt.</p>
+            <h3>Notdienst</h3>
+            <p>Rund um die Uhr erreichbar bei Notfall, Gasgeruch oder Ausfall der Gastherme – auch in Wiener Neustadt.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏠</div>
+          <div class="service-feature__icon" aria-hidden="true">🤝</div>
           <div>
-            <h3>Installateur Beratung</h3>
-            <p>Kompetente Beratung zu Lösungen, Alternativen und Systemoptimierung – transparent und kundenorientiert.</p>
+            <h3>Beratung & Lösungen</h3>
+            <p>Kompetente Beratung, klare Preise und passende Alternative Lösungen – kundenorientiert und transparent.</p>
           </div>
         </article>
       </div>
@@ -676,7 +677,7 @@
   </section>
 
   <!-- Thermenwartung -->
-  <section class="service-section service-section--soft" id="warum-services">
+  <section class="service-section" id="warum-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
@@ -704,15 +705,15 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Nordgas Thermenwartung Wien für Effizienz und Sicherheit" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Nordgas Thermenwartung Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Reparaturen -->
-  <section class="service-section" id="reparatur-services">
+  <!-- Thermentausch -->
+  <section class="service-section service-section--soft" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
@@ -731,8 +732,8 @@
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Moderne Systeme</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Garantie & Qualität</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Wohnkomfort</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Beratung</div></div>
             </div>
           </div>
@@ -740,7 +741,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Nordgas Thermentausch und moderne Lösungen" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Nordgas Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -772,23 +773,56 @@
         <div class="service-panel">
           <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
+            <li>Gasgeruch</li>
             <li>Ausfall der Gastherme / Heizung</li>
-            <li>Gasgeruch oder akute Schäden</li>
-            <li>Störungen, Fehlermeldungen, Probleme im Betrieb</li>
-            <li>Notfall in kalter Jahreszeit</li>
+            <li>Fehlermeldungen und Störungen</li>
+            <li>Akute Schäden in der kalten Jahreszeit</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr im Einsatz – Wien, Niederösterreich, NÖ und Wiener Neustadt.
+            Rund um die uhr erreichbar – Wien, Niederösterreich, NÖ und Wiener Neustadt.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Kosten -->
-  <section class="service-section" id="preise-services">
+  <!-- Region -->
+  <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Techniker in Wien, Niederösterreich und Wiener Neustadt</h2>
+            <p>
+              Unser Team betreut Wien, Niederösterreich, NÖ und Wiener Neustadt mit schneller Hilfe,
+              kompetenter Beratung und professionellen Reparaturen.
+            </p>
+            <p style="margin-top:10px;">
+              Sicherheit und Funktion im Notfall: Bei Notfall mit Gasgeräte oder Therme reagieren unsere Techniker sofort
+              und stellen durch fachgerechte Arbeiten die sichere Funktion wieder her.
+            </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Niederösterreich</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wiener Neustadt</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Techniker Wien Niederösterreich Wiener Neustadt" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Warum Nordgas -->
+  <section class="service-section" id="preise-services">
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
             <h2>Warum Nordgas Ihr Partner in Wien ist</h2>
@@ -807,35 +841,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Warum Nordgas Ihr Partner in Wien ist" loading="lazy" decoding="async">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Region -->
-  <section class="service-section service-section--soft" id="region-services">
-    <div class="service-container">
-      <div class="card-split card-split--reverse">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Techniker in Wien, Niederösterreich und Wiener Neustadt</h2>
-            <p>
-              Unser Team betreut Wien, Niederösterreich, NÖ und Wiener Neustadt mit schneller Hilfe, kompetenter Beratung und professionellen Reparaturen.
-            </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schnelle Hilfe</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kompetente Beratung</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wiener Neustadt</div></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Techniker in Wien, Niederösterreich und Wiener Neustadt" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Warum Nordgas" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -894,8 +900,7 @@
           Unser Installateur Team sorgt für professionelle Reparatur, sichere Überprüfung und nachhaltige Lösungen für Ihre Heizung.
         </p>
         <p style="margin-top:10px;">
-          Kontaktieren Sie uns noch heute und profitieren Sie von transparenter Beratung, fairen Preise und zuverlässigem Service
-          in Wien und Niederösterreich.
+          Kontaktieren Sie uns noch heute und profitieren Sie von transparenter Beratung, fairen Preise und zuverlässigem Service in Wien und Niederösterreich.
         </p>
       </div>
 

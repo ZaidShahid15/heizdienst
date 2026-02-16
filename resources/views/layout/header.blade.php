@@ -138,6 +138,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ url('/notdienstwien/löblich') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/notdienstwien/ocean') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/notdienstwien/rapido') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/notdienstwien/windhager') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/notdienstwien/nordgas') }}"><img src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
         </div>
@@ -296,6 +298,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" href="{{ url('/notdienstwien/löblich') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="dd-item" href="{{ url('/notdienstwien/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="dd-item" href="{{ url('/notdienstwien/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+              <a class="dd-item" href="{{ url('/notdienstwien/windhager') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="dd-item" href="{{ url('/notdienstwien/nordgas') }}"><img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
 
@@ -316,6 +320,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" href="{{ url('/Thermentausch/löblich') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="dd-item" href="{{ url('/Thermentausch/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="dd-item" href="{{ url('/Thermentausch/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+              <a class="dd-item" href="{{ url('/Thermentausch/windhager') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="dd-item" href="{{ url('/Thermentausch/nordgas') }}"><img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
 
@@ -435,6 +441,9 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/löblich') }}">Löblich</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/ocean') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/rapido') }}">Rapido</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/windhager') }}">Windhager</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermentausch/nordgas') }}">Nordgas</a>
             </div>
           </div>
 
@@ -451,7 +460,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/viessmann') }}">Viessmann</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/saunier') }}">Saunier Duval</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/wolf') }}">Wolf</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/rapido') }}">Rapido</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/windhager') }}">Windhager</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/Thermenreparatur/nordgas') }}">Nordgas</a>
             </div>
           </div>
 

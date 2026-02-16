@@ -11,12 +11,14 @@
     --text:#12373c;
     --line:rgba(24,64,72,.14);
     --shadow: 0 14px 40px rgba(0,0,0,.10);
+    --shadow2: 0 18px 50px rgba(0,0,0,.18);
     --radius: 18px;
     --radius2: 22px;
   }
 
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
+  html{scroll-behavior:smooth}
   body{
     font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     color:var(--text);
@@ -36,6 +38,7 @@
     border:1px solid transparent;
     transition:.18s ease;
     white-space:nowrap;
+    cursor:pointer;
   }
   .service-btn--primary{background:var(--ink); color:#fff;}
   .service-btn--primary:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
@@ -151,7 +154,9 @@
     cursor:pointer;
     font-weight:900;
     color:var(--ink);
+    list-style:none;
   }
+  .service-faq summary::-webkit-details-marker{display:none;}
   .service-faq p{margin:10px 0 0}
 
   /* CTA */
@@ -198,19 +203,19 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* ===== ✅ Card split (EQUAL HEIGHT like your previous site) ===== */
+  /* ===== ✅ Card split (EQUAL HEIGHT) ===== */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch; /* ✅ stretch for equal height */
+    align-items:stretch;
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
 
   .card-split__text,
   .card-split__media{
-    display:flex; /* ✅ make children fill height */
+    display:flex;
   }
 
   .card-box{
@@ -234,7 +239,7 @@
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:100%;            /* ✅ same height as text card */
+    height:100%;
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -245,7 +250,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit:cover;
+    /* object-fit:cover; */
     object-position:center;
   }
 
@@ -265,7 +270,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("{{ asset('img/hero-scetion.jpeg') }}");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -278,12 +283,16 @@
     background:rgba(0,0,0,.55);
     z-index:1;
   }
+
+  /* ✅ UPDATED: hero inner width = same as other sections */
   .wolf-hero__inner{
     position:relative;
     z-index:2;
-    max-width:900px;
+    width:min(1120px, 92%);
+    margin-inline:auto;
     margin-top:40px;
   }
+
   .wolf-hero .wolf-hero__inner::after{
     content:"";
     position:absolute;
@@ -307,6 +316,9 @@
     font-weight:800;
     color:#fff;
     margin:0 0 12px;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    font-size:.78rem;
   }
   .wolf-hero h1{
     margin:0 0 10px;
@@ -318,15 +330,15 @@
   }
   .wolf-hero h1 em{font-style:italic; font-weight:800;}
   .wolf-hero__sub{
-    margin:0 auto 28px;
+    margin:0 auto 20px;
     max-width:780px;
     font-size:16px;
     color:rgba(255,255,255,.9);
   }
-  .wolf-hero__logo{margin:22px 0 20px; display:flex; justify-content:center;}
+  .wolf-hero__logo{margin:16px 0 18px; display:flex; justify-content:center;}
   .wolf-hero__logo img{width:170px; max-width:60vw; transform: rotate(-6deg);}
 
-  .wolf-hero__bullets{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:0 0 6px;}
+  .wolf-hero__bullets{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:0 0 8px;}
   .wolf-pill{
     padding:8px 10px;
     border-radius:999px;
@@ -350,8 +362,8 @@
     justify-content:center;
     gap:8px;
     padding:15px 28px;
-    border-radius:6px;
-    font-weight:700;
+    border-radius:10px;
+    font-weight:800;
     font-size:14px;
     border:1px solid transparent;
     transition:.15s ease;
@@ -360,12 +372,112 @@
   .wolf-btn--ghost{background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.28); color:#fff;}
   .wolf-btn--ghost:hover, .wolf-btn--accent:hover{transform:translateY(-1px);}
 
+  /* ======================================================
+     ✅ Promo Banner (Aktion) — UPDATED to match your image
+     ✅ UPDATED: takes full hero width (same as other sections)
+     ====================================================== */
+  .promo-banner{
+    margin-top:22px;
+    width:100%;
+  }
+  .promo-banner__inner{
+    position:relative;
+    overflow:hidden;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.22);
+    background:#fff;
+    box-shadow: var(--shadow2);
+    width:100%;
+  }
+
+  /* right-side photo */
   .promo-banner__inner::after{
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:
+      url("{{ asset('img/final.png') }}") right center / cover no-repeat;
     z-index:0;
+  }
+
+  /* fade so text is readable on the left */
+  .promo-banner__inner::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      linear-gradient(90deg,
+        rgba(255,255,255,1) 0%,
+        rgba(255,255,255,1) 52%,
+        rgba(255,255,255,.25) 78%,
+        rgba(255,255,255,0) 100%
+      );
+    z-index:1;
+  }
+
+  .promo-banner__content{
+    position:relative;
+    z-index:2;
+    padding:18px 18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+    flex-wrap:wrap;
+    text-align:left;
+    min-height:120px; /* ✅ stable height like screenshot */
+  }
+
+  .promo-banner__left{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    gap:4px;
+    min-width:220px;
+  }
+
+  .promo-banner__title{
+    margin:0;
+    color:var(--ink);
+    font-size:18px;
+    font-weight:900;
+    letter-spacing:-.01em;
+    line-height:1.15;
+  }
+
+  .promo-banner__price{
+    margin:0;
+    color:var(--ink);
+    font-weight:900;
+    text-align:center;
+    font-size:22px;
+    line-height:1.1;
+  }
+
+  .promo-banner__btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:12px 18px;
+    border-radius:10px;
+    background: #0f2f35;
+    color:#fff;
+    font-weight:900;
+    border:1px solid rgba(0,0,0,.12);
+    white-space:nowrap;
+    min-width:130px;
+  }
+  .promo-banner__btn:hover{
+    transform:translateY(-1px);
+    box-shadow:0 14px 40px rgba(0,0,0,.18);
+  }
+  .promo-banner__btn-ico{
+    width:10px; height:10px;
+    border-radius:999px;
+    background:#fff;
+    display:inline-block;
+    opacity:.85;
   }
 
   /* =========================
@@ -406,7 +518,7 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-    overflow:auto;
+    -webkit-overflow-scrolling:touch;
   }
   .toc-list{
     list-style:none;
@@ -440,14 +552,14 @@
   .toc-text{font-weight:900; color:#0f3a40; font-size:14px; line-height:1.2;}
   .toc-card.is-collapsed .toc-body{max-height:0; padding:0 12px; overflow:hidden;}
 
-  /* Mobile */
+  /* ===== Mobile / iPhone 17 Pro Max friendly ===== */
   @media (max-width: 980px){
     .service-grid--2{grid-template-columns:1fr}
     .service-emergency{grid-template-columns:1fr}
     .service-cta__inner{grid-template-columns:1fr}
     .service-formrow{grid-template-columns:1fr}
 
-    .service-stats{grid-template-columns:1fr;} /* stats 1 per row on mobile */
+    .service-stats{grid-template-columns:1fr;}
 
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
@@ -456,9 +568,34 @@
     .card-split__text,
     .card-split__media{display:block;}
 
-    .service-media__box{min-height:220px; height:auto;} /* ✅ nice on mobile */
+    .service-media__box{min-height:220px; height:auto;}
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
+
+    /* ✅ promo banner stacking */
+    /* .promo-banner__content{align-items:flex-start;} */
+    .promo-banner__btn{border-radius:12px;}
+  }
+
+  /* Extra tuning for ~430px */
+  @media (max-width: 520px){
+    .wolf-hero{padding:110px 12px 86px; min-height:460px;}
+    .wolf-hero__inner{margin-top:22px;}
+    .wolf-hero h1{font-size: clamp(30px, 9vw, 44px);}
+    .wolf-hero__sub{max-width:36ch;}
+    .wolf-btn{width:100%; padding:14px 16px;}
+
+    .promo-banner__content{gap:10px; padding:14px;}
+    .promo-banner__title{font-size:16px;}
+    .promo-banner__price{font-size:18px;}
+    .promo-banner__btn{width:100%;}
+
+    .toc-body{max-height:360px;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{scroll-behavior:auto}
+    .service-btn, .wolf-btn, .toc-iconbtn, .promo-banner__btn{transition:none}
   }
 </style>
 
@@ -471,11 +608,11 @@
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">schnelle hilfe im notfall</p>
+      <p class="wolf-hero__kicker">Schnelle Hilfe im Notfall</p>
 
       <h1>
         Windhager Notdienst Wien<br>
-        <em>sofort zur stelle</em>
+        <em>Thermenservice & Reparatur</em>
       </h1>
 
       <p class="wolf-hero__sub">
@@ -490,22 +627,25 @@
         <span class="wolf-pill">Thermenservice</span>
         <span class="wolf-pill">Reparatur</span>
         <span class="wolf-pill">Thermenwartung</span>
-        <span class="wolf-pill">Notdienst</span>
+        <span class="wolf-pill">Hilfe bei Fehlercode</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt anfragen</a>
         <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
       </div>
 
-      <section class="promo-banner" id="wolf-aktion">
+      <!-- ✅ PROMO BANNER (FULL WIDTH LIKE OTHER SECTIONS) -->
+      <section class="promo-banner" id="wolf-aktion" aria-label="Aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Windhager Kundendienst Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab  €95</strong></p>
+            <div class="promo-banner__left">
+              <h2 class="promo-banner__title"><em>Viessmann Thermenwartung</em><br>Aktion</h2>
+              <p class="promo-banner__price"><strong>ab €95</strong></p>
+            </div>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
-              <span class="promo-banner__btn-ico">  </span>
+            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION anrufen">
+              <span class="promo-banner__btn-ico" aria-hidden="true"></span>
               AKTION
             </a>
           </div>
@@ -514,103 +654,103 @@
     </div>
   </section>
 
- <!-- ✅ TOC AFTER HERO -->
-<section class="toc-wrap" aria-label="Inhaltsverzeichnis">
-  <div class="service-container">
-    <div class="toc-card is-collapsed" id="tocCard">
-      <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
-        <h4 id="tocTitle">Inhaltsverzeichnis</h4>
+  <!-- ✅ TOC AFTER HERO -->
+  <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
+    <div class="service-container">
+      <div class="toc-card is-collapsed" id="tocCard">
+        <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
+          <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
-        <div class="toc-actions">
-          <button class="toc-iconbtn" type="button" id="tocToggle"
-            aria-expanded="false" aria-controls="tocBody"
-            aria-label="Inhaltsverzeichnis umschalten">
-            <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
-              <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
-            </svg>
-          </button>
+          <div class="toc-actions">
+            <button class="toc-iconbtn" type="button" id="tocToggle"
+              aria-expanded="false" aria-controls="tocBody"
+              aria-label="Inhaltsverzeichnis umschalten">
+              <svg viewBox="0 0 448 512" aria-hidden="true" id="tocChevron" style="transform: rotate(0deg); transition: transform 0.18s;">
+                <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="toc-body" id="tocBody">
+          <ul class="toc-list" id="tocList">
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Kundendienst</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Meisterbetrieb</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Thermenwartung</span></a></li>
+            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparatur</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Preise</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Einsatzgebiet</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQs</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+          </ul>
         </div>
       </div>
-
-      <div class="toc-body" id="tocBody">
-        <ul class="toc-list" id="tocList">
-          <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Service</span></a></li>
-          <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Team</span></a></li>
-          <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-          <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
-          <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-          <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
-          <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
-          <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-          <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-          <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
-        </ul>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-  <!-- Service -->
+  <!-- Kundendienst -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Windhager Notdienst und Kundendienst in Wien</h2>
+            <h2>Windhager Kundendienst für Therme und Heizung</h2>
             <p>
-              Reparatur, Thermenservice und Wartung aus einer Hand – der Windhager Kundendienst betreut Kunden in Wien,
-              Niederösterreich und Burgenland bei allen Anliegen rund um Windhager Therme, Gastherme und moderne Heizungssysteme.
+              Der Windhager Kundendienst betreut Kunden in Wien, Niederösterreich und Burgenland bei allen Anliegen rund um Windhager Therme,
+              Gastherme und moderne Heizungssysteme. Ob im privaten Haus oder im gewerblichen Betrieb – unsere erfahrenen Installateure und qualifizierten Techniker sorgen für sichere Betreuung.
             </p>
             <p>
-              Ob im privaten Haus oder im gewerblichen Betrieb – unsere erfahrenen Installateure und qualifizierten Techniker sorgen
-              für sichere Betreuung. Jede Windhager Therme wird sorgfältig geprüft, um Probleme, sinkenden Wasserdruck, fehlendes Warmwasser
-              oder ungewöhnliche Geräusche frühzeitig zu erkennen. Unser Ziel ist eine nachhaltige Lösung, die Sicherheit, Effizienz und lange Lebensdauer garantiert.
+              Jede Windhager Therme wird sorgfältig geprüft, um Probleme, sinkenden Wasserdruck, fehlendes Warmwasser oder ungewöhnliche Geräusche frühzeitig zu erkennen.
+              Unser Ziel ist eine nachhaltige Lösung, die Sicherheit, Effizienz und lange Lebensdauer garantiert.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Reparatur & Service</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Meisterbetrieb</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Rasche Hilfe</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Reparatur & Thermenservice</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wartung aus einer Hand</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Rasche Hilfe im Notfall</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien, NÖ & Burgenland</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1Windhager.jpeg') }}" alt="Windhager Notdienst und Kundendienst in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1Windhager.jpeg') }}" alt="Windhager Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Team -->
+  <!-- Meisterbetrieb -->
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Windhager Kundendienst für Therme und Heizung</h2>
+            <h2>Meisterbetrieb mit Erfahrung und Fachwissen</h2>
             <p>
-              Unsere Techniker und Installateure betreuen Windhager Therme, Gastherme und Heizsysteme mit Erfahrung und strukturierter Vorgehensweise.
-              Wir prüfen Ihre Anlage sorgfältig und erkennen Störungen wie sinkenden Wasserdruck, fehlendes Warmwasser oder ungewöhnliche Geräusche frühzeitig.
+              Als zertifizierter Meisterbetrieb arbeiten wir nach höchsten Standards. Unsere erfahrenen Installateure kümmern sich mit Fachwissen und präzisem Umgang um jede Windhager Therme.
             </p>
             <p>
-              Durch gezielte Überprüfung und saubere Abläufe sorgen wir für sichere Betreuung, effizienten Betrieb und eine lange Lebensdauer Ihrer Heizung –
-              zuverlässig in Wien, Niederösterreich und Burgenland.
+              Regelmäßige Schulungen sichern aktuelles Know-how bei Elektronik, Gasgeräte, Steuerung und Sensorik.
+              Die Kombination aus Erfahrung, technischem Verständnis und strukturierten Abläufen sorgt für maximale Sicherheit und nachhaltige Ergebnisse.
             </p>
 
             <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Meisterbetrieb</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrene Installateure</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Betreuung</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Qualifizierte Techniker</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen & Schulungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Abläufe</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Windhager Kundendienst für Therme und Heizung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Meisterbetrieb & Techniker" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -621,16 +761,16 @@
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen unseres Windhager Kundendienstes</h2>
-        <p>Thermenservice, Reparatur, Thermenwartung, Diagnose und Thermentausch – schnell und professionell in Wien, NÖ & Burgenland.</p>
+        <h2>Leistungen: Service, Wartung & Reparatur</h2>
+        <p>Thermenservice, Thermenwartung, Reparatur, Diagnose und Thermentausch – zuverlässig für Wien, NÖ & Burgenland.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
+          <div class="service-feature__icon" aria-hidden="true">🧯</div>
           <div>
-            <h3>Reparatur & Störungsbehebung</h3>
-            <p>Fachgerechte Reparatur bei Ausfall der Windhager Therme oder Gastherme – zuverlässig direkt vor Ort.</p>
+            <h3>Notdienst bei Ausfall</h3>
+            <p>Soforthilfe bei Ausfall der Windhager Therme oder Gastherme – rasch vor Ort und mit klaren Sofortmaßnahmen.</p>
           </div>
         </article>
 
@@ -638,39 +778,39 @@
           <div class="service-feature__icon" aria-hidden="true">🔎</div>
           <div>
             <h3>Fehlercode & Diagnose</h3>
-            <p>Gezielte Fehlersuche bei Fehlercode (z. B. E02, E110, E133, E131, E125, E161, E164, E21, E22, E97, E99) inkl. Prüfung relevanter Bauteile.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧼</div>
-          <div>
-            <h3>Thermenservice</h3>
-            <p>Sorgfältige Überprüfung, Reinigung und Kontrolle aller relevanten Komponenten – für sicheren Betrieb.</p>
+            <p>Gezielte Fehlersuche bei Fehlercode, Elektronik oder Sensorik – inkl. Kontrolle von Parametern, Thermostaten und Heizkreislauf.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Thermenwartung</h3>
-            <p>Regelmäßige Thermenwartung zur Vermeidung größerer Schäden, für Effizienz und weniger Gasverbrauch.</p>
+            <h3>Reparatur & Behebung</h3>
+            <p>Fachgerechte Reparaturen bei Störung, ungewöhnlichen Geräuschen, Warmwasser-Ausfall oder Druckproblemen.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🧼</div>
+          <div>
+            <h3>Thermenservice & Reinigung</h3>
+            <p>Gründliche Überprüfung, Reinigung und Kontrolle aller relevanten Komponenten für sicheren, stabilen Betrieb.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🧩</div>
+          <div>
+            <h3>Ersatzteile</h3>
+            <p>Geprüfte Ersatzteile und saubere Montage – transparent dokumentiert und auf Ihr Gerät abgestimmt.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Thermentausch</h3>
-            <p>Transparente Beratung zum Windhager Thermentausch, wenn eine Reparatur nicht mehr wirtschaftlich sinnvoll ist.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🚨</div>
-          <div>
-            <h3>Notdienst im Notfall</h3>
-            <p>Schnelle Hilfe bei Gasgeruch, Wasserverlust oder kompletter Störung – Einsatz in Wien, Niederösterreich und Burgenland.</p>
+            <h3>Windhager Thermentausch</h3>
+            <p>Wenn eine Reparatur nicht mehr sinnvoll ist: Beratung, Austausch, Installation und sichere Inbetriebnahme.</p>
           </div>
         </article>
       </div>
@@ -695,22 +835,23 @@
 
             <div class="service-stats">
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sicherer Betrieb</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Gasverbrauch</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schäden vermeiden</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Windhager Thermenservice und Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Windhager Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Reparaturen / Thermentausch -->
+  <!-- Reparatur -->
   <section class="service-section" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
@@ -719,24 +860,25 @@
             <h2>Reparatur, Ersatzteile und Windhager Thermentausch</h2>
             <p>
               Bei Defekten führen wir fachgerechte Reparaturarbeiten durch und verwenden geprüfte Ersatzteile.
-              Wenn eine Reparatur nicht mehr wirtschaftlich sinnvoll ist, beraten wir transparent zum Windhager Thermentausch.
+              Unsere Techniker analysieren Fehler, prüfen Bauteile und sorgen für eine sichere Behebung – sauber dokumentiert und verständlich erklärt.
             </p>
             <p>
-              Als Meisterbetrieb mit langjähriger Erfahrung übernehmen wir Austausch, Installation und sichere Inbetriebnahme.
-              Dabei prüfen wir stets, ob einzelne Komponenten oder das gesamte System erneuert werden sollten.
+              Wenn eine Reparatur nicht mehr wirtschaftlich sinnvoll ist, beraten wir transparent zum Windhager Thermentausch.
+              Als Meisterbetrieb übernehmen wir Austausch, Installation und sichere Inbetriebnahme und prüfen, ob einzelne Komponenten oder das gesamte System erneuert werden sollten.
             </p>
 
             <div class="service-stats">
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Geprüfte Ersatzteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Inbetriebnahme</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Montage</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Beratung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Inbetriebnahme</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Reparatur, Ersatzteile und Windhager Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Windhager Reparatur" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -749,38 +891,38 @@
       <div class="service-emergency__text">
         <h2>Windhager Notdienst bei Fehlercode und Notfall</h2>
         <p>
-          Ein plötzlicher Fehlercode wie E02 Überhitzungsschutz, E110 Kessel, E133 Zündungsfehler, E131 Abgasüberhitzungssperre,
-          E125 Primärwasserkreislauf, E161 Lüfterfehler, E164 Lüfterfehler, E21 E22 oder E97 E99 kann auf ernsthafte Fehler hinweisen.
+          Ein plötzlicher Fehlercode oder ein kompletter Ausfall kann auf ernsthafte Fehler hinweisen.
           Der Windhager Notdienst reagiert rasch im akuten Notfall und organisiert schnelle Hilfe vor Ort.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Unsere Spezialisten führen eine gezielte Fehlersuche durch, überprüfen Elektronik, Parameter, Thermostats, Heizkreislauf und relevante Bauteile.
+          Unsere Spezialisten führen eine gezielte Fehlersuche durch, überprüfen Elektronik, Parameter, Thermostate, Heizkreislauf und relevante Bauteile.
           Auch bei Gasgeruch, Wasserverlust oder kompletter Störung steht der Notdienst bereit.
         </p>
+
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
-          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
+          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQs ansehen</a>
         </div>
       </div>
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische Einsätze im Notdienst</h3>
+          <h3 style="margin:0 0 10px;">Typische Einsätze im Notdienst</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Ausfall der Windhager Therme oder Gastherme</li>
+            <li>Fehlermeldung / Fehlercode (z. B. E02, E110, E133, E131, E125, E161, E164, E21/E22, E97/E99)</li>
             <li>Fehlfunktion durch Elektronik oder Sensorik</li>
             <li>Störung im Heizkörper oder Wassersystem</li>
-            <li>Gasgeruch, Wasserverlust oder komplette Störung</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Wien, Niederösterreich und Burgenland – rasch vor Ort.
+            Sicherheit, Kontrolle und schnelle Behebung – in Wien, Niederösterreich und Burgenland.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Kosten / Warum -->
+  <!-- Preise -->
   <section class="service-section" id="preise-services">
     <div class="service-container">
       <div class="card-split">
@@ -795,19 +937,26 @@
               Ob Reparatur, Wartung oder Windhager Thermentausch – wir beraten offen zu jeder Möglichkeit.
               So behalten Sie jederzeit die Kontrolle und investieren gezielt in Qualität.
             </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Kostenübersicht</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Faire Preise</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Alternativen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Planbare Abläufe</div></div>
+            </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Preise, Kosten und transparente Beratung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Preise & transparente Beratung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Region -->
+  <!-- Einsatzgebiet -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
@@ -818,17 +967,17 @@
               Der Windhager Notdienst Wien ist nicht nur direkt in Wien, sondern auch in ganz Niederösterreich und im Burgenland im Einsatz.
               Unsere Techniker sind rasch vor Ort, prüfen die Windhager Therme, analysieren Fehler und sorgen für eine sichere Behebung.
             </p>
+            <p>
+              Auch bei akuten Problemen im Heizkreislauf, bei sinkendem Wasserdruck oder fehlendem Warmwasser reagieren wir schnell.
+              Der Windhager Notdienst unterstützt private Haushalte ebenso wie Betriebe zuverlässig.
+            </p>
 
             <div class="service-stats">
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Niederösterreich</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Burgenland</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Rasch vor Ort</div></div>
             </div>
-
-            <p style="margin-top:12px;">
-              Auch bei akuten Problemen im Heizkreislauf, bei sinkendem Wasserdruck oder fehlendem Warmwasser reagieren wir schnell.
-              Der Windhager Notdienst unterstützt private Haushalte ebenso wie Betriebe zuverlässig.
-            </p>
           </div>
         </div>
 
@@ -914,7 +1063,10 @@
         </p>
         <p style="margin-top:10px;">
           Ihre Anlage ist bei uns in sicheren Händen – vom ersten Kontakt bis zur abschließenden Funktionsprüfung.
-          Verlassen Sie sich auf den Windhager Notdienst in Wien, Niederösterreich und Burgenland.
+          Verlassen Sie sich auf den Windhager Notdienst, wenn es um Thermenservice, Windhager Thermenwartung, Reparatur oder Austausch geht.
+        </p>
+        <p style="margin-top:10px; font-weight:900; color:var(--ink);">
+          Hotline: <a href="tel:+4369981243996" style="text-decoration:underline;">+43 699 812 439 96</a>
         </p>
       </div>
 
@@ -942,5 +1094,56 @@
     </div>
   </section>
 </main>
+
+<script>
+  (function () {
+    const tocCard = document.getElementById('tocCard');
+    const tocHead = document.getElementById('tocHead');
+    const tocToggle = document.getElementById('tocToggle');
+    const tocBody = document.getElementById('tocBody');
+    const chevron = document.getElementById('tocChevron');
+
+    function setExpanded(isExpanded){
+      tocCard.classList.toggle('is-collapsed', !isExpanded);
+      tocHead.setAttribute('aria-expanded', String(isExpanded));
+      tocToggle.setAttribute('aria-expanded', String(isExpanded));
+      if (chevron) chevron.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+      if (!isExpanded) tocBody.scrollTop = 0;
+    }
+
+    // default collapsed
+    setExpanded(false);
+
+    function toggle(){
+      const expanded = tocHead.getAttribute('aria-expanded') === 'true';
+      setExpanded(!expanded);
+    }
+
+    tocHead.addEventListener('click', function (e) {
+      // avoid double toggle when clicking button
+      if (e.target === tocToggle || tocToggle.contains(e.target)) return;
+      toggle();
+    });
+
+    tocToggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      toggle();
+    });
+
+    tocHead.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggle();
+      }
+    });
+
+    // close TOC on link click (mobile friendly)
+    document.querySelectorAll('.toc-link').forEach(function(link){
+      link.addEventListener('click', function(){
+        setExpanded(false);
+      });
+    })
+  })();
+</script>
 
 @endsection

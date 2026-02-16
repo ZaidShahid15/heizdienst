@@ -50,19 +50,35 @@
 
 /* keep it visible + clean on small screens */
 @media (max-width: 768px){
-  .my-banner {
-        width: 169px;
-        top: -106px;
-        right: -70;
-        transform: translate(15%, -15%);
-    }
+  /* ✅ always visible on mobile, top-right corner */
+  .my-banner{
+    position: fixed !important;
+    top: 37px !important;
+    right: 10px !important;
+    left: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    width: 140px !important;
+    z-index: 99999 !important;
+    pointer-events: none;
+  }
 
   /* give the headline a bit of space so banner never overlaps text */
   .m-hero .hero-copy h1,
   .hero .hero-copy h1{
-    padding-right: 110px;
+    padding-right: 150px;
   }
 }
+
+/* iPhone 17 Pro Max (≈ 430px wide) */
+@media (max-width: 430px){
+  .my-banner{
+    width: 130px !important;
+    top: 37px !important;
+    right: 8px !important;
+  }
+}
+
 
 .steps .step{
   border-radius: 16px;

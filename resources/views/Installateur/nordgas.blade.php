@@ -406,6 +406,7 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
+
     overflow:auto;
   }
   .toc-list{
@@ -463,8 +464,8 @@
 </style>
 
 @push('meta')
-  <title>Windhager Kundendienst Wien | Thermenwartung, Reparatur & Notdienst</title>
-  <meta name="description" content="Windhager Kundendienst Wien für Gastherme & Heizung. Thermenwartung, Reparatur, Fehlercode-Diagnose und Notdienst rund um die uhr in Wien, NÖ & Burgenland.">
+  <title>Nordgas Thermenreparatur Wien – Nordgas Thermenwartung & Notdienst</title>
+  <meta name="description" content="Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Thermenwartung, Kundendienst, Thermentausch & Notdienst in Wien, Niederösterreich und Wiener Neustadt.">
 @endpush
 
 <main>
@@ -474,22 +475,22 @@
       <p class="wolf-hero__kicker">service rund um die uhr</p>
 
       <h1>
-        Windhager Kundendienst Wien<br>
+        Nordgas Thermenreparatur Wien Experten<br>
         <em>service rund um die uhr</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Professioneller Windhager Kundendienst Wien für Gastherme, Heizung und Thermenwartung inklusive Reparatur und Notdienst.
+        Schnelle Nordgas Thermenreparatur Wien für Ihre Nordgas Therme – Thermenservice, Wartung und Notdienst in Wien und Niederösterreich.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Windhager Kundendienst Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/nordgas.png') }}" alt="Nordgas Thermenreparatur Wien Experten" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Thermenwartung</span>
-        <span class="wolf-pill">Reparatur</span>
-        <span class="wolf-pill">Fehlercode-Diagnose</span>
+        <span class="wolf-pill">Thermenservice</span>
+        <span class="wolf-pill">Nordgas Thermenwartung</span>
+        <span class="wolf-pill">Kundendienst</span>
         <span class="wolf-pill">Notdienst rund um die uhr</span>
       </div>
 
@@ -501,7 +502,7 @@
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Windhager Kundendienst Aktion</em></h2>
+            <h2 class="promo-banner__title"><em>Nordgas Kundendienst Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
@@ -556,23 +557,23 @@
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Windhager Service in Wien</h2>
+            <h2>Nordgas Thermenreparatur Wien und Nordgas Kundendienst</h2>
             <p>
-              Der Windhager Kundendienst Wien bietet zuverlässigen Service für Windhager Gastherme, Thermen und moderne Heizsysteme direkt am Ort.
-              Kunden in Wien und Niederösterreich profitieren von schneller Hilfe, persönlicher Beratung und professioneller Betreuung.
+              Unsere Nordgas Thermenreparatur Wien steht für professionelle Reparaturen, zuverlässigen Kundendienst und umfassenden Nordgas Thermenservice.
+              Als erfahrener Installateur betreuen wir Nordgas Therme, Nordgas Gastherme sowie weitere Gasgeräte direkt bei Ihnen zuhause in Wien und Umgebung.
+              Der Nordgas Kundendienst übernimmt Überprüfung, Reinigung und fachgerechte Reparaturen an allen Geräten.
             </p>
             <p>
-              Als Meisterbetrieb arbeiten wir nach höchsten Standards und betreuen unterschiedliche Modelle der Marke Windhager.
-              Unser Service umfasst Thermenwartung, Wartung, Reparatur und umfassende Überprüfung aller Komponenten.
-              Ziel unseres Unternehmens ist es, Sicherheit, Effizienz und langfristigen Betrieb Ihrer Heizung zu gewährleisten.
-              Auch im Burgenland stehen unsere Profis für kompetente Unterstützung zur Verfügung.
+              Ob Fehlermeldungen, Störungen oder andere Probleme im Betrieb – unser Team analysiert jede Therme sorgfältig und bietet nachhaltige Lösungen.
+              Mit Erfahrung, Kompetenz und Know how sorgen wir für Sicherheit, Qualität und langfristige Funktion Ihrer Heizung.
+              Auch in Niederösterreich, NÖ und Wiener Neustadt stehen wir als verlässlicher Partner zur Verfügung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/wolf.jpeg') }}" alt="Windhager Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1NordGas.png') }}" alt="Nordgas Thermenreparatur Wien und Nordgas Kundendienst" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -585,29 +586,29 @@
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Techniker, Meisterbetrieb & Profis</h2>
+            <h2>Reparaturen Ihrer Nordgas Gastherme bei Störungen</h2>
             <p>
-              Unser Windhager Kundendienst wird von erfahrenen Technikern, Installateur-Fachkräften und Profis durchgeführt.
-              Mit fundierter Erfahrung, Diagnose-Kompetenz und präziser Arbeit sorgen wir für schnelle Behebung jedes Problems.
+              Wenn Ihre Nordgas Gastherme nicht mehr einwandfrei arbeitet, ist rasche Hilfe entscheidend.
+              Unsere Techniker führen präzise Überprüfung aller Komponenten, Funktionsprüfung sowie Dichtheit Kontrollen durch.
+              Die Reparaturen erfolgen nach hohen Qualitätsstandards und mit geprüften Teilen, um Schäden zu vermeiden.
             </p>
             <p>
-              Unsere Experten analysieren Fehlercode-Anzeigen wie E02 Überhitzungsschutz, E110 Kessel, E133 Zündungsfehler,
-              E161 Lüfterfehler oder E164 Lüfterfehler sorgfältig. Auch komplexe Fehlermeldungen wie E21 E22 oder E97 E99
-              werden fachgerecht überprüft. Durch strukturierte Fehlersuche, Überprüfung und Reinigung sichern wir einen stabilen
-              Betrieb Ihrer Windhager Therme. Zuverlässigkeit und professionelle Betreuung stehen dabei im Mittelpunkt.
+              Ob kleinere Probleme oder größere Störungen – wir stellen die sichere Funktion Ihrer Therme wieder her.
+              Der Nordgas Kundendienst kümmert sich um Gasgeräte, Heizkörper und komplette Heizungsanlage.
+              Mit gezielter Reinigung und fachgerechtem Austausch defekter Bauteile erhöhen wir die Lebensdauer Ihrer Nordgas Therme und sichern den zuverlässigen Betrieb.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Diagnose-Kompetenz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Strukturierte Fehlersuche</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Professionelle Betreuung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Dichtheit Kontrollen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Geprüfte Teile</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Zuverlässiger Betrieb</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Techniker, Meisterbetrieb & Profis" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Reparaturen Ihrer Nordgas Gastherme bei Störungen" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -619,55 +620,55 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Leistungen unseres Kundendienstes</h2>
-        <p>Thermenservice, Thermenwartung, Reparatur, Diagnose und Thermentausch – professionell betreut.</p>
+        <p>Thermenservice, Thermenwartung, Thermentausch und Notdienst – Nordgas Service für Wien und Niederösterreich.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔥</div>
+          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Windhager Thermenservice</h3>
-            <p>Professioneller Windhager Thermenservice für Wartung, Überprüfung und sicheren Betrieb Ihrer Therme.</p>
+            <h3>Nordgas Thermenreparatur</h3>
+            <p>Professionelle Reparaturen bei Fehlermeldungen, Störungen und Problemen im Betrieb – direkt vor Ort.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Thermenwartung & Überprüfen</h3>
-            <p>Gründliche Thermenwartung inklusive Überprüfen aller sicherheitsrelevanten Komponenten.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">⚡</div>
-          <div>
-            <h3>Reparatur & Behebung</h3>
-            <p>Schnelle Reparatur und Behebung bei Störungen oder angezeigtem Fehlercode.</p>
-          </div>
-        </article>
-
-        <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🚨</div>
-          <div>
-            <h3>Windhager Notdienst Einsatz</h3>
-            <p>Zuverlässiger Windhager Notdienst im Einsatz bei Notfällen oder akuten Problemen.</p>
+            <h3>Nordgas Thermenwartung</h3>
+            <p>Regelmäßige Wartung mit Überprüfung, Reinigung und Einstellung – für mehr Effizienz und Sicherheit.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔎</div>
           <div>
-            <h3>Diagnose & Fehlersuche</h3>
-            <p>Präzise Diagnose und Fehlersuche bei elektronischen oder mechanischen Fehlern.</p>
+            <h3>Überprüfung & Reinigung</h3>
+            <p>Gründliche Kontrolle sensibler Bauteile, Dichtheit und Funktionsprüfung – zur Vermeidung teurer Schäden.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Windhager Thermentausch</h3>
-            <p>Beratung und Windhager Thermentausch bei veralteten oder irreparablen Geräten.</p>
+            <h3>Nordgas Thermentausch</h3>
+            <p>Beratung und Austausch älterer Nordgas Geräte gegen moderne Systeme – angepasst an Ihre Heizungsanlage.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🚨</div>
+          <div>
+            <h3>Nordgas Notdienst</h3>
+            <p>Rund um die Uhr im Einsatz bei Notfall, Gasgeruch oder Ausfall – Wien, NÖ und Wiener Neustadt.</p>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__icon" aria-hidden="true">🏠</div>
+          <div>
+            <h3>Installateur Beratung</h3>
+            <p>Kompetente Beratung zu Lösungen, Alternativen und Systemoptimierung – transparent und kundenorientiert.</p>
           </div>
         </article>
       </div>
@@ -680,29 +681,30 @@
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Windhager Thermenwartung & Wartungsarbeiten</h2>
+            <h2>Nordgas Thermenwartung Wien für Effizienz und Sicherheit</h2>
             <p>
-              Eine regelmäßige Windhager Thermenwartung erhöht die Lebensdauer Ihrer Gastherme und sorgt für sicheren Betrieb.
-              Unsere Windhager Thermenwartung umfasst Überprüfung von Brenner, Heizkreislauf, Thermostats und Elektronik.
-              Auch Parameter-Einstellungen, Reinigung sowie Kontrolle des Heizungsthermistor Thermistor gehören dazu.
+              Eine regelmäßige Nordgas Thermenwartung ist entscheidend für die langfristige Funktion Ihrer Nordgas Therme.
+              Unsere professionelle Thermenwartung sowie gezielte Wartung Ihrer Nordgas Gastherme umfasst gründliche Überprüfung aller Komponenten,
+              sorgfältige Reinigung und präzise Einstellung der Geräte.
             </p>
             <p>
-              Thermenwartung reduziert Störungen, verbessert Effizienz und schützt vor teuren Reparaturen.
-              Unsere Wartungsarbeiten sichern zuverlässige Funktion von Kessel, Heizkörper und dem gesamten System.
-              Kunden erhalten transparente Beratung zu Intervallen und Vorteilen einer regelmäßigen Wartung.
+              Durch strukturierte Nordgas Thermenwartung erhöhen wir Sicherheit, verbessern die Funktionalität und verlängern die Lebensdauer deutlich.
+              Unsere Techniker prüfen Gasgeräte auf Dichtheit, kontrollieren sensible Bauteile und sichern einen stabilen Betrieb Ihrer Heizung.
+              So sparen Sie Geld durch geringeren Energieverbrauch und vermeiden teure Schäden.
+              Der Nordgas Thermenservice steht Kunden in Wien, Niederösterreich und NÖ zuverlässig zur Verfügung.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sicherer Betrieb</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Verbrauch</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Längere Lebensdauer</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Windhager Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Nordgas Thermenwartung Wien für Effizienz und Sicherheit" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -715,30 +717,30 @@
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparatur & Ersatzteile</h2>
+            <h2>Nordgas Thermentausch und moderne Lösungen</h2>
             <p>
-              Der Windhager Kundendienst Wien übernimmt fachgerechte Reparaturarbeiten an Gastherme, Therme und Heizung.
-              Unsere Techniker prüfen die Ursache, führen eine präzise Diagnose durch und beheben Störungen zuverlässig.
-              Dabei berücksichtigen wir Fehler, Fehlermeldungen und typische Fehlercode-Hinweise wie E02 Überhitzungsschutz,
-              E133 Zündungsfehler oder E161 Lüfterfehler.
+              Wenn wiederholte Reparaturen oder häufige Probleme auftreten, empfehlen wir einen Nordgas Thermentausch.
+              Der Austausch älterer Nordgas Geräte gegen moderne Systeme verbessert Effizienz und erhöht den Wohnkomfort.
+              Unsere Installateur übernehmen Beratung, fachgerechte Arbeiten und vollständigen Austausch direkt vor Ort.
             </p>
             <p>
-              Wenn Bauteile getauscht werden müssen, setzen wir passende Ersatzteile ein und sorgen für saubere Arbeit am System.
-              Bei wiederkehrenden Problemen beraten wir transparent zu Windhager Thermentausch, Austausch oder einer sinnvollen Lösung.
-              Ziel ist ein sicherer Betrieb, stabile Wärme und langfristige Zuverlässigkeit.
+              Dabei achten wir auf Qualität, Garantie und optimale Anpassung an Ihre Heizungsanlage.
+              Auch als Alternative zu älteren Marken bieten wir passende Lösungen an.
+              Mit transparenten Preise, klarer Beratung und zuverlässigem Kundendienst begleiten wir Sie bei jedem Schritt.
+              Nordgas steht für langlebige Lösungen, Kompetenz und echte Vertrauens Basis.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Passende Ersatzteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Präzise Diagnose</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Stabile Wärme</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Moderne Systeme</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Garantie & Qualität</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Beratung</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Windhager Reparatur & Ersatzteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Nordgas Thermentausch und moderne Lösungen" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -749,15 +751,16 @@
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Windhager Notdienst rund um die uhr</h2>
+        <h2>Nordgas Notdienst Wien und Umgebung</h2>
         <p>
-          Der Windhager Notdienst steht rund um die uhr bereit, auch bei dringenden Anliegen außerhalb der üblichen Zeiten.
-          Bei Ausfall der Heizung, Störungen an der Gastherme oder akuten Problemen mit Wasser und Brenner reagieren wir rasch.
+          Bei einem Notfall steht unser Nordgas Notdienst in Wien und Niederösterreich rund um die Uhr zur Verfügung.
+          Ob akute Schäden, Gasgeruch oder Ausfall der Gastherme – unsere Experten reagieren schnell.
+          Der Notdienst ist auch in NÖ, Wiener Neustadt und der gesamten Umgebung im Einsatz.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Unsere Profis sind im Einsatz in Wien und unterstützen ebenso in Niederösterreich und dem Burgenland.
-          Sicherheit hat Priorität, daher prüfen wir System, Elektronik, Heizkreislauf und relevante Parameter sorgfältig.
-          Im Notfall leiten wir Sofortmaßnahmen ein und stellen die Funktion der Therme schnellstmöglich wieder her.
+          Unsere Techniker prüfen Ihre Nordgas Geräte direkt vor Ort und sorgen für sichere Reparatur oder notwendige Alternative Lösungen.
+          Besonders bei kalter Jahreszeit zählt jede Stunde, um Wohnkomfort und Energieeffizienz zu sichern.
+          Vertrauen Sie auf Nordgas Thermenservice mit hoher Professionalität und echter Kundenorientierung.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
@@ -769,13 +772,13 @@
         <div class="service-panel">
           <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Ausfall der Heizung</li>
-            <li>Störungen an der Gastherme</li>
-            <li>Fehlermeldungen / Fehlercode</li>
-            <li>Akute Probleme mit Wasser oder Brenner</li>
+            <li>Ausfall der Gastherme / Heizung</li>
+            <li>Gasgeruch oder akute Schäden</li>
+            <li>Störungen, Fehlermeldungen, Probleme im Betrieb</li>
+            <li>Notfall in kalter Jahreszeit</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr im Einsatz – schnelle Hilfe vor Ort in Wien, Niederösterreich und dem Burgenland.
+            Rund um die uhr im Einsatz – Wien, Niederösterreich, NÖ und Wiener Neustadt.
           </p>
         </div>
       </div>
@@ -788,23 +791,23 @@
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preis, Angebot & MwSt</h2>
+            <h2>Warum Nordgas Ihr Partner in Wien ist</h2>
             <p>
-              Transparenz bei Preis und Angebot ist ein zentraler Bestandteil unseres Kundendienstes.
-              Vor Beginn der Arbeit informieren wir klar über Leistungen, Preise und mögliche Kostenfaktoren.
-              Kunden erhalten auf Wunsch ein konkretes Angebot, abgestimmt auf Wartung, Reparatur oder Windhager Thermentausch.
+              Nordgas ist Ihr Spezialist für Thermenservice, Reparaturen und Wartung in Wien und Niederösterreich.
+              Unser Team aus erfahrenen Techniker und Experten betreut Nordgas Therme, Nordgas Gastherme und andere Gasgeräte mit höchster Sorgfalt.
+              Der Nordgas Kundendienst Wien bietet schnelle Hilfe, persönliche Beratung und professionelle Dienstleistungen.
             </p>
             <p>
-              Auch bei Notdienst-Einsätzen kommunizieren wir nachvollziehbar und fair.
-              Unser Meisterbetrieb legt Wert auf saubere Dokumentation, klare Beratung und planbare Abläufe.
-              So behalten Kunden jederzeit den Überblick – von der Diagnose bis zur Behebung – und können Entscheidungen sicher und informiert treffen.
+              Mit umfassendem Fachwissen, langjähriger Erfahrung und echter Kundenorientierung kümmern wir uns um alle Anliegen rund um Ihre Heizung.
+              Qualität, Sicherheit und nachhaltige Lösungen stehen bei uns im Herzen jeder Arbeit.
+              Vertrauen Sie auf Nordgas Thermenreparatur und zuverlässigen Service für Ihr Zuhause.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Preis, Angebot & MwSt" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Warum Nordgas Ihr Partner in Wien ist" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -817,17 +820,22 @@
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Lokale Abdeckung</h2>
+            <h2>Techniker in Wien, Niederösterreich und Wiener Neustadt</h2>
             <p>
-              Wir betreuen alle relevanten Orte in Wien sowie Niederösterreich und das Burgenland.
-              Kurze Wege sichern schnelle Hilfe, zum Beispiel auch in Liesing und der Umgebung.
+              Unser Team betreut Wien, Niederösterreich, NÖ und Wiener Neustadt mit schneller Hilfe, kompetenter Beratung und professionellen Reparaturen.
             </p>
+
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schnelle Hilfe</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kompetente Beratung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wiener Neustadt</div></div>
+            </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Lokale Abdeckung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Techniker in Wien, Niederösterreich und Wiener Neustadt" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -838,39 +846,39 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Fragen zum Kundendienst</h2>
+        <h2>Häufige Fragen zur Nordgas Thermenreparatur Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Was umfasst der Windhager Kundendienst Wien?</summary>
-          <p>Unser Kundendienst umfasst Thermenservice, Wartung, Thermenwartung, Reparatur, Diagnose und Notdienst für Windhager Geräte.</p>
+          <summary>1. Wie oft sollte eine Nordgas Thermenwartung durchgeführt werden?</summary>
+          <p>Eine jährliche Nordgas Thermenwartung erhöht Sicherheit, Effizienz und Lebensdauer Ihrer Therme deutlich.</p>
         </details>
 
         <details>
-          <summary>Wie oft sollte eine Thermenwartung durchgeführt werden?</summary>
-          <p>Eine regelmäßige Thermenwartung erhöht Sicherheit, senkt Störungen und verlängert die Lebensdauer Ihrer Gastherme.</p>
+          <summary>2. Ist der Nordgas Notdienst in Wien verfügbar?</summary>
+          <p>Ja, unser Notdienst ist rund um die Uhr in Wien, Niederösterreich, NÖ und Wiener Neustadt im Einsatz.</p>
         </details>
 
         <details>
-          <summary>Welche Fehlercodes werden häufig geprüft?</summary>
-          <p>Wir prüfen unter anderem Fehlercode-Hinweise wie E02 Überhitzungsschutz, E110 Kessel, E133 Zündungsfehler, E161 Lüfterfehler und E164 Lüfterfehler.</p>
+          <summary>3. Welche Leistungen umfasst der Nordgas Thermenservice?</summary>
+          <p>Der Nordgas Thermenservice umfasst Reparaturen, Überprüfung, Reinigung, Austausch von Teilen und umfassenden Kundendienst.</p>
         </details>
 
         <details>
-          <summary>Was passiert bei Störungen oder Fehlermeldungen?</summary>
-          <p>Unsere Techniker führen Fehlersuche, Überprüfung und Behebung durch, inklusive Kontrolle von Elektronik, Brenner und Heizkreislauf.</p>
+          <summary>4. Wann ist ein Nordgas Thermentausch sinnvoll?</summary>
+          <p>Bei häufigen Störungen, steigenden Preise oder nachlassender Funktion empfehlen wir einen Thermentausch.</p>
         </details>
 
         <details>
-          <summary>Bietet ihr auch Thermentausch an?</summary>
-          <p>Ja, wir beraten zu Windhager Thermentausch und übernehmen Austausch sowie fachgerechte Umsetzung.</p>
+          <summary>5. Verwenden Sie geprüfte Ersatzteile?</summary>
+          <p>Ja, wir arbeiten mit hochwertigen Teilen für maximale Sicherheit und langfristige Funktion.</p>
         </details>
 
         <details>
-          <summary>In welchen Regionen seid ihr im Einsatz?</summary>
-          <p>Wir sind in Wien sowie in Niederösterreich und dem Burgenland für Kunden im Einsatz.</p>
+          <summary>6. Wie kann ich Kontakt aufnehmen?</summary>
+          <p>Sie erreichen uns telefonisch oder per E Mail über diese Seite für Terminvereinbarung oder Beratung.</p>
         </details>
       </div>
     </div>
@@ -880,15 +888,14 @@
   <section class="service-cta" id="kontakt-services">
     <div class="service-container service-cta__inner">
       <div>
-        <h2>Kontakt & Hotline</h2>
+        <h2>Jetzt Nordgas Thermenservice in Wien sichern</h2>
         <p>
-          Für Anliegen, Fragen und Terminabstimmung stehen mehrere Kontaktmöglichkeiten zur Verfügung.
-          Ein Anruf über Telefon ist der schnellste Weg, um Einsatz, Wartung oder Reparatur zu planen.
+          Ob Nordgas Thermenreparatur Wien, Nordgas Thermenwartung oder schneller Notdienst – wir stehen Ihnen jederzeit zur Verfügung.
+          Unser Installateur Team sorgt für professionelle Reparatur, sichere Überprüfung und nachhaltige Lösungen für Ihre Heizung.
         </p>
         <p style="margin-top:10px;">
-          Alternativ können Kunden die Kontaktmöglichkeiten auf dieser Seite nutzen; Pflichtfelder sorgen für eine zügige Bearbeitung.
-          Unser Team nimmt jedes Problem ernst, berät verständlich und koordiniert rasch einen Techniker vor Ort.
-          Ob Thermenservice, Windhager Thermenwartung oder Notdienst – wir stehen zuverlässig zur Verfügung und kümmern uns um einen sicheren Betrieb Ihrer Heizung.
+          Kontaktieren Sie uns noch heute und profitieren Sie von transparenter Beratung, fairen Preise und zuverlässigem Service
+          in Wien und Niederösterreich.
         </p>
       </div>
 
