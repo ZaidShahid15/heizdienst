@@ -53,7 +53,7 @@
   .my-banner {
         width: 169px;
         top: -106px;
-        right: -42px;
+        right: -47px;
         transform: translate(15%, -15%);
     }
 
@@ -169,6 +169,21 @@
   .as-seen .owl-dots{ display:none !important; }
 }
 /* ===================== /MOBILE "BEKANNT AUS" SLIDER (Owl) ===================== */
+
+@media (max-width: 460px){
+  .my-banner {
+        width: 169px;
+        top: -106px;
+        right: -34px;
+        transform: translate(15%, -15%);
+    }
+
+  /* give the headline a bit of space so banner never overlaps text */
+  .m-hero .hero-copy h1,
+  .hero .hero-copy h1{
+    padding-right: 110px;
+  }
+}
 
 </style>
     
