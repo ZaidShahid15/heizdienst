@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('main')
-<style>
+<!-- <style>
   :root{
     --ink:#184048;
     --bg:#ffffff;
@@ -515,7 +515,7 @@
     .wolf-hero__sub{font-size:14px}
     .toc-list{max-height:240px;}
   }
-</style>
+</style> -->
 
 @push('meta')
   <title>Vaillant Thermentausch Wien | Brennwert Therme inkl. Montage & MwSt</title>
@@ -540,7 +540,7 @@
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Thermentausch Wien" loading="lazy" decoding="async">
       </div>
-
+  
       <div class="wolf-hero__bullets" aria-label="Highlights">
         <span class="wolf-pill">Brennwerttherme</span>
         <span class="wolf-pill">inkl. Montage</span>
