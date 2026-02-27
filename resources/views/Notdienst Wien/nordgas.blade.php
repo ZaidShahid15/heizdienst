@@ -614,7 +614,7 @@
               <p class="promo-banner__price"><strong>ab €95</strong></p>
             </div>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION anrufen">
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION anrufen">
               <span class="promo-banner__btn-ico" aria-hidden="true"></span>
               AKTION
             </a>
@@ -1025,46 +1025,14 @@
   </section>
 
   <!-- CONTACT -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Kontakt und schnelle Hilfe</h2>
-        <p>
-          Bei Fragen, konkretem Anliegen oder im akuten Notfall erreichen Sie uns unkompliziert per E-Mail oder telefonisch.
-          Unser Kundendienst steht Ihnen jederzeit unterstützend zur Seite und koordiniert rasch den nächsten Einsatz.
-        </p>
-        <p style="margin-top:10px;">
-          Ihr Nordgas Notdienst Wien: Vertrauen Sie auf Thermenservice, Nordgas Thermenwartung, Reparaturen oder Austausch.
-          Mit Fachwissen, Qualität und klarer Kostenstruktur sorgen wir für Sicherheit, effiziente Heizung, stabiles Warmwasser und langfristigen Wohnkomfort.
-        </p>
-        <p style="margin-top:10px; font-weight:900; color:var(--ink);">
-          Hotline: <a href="tel:+4369981243996" style="text-decoration:underline;">+43 699 812 439 96</a>
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 </main>
 
 <script>

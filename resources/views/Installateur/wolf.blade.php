@@ -940,44 +940,14 @@
   </section>
 
   <!-- 9) CONTACT -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Kontakt zum Installateur Wolf</h2>
-        <p>
-          Für Installation, Wartung, Thermenservice oder Reparatur steht Ihnen unser Installateur Wolf jederzeit zur Verfügung.
-          Unser Team aus erfahrenen Technikern, Mitarbeitern und Experten berät Sie persönlich und lösungsorientiert.
-        </p>
-        <p style="margin-top:10px;">
-          Über Hotline, Anruf oder Terminformular erreichen Sie unseren Kundenservice schnell und unkompliziert.
-          Wir nehmen uns Zeit für Ihr Anliegen und sorgen für einen sicheren, effizienten Betrieb Ihrer Heizung.
-          Vertrauen Sie auf Qualität, Erfahrung und zuverlässigen Service – in Wien, Niederösterreich und Burgenland.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Therme/Heizung/Gasgerät, Ort, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 
 </main>
 

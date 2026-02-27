@@ -571,7 +571,7 @@
 
       <h1>
         Buderus Thermenwartung Wien<br>
-        <em>Rund um die Uhr Service vom Fachbetrieb.</em>
+        <em>Rund Um Die Uhr Service Vom Fachbetrieb.</em>
       </h1>
 
       <div class="wolf-hero__logo">
@@ -593,7 +593,7 @@
             <h2 class="promo-banner__title"><em>Baxi Thermenwartung Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
               <span class="promo-banner__btn-ico"></span>
               AKTION
             </a>
@@ -776,7 +776,7 @@
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen für Ihre Buderus Therme</h2>
+        <h2>Leistungen Für Ihre Buderus Therme</h2>
         <p>Wartung, Service, Reparatur, Notdienst & Thermentausch – alles aus einer Hand.</p>
       </div>
 
@@ -824,7 +824,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Thermentausch & neue Geräte</h3>
+            <h3>Thermentausch & Neue Geräte</h3>
             <p>Beratung, Austausch, Installation & Inbetriebnahme – passende Buderus Lösungen für Ihre Bedürfnisse.</p>
           </div>
         </article>
@@ -836,7 +836,7 @@
   <section class="service-section service-section--soft" id="warum-services">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>Warum eine Buderus Thermenwartung unverzichtbar ist</h2>
+        <h2>Warum Eine Buderus Thermenwartung Unverzichtbar Ist</h2>
         <p>
           Eine regelmäßige Buderus Thermenwartung Wien ist entscheidend für Sicherheit, zuverlässigen Betrieb und den Werterhalt Ihrer Therme.
           Durch professionelle Gasthermenwartung lassen sich Risiken, Störungen und hohe Folgekosten vermeiden.
@@ -870,7 +870,7 @@
   <section class="service-section" id="geraete-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Für welche Geräte & Systeme?</h2>
+        <h2>Für Welche Geräte & Systeme?</h2>
         <p>Wir warten alle gängigen Buderus Geräte & Systeme – sicher, effizient und langlebig.</p>
       </div>
 
@@ -897,7 +897,7 @@
   <section class="service-section service-section--soft" id="ablauf-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>So läuft die Thermenwartung ab</h2>
+        <h2>So Läuft Die Thermenwartung Ab</h2>
         <ol class="service-steps">
           <li>
             <strong>Terminvereinbarung</strong>
@@ -934,7 +934,7 @@
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Buderus Notdienst Wien – 24 Stunden verfügbar</h2>
+        <h2>Buderus Notdienst Wien – 24 Stunden Verfügbar</h2>
         <p>
           Bei akuten Notfällen, sicherheitsrelevanten Problemen oder kompletten Ausfällen ist unser Notdienst rund um die Uhr erreichbar.
           Unser Kundendienst ist schnell bei Ihnen vor Ort und sorgt für eine sichere Lösung.
@@ -998,7 +998,7 @@
   <section class="service-section service-section--soft" id="warumwir-services">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Warum wir der richtige Fachpartner sind</h2>
+        <h2>Warum Wir Der Richtige Fachpartner Sind</h2>
         <p>
           Als spezialisierter Betrieb mit hoher Fachkompetenz sind wir Ihr verlässlicher Ansprechpartner für Buderus Thermenwartung,
           Thermenservice und Thermenreparatur. Präzise Arbeit, klare Kommunikation und zuverlässiger Kundenservice.
@@ -1036,7 +1036,7 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zur Buderus Thermenwartung</h2>
+        <h2>Häufige Fragen Zur Buderus Thermenwartung</h2>
         <p>Die wichtigsten Antworten auf einen Blick.</p>
       </div>
 
@@ -1070,39 +1070,23 @@
   </section>
 
   <!-- CTA -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Jetzt Buderus Thermenwartung in Wien sichern</h2>
-        <p>Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert.</p>
-        <p style="margin-top:10px;">
-          📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner für Buderus Thermen in Wien.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Thermenmodell, Problem, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  <!--
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+]) -->
+ @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+    'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner für Buderus Thermen in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 </main>
 
 <script>

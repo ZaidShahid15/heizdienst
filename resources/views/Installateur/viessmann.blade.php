@@ -913,44 +913,14 @@
   </section>
 
   <!-- ✅ CONTACT -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Kontakt zum Installateur</h2>
-        <p>
-          Für Service, Wartung oder Installation steht Ihnen unser Viessmann Installateur Wien jederzeit zur Verfügung.
-          Unser Team aus erfahrenen Technikern, Installateuren und Fachkräften nimmt sich Ihrer Anliegen persönlich an.
-          Wir beraten verständlich, planen zuverlässig und setzen jede Arbeit nach aktuellem Standard um.
-        </p>
-        <p style="margin-top:10px;">
-          Kunden profitieren von klarer Kommunikation, transparenter Betreuung und einem Partner, der Qualität und Effizienz in den Mittelpunkt stellt.
-          Kontaktieren Sie uns für Fragen, Beratung oder einen Termin – wir unterstützen Sie kompetent und zuverlässig.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Heizung/Therme/Wärmepumpe, Anliegen, Ort, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 
 </main>
 

@@ -198,7 +198,7 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* ===== ✅ Card split (EQUAL HEIGHT like your previous site) ===== */
+  /* ===== ✅ Card split (EQUAL HEIGHT) ===== */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
@@ -230,7 +230,6 @@
   .card-box p{margin:0}
   .card-box p + p{margin-top:10px}
 
-  /* ✅ Image box = equal height with content (fills full) */
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
@@ -368,31 +367,7 @@
     z-index:0;
   }
 
-  /* ✅ Promo banner minimal styles (kept so it renders correctly) */
-  .promo-banner{margin-top:18px;}
-  .promo-banner__inner{
-    position:relative;
-    overflow:hidden;
-    border-radius:18px;
-    border:1px solid rgba(255,255,255,.18);
-    background:rgba(255,255,255,.08);
-    padding:16px;
-  }
-  .promo-banner__content{position:relative; z-index:1; display:flex;flex-direction:column; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap;}
-  .promo-banner__title{margin:0; font-size:18px; font-weight:900; color:#fff;}
-  .promo-banner__price{margin:0;  font-weight:900; font-size:18px; color:#fff;}
-  .promo-banner__btn{
-    display:inline-flex; align-items:center; justify-content:center;
-    padding:10px 14px;
-    border-radius:999px;
-    background:var(--accent);
-    color:#1a1a1a;
-    font-weight:900;
-  }
-
-  /* =========================
-     ✅ TOC (after hero, full width)
-     ========================= */
+  /* TOC */
   .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
     width:100%;
@@ -469,14 +444,11 @@
     .service-cta__inner{grid-template-columns:1fr}
     .service-formrow{grid-template-columns:1fr}
     .service-stats{grid-template-columns:1fr;}
-
     .card-split{grid-template-columns:1fr}
     .card-split--reverse .card-split__text{order:1}
     .card-split--reverse .card-split__media{order:2}
-
     .card-split__text,
     .card-split__media{display:block;}
-
     .service-media__box{min-height:220px; height:auto;}
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
@@ -484,47 +456,46 @@
 </style>
 
 @push('meta')
-  <title>Nordgas Installateur Wien | Thermenwartung & Notdienst</title>
-  <meta name="description" content="Nordgas Installateur Wien für Nordgas Thermenwartung, Reparatur & Notdienst. Service in Wien, Niederösterreich & Burgenland. Jetzt Termin sichern.">
+  <title>Thermen Notdienst Wien | 24h Notdienst Wien & Umgebung</title>
+  <meta name="description" content="Thermen Notdienst Wien ✓ 24h Notdienst Wien bei Thermenausfall, Gasgeruch & Heizungsausfall. Installateur in Wien & Umgebung. Jetzt anrufen oder E Mail senden!">
 @endpush
 
 <main>
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">Nordgas Installateur Wien</p>
+      <p class="wolf-hero__kicker">24h Notdienst – Ihr schneller Helfer</p>
 
       <h1>
-        Nordgas Installateur Wien<br>
-        <em>Thermenwartung &amp; Notdienst</em>
+        Thermen Notdienst Wien<br>
+        <em>– rund um die Uhr für Sie da</em>
       </h1>
 
       <p class="wolf-hero__sub">
-        Als Nordgas Installateur Wien bieten wir professionelle Nordgas Thermenwartung, Thermenservice und Reparatur für Nordgas Therme und Heizungsanlage in Wien.
+        Ein plötzlicher Thermenausfall, kein Warmwasser oder eine akute Thermenstörung? Unser Thermen Notdienst Wien ist Ihr schneller und zuverlässiger Ansprechpartner bei jedem Notfall rund um Ihre Therme.
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/nordgas.png') }}" alt="Nordgas Installateur Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/nordgas.png') }}" alt="Thermen Notdienst Wien – Logo" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Thermenwartung</span>
-        <span class="wolf-pill">Thermenservice</span>
-        <span class="wolf-pill">Reparatur</span>
-        <span class="wolf-pill">Notdienst</span>
+        <span class="wolf-pill">24h Notdienst</span>
+        <span class="wolf-pill">Schnelle Hilfe</span>
+        <span class="wolf-pill">Installateur vor Ort</span>
+        <span class="wolf-pill">Alle Bezirke</span>
       </div>
 
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin sichern</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
+        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Unsere Leistungen</a>
       </div>
 
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Nordgas Service Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab €95</strong></p>
-
+            <h2 class="promo-banner__title"><em>Notfall? Sofort helfen wir!</em></h2>
+            <p class="promo-banner__price"><strong>Rufen Sie an</strong></p>
             <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
               <span class="promo-banner__btn-ico">  </span>
               AKTION
@@ -535,35 +506,31 @@
     </div>
   </section>
 
-  <!-- ✅ TOC AFTER HERO -->
+  <!-- TOC -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card is-collapsed" id="tocCard">
         <div class="toc-head" id="tocHead" role="button" tabindex="0" aria-controls="tocBody" aria-expanded="false">
           <h4 id="tocTitle">Inhaltsverzeichnis</h4>
-
           <div class="toc-actions">
-            <button class="toc-iconbtn" type="button" id="tocToggle"
-              aria-expanded="false" aria-controls="tocBody"
-              aria-label="Inhaltsverzeichnis umschalten">
+            <button class="toc-iconbtn" type="button" id="tocToggle" aria-expanded="false" aria-controls="tocBody" aria-label="Inhaltsverzeichnis umschalten">
               <svg viewBox="0 0 448 512" aria-hidden="true" style="transform: rotate(0deg); transition: transform 0.18s;">
                 <path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
               </svg>
             </button>
           </div>
         </div>
-
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item"><a href="#intro-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Intro</span></a></li>
-            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Partner</span></a></li>
-            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#heizung-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Heizung & Anlage</span></a></li>
-            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Preise</span></a></li>
-            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Thermentausch</span></a></li>
-            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Notdienst Wien</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">24h erreichbar</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Schnelle Hilfe</span></a></li>
+            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Sicherheit</span></a></li>
+            <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparatur & Austausch</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Wartung</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Full Service</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Fragen & Antworten</span></a></li>
             <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
@@ -571,274 +538,197 @@
     </div>
   </section>
 
-  <!-- Intro -->
-  <section class="service-section service-section--soft" id="intro-services">
+  <!-- Thermen Notdienst Wien (Einleitung) -->
+  <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Nordgas Installateur Wien</h2>
+            <h2>Thermen Notdienst Wien – Ihr schneller Helfer</h2>
             <p>
-              Als Nordgas Installateur Wien bieten wir professionelle Nordgas Thermenwartung, Thermenservice und Reparatur für Nordgas Therme und Heizungsanlage in Wien.
+              Ein plötzlicher Thermenausfall, kein Warmwasser oder eine akute Thermenstörung? Unser Thermen Notdienst Wien ist Ihr schneller und zuverlässiger Ansprechpartner bei jedem Notfall rund um Ihre Therme. Als erfahrener Thermen Notdienst in Wien sind wir in ganz Wien und Umgebung sowie in Wien und Niederösterreich rasch vor Ort. Ob defekte Gastherme, Heizungsausfall, Gasgeruch oder ein angezeigter Fehlercode – unser Notdienst Wien steht Ihnen sofort zur Verfügung.
             </p>
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Rasch vor Ort</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Alle Bezirke</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrene Techniker</div></div>
+            </div>
           </div>
         </div>
-
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1NordGas.png') }}" alt="Nordgas Installateur Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1NordGas.png') }}" alt="Thermen Notdienst Wien – Team im Einsatz" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Partner in Wien -->
-  <section class="service-section" id="partner-services">
+  <!-- 24h Thermen Notdienst – rund um die Uhr -->
+  <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Nordgas Partner in Wien</h2>
+            <h2>24h Thermen Notdienst in Wien – Rund um die Uhr erreichbar</h2>
             <p>
-              Als erfahrener Installateur und zuverlässiger Partner für Nordgas in Wien stehen wir für Qualität, Sicherheit und nachhaltige Lösungen.
-              Unser Techniker Team betreut Nordgas Therme, Nordgas Gasthermen und komplette Heizungsanlage mit hoher Kompetenz und langjähriger Erfahrung.
+              Unser Thermen Notdienst ist rund um die Uhr, auch an Wochenenden und Feiertagen, für Sie im Einsatz. Gerade bei einem plötzlichen Thermenausfall oder bei Heizungsausfällen zählt jede Minute.
+              Als professioneller Installateur in Wien reagieren wir mit kurzer Reaktionszeit und bieten sofortige Hilfe. Unsere geschulten Mitarbeiter prüfen Ihre Therme, analysieren den Fehlercode, beheben technische Fehler und führen eine fachgerechte Reparatur durch.
+              Der Installateur Notdienst in Wien ist in allen Bezirken aktiv – schnell, strukturiert und zuverlässig.
             </p>
-            <p>
-              Wir arbeiten herstellerkonform und kennen die Anforderungen unterschiedlicher Modelle und Bauteile genau.
-              Nordgas steht im Herzen unserer täglichen Arbeit, denn unser Ziel ist es, Wohnkomfort und effiziente Energie-Nutzung in Wien zu sichern.
-              Unsere Experten betreuen Kunden in Wien, Niederösterreich, NÖ und Burgenland zuverlässig.
-              Als Fachbetrieb garantieren wir professionelle Wartung, Reparatur und umfassende Serviceleistungen.
-            </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Herstellerkonform</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kompetentes Team</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Nachhaltige Lösungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & Umgebung</div></div>
-            </div>
           </div>
         </div>
-
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Nordgas Partner in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="24h Notdienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Installation, Wartung und Service -->
-  <section class="service-section service-section--soft" id="leistungen-services">
+  <!-- Schnelle Hilfe bei Thermenausfall & Heizungsproblemen -->
+  <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
-        <p>Nordgas Thermenservice, regelmäßige Wartung und Reparatur – professionell, sauber und nachvollziehbar.</p>
+        <h2>Schnelle Hilfe bei Thermenausfall & Heizungsproblemen</h2>
+        <p>Unser spezialisierter Thermen Notdienst Wien sorgt dafür, dass Ihre Heizung und Ihr Warmwasser rasch wieder funktionieren.</p>
       </div>
-
-      <div class="card-box" style="margin-bottom:14px;">
-        <p>
-          Unsere Dienstleistungen umfassen Installation, regelmäßige Wartung sowie professionelles Nordgas Thermenservice für alle Nordgas Geräte.
-          Eine sorgfältige Überprüfung, Reinigung und Abgasmessung sichert die optimale Funktion Ihrer Nordgas Therme.
-        </p>
-        <p>
-          Durch kontinuierliche Nordgas Thermenwartung verlängern wir die Lebensdauer der Anlage und steigern Energieeffizienz.
-          Unser Techniker Team analysiert Fehlermeldungen, behebt Störungen und führt Reparatur oder Austausch defekter Teile fachgerecht durch.
-          Im Notfall steht unser Notdienst schnell zur Verfügung.
-          Kunden profitieren von transparenter Beratung, fairen Preisen und einem zuverlässigen Ansprechpartner für alles rund um Therme, Heizung und Gasgeräte in Wien.
-        </p>
-      </div>
-
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔧</div>
+          <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Nordgas Therme Installation</h3>
-            <p>Wir übernehmen Installation und Inbetriebnahme Ihrer Nordgas Therme inklusive Anschluss an Heizkörper, Gas und Warmwasser-System.</p>
+            <h3>Thermenausfall / Heizungsausfall</h3>
+            <p>Kompletter Ausfall? Wir diagnostizieren die Ursache und bringen Ihre Anlage schnell wieder in Betrieb.</p>
           </div>
         </article>
-
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🧼</div>
+          <div class="service-feature__icon" aria-hidden="true">💧</div>
           <div>
-            <h3>Nordgas Thermenwartung Service</h3>
-            <p>Unsere Nordgas Thermenwartung umfasst Thermenwartung, Überprüfung, Reinigung, Optimierung und Kontrolle aller sicherheitsrelevanten Bauteile.</p>
+            <h3>Kein Warmwasser</h3>
+            <p>Ob defekte Gastherme oder Störung – wir sorgen für sofortige Wiederherstellung Ihrer Warmwasserversorgung.</p>
           </div>
         </article>
-
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🛠️</div>
+          <div class="service-feature__icon" aria-hidden="true">🔊</div>
           <div>
-            <h3>Reparatur und Austausch</h3>
-            <p>Bei Reparatur führen unsere Techniker professionelle Arbeiten durch und tauschen defekte Bauteile oder Komponenten effizient aus.</p>
+            <h3>Ungewöhnliche Geräusche</h3>
+            <p>Klopfen, Pfeifen oder Rauschen? Unsere Techniker orten die Quelle und beheben das Problem.</p>
           </div>
         </article>
-
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🚨</div>
+          <div class="service-feature__icon" aria-hidden="true">📟</div>
           <div>
-            <h3>Notdienst in Wien</h3>
-            <p>Unser Notdienst ist in Wien und Umgebung im Einsatz und hilft bei akuten Störungen oder Notfall schnell weiter.</p>
+            <h3>Fehlercode-Analyse</h3>
+            <p>Ihre Therme zeigt einen Fehlercode? Wir entschlüsseln die Meldung und reparieren fachgerecht.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Heizung, Gasgeräte und Anlage -->
-  <section class="service-section" id="heizung-services">
-    <div class="service-container">
-      <div class="card-split">
-        <div class="card-split__text">
-          <div class="card-box">
-            <h2>Heizung, Gasgeräte und Anlage</h2>
-            <p>
-              Wir betreuen Nordgas Heizung, Gasgeräte und komplette Heizungsanlage mit modernem Fachwissen und Know how.
-              Unser Team prüft Anlage, Heizkörper und Warmwasser-Systeme sorgfältig, um einen sicheren Betrieb zu gewährleisten.
-            </p>
-            <p>
-              Durch regelmäßige Thermenwartung, Wartung und Thermenservice wird Energie optimal genutzt und Kosten werden reduziert.
-              Auch bei älteren Nordgas Modellen oder bei Geräten anderer Hersteller wie Wolf bieten wir professionelle Lösungen.
-              Unser Ziel ist es, alles rund um Heizung und Gasgeräte effizient zu optimieren und den Wohnkomfort in Wien, Niederösterreich und Burgenland dauerhaft zu sichern.
-            </p>
-          </div>
+  <!-- Gastherme & Sicherheit im Notfall (dark panel) -->
+  <section class="service-section service-section--dark" id="warum-services">
+    <div class="service-container service-emergency">
+      <div class="service-emergency__text">
+        <h2>Gastherme & Sicherheit im Notfall</h2>
+        <p>
+          Bei einem Defekt an Ihrer Gastherme ist besondere Vorsicht geboten. Ein wahrnehmbarer Gasgeruch oder möglicher Gasaustritt stellt einen akuten Notfall dar. Unser Thermen Notdienst in Wien ist in solchen Situationen sofort zur Stelle.
+        </p>
+        <p style="margin-top:10px; color:rgba(255,255,255,.9);">
+          Unsere erfahrenen Installateur kontrollieren die gesamte Installation, prüfen Leitungen für Gas und Wasser und stellen sicher, dass keine Gefahr besteht. Bei technischer Unsicherheit sollten Sie nicht selbst handeln – kontaktieren Sie direkt unseren Notdienst Wien. Schnelle Hilfe, professionelle Reparatur und maximale Sicherheit stehen bei uns im Mittelpunkt.
+        </p>
+        <div class="service-emergency__actions">
+          <a class="service-btn service-btn--accent" href="#kontakt-services">Notfall melden</a>
+          <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">Sicherheitstipps</a>
         </div>
-
-        <div class="card-split__media service-media">
-          <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Heizung, Gasgeräte und Anlage" loading="lazy" decoding="async">
-          </div>
+      </div>
+      <div class="service-emergency__panel">
+        <div class="service-panel">
+          <h3>Notfall-Checkliste</h3>
+          <ul class="service-checklist service-checklist--on-dark">
+            <li>Gasgeruch? Nicht zündeln, lüften, Notdienst rufen</li>
+            <li>Therme ausgeschaltet? Nicht selbst öffnen</li>
+            <li>Wasser austritt? Haupthahn schließen</li>
+            <li>Unsicher? Sofort Profi kontaktieren</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Preise, Beratung und Qualität -->
-  <section class="service-section service-section--soft" id="preise-services">
+  <!-- Reparatur, Austausch und Installation von Gasthermen -->
+  <section class="service-section" id="reparatur-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, Beratung und Qualität</h2>
+            <h2>Reparatur, Austausch und Installation von Gasthermen</h2>
             <p>
-              Transparente Preise und faire Kosten sind Teil unseres Service in Wien.
-              Vor jeder Nordgas Thermenwartung oder Reparatur erhalten Kunden eine klare Übersicht über Leistungen und Aufwand.
+              Nicht jeder Thermenausfall lässt sich kurzfristig beheben. In manchen Fällen ist ein Austausch sinnvoll. Unser Thermen Notdienst Wien berät Sie transparent zu jeder Option.
+              Wir übernehmen die fachgerechte Installation, präzise Montage und den Austausch Ihrer alten Gastherme gegen ein modernes, effizientes Modell. Unser Team kennt alle gängigen Marken und sorgt für eine saubere Umsetzung.
+              Auch ältere Heizkessel oder komplexe Heizsystem-Lösungen werden von unserem Installateur professionell betreut. Als verlässlicher Partner für Kunden in Wien und Niederösterreich stehen wir dauerhaft zur Verfügung.
             </p>
-            <p>
-              Unser Team bietet individuelle Beratung zu Wartungsvertrag, Alternative Lösungen oder Optimierung bestehender Heizsysteme.
-              Dank effizientem Einsatz unserer Techniker sparen Kunden langfristig Energie und reduzieren Betriebskosten.
-              Qualität, Kompetenz und Sicherheit stehen bei uns im Mittelpunkt – für nachhaltige Lösungen in Wien und Umgebung.
-            </p>
-
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Kosten</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Faire Preise</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Individuelle Beratung</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sicherheit</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachgerechte Installation</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Alle Marken</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Transparente Beratung</div></div>
             </div>
           </div>
         </div>
-
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Preise, Beratung und Qualität" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Gasthermen Austausch und Installation" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Ablauf -->
-  <section class="service-section" id="ablauf-services">
-    <div class="service-container">
-      <div class="service-section__head">
-        <h2>Ablauf von Anfrage bis Termin</h2>
-        <p>Von Terminvereinbarung bis Umsetzung – strukturiert, transparent und sicher.</p>
-      </div>
-
-      <div class="card-box">
-        <p>
-          Nach Ihrer Kontaktaufnahme per Telefon oder E Mail erfolgt eine rasche Terminvereinbarung in Wien und Umgebung.
-          Unser Nordgas Installateur Wien verschafft sich vor Ort einen genauen Überblick über Ihre Nordgas Therme, Gasgeräte oder komplette Heizungsanlage.
-        </p>
-        <p>
-          Unsere Techniker führen eine umfassende Überprüfung, Reinigung und bei Bedarf eine Abgasmessung durch.
-          Fehlermeldungen und Störungen werden direkt analysiert und eine gezielte Reparatur eingeleitet.
-          Anschließend erhalten Sie transparente Informationen zu Wartung, Nordgas Thermenwartung oder notwendigem Austausch einzelner Teile.
-        </p>
-        <p>
-          Unser Team sorgt dafür, dass alles sicher funktioniert und Ihre Anlage zuverlässig in Betrieb bleibt.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Region -->
-  <section class="service-section service-section--soft" id="region-services">
+  <!-- Thermenwartung & langfristiger Service -->
+  <section class="service-section service-section--soft" id="notdienst-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wien, Niederösterreich und Burgenland</h2>
+            <h2>Thermenwartung & langfristiger Service</h2>
             <p>
-              Unser Nordgas Thermenservice ist in ganz Wien sowie in Niederösterreich, NÖ und Burgenland im Einsatz.
-              Dank kurzer Wege sind wir im Notfall schnell vor Ort.
+              Neben dem akuten Thermen Notdienst bieten wir professionelle Thermenwartung, regelmäßige Wartung und umfassenden Thermenservice. Eine gepflegte Gastherme reduziert das Risiko von Heizungsausfällen und verlängert die Lebensdauer Ihrer Therme deutlich.
+              Unser Service umfasst Kontrolle von Gas, Wasser, sicherheitsrelevanten Komponenten sowie die Optimierung Ihres Heizsystem für ein stabiles Klima und angenehmes Raumklima.
+              Von der Planung bis zur Umsetzung begleiten wir unsere Kunden als kompetenter Ansprechpartner mit klarem Anspruch an Qualität und Zuverlässigkeit.
             </p>
-            <p>
-              Unser Techniker Team betreut private Haushalte ebenso wie gewerbliche Kunden.
-              Als erfahrener Fachbetrieb bieten wir professionelle Nordgas Thermenwartung, Wartung und Reparatur in Wien und Umgebung.
-              Unsere Einsatzgebiete ermöglichen flexible Termine und schnelle Hilfe bei Störungen oder Problemen mit Ihrer Nordgas Therme oder Heizung.
-              So sichern wir Wohnkomfort und zuverlässige Energie-Versorgung in Ihrem Zuhause.
-            </p>
-
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Niederösterreich (NÖ)</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Burgenland</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schnell vor Ort</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Regelmäßige Wartung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Lebensdauer</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Optimiertes Heizsystem</div></div>
             </div>
           </div>
         </div>
-
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Wien, Niederösterreich und Burgenland" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Thermenwartung Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Thermentausch -->
-  <section class="service-section" id="tausch-services">
+  <!-- Full Service für Sanitär, Heizung und Klima -->
+  <section class="service-section" id="preise-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermenreparatur Thermentausch</h2>
+            <h2>Full Service für Sanitär, Heizung und Klima</h2>
             <p>
-              Wenn eine Nordgas Therme wiederholt Störungen zeigt oder die Lebensdauer erreicht ist, empfehlen wir eine gezielte Thermenreparatur Thermentausch-Lösung.
-              Unsere Experten prüfen Bauteile, Anlage und Heizungsanlage sorgfältig und beraten zu modernen Modellen oder energieeffizienten Alternativen.
+              Unser erweitertes Leistungsspektrum deckt alle Bereiche rund um Sanitär, Heizung, Wasser und moderne Klimaanlagen ab. Ob Badsanierung, Optimierung Ihrer bestehenden Installation oder Anpassung neuer Geräte – wir bieten professionellen Service aus einer Hand.
+              Als erfahrener Installateur in Wien kümmern wir uns um sämtliche Anliegen in Wien und Umgebung sowie in Wien und Niederösterreich. Unser strukturierter Kundenservice sorgt für transparente Abläufe und klare Kommunikation.
             </p>
-            <p>
-              Der Austausch erfolgt fachgerecht inklusive Demontage, Installation und Optimierung der neuen Anlage.
-              Durch rechtzeitigen Thermentausch lassen sich Kosten reduzieren und die Energieeffizienz deutlich steigern.
-              Unser Team sorgt für sicheren Betrieb und langfristige Qualität in Wien.
-            </p>
-
-            <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Kosten</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachgerechter Austausch</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Langfristige Qualität</div></div>
-            </div>
           </div>
         </div>
-
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Thermenreparatur Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Sanitär und Heizung Full Service" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -849,45 +739,40 @@
   <section class="service-section service-section--soft" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zu Nordgas</h2>
+        <h2>Häufige Fragen zum Thermen Notdienst Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wie oft sollte eine Nordgas Thermenwartung erfolgen?</summary>
-          <p>Eine jährliche Nordgas Thermenwartung erhöht Lebensdauer, Sicherheit und Energieeffizienz Ihrer Nordgas Therme.</p>
+          <summary>1. Wann sollte ich den Thermen Notdienst Wien kontaktieren?</summary>
+          <p>Bei einem Thermenausfall, Heizungsausfall, fehlendem Warmwasser, starkem Gasgeruch oder bei Unsicherheit kontaktieren Sie sofort unseren Thermen Notdienst Wien.</p>
         </details>
-
         <details>
-          <summary>Gibt es einen Notdienst in Wien?</summary>
-          <p>Ja, unser Notdienst ist in Wien, Niederösterreich und Burgenland im Einsatz und hilft im Notfall schnell weiter.</p>
+          <summary>2. Ist der Thermen Notdienst rund um die Uhr erreichbar?</summary>
+          <p>Ja, unser Thermen Notdienst ist rund um die Uhr, auch an Wochenenden und Feiertagen, für Sie erreichbar.</p>
         </details>
-
         <details>
-          <summary>Was beinhaltet das Nordgas Thermenservice?</summary>
-          <p>Das Nordgas Thermenservice umfasst Überprüfung, Reinigung, Optimierung, Wartung und Kontrolle aller relevanten Bauteile.</p>
+          <summary>3. Reparieren Sie alle Marken und Modelle?</summary>
+          <p>Ja, unser Thermen Notdienst Wien betreut alle gängigen Marken und jedes Modell moderner Gastherme-Systeme.</p>
         </details>
-
         <details>
-          <summary>Welche Hersteller betreuen Sie?</summary>
-          <p>Neben Nordgas betreuen wir auch Marken wie Wolf sowie weitere Hersteller im Bereich Gasgeräte und Heizung.</p>
+          <summary>4. Arbeiten Sie auch außerhalb von Wien?</summary>
+          <p>Wir sind in ganz Wien, in der Umgebung sowie in Wien und Niederösterreich für unsere Kunden im Einsatz.</p>
         </details>
-
         <details>
-          <summary>Wie transparent sind Preise und Kosten?</summary>
-          <p>Alle Preise und Kosten werden vorab klar kommuniziert – ohne versteckte Gebühren.</p>
+          <summary>5. Was tun bei Gasgeruch oder Gasaustritt?</summary>
+          <p>Bei Gasgeruch oder Verdacht auf Gasaustritt sofort unseren Notdienst Wien kontaktieren und keine eigenen Reparaturversuche durchführen.</p>
         </details>
-
         <details>
-          <summary>Wie schnell bekomme ich einen Termin?</summary>
-          <p>Nach Ihrer Anfrage steht unser Techniker Team rasch zur Verfügung und plant den Einsatz flexibel.</p>
+          <summary>6. Bieten Sie auch Wartung und Service an?</summary>
+          <p>Ja, neben dem Thermen Notdienst bieten wir regelmäßige Thermenwartung, Wartung und umfassenden Service für Ihre Therme.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- CONTACT / Jetzt Thermen Notdienst kontaktieren -->
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin Vereinbaren',
@@ -898,4 +783,29 @@
 ])
 </main>
 
+<script>
+  // Simple toggle for TOC (optional)
+  document.addEventListener('DOMContentLoaded', function() {
+    const tocCard = document.getElementById('tocCard');
+    const tocToggle = document.getElementById('tocToggle');
+    const tocHead = document.getElementById('tocHead');
+    const svg = tocToggle?.querySelector('svg');
+
+    function toggleToc() {
+      tocCard.classList.toggle('is-collapsed');
+      const expanded = !tocCard.classList.contains('is-collapsed');
+      tocToggle.setAttribute('aria-expanded', expanded);
+      if (svg) {
+        svg.style.transform = expanded ? 'rotate(180deg)' : 'rotate(0deg)';
+      }
+    }
+
+    if (tocToggle) {
+      tocToggle.addEventListener('click', toggleToc);
+    }
+    if (tocHead) {
+      tocHead.addEventListener('click', toggleToc);
+    }
+  });
+</script>
 @endsection

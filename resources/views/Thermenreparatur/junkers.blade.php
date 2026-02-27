@@ -884,42 +884,14 @@
   </section>
 
   <!-- CONTACT -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Jetzt Junkers Thermenservice in Wien beauftragen</h2>
-        <p>
-          Ob Junkers Thermenwartung, Junkers Thermenreparatur Wien oder schneller Junkers Notdienst – wir sind Ihr kompetenter Partner für Heizung und Gasthermen.
-          Unser Kundendienst steht Ihnen rund um die Uhr zur Verfügung und sorgt für professionelle Reparaturen, sorgfältige Wartung und nachhaltige Lösungen.
-        </p>
-        <p style="margin-top:10px;">
-          Vertrauen Sie auf Erfahrung, moderne Technik und starken Service für Ihre Junkers Therme. Kontaktieren Sie uns noch heute und sichern Sie sich zuverlässige Betreuung mit fairer Preisstruktur und höchster Sicherheit.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Ort, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 </main>
 <!-- 
 <script>

@@ -541,7 +541,7 @@
           <div class="promo-banner__content">
             <h2 class="promo-banner__title"><em>Buderus Service</em></h2>
             <p class="promo-banner__price"><strong>Notdienst rund um die Uhr</strong></p>
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="Anrufen">ANRUFEN</a>
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="Anrufen">ANRUFEN</a>
           </div>
         </div>
       </section>
@@ -867,43 +867,14 @@
   </section>
 
   <!-- 9) CONTACT -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Jetzt Buderus Thermenservice in Wien sichern</h2>
-        <p>
-          Ob Buderus Thermenreparatur Wien, Buderus Thermenwartung oder schneller Buderus Kundendienst – wir sind Ihr zuverlässiger Partner für Heizung und Gastherme.
-          Unser Notdienst steht Ihnen rund um die Uhr zur Verfügung und bietet professionelle Hilfe bei jedem Problem.
-        </p>
-        <p style="margin-top:10px;">
-          Kontaktieren Sie uns über diese Seite und vereinbaren Sie einen Termin.
-          Wir garantieren transparente Preise, hohe Qualität und sichere Wärme für Ihr Zuhause in Wien und Niederösterreich.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Störung, Ort, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 
 </main>
 

@@ -530,7 +530,7 @@
             <h2 class="promo-banner__title"><em>Löblich Thermenwartung Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
               <span class="promo-banner__btn-ico"></span>
               AKTION
             </a>
@@ -783,22 +783,14 @@
   </section>
 
   <!-- CTA -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Jetzt Löblich Thermenwartung in Wien sichern</h2>
-        <p>📞 Ihr Ansprechpartner für Löblich Thermenservice in Wien.</p>
-      </div>
-
-      <form class="service-cta__form" method="post">
-        @csrf
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="tel" name="phone" placeholder="+43 ..." required>
-        <textarea name="message" placeholder="Therme, Problem, Terminwunsch" required></textarea>
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 
 </main>
 <!-- 

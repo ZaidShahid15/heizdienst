@@ -841,7 +841,7 @@
 
                 <h1>
                     Vaillant Thermenwartung Wien<br>
-                    <em>Rund um die Uhr Service vom Fachbetrieb</em>
+                    <em>Rund Um Die Uhr Service Vom Fachbetrieb</em>
                 </h1>
 
                 <p class="wolf-hero__sub">
@@ -872,7 +872,7 @@
                             <h2 class="promo-banner__title"><em>Vaillant Thermenwartung Aktion</em></h2>
                             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
-                            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+                            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
                                 <span class="promo-banner__btn-ico">  </span>
                                 AKTION
                             </a>
@@ -1010,7 +1010,7 @@
         <section class="service-section" id="leistungen-services">
             <div class="service-container">
                 <div class="service-section__head">
-                    <h2>Leistungen für Ihre Vaillant Therme</h2>
+                    <h2>Leistungen Für Ihre Vaillant Therme</h2>
                     <p>Wartung, Service, Reparaturen und moderne Lösungen – alles aus einer Hand.</p>
                 </div>
 
@@ -1075,7 +1075,7 @@
         <section class="service-section service-section--soft" id="warum-services">
             <div class="service-container service-split service-split--reverse">
                 <div class="service-split__text">
-                    <h2>Warum Wartung unverzichtbar ist</h2>
+                    <h2>Warum Wartung Unverzichtbar Ist</h2>
                     <p>
                         Eine regelmäßige Vaillant Thermenwartung ist entscheidend für den sicheren und effizienten Betrieb
                         Ihrer Therme.
@@ -1119,7 +1119,7 @@
         <section class="service-section" id="geraete-services">
             <div class="service-container">
                 <div class="service-section__head">
-                    <h2>Für welche Geräte & Systeme?</h2>
+                    <h2>Für Welche Geräte & Systeme?</h2>
                     <p>Wir warten alle Vaillant Geräte – im privaten Haushalt und im laufenden Betrieb.</p>
                 </div>
 
@@ -1149,7 +1149,7 @@
         <section class="service-section service-section--soft" id="ablauf-services">
             <div class="service-container service-split">
                 <div class="service-split__text">
-                    <h2>So läuft die Thermenwartung ab</h2>
+                    <h2>So Läuft Die Thermenwartung Ab</h2>
                     <ol class="service-steps">
                         <li>
                             <strong>Terminvergabe & Vorbereitung</strong>
@@ -1188,7 +1188,7 @@
         <section class="service-section service-section--dark" id="notdienst-services">
             <div class="service-container service-emergency">
                 <div class="service-emergency__text">
-                    <h2>Vaillant Notdienst Wien – 24 Stunden verfügbar</h2>
+                    <h2>Vaillant Notdienst Wien – 24 Stunden Verfügbar</h2>
                     <p>
                         Bei Notfällen, plötzlichen Ausfällen oder defekter Therme sind wir rund um die Uhr erreichbar.
                         Unser Kundendienst reagiert schnell und sorgt für rasche Umsetzung vor Ort.
@@ -1252,7 +1252,7 @@
         <section class="service-section service-section--soft" id="warumwir-services">
             <div class="service-container service-split">
                 <div class="service-split__text">
-                    <h2>Warum wir der richtige Fachpartner sind</h2>
+                    <h2>Warum Wir Der Richtige Fachpartner Sind</h2>
                     <p>
                         Als erfahrener Fachpartner für Vaillant Thermen in Wien stehen wir für echte Erfahrung, technische
                         Kompetenz
@@ -1337,40 +1337,14 @@
         </section>
 
         <!-- CTA -->
-        <section class="service-cta" id="kontakt-services">
-            <div class="service-container service-cta__inner">
-                <div>
-                    <h2>Jetzt Vaillant Thermenwartung in Wien sichern</h2>
-                    <p>Komfort, Sicherheit und Effizienz – zuverlässig, transparent und kundenorientiert.</p>
-                    <p style="margin-top:10px;">
-                        Unsere Experten sind rund um die Uhr erreichbar und jederzeit zur Verfügung.
-                    </p>
-                </div>
-
-                <form class="service-cta__form" action="#" method="post">
-                    @csrf
-                    <div class="service-formrow">
-                        <label>
-                            <span>Name</span>
-                            <input type="text" name="name" placeholder="Ihr Name" required>
-                        </label>
-                        <label>
-                            <span>Telefon</span>
-                            <input type="tel" name="phone" placeholder="+43 ..." required>
-                        </label>
-                    </div>
-
-                    <label style="margin-top:10px;">
-                        <span>Nachricht</span>
-                        <textarea name="message" rows="4" placeholder="Thermenmodell, Problem, Wunschzeit..." required></textarea>
-                    </label>
-
-                    <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage
-                        senden</button>
-                    <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-                </form>
-            </div>
-        </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 
 
         </footer>

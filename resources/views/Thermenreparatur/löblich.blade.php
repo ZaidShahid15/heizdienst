@@ -524,7 +524,7 @@ Löblich.html
             <h2 class="promo-banner__title"><em>Löblich Thermenreparatur Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab €95</strong></p>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
               <span class="promo-banner__btn-ico">  </span>
               AKTION
             </a>
@@ -875,41 +875,14 @@ Löblich.html
   </section>
 
   <!-- ✅ CONTACT FORM ALWAYS LAST -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Jetzt Löblich Thermenservice in Wien sichern</h2>
-        <p>
-          Ob Löblich Thermenreparatur Wien, Thermenwartung oder fachgerechte Montage – wir stehen Ihnen mit Kompetenz und Erfahrung zur Verfügung. Vereinbaren Sie noch heute einen Termin und profitieren Sie von professioneller Betreuung, transparenter Abwicklung und nachhaltiger Lösung für Ihre Thermen.
-        </p>
-        <p style="margin-top:10px;">
-          Für Fragen, Anliegen oder Terminvereinbarungen steht unser Kundendienst jederzeit zur Verfügung. Über Telefon oder direkten Kontakt erreichen Sie unser Team schnell und unkompliziert. Wir beraten verständlich, nehmen Ihre Bedürfnisse ernst und koordinieren rasch die Durchführung aller Arbeiten.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell (z.B. Löblich Therme), Problem, Wunschtermin..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 </main>
 
 @endsection

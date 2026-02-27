@@ -282,7 +282,7 @@
     </div>
 
     {{-- CTA (kept from your m-hero) --}}
-    <a class="m-cta" href="tel:+4319284374">
+    <a class="m-cta" href="tel:+4314420617">
         <svg><use href="#i-phone"></use></svg>
         Jetzt anrufen – wir helfen sofort
     </a>

@@ -27,6 +27,10 @@ Route::get('/ocean', fn() => view('ocean'));
 Route::view('/impressum', 'impressum')->name('impressum');
 Route::view('/datenschutzerklaerung', 'datenschutzerklaerung')->name('datenschutzerklaerung');
 
+Route::get('/nordgas', fn() => view('Notdienst Wien.nordgas'));
+Route::get('/windhager', fn() => view('Notdienst Wien.windhager'));
+Route::get('/thermen-notdienst-wien', fn() => view('thermen-notdienst-wien'));
+Route::get('/heizung-notdienst-wien', fn() => view('heizung-notdienst-wien'));
 /*
 |--------------------------------------------------------------------------
 | Kundendienst Pages (prefix + view prefix)

@@ -484,7 +484,7 @@
             <h2 class="promo-banner__title"><em>Baxi Service &amp; Notdienst</em></h2>
             <p class="promo-banner__price"><strong>Wien • Umgebung • NÖ</strong></p>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="HOTLINE">
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="HOTLINE">
               Hotline
             </a>
           </div>
@@ -803,44 +803,14 @@
   </section>
 
   <!-- CONTACT -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Kontakt zum Installateur</h2>
-        <p>
-          Für professionelle Wartung, Reparatur oder Installation steht Ihnen unser Baxi Installateur Wien jederzeit zur Verfügung.
-          Unser Team aus erfahrenen Technikern und qualifizierten Fachkräften betreut Baxi Thermen, Baxi Gasgeräte und komplette Heizungsanlage zuverlässig.
-        </p>
-        <p style="margin-top:10px;">
-          Über diese Seite können Sie unkompliziert Kontakt aufnehmen und einen Termin vereinbaren.
-          Unser Baxi Kundendienst Wien steht rund um die Uhr bereit, um Probleme schnell zu lösen.
-          Vertrauen Sie auf Erfahrung, Fachwissen und einen Installateurbetrieb, der Service, Kompetenz und langfristige Betreuung in den Mittelpunkt stellt.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Therme/Anlage, Ort, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 
 </main>
 

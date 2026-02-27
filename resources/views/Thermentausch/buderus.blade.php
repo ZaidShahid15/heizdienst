@@ -485,7 +485,7 @@
             <h2 class="promo-banner__title"><em>Buderus Thermentausch Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
               <span class="promo-banner__btn-ico">  </span>
               AKTION
             </a>
@@ -816,42 +816,14 @@
   </section>
 
   <!-- 9) Kontakt -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Beratung & Angebot anfordern</h2>
-        <p>
-          Sie planen einen Buderus Thermentausch in Wien oder Niederösterreich?
-          Unser Team berät Sie persönlich und erstellt ein individuelles Angebot inklusive transparenter Kosten und zuverlässigem Service.
-        </p>
-        <p style="margin-top:10px;">
-          👉 Jetzt Angebot anfordern und Buderus Thermentausch professionell umsetzen
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Ort, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 
 </main>
 

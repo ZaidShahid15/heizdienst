@@ -889,41 +889,14 @@
   </section>
 
   <!-- CONTACT (always last) -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Kontakt zum Installateur</h2>
-        <p>
-          Für Service, Wartung oder Reparatur steht Ihnen unser Team als Vaillant Installateur Wien jederzeit zur Verfügung. Über unsere Telefonnummer oder per Mail erreichen Sie unseren Kundendienst schnell und unkompliziert.
-        </p>
-        <p style="margin-top:10px;">
-          Wir nehmen jede Anfrage ernst, beraten persönlich und koordinieren Termine effizient. Kontaktieren Sie uns für Beratung, Angebote oder einen Termin – wir sind für Sie da.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Anlage, Anliegen (Wartung/Reparatur/Installation), Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 </main>
 
 <!-- {{-- Oaptional JS (TOC toggle + smooth scroll) --}} -->

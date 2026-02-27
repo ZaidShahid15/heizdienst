@@ -19,8 +19,8 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-<link rel="stylesheet" href="{{ asset('css/services.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/services.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 
    
@@ -345,7 +345,7 @@ background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), tra
     <!-- MOBILE STICKY BAR -->
     <div class="mobilebar" role="navigation" aria-label="Schnellaktionen">
         <div class="inner">
-            <a class="m-iconbtn" href="tel:+4319284374" aria-label="Anrufen"><svg>
+            <a class="m-iconbtn" href="tel:+4314420617" aria-label="Anrufen"><svg>
                     <use href="#i-phone"></use>
                 </svg></a>
             <a class="m-iconbtn" href="mailto:office@thermendienst.at" aria-label="E-Mail"><svg>
@@ -354,7 +354,7 @@ background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), tra
             <a class="m-iconbtn" href="https://wa.me/436677711881" aria-label="WhatsApp">
                 <i class="ri-whatsapp-fill" style="color: white;font-size:28px"></i>
             </a>
-            <a class="m-callbtn" href="tel:+4319284374"><svg>
+            <a class="m-callbtn" href="tel:+4314420617"><svg>
                     <use href="#i-phone"></use>
                 </svg>+43 0 000000</a>
         </div>

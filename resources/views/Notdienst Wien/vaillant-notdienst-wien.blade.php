@@ -543,7 +543,7 @@
           <div class="promo-banner__content">
             <h2 class="promo-banner__title"><em>Vaillant Kundendienst Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">AKTION</a>
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">AKTION</a>
           </div>
         </div>
       </section>
@@ -1012,49 +1012,14 @@
   </section>
 
   <!-- 11) CONTACT -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Kontakt und schnelle Terminvergabe</h2>
-        <p>
-          Bei Fragen, Störungen oder im Notfall erreichen Sie unseren Vaillant Notdienst jederzeit.
-          Über den Kontakt auf dieser Seite oder telefonisch koordinieren wir Termine schnell und unkompliziert.
-        </p>
-        <p style="margin-top:10px;">
-          Unsere Mitarbeiter nehmen Ihr Problem ernst, klären Details und sorgen für rasche Hilfe –
-          kompetent, freundlich und effizient.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">24/7 erreichbar</div></div>
-          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & NÖ</div></div>
-          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">inkl. MwSt</div></div>
-        </div>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Thermenmodell, Problem, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 
 </main>
 <script>

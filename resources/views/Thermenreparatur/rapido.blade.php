@@ -544,7 +544,7 @@
           <div class="promo-banner__content">
             <h2 class="promo-banner__title"><em>Rapido Service</em></h2>
             <p class="promo-banner__price"><strong>Notdienst rund um die Uhr</strong></p>
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="Anrufen">ANRUFEN</a>
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="Anrufen">ANRUFEN</a>
           </div>
         </div>
       </section>
@@ -865,42 +865,14 @@
   </section>
 
   <!-- 9) Kontakt -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Jetzt Rapido Thermenservice in Wien sichern</h2>
-        <p>
-          Ob Rapido Thermenreparatur Wien, Rapido Thermenwartung oder schneller Rapido Notdienst – wir stehen Ihnen rund um die Uhr zur Verfügung.
-          Unser Installateur Team sorgt für professionelle Reparatur, sichere Montage und nachhaltige Lösungen für Ihre Heizung.
-        </p>
-        <p style="margin-top:10px;">
-          Vereinbaren Sie jetzt einen Termin und profitieren Sie von transparenter Betreuung, fairen Kosten und zuverlässiger Arbeit in Wien und Umgebung.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Ort, Problem, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 
 </main>
 

@@ -546,7 +546,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Junkers Installateur Wien" loading="lazy" decoding="async">
+        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Installateur Wien" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">
@@ -633,7 +633,7 @@
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Junkers Fachpartner Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/junkers.jpeg') }}" alt="Junkers Fachpartner Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -909,44 +909,14 @@
   </section>
 
   <!-- CONTACT (always last) -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Kontakt zum Installateur</h2>
-        <p>
-          Für Service, Wartung oder Reparatur steht Ihnen unser Junkers Installateur Wien jederzeit zur Verfügung.
-          Unser Team aus erfahrenen Mitarbeitern, Fachkräften und Technikern berät Sie kompetent und lösungsorientiert.
-          Über unsere Website, telefonisch oder per Mail erreichen Sie unseren Kundendienst schnell und unkompliziert.
-        </p>
-        <p style="margin-top:10px;">
-          Wir nehmen jedes Anliegen ernst und stellen einen zuverlässigen Betrieb Ihrer Heizung sicher.
-          Vertrauen Sie auf Erfahrung, Kompetenz und einen Fachbetrieb, der Qualität und Sicherheit in den Mittelpunkt stellt.
-        </p>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Therme/Heizung, Anliegen (Wartung/Reparatur/Installation), Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 </main>
 
 <script>

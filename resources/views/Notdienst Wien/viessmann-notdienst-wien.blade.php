@@ -530,7 +530,7 @@
             <h2 class="promo-banner__title"><em>Viessmann Service Aktion</em></h2>
             <p class="promo-banner__price"><strong>ab  €95</strong></p>
 
-            <a class="promo-banner__btn" href="tel:+4369981243996" aria-label="AKTION">
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
               <span class="promo-banner__btn-ico">  </span>
               AKTION
             </a>
@@ -910,48 +910,14 @@
   </section>
 
   <!-- CONTACT (always last) -->
-  <section class="service-cta" id="kontakt-services">
-    <div class="service-container service-cta__inner">
-      <div>
-        <h2>Termin, Kontakt und schnelle Hilfe</h2>
-        <p>
-          Bei Störung, Defekt oder Notfall erreichen Sie unseren Viessmann Notdienst jederzeit.
-          Über Telefon, E-Mail Adresse oder diese Seite vergeben wir rasch einen Termin und koordinieren den Einsatz.
-        </p>
-        <p style="margin-top:10px;">
-          Ob Reparatur, Wartung oder Thermentausch – unser Team sorgt für eine zuverlässige Lösung und nimmt sich Zeit für Ihre Fragen.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">schneller Termin</div></div>
-          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">klare Abläufe</div></div>
-          <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">verlässliche Hilfe</div></div>
-        </div>
-      </div>
-
-      <form class="service-cta__form" action="#" method="post">
-        @csrf
-        <div class="service-formrow">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Ihr Name" required>
-          </label>
-          <label>
-            <span>Telefon</span>
-            <input type="tel" name="phone" placeholder="+43 ..." required>
-          </label>
-        </div>
-
-        <label style="margin-top:10px;">
-          <span>Nachricht</span>
-          <textarea name="message" rows="4" placeholder="Gerät/Modell, Problem, Wunschzeit..." required></textarea>
-        </label>
-
-        <button class="service-btn service-btn--accent service-btn--full" type="submit">Anfrage senden</button>
-        <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
-      </form>
-    </div>
-  </section>
+  @include('layout.contact', [
+    'id' => 'kontakt-services',
+    'title' => 'Jetzt Termin Vereinbaren',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'btnText' => 'Kontaktieren Sie Uns',
+    'btnLink' => 'tel:+4314420617',
+    'btnAccent' => true,
+])
 </main>
 
 <script>

@@ -59,7 +59,7 @@
 
                         <li>
                             <svg><use href="#i-phone"></use></svg>
-                            <a href="tel:+43000000000">+43 000 000 000</a>
+                            <a href="tel:+4314420617">+4314420617</a>
                         </li>
 
                         <li>
@@ -107,7 +107,7 @@
                         <li><svg><use href="#i-check"></use></svg><a href="{{ url('/') }}">Startseite</a></li>
                         <li><svg><use href="#i-check"></use></svg><a href="#kontakt">Kontakt</a></li>
                         <li><svg><use href="#i-check"></use></svg><a href="{{ route('impressum') }}">Impressum</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/Datenschutzerklärung') }}">Datenschutzerklärung</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/datenschutzerklaerung') }}">Datenschutzerklärung</a></li>
                     </ul>
                 </div>
 

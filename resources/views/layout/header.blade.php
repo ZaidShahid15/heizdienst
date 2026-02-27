@@ -91,6 +91,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ url('/löblich') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/ocean') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ url('/rapido') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/windhager') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="mm-dd-item mm-navlink" href="{{ url('/nordgas') }}"><img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
         </div>
@@ -291,6 +293,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" href="{{ url('/löblich') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="dd-item" href="{{ url('/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="dd-item" href="{{ url('/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+              <a class="dd-item" href="{{ url('/windhager') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+              <a class="dd-item" href="{{ url('/nordgas') }}"><img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
 
@@ -440,6 +444,8 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/löblich') }}">Löblich</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/ocean') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/rapido') }}">Rapido</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/windhager') }}">Windhager</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/nordgas') }}">Nordgas</a>
             </div>
           </div>
 

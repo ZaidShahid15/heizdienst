@@ -2748,3 +2748,8 @@
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
+
+
+ h1, h2, h3, h4, h5, h6 {
+  text-transform: capitalize !important;
+}
