@@ -38,86 +38,77 @@ Route::get('/heizung-notdienst-wien', fn() => view('heizung-notdienst-wien'));
 | URL: /kundendienst/vaillant
 | View: resources/views/kundendienst/vaillant.blade.php
 */
-Route::prefix('kundendienst')->group(function () {
 
-    Route::get('/vaillant', fn() => view('kundendienst.vaillant-kaundseint'));
-    Route::get('/junkers', fn() => view('kundendienst.junkers-kaundseint'));
-    Route::get('/viessmann', fn() => view('kundendienst.viessmann-kaundseint'));
-    Route::get('/wolf', fn() => view('kundendienst.wolf-kaundseint'));
-    Route::get('/saunier-duval', fn() => view('kundendienst.saunier-duval-kaundseint'));
-    Route::get('/ocean', fn() => view('kundendienst.ocean-kaundseint'));
-    Route::get('/rapido', fn() => view('kundendienst.rapido-kaundseint'));
-    Route::get('/löblich', fn() => view('kundendienst.löblich-kaundseint'));
-    Route::get('/buderus', fn() => view('kundendienst.buderus-kaundseint'));
-    Route::get('/baxi', fn() => view('kundendienst.baxi-kaundseint'));
-    Route::get('/nordgas', fn() => view('kundendienst.nordgas-kaundseint'));
-    Route::get('/windhager', fn() => view('kundendienst.windhager-kaundseint'));
+// ==================== Kundendienst ====================
+Route::get('/vaillant-kundendienst-wien', fn() => view('kundendienst.vaillant-kaundseint'))->name('vaillant.kundendienst');
+Route::get('/junkers-kundendienst-wien', fn() => view('kundendienst.junkers-kaundseint'))->name('junkers.kundendienst');
+Route::get('/viessmann-kundendienst-wien', fn() => view('kundendienst.viessmann-kaundseint'))->name('viessmann.kundendienst');
+Route::get('/wolf-kundendienst-wien', fn() => view('kundendienst.wolf-kaundseint'))->name('wolf.kundendienst');
+Route::get('/saunier-duval-kundendienst-wien', fn() => view('kundendienst.saunier-duval-kaundseint'))->name('saunier-duval.kundendienst');
+Route::get('/ocean-kundendienst-wien', fn() => view('kundendienst.ocean-kaundseint'))->name('ocean.kundendienst');
+Route::get('/rapido-kundendienst-wien', fn() => view('kundendienst.rapido-kaundseint'))->name('rapido.kundendienst');
+Route::get('/löblich-kundendienst-wien', fn() => view('kundendienst.löblich-kaundseint'))->name('löblich.kundendienst');
+Route::get('/buderus-kundendienst-wien', fn() => view('kundendienst.buderus-kaundseint'))->name('buderus.kundendienst');
+Route::get('/baxi-kundendienst-wien', fn() => view('kundendienst.baxi-kaundseint'))->name('baxi.kundendienst');
+Route::get('/nordgas-kundendienst-wien', fn() => view('kundendienst.nordgas-kaundseint'))->name('nordgas.kundendienst');
+Route::get('/windhager-kundendienst-wien', fn() => view('kundendienst.windhager-kaundseint'))->name('windhager.kundendienst');
 
-});
+// ==================== Notdienst ====================
+Route::get('/vaillant-notdienst-wien', fn() => view('Notdienst Wien.vaillant-notdienst-wien'))->name('vaillant.notdienst');
+Route::get('/junkers-notdienst-wien', fn() => view('Notdienst Wien.junkers-notdienst-wien'))->name('junkers.notdienst');
+Route::get('/viessmann-notdienst-wien', fn() => view('Notdienst Wien.viessmann-notdienst-wien'))->name('viessmann.notdienst');
+Route::get('/wolf-notdienst-wien', fn() => view('Notdienst Wien.wolf-notdienst-wien'))->name('wolf.notdienst');
+Route::get('/saunier-duval-notdienst-wien', fn() => view('Notdienst Wien.saunier-duval-notdienst-wien'))->name('saunier-duval.notdienst');
+Route::get('/ocean-notdienst-wien', fn() => view('Notdienst Wien.ocean-notdienst-wien'))->name('ocean.notdienst');
+Route::get('/rapido-notdienst-wien', fn() => view('Notdienst Wien.rapido-notdienst-wien'))->name('rapido.notdienst');
+Route::get('/löblich-notdienst-wien', fn() => view('Notdienst Wien.löblich-notdienst-wien'))->name('löblich.notdienst');
+Route::get('/buderus-notdienst-wien', fn() => view('Notdienst Wien.buderus-notdienst-wien'))->name('buderus.notdienst');
+Route::get('/baxi-notdienst-wien', fn() => view('Notdienst Wien.baxi-notdienst-wien'))->name('baxi.notdienst');
+// Special case: nordgas and windhager use view names without the suffix
+Route::get('/nordgas-notdienst-wien', fn() => view('Notdienst Wien.nordgas'))->name('nordgas.notdienst');
+Route::get('/windhager-notdienst-wien', fn() => view('Notdienst Wien.windhager'))->name('windhager.notdienst');
 
+// ==================== Thermentausch ====================
+Route::get('/vaillant-thermentausch-wien', fn() => view('Thermentausch.vaillant'))->name('vaillant.thermentausch');
+Route::get('/junkers-thermentausch-wien', fn() => view('Thermentausch.junkers'))->name('junkers.thermentausch');
+Route::get('/viessmann-thermentausch-wien', fn() => view('Thermentausch.viessmann'))->name('viessmann.thermentausch');
+Route::get('/wolf-thermentausch-wien', fn() => view('Thermentausch.wolf'))->name('wolf.thermentausch');
+// Saunier-Duval uses short view name 'saunier'
+Route::get('/saunier-duval-thermentausch-wien', fn() => view('Thermentausch.saunier'))->name('saunier-duval.thermentausch');
+Route::get('/ocean-thermentausch-wien', fn() => view('Thermentausch.ocean'))->name('ocean.thermentausch');
+Route::get('/rapido-thermentausch-wien', fn() => view('Thermentausch.rapido'))->name('rapido.thermentausch');
+Route::get('/löblich-thermentausch-wien', fn() => view('Thermentausch.löblich'))->name('löblich.thermentausch');
+Route::get('/buderus-thermentausch-wien', fn() => view('Thermentausch.buderus'))->name('buderus.thermentausch');
+Route::get('/baxi-thermentausch-wien', fn() => view('Thermentausch.baxi'))->name('baxi.thermentausch');
+Route::get('/nordgas-thermentausch-wien', fn() => view('Thermentausch.nordgas'))->name('nordgas.thermentausch');
+Route::get('/windhager-thermentausch-wien', fn() => view('Thermentausch.windhager'))->name('windhager.thermentausch');
 
-Route::prefix('notdienstwien')->group(function () {
+// ==================== Thermenreparatur ====================
+Route::get('/vaillant-thermenreparatur-wien', fn() => view('Thermenreparatur.vaillant'))->name('vaillant.thermenreparatur');
+Route::get('/junkers-thermenreparatur-wien', fn() => view('Thermenreparatur.junkers'))->name('junkers.thermenreparatur');
+Route::get('/viessmann-thermenreparatur-wien', fn() => view('Thermenreparatur.viessmann'))->name('viessmann.thermenreparatur');
+Route::get('/wolf-thermenreparatur-wien', fn() => view('Thermenreparatur.wolf'))->name('wolf.thermenreparatur');
+// Saunier-Duval uses short view name 'saunier'
+Route::get('/saunier-duval-thermenreparatur-wien', fn() => view('Thermenreparatur.saunier'))->name('saunier-duval.thermenreparatur');
+Route::get('/ocean-thermenreparatur-wien', fn() => view('Thermenreparatur.ocean'))->name('ocean.thermenreparatur');
+Route::get('/rapido-thermenreparatur-wien', fn() => view('Thermenreparatur.rapido'))->name('rapido.thermenreparatur');
+Route::get('/löblich-thermenreparatur-wien', fn() => view('Thermenreparatur.löblich'))->name('löblich.thermenreparatur');
+Route::get('/buderus-thermenreparatur-wien', fn() => view('Thermenreparatur.buderus'))->name('buderus.thermenreparatur');
+Route::get('/baxi-thermenreparatur-wien', fn() => view('Thermenreparatur.baxi'))->name('baxi.thermenreparatur');
+Route::get('/nordgas-thermenreparatur-wien', fn() => view('Thermenreparatur.nordgas'))->name('nordgas.thermenreparatur');
+Route::get('/windhager-thermenreparatur-wien', fn() => view('Thermenreparatur.windhager'))->name('windhager.thermenreparatur');
 
-    Route::get('/vaillant', fn() => view('Notdienst Wien.vaillant-notdienst-wien'));
-    Route::get('/junkers', fn() => view('Notdienst Wien.junkers-notdienst-wien'));
-    Route::get('/viessmann', fn() => view('Notdienst Wien.viessmann-notdienst-wien'));
-    Route::get('/wolf', fn() => view('Notdienst Wien.wolf-notdienst-wien'));
-    Route::get('/saunier-duval', fn() => view('Notdienst Wien.saunier-duval-notdienst-wien'));
-    Route::get('/ocean', fn() => view('Notdienst Wien.ocean-notdienst-wien'));
-    Route::get('/rapido', fn() => view('Notdienst Wien.rapido-notdienst-wien'));
-    Route::get('/löblich', fn() => view('Notdienst Wien.löblich-notdienst-wien'));
-    Route::get('/buderus', fn() => view('Notdienst Wien.buderus-notdienst-wien'));
-    Route::get('/baxi', fn() => view('Notdienst Wien.baxi-notdienst-wien'));
-    Route::get('/nordgas', fn() => view('Notdienst Wien.nordgas'));
-    Route::get('/windhager', fn() => view('Notdienst Wien.windhager'));
-
-
-});
-
-
-Route::prefix('Thermentausch')->group(function(){
-    Route::get('/vaillant',fn() => view('Thermentausch.vaillant'));
-    Route::get('/junkers',fn() => view('Thermentausch.junkers'));
-    Route::get('/viessmann',fn() => view('Thermentausch.viessmann'));
-    Route::get('/wolf',fn() => view('Thermentausch.wolf'));
-    Route::get('/baxi',fn() => view('Thermentausch.baxi'));
-    Route::get('/buderus',fn() => view('Thermentausch.buderus'));
-    Route::get('/saunier',fn() => view('Thermentausch.saunier'));
-    Route::get('/löblich',fn() => view('Thermentausch.löblich'));
-    Route::get('/ocean',fn() => view('Thermentausch.ocean'));
-    Route::get('/rapido',fn() => view('Thermentausch.rapido'));
-    Route::get('/windhager',fn() => view('Thermentausch.windhager'));
-    Route::get('/nordgas',fn() => view('Thermentausch.nordgas'));
-});
-
-
-Route::prefix('Thermenreparatur')->group(function(){
-    Route::get('/vaillant',fn() => view('Thermenreparatur.vaillant'));
-    Route::get('/junkers',fn() => view('Thermenreparatur.junkers'));
-    Route::get('/viessmann',fn() => view('Thermenreparatur.viessmann'));
-    Route::get('/wolf',fn() => view('Thermenreparatur.wolf'));
-    Route::get('/baxi',fn() => view('Thermenreparatur.baxi'));
-    Route::get('/buderus',fn() => view('Thermenreparatur.buderus'));
-    Route::get('/saunier',fn() => view('Thermenreparatur.saunier'));
-    Route::get('/löblich',fn() => view('Thermenreparatur.löblich'));
-    Route::get('/ocean',fn() => view('Thermenreparatur.ocean'));
-    Route::get('/rapido',fn() => view('Thermenreparatur.rapido'));
-    Route::get('/windhager',fn() => view('Thermenreparatur.windhager'));
-    Route::get('/nordgas',fn() => view('Thermenreparatur.nordgas'));
-});
-
-
-Route::prefix('Installateur')->group(function(){
-    Route::get('/vaillant',fn() => view('Installateur.vaillant'));
-    Route::get('/junkers',fn() => view('Installateur.junkers'));
-    Route::get('/viessmann',fn() => view('Installateur.viessmann'));
-    Route::get('/wolf',fn() => view('Installateur.wolf'));
-    Route::get('/baxi',fn() => view('Installateur.baxi'));
-    Route::get('/buderus',fn() => view('Installateur.buderus'));
-    Route::get('/saunier',fn() => view('Installateur.saunier'));
-    Route::get('/löblich',fn() => view('Installateur.löblich'));
-    Route::get('/ocean',fn() => view('Installateur.ocean'));
-    Route::get('/rapido',fn() => view('Installateur.rapido'));
-    Route::get('/windhager',fn() => view('Installateur.windhager'));
-    Route::get('/nordgas',fn() => view('Installateur.nordgas'));
-});
+// ==================== Installateur ====================
+Route::get('/vaillant-installateur-wien', fn() => view('Installateur.vaillant'))->name('vaillant.installateur');
+Route::get('/junkers-installateur-wien', fn() => view('Installateur.junkers'))->name('junkers.installateur');
+Route::get('/viessmann-installateur-wien', fn() => view('Installateur.viessmann'))->name('viessmann.installateur');
+Route::get('/wolf-installateur-wien', fn() => view('Installateur.wolf'))->name('wolf.installateur');
+// Saunier-Duval uses short view name 'saunier'
+Route::get('/saunier-duval-installateur-wien', fn() => view('Installateur.saunier'))->name('saunier-duval.installateur');
+Route::get('/ocean-installateur-wien', fn() => view('Installateur.ocean'))->name('ocean.installateur');
+Route::get('/rapido-installateur-wien', fn() => view('Installateur.rapido'))->name('rapido.installateur');
+Route::get('/löblich-installateur-wien', fn() => view('Installateur.löblich'))->name('löblich.installateur');
+Route::get('/buderus-installateur-wien', fn() => view('Installateur.buderus'))->name('buderus.installateur');
+Route::get('/baxi-installateur-wien', fn() => view('Installateur.baxi'))->name('baxi.installateur');
+Route::get('/nordgas-installateur-wien', fn() => view('Installateur.nordgas'))->name('nordgas.installateur');
+Route::get('/windhager-installateur-wien', fn() => view('Installateur.windhager'))->name('windhager.installateur');

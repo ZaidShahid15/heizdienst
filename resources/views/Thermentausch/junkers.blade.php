@@ -567,8 +567,9 @@
             <h2 class="promo-banner__title"><em>Junkers Aktion</em></h2>
             <p class="promo-banner__price"><strong>Preis inkl. MwSt</strong></p>
 
-            <a class="promo-banner__btn" href="#kontakt-services" aria-label="Angebot">
-              Angebot
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
+              <span class="promo-banner__btn-ico">  </span>
+              AKTION
             </a>
           </div>
         </div>

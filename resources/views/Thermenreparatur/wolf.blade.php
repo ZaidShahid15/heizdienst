@@ -547,7 +547,10 @@
           <div class="promo-banner__content">
             <h2 class="promo-banner__title"><em>Wolf Kundendienst</em></h2>
             <p class="promo-banner__price"><strong>rund um die Uhr</strong></p>
-            <a class="promo-banner__btn" href="#kontakt-services" aria-label="Kontakt">Kontakt</a>
+            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
+              <span class="promo-banner__btn-ico">  </span>
+              AKTION
+            </a>
           </div>
         </div>
       </section>
