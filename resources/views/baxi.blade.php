@@ -55,123 +55,205 @@
   /* =========================
      HERO (same as yours)
      ========================= */
-  .wolf-hero {
-    position: relative;
-    min-height: 520px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-    padding: 180px 16px 120px;
-    background: #111;
-  }
-  .wolf-hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url("img/hero-scetion.jpeg");
-    background-size: cover;
-    background-position: left center;
-    transform: scale(1.02);
-    z-index: 0;
-  }
-  .wolf-hero::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, .55);
-    z-index: 1;
-  }
-  .wolf-hero__inner {
-    position: relative;
-    z-index: 2;
-    max-width: 900px;
-    margin-top: 40px;
-  }
-  .wolf-hero h1 {
-    margin: 0 0 10px;
-    font-size: clamp(32px, 3.5vw, 54px);
-    line-height: 1.08;
-    font-weight: 800;
-    color: #fff;
-    letter-spacing: -.02em;
-  }
-  .wolf-hero h1 em { font-style: italic; font-weight: 800; }
-  .wolf-hero__sub {
-    margin: 0 auto 48px;
-    max-width: 780px;
-    font-size: 16px;
-    color: rgba(255, 255, 255, .9);
-  }
-  .wolf-hero__actions {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-  }
-  .wolf-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 15px 28px;
-    border-radius: 6px;
-    font-weight: 700;
-    font-size: 14px;
-    border: 1px solid transparent;
-    transition: .15s ease;
-  }
-  .wolf-btn--red {
-    background: var(--accent);
-    color: #1a1a1a;
-  }
-  .wolf-btn--red:hover { transform: translateY(-1px); }
-  .wolf-hero__logo {
-    margin: 45px 0;
-    display: flex;
-    justify-content: center;
-  }
-  .wolf-hero__logo img {
-    width: 170px;
-    max-width: 60vw;
-    transform: rotate(-6deg);
-  }
-  .service-kicker{
-    display:inline-flex;
-    padding:6px 10px;
-    border-radius:999px;
-    background:rgba(255,255,255,.10);
-    border:1px solid rgba(255,255,255,.18);
-    font-weight:800;
-    color:#fff;
-    margin:0 0 12px;
+ /* =========================
+   HERO (Desktop + Mobile unified)
+   ========================= */
+
+.wolf-hero {
+  position: relative;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 160px 20px 110px;
+  overflow: hidden;
+}
+
+/* Background image layer */
+.wolf-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("{{ asset('img/hero-scetion.jpeg') }}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1.02);
+  z-index: 0;
+}
+
+/* Dark overlay like your first site */
+.wolf-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.55);
+  z-index: 1;
+}
+
+/* Content layer */
+.wolf-hero__inner {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+}
+
+/* Heading */
+.wolf-hero h1 {
+  margin: 0 0 14px;
+  font-size: clamp(30px, 3.5vw, 54px);
+  line-height: 1.1;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -.02em;
+}
+
+.wolf-hero h1 em {
+  font-style: italic;
+  font-weight: 800;
+}
+
+/* Sub text */
+.wolf-hero__sub {
+  margin: 0 auto 38px;
+  max-width: 720px;
+  font-size: 16px;
+  color: rgba(255,255,255,.92);
+}
+
+/* Kicker */
+.service-kicker {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.25);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+/* Buttons */
+.wolf-hero__actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.wolf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  transition: .2s ease;
+}
+
+.wolf-btn--red {
+  background: var(--accent);
+  color: #1a1a1a;
+}
+
+.wolf-btn--red:hover {
+  transform: translateY(-2px);
+}
+
+/* Logo */
+.wolf-hero__logo {
+  margin: 36px 0;
+}
+
+.wolf-hero__logo img {
+  width: 170px;
+  max-width: 60vw;
+  transform: rotate(-6deg);
+}
+
+/* =========================
+   MOBILE FIX (like first site)
+   ========================= */
+
+/* =====================================
+   MOBILE HERO UPDATE (Like Screenshot)
+   ===================================== */
+@media (max-width: 768px){
+
+  .wolf-hero{
+    text-align:left;             /* LEFT align like screenshot */
+    align-items:flex-start;
+    padding:110px 20px 70px;
+    min-height:520px;
   }
 
-  /* Diagonal bottom */
-  .wolf-hero .wolf-hero__inner::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -120px;
-    width: 303vw;
-    height: 2100px;
-    background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
-    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
-    z-index: -1;
-    opacity: .9;
+  /* Strong green overlay fade */
+  .wolf-hero::after{
+    background: linear-gradient(
+      90deg,
+      rgba(16,66,75,0.98) 0%,
+      rgba(16,66,75,0.92) 35%,
+      rgba(16,66,75,0.65) 55%,
+      rgba(16,66,75,0.25) 75%,
+      rgba(16,66,75,0) 100%
+    );
   }
 
-  /* Promo banner bg image (yours) */
-  .promo-banner__inner::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: url("{{ asset('img/final.png') }}") right center / cover no-repeat;
-    z-index: 0;
+  .wolf-hero::before{
+    background-position:right center;
   }
+
+  .wolf-hero__inner{
+    max-width:420px;
+    margin-top:20px;
+  }
+
+  .wolf-hero h1{
+    font-size:28px;
+    line-height:1.15;
+    margin-bottom:10px;
+  }
+
+  .wolf-hero h1 em{
+    display:block;
+    font-style:normal;
+    font-weight:700;
+    color:var(--accent);        /* Orange highlight line */
+    margin-top:6px;
+  }
+
+  .wolf-hero__sub{
+    font-size:14px;
+    margin-bottom:22px;
+    color:rgba(255,255,255,.88);
+  }
+
+  .wolf-hero__actions{
+    justify-content:flex-start;  /* buttons left aligned */
+    gap:10px;
+  }
+
+  .wolf-btn{
+    /* width: 100%; */
+    padding:14px;
+    font-size:13px;
+    border-radius:6px;
+  }
+
+  .wolf-hero__logo{
+    margin:22px 0;
+    justify-content:start;  /* logo left aligned */
+  }
+
+  .wolf-hero__logo img{
+    width:120px;
+    transform:none;
+  }
+
+}
+
 
   /* =========================
      ✅ TOC like screenshot
@@ -340,7 +422,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit:cover;
+    /* object-fit:cover; */
     object-position:center;
   }
 
@@ -979,98 +1061,4 @@
 
 </main>
 
-<!-- <script>
-(function(){
-
-  // Smooth scroll
-  document.querySelectorAll('a[href^="#"]').forEach(function(a){
-    a.addEventListener('click', function(e){
-      var id = a.getAttribute('href');
-      if (!id || id === '#') return;
-      var el = document.querySelector(id);
-      if (!el) return;
-      e.preventDefault();
-      var offset = 16;
-      var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
-      window.scrollTo({ top: top, behavior: 'smooth' });
-    });
-  });
-
-  var tocCard   = document.getElementById('tocCard');
-  var tocToggle = document.getElementById('tocToggle');
-  var tocHead   = document.getElementById('tocHead');
-
-  function setExpanded(isExpanded){
-    if (!tocCard || !tocToggle) return;
-
-    tocCard.classList.toggle('is-collapsed', !isExpanded);
-    tocToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-    if (tocHead) tocHead.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-
-    var svg = tocToggle.querySelector('svg');
-    if (svg){
-      svg.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
-    }
-  }
-
-  // ✅ Replace TOC labels with FULL section <h2> text
-  function updateTocHeadings(){
-    var links = document.querySelectorAll('#tocList a[href^="#"]');
-
-    links.forEach(function(link){
-      var target = link.getAttribute('href');
-      if (!target) return;
-
-      var section = document.querySelector(target);
-      if (!section) return;
-
-      // Find the first H2 in that section
-      var h2 = section.querySelector('h2');
-      if (!h2) return;
-
-      var full = (h2.textContent || '').trim().replace(/\s+/g,' ');
-      if (!full) return;
-
-      var textEl = link.querySelector('.toc-text');
-      if (textEl) textEl.textContent = full;
-    });
-  }
-
-  // ✅ INIT: collapsed by default + headings update
-  setExpanded(false);
-  updateTocHeadings();
-
-  // Toggle on button click
-  if (tocToggle){
-    tocToggle.addEventListener('click', function(e){
-      e.stopPropagation();
-      var expanded = tocToggle.getAttribute('aria-expanded') === 'true';
-      setExpanded(!expanded);
-    });
-  }
-
-  // Toggle when clicking header area
-  if (tocHead && tocToggle){
-    tocHead.addEventListener('click', function(e){
-      if (e.target.closest('#tocToggle')) return;
-      tocToggle.click();
-    });
-
-    tocHead.addEventListener('keydown', function(e){
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        tocToggle.click();
-      }
-    });
-  }
-
-})();
-</script> -->
-
-<!-- <script>
-  (function(){
-    var y = document.getElementById("year");
-    if (y) y.textContent = new Date().getFullYear();
-  })();
-</script> -->
 @endsection

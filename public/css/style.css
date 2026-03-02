@@ -2571,19 +2571,27 @@
     max-width:900px;
     margin-top:40px;
   }
-  .wolf-hero .wolf-hero__inner::after{
-    content:"";
-    position:absolute;
-    left:50%;
-    transform:translateX(-50%);
-    bottom:-120px;
-    width:303vw;
-    height:2100px;
-    background:linear-gradient(90deg, rgba(10,66,75,0.92));
-    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
-    z-index:-1;
-    opacity:.9;
+
+  @media (max-width: 768px) {
+
+  /* Replace dark overlay with green gradient */
+  .wolf-hero::after {
+    background: linear-gradient(
+      90deg,
+      rgba(24,64,72,0.95) 0%,     /* strong green left */
+      rgba(24,64,72,0.85) 25%,
+      rgba(24,64,72,0.55) 45%,
+      rgba(24,64,72,0.25) 65%,
+      rgba(24,64,72,0.05) 80%,
+      rgba(24,64,72,0) 100%      /* fully transparent right */
+    );
   }
+
+  /* Make background image align better for mobile */
+  .wolf-hero::before {
+    background-position: right center;
+  }
+}
 
   .wolf-hero__kicker{
     display:inline-flex;

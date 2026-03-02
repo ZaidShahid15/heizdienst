@@ -152,20 +152,6 @@
             transform: rotate(-6deg);
         }
 
-        /* ✅ diagonal grey bottom shape */
-        .wolf-hero .wolf-hero__inner::after {
-            content: "";
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -120px;
-            width: 303vw;
-            height: 3100px;
-            background: linear-gradient(90deg, rgba(10, 66, 75, 0.92));
-            clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
-            z-index: -1;
-            opacity: .9;
-        }
 
         /* mobile */
         @media (max-width: 700px) {
@@ -356,7 +342,7 @@ background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), tra
             </a>
             <a class="m-callbtn" href="tel:+4314420617"><svg>
                     <use href="#i-phone"></use>
-                </svg>+43 0 000000</a>
+                </svg>+4314420617</a>
         </div>
     </div>
 
