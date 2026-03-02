@@ -122,7 +122,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit:cover;      /* keep nice crop */
+    /* object-fit:cover;      keep nice crop */
     object-position:center;
   }
 

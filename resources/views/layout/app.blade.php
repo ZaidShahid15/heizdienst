@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -77,7 +79,7 @@
         .wolf-hero__inner {
             position: relative;
             z-index: 2;
-            max-width: 1132px !important;
+            /* max-width: 1132px !important; */
             margin-top: 40px;
         }
 
@@ -99,7 +101,7 @@
         /* subtitle */
         .wolf-hero__sub {
             margin: 0 auto 48px;
-            max-width: 780px;
+            /* max-width: 780px; */
             font-size: 16px;
             color: rgba(255, 255, 255, .9);
         }
@@ -721,7 +723,7 @@ background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), tra
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
     </script>
 
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
 </body>
 
 </html>

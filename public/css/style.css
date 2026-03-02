@@ -2567,8 +2567,9 @@
   }
   .wolf-hero__inner{
     position:relative;
+    width: 100%;
     z-index:2;
-    max-width:900px;
+    /* max-width:900px; */
     margin-top:40px;
   }
 
@@ -2614,7 +2615,8 @@
   .wolf-hero h1 em{font-style:italic; font-weight:800;}
   .wolf-hero__sub{
     margin:0 auto 28px;
-    max-width:780px;
+    text-align: center;
+    /* max-width:780px; */
     font-size:16px;
     color:rgba(255,255,255,.9);
   }

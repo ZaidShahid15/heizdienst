@@ -64,7 +64,7 @@
   min-height: 560px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   text-align: center;
   padding: 160px 20px 110px;
   overflow: hidden;
@@ -82,7 +82,12 @@
   transform: scale(1.02);
   z-index: 0;
 }
-
+.hero-trust{
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+  display:flex;
+}
 /* Dark overlay like your first site */
 .wolf-hero::after {
   content: "";
@@ -94,14 +99,16 @@
 
 /* Content layer */
 .wolf-hero__inner {
+  text-align: start;
   position: relative;
   z-index: 2;
-  max-width: 900px;
+  /* max-width: 900px; */
 }
 
 /* Heading */
 .wolf-hero h1 {
   margin: 0 0 14px;
+  text-align:center;
   font-size: clamp(30px, 3.5vw, 54px);
   line-height: 1.1;
   font-weight: 800;
@@ -116,8 +123,8 @@
 
 /* Sub text */
 .wolf-hero__sub {
-  margin: 0 auto 38px;
-  max-width: 720px;
+  margin: 0 ;
+  /* max-width: 720px; */
   font-size: 16px;
   color: rgba(255,255,255,.92);
 }
@@ -133,7 +140,10 @@
   color: #fff;
   margin-bottom: 14px;
 }
-
+.hero-first-block{
+  border-bottom:none !important;
+  border-top:none !important;
+}
 /* Buttons */
 .wolf-hero__actions {
   display: flex;
@@ -141,7 +151,20 @@
   gap: 12px;
   flex-wrap: wrap;
 }
-
+.hero-trust .stars {
+        color: #ffc107;
+        margin: 4px 0;
+    } 
+    .rating strong{
+      color:white;
+    }
+.rating{
+  color:white;
+}
+.badges{
+  color:white;
+  white-space: nowrap;
+}
 .wolf-btn {
   display: inline-flex;
   align-items: center;
@@ -165,12 +188,16 @@
 /* Logo */
 .wolf-hero__logo {
   margin: 36px 0;
+  justify-content: center;
 }
 
 .wolf-hero__logo img {
   width: 170px;
   max-width: 60vw;
   transform: rotate(-6deg);
+}
+  .wolf-hero::after {
+    background: linear-gradient(90deg, rgba(15, 66, 74, 0.98) 0%, rgba(15, 66, 74, 0.95) 40%, rgba(15, 66, 74, 0.75) 46%, rgba(15, 66, 74, 0.35) 80%, rgba(15, 66, 74, 0.05) 90%);
 }
 
 /* =========================
@@ -556,18 +583,187 @@
     .wolf-hero__sub { font-size: 14px }
   }
 </style>
+<style>
+  /* =====================================
+   MOBILE HERO – EXACT LIKE SCREENSHOT
+   ===================================== */
+   .hero-first-block{
+  padding: 20px 0;
+  border-bottom:1px solid rgb(96 122 126 / 98%);
+  border-top:1px solid rgb(96 122 126 / 98%);
+  /* width: 70vw; */
+  text-align: center;
 
+}
+
+@media (max-width: 768px){
+
+  .wolf-hero{
+    text-align:left;
+    align-items:flex-start;
+    padding:110px 20px 80px;
+    min-height:560px;
+  }
+
+  /* Exact dark teal left overlay */
+  .wolf-hero::after{
+    background: linear-gradient(
+      90deg,
+      rgba(15,66,74,0.98) 0%,
+      rgba(15,66,74,0.95) 40%,
+      rgba(15,66,74,0.75) 60%,
+      rgba(15,66,74,0.35) 80%,
+      rgba(15,66,74,0.05) 100%
+    );
+  }
+
+  .wolf-hero::before{
+    background-position:right center;
+  }
+
+  .wolf-hero__inner{
+    max-width:420px;
+    margin-top:10px;
+  }
+
+  /* Main title */
+  .wolf-hero h1{
+    font-size:26px;
+    line-height:1.2;
+    font-weight:800;
+    margin-bottom:8px;
+    color:#ffffff;
+  }
+
+  /* Orange highlight line */
+  .wolf-hero h1 em{
+    display:block;
+    font-style:normal;
+    font-weight:700;
+    font-size:17px;
+    color:#f79c1c;
+    margin-top:6px;
+  }
+
+  /* Description text */
+  .wolf-hero__sub{
+    font-size:14px;
+    color:rgba(255,255,255,.92);
+    margin-bottom:18px;
+  }
+
+  /* BAXI logo styling */
+  .wolf-hero__logo img{
+    width:140px;
+    transform:none;
+  }
+
+  /* Action buttons container */
+  .wolf-hero__actions{
+    flex-direction:column;
+    gap:10px;
+    align-items:flex-start;
+  }
+
+  /* ORANGE CALL BUTTON */
+  .wolf-btn--red{
+    width:100%;
+    background:#f79c1c;
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    padding:14px;
+    border-radius:6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+  }
+
+  .wolf-btn--red i{
+    font-size:16px;
+  }
+
+  /* WHITE OUTLINE BUTTON */
+  .wolf-btn-outline{
+    /* width:100%; */
+    margin: auto;
+    border:1px solid rgba(255,255,255,.5);
+    color:#fff;
+    background:transparent;
+    font-size:14px;
+    font-weight:600;
+    padding:14px;a
+    border-radius:6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+  }
+
+  .wolf-btn-outline:hover{
+    background:rgba(255,255,255,.08);
+  }
+
+  /* TRUST SECTION */
+  .hero-trust{
+    margin-top:18px;
+    color:#fff;
+  }
+
+  .hero-trust .rating{
+    font-size:14px;
+    font-weight:600;
+  }
+
+  .hero-trust .stars{
+    color:#ffc107;
+    margin:4px 0;
+  }
+
+  .hero-trust .badges{
+    margin-top:10px;
+    font-size:13px;
+  }
+
+  .hero-trust .badges div{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-bottom:6px;
+  }
+  .hero-trust{
+    display:block;  
+  }
+
+  .hero-first-block{
+  padding: 20px 0;
+  border-bottom:1px solid rgb(96 122 126 / 98%);
+  border-top:1px solid rgb(96 122 126 / 98%);
+  /* width: 70vw; */
+  text-align: start;
+
+}
+
+.wolf-hero h1{
+  text-align: left;
+}
+.wolf-hero__sub{
+  text-align: left;
+
+}
+
+}
+
+</style>
 <main>
 
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
-    <div class="wolf-hero__inner">
-
-      <p class="service-kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
-
-      <h1>
-        Baxi Thermenwartung Wien<br>
-        <em>Rund um die Uhr Service vom Fachbetrieb.</em>
+    <div class="wolf-hero__inner container">
+      <h1 >
+        Baxi Thermenwartung Wien <br>
+       <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
       <div class="wolf-hero__logo">
@@ -579,24 +775,59 @@
         Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
       </p>
 
-      <div class="wolf-hero__actions">
+      <!-- <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="#kontakt-services">Jetzt Termin vereinbaren</a>
         <a class="wolf-btn wolf-btn--red" href="#leistungen-services">Leistungen ansehen</a>
-      </div>
+      </div> -->
 
-      <section class="promo-banner" id="wolf-aktion">
-        <div class="promo-banner__inner">
-          <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Baxi Thermenwartung Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab  €95</strong></p>
+      <div class="wolf-hero__actions">
 
-            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
-              <span class="promo-banner__btn-ico"></span>
-              AKTION
-            </a>
-          </div>
-        </div>
-      </section>
+  <!-- ORANGE CALL BUTTON -->
+  <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">
+    <i class="bi bi-telephone-fill"></i>
+    JETZT ANRUFEN: +431 442 0617
+  </a>
+
+  <!-- WHITE OUTLINE BUTTON -->
+  <a class="wolf-btn wolf-btn-outline" href="#kontakt-services">
+    <i class="bi bi-arrow-right"></i>
+    Anfrage senden
+  </a>
+
+</div>
+
+<!-- TRUST SECTION -->
+<div class="hero-trust">
+  <div class="hero-first-block" style="">
+  <div class="rating d-flex gap-3">
+    <strong class="d-flex gap-3 align-items-center"><img src="{{ asset('img/google-icon.svg') }}" style="width:20px" alt=""> Google</strong>
+    <div class="stars">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+    </div>
+  </div>
+
+
+  <div class="rating">
+    4,9/5 (160+ Bewertungen)
+  </div>
+  </div>
+
+  <div class="badges">
+    <div>
+      <i class="bi bi-patch-check-fill text-warning"></i>
+      Geprüfte Experten
+    </div>
+    <div>
+      <i class="bi bi-shield-check text-warning"></i>
+      100% Zufrieden
+    </div>
+  </div>
+
+</div>
 
     </div>
   </section>

@@ -161,7 +161,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit:cover; /* ✅ keep ratio, fill area */
+    /* object-fit:cover; ✅ keep ratio, fill area */
     object-position:center;
   }
 

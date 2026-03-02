@@ -152,7 +152,7 @@
     width:100%;
     height:100%;          /* ✅ match wrapper height */
     display:block;
-    object-fit:cover;      /* ✅ fill without distortion */
+    object-fit:cover;      ✅ fill without distortion
     object-position:center;
   }
 

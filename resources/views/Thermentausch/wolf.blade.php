@@ -236,7 +236,7 @@
     width:100%;
     height:100%;
     display:block;
-    object-fit:cover;       /* ✅ cover */
+    /* object-fit:cover;       ✅ cover */
     object-position:center;
   }
 
