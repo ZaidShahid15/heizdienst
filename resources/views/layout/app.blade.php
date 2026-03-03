@@ -175,112 +175,344 @@
     </style>
     <style>
         /* Promo banner (like screenshot) */
-.promo-banner{
-  /* width: min(1120px, 92%); */
-  margin: 86px auto 18px;
-  
-}
+    .promo-banner{
+    /* width: min(1120px, 92%); */
+    margin: 86px auto 18px;
+    
+    }
 
-.promo-banner__inner{
+    .promo-banner__inner{
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+    min-height: 120px;
+    background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), transparent 60%), radial-gradient(800px 260px at 90% 20%, rgba(24, 64, 72, .16), transparent 60%), #fff;  border: 1px solid rgba(0,0,0,.06);
+    }
+
+    /* Right side image */
+
+
+    /* White fade from left -> right (like screenshot) */
+    .promo-banner__inner::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background: linear-gradient(90deg,
+        rgba(255,255,255,1) 0%,
+        rgba(255,255,255,.98) 38%,
+        rgba(255,255,255,.80) 55%,
+        rgba(255,255,255,.00) 75%
+    );
+    z-index:1;
+    }
+
+    .promo-banner__content{
+    position: relative;
+    z-index:2;
+    padding: 22px 26px;
+    max-width: 430px;
+    }
+
+    .promo-banner__title{
+    margin:0 0 6px;
+    font-size: 22px;
+    line-height: 1.1;
+    color:#143D42; /* red */
+    font-weight: 800;
+    }
+
+    .promo-banner__price{
+    margin:0 0 12px;
+    font-size: 34px;
+    line-height: 1;
+    color:#143D42;
+    font-weight: 900;
+    }
+
+    /* Button */
+    .promo-banner__btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding: 10px 16px;
+    background:#143D42;
+    color:#fff;
+    font-weight: 900;
+    border-radius: 6px;
+    text-decoration:none;
+    box-shadow: 0 10px 24px rgba(224,0,0,.18);
+    transition: .18s ease;
+    letter-spacing:.02em;
+    }
+
+    .promo-banner__btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 14px 30px rgba(224,0,0,.22);
+    }
+
+    .promo-banner__btn-ico{
+    font-size: 14px;
+    line-height: 1;
+    }
+
+    /* Mobile */
+    @media (max-width: 720px){
+    .promo-banner__inner{
+        min-height: 150px;
+    }
+    .promo-banner__inner::before{
+        background: linear-gradient(180deg,
+        rgba(255,255,255,1) 0%,
+        rgba(255,255,255,.94) 55%,
+        rgba(255,255,255,.25) 100%
+        );
+    }
+    .promo-banner__content{
+        max-width: 100%;
+        padding: 18px 18px;
+    }
+    .promo-banner__price{
+        font-size: 30px;
+    }
+    }
+
+    .wolf-hero__kicker{
+        text-transform: capitalize !important;
+
+    }
+
+    </style>
+    <style>
+         <style>
+        input, textarea
+ {
+    margin-top: 10px
+ }
+ .service-tab {
+        border: 1px solid #848484 !important;
+ }
+    
+.wolf-hero {
   position: relative;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  padding: 160px 20px 110px;
   overflow: hidden;
-  border-radius: 14px;
-  min-height: 120px;
-background: radial-gradient(900px 320px at 10% 10%, rgba(251, 154, 27, .22), transparent 60%), radial-gradient(800px 260px at 90% 20%, rgba(24, 64, 72, .16), transparent 60%), #fff;  border: 1px solid rgba(0,0,0,.06);
 }
 
-/* Right side image */
-
-
-/* White fade from left -> right (like screenshot) */
-.promo-banner__inner::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  background: linear-gradient(90deg,
-    rgba(255,255,255,1) 0%,
-    rgba(255,255,255,.98) 38%,
-    rgba(255,255,255,.80) 55%,
-    rgba(255,255,255,.00) 75%
-  );
-  z-index:1;
+/* Background image layer */
+.wolf-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("{{ asset('img/hero-scetion.jpeg') }}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1.02);
+  z-index: 0;
+}
+.hero-trust{
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+  display:flex;
+}
+/* Dark overlay like your first site */
+.wolf-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.55);
+  z-index: 1;
 }
 
-.promo-banner__content{
+/* Content layer */
+.wolf-hero__inner {
+  text-align: start;
   position: relative;
-  z-index:2;
-  padding: 22px 26px;
-  max-width: 430px;
+  z-index: 2;
+  /* max-width: 900px; */
 }
 
-.promo-banner__title{
-  margin:0 0 6px;
-  font-size: 22px;
+/* Heading */
+.wolf-hero h1 {
+  margin: 0 0 14px;
+  text-align:center;
+  font-size: clamp(30px, 3.5vw, 54px);
   line-height: 1.1;
-  color:#143D42; /* red */
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -.02em;
+}
+
+.wolf-hero h1 em {
+  font-style: italic;
   font-weight: 800;
 }
 
-.promo-banner__price{
-  margin:0 0 12px;
-  font-size: 34px;
-  line-height: 1;
-  color:#143D42;
-  font-weight: 900;
+/* Sub text */
+.wolf-hero__sub {
+  margin: 0 ;
+  /* max-width: 720px; */
+  font-size: 16px;
+  color: rgba(255,255,255,.92);
 }
 
-/* Button */
-.promo-banner__btn{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  padding: 10px 16px;
-  background:#143D42;
-  color:#fff;
-  font-weight: 900;
-  border-radius: 6px;
-  text-decoration:none;
-  box-shadow: 0 10px 24px rgba(224,0,0,.18);
-  transition: .18s ease;
-  letter-spacing:.02em;
+/* Kicker */
+.service-kicker {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.25);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
 }
-
-.promo-banner__btn:hover{
-  transform: translateY(-1px);
-  box-shadow: 0 14px 30px rgba(224,0,0,.22);
+.hero-first-block{
+  border-bottom:none !important;
+  border-top:none !important;
 }
-
-.promo-banner__btn-ico{
+/* Buttons */
+.wolf-hero__actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.hero-trust .stars {
+        color: #ffc107;
+        margin: 4px 0;
+    } 
+    .rating strong{
+      color:white;
+    }
+.rating{
+  color:white;
+}
+.badges{
+  color:white;
+  white-space: nowrap;
+}
+.wolf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1;
+  transition: .2s ease;
 }
 
-/* Mobile */
-@media (max-width: 720px){
-  .promo-banner__inner{
-    min-height: 150px;
-  }
-  .promo-banner__inner::before{
-    background: linear-gradient(180deg,
-      rgba(255,255,255,1) 0%,
-      rgba(255,255,255,.94) 55%,
-      rgba(255,255,255,.25) 100%
-    );
-  }
-  .promo-banner__content{
-    max-width: 100%;
-    padding: 18px 18px;
-  }
-  .promo-banner__price{
-    font-size: 30px;
-  }
+.wolf-btn--red {
+  background: var(--accent);
+  color: #1a1a1a;
 }
 
-.wolf-hero__kicker{
-    text-transform: capitalize !important;
-
+.wolf-btn--red:hover {
+  transform: translateY(-2px);
 }
 
+/* Logo */
+.wolf-hero__logo {
+  margin: 36px 0;
+  justify-content: center;
+}
+
+.wolf-hero__logo img {
+  width: 170px;
+  max-width: 60vw;
+  transform: rotate(-6deg);
+}
+  .wolf-hero::after {
+    background: linear-gradient(90deg, rgba(15, 66, 74, 0.98) 0%, rgba(15, 66, 74, 0.95) 40%, rgba(15, 66, 74, 0.75) 46%, rgba(15, 66, 74, 0.35) 80%, rgba(15, 66, 74, 0.05) 90%) !important;
+}
+
+/* =========================
+   MOBILE FIX (like first site)
+   ========================= */
+
+/* =====================================
+   MOBILE HERO UPDATE (Like Screenshot)
+   ===================================== */
+@media (max-width: 768px){
+
+  .wolf-hero{
+    text-align:left;             /* LEFT align like screenshot */
+    align-items:flex-start;
+    padding:110px 20px 70px;
+    min-height:520px;
+  }
+
+  /* Strong green overlay fade */
+  .wolf-hero::after{
+    background: linear-gradient(
+      90deg,
+      rgba(16,66,75,0.98) 0%,
+      rgba(16,66,75,0.92) 35%,
+      rgba(16,66,75,0.65) 55%,
+      rgba(16,66,75,0.25) 75%,
+      rgba(16,66,75,0) 100%
+    ) !important;
+  }
+
+  .wolf-hero::before{
+    background-position:right center;
+  }
+
+  .wolf-hero__inner{
+    max-width:420px;
+    margin-top:20px;
+  }
+
+  .wolf-hero h1{
+    font-size:28px;
+    line-height:1.15;
+    margin-bottom:10px;
+  }
+
+  .wolf-hero h1 em{
+    display:block;
+    font-style:normal;
+    font-weight:700;
+    color:var(--accent);        /* Orange highlight line */
+    margin-top:6px;
+  }
+
+  .wolf-hero__sub{
+    font-size:14px;
+    margin-bottom:22px;
+    color:rgba(255,255,255,.88);
+  }
+
+  .wolf-hero__actions{
+    justify-content:flex-start;  /* buttons left aligned */
+    gap:10px;
+  }
+
+  .wolf-btn{
+    /* width: 100%; */
+    padding:14px;
+    font-size:13px;
+    border-radius:6px;
+  }
+
+  .wolf-hero__logo{
+    margin:22px 0;
+    justify-content:start;  /* logo left aligned */
+  }
+
+  .wolf-hero__logo img{
+    width:120px;
+    transform:none;
+  }
+
+}
     </style>
     <!-- SVG icons -->
     <div aria-hidden="true"><?php /* keep HTML valid in WP; harmless elsewhere */ ?></div>

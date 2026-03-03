@@ -521,47 +521,71 @@
 <main>
 
   <!-- HERO -->
+  
+  <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
-    <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">installation • wartung • service</p>
-
+    <div class="wolf-hero__inner container">
       <h1>
-        Viessmann Installateur<br>
-        <em>Wien</em>
+        Viessmann Thermenwartung Wien <br>
+        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
+      <div class="wolf-hero__logo">
+        <img src="{{ asset('img/viessmann.jpeg') }}" alt="Viessmann Logo">
+      </div>
+
       <p class="wolf-hero__sub">
-        Als Viessmann Installateur Wien bieten wir professionelle Installation, Wartung und Service für moderne Heizsysteme, Thermen und Wärmepumpen in Wien.
+        Professionelle Viessmann Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Viessmann Therme,
+        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
       </p>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann Installateur Wien" loading="lazy" decoding="async">
-      </div>
-
-      <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Therme</span>
-        <span class="wolf-pill">Wärmepumpe</span>
-        <span class="wolf-pill">Thermenwartung</span>
-        <span class="wolf-pill">Service</span>
-      </div>
-
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt anfragen</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">
+          <i class="bi bi-telephone-fill"></i>
+          JETZT ANRUFEN: +431 442 0617
+        </a>
+
+        <a class="wolf-btn wolf-btn-outline" href="#kontakt-services">
+          <i class="bi bi-arrow-right"></i>
+          Anfrage senden
+        </a>
       </div>
 
-      <section class="promo-banner" id="vies-aktion">
-        <div class="promo-banner__inner">
-          <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Persönliche Beratung</em></h2>
-            <p class="promo-banner__price"><strong>Faire Kosten</strong></p>
+      <div class="hero-trust">
+        <div class="hero-first-block">
+          <div class="rating d-flex gap-3">
+            <strong class="d-flex gap-3 align-items-center">
+              <img src="{{ asset('img/google-icon.svg') }}" style="width:20px" alt=""> Google
+            </strong>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
 
-            <a class="promo-banner__btn" href="#kontakt-services" aria-label="Anfrage">
-              Anfrage
-            </a>
+          <div class="rating">
+            4,9/5 (160+ Bewertungen)
           </div>
         </div>
-      </section>
+
+        <div class="badges">
+          <div>
+            <i class="bi bi-patch-check-fill text-warning"></i>
+            Geprüfte Experten
+          </div>
+          <div>
+            <i class="bi bi-shield-check text-warning"></i>
+            100% Zufrieden
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
     </div>
   </section>
 

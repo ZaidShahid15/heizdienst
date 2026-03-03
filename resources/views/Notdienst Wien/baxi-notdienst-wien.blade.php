@@ -509,44 +509,71 @@
 
 <main>
   <!-- HERO -->
+  
+  <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
-    <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">service rund um die uhr</p>
-
+    <div class="wolf-hero__inner container">
       <h1>
-        Baxi Kundendienst Wien<br>
-        <em>Thermenwartung &amp; Service</em>
+        Baxi-notdienst-wien Thermenwartung Wien <br>
+        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
+      <div class="wolf-hero__logo">
+        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi-notdienst-wien Logo">
+      </div>
+
       <p class="wolf-hero__sub">
-        Schnelle Hilfe bei Störungen, Ausfällen oder Problemen mit der Gastherme – der Baxi Notdienst Wien ist rund um die Uhr erreichbar.
+        Professionelle Baxi-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Baxi-notdienst-wien Therme,
+        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
       </p>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi Kundendienst Wien" loading="lazy" decoding="async">
-      </div>
-
-      <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Thermenwartung</span>
-        <span class="wolf-pill">Reparatur</span>
-        <span class="wolf-pill">Gastherme Service</span>
-        <span class="wolf-pill">Notdienst 24h</span>
-      </div>
-
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">
+          <i class="bi bi-telephone-fill"></i>
+          JETZT ANRUFEN: +431 442 0617
+        </a>
+
+        <a class="wolf-btn wolf-btn-outline" href="#kontakt-services">
+          <i class="bi bi-arrow-right"></i>
+          Anfrage senden
+        </a>
       </div>
 
-      <section class="promo-banner" id="baxi-aktion">
-        <div class="promo-banner__inner">
-          <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Baxi Kundendienst Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab €95</strong></p>
-            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">AKTION</a>
+      <div class="hero-trust">
+        <div class="hero-first-block">
+          <div class="rating d-flex gap-3">
+            <strong class="d-flex gap-3 align-items-center">
+              <img src="{{ asset('img/google-icon.svg') }}" style="width:20px" alt=""> Google
+            </strong>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+
+          <div class="rating">
+            4,9/5 (160+ Bewertungen)
           </div>
         </div>
-      </section>
+
+        <div class="badges">
+          <div>
+            <i class="bi bi-patch-check-fill text-warning"></i>
+            Geprüfte Experten
+          </div>
+          <div>
+            <i class="bi bi-shield-check text-warning"></i>
+            100% Zufrieden
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
     </div>
   </section>
 

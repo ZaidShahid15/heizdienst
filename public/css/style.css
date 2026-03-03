@@ -1677,6 +1677,7 @@
 
         .m-hero-badges {
             position: absolute;
+            padding: 0 20px;
             left: 12px;
             right: 12px;
             bottom: 12px;
@@ -2592,6 +2593,8 @@
   .wolf-hero::before {
     background-position: right center;
   }
+
+ 
 }
 
   .wolf-hero__kicker{
@@ -2762,4 +2765,106 @@
 
  h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize !important;
+}
+
+.badges {
+    color: white;
+    white-space: nowrap;
+}   
+  @media (max-width: 768px) {
+ .wolf-hero h1{
+    text-align: left !important;
+    margin:0 0 10px;
+    font-size: clamp(32px, 3.5vw, 54px);
+    line-height:1.08;
+    font-weight:800;
+    color:#fff;
+    letter-spacing:-.02em;
+  }
+  .wolf-hero__logo{
+    text-align: left !important;
+    justify-content: start !important;
+  }
+  .wolf-hero__sub{
+    margin: 0 !important;
+    text-align: left !important;
+  }
+
+  }
+
+  @media (max-width: 768px) {
+    .hero-trust {
+        display: block !important;
+        margin-top: 18px;
+        color: #fff;
+    }
+    .wolf-hero__logo img {
+        transform: rotate(0deg) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-trust .rating {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 768px) {
+    .hero-trust .rating {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-first-block {
+        padding: 20px 0;
+        border-bottom: 1px solid rgb(96 122 126 / 98%) !important;
+        border-top: 1px solid rgb(96 122 126 / 98%)  !important;
+        /* width: 70vw; */
+        text-align: start;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-trust .badges {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .hero-first-block {
+        padding: 20px 0;
+        border-bottom: 1px solid rgb(96 122 126 / 98%) !important;
+        border-top: 1px solid rgb(96 122 126 / 98%) !important;
+        width: 70vw !important;
+        text-align: start;
+    }
+
+        .wolf-btn-outline {
+            margin: auto !important;
+        width: auto !important;
+        border: 1px solid rgba(255, 255, 255, .5) !important;
+        color: #fff !important;
+        background: transparent !important;
+        font-size: 14px !important;
+        padding: 14px !important;
+        border-radius: 6px !important;
+    }
+    /* .hero-first-block{
+        
+    } */
+}
+
+.wolf-hero .wolf-hero__inner::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -120px;
+    width: 303vw;
+    height: 2100px;
+    background: none !important;
+    clip-path: none !important;
+    z-index: -1;
+    opacity: .9;
 }

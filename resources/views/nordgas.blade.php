@@ -469,51 +469,71 @@
 
 <main>
   <!-- HERO -->
+  
+  <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
-    <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">24h Service vom Fachbetrieb</p>
-
+    <div class="wolf-hero__inner container">
       <h1>
-        Nordgas Thermenwartung Wien<br>
-        <em>– 24h Service vom Fachbetrieb</em>
+        Nordgas Thermenwartung Wien <br>
+        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
+      <div class="wolf-hero__logo">
+        <img src="{{ asset('img/nordgas.jpeg') }}" alt="Nordgas Logo">
+      </div>
+
       <p class="wolf-hero__sub">
-        Professionelle Nordgas Thermenwartung Wien durch erfahrene Techniker – zuverlässig, sicher und rund um die Uhr in Wien verfügbar.
-        24h Notdienst & schneller Einsatz, transparente Preise inkl. MwSt, zertifiziertes Team mit Erfahrung und Original Nordgas Teile.
+        Professionelle Nordgas Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Nordgas Therme,
+        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
       </p>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/nordgas.png') }}" alt="Nordgas Thermenwartung Wien – Fachbetrieb" loading="lazy" decoding="async">
-      </div>
-
-      <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">24h Notdienst</span>
-        <span class="wolf-pill">Transparente Preise</span>
-        <span class="wolf-pill">Zertifizierte Techniker</span>
-        <span class="wolf-pill">Original Nordgas Teile</span>
-      </div>
-
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">
+          <i class="bi bi-telephone-fill"></i>
+          JETZT ANRUFEN: +431 442 0617
+        </a>
+
+        <a class="wolf-btn wolf-btn-outline" href="#kontakt-services">
+          <i class="bi bi-arrow-right"></i>
+          Anfrage senden
+        </a>
       </div>
 
-      <section class="promo-banner" id="wolf-aktion">
-        <div class="promo-banner__inner">
-          <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Nordgas Wartungsaktion</em></h2>
-            <p class="promo-banner__price"><strong>ab €95</strong></p>
+      <div class="hero-trust">
+        <div class="hero-first-block">
+          <div class="rating d-flex gap-3">
+            <strong class="d-flex gap-3 align-items-center">
+              <img src="{{ asset('img/google-icon.svg') }}" style="width:20px" alt=""> Google
+            </strong>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
 
-            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
-              <span class="promo-banner__btn-ico">  </span>
-              AKTION
-            </a>
+          <div class="rating">
+            4,9/5 (160+ Bewertungen)
           </div>
         </div>
-      </section>
+
+        <div class="badges">
+          <div>
+            <i class="bi bi-patch-check-fill text-warning"></i>
+            Geprüfte Experten
+          </div>
+          <div>
+            <i class="bi bi-shield-check text-warning"></i>
+            100% Zufrieden
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
+
 
   <!-- ✅ TOC AFTER HERO -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">

@@ -52,293 +52,189 @@
   .service-btn--full{width:100%}
 
   /* HERO */
-  .service-hero{
-    padding:145px 0 48px;
-    position:relative;
-    overflow:hidden;
-    border-bottom:1px solid var(--line);
-    background:#0f2f34;
-  }
-  .service-hero::before{
-    content:"";
-    position:absolute; inset:0;
-    background-image:url('img/hero-scetion.jpeg');
-    background-size:cover;
-    background-position:center;
-    transform:scale(1.02);
-    z-index:0;
-  }
-  .service-hero::after{
-    content:"";
-    position:absolute; inset:0;
-    background:
-      linear-gradient(90deg,
-        rgba(15,47,52,.92) 0%,
-        rgba(15,47,52,.86) 35%,
-        rgba(15,47,52,.45) 55%,
-        rgba(15,47,52,0) 72%
-      );
-    z-index:1;
-  }
-  .service-hero__grid{
-    position:relative;
-    z-index:2;
-    display:grid;
-    grid-template-columns:1fr;
-    gap:18px;
-    align-items:center;
-  }
-  .service-hero__content{max-width:58ch; color:#fff;}
+  /* =========================
+   HERO (Desktop + Mobile unified)
+   ========================= */
 
-  .service-kicker{
-    display:inline-flex;
-    padding:6px 10px;
-    border-radius:999px;
-    background:rgba(255,255,255,.10);
-    border:1px solid rgba(255,255,255,.18);
-    font-weight:800;
-    color:#fff;
-    margin:0 0 12px;
-  }
-  .service-hero h1{
-    margin:0 0 10px;
-    font-size: clamp(30px, 3.2vw, 52px);
-    line-height:1.05;
-    letter-spacing:-.02em;
-    color:#fff;
-  }
-  .service-hero h1 .service-highlight{color:var(--accent)}
-  .service-hero__lead{
-    margin:0 0 14px;
-    font-size:1.05rem;
-    max-width:60ch;
-    color:rgba(255,255,255,.92);
+.wolf-hero {
+  position: relative;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  padding: 160px 20px 110px;
+  overflow: hidden;
+}
+
+/* Background image */
+.wolf-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("{{ asset('img/hero-scetion.jpeg') }}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1.02);
+  z-index: 0;
+}
+
+/* Dark gradient overlay */
+.wolf-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(15,66,74,0.98) 0%,
+    rgba(15,66,74,0.95) 40%,
+    rgba(15,66,74,0.75) 46%,
+    rgba(15,66,74,0.35) 80%,
+    rgba(15,66,74,0.05) 90%
+  );
+  z-index: 1;
+}
+
+.wolf-hero__inner {
+  position: relative;
+  z-index: 2;
+  text-align: start;
+}
+
+/* Heading */
+.wolf-hero h1 {
+  margin: 0 0 14px;
+  text-align: center;
+  font-size: clamp(30px, 3.5vw, 54px);
+  line-height: 1.1;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -.02em;
+}
+
+/* Sub text */
+.wolf-hero__sub {
+  font-size: 16px;
+  color: rgba(255,255,255,.92);
+  margin: 0;
+}
+
+/* Buttons */
+.wolf-hero__actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.wolf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  transition: .2s ease;
+}
+
+.wolf-btn--red {
+  background: var(--accent);
+  color: #1a1a1a;
+}
+
+.wolf-btn-outline {
+  border: 1px solid rgba(255,255,255,.5);
+  color: #fff;
+  background: transparent;
+}
+
+/* Logo */
+.wolf-hero__logo {
+  margin: 36px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.wolf-hero__logo img {
+  width: 170px;
+  max-width: 60vw;
+  transform: rotate(-6deg);
+}
+
+/* Trust */
+.hero-trust {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: white;
+}
+
+.hero-trust .stars {
+  color: #ffc107;
+}
+
+.badges {
+  white-space: nowrap;
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 768px){
+
+  .wolf-hero{
+    text-align:left;
+    align-items:flex-start;
+    padding:110px 20px 70px;
+    min-height:520px;
   }
 
-  .service-hero__bullets{display:flex; flex-wrap:wrap; gap:10px; margin:16px 0 18px;}
-  .service-pill{
-    padding:8px 10px;
-    border-radius:999px;
-    border:1px solid rgba(255,255,255,.22);
-    background:rgba(255,255,255,.10);
-    font-weight:800;
-    font-size:.92rem;
-    color:#fff;
+  .wolf-hero::before{
+    background-position:right center;
   }
-  .service-hero__actions{display:flex; gap:10px; flex-wrap:wrap}
 
-  /* Quick tabs */
-  .service-quicktabs{padding:10px 0 20px}
-  .service-tabs{
-    display:flex; gap:10px; flex-wrap:wrap;
-    padding:10px;
-    border:1px solid var(--line);
-    border-radius:19px;
-    background:#fff;
-    justify-content: space-between
+  .wolf-hero__inner{
+    max-width:420px;
+    margin-top:20px;
   }
-  .service-tab{
-    padding:10px 12px;
-    border-radius:999px;
-    font-weight:800;
-    color:var(--ink);
-    border:1px solid transparent;
+
+  .wolf-hero h1{
+    text-align:left;
+    font-size:28px;
+    line-height:1.15;
   }
-  .service-tab:hover{border-color:var(--line); background:rgba(24,64,72,.05)}
 
-  /* Sections */
-  .service-section{padding:54px 0}
-  .service-section--soft{background:linear-gradient(0deg, var(--muted), #fff)}
-  .service-section__head{margin-bottom:18px;}
-  .service-section__head h2{
-    margin:0 0 6px;
-    color:var(--ink);
-    font-size: clamp(22px, 2.2vw, 32px);
-    letter-spacing:-.02em;
+  .wolf-hero__sub{
+    font-size:14px;
+    margin-bottom:22px;
   }
-  .service-section__head p{margin:0; max-width:70ch}
 
-  .service-grid{display:grid; gap:14px}
-  .service-grid--3{grid-template-columns: repeat(3, 1fr)}
-  .service-grid--2{grid-template-columns: repeat(2, 1fr)}
-
-  .service-card{
-    background:#fff;
-    border:1px solid var(--line);
-    border-radius: var(--radius);
-    padding:16px;
+  .wolf-hero__actions{
+    justify-content:flex-start;
+    flex-direction:column;
   }
-  .service-card--service h3{margin:0 0 8px; color:var(--ink)}
-  .service-card--service p{margin:0 0 10px}
 
-  .service-checklist{margin:0 0 14px; padding-left:18px}
-  .service-checklist li{margin:8px 0}
-  .service-checklist--on-dark{color:rgba(255,255,255,.92)}
-  .service-checklist--on-dark li{margin:10px 0}
-
-  .service-feature{
-    display:flex; gap:12px;
-    padding:16px;
-    border:1px solid var(--line);
-    border-radius:var(--radius);
-    background:#fff;
-  }
-  .service-feature__icon{
-    width:40px; height:40px;
-    border-radius:14px;
-    display:grid; place-items:center;
-    background:rgba(251,154,27,.22);
-    border:1px solid rgba(251,154,27,.35);
-    font-size:18px;
-    flex:0 0 auto;
-  }
-  .service-feature h3{margin:0 0 4px; color:var(--ink)}
-  .service-feature p{margin:0}
-
-  .service-split{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap:18px;
-    align-items:center;
-  }
-  .service-split--reverse .service-split__text{order:2}
-  .service-split--reverse .service-split__media{order:1}
-
-  /* Image box */
-  .service-media{width:100%;}
-  .service-media__box{
+  .wolf-btn{
     width:100%;
-    height:367px;
-    border-radius: var(--radius2);
-    border:1px solid var(--line);
-    box-shadow:0 18px 50px rgba(0,0,0,.12);
-    overflow:hidden;
-    background: var(--muted);
   }
-  .service-media__img{
-    width:100%;
-    height:100%;
+
+  .wolf-hero__logo{
+    justify-content:start;
+  }
+
+  .wolf-hero__logo img{
+    width:120px;
+    transform:none;
+  }
+
+  .hero-trust{
     display:block;
-    /* object-fit:cover; */
-    object-position:center;
+    margin-top:18px;
   }
-
-  .service-stats{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;}
-  .service-stat{
-    display:flex; align-items:center; gap:10px;
-    padding:10px 12px;
-    border-radius:999px;
-    background:rgba(24,64,72,.06);
-    border:1px solid var(--line);
-  }
-  .service-stat__num{font-weight:900; color:var(--ink)}
-  .service-stat__label{font-weight:800}
-
-  .service-chips{display:flex; flex-wrap:wrap; gap:10px}
-  .service-chip{
-    padding:10px 12px;
-    border-radius:999px;
-    background:#fff;
-    border:1px solid var(--line);
-    font-weight:800;
-  }
-
-  .service-steps{margin:0; padding-left:18px;}
-  .service-steps li{margin:12px 0}
-  .service-steps strong{display:block; color:var(--ink)}
-  .service-steps span{display:block}
-
-  .service-section--dark{
-    background:linear-gradient(135deg, var(--ink), rgba(24,64,72,.92));
-    color:#fff;
-  }
-  .service-emergency{
-    display:grid;
-    grid-template-columns: 1.2fr .8fr;
-    gap:16px;
-    align-items:stretch;
-  }
-  .service-emergency__text h2{color:#fff; margin:0 0 10px}
-  .service-emergency__text p{margin:0 0 14px; color:rgba(255,255,255,.9)}
-  .service-emergency__actions{display:flex; gap:10px; flex-wrap:wrap}
-  .service-panel{
-    height:100%;
-    background:rgba(255,255,255,.08);
-    border:1px solid rgba(255,255,255,.18);
-    border-radius:var(--radius);
-    padding:16px;
-  }
-
-  .service-pricecard{
-    border:1px solid var(--line);
-    border-radius:var(--radius);
-    padding:16px;
-    background:#fff;
-  }
-  .service-pricecard h3{margin:0 0 6px; color:var(--ink)}
-  .service-pricecard p{margin:0}
-
-  .service-faq details{
-    border:1px solid var(--line);
-    border-radius:var(--radius);
-    padding:14px 16px;
-    background:#fff;
-  }
-  .service-faq details + details{margin-top:10px}
-  .service-faq summary{
-    cursor:pointer;
-    font-weight:900;
-    color:var(--ink);
-  }
-  .service-faq p{margin:10px 0 0}
-
-  .service-cta{
-    padding:54px 0;
-    background:
-      radial-gradient(900px 320px at 10% 10%, rgba(251,154,27,.22), transparent 60%),
-      radial-gradient(800px 260px at 90% 20%, rgba(24,64,72,.16), transparent 60%),
-      #fff;
-  }
-  .service-cta__inner{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap:16px;
-    align-items:start;
-    border:1px solid var(--line);
-    border-radius:var(--radius2);
-    padding:18px;
-    background:#fff;
-    box-shadow:0 12px 34px rgba(0,0,0,.08);
-  }
-  .service-cta h2{margin:0 0 6px; color:var(--ink)}
-  .service-cta p{margin:0; max-width:60ch}
-
-  .service-cta__form{
-    border:1px solid var(--line);
-    border-radius:var(--radius);
-    padding:14px;
-    background:var(--muted);
-  }
-  label{display:block}
-  label span{display:block; font-weight:800; color:var(--ink); margin:0 0 6px}
-  input, textarea{
-    width:100%;
-    border-radius:14px;
-    border:1px solid var(--line);
-    padding:12px 12px;
-    font:inherit;
-    outline:none;
-    background:#fff;
-  }
-  input:focus, textarea:focus{border-color:rgba(251,154,27,.7); box-shadow:0 0 0 4px rgba(251,154,27,.18)}
-  .service-formrow{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap:10px;
-  }
-  textarea{resize:vertical}
-  .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
-
+}
   /* ✅ TOC (same as previous page) */
   .toc-wrap{
     padding:16px 0 0;
@@ -457,51 +353,71 @@
 
 <main>
   <!-- HERO -->
+  
+  <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
-    <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">Erfahrener Meisterbetrieb • Wien, NÖ &amp; Burgenland</p>
-
+    <div class="wolf-hero__inner container">
       <h1>
-        Junkers Thermenwartung Wien<br>
-        <em>Rund um die Uhr Service vom Fachbetrieb.</em>
+        Junkers Thermenwartung Wien <br>
+        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
+      <div class="wolf-hero__logo">
+        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Logo">
+      </div>
+
       <p class="wolf-hero__sub">
-        Professionelle Junkers Thermenwartung Wien vom erfahrenen Fachbetrieb – zuverlässig, effizient und rund um die Uhr verfügbar
-        für Thermenwartung, Service, Reparaturen und Notdienst in Wien und Umgebung, NÖ und Burgenland.
+        Professionelle Junkers Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Junkers Therme,
+        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
       </p>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Logo" loading="lazy" decoding="async">
-      </div>
-
-      <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">Standard &amp; Premium Wartung</span>
-        <span class="wolf-pill">Reparatur &amp; Notdienst</span>
-        <span class="wolf-pill">Preis inkl. MwSt</span>
-        <span class="wolf-pill">Meisterbetrieb</span>
-      </div>
-
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
+        <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">
+          <i class="bi bi-telephone-fill"></i>
+          JETZT ANRUFEN: +431 442 0617
+        </a>
+
+        <a class="wolf-btn wolf-btn-outline" href="#kontakt-services">
+          <i class="bi bi-arrow-right"></i>
+          Anfrage senden
+        </a>
       </div>
 
-      <section class="promo-banner" id="wolf-aktion">
-        <div class="promo-banner__inner">
-          <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Junkers Thermenwartung Aktion</em></h2>
-            <p class="promo-banner__price"><strong>ab  €95</strong></p>
+      <div class="hero-trust">
+        <div class="hero-first-block">
+          <div class="rating d-flex gap-3">
+            <strong class="d-flex gap-3 align-items-center">
+              <img src="{{ asset('img/google-icon.svg') }}" style="width:20px" alt=""> Google
+            </strong>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
 
-            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
-              <span class="promo-banner__btn-ico"></span>
-              AKTION
-            </a>
+          <div class="rating">
+            4,9/5 (160+ Bewertungen)
           </div>
         </div>
-      </section>
+
+        <div class="badges">
+          <div>
+            <i class="bi bi-patch-check-fill text-warning"></i>
+            Geprüfte Experten
+          </div>
+          <div>
+            <i class="bi bi-shield-check text-warning"></i>
+            100% Zufrieden
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
+
 
   <!-- ✅ TOC (same as previous) -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">

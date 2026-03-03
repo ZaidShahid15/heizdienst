@@ -370,50 +370,71 @@
 <main>
   <!-- HERO -->
  <!-- HERO (same layout/style as the previous wolf-hero, with Saunier Duval content) -->
-<section class="wolf-hero" id="hero-services">
-  <div class="wolf-hero__inner">
-    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
 
-    <h1>
-      Saunier Duval Thermenwartung Wien<br>
-      <em>Rund um die Uhr Service vom Fachbetrieb</em>
-    </h1>
+  <!-- HERO -->
+  <section class="wolf-hero" id="hero-services">
+    <div class="wolf-hero__inner container">
+      <h1>
+        Saunier-duval Thermenwartung Wien <br>
+        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+      </h1>
 
-    <p class="wolf-hero__sub">
-      Professionelle Saunier Duval Thermenwartung Wien durch erfahrene Spezialisten – zuverlässig, effizient und rund um die Uhr verfügbar.
-    </p>
-    <!-- optional logo / image -->
-    <div class="wolf-hero__logo">
-      <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier Duval Thermenservice Wien" loading="lazy" decoding="async">
+      <div class="wolf-hero__logo">
+        <img src="{{ asset('img/saunier-duval.jpeg') }}" alt="Saunier-duval Logo">
+      </div>
+
+      <p class="wolf-hero__sub">
+        Professionelle Saunier-duval Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Saunier-duval Therme,
+        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+      </p>
+
+      <div class="wolf-hero__actions">
+        <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">
+          <i class="bi bi-telephone-fill"></i>
+          JETZT ANRUFEN: +431 442 0617
+        </a>
+
+        <a class="wolf-btn wolf-btn-outline" href="#kontakt-services">
+          <i class="bi bi-arrow-right"></i>
+          Anfrage senden
+        </a>
+      </div>
+
+      <div class="hero-trust">
+        <div class="hero-first-block">
+          <div class="rating d-flex gap-3">
+            <strong class="d-flex gap-3 align-items-center">
+              <img src="{{ asset('img/google-icon.svg') }}" style="width:20px" alt=""> Google
+            </strong>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+
+          <div class="rating">
+            4,9/5 (160+ Bewertungen)
+          </div>
+        </div>
+
+        <div class="badges">
+          <div>
+            <i class="bi bi-patch-check-fill text-warning"></i>
+            Geprüfte Experten
+          </div>
+          <div>
+            <i class="bi bi-shield-check text-warning"></i>
+            100% Zufrieden
+          </div>
+        </div>
+      </div>
+
     </div>
+  </section>
 
-    <div class="wolf-hero__bullets" aria-label="Highlights">
-      <span class="wolf-pill">Wartung &amp; Service</span>
-      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
-      <span class="wolf-pill">Preise inkl. MwSt</span>
-      <span class="wolf-pill">Qualifizierte Techniker</span>
-    </div>
-
-    <div class="wolf-hero__actions">
-      <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Kontakt aufnehmen</a>
-      <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
-    </div>
-
-    
-
-     <section class="promo-banner" id="wolf-aktion">
-                    <div class="promo-banner__inner">
-                        <div class="promo-banner__content">
-                            <h2 class="promo-banner__title"><em>Saunier Duval Thermenwartung Aktion</em></h2>
-                            <p class="promo-banner__price"><strong>ab  €95</strong></p>
-
-                            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
-                                <span class="promo-banner__btn-ico">  </span>
-                                AKTION
-                            </a>
-                        </div>
-                    </div>
-                </section>
   </div>
 </section>
 

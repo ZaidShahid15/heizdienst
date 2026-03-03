@@ -532,48 +532,71 @@
 
 <main>
   <!-- HERO -->
+  
+  <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
-    <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">brennwert • montage • mwst</p>
-
+    <div class="wolf-hero__inner container">
       <h1>
-        Junkers Thermentausch<br>
-        <em>Wien</em>
+        Junkers Thermenwartung Wien <br>
+        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
+      <div class="wolf-hero__logo">
+        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Logo">
+      </div>
+
       <p class="wolf-hero__sub">
-        Ein professioneller Junkers Thermentausch Wien sorgt für effiziente Heizung, zuverlässiges Warmwasser und moderne Brennwerttechnik direkt bei Ihnen zuhause.
+        Professionelle Junkers Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Junkers Therme,
+        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
       </p>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Thermentausch Wien" loading="lazy" decoding="async">
-      </div>
-
-      <div class="wolf-hero__bullets" aria-label="Highlights">
-        <span class="wolf-pill">HG15</span>
-        <span class="wolf-pill">Gastherme</span>
-        <span class="wolf-pill">inkl. Montage</span>
-        <span class="wolf-pill">inkl. MwSt</span>
-      </div>
-
       <div class="wolf-hero__actions">
-        <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Angebot anfordern</a>
-        <a class="wolf-btn wolf-btn--ghost" href="#ablauf-services">Ablauf ansehen</a>
+        <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">
+          <i class="bi bi-telephone-fill"></i>
+          JETZT ANRUFEN: +431 442 0617
+        </a>
+
+        <a class="wolf-btn wolf-btn-outline" href="#kontakt-services">
+          <i class="bi bi-arrow-right"></i>
+          Anfrage senden
+        </a>
       </div>
 
-      <section class="promo-banner" id="junkers-aktion">
-        <div class="promo-banner__inner">
-          <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Junkers Aktion</em></h2>
-            <p class="promo-banner__price"><strong>Preis inkl. MwSt</strong></p>
+      <div class="hero-trust">
+        <div class="hero-first-block">
+          <div class="rating d-flex gap-3">
+            <strong class="d-flex gap-3 align-items-center">
+              <img src="{{ asset('img/google-icon.svg') }}" style="width:20px" alt=""> Google
+            </strong>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
 
-            <a class="promo-banner__btn" href="tel:+4314420617" aria-label="AKTION">
-              <span class="promo-banner__btn-ico">  </span>
-              AKTION
-            </a>
+          <div class="rating">
+            4,9/5 (160+ Bewertungen)
           </div>
         </div>
-      </section>
+
+        <div class="badges">
+          <div>
+            <i class="bi bi-patch-check-fill text-warning"></i>
+            Geprüfte Experten
+          </div>
+          <div>
+            <i class="bi bi-shield-check text-warning"></i>
+            100% Zufrieden
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
     </div>
   </section>
 
