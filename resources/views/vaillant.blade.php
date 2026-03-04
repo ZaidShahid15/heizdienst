@@ -996,7 +996,7 @@
                     <p style="margin-top:10px;">
                         Wir arbeiten mit original Vaillant Produkten, modernen Geräten und nach aktuellen Vorschriften des
                         Herstellers.
-                        Als geprüfter Fachbetrieb, Installateur und Vaillant Kundendienst betreuen wir Wien und die Umgebung
+                        Als geprüfter Fachbetrieb, Installateur und <a href="{{ route('home') }}" class="text-transparent">Vaillant Kundendienst</a>  betreuen wir Wien und die Umgebung
                         zuverlässig,
                         sicher und effizient.
                     </p>

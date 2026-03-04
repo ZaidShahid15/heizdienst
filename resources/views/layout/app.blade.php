@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Thermendienst – Thermenwartung Wien & NÖ</title>
+    <meta name="robots" content="noindex, nofollow">
 <meta name="title" content="{{ $metaTitle ?? 'Default Site Title' }}">
 
 <meta name="description" content="{{ $metaDescription ?? 'Default meta description' }}">
@@ -283,7 +284,6 @@
 
     </style>
     <style>
-         <style>
         input, textarea
  {
     margin-top: 10px
@@ -372,10 +372,6 @@
   font-weight: 800;
   color: #fff;
   margin-bottom: 14px;
-}
-.hero-first-block{
-  border-bottom:none !important;
-  border-top:none !important;
 }
 /* Buttons */
 .wolf-hero__actions {

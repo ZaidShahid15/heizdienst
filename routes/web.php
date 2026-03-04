@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 /*
 |--------------------------------------------------------------------------
@@ -112,3 +112,13 @@ Route::get('/buderus-installateur-wien', fn() => view('Installateur.buderus'))->
 Route::get('/baxi-installateur-wien', fn() => view('Installateur.baxi'))->name('baxi.installateur');
 Route::get('/nordgas-installateur-wien', fn() => view('Installateur.nordgas'))->name('nordgas.installateur');
 Route::get('/windhager-installateur-wien', fn() => view('Installateur.windhager'))->name('windhager.installateur');
+
+
+
+Route::get('/warmepumpel-Wartung-wien', fn() => view('warmepumpel.Wartung'))->name('warmepumpel.Wartung');
+Route::get('/warmepumpel-Installation-wien', fn() => view('warmepumpel.Installation'))->name('warmepumpel.Installation');
+Route::get('/warmepumpel-Reparatur-wien', fn() => view('warmepumpel.Reparatur'))->name('warmepumpel.Reparatur');
+Route::get('/warmepumpel-Installation-Niederosterreich-wien', fn() => view('warmepumpel.Installation-Niederosterreich'))->name('warmepumpel.Installation-Niederosterreich');
+Route::get('/warmepumpel-Niederosterreich-wien', fn() => view('warmepumpel.Niederosterreich'))->name('warmepumpel.Niederosterreich');
+Route::get('/warmepumpel-Wartung-Burgenland-wien', fn() => view('warmepumpel.Wartung-Burgenland'))->name('warmepumpel.Wartung-Burgenland');
+Route::get('/warmepumpel-Reparatur-Niederosterreich-wien', fn() => view('warmepumpel.Reparatur-Niederosterreich'))->name('warmepumpel.Reparatur-Niederosterreich');
