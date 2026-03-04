@@ -523,7 +523,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/löblich-notdienst-wien.jpeg') }}" alt="Löblich-notdienst-wien Logo">
+        <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">

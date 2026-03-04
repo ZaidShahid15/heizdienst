@@ -393,7 +393,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/viessmann.jpeg') }}" alt="Viessmann Logo">
+        <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann Logo">
       </div>
 
       <p class="wolf-hero__sub">

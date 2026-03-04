@@ -683,6 +683,8 @@
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+              if (!document.getElementById('tocList')) return;
+
             const track = document.querySelector('.brand-slider-track');
             const items = track.querySelectorAll('img');
             const prev = document.querySelector('.brand-slider-prev');

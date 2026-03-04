@@ -521,7 +521,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/ocean-notdienst-wien.jpeg') }}" alt="Ocean-notdienst-wien Logo">
+        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">

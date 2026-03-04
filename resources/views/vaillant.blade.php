@@ -989,16 +989,16 @@
             <div class="service-container service-split">
                 <div class="service-split__text">
                     <h2>Ihr Vaillant Partner in Wien & Umgebung</h2>
-                    <p>
+                   <p>
                         Als erfahrener Partner für Vaillant Thermenwartung, Thermenwartung in Wien und Thermenservice
                         stehen wir für Kompetenz, Qualität und persönlichen Service – direkt bei Ihnen zu Hause.
                     </p>
+
                     <p style="margin-top:10px;">
                         Wir arbeiten mit original Vaillant Produkten, modernen Geräten und nach aktuellen Vorschriften des
-                        Herstellers.
-                        Als geprüfter Fachbetrieb, Installateur und <a href="{{ route('home') }}" class="text-transparent">Vaillant Kundendienst</a>  betreuen wir Wien und die Umgebung
-                        zuverlässig,
-                        sicher und effizient.
+                        Herstellers. Als geprüfter Fachbetrieb und Installateur betreuen wir Wien und die Umgebung
+                        zuverlässig, sicher und effizient. Mehr Informationen zur professionellen
+                        <a href="{{ route('home') }}" class="text-transparent">Thermenwartung Wien</a>.
                     </p>
 
                     <div class="service-stats">

@@ -122,3 +122,5 @@ Route::get('/warmepumpel-Installation-Niederosterreich-wien', fn() => view('warm
 Route::get('/warmepumpel-Niederosterreich-wien', fn() => view('warmepumpel.Niederosterreich'))->name('warmepumpel.Niederosterreich');
 Route::get('/warmepumpel-Wartung-Burgenland-wien', fn() => view('warmepumpel.Wartung-Burgenland'))->name('warmepumpel.Wartung-Burgenland');
 Route::get('/warmepumpel-Reparatur-Niederosterreich-wien', fn() => view('warmepumpel.Reparatur-Niederosterreich'))->name('warmepumpel.Reparatur-Niederosterreich');
+Route::get('/warmepumpel-Installation-Burgenland-wien', fn() => view('warmepumpel.Installation-Burgenland'))->name('warmepumpel.Installation-Burgenland');
+Route::get('/warmepumpel-Reparatur-Burgenland-wien', fn() => view('warmepumpel.Reparatur-Burgenland'))->name('warmepumpel.Reparatur-Burgenland');

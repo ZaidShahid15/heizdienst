@@ -505,7 +505,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/viessmann-notdienst-wien.jpeg') }}" alt="Viessmann-notdienst-wien Logo">
+        <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">

@@ -484,7 +484,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/rapido-kaundseint.jpeg') }}" alt="Rapido-kaundseint Logo">
+        <img src="{{ asset('img/1rapido.jpeg') }}" alt="Rapido-kaundseint Logo">
       </div>
 
       <p class="wolf-hero__sub">

@@ -499,7 +499,7 @@ Ocean.html
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/ocean.jpeg') }}" alt="Ocean Logo">
+        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean Logo">
       </div>
 
       <p class="wolf-hero__sub">

@@ -479,7 +479,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('/img/Windhager.png') }}" alt="Windhager Logo">
+        <img src="{{ asset('img/Windhager.png') }}" alt="Windhager Logo">
       </div>
 
       <p class="wolf-hero__sub">

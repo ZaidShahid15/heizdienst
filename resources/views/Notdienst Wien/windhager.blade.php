@@ -220,7 +220,7 @@
 
   .card-box{
     width:100%;
-    height:100%;
+   /* height:100%; */
     background:#fff;
     border:1px solid var(--line);
     border-radius:var(--radius2);
@@ -616,7 +616,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/windhager.jpeg') }}" alt="Windhager Logo">
+        <img src="{{ asset('img/windhager.png') }}" alt="Windhager Logo">
       </div>
 
       <p class="wolf-hero__sub">

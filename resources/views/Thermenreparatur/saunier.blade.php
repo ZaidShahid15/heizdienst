@@ -498,7 +498,7 @@ Saunier-Duval.html
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/saunier.jpeg') }}" alt="Saunier Logo">
+        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier Logo">
       </div>
 
       <p class="wolf-hero__sub">

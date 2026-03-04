@@ -341,7 +341,7 @@
 
   .card-box{
     width:100%;
-    height:100%;
+   /* height:100%; */
     background:#fff;
     border:1px solid var(--line);
     border-radius:var(--radius2);
@@ -608,14 +608,17 @@
         <div class="card-split__text">
           <div class="card-box">
             <h2>Vaillant Service in Wien</h2>
-            <p>
-              Unser Vaillant Kundendienst Wien bietet professionellen Service direkt vor Ort für Kunden in Wien und Umgebung.
-              Als erfahrener Fachpartner betreuen wir alle Vaillant Produkte – von Gasgeräten bis zu modernen Heizungsanlagen.
-            </p>
-            <p>
-              Durch kurze Wegzeit innerhalb von Wien sind unsere Installateure schnell am Ort und kümmern sich kompetent um Wartung,
-              Reparatur oder Störungen. Wir sorgen dafür, dass Qualität, Effizienz und Langlebigkeit optimal genutzt werden.
-            </p>
+           <p>
+            Unser Vaillant Kundendienst Wien bietet professionellen Service direkt vor Ort für Kunden in Wien und Umgebung.
+            Als erfahrener Fachpartner betreuen wir alle Vaillant Produkte – von Gasgeräten bis zu modernen Heizungsanlagen.
+          </p>
+
+          <p>
+            Durch kurze Wegzeit innerhalb von Wien sind unsere Installateure schnell am Ort und kümmern sich kompetent um Wartung,
+            Reparatur oder Störungen. Wir sorgen dafür, dass Qualität, Effizienz und Langlebigkeit optimal genutzt werden –
+            besonders bei unserem professionellen
+            <a href="{{ route('home') }}" class="text-transparent">Thermenservice Wien</a>.
+          </p>
           </div>
         </div>
 

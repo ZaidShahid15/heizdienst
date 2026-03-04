@@ -542,7 +542,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/wolf-notdienst-wien.jpeg') }}" alt="Wolf-notdienst-wien Logo">
+        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Wolf-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">

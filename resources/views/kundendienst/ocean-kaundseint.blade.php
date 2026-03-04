@@ -492,7 +492,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/ocean-kaundseint.jpeg') }}" alt="Ocean-kaundseint Logo">
+        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean-kaundseint Logo">
       </div>
 
       <p class="wolf-hero__sub">

@@ -484,7 +484,7 @@
       </p>
 
       <div class="wolf-hero__logo">
-        <img src="img/Windhager.jpeg" alt="Windhager Thermenwartung Wien Logo" loading="lazy" decoding="async">
+        <img src="img/windhager.png" alt="Windhager Thermenwartung Wien Logo" loading="lazy" decoding="async">
       </div>
 
       <div class="wolf-hero__bullets" aria-label="Highlights">

@@ -536,7 +536,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/saunier-duval-notdienst-wien.jpeg') }}" alt="Saunier-duval-notdienst-wien Logo">
+        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier-duval-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">

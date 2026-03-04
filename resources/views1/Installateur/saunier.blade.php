@@ -115,7 +115,7 @@
 
   .card-box{
     width:100%;
-    height:100%;
+   /* height:100%; */
     background:#fff;
     border:1px solid var(--line);
     border-radius:var(--radius2);
