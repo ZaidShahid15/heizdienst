@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('layout.app')
+@section("main")
   <title>Windhager Thermenwartung Wien – Service &amp; Notdienst</title>
   <meta name="description" content="Professionelle Windhager Thermenwartung Wien durch erfahrene Experten für Sicherheit, Effizienz und zuverlässigen Betrieb. Notdienst in Wien NÖ & Burgenland.">
   <style>
@@ -490,7 +487,7 @@
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">
           <i class="bi bi-telephone-fill"></i>
-          JETZT ANRUFEN: +431 442 0617
+          JETZT ANRUFEN: +431 a442 0617
         </a>
 
         <a class="wolf-btn wolf-btn-outline" href="#kontakt-services">
@@ -897,5 +894,4 @@
     }
   });
 </script>
-</body>
-</html>
+@endsection
