@@ -472,14 +472,14 @@
   }
 </style>
 
+
 @php
-$metaTitle = "Buderus Kundendienst Wien | Wartung, Reparaturen & Notdienst Service";
-$metaDescription = "Buderus Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
+$metaTitle = "Buderus Kundendienst Wien | Werkskundendienst, Wartung & Service";
+$metaDescription = "Buderus Kundendienst Wien für Thermen & Heizsysteme. Werkskundendienst, Wartung, Reparatur, Preise inkl. MwSt & schnelle Terminvereinbarung. Jetzt kontaktieren.";
 @endphp
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -489,17 +489,17 @@ $metaDescription = "Buderus Kundendienst Wien für Thermen, Gasgeräte & Heizsys
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Buderus-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+       Buderus Kundendienst Wien <br>
+        <span style="color:#FB9A1B;"> service rund um die uhr</span>
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus-kaundseint Logo">
+        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Buderus-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Buderus-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Zuverlässiger Buderus Kundendienst Wien für Thermen, Heizsysteme und Gasgeräte inklusive Wartung, Reparatur und Werkskundendienst.
+
       </p>
 
       <div class="wolf-hero__actions">

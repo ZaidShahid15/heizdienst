@@ -442,10 +442,16 @@
   }
 </style>
 
+@php
+$metaTitle = " Buderus Thermentausch Wien | Gastherme & Brennwert inkl. Montage
+";
+$metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme & Brennwerttechnik ✔ Transparente Kosten ✔ Thermenservice & Wartung vom Profi
+";
+@endphp
+
 @push('meta')
-  <title>Buderus Thermentausch Wien | Gastherme & Brennwert inkl. Montage</title>
-  <meta name="description" content="Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme & Brennwerttechnik ✔ Transparente Kosten ✔ Thermenservice & Wartung vom Profi">
-@endpush
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
 
@@ -455,7 +461,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Buderus Thermenwartung Wien <br>
+        Buderus Thermentausch Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -464,8 +471,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Buderus Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Buderus Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Ein professioneller Buderus Thermentausch Wien sorgt für zuverlässige Wärme, moderne Gastherme und hohe Energieeffizienz in Ihrem Zuhause.
+
       </p>
 
       <div class="wolf-hero__actions">

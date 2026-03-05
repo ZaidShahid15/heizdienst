@@ -491,9 +491,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Junkers Notdienst Wien – 24h Service, Kundendienst & Reparatur";
+$metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Kundendienst, Wartung & Reparatur für Junkers Therme und Gasgeräte in Wien, NÖ & Bgld.";
+@endphp
+
 @push('meta')
-  <title>Junkers Notdienst Wien – 24h Service, Kundendienst & Reparatur</title>
-  <meta name="description" content="Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Kundendienst, Wartung & Reparatur für Junkers Therme und Gasgeräte in Wien, NÖ & Bgld.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -503,18 +507,41 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Junkers-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Junkers Notdienst Wien <br>
+        <span style="color:#FB9A1B;"> Schnelle Hilfe bei Störungen, Ausfällen oder Heizungsproblemen – Ihr Junkers Notdienst Wien ist rund um die Uhr erreichbar.</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Junkers-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Junkers-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+       <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Notdienst für Junkers in Wien und Niederösterreich
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>24 Stunden Service auch an Wochenenden und Feiertagen
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Kundendienst, Reparatur, Wartung und Thermenservice
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrenes Team mit geprüfter Expertise
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

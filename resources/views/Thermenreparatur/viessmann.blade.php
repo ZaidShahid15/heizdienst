@@ -504,9 +504,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Viessmann Thermenreparatur Wien – Notdienst & Thermenwartung Wien";
+$metaDescription = "Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund um die Uhr, Viessmann Thermenwartung, Thermenservice & Thermentausch in Wien, Niederösterreich und Burgenland.";
+@endphp
+
 @push('meta')
-  <title>Viessmann Thermenreparatur Wien – Notdienst &amp; Thermenwartung Wien</title>
-  <meta name="description" content="Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund um die Uhr, Viessmann Thermenwartung, Thermenservice &amp; Thermentausch in Wien, Niederösterreich und Burgenland.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -516,7 +520,7 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Viessmann Thermenwartung Wien <br>
+       Viessmann Thermenreparatur Wien Experten <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -525,8 +529,7 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Viessmann Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Viessmann Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Schnelle Hilfe für Ihre Viessmann Therme in Wien – Reparatur, Thermenservice und Notdienst rund um die Uhr.
       </p>
 
       <div class="wolf-hero__actions">

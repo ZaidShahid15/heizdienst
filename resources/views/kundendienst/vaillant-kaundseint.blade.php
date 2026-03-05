@@ -495,7 +495,6 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -505,8 +504,10 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Vaillant-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+       Vaillant Kundendienst Wien
+<br>
+        <span style="color:#FB9A1B;"> rund um die uhr erreichbar
+</span>
       </h1>
 
       <div class="wolf-hero__logo">
@@ -514,8 +515,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Vaillant-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Vaillant-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Zuverlässiger Kundendienst in Wien für Vaillant Therme, Gasgeräte und Heizung inklusive Wartung, Reparatur und Notdienst.
       </p>
 
       <div class="wolf-hero__actions">

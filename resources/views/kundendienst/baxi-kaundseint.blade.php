@@ -475,14 +475,15 @@
 </style>
 
 @php
-$metaTitle = "Baxi Kundendienst Wien | Wartung, Reparaturen & Notdienst Service";
-$metaDescription = "Baxi Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
+$metaTitle = "Baxi Kundendienst Wien | Wartung, Reparatur & Notdienst Service";
+$metaDescription = "Baxi Kundendienst Wien für Thermen & Gastherme. Wartung, Reparatur, Ersatzteile und Baxi Notdienst in Wien & Umgebung. Jetzt Kontakt aufnehmen.";
 @endphp
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
 <meta name="description" content="{{ $metaDescription }}">
 @endpush
+
 
 <main>
   <!-- HERO -->
@@ -491,17 +492,17 @@ $metaDescription = "Baxi Kundendienst Wien für Thermen, Gasgeräte & Heizsystem
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Baxi-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Baxi Kundendienst Wien<br>
+        <span style="color:#FB9A1B;">service rund um die uhr</span>
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi-kaundseint Logo">
+        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Baxi-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Baxi-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Zuverlässiger Baxi Kundendienst Wien für Thermen, Gastherme und Warmwasser inklusive Wartung, Reparatur und Notdienst.
+
       </p>
 
       <div class="wolf-hero__actions">

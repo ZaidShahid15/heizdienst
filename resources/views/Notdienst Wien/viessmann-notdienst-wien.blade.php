@@ -488,9 +488,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Viessmann Service Wien – Wartung, Therme & Sicherheit
+";
+$metaDescription = "Viessmann Service Wien ✔ Wartung, Überprüfung & Beratung für Viessmann Therme, Heizung und Warmwasser ✔ Sicherheit & Erfahrung vor Ort.";
+@endphp
+
 @push('meta')
-  <title>Viessmann Service Wien – Wartung, Therme & Sicherheit</title>
-  <meta name="description" content="Viessmann Service Wien ✔ Wartung, Überprüfung & Beratung für Viessmann Therme, Heizung und Warmwasser ✔ Sicherheit & Erfahrung vor Ort.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -500,18 +505,42 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Viessmann-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Viessmann Notdienst Wien
+ <br>
+        <span style="color:#FB9A1B;"> Schnelle Hilfe bei Störung, Defekt oder Notfall – Ihr Viessmann Notdienst Wien ist zuverlässig für Sie da.
+</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Viessmann-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Viessmann-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+       <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Notdienst und Notfalldienst für Viessmann Therme und Heizsysteme
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Service, Reparatur, Wartung und Thermenwartung aus einer Hand</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrene Techniker, geprüfte Ersatzteile und klare Lösungen
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Betreuung in Wien, Niederösterreich und Umgebung
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

@@ -474,10 +474,16 @@
   }
 </style>
 
+@php
+$metaTitle = " Ocean Thermentausch Wien | Gastherme, Service & Notdienst
+";
+$metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔ Thermenwartung, Reparatur & Notdienst ✔ Transparente Kosten & persönlicher Service
+";
+@endphp
+
 @push('meta')
-  <title>Ocean Thermentausch Wien | Gastherme, Service & Notdienst</title>
-  <meta name="description" content="Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔ Thermenwartung, Reparatur & Notdienst ✔ Transparente Kosten & persönlicher Service">
-@endpush
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
   <!-- HERO -->
@@ -486,7 +492,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Ocean Thermenwartung Wien <br>
+        Ocean Thermentausch Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -495,8 +502,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Ocean Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Ocean Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Ein professioneller Ocean Thermentausch Wien steht für sichere Gastherme, hohe Effizienz und zuverlässigen Service in Wien und Niederösterreich.
+
       </p>
 
       <div class="wolf-hero__actions">

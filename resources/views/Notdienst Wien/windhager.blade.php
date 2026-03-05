@@ -599,9 +599,15 @@
   }
 </style>
 
+@php
+$metaTitle = "Windhager Notdienst Wien – Thermenservice & Reparatur
+";
+$metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & Thermenwartung ✔ Hilfe bei Fehlercode, Gasgeruch & Ausfall in Wien, NÖ & Burgenland.
+";
+@endphp
+
 @push('meta')
-  <title>Windhager Notdienst Wien – Thermenservice & Reparatur</title>
-  <meta name="description" content="Windhager Notdienst Wien ✔ Thermenservice, Reparatur & Thermenwartung ✔ Hilfe bei Fehlercode, Gasgeruch & Ausfall in Wien, NÖ & Burgenland.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -611,18 +617,42 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Windhager Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Windhager Notdienst Wien
+ <br>
+        <span style="color:#FB9A1B;">Schnelle Hilfe bei Störung, Fehlercode oder Ausfall der Therme – Ihr Windhager Notdienst Wien ist sofort zur Stelle.
+</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/windhager.png') }}" alt="Windhager Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Windhager Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Windhager Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+       <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Windhager Notdienst und Kundendienst in Wien
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Reparatur, Thermenservice und Wartung aus einer Hand
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Meisterbetrieb mit erfahrenen Installateuren
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Rasche Hilfe im Notfall in Wien, Niederösterreich und Burgenland</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

@@ -512,7 +512,6 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 <main>
 
@@ -522,7 +521,8 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Wolf Thermenwartung Wien <br>
+        Wolf Installateur Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -531,8 +531,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Wolf Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Wolf Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Als Wolf Installateur Wien bieten wir professionelle Installation, Thermenservice und Wartung für Wolf Thermen, Heizung und Gasgeräte in Wien.
       </p>
 
       <div class="wolf-hero__actions">

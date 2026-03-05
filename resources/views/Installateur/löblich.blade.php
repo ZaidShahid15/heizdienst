@@ -493,7 +493,8 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Löblich Thermenwartung Wien <br>
+        Löblich Installateur Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -502,8 +503,8 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Löblich Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Löblich Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Als Löblich Installateur Wien bieten wir professionelle Löblich Thermenwartung, Thermenservice und Notdienst für Therme und Gasgerät in Wien.
+
       </p>
 
       <div class="wolf-hero__actions">

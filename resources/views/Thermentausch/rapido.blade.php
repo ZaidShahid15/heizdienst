@@ -488,10 +488,16 @@
   }
 </style>
 
+@php
+$metaTitle = " Rapido Thermentausch Wien | Gastherme inkl. Montage & Service
+";
+$metaDescription = " Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme ✔ Thermenwartung, Reparatur & Notdienst ✔ Transparente Preise & schneller Service
+";
+@endphp
+
 @push('meta')
-  <title>Rapido Notdienst Wien – Thermenservice & Gastherme 24h</title>
-  <meta name="description" content="Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & Reparatur ✔ Gastherme, Heizung & Kundendienst rund um die Uhr in Wien & NÖ.">
-@endpush
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
   <!-- HERO -->
@@ -500,7 +506,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Rapido Thermenwartung Wien <br>
+       Rapido Thermentausch Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -509,8 +516,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Rapido Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Rapido Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Ein professioneller Rapido Thermentausch Wien steht für sichere Gastherme, schnelle Abwicklung und zuverlässigen Service in Wien und Umgebung.
+
       </p>
 
       <div class="wolf-hero__actions">

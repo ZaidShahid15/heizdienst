@@ -463,10 +463,16 @@
   }
 </style>
 
+@php
+$metaTitle = "Nordgas Thermentausch Wien | Gastherme, Wartung & Service
+";
+$metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme ✔ Thermenwartung, Reparatur & Notdienst ✔ Transparente Preise & zuverlässiger Service
+";
+@endphp
+
 @push('meta')
-  <title>Nordgas Thermenreparatur Wien – Nordgas Thermenwartung & Notdienst</title>
-  <meta name="description" content="Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Thermenwartung, Kundendienst, Thermentausch & Notdienst in Wien, Niederösterreich und Wiener Neustadt.">
-@endpush
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
   <!-- HERO -->
@@ -475,7 +481,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Nordgas Thermenwartung Wien <br>
+        Nordgas Thermentausch Wien
+<br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -484,8 +491,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Nordgas Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Nordgas Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Ein professioneller Nordgas Thermentausch Wien sorgt für sichere Gastherme, effiziente Heizung und zuverlässigen Wohnkomfort in Wien und Umgebung.
+
       </p>
 
       <div class="wolf-hero__actions">

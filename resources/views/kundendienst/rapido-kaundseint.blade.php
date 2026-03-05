@@ -468,13 +468,12 @@
 </style>
 
 @php
-$metaTitle = "Rapido Notdienst Wien – Thermenservice & Gastherme 24h";
-$metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & Reparatur ✔ Gastherme, Heizung & Kundendienst rund um die Uhr in Wien & NÖ.";
+$metaTitle = "Rapido Kundendienst Wien | Thermenwartung, Service & Notdienst";
+$metaDescription = "Rapido Kundendienst Wien für Thermen & Gasgeräte. Thermenwartung, Reparatur, Abgasmessung und Notdienst in Wien, NÖ & Burgenland. Jetzt anrufen.";
 @endphp
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -484,8 +483,8 @@ $metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & R
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Rapido-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+       Rapido Kundendienst Wien <br>
+        <span style="color:#FB9A1B;">service rund um die uhr</span>
       </h1>
 
       <div class="wolf-hero__logo">
@@ -493,8 +492,8 @@ $metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & R
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Rapido-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Rapido-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Zuverlässiger Rapido Kundendienst Wien für Therme, Gasgeräte und Heizsystem inklusive Thermenwartung, Service und Notdienst.
+
       </p>
 
       <div class="wolf-hero__actions">

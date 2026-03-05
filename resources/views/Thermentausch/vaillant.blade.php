@@ -517,9 +517,13 @@
   }
 </style> -->
 
+@php
+$metaTitle = " Vaillant Thermentausch Wien | Brennwert Therme inkl. Montage & MwSt";
+$metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombitherme & VCW Modelle ✔ Transparente Preise inkl. MwSt ✔ Angebot & Aktionspreis sichern";
+@endphp
+
 @push('meta')
-  <title>Vaillant Thermentausch Wien | Brennwert Therme inkl. Montage & MwSt</title>
-  <meta name="description" content="Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombitherme & VCW Modelle ✔ Transparente Preise inkl. MwSt ✔ Angebot & Aktionspreis sichern">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -529,7 +533,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Vaillant Thermenwartung Wien <br>
+        Vaillant Thermentausch Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -538,8 +543,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Vaillant Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Vaillant Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Ein professioneller Vaillant Thermentausch in Wien sorgt für effiziente Heizung, moderne Brennwerttechnik und zuverlässige Warmwasserbereitung.
+
       </p>
 
       <div class="wolf-hero__actions">

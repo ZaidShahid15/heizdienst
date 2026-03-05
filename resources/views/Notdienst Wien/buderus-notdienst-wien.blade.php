@@ -503,9 +503,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Buderus Service Wien – Kundendienst, Wartung & Heizkessel";
+$metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung für Buderus Thermen und Heizkessel ✔ Fachpersonal & Techniker vor Ort.";
+@endphp
+
 @push('meta')
-  <title>Buderus Service Wien – Kundendienst, Wartung & Heizkessel</title>
-  <meta name="description" content="Buderus Service Wien ✔ Kundendienst, Wartung & Behebung für Buderus Thermen und Heizkessel ✔ Fachpersonal & Techniker vor Ort.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -515,18 +520,43 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Buderus-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+       Buderus Notdienst Wien
+ <br>
+        <span style="color:#FB9A1B;"> Schnelle Hilfe bei Störungen, Ausfällen oder Problemen mit der Heizung – der Buderus Notdienst Wien ist zuverlässig für Sie da.
+</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Buderus-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Buderus-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+       <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Buderus Notdienst und Kundendienst in Wien und Umgebung
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Wartung, Reparatur und Thermenservice aus einer Hand
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrene Techniker, Fachpersonal und klare Lösungen
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Service rund um die Uhr mit kurzen Wegzeiten
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

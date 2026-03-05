@@ -464,13 +464,12 @@
 </style>
 
 @php
-$metaTitle = "Wolf Kundendienst Wien | Wartung, Reparaturen & Notdienst Service";
-$metaDescription = "Wolf Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
+$metaTitle = "Wolf Kundendienst Wien | Wartung, Reparatur & Notdienst rund um die Uhr";
+$metaDescription = "Wolf Kundendienst Wien für Thermen, Heizung & Heizsysteme. Wartung, Reparatur, Service und Wolf Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
 @endphp
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -480,17 +479,19 @@ $metaDescription = "Wolf Kundendienst Wien für Thermen, Gasgeräte & Heizsystem
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Wolf-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Wolf Kundendienst Wien <br>
+        <span style="color:#FB9A1B;">rund um die uhr erreichbar
+
+      </span>
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Wolf-kaundseint Logo">
+        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Wolf-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Wolf-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Wolf-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Zuverlässiger Wolf Kundendienst Wien für Thermen, Heizung und Heizsysteme inklusive Wartung, Reparatur und Notdienst.
+
       </p>
 
       <div class="wolf-hero__actions">

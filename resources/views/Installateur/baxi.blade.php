@@ -465,7 +465,8 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
       </div>
 
       <p class="wolf-hero__sub">
-       Als erfahrener Baxi Installateur Wien bieten wir professionelle Installation, Wartung und Reparatur für Baxi Thermen, Gasgeräte und Heizsysteme in Wien und Umgebung
+       Als erfahrener Baxi Installateur Wien bieten wir professionelle Installation, Wartung und Reparatur für Baxi Thermen, Gasgeräte und Heizsysteme in Wien und Umgebung.
+
       </p>
 
       <div class="wolf-hero__actions">

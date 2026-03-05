@@ -444,7 +444,6 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -455,7 +454,8 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Saunier Thermenwartung Wien <br>
+        Saunier Duval Installateur Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -464,8 +464,8 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Saunier Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Saunier Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Als Saunier Duval Installateur Wien bieten wir professionelle Installation, Thermenwartung und Reparatur für Saunier Duval Therme und Gasgeräte in Wien.
+
       </p>
 
       <div class="wolf-hero__actions">

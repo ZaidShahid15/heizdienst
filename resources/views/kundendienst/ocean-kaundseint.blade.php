@@ -476,13 +476,12 @@
 </style>
 
 @php
-$metaTitle = "Ocean Thermenservice Wien – Notdienst & Thermenwartung 24h";
-$metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ Thermenwartung, Ocean Gastherme & Heizung ✔ Kundendienst Wien mit Erfahrung.";
+$metaTitle = "Ocean Kundendienst Wien | Thermenwartung, Reparatur & Notdienst";
+$metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. Thermenwartung, Reparatur, Thermenservice & Ocean Notdienst in Wien, NÖ & Burgenland.";
 @endphp
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -492,8 +491,8 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Ocean-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Ocean Kundendienst Wien <br>
+        <span style="color:#FB9A1B;">service rund um die uhr</span>
       </h1>
 
       <div class="wolf-hero__logo">
@@ -501,8 +500,8 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Ocean-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Ocean-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Zuverlässiger Ocean Kundendienst Wien für Therme, Heizung und Gasgeräte inklusive Thermenwartung, Reparatur und Notdienst.
+
       </p>
 
       <div class="wolf-hero__actions">

@@ -503,9 +503,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Baxi Thermenreparatur Wien – Notdienst & Baxi Thermenwartung Wien";
+$metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendienst Wien, Thermenwartung Wien, Thermentausch & Notdienst rund um die Uhr in Wien und Niederösterreich.";
+@endphp
+
 @push('meta')
-  <title>Baxi Thermenreparatur Wien – Notdienst &amp; Baxi Thermenwartung Wien</title>
-  <meta name="description" content="Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendienst Wien, Thermenwartung Wien, Thermentausch & Notdienst rund um die Uhr in Wien und Niederösterreich.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -516,7 +520,7 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Baxi Thermenwartung Wien <br>
+        Baxi Thermenreparatur Wien Experten <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -525,8 +529,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Baxi Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Baxi Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Schnelle Hilfe für Ihre Baxi Therme in Wien – Reparatur, Thermenwartung und Notdienst rund um die Uhr.
+
       </p>
 
       <div class="wolf-hero__actions">

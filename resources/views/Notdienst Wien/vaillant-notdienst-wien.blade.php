@@ -501,9 +501,14 @@
 
 </style>
 
+@php
+$metaTitle = "Vaillant Notdienst Wien – 24h Kundendienst, Reparatur & Service";
+$metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Kundendienst, Reparatur, Wartung & Thermenservice in Wien & Niederösterreich inkl. MwSt.";
+
+@endphp
+
 @push('meta')
-  <title>Vaillant Notdienst Wien – 24h Kundendienst, Reparatur & Service</title>
-  <meta name="description" content="Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Kundendienst, Reparatur, Wartung & Thermenservice in Wien & Niederösterreich inkl. MwSt.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -514,18 +519,37 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Vaillant-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Vaillant Notdienst Wien 24/7 <br>
+        <span style="color:#FB9A1B;"> Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Vaillant-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Vaillant-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+      <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Rund um die Uhr erreichbar – auch außerhalb der Geschäftszeiten</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Kundendienst Techniker schnell am Ort in Wien und Umgebung</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Transparente Preise inkl. MwSt, auf Wunsch mit Angebot</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Reparatur, Wartung, Thermenwartung und Ersatzteile aus einer Hand</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

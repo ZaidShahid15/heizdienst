@@ -504,9 +504,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Rapido Notdienst Wien – Thermenservice & Gastherme 24h";
+$metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & Reparatur ✔ Gastherme, Heizung & Kundendienst rund um die Uhr in Wien & NÖ.";
+@endphp
+
 @push('meta')
-  <title>Rapido Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="Rapido Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -516,18 +520,43 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Rapido-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Rapido Notdienst Wien
+<br>
+        <span style="color:#FB9A1B;"> Schnelle Hilfe bei Störungen, Ausfall oder Problemen mit der Gastherme – der Rapido Notdienst Wien ist zuverlässig für Sie da.
+</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/1rapido.jpeg') }}" alt="Rapido-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Rapido-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Rapido-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+       <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Rapido Notdienst und Kundendienst in Wien und Umgebung
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Thermenwartung, Reparatur und Rapido Thermenservice aus einer Hand
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrenes Techniker Team mit Know-how
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Service rund um die Uhr – auch im Winter und in jeder Jahreszeit
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

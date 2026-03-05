@@ -569,9 +569,15 @@
   }
 </style>
 
+@php
+$metaTitle = "Nordgas Notdienst Wien – Thermenservice & Gastherme Reparaturen
+";
+$metaDescription = "Nordgas Notdienst Wien ✔ Thermenservice, Reparaturen & Thermenwartung ✔ Gastherme & Heizung Service in Wien, NÖ & Niederösterreich.
+";
+@endphp
+
 @push('meta')
-  <title>Nordgas Notdienst Wien – Thermenservice & Gastherme Reparaturen</title>
-  <meta name="description" content="Nordgas Notdienst Wien ✔ Thermenservice, Reparaturen & Thermenwartung ✔ Gastherme & Heizung Service in Wien, NÖ & Niederösterreich.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -581,18 +587,43 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Nordgas Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Nordgas Notdienst Wien
+<br>
+        <span style="color:#FB9A1B;">Schnelle Hilfe bei Störungen, Fehlermeldungen oder Ausfall der Gastherme – Ihr Nordgas Notdienst Wien ist zuverlässig für Sie da.
+</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/NordGas.png') }}" alt="Nordgas Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Nordgas Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Nordgas Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+    <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Nordgas Notdienst und Kundendienst in Wien & Wien NÖ
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Nordgas Thermenservice, Reparaturen und Wartung aus einer Hand
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrene Techniker mit Know-how und Fachwissen
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Rasche Anfahrt im Notfall – auch an Feiertagen
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

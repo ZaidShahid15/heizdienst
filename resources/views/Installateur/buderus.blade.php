@@ -448,6 +448,9 @@ $metaTitle = "Buderus Installateur Wien | Thermenwartung & Service";
 $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Reparatur & Thermentausch. Transparente Preise inkl. MwSt. Jetzt Termin vereinbaren.";
 @endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 <main>
 
   <!-- HERO -->
@@ -456,7 +459,8 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Buderus Thermenwartung Wien <br>
+        Buderus Installateur Wien
+<br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -465,8 +469,8 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Buderus Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Buderus Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Als Buderus Installateur Wien bieten wir professionelle Thermenwartung, Reparatur und Installation für Buderus Therme und Gastherme in Wien.
+
       </p>
 
       <div class="wolf-hero__actions">

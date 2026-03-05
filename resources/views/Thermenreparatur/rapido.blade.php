@@ -502,9 +502,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Rapido Thermenreparatur Wien – Rapido Kundendienst & Thermenwartung Wien";
+$metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Thermenwartung, Notdienst rund um die Uhr, Kundendienst Wien Niederösterreich & Burgenland.";
+@endphp
+
 @push('meta')
-  <title>Rapido Thermenreparatur Wien – Rapido Kundendienst &amp; Thermenwartung Wien</title>
-  <meta name="description" content="Rapido Thermenreparatur Wien vom Installateur. Rapido Thermenwartung, Notdienst rund um die Uhr, Kundendienst Wien Niederösterreich &amp; Burgenland.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -515,7 +519,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Rapido Thermenwartung Wien <br>
+        Rapido Thermenreparatur Wien Experten
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -524,8 +529,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Rapido Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Rapido Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Schnelle Rapido Thermenreparatur Wien für Ihre Rapido Therme – Thermenservice, Notdienst und Wartung in Wien und Umgebung.
+
       </p>
 
       <div class="wolf-hero__actions">

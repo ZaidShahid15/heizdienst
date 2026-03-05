@@ -482,9 +482,13 @@ Löblich.html
   }
 </style>
 
+@php
+$metaTitle = "Löblich Thermenreparatur Wien – Thermenservice & Thermenwartung Wien";
+$metaDescription = "Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wien, Reparaturen, Thermentausch und Service in Wien, Niederösterreich und Burgenland.";
+@endphp
+
 @push('meta')
-  <title>Löblich Thermenreparatur Wien – Thermenservice & Thermenwartung Wien</title>
-  <meta name="description" content="Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wien, Reparaturen, Thermentausch und Service in Wien, Niederösterreich und Burgenland.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -494,7 +498,7 @@ Löblich.html
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Löblich Thermenwartung Wien <br>
+        Löblich Thermenreparatur Wien Experten <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -503,8 +507,8 @@ Löblich.html
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Löblich Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Löblich Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Zuverlässige Hilfe für Ihre Löblich Thermen in Wien – Thermenservice, Thermenwartung und Reparaturen für Ihr Zuhause.
+
       </p>
 
       <div class="wolf-hero__actions">

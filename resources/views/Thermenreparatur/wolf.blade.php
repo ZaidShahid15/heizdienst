@@ -506,9 +506,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Wolf Thermenreparatur Wien – Wolf Kundendienst & Thermenwartung Wien";
+$metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendienst Wien, Thermenwartung Wien, Notdienst rund um die Uhr in Wien und Niederösterreich.";
+@endphp
+
 @push('meta')
-  <title>Wolf Thermenreparatur Wien – Wolf Kundendienst &amp; Thermenwartung Wien</title>
-  <meta name="description" content="Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendienst Wien, Thermenwartung Wien, Notdienst rund um die Uhr in Wien und Niederösterreich.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -518,7 +522,7 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Wolf Thermenwartung Wien <br>
+        Wolf Thermenreparatur Wien Experten <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -527,8 +531,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Wolf Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Wolf Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Schnelle Hilfe für Ihre Wolf Therme in Wien und Umgebung – Reparatur, Thermenwartung und Notdienst rund um die Uhr.
+
       </p>
 
       <div class="wolf-hero__actions">

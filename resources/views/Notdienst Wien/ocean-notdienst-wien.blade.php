@@ -504,11 +504,14 @@
   }
 </style>
 
-@push('meta')
-  <title>Ocean Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="Ocean Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
-@endpush
+@php
+$metaTitle = "Ocean Thermenservice Wien – Notdienst & Thermenwartung 24h";
+$metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ Thermenwartung, Ocean Gastherme & Heizung ✔ Kundendienst Wien mit Erfahrung.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush
 <main>
   <!-- HERO -->
   
@@ -516,18 +519,41 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Ocean-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+       Ocean Notdienst Wien <br>
+        <span style="color:#FB9A1B;">Schnelle Hilfe bei Störungen, Defekts oder Ausfall der Therme – der Ocean Notdienst Wien ist zuverlässig für Sie da.</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Ocean-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Ocean-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+       <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Ocean Notdienst und Kundendienst Wien rund um die Uhr
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Thermenwartung, Reparatur und Thermenservice aus einer Hand
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrene Techniker, Fachleuten und klare Lösungen
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Service für Wien, Niederösterreich und Umgebung
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

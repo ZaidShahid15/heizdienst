@@ -499,7 +499,6 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -509,7 +508,8 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Windhager Thermenwartung Wien <br>
+        Windhager Installateur Wien
+<br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -518,8 +518,8 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Windhager Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Windhager Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Als Windhager Installateur Wien bieten wir professionelle Windhager Thermenwartung, Reparatur und Notdienst für Therme, Heizung und Wärmepumpe in Wien.
+
       </p>
 
       <div class="wolf-hero__actions">

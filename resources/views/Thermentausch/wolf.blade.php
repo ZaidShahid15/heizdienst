@@ -482,9 +482,15 @@
 
 </style>
 
+@php
+$metaTitle = " Wolf Thermentausch Wien | Neue Gastherme inkl. Montage & MwSt
+";
+$metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Service & Angebot vom Fachbetrieb
+";
+@endphp
+
 @push('meta')
-  <title>Wolf Thermentausch Wien | Neue Gastherme inkl. Montage & MwSt</title>
-  <meta name="description" content="Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Service & Angebot vom Fachbetrieb">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -495,7 +501,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Wolf Thermenwartung Wien <br>
+        Wolf Thermentausch Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -504,8 +511,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Wolf Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Wolf Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Ein professioneller Wolf Thermentausch Wien sorgt für zuverlässige Heizung, moderne Gastherme und hohen Wohnkomfort in Ihrem Zuhause.
+
       </p>
 
       <div class="wolf-hero__actions">

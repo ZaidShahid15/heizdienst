@@ -499,9 +499,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Buderus Thermenreparatur Wien – Buderus Thermenwartung Wien & Notdienst";
+$metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Thermenwartung Wien, Buderus Kundendienst Wien, Thermentausch & Notdienst rund um die Uhr in Wien und Niederösterreich.";
+@endphp
+
 @push('meta')
-  <title>Buderus Thermenreparatur Wien – Buderus Thermenwartung Wien &amp; Notdienst</title>
-  <meta name="description" content="Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Thermenwartung Wien, Buderus Kundendienst Wien, Thermentausch & Notdienst rund um die Uhr in Wien und Niederösterreich.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -512,7 +516,7 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Buderus Thermenwartung Wien <br>
+        Buderus Thermenreparatur Wien Profis <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -521,8 +525,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Buderus Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Buderus Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Schnelle Hilfe für Ihre Buderus Therme in Wien und Niederösterreich – Thermenservice, Wartung und Notdienst rund um die Uhr.
+
       </p>
 
       <div class="wolf-hero__actions">

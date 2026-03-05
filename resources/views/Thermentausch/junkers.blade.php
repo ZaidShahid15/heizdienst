@@ -525,9 +525,13 @@
   }
 </style>
 
+@php
+$metaTitle = " Junkers Thermentausch Wien | Gastherme & HG15 inkl. Montage und MwSt";
+$metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombitherme ✔ Effiziente Brennwerttechnik ✔ Preis inkl. MwSt ✔ Jetzt Angebot anfordern";
+@endphp
+
 @push('meta')
-  <title>Junkers Thermentausch Wien | Gastherme & HG15 inkl. Montage und MwSt</title>
-  <meta name="description" content="Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombitherme ✔ Effiziente Brennwerttechnik ✔ Preis inkl. MwSt ✔ Jetzt Angebot anfordern">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -537,7 +541,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Junkers Thermenwartung Wien <br>
+       Junkers Thermentausch Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -546,8 +551,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Junkers Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Junkers Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Ein professioneller Junkers Thermentausch Wien sorgt für effiziente Heizung, zuverlässiges Warmwasser und moderne Brennwerttechnik direkt bei Ihnen zuhause.
+
       </p>
 
       <div class="wolf-hero__actions">

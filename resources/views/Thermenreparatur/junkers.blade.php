@@ -506,9 +506,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Junkers Thermenreparatur Wien – Notdienst & Junkers Thermenwartung Wien";
+$metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdienst. Junkers Thermenwartung Wien, Thermenservice, Thermentausch & Kundendienst in Wien NÖ, Niederösterreich und Burgenland.";
+@endphp
+
 @push('meta')
-  <title>Junkers Thermenreparatur Wien – Notdienst &amp; Junkers Thermenwartung Wien</title>
-  <meta name="description" content="Professionelle Junkers Thermenreparatur Wien mit 24/7 Notdienst. Junkers Thermenwartung Wien, Thermenservice, Thermentausch &amp; Kundendienst in Wien, Niederösterreich und Burgenland.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -518,7 +522,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Junkers Thermenwartung Wien <br>
+       Junkers Thermenreparatur Wien Experten
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -527,8 +532,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Junkers Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Junkers Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Schnelle Hilfe für Ihre Junkers Therme in Wien – Reparatur, Thermenservice und 24 7 Notdienst zuverlässig verfügbar.
+
       </p>
 
       <div class="wolf-hero__actions">

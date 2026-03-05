@@ -443,13 +443,12 @@
 </style>
 
 @php
-$metaTitle = "Saunier Duval Kundendienst Wien | Wartung, Reparaturen & Notdienst Service";
-$metaDescription = "Saunier Duval Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
+$metaTitle = "Saunier Duval Kundendienst Wien | Wartung, Reparatur & Notdienst";
+$metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. Thermenwartung, Reparatur, Ersatzteile und Notdienst rund um die Uhr. Jetzt Termin vereinbaren.";
 @endphp
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -459,17 +458,17 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen, Gasgeräte & H
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Saunier-duval-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Saunier Duval Kundendienst Wien <br>
+        <span style="color:#FB9A1B;">service rund um die uhr</span>
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier-duval-kaundseint Logo">
+        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier-duval-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Saunier-duval-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Saunier-duval-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Zuverlässiger Saunier Duval Kundendienst Wien für Thermen, Gasgeräte und Heizung inklusive Wartung, Reparatur und Notdienst.
+
       </p>
 
       <div class="wolf-hero__actions">

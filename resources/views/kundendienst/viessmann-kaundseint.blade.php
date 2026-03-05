@@ -465,28 +465,26 @@ $metaDescription = "Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizs
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
-
   <!-- HERO -->
   
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Viessmann-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Viessmann Kundendienst Wien <br>
+        <span style="color:#FB9A1B;"> service rund um die uhr</span>
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann-kaundseint Logo">
+        <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Viessmann-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Viessmann-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Professioneller Viessmann Kundendienst Wien für Gasgeräte, Thermen und Heizsysteme inklusive Wartung, Reparaturen und Notdienst.
+
       </p>
 
       <div class="wolf-hero__actions">

@@ -482,11 +482,16 @@
 
 </style>
 
-@push('meta')
-  <title>Viessmann Thermentausch Wien | Gastherme inkl. Montage & MwSt</title>
-  <meta name="description" content="Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Angebot & Service vom Fachbetrieb">
-@endpush
+@php
+$metaTitle = "Viessmann Thermentausch Wien | Gastherme inkl. Montage & MwSt
+";
+$metaDescription = " Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Angebot & Service vom Fachbetrieb
+";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush
 <main>
 
   <!-- HERO -->
@@ -495,7 +500,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Viessmann Thermenwartung Wien <br>
+         Viessmann Thermentausch Wien
+<br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -504,8 +510,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Viessmann Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Viessmann Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Ein professioneller Viessmann Thermentausch in Wien sorgt für zuverlässige Heizung, moderne Gastherme und langfristige Effizienz im eigenen Zuhause.
+
       </p>
 
       <div class="wolf-hero__actions">

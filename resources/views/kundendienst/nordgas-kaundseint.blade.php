@@ -470,7 +470,6 @@ $metaDescription = "Nordgas Kundendienst Wien für Gastherme & Heizung. Thermenw
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -480,8 +479,9 @@ $metaDescription = "Nordgas Kundendienst Wien für Gastherme & Heizung. Thermenw
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Nordgas-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Nordgas Kundendienst Wien
+ <br>
+        <span style="color:#FB9A1B;"> service rund um die uhr</span>
       </h1>
 
       <div class="wolf-hero__logo">
@@ -489,8 +489,8 @@ $metaDescription = "Nordgas Kundendienst Wien für Gastherme & Heizung. Thermenw
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Nordgas-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Nordgas-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Zuverlässiger Nordgas Kundendienst Wien für Gastherme, Heizung und Geräte inklusive Wartung, Reparaturen und Notdienst.
+
       </p>
 
       <div class="wolf-hero__actions">

@@ -501,7 +501,6 @@
     .wolf-hero__sub{font-size:14px}
   }
 </style>
-
 @php
 $metaTitle = "Baxi Kundendienst Wien – Thermenwartung & Gastherme Service";
 $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparatur für Baxi Gastherme ✔ Fachpartner & Installateur für sichere Lösungen.";
@@ -512,6 +511,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
 <meta name="description" content="{{ $metaDescription }}">
 @endpush
 
+
 <main>
   <!-- HERO -->
   
@@ -519,18 +519,43 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Baxi-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Baxi Notdienst Wien
+<br>
+        <span style="color:#FB9A1B;">Schnelle Hilfe bei Störungen, Ausfällen oder Problemen mit der Gastherme – der Baxi Notdienst Wien ist rund um die Uhr erreichbar.
+</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Baxi-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Baxi-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+       <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Baxi Notdienst und Kundendienst in Wien und Umgebung
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Thermenwartung, Reparatur und Soforthilfe aus einer Hand
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrene Techniker, geprüfte Lösungen und klare Abläufe
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Service rund um die Uhr, auch an Wochenenden und Feiertagen
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

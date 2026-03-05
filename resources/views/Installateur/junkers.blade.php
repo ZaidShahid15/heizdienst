@@ -532,7 +532,6 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -542,7 +541,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Junkers Thermenwartung Wien <br>
+        Junkers Installateur Wien <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -551,8 +550,8 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Junkers Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Junkers Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Als erfahrener Junkers Installateur Wien bieten wir zuverlässige Installation, Wartung und Service für Junkers Therme, Heizung und Gas in Wien.
+
       </p>
 
       <div class="wolf-hero__actions">

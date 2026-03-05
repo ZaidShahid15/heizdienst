@@ -520,7 +520,6 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -531,7 +530,8 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Viessmann Thermenwartung Wien <br>
+       Viessmann Installateur Wien
+<br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -540,8 +540,8 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Viessmann Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Viessmann Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Als Viessmann Installateur Wien bieten wir professionelle Installation, Wartung und Service für moderne Heizsysteme, Thermen und Wärmepumpen in Wien.
+
       </p>
 
       <div class="wolf-hero__actions">

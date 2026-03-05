@@ -437,10 +437,16 @@
   }
 </style>
 
+@php
+$metaTitle = "Saunier Duval Thermentausch Wien | Gastherme inkl. Montage & MwSt
+";
+$metaDescription = " Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Service & Angebot vom Fachbetrieb
+";
+@endphp
+
 @push('meta')
-  <title>Saunier Duval Thermentausch Wien | Gastherme inkl. Montage & MwSt</title>
-  <meta name="description" content="Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme & Brennwerttechnik ✔ Faire Preise inkl. MwSt ✔ Beratung, Service & Angebot vom Fachbetrieb">
-@endpush
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
   <!-- HERO -->
@@ -449,7 +455,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Saunier Thermenwartung Wien <br>
+        Saunier Duval Thermentausch Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -458,8 +465,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Saunier Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Saunier Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Ein professioneller Saunier Duval Thermentausch Wien sorgt für effiziente Heizung, zuverlässige Gastherme und modernen Komfort in Ihrem Zuhause.
+
       </p>
 
       <div class="wolf-hero__actions">

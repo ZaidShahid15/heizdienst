@@ -506,9 +506,15 @@
   }
 </style>
 
+@php
+$metaTitle = "Löblich Thermenwartung Wien – Notdienst & Reparatur
+";
+$metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Reparatur für Thermen und Gasthermen ✔ Faire Kosten & schnelle Hilfe in Wien.
+";
+@endphp
+
 @push('meta')
-  <title>L�blich Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="L�blich Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -518,18 +524,42 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Löblich-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Löblich Notdienst Wien
+ <br>
+        <span style="color:#FB9A1B;">Schnelle Hilfe bei Störungen, Reparaturbedarf oder Ausfall der Therme – der Löblich Notdienst Wien ist zuverlässig für Sie da.</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Löblich-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Löblich-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+       <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Notdienst für Löblich Thermen in Wien und Umgebung
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Thermenwartung, Reparatur und Thermenservice aus einer Hand
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrene Installateure und geschulte Techniker
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erreichbarkeit rund um die Uhr, auch an Wochenenden und Feiertagen
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

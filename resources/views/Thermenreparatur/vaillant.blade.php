@@ -492,9 +492,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Vaillant Thermenreparatur Wien – Notdienst & Service rund um die Uhr";
+$metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst rund um die Uhr. Thermenservice, Thermenwartung, Thermentausch & Kundendienst in Wien und Niederösterreich.";
+@endphp
+
 @push('meta')
-  <title>Vaillant Thermenreparatur Wien – Notdienst &amp; Service rund um die Uhr</title>
-  <meta name="description" content="Professionelle Vaillant Thermenreparatur Wien mit Notdienst rund um die Uhr. Thermenservice, Thermenwartung, Thermentausch &amp; Kundendienst in Wien und Niederösterreich.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -504,7 +508,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Vaillant Thermenwartung Wien <br>
+        Vaillant Thermenreparatur Wien Experten
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -513,8 +518,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Vaillant Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Vaillant Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+      Professionelle Vaillant Reparatur, Thermenservice und Notdienst in Wien und Niederösterreich – rund um die Uhr für Sie verfügbar.
+
       </p>
 
       <div class="wolf-hero__actions">

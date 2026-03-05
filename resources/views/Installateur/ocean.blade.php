@@ -480,7 +480,6 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -490,7 +489,8 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Ocean Thermenwartung Wien <br>
+        Ocean Installateur Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -499,8 +499,8 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Ocean Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Ocean Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Als Ocean Installateur Wien bieten wir professionelle Thermenwartung Wien, Reparatur und Ocean Notdienst für Ocean Therme und Gasgeräte in Wien.
+
       </p>
 
       <div class="wolf-hero__actions">

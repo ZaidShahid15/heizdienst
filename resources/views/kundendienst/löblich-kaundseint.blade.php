@@ -474,13 +474,12 @@
 </style>
 
 @php
-$metaTitle = "Löblich Thermenwartung Wien – Notdienst & Reparatur";
-$metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Reparatur für Thermen und Gasthermen ✔ Faire Kosten & schnelle Hilfe in Wien.";
+$metaTitle = "Löblich Kundendienst Wien | Thermenwartung, Reparatur & Service";
+$metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Thermenwartung, Reparatur, Ersatzteile und Service in Wien & NÖ. Jetzt Termin vereinbaren.";
 @endphp
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -490,17 +489,17 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Löblich-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Löblich Kundendienst Wien <br>
+        <span style="color:#FB9A1B;"> service rund um die uhr</span>
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich-kaundseint Logo">
+        <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Löblich-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Löblich-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Zuverlässiger Löblich Kundendienst Wien für Thermen, Gasgeräte und Heizungsanlage inklusive Wartung, Reparatur und Service.
+
       </p>
 
       <div class="wolf-hero__actions">

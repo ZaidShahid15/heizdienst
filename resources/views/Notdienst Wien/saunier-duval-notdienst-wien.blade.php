@@ -519,9 +519,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Saunier Duval Thermenwartung Wien – Kundendienst & Service";
+$metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung & Service für Saunier Duval Therme und Gastherme ✔ Beratung & Terminvereinbarung.";
+@endphp
+
 @push('meta')
-  <title>Saunier Duval Thermenwartung Wien – Kundendienst & Service</title>
-  <meta name="description" content="Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung & Service für Saunier Duval Therme und Gastherme ✔ Beratung & Terminvereinbarung.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -531,18 +535,43 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Saunier-duval-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Saunier Duval Notdienst Wien
+ <br>
+        <span style="color:#FB9A1B;">Schnelle Hilfe bei Störungen, Defekt oder Ausfall – der Saunier Duval Notdienst Wien ist zuverlässig für Sie da.
+</span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier-duval-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Saunier-duval-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Saunier-duval-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+       <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Saunier Duval Notdienst und Kundendienst in Wien
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Thermenwartung, Reparatur und Thermenservice aus einer Hand
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrene Techniker, Fachpartner und geprüfte Lösungen
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Service auch an Wochenenden – rasch vor Ort
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

@@ -475,10 +475,16 @@
   }
 </style>
 
+@php
+$metaTitle = " Löblich Thermentausch Wien | Gasthermen-Service & sichere Montage
+";
+$metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen & Thermenwartung ✔ Transparente Kosten ✔ Service, Notdienst & Beratung vom Profi
+";
+@endphp
+
 @push('meta')
-  <title>Löblich Thermentausch Wien | Gasthermen-Service & sichere Montage</title>
-  <meta name="description" content="Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen & Thermenwartung ✔ Transparente Kosten ✔ Service, Notdienst & Beratung vom Profi">
-@endpush
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
   <!-- HERO -->
@@ -487,7 +493,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Löblich Thermenwartung Wien <br>
+       Löblich Thermentausch Wien
+<br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -496,8 +503,7 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Löblich Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Löblich Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Ein professioneller Löblich Thermentausch Wien sorgt für sichere Wärme, zuverlässige Gasthermen und hohen Komfort in Ihrem Zuhause
       </p>
 
       <div class="wolf-hero__actions">

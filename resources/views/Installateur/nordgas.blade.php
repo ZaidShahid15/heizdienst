@@ -490,7 +490,6 @@ $metaDescription = "Nordgas Installateur Wien für Nordgas Thermenwartung, Repar
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
@@ -500,7 +499,8 @@ $metaDescription = "Nordgas Installateur Wien für Nordgas Thermenwartung, Repar
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Nordgas Thermenwartung Wien <br>
+        Nordgas Installateur Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -509,8 +509,8 @@ $metaDescription = "Nordgas Installateur Wien für Nordgas Thermenwartung, Repar
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Nordgas Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Nordgas Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Als Nordgas Installateur Wien bieten wir professionelle Nordgas Thermenwartung, Thermenservice und Reparatur für Nordgas Therme und Heizungsanlage in Wien.
+
       </p>
 
       <div class="wolf-hero__actions">

@@ -474,34 +474,34 @@
 </style>
 
 @php
-$metaTitle = "Junkers Kundendienst Wien | Wartung, Reparaturen & Notdienst Service";
-$metaDescription = "Junkers Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
+$metaTitle = "Junkers Kundendienst Wien | Wartung, Reparatur & Notdienst rund um die Uhr";
+$metaDescription = "Zuverlässiger Junkers Kundendienst Wien für Thermen & Gasgeräte. Thermenwartung, Reparatur, Ersatzteile und Notdienst rund um die Uhr. Jetzt kontaktieren.";
 @endphp
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>
-  <!-- HERO -->
+  <!-- HERO (keep your existing hero as-is) -->
   
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Junkers-kaundseint Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Junkers Kundendienst Wien <br>
+        <span style="color:#FB9A1B;"> rund um die uhr erreichbar</span>
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers-kaundseint Logo">
+        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Junkers-kaundseint Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Junkers-kaundseint Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Zuverlässiger Junkers Kundendienst Wien für Thermen, Gasgeräte und Heizung inklusive Wartung, Reparatur und Notdienst.
+
       </p>
+
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

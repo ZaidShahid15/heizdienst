@@ -525,9 +525,13 @@
   }
 </style>
 
+@php
+$metaTitle = "Wolf Notdienst Wien – 24h Service, Kundendienst & Reparatur";
+$metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartung & Wolf Kundendienst für Heizung, Therme und Gastherme in Wien & Niederösterreich.";
+@endphp
+
 @push('meta')
-  <title>Wolf Notdienst Wien – 24h Service, Kundendienst & Reparatur</title>
-  <meta name="description" content="Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartung & Wolf Kundendienst für Heizung, Therme und Gastherme in Wien & Niederösterreich.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -537,18 +541,44 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Wolf-notdienst-wien Thermenwartung Wien <br>
-        <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
+        Wolf Notdienst Wien <br>
+        <span style="color:#FB9A1B;">Schnelle Hilfe bei Störungen, Ausfällen oder Heizungsausfall – der Wolf Notdienst Wien ist rund um die Uhr für Sie verfügbar.
+
+
+      </span>
       </h1>
 
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/1wolf.jpeg') }}" alt="Wolf-notdienst-wien Logo">
       </div>
 
-      <p class="wolf-hero__sub">
-        Professionelle Wolf-notdienst-wien Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Wolf-notdienst-wien Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
-      </p>
+      <div class="wolf-hero__sub">
+<ul class="hero-checklist-center">
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Wolf Notdienst und Kundendienst in Wien und Umgebung
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Reparatur, Wartung, Thermenservice und Soforthilfe
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Erfahrene Techniker, Fachpersonal und klare Lösungen
+</span>
+</li>
+
+<li>
+<i class="bi bi-check-circle-fill"></i>
+<span>Service rund um die Uhr – auch an Feiertagen
+</span>
+</li>
+</ul>
+</div>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--red" href="tel:+4314420617">

@@ -481,11 +481,14 @@ Saunier-Duval.html
   }
 </style>
 
-@push('meta')
-  <title>Saunier Duval Thermenreparatur Wien – Notdienst & Thermenwartung Wien</title>
-  <meta name="description" content="Saunier Duval Thermenreparatur Wien vom Fachbetrieb. Thermenwartung Wien, Duval Thermenservice, Notdienst rund um die Uhr in Wien und Niederösterreich.">
-@endpush
+@php
+$metaTitle = "Saunier Duval Thermenreparatur Wien – Notdienst & Thermenwartung Wien";
+$metaDescription = "Saunier Duval Thermenreparatur Wien vom Fachbetrieb. Thermenwartung Wien, Duval Thermenservice, Notdienst rund um die Uhr in Wien und Niederösterreich.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush
 <main>
   <!-- HERO -->
   
@@ -493,7 +496,8 @@ Saunier-Duval.html
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Saunier Thermenwartung Wien <br>
+       Saunier Duval Thermenreparatur Wien Experten
+<br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -502,8 +506,8 @@ Saunier-Duval.html
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Saunier Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Saunier Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Schnelle Hilfe für Ihre Saunier Duval Therme in Wien – Reparatur, Thermenwartung und Notdienst rund um die Uhr.
+
       </p>
 
       <div class="wolf-hero__actions">

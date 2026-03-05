@@ -482,9 +482,13 @@ Ocean.html
   }
 </style>
 
+@php
+$metaTitle = "Ocean Thermenreparatur Wien – Ocean Kundendienst & Thermenwartung Wien";
+$metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wien, Thermenwartung Wien, Thermentausch & Notdienst in Wien Niederösterreich und Burgenland.";
+@endphp
+
 @push('meta')
-  <title>Ocean Thermenreparatur Wien – Ocean Kundendienst & Thermenwartung Wien</title>
-  <meta name="description" content="Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wien, Thermenwartung Wien, Thermentausch & Notdienst in Wien Niederösterreich und Burgenland.">
+<title>{{ $metaTitle }}</title>
 @endpush
 
 <main>
@@ -494,7 +498,8 @@ Ocean.html
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Ocean Thermenwartung Wien <br>
+        Ocean Thermenreparatur Wien Experten
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -503,8 +508,8 @@ Ocean.html
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Ocean Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Ocean Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Zuverlässige Ocean Thermenreparatur Wien für Ihre Ocean Therme – Thermenservice, Wartung und Kundendienst rund um die Uhr.
+
       </p>
 
       <div class="wolf-hero__actions">

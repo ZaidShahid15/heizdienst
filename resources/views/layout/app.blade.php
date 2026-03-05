@@ -32,6 +32,26 @@
 
 <body>
     <style>
+      .hero-checklist-center{
+list-style:none;
+padding:0;
+margin:0 auto;
+max-width:561px ;
+color:white;
+}
+
+.hero-checklist-center li{
+display:flex;
+align-items:flex-start;
+gap:12px;
+margin-bottom:10px;
+}
+
+.hero-checklist-center i{
+color:orange;
+font-size:18px;
+margin-top:4px;
+}
         input, textarea
  {
     margin-top: 10px

@@ -462,10 +462,16 @@
   }
 </style>
 
+@php
+$metaTitle = "Windhager Thermentausch Wien | Reparatur, Wartung & Notdienst
+";
+$metaDescription = "Windhager Thermentausch in Wien ✔ Gastherme, Reparatur & Thermenwartung ✔ Notdienst & Kundendienst ✔ Transparente Kosten & professionelle Betreuung
+";
+@endphp
+
 @push('meta')
-  <title>Windhager Thermenreparatur Wien – Notdienst & Thermenwartung Wien</title>
-  <meta name="description" content="Windhager Thermenreparatur Wien vom Meisterbetrieb. Windhager Thermenwartung, Notdienst rund um die Uhr in Wien Niederösterreich & Burgenland.">
-@endpush
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
   <!-- HERO -->
@@ -474,7 +480,7 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Windhager Thermenwartung Wien <br>
+        Windhager Thermentausch Wien <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -483,8 +489,8 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Windhager Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Windhager Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Ein professioneller Windhager Thermentausch Wien sorgt für sichere Therme, effiziente Heizung und zuverlässigen Betrieb in Wien und Niederösterreich.
+
       </p>
 
       <div class="wolf-hero__actions">

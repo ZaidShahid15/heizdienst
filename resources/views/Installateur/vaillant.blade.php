@@ -532,7 +532,8 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Vaillant Thermenwartung Wien <br>
+        Vaillant Installateur Wien
+ <br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -541,8 +542,8 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Vaillant Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Vaillant Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+        Als zuverlässiger Vaillant Installateur Wien bieten wir professionelle Installation, Wartung und Service für Therme, Heizung und Gasgeräte in Wien.
+
       </p>
 
       <div class="wolf-hero__actions">
