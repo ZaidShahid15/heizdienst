@@ -460,7 +460,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Logo">
+        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Logo">
       </div>
 
       <p class="wolf-hero__sub">
