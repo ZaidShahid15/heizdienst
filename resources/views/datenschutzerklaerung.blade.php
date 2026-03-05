@@ -1,6 +1,20 @@
 @extends('layout.app')
 
 @section('main')
+@extends('layout.app')
+
+@section('main')
+
+@php
+$metaTitle = "Datenschutzerklärung | Heizdienst Wien – PR Installationstechnik & Klimaanlagen GmbH";
+$metaDescription = "Datenschutzerklärung von Heizdienst Wien. Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO, Kontakt, Datensicherheit und Rechte der betroffenen Personen.";
+@endphp
+
+@push('meta')
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
+<meta name="robots" content="noindex, follow">
+@endpush
 <div class="container py-5" style="margin-top:100px;">
 
     <h1 class="mb-4 fw-bold text-center">Datenschutzerklärung</h1>

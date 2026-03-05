@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Thermendienst – Thermenwartung Wien & NÖ</title>
     <meta name="robots" content="noindex, nofollow">
 <meta name="title" content="{{ $metaTitle ?? 'Default Site Title' }}">
 
@@ -24,6 +23,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('css/services.css') }}">
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/style1.css') }}">
 
 
    
@@ -584,7 +584,7 @@ margin-top:4px;
             <a class="m-iconbtn" href="tel:+4314420617" aria-label="Anrufen"><svg>
                     <use href="#i-phone"></use>
                 </svg></a>
-            <a class="m-iconbtn" href="mailto:office@thermendienst.at" aria-label="E-Mail"><svg>
+            <a class="m-iconbtn" href="mailto:office@heizdienst.at" aria-label="E-Mail"><svg>
                     <use href="#i-mail"></use>
                 </svg></a>
             <a class="m-iconbtn" href="https://wa.me/436677711881" aria-label="WhatsApp">

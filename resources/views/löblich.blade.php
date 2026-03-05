@@ -491,7 +491,14 @@
     .wolf-hero__sub{font-size:14px;}
   }
 </style>
+@php
+$metaTitle = "Löblich Thermenwartung Wien | 24h Notdienst & Fachbetrieb";
+$metaDescription = " Löblich Thermenwartung in Wien vom erfahrenen Fachbetrieb. 24h Notdienst, transparente Preise, Wartung, Service & Reparatur – zuverlässig & sicher.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 <main>
   <!-- HERO -->
   

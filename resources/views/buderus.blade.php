@@ -560,6 +560,14 @@
     z-index: 0;
   }
 </style>
+@php
+$metaTitle = " Buderus Thermenwartung Wien | 24h Notdienst & Fachbetrieb";
+$metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 24h Notdienst, transparente Preise inkl. MwSt, Wartung, Service & Reparatur – zuverlässig & professionell.";
+@endphp
+
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
   <!-- HERO -->

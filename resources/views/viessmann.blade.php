@@ -379,7 +379,14 @@
             z-index: 0;
         }
 </style>
+@php
+$metaTitle = " Viessmann Thermenwartung Wien | 24h Notdienst & Fachbetrieb";
+$metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb. 24h Notdienst, transparente Preise inkl. MwSt, Wartung, Service & Reparatur – sicher & effizient.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 <main>
   <!-- HERO -->
   <!-- HERO (wolf-hero style – Viessmann) -->

@@ -534,6 +534,14 @@
 }
 
 </style>
+@php
+$metaTitle = " Baxi Thermenwartung Wien | 24h Notdienst & Fachbetrieb";
+$metaDescription = " Professionelle Baxi Thermenwartung in Wien vom Fachbetrieb. 24h Notdienst, faire Preise inkl. MwSt, Wartung, Service & Reparatur – zuverlässig & effizient.";
+@endphp
+
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 <main>
 
   <!-- HERO -->

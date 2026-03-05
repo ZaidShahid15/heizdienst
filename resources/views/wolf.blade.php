@@ -377,7 +377,14 @@
 }
 
 </style>
+@php
+$metaTitle = " Wolf Thermenwartung Wien | 24h Notdienst & Fachbetrieb";
+$metaDescription = " Wolf Thermenwartung in Wien vom geprüften Fachbetrieb. 24h Notdienst, transparente Preise inkl. MwSt, Wartung, Service & Reparatur – sicher & effizient.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 <main>
   <!-- HERO -->
   <!-- HERO (wolf-hero style – Wolf) -->

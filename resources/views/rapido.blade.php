@@ -474,10 +474,14 @@
   }
 </style>
 
+@php
+$metaTitle = " Rapido Thermenwartung Wien | 24h Notdienst & Fachbetrieb";
+$metaDescription = " Rapido Thermenwartung in Wien vom geprüften Fachbetrieb. 24h Notdienst, transparente Preise, Wartung, Service & Reparatur – zuverlässig & sicher.";
+@endphp
+
 @push('meta')
-  <title>Rapido Thermentausch Wien | Gastherme inkl. Montage &amp; Service</title>
-  <meta name="description" content="Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme ✔ Thermenwartung, Reparatur &amp; Notdienst ✔ Transparente Preise &amp; schneller Service">
-@endpush
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
   <!-- HERO -->

@@ -462,8 +462,14 @@
       .wolf-hero__sub{font-size:14px}
     }
   </style>
-</head>
-<body>
+@php
+$metaTitle = " Windhager Thermenwartung Wien | Notdienst, Reparatur & Service";
+$metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager Kundendienst, Notdienst & Thermenservice in Wien Niederösterreich und Burgenland.";
+@endphp
+
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 <main>
   <!-- HERO -->
   

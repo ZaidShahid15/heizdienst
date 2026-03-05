@@ -802,7 +802,17 @@
             z-index: 0;
         }
     </style>
+    @php
+$metaTitle = "Vaillant Thermenwartung Wien | 24h Service, Reparatur & Notdienst";
+$metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service für Wartung, Reparatur & Notdienst. Fixpreise inkl. MwSt, original Vaillant Ersatzteile.";
+@endphp
+
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
     <main>
+
+        
         <!-- HERO -->
         {{-- <section class="service-hero" id="hero-services">
     <div class="service-container service-hero__grid">

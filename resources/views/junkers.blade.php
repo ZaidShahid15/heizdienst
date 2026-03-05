@@ -350,6 +350,14 @@
     z-index: 0;
   }
 </style>
+@php
+$metaTitle = " Junkers Thermenwartung Wien | 24h Notdienst & Meisterbetrieb";
+$metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbetrieb. 24h Notdienst, Standard & Premium Wartung, transparente Preise inkl. MwSt – zuverlässig & sicher.";
+@endphp
+
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 
 <main>
   <!-- HERO -->

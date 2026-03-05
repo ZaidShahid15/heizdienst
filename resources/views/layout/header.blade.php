@@ -82,18 +82,29 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
           </h2>
           <div id="accBrands" class="accordion-collapse collapse" aria-labelledby="accBrandsH" data-bs-parent="#mobileNavAccordion">
             <div class="accordion-body mm-acc-body">
-              <a class="mm-dd-item mm-navlink" href="{{ url('/vaillant') }}"><img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/buderus') }}"><img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/baxi') }}"><img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/junkers') }}"><img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/viessmann') }}"><img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/saunier-duval') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/wolf') }}"><img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/löblich') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/ocean') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/rapido') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/windhager') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
-              <a class="mm-dd-item mm-navlink" href="{{ url('/nordgas') }}"><img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
+              <a class="mm-dd-item mm-navlink" href="{{ route('vaillant.thermenwartung') }}"><img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('buderus.thermenwartung') }}"><img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('baxi.thermenwartung') }}"><img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('junkers.thermenwartung') }}"><img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('viessmann.thermenwartung') }}"><img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('saunierduval.thermenwartung') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('wolf.thermenwartung') }}"><img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('loeblich.thermenwartung') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('ocean.thermenwartung') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('rapido.thermenwartung') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('windhager.thermenwartung') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
+
+              <a class="mm-dd-item mm-navlink" href="{{ route('nordgas.thermenwartung') }}"><img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
             </div>
           </div>
         </div>
@@ -257,7 +268,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
     <div class="container">
       <div class="pill">
         <svg><use href="#i-phone"></use></svg>
-        <span>Soforthilfe: <a href="tel:+0000000">+43 0 000000</a></span>
+        <span>Soforthilfe: <a href="tel:+4314420617">+431 442 0617</a></span>
       </div>
       <div class="pill">
         <svg></svg>
@@ -284,18 +295,54 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
             </a>
             <div class="nav-dropdown-panel" role="menu" aria-label="Markenübersicht">
               <div class="dd-title">Markenübersicht</div>
-              <a class="dd-item" href="{{ url('/vaillant') }}"><img class="dd-logo" src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
-              <a class="dd-item" href="{{ url('/buderus') }}"><img class="dd-logo" src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
-              <a class="dd-item" href="{{ url('/baxi') }}"><img class="dd-logo" src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
-              <a class="dd-item" href="{{ url('/junkers') }}"><img class="dd-logo" src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
-              <a class="dd-item" href="{{ url('/viessmann') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
-              <a class="dd-item" href="{{ url('/saunier-duval') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
-              <a class="dd-item" href="{{ url('/wolf') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
-              <a class="dd-item" href="{{ url('/löblich') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
-              <a class="dd-item" href="{{ url('/ocean') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
-              <a class="dd-item" href="{{ url('/rapido') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
-              <a class="dd-item" href="{{ url('/windhager') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
-              <a class="dd-item" href="{{ url('/nordgas') }}"><img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas</a>
+
+              <a class="dd-item" href="{{ route('vaillant.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant
+              </a>
+
+              <a class="dd-item" href="{{ route('buderus.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus
+              </a>
+
+              <a class="dd-item" href="{{ route('baxi.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi
+              </a>
+
+              <a class="dd-item" href="{{ route('junkers.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers
+              </a>
+
+              <a class="dd-item" href="{{ route('viessmann.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann
+              </a>
+
+              <a class="dd-item" href="{{ route('saunierduval.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval
+              </a>
+
+              <a class="dd-item" href="{{ route('wolf.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf
+              </a>
+
+              <a class="dd-item" href="{{ route('loeblich.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich
+              </a>
+
+              <a class="dd-item" href="{{ route('ocean.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean
+              </a>
+
+              <a class="dd-item" href="{{ route('rapido.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido
+              </a>
+
+              <a class="dd-item" href="{{ route('windhager.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager
+              </a>
+
+              <a class="dd-item" href="{{ route('nordgas.thermenwartung') }}">
+                <img class="dd-logo" src="{{ asset('img/NordGas.png') }}" alt="Nordgas">Nordgas
+              </a>
             </div>
           </div>
 
@@ -434,19 +481,30 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
             <div style="padding:12px 14px; font-weight:900; background:#122a57; color:#fff;">
               Markenübersicht
             </div>
-            <div style="background:#122a57; padding:6px 0;">
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/vaillant') }}">Vaillant</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/buderus') }}">Buderus</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/baxi') }}">Baxi</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/junkers') }}">Junkers</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/viessmann') }}">Viessmann</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/saunier-duval') }}">Saunier Duval</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/wolf') }}">Wolf</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/löblich') }}">Löblich</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/ocean') }}">Ocean</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/rapido') }}">Rapido</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/windhager') }}">Windhager</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ url('/nordgas') }}">Nordgas</a>
+           <div style="background:#122a57; padding:6px 0;">
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('vaillant.thermenwartung') }}">Vaillant</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('buderus.thermenwartung') }}">Buderus</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('baxi.thermenwartung') }}">Baxi</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('junkers.thermenwartung') }}">Junkers</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('viessmann.thermenwartung') }}">Viessmann</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('saunierduval.thermenwartung') }}">Saunier Duval</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('wolf.thermenwartung') }}">Wolf</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('loeblich.thermenwartung') }}">Löblich</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('ocean.thermenwartung') }}">Ocean</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('rapido.thermenwartung') }}">Rapido</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('windhager.thermenwartung') }}">Windhager</a>
+
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('nordgas.thermenwartung') }}">Nordgas</a>
             </div>
           </div>
 

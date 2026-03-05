@@ -4,6 +4,9 @@
     $metaTitle = 'Thermenwartung & Thermenservice Wien & NÖ | Reparatur & Notdienst';
     $metaDescription = 'Professionelle Thermenwartung, Thermenservice & Reparatur in Wien und Niederösterreich. Alle Marken, transparente Preise inkl. MwSt, schnelle Hilfe & Notdienst.';
 @endphp
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 
     <!-- Owl Carousel (for mobile slider in 'Bekannt aus') -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>

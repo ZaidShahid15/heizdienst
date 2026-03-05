@@ -366,7 +366,14 @@
             z-index: 0;
         }
 </style>
+@php
+$metaTitle = " Saunier Duval Thermenwartung Wien | 24h Notdienst & Fachbetrieb";
+$metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fachbetrieb. 24h Notdienst, transparente Preise inkl. MwSt, Wartung, Service & Reparatur – zuverlässig & effizient.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 <main>
   <!-- HERO -->
  <!-- HERO (same layout/style as the previous wolf-hero, with Saunier Duval content) -->

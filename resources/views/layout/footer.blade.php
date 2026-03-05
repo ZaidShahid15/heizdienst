@@ -64,7 +64,7 @@
 
                         <li>
                             <svg><use href="#i-mail"></use></svg>
-                            <a href="mailto:info@example.com">info@example.com</a>
+                            <a href="mailto:office@heizdienst.at">office@heizdienst.at</a>
                         </li>
                     </ul>
                 </div>

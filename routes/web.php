@@ -11,24 +11,35 @@ Route::get('/', function () {
 | Brand Pages (normal)
 |--------------------------------------------------------------------------
 */
-Route::get('/vaillant', fn() => view('vaillant'));
-Route::get('/buderus', fn() => view('buderus'));
-Route::get('/löblich', fn() => view('löblich'));
-Route::get('/baxi', fn() => view('baxi'));
-Route::get('/junkers', fn() => view('junkers'));
-Route::get('/wolf', fn() => view('wolf'));
-Route::get('/viessmann', fn() => view('viessmann'));
-Route::get('/saunier-duval', fn() => view('saunier-duval'));
-Route::get('/rapido', fn() => view('rapido'));
-Route::get('/ocean', fn() => view('ocean'));
+Route::get('/vaillant-thermenwartung-wien', fn() => view('vaillant'))->name('vaillant.thermenwartung');
+
+Route::get('/buderus-thermenwartung-wien', fn() => view('buderus'))->name('buderus.thermenwartung');
+
+Route::get('/loeblich-thermenwartung-wien', fn() => view('löblich'))->name('loeblich.thermenwartung');
+
+Route::get('/baxi-thermenwartung-wien', fn() => view('baxi'))->name('baxi.thermenwartung');
+
+Route::get('/junkers-thermenwartung-wien', fn() => view('junkers'))->name('junkers.thermenwartung');
+
+Route::get('/wolf-thermenwartung-wien', fn() => view('wolf'))->name('wolf.thermenwartung');
+
+Route::get('/viessmann-thermenwartung-wien', fn() => view('viessmann'))->name('viessmann.thermenwartung');
+
+Route::get('/saunier-duval-thermenwartung-wien', fn() => view('saunier-duval'))->name('saunierduval.thermenwartung');
+
+Route::get('/rapido-thermenwartung-wien', fn() => view('rapido'))->name('rapido.thermenwartung');
+
+Route::get('/ocean-thermenwartung-wien', fn() => view('ocean'))->name('ocean.thermenwartung');
+
+Route::get('/nordgas-thermenwartung-wien', fn() => view('nordgas'))->name('nordgas.thermenwartung');
+
+Route::get('/windhager-thermenwartung-wien', fn() => view('windhager'))->name('windhager.thermenwartung');
 // Route::get('impressum',fn() => view('impressum'))->name('impressum');
 // Route::get('/Datenschutzerklärung',fn() => view('Datenschutzerklärung'));
 
 Route::view('/impressum', 'impressum')->name('impressum');
 Route::view('/datenschutzerklaerung', 'datenschutzerklaerung')->name('datenschutzerklaerung');
 
-Route::get('/nordgas', fn() => view('nordgas'));
-Route::get('/windhager', fn() => view('windhager'));
 Route::get('/thermen-notdienst-wien', fn() => view('thermen-notdienst-wien'));
 Route::get('/heizung-notdienst-wien', fn() => view('heizung-notdienst-wien'));
 /*
@@ -124,3 +135,30 @@ Route::get('/warmepumpel-Wartung-Burgenland-wien', fn() => view('warmepumpel.War
 Route::get('/warmepumpel-Reparatur-Niederosterreich-wien', fn() => view('warmepumpel.Reparatur-Niederosterreich'))->name('warmepumpel.Reparatur-Niederosterreich');
 Route::get('/warmepumpel-Installation-Burgenland-wien', fn() => view('warmepumpel.Installation-Burgenland'))->name('warmepumpel.Installation-Burgenland');
 Route::get('/warmepumpel-Reparatur-Burgenland-wien', fn() => view('warmepumpel.Reparatur-Burgenland'))->name('warmepumpel.Reparatur-Burgenland');
+
+
+
+
+Route::get('/installateur-1010-wien', fn() => view('installateur_wien.installateur-1010-wien'))->name('installateur.1010');
+Route::get('/installateur-1020-wien', fn() => view('installateur_wien.installateur-1020-wien'))->name('installateur.1020');
+Route::get('/installateur-1030-wien', fn() => view('installateur_wien.installateur-1030-wien'))->name('installateur.1030');
+Route::get('/installateur-1040-wien', fn() => view('installateur_wien.installateur-1040-wien'))->name('installateur.1040');
+Route::get('/installateur-1050-wien', fn() => view('installateur_wien.installateur-1050-wien'))->name('installateur.1050');
+Route::get('/installateur-1060-wien', fn() => view('installateur_wien.installateur-1060-wien'))->name('installateur.1060');
+Route::get('/installateur-1070-wien', fn() => view('installateur_wien.installateur-1070-wien'))->name('installateur.1070');
+Route::get('/installateur-1080-wien', fn() => view('installateur_wien.installateur-1080-wien'))->name('installateur.1080');
+Route::get('/installateur-1090-wien', fn() => view('installateur_wien.installateur-1090-wien'))->name('installateur.1090');
+Route::get('/installateur-1100-wien', fn() => view('installateur_wien.installateur-1100-wien'))->name('installateur.1100');
+Route::get('/installateur-1110-wien', fn() => view('installateur_wien.installateur-1110-wien'))->name('installateur.1110');
+Route::get('/installateur-1120-wien', fn() => view('installateur_wien.installateur-1120-wien'))->name('installateur.1120');
+Route::get('/installateur-1130-wien', fn() => view('installateur_wien.installateur-1130-wien'))->name('installateur.1130');
+Route::get('/installateur-1140-wien', fn() => view('installateur_wien.installateur-1140-wien'))->name('installateur.1140');
+Route::get('/installateur-1150-wien', fn() => view('installateur_wien.installateur-1150-wien'))->name('installateur.1150');
+Route::get('/installateur-1160-wien', fn() => view('installateur_wien.installateur-1160-wien'))->name('installateur.1160');
+Route::get('/installateur-1170-wien', fn() => view('installateur_wien.installateur-1170-wien'))->name('installateur.1170');
+Route::get('/installateur-1180-wien', fn() => view('installateur_wien.installateur-1180-wien'))->name('installateur.1180');
+Route::get('/installateur-1190-wien', fn() => view('installateur_wien.installateur-1190-wien'))->name('installateur.1190');
+Route::get('/installateur-1200-wien', fn() => view('installateur_wien.installateur-1200-wien'))->name('installateur.1200');
+Route::get('/installateur-1210-wien', fn() => view('installateur_wien.installateur-1210-wien'))->name('installateur.1210');
+Route::get('/installateur-1220-wien', fn() => view('installateur_wien.installateur-1220-wien'))->name('installateur.1220');
+Route::get('/installateur-1230-wien', fn() => view('installateur_wien.installateur-1230-wien'))->name('installateur.1230');

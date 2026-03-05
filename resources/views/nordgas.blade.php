@@ -462,11 +462,14 @@
   }
 </style>
 
-@push('meta')
-  <title>Nordgas Thermenwartung Wien – 24h Service vom Fachbetrieb</title>
-  <meta name="description" content="Professionelle Nordgas Thermenwartung Wien durch erfahrene Techniker – zuverlässig, sicher und rund um die Uhr. 24h Notdienst, transparente Preise, Original Nordgas Teile.">
-@endpush
+@php
+$metaTitle = " Nordgas Thermenwartung Wien | 24h Service, Reparatur & Notdienst";
+$metaDescription = " Professionelle Nordgas Thermenwartung Wien vom Fachbetrieb. 24h Service, Wartung, Reparatur & Notdienst mit transparenten Preisen inkl. MwSt.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 <main>
   <!-- HERO -->
   

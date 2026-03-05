@@ -366,7 +366,14 @@
             z-index: 0;
         }
 </style>
+@php
+$metaTitle = " Ocean Thermenwartung Wien | 24h Notdienst & Fachbetrieb";
+$metaDescription = " Ocean Thermenwartung in Wien vom erfahrenen Fachbetrieb. 24h Notdienst, transparente Preise, Wartung, Service & Reparatur – zuverlässig & effizient.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+@endpush	
 <main>
   <!-- HERO -->
   <!-- HERO (same style as previous “wolf-hero”, same Ocean content) -->
