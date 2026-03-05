@@ -488,9 +488,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Vaillant Kundendienst Wien | Service, Wartung & Notdienst rund um die Uhr";
+$metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasgeräte & Heizung. Wartung, Reparatur, Ersatzteile";
+@endphp
+
 @push('meta')
-  <title>Vaillant Kundendienst Wien | Service, Wartung & Notdienst rund um die Uhr</title>
-  <meta name="description" content="Professioneller Vaillant Kundendienst Wien für Therme, Gasgeräte & Heizung. Wartung, Reparatur, Ersatzteile">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

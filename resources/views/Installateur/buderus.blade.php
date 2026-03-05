@@ -443,10 +443,10 @@
   }
 </style>
 
-@push('meta')
-  <title>Buderus Installateur Wien | Thermenwartung & Service</title>
-  <meta name="description" content="Buderus Installateur Wien für Buderus Thermenwartung, Reparatur & Thermentausch. Transparente Preise inkl. MwSt. Jetzt Termin vereinbaren.">
-@endpush
+@php
+$metaTitle = "Buderus Installateur Wien | Thermenwartung & Service";
+$metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Reparatur & Thermentausch. Transparente Preise inkl. MwSt. Jetzt Termin vereinbaren.";
+@endphp
 
 <main>
 

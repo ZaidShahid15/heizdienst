@@ -463,9 +463,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Wolf Kundendienst Wien | Wartung, Reparaturen & Notdienst Service";
+$metaDescription = "Wolf Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
+@endphp
+
 @push('meta')
-  <title>Wolf Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="Wolf Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

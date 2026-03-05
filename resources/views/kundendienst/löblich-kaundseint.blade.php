@@ -473,9 +473,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Löblich Thermenwartung Wien – Notdienst & Reparatur";
+$metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Reparatur für Thermen und Gasthermen ✔ Faire Kosten & schnelle Hilfe in Wien.";
+@endphp
+
 @push('meta')
-  <title>Löblich Thermenwartung Wien – Notdienst & Reparatur</title>
-  <meta name="description" content="Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Reparatur für Thermen und Gasthermen ✔ Faire Kosten & schnelle Hilfe in Wien.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

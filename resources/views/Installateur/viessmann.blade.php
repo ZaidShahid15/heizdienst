@@ -513,9 +513,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Viessmann Installateur Wien | Service, Wartung & Installation";
+$metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Thermenwartung, Wärmepumpe & Service. Persönliche Beratung, faire Kosten. Jetzt anfragen.";
+@endphp
+
 @push('meta')
-  <title>Viessmann Installateur Wien | Service, Wartung &amp; Installation</title>
-  <meta name="description" content="Erfahrener Viessmann Installateur Wien für Installation, Thermenwartung, Wärmepumpe &amp; Service. Persönliche Beratung, faire Kosten. Jetzt anfragen.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

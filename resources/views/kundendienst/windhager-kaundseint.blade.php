@@ -462,9 +462,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Windhager Kundendienst Wien | Thermenwartung, Reparatur & Notdienst";
+$metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Thermenwartung, Reparatur, Fehlercode-Diagnose und Notdienst rund um die Uhr in Wien, NÖ & Burgenland.";
+@endphp
+
 @push('meta')
-  <title>Windhager Kundendienst Wien | Thermenwartung, Reparatur & Notdienst</title>
-  <meta name="description" content="Windhager Kundendienst Wien für Gastherme & Heizung. Thermenwartung, Reparatur, Fehlercode-Diagnose und Notdienst rund um die uhr in Wien, NÖ & Burgenland.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

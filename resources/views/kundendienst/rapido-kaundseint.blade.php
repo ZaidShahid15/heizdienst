@@ -467,9 +467,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Rapido Notdienst Wien – Thermenservice & Gastherme 24h";
+$metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & Reparatur ✔ Gastherme, Heizung & Kundendienst rund um die Uhr in Wien & NÖ.";
+@endphp
+
 @push('meta')
-  <title>Rapido Notdienst Wien – Thermenservice & Gastherme 24h</title>
-  <meta name="description" content="Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & Reparatur ✔ Gastherme, Heizung & Kundendienst rund um die Uhr in Wien & NÖ.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

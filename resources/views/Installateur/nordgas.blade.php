@@ -483,9 +483,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Nordgas Installateur Wien | Thermenwartung & Notdienst";
+$metaDescription = "Nordgas Installateur Wien für Nordgas Thermenwartung, Reparatur & Notdienst. Service in Wien, Niederösterreich & Burgenland. Jetzt Termin sichern.";
+@endphp
+
 @push('meta')
-  <title>Nordgas Installateur Wien | Thermenwartung & Notdienst</title>
-  <meta name="description" content="Nordgas Installateur Wien für Nordgas Thermenwartung, Reparatur & Notdienst. Service in Wien, Niederösterreich & Burgenland. Jetzt Termin sichern.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

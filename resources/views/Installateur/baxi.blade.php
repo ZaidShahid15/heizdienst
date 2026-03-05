@@ -441,10 +441,11 @@
   }
 </style>
 
-@push('meta')
-  <title>Baxi Installateur Wien | Wartung, Reparatur &amp; Notdienst</title>
-  <meta name="description" content="Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparatur &amp; 24/7 Baxi Notdienst. Baxi Kundendienst Wien mit fairen Preisen. Jetzt Termin sichern.">
-@endpush
+@php
+$metaTitle = "Baxi Installateur Wien | Wartung, Reparatur & Notdienst";
+
+$metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparatur & 24/7 Baxi Notdienst. Baxi Kundendienst Wien mit fairen Preisen. Jetzt Termin sichern.";
+@endphp
 
 <main>
 
@@ -454,7 +455,8 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Baxi Thermenwartung Wien <br>
+        Baxi Installateur Wien
+<br>
         <span style="color:#FB9A1B;"> Rund  um die Uhr Service vom Fachbetrieb.</span>
       </h1>
 
@@ -463,8 +465,7 @@
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Baxi Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Baxi Therme,
-        Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
+       Als erfahrener Baxi Installateur Wien bieten wir professionelle Installation, Wartung und Reparatur für Baxi Thermen, Gasgeräte und Heizsysteme in Wien und Umgebung
       </p>
 
       <div class="wolf-hero__actions">

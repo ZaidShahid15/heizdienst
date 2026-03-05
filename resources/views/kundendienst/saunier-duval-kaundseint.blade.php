@@ -442,9 +442,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Saunier Duval Kundendienst Wien | Wartung, Reparaturen & Notdienst Service";
+$metaDescription = "Saunier Duval Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
+@endphp
+
 @push('meta')
-  <title>Saunier Duval Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="Saunier Duval Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

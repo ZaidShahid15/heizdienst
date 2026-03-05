@@ -8,7 +8,7 @@
 <meta name="title" content="{{ $metaTitle ?? 'Default Site Title' }}">
 
 <meta name="description" content="{{ $metaDescription ?? 'Default meta description' }}">
-
+ @stack('meta')
     <!-- Font close to Elementor kit used (Raleway) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -475,9 +475,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Löblich Installateur Wien | Thermenwartung & Notdienst";
+$metaDescription = "Löblich Installateur Wien für professionelle Löblich Thermenwartung, Thermenservice & Notdienst. Transparente Preise. Jetzt Termin vereinbaren.";
+@endphp
+
 @push('meta')
-  <title>Löblich Installateur Wien | Thermenwartung & Notdienst</title>
-  <meta name="description" content="Löblich Installateur Wien für professionelle Löblich Thermenwartung, Thermenservice & Notdienst. Transparente Preise. Jetzt Termin vereinbaren.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

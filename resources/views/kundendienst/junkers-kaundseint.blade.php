@@ -473,9 +473,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Junkers Kundendienst Wien | Wartung, Reparaturen & Notdienst Service";
+$metaDescription = "Junkers Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
+@endphp
+
 @push('meta')
-  <title>Junkers Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="Junkers Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

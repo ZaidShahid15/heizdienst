@@ -473,10 +473,14 @@
     .wolf-hero__sub{font-size:14px}
   }
 </style>
+@php
+$metaTitle = "Ocean Installateur Wien | Thermenwartung & Notdienst";
+$metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur & Ocean Notdienst rund um die Uhr. Kundendienst Wien & Umgebung. Jetzt Termin sichern.";
+@endphp
 
 @push('meta')
-  <title>Ocean Installateur Wien | Thermenwartung & Notdienst</title>
-  <meta name="description" content="Ocean Installateur Wien für Ocean Thermenwartung, Reparatur & Ocean Notdienst rund um die Uhr. Kundendienst Wien & Umgebung. Jetzt Termin sichern.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

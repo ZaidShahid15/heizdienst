@@ -437,9 +437,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Saunier Duval Installateur Wien | Wartung & Notdienst";
+$metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparatur & Thermentausch Wien. Rund um die Uhr Notdienst. Jetzt Angebot anfragen.";
+@endphp
+
 @push('meta')
-  <title>Saunier Duval Installateur Wien | Wartung & Notdienst</title>
-  <meta name="description" content="Saunier Duval Installateur Wien für Thermenwartung, Reparatur & Thermentausch Wien. Rund um die Uhr Notdienst. Jetzt Angebot anfragen.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

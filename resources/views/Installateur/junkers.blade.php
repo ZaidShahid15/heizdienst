@@ -525,9 +525,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Junkers Installateur Wien | Service, Wartung & Notdienst";
+$metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, Wartung, Reparatur & Notdienst. Faire Preise, erfahrenes Team. Jetzt Termin vereinbaren.";
+@endphp
+
 @push('meta')
-  <title>Junkers Installateur Wien | Service, Wartung &amp; Notdienst</title>
-  <meta name="description" content="Zuverlässiger Junkers Installateur Wien für Installation, Wartung, Reparatur &amp; Notdienst. Faire Preise, erfahrenes Team. Jetzt Termin vereinbaren.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

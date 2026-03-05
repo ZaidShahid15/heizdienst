@@ -487,11 +487,15 @@
   }
 </style> -->
 
-@push('meta')
-  <title>Rapido Installateur Wien | Wartung, Reparatur & Notdienst</title>
-  <meta name="description" content="Rapido Installateur Wien für Rapido Thermenwartung, Reparatur & 24 Stunden Notdienst. Service in Wien, Niederösterreich & Burgenland. Jetzt Termin sichern.">
-@endpush
+@php
+$metaTitle = "Rapido Installateur Wien | Wartung, Reparatur & Notdienst";
+$metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparatur & 24 Stunden Notdienst. Service in Wien, Niederösterreich & Burgenland. Jetzt Termin sichern.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
+@endpush
 <main>
   <!-- HERO -->
   

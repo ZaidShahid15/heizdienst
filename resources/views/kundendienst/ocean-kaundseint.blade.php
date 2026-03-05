@@ -475,9 +475,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Ocean Thermenservice Wien – Notdienst & Thermenwartung 24h";
+$metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ Thermenwartung, Ocean Gastherme & Heizung ✔ Kundendienst Wien mit Erfahrung.";
+@endphp
+
 @push('meta')
-  <title>Ocean Thermenservice Wien – Notdienst & Thermenwartung 24h</title>
-  <meta name="description" content="Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ Thermenwartung, Ocean Gastherme & Heizung ✔ Kundendienst Wien mit Erfahrung.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

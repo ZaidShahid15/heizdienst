@@ -458,9 +458,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Viessmann Kundendienst Wien | Wartung, Reparaturen & Notdienst Service";
+$metaDescription = "Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.";
+@endphp
+
 @push('meta')
-  <title>Viessmann Kundendienst Wien | Wartung, Reparaturen & Notdienst Service</title>
-  <meta name="description" content="Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizsysteme. Wartung, Reparaturen, Ersatzteile & Notdienst rund um die Uhr. Jetzt Kontakt aufnehmen.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

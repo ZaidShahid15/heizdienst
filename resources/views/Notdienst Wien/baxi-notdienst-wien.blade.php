@@ -502,9 +502,14 @@
   }
 </style>
 
+@php
+$metaTitle = "Baxi Kundendienst Wien – Thermenwartung & Gastherme Service";
+$metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparatur für Baxi Gastherme ✔ Fachpartner & Installateur für sichere Lösungen.";
+@endphp
+
 @push('meta')
-  <title>Baxi Kundendienst Wien – Thermenwartung & Gastherme Service</title>
-  <meta name="description" content="Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparatur für Baxi Gastherme ✔ Fachpartner & Installateur für sichere Lösungen.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

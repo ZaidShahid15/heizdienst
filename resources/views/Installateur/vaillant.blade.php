@@ -515,10 +515,14 @@
     .toc-list{max-height:240px;}
   }
 </style> -->
+@php
+$metaTitle = "Vaillant Installateur Wien | Service, Wartung & Notdienst";
+$metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation, Thermenwartung, Reparatur & Notdienst. Faire Preise inkl. MwSt. Jetzt Termin anfragen.";
+@endphp
 
 @push('meta')
-  <title>Vaillant Installateur Wien | Service, Wartung & Notdienst</title>
-  <meta name="description" content="Zertifizierter Vaillant Installateur Wien für Installation, Thermenwartung, Reparatur & Notdienst. Faire Preise inkl. MwSt. Jetzt Termin anfragen.">
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
 @endpush
 
 <main>

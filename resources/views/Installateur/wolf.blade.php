@@ -505,11 +505,15 @@
   }
 </style> -->
 
-@push('meta')
-  <title>Wolf Installateur Wien | Thermenservice, Wartung &amp; Notdienst</title>
-  <meta name="description" content="Erfahrener Wolf Installateur Wien für Wolf Thermenservice, Thermenwartung, Reparatur &amp; Notdienst. Wien, NÖ &amp; Burgenland. Jetzt Termin sichern.">
-@endpush
+@php
+$metaTitle = "Wolf Installateur Wien | Thermenservice, Wartung & Notdienst";
+$metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, Thermenwartung, Reparatur & Notdienst. Wien, NÖ & Burgenland. Jetzt Termin sichern.";
+@endphp
 
+@push('meta')
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
+@endpush
 <main>
 
   <!-- HERO -->
