@@ -664,7 +664,6 @@ margin-top:4px;
                 </svg>+4314420617</a>
         </div>
     </div>
-<script src="{{ asset('js/main.js') }}"></script>
     <script>
         // Mobile menu functions
         function toggleMobileMenu() {
