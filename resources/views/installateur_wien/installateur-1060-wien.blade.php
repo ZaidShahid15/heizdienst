@@ -155,7 +155,7 @@
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Team & Fachwissen für 1060 Wien</h2>
+          <h2>Unser erfahrenes Team für 1060 Wien</h2>
           <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
@@ -273,6 +273,93 @@
       </div>
     </div>
   </section>
+     
+
+ <section class="service-section service-section--soft" id="thermen-services">
+  <div class="container">
+    <div class="service-section__head">
+      <h2>Thermenservice für alle Marken</h2>
+      <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
+    </div>
+
+    <div class="brand-grid">
+
+      <!-- 1 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-vaillant-thermen">
+        <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
+        <span>VAILLANT THERMENSERVICE</span>
+      </a>
+
+      <!-- 2 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-buderus-thermen">
+        <img src="img/1buderus.jpeg" alt="Buderus Thermenservice">
+        <span>BUDERUS THERMENSERVICE</span>
+      </a>
+
+      <!-- 3 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-baxi-thermen">
+        <img src="img/1baxi.jpeg" alt="Baxi Thermenservice">
+        <span>BAXI THERMENSERVICE</span>
+      </a>
+
+      <!-- 4 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-junkers-thermen">
+        <img src="img/1junkers.jpeg" alt="Junkers Thermenservice">
+        <span>JUNKERS THERMENSERVICE</span>
+      </a>
+
+      <!-- 5 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-viessmann-thermen">
+        <img src="img/1viesman.jpeg" alt="Viessmann Thermenservice">
+        <span>VIESSMANN THERMENSERVICE</span>
+      </a>
+
+      <!-- 6 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-wolf-thermen">
+        <img src="img/1wolf.jpeg" alt="Wolf Thermenservice">
+        <span>WOLF THERMENSERVICE</span>
+      </a>
+
+      <!-- 7 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-saunier-duval-thermen">
+        <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
+        <span>SAUNIER DUVAL SERVICE</span>
+      </a>
+
+      <!-- 8 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-loeblich-thermen">
+        <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
+        <span>LÖBLICH THERMENSERVICE</span>
+      </a>
+
+      <!-- 9 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-ocean-thermen">
+        <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermenservice">
+        <span>OCEAN THERMENSERVICE</span>
+      </a>
+
+      <!-- 10 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-rapido-thermen">
+        <img src="img/1rapido.jpeg" alt="Rapido Thermenservice">
+        <span>RAPIDO THERMENSERVICE</span>
+      </a>
+
+      <!-- 11 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-windhager-thermen">
+        <img src="img/Windhager.png" alt="Windhager Thermenservice">
+        <span>WINDHAGER SERVICE</span>
+      </a>
+
+      <!-- 12 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-nordgas-thermen">
+        <img src="img/NordGas.png" alt="Nordgas Thermenservice">
+        <span>NORDGAS SERVICE</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
 
   <!-- FAQ -->
   <section class="service-section" id="faq-services">

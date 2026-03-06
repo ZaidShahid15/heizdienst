@@ -530,6 +530,75 @@ margin-top:4px;
 
 }
     </style>
+    <style>
+    .m-hero-badges {
+      position: absolute !important;
+      left: 12px;
+      right: 12px;
+      bottom: -84px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      z-index: 3;
+      max-width: 360px;
+      padding:10px;
+      pointer-events: none;
+    }
+    .hero-badge{
+      min-width:180px !important;
+    }
+
+    /* === BRAND GRID (neu für Thermen Marken) === */
+    .brand-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:25px;
+      margin-top:30px;
+    }
+
+    .brand-card{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      padding:25px;
+      background:#fff;
+      border-radius:10px;
+      text-align:center;
+      text-decoration:none;
+      box-shadow:0 8px 25px rgba(0,0,0,0.05);
+      transition:0.25s;
+    }
+
+    .brand-card img{
+      max-width:140px;
+      height:auto;
+      margin-bottom:10px;
+    }
+
+    .brand-card span{
+      font-weight:600;
+      color:#333;
+      font-size:14px;
+    }
+
+    .brand-card:hover{
+      transform:translateY(-4px);
+      box-shadow:0 10px 35px rgba(0,0,0,0.08);
+    }
+
+    @media(max-width:900px){
+      .brand-grid{
+        grid-template-columns:repeat(2,1fr);
+      }
+    }
+
+    @media(max-width:500px){
+      .brand-grid{
+        grid-template-columns:1fr;
+      }
+    }
+  </style>
     <!-- SVG icons -->
     <div aria-hidden="true"><?php /* keep HTML valid in WP; harmless elsewhere */ ?></div>
     <div style="display:none">

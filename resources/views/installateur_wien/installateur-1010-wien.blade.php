@@ -1,38 +1,87 @@
 @extends('layout.app')
 
-    @section('main')
+@section('main')
 
-    @php
-    $metaTitle = "Installateur 1010 Wien | Wartung, Reparatur & Notdienst";
-    $metaDescription = "Installateur 1010 Wien (Innere Stadt) für Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere Ausführung.";
-    @endphp
+@php
+$metaTitle = "Installateur 1010 Wien | Wartung, Reparatur & Notdienst";
+$metaDescription = "Installateur 1010 Wien (Innere Stadt) für Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere Ausführung.";
+@endphp
 
-    @push('meta')
-    <title>{{ $metaTitle }}</title>
-    <meta name="description" content="{{ $metaDescription }}">
-    @endpush
-
-   
+@push('meta')
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
+@endpush
 
 <main>
   <style>
     .m-hero-badges {
-    position: absolute !important;
-    left: 12px;
-    right: 12px;
-    bottom: -84px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    z-index: 3;
-    padding:10px;
-    pointer-events: none;
-}
-.hero-badge{
-  
-  min-width:180px !important;
-}
+      position: absolute !important;
+      left: 12px;
+      right: 12px;
+      bottom: -84px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      z-index: 3;
+      padding:10px;
+      pointer-events: none;
+    }
+    .hero-badge{
+      min-width:180px !important;
+    }
+
+    /* === BRAND GRID (neu für Thermen Marken) === */
+    .brand-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:25px;
+      margin-top:30px;
+    }
+
+    .brand-card{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      padding:25px;
+      background:#fff;
+      border-radius:10px;
+      text-align:center;
+      text-decoration:none;
+      box-shadow:0 8px 25px rgba(0,0,0,0.05);
+      transition:0.25s;
+    }
+
+    .brand-card img{
+      max-width:140px;
+      height:auto;
+      margin-bottom:10px;
+    }
+
+    .brand-card span{
+      font-weight:600;
+      color:#333;
+      font-size:14px;
+    }
+
+    .brand-card:hover{
+      transform:translateY(-4px);
+      box-shadow:0 10px 35px rgba(0,0,0,0.08);
+    }
+
+    @media(max-width:900px){
+      .brand-grid{
+        grid-template-columns:repeat(2,1fr);
+      }
+    }
+
+    @media(max-width:500px){
+      .brand-grid{
+        grid-template-columns:1fr;
+      }
+    }
   </style>
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -40,8 +89,6 @@
         Installateur 1010 Wien <br>
         <span style="color:#FB9A1B;">Rund um die Uhr Service</span>
       </h1>
-
-      
 
       <p class="wolf-hero__sub">Als Installateur in 1010 Wien (Innere Stadt) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1010 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
 
@@ -90,7 +137,7 @@
     </div>
   </section>
 
-  <!-- TOC -->
+  <!-- TOC (aktualisiert: Thermen Marken als 09, FAQ 10, Kontakt 11) -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="container">
       <div class="toc-card is-collapsed" id="tocCard">
@@ -114,8 +161,10 @@
             <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
             <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
             <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+            <!-- NEU: Thermen Marken -->
+            <li class="toc-item"><a href="#thermen-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Thermenservice</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
@@ -157,7 +206,7 @@
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Team & Fachwissen für 1010 Wien</h2>
+          <h2>Unser erfahrenes Team für 1010 Wien</h2>
           <p>Als Installateur in 1010 Wien (Innere Stadt) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1010 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
@@ -276,6 +325,93 @@
     </div>
   </section>
 
+
+ <section class="service-section service-section--soft" id="thermen-services">
+  <div class="container">
+    <div class="service-section__head">
+      <h2>Thermenservice für alle Marken</h2>
+      <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
+    </div>
+
+    <div class="brand-grid">
+
+      <!-- 1 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-vaillant-thermen">
+        <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
+        <span>VAILLANT THERMENSERVICE</span>
+      </a>
+
+      <!-- 2 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-buderus-thermen">
+        <img src="img/1buderus.jpeg" alt="Buderus Thermenservice">
+        <span>BUDERUS THERMENSERVICE</span>
+      </a>
+
+      <!-- 3 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-baxi-thermen">
+        <img src="img/1baxi.jpeg" alt="Baxi Thermenservice">
+        <span>BAXI THERMENSERVICE</span>
+      </a>
+
+      <!-- 4 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-junkers-thermen">
+        <img src="img/1junkers.jpeg" alt="Junkers Thermenservice">
+        <span>JUNKERS THERMENSERVICE</span>
+      </a>
+
+      <!-- 5 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-viessmann-thermen">
+        <img src="img/1viesman.jpeg" alt="Viessmann Thermenservice">
+        <span>VIESSMANN THERMENSERVICE</span>
+      </a>
+
+      <!-- 6 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-wolf-thermen">
+        <img src="img/1wolf.jpeg" alt="Wolf Thermenservice">
+        <span>WOLF THERMENSERVICE</span>
+      </a>
+
+      <!-- 7 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-saunier-duval-thermen">
+        <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
+        <span>SAUNIER DUVAL SERVICE</span>
+      </a>
+
+      <!-- 8 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-loeblich-thermen">
+        <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
+        <span>LÖBLICH THERMENSERVICE</span>
+      </a>
+
+      <!-- 9 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-ocean-thermen">
+        <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermenservice">
+        <span>OCEAN THERMENSERVICE</span>
+      </a>
+
+      <!-- 10 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-rapido-thermen">
+        <img src="img/1rapido.jpeg" alt="Rapido Thermenservice">
+        <span>RAPIDO THERMENSERVICE</span>
+      </a>
+
+      <!-- 11 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-windhager-thermen">
+        <img src="img/Windhager.png" alt="Windhager Thermenservice">
+        <span>WINDHAGER SERVICE</span>
+      </a>
+
+      <!-- 12 -->
+      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-nordgas-thermen">
+        <img src="img/NordGas.png" alt="Nordgas Thermenservice">
+        <span>NORDGAS SERVICE</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
@@ -345,16 +481,14 @@
       </div>
     </div>
   </section>
+
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) -->
- 
+  <!-- Bezirke (bottom links) – bleibt unverändert -->
 
 </main>
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
 
-    @endsection
+@endsection
