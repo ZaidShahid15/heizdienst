@@ -250,11 +250,11 @@ textarea{resize:vertical}
 .district-section{padding:54px 0; background:linear-gradient(0deg, var(--muted), #fff)}
 .district-card{border:1px dashed rgba(24,64,72,.22); border-radius:22px; padding:26px 18px; background:#fff;}
 .district-title{display:flex; justify-content:center; margin-top:-44px;}
-.district-title span{display:inline-block; background:linear-gradient(180deg, #ff7a00, #ff3b00); color:#fff; font-weight:900; padding:12px 18px; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,.16)}
+.district-title span{display:inline-block; background: #FB9A1B; color:#fff; font-weight:900; padding:12px 18px; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,.16)}
 .district-map{display:flex; justify-content:center; margin:10px 0 18px}
 .district-map img{max-width:760px; width:100%; height:auto}
 .district-grid{display:flex; flex-wrap:wrap; justify-content:center; gap:12px;}
-.district-grid a{display:inline-flex; align-items:center; justify-content:center; min-width:70px; padding:10px 14px; border-radius:999px; background:linear-gradient(180deg, #ff3b00, #d40000); color:#fff; font-weight:900; border:0; box-shadow:0 10px 20px rgba(0,0,0,.10);}
+.district-grid a{display:inline-flex; align-items:center; justify-content:center; min-width:70px; padding:10px 14px; border-radius:999px; background:#FB9A1B; color:#fff; font-weight:900; border:0; box-shadow:0 10px 20px rgba(0,0,0,.10);}
 .district-grid a:hover{transform:translateY(-1px)}
 
 /* Responsive */

@@ -1,7 +1,7 @@
 <section class="district-section" aria-label="Bezirke">
   <div class="container">
     <div class="district-card">
-      <div class="district-title"><span>Elektro Zentrum</span></div>
+      <div class="district-title"><span>Unser Einsatzgebiet</span></div>
 
       <div class="district-grid p-4">
         <a href="{{ route('installateur.1010') }}">1010</a>
