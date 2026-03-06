@@ -410,7 +410,12 @@
                                     <use href="#i-check"></use>
                                 </svg>Schnelle Hilfe, Service &amp; Notdienst</li>
                         </ul>
+                          <a class="m-cta" href="tel:+4314420617">
+        <svg><use href="#i-phone"></use></svg>
+        Jetzt anrufen – wir helfen sofort
+    </a>
                     </div>
+                    
 
                 </div>
             </div>
@@ -562,7 +567,7 @@
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:26px;
+  gap:12px;
 }
 
 .as-seen-item{
