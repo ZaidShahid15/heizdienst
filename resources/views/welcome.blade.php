@@ -6,7 +6,7 @@
 @endphp
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
     <!-- Owl Carousel (for mobile slider in 'Bekannt aus') -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
@@ -86,7 +86,7 @@
   }
 }
 
-    
+
 /* --- BEKANNT AUS: make it a slider on mobile (Owl Carousel) --- */
 @media (max-width: 768px){
   .as-seen .as-seen-logos{
@@ -111,7 +111,7 @@
   }
 }
 
-    
+
 
 /* ===================== MOBILE "BEKANNT AUS" SLIDER (Owl) ===================== */
 @media (max-width: 768px){
@@ -189,7 +189,7 @@
 }
 
 </style>
-    
+
    {{-- REPLACE your <section class="m-hero" ...> with this version.
    It keeps your m-hero wrapper, but uses the SAME content structure as your .hero section
    (image + desktop badges inside image + hero-copy with bullets).
@@ -415,7 +415,7 @@
         Jetzt anrufen – wir helfen sofort
     </a>
                     </div>
-                    
+
 
                 </div>
             </div>
@@ -1118,7 +1118,7 @@
                         <h4>Wartungsvertrag</h4>
                         <p>Planbare Preise, fixer Pauschalpreis, klare Arbeitszeit, geregelte Wegzeit und definierter Wartungsintervall laut technischer Richtlinie und ABGB Vertrag.</p>
 
-                        
+
                         <h4>Reinigung & Nachjustierung</h4>
                         <p>Professionelle Reinigung, Nachjustierung, Entleerung und Prüfung aller sicherheitsrelevanten Komponenten.</p>
 
@@ -1131,7 +1131,7 @@
 
         <!-- ===================== BRAND SPOTLIGHTS (ALL) ===================== -->
         <!-- Brand logos row -->
-    
+
         <section class="spotlight" id="vaillant">
             <div class="container">
                 <div class="row">
@@ -1933,7 +1933,7 @@
         <section class="spotlight" id="cta-thermenwartung">
   <div class="container">
     <div class="cta-wrap" id="kontakt">   <!-- ✅ this id is for header menu link -->
-      
+
       <div class="cta-text">
         <h2>Jetzt Thermenwartung in Wien &amp; Niederösterreich sichern</h2>
         <p>
@@ -1952,7 +1952,7 @@
         <div class="cta-form-card">
           <div class="cta-form-title">Online Anfrage</div>
 
-          <form class="service-cta__form" action="#" method="post">
+          <form class="service-cta__form" action="{{ route('mail-send') }}" method="post">
             @csrf
 
             <div class="service-formrow">
