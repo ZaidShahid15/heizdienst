@@ -1930,7 +1930,7 @@
         </section>
 
         <!-- CTA: Jetzt Thermenwartung sichern -->
-        <section class="spotlight" id="cta-thermenwartung">
+        <section class="spotlight" id="kontakt-services">
   <div class="container">
     <div class="cta-wrap" id="kontakt">   <!-- ✅ this id is for header menu link -->
 
