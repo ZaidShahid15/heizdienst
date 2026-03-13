@@ -1930,7 +1930,7 @@
         </section>
 
         <!-- CTA: Jetzt Thermenwartung sichern -->
-        <section class="spotlight" id="cta-thermenwartung kontakt-services">
+        <section class="spotlight" id="kontakt-services">
   <div class="container">
     <div class="cta-wrap" id="kontakt">   <!-- ✅ this id is for header menu link -->
 
@@ -1989,7 +1989,7 @@
         <style>
 
 /* CTA Layout */
-#cta-thermenwartung .cta-wrap{
+#kontakt-services .cta-wrap{
   display:flex;
   gap:24px;
   align-items:stretch;
@@ -2002,12 +2002,12 @@
   box-shadow:0 10px 30px rgba(0,0,0,.12);
 }
 
-#cta-thermenwartung .cta-text{
+#kontakt-services .cta-text{
   flex: 1 1 56%;
   min-width: 280px;
 }
 
-#cta-thermenwartung .cta-media{
+#kontakt-services .cta-media{
   flex: 1 1 44%;
   min-width: 280px;
   height:auto;                 /* ✅ IMPORTANT */
@@ -2017,7 +2017,7 @@
 }
 
 /* Form Card */
-#cta-thermenwartung .cta-form-card{
+#kontakt-services .cta-form-card{
   background: rgba(255,255,255,.08);
   border: 1px solid rgba(255,255,255,.10);
   border-radius: 16px;
@@ -2025,19 +2025,19 @@
   backdrop-filter: blur(6px);
 }
 
-#cta-thermenwartung .cta-form-title{
+#kontakt-services .cta-form-title{
   font-weight: 800;
   margin-bottom: 12px;
   font-size: 16px;
 }
 
 /* Form fields */
-#cta-thermenwartung .service-cta__form label{
+#kontakt-services .service-cta__form label{
   display:block;
   width:100%;
 }
 
-#cta-thermenwartung .service-cta__form span{
+#kontakt-services .service-cta__form span{
   display:block;
   font-size: 13px;
   font-weight: 700;
@@ -2045,14 +2045,14 @@
   opacity: .95;
 }
 
-#cta-thermenwartung .service-formrow{
+#kontakt-services .service-formrow{
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-#cta-thermenwartung .service-cta__form input,
-#cta-thermenwartung .service-cta__form textarea{
+#kontakt-services .service-cta__form input,
+#kontakt-services .service-cta__form textarea{
   width:100%;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,.18);
@@ -2062,23 +2062,23 @@
   outline: none;
 }
 
-#cta-thermenwartung .service-cta__form input::placeholder,
-#cta-thermenwartung .service-cta__form textarea::placeholder{
+#kontakt-services .service-cta__form input::placeholder,
+#kontakt-services .service-cta__form textarea::placeholder{
   color: rgba(255,255,255,.65);
 }
 
-#cta-thermenwartung .service-cta__form input:focus,
-#cta-thermenwartung .service-cta__form textarea:focus{
+#kontakt-services .service-cta__form input:focus,
+#kontakt-services .service-cta__form textarea:focus{
   border-color: rgba(254,143,19,.9);
   box-shadow: 0 0 0 4px rgba(254,143,19,.20);
 }
 
-#cta-thermenwartung .service-field{
+#kontakt-services .service-field{
   margin-top: 12px;
   display:block;
 }
 
-#cta-thermenwartung .service-btn--full{
+#kontakt-services .service-btn--full{
   width:100%;
   margin-top: 12px;
   border:0;
@@ -2088,12 +2088,12 @@
   cursor:pointer;
 }
 
-#cta-thermenwartung .service-btn--accent{
+#kontakt-services .service-btn--accent{
   background:#FE8F13;
   color:#fff;
 }
 
-#cta-thermenwartung .service-fineprint{
+#kontakt-services .service-fineprint{
   margin: 10px 0 0;
   font-size: 12px;
   opacity: .85;
@@ -2101,22 +2101,22 @@
 
 /* Responsive */
 @media (max-width: 992px){
-  #cta-thermenwartung .cta-wrap{
+  #kontakt-services .cta-wrap{
     flex-direction:column;
     padding:22px;
   }
-  #cta-thermenwartung .service-formrow{
+  #kontakt-services .service-formrow{
     grid-template-columns: 1fr;  /* ✅ stack fields */
   }
 }
 html{ scroll-behavior:smooth; }
 /* ✅ FORCE CTA form to show full height (override old rules) */
-#cta-thermenwartung .cta-media{
+#kontakt-services .cta-media{
   height: auto !important;
   overflow: visible !important;
 }
 
-#cta-thermenwartung .cta-wrap{
+#kontakt-services .cta-wrap{
   overflow: visible !important; /* if old css has overflow:hidden and clips */
 }
 
@@ -2143,7 +2143,7 @@ html{ scroll-behavior:smooth; }
             }
 
             /* CTA styles (inherits your color scheme via CSS vars if available) */
-            #cta-thermenwartung .cta-wrap {
+            #kontakt-services .cta-wrap {
                 display: flex;
                 gap: 24px;
                 align-items: center;
@@ -2156,26 +2156,26 @@ html{ scroll-behavior:smooth; }
                 box-shadow: 0 10px 30px rgba(0, 0, 0, .12);
             }
 
-            #cta-thermenwartung h2 {
+            #kontakt-services h2 {
                 margin: 0 0 10px 0;
                 font-weight: 800;
                 line-height: 1.2;
             }
 
-            #cta-thermenwartung p {
+            #kontakt-services p {
                 margin: 0 0 18px 0;
                 opacity: .92;
                 max-width: 58ch;
             }
 
-            #cta-thermenwartung .cta-actions {
+            #kontakt-services .cta-actions {
                 display: flex;
                 gap: 14px;
                 align-items: center;
                 flex-wrap: wrap;
             }
 
-            #cta-thermenwartung .cta-btn {
+            #kontakt-services .cta-btn {
                 display: inline-flex;
                 align-items: center;
                 justify-content: center;
@@ -2188,24 +2188,24 @@ html{ scroll-behavior:smooth; }
                 transition: transform .12s ease, opacity .12s ease;
             }
 
-            #cta-thermenwartung .cta-btn:hover {
+            #kontakt-services .cta-btn:hover {
                 transform: translateY(-1px);
                 opacity: .95;
             }
 
-            #cta-thermenwartung .cta-link {
+            #kontakt-services .cta-link {
                 color: var(--link, #ffffff);
                 text-decoration: none;
                 opacity: .9;
                 font-weight: 600;
             }
 
-            #cta-thermenwartung .cta-link:hover {
+            #kontakt-services .cta-link:hover {
                 opacity: 1;
                 text-decoration: underline;
             }
 
-            #cta-thermenwartung .cta-media {
+            #kontakt-services .cta-media {
                 flex: 0 0 44%;
                 border-radius: 16px;
                 overflow: hidden;
@@ -2214,7 +2214,7 @@ html{ scroll-behavior:smooth; }
                 /* min-height: 220px; */
             }
 
-            #cta-thermenwartung .cta-media img {
+            #kontakt-services .cta-media img {
                 width: 100%;
                 height: 100%;
                 /*  ; */
@@ -2222,18 +2222,18 @@ html{ scroll-behavior:smooth; }
             }
 
             @media (max-width: 992px) {
-                #cta-thermenwartung .cta-wrap {
+                #kontakt-services .cta-wrap {
                     flex-direction: column;
                     padding: 22px;
                 }
 
-                #cta-thermenwartung .cta-media {
+                #kontakt-services .cta-media {
                     flex-basis: auto;
                     width: 100%;
                     height: 190px;
                 }
 
-                #cta-thermenwartung p {
+                #kontakt-services p {
                     max-width: 70ch;
                 }
             }
