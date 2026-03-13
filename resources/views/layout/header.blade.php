@@ -49,7 +49,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
   <div class="offcanvas-header mm-head">
     <div class="d-flex align-items-center gap-2">
       <span class="mm-badge">MENU</span>
-      <span class="mm-subtitle" id="mobileMenuCanvasLabel">Thermendienst</span>
+      <span class="mm-subtitle" id="mobileMenuCanvasLabel">Heizdienst</span>
     </div>
     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Schließen"></button>
   </div>
