@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex, nofollow">
+    @if (!isset($allowIndex))
+<meta name="robots" content="noindex, nofollow">
+@endif
 <meta name="title" content="{{ $metaTitle ?? 'Default Site Title' }}">
-
+<link rel="shortcut icon" href="{{ asset('img/fav.png') }}" type="image/x-icon">
 <meta name="description" content="{{ $metaDescription ?? 'Default meta description' }}">
  @stack('meta')
     <!-- Font close to Elementor kit used (Raleway) -->
@@ -26,7 +28,7 @@
   <link rel="stylesheet" href="{{ asset('css/style1.css') }}">
 
 
-   
+
 
 </head>
 
@@ -199,7 +201,7 @@ margin-top:4px;
     .promo-banner{
     /* width: min(1120px, 92%); */
     margin: 86px auto 18px;
-    
+
     }
 
     .promo-banner__inner{
@@ -311,7 +313,7 @@ margin-top:4px;
  .service-tab {
         border: 1px solid #848484 !important;
  }
-    
+
 .wolf-hero {
   position: relative;
   min-height: 560px;
@@ -403,7 +405,7 @@ margin-top:4px;
 .hero-trust .stars {
         color: #ffc107;
         margin: 4px 0;
-    } 
+    }
     .rating strong{
       color:white;
     }
@@ -637,9 +639,9 @@ margin-top:4px;
   @include('layout.header')
     <!-- MOBILE HERO -->
     <!-- MOBILE HERO -->
-   
 
-  
+
+
     <!-- MAIN CONTENT -->
     @yield('main')
 
