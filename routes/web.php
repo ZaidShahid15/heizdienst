@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContactMailController;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
@@ -162,3 +162,6 @@ Route::get('/installateur-1200-wien', fn() => view('installateur_wien.installate
 Route::get('/installateur-1210-wien', fn() => view('installateur_wien.installateur-1210-wien'))->name('installateur.1210');
 Route::get('/installateur-1220-wien', fn() => view('installateur_wien.installateur-1220-wien'))->name('installateur.1220');
 Route::get('/installateur-1230-wien', fn() => view('installateur_wien.installateur-1230-wien'))->name('installateur.1230');
+
+
+Route::post('/mail-send',[ContactMailController::class,'mail'])->name('mail-send');

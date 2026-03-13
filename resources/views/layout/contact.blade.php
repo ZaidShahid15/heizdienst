@@ -26,7 +26,7 @@
         </div>
 
         {{-- FORM ALWAYS SHOWS --}}
-        <form class="service-cta__form" action="{{ $formAction ?? '#' }}" method="post">
+        <form class="" action="{{ route('mail-send')}}" method="post">
             @csrf
 
             <div class="service-formrow">
