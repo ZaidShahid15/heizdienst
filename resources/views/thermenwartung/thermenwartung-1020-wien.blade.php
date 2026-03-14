@@ -3,8 +3,8 @@
 @section('main')
 
 @php
-$metaTitle = "Installateur 1020 Wien | Wartung, Reparatur & Notdienst";
-$metaDescription = "Installateur 1020 Wien (Leopoldstadt) für Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere Ausführung.";
+$metaTitle = "Thermenwartung  1020 Wien | Wartung, Reparatur & Notdienst";
+$metaDescription = "Thermenwartung  1020 Wien (Leopoldstadt) für Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere Ausführung.";
 @endphp
 
 @push('meta')
@@ -86,7 +86,7 @@ $metaDescription = "Installateur 1020 Wien (Leopoldstadt) für Heizung, Warmwass
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Installateur 1020 Wien <br>
+        Thermenwartung  1020 Wien <br>
         <span style="color:#FB9A1B;">Rund um die Uhr Service</span>
       </h1>
 
@@ -176,11 +176,11 @@ $metaDescription = "Installateur 1020 Wien (Leopoldstadt) für Heizung, Warmwass
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Installateur‑Service in 1020 Wien – zuverlässig & strukturiert</h2>
+          <h2>Thermenwartung ‑Service in 1020 Wien – zuverlässig & strukturiert</h2>
           <p>Mit unserer Thermenwartung in 1020 Wien (Leopoldstadt) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1020 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1020 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size6.jpeg" alt="Thermenwartung  Service 1020 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
 
@@ -215,7 +215,7 @@ $metaDescription = "Installateur 1020 Wien (Leopoldstadt) für Heizung, Warmwass
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size5.jpeg" alt="Installateur Team" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size5.jpeg" alt="Thermenwartung  Team" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -336,73 +336,73 @@ $metaDescription = "Installateur 1020 Wien (Leopoldstadt) für Heizung, Warmwass
     <div class="brand-grid">
 
       <!-- 1 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-vaillant-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-vaillant-thermen">
         <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
         <span>VAILLANT THERMENSERVICE</span>
       </a>
 
       <!-- 2 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-buderus-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-buderus-thermen">
         <img src="img/1buderus.jpeg" alt="Buderus Thermenservice">
         <span>BUDERUS THERMENSERVICE</span>
       </a>
 
       <!-- 3 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-baxi-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-baxi-thermen">
         <img src="img/1baxi.jpeg" alt="Baxi Thermenservice">
         <span>BAXI THERMENSERVICE</span>
       </a>
 
       <!-- 4 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-junkers-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-junkers-thermen">
         <img src="img/1junkers.jpeg" alt="Junkers Thermenservice">
         <span>JUNKERS THERMENSERVICE</span>
       </a>
 
       <!-- 5 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-viessmann-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-viessmann-thermen">
         <img src="img/1viesman.jpeg" alt="Viessmann Thermenservice">
         <span>VIESSMANN THERMENSERVICE</span>
       </a>
 
       <!-- 6 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-wolf-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-wolf-thermen">
         <img src="img/1wolf.jpeg" alt="Wolf Thermenservice">
         <span>WOLF THERMENSERVICE</span>
       </a>
 
       <!-- 7 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-saunier-duval-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-saunier-duval-thermen">
         <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
         <span>SAUNIER DUVAL SERVICE</span>
       </a>
 
       <!-- 8 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-loeblich-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-loeblich-thermen">
         <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
         <span>LÖBLICH THERMENSERVICE</span>
       </a>
 
       <!-- 9 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-ocean-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-ocean-thermen">
         <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermenservice">
         <span>OCEAN THERMENSERVICE</span>
       </a>
 
       <!-- 10 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-rapido-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-rapido-thermen">
         <img src="img/1rapido.jpeg" alt="Rapido Thermenservice">
         <span>RAPIDO THERMENSERVICE</span>
       </a>
 
       <!-- 11 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-windhager-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-windhager-thermen">
         <img src="img/Windhager.png" alt="Windhager Thermenservice">
         <span>WINDHAGER SERVICE</span>
       </a>
 
       <!-- 12 -->
-      <a class="brand-card" href="/installateur-graf-kundendienst-fuer-nordgas-thermen">
+      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-nordgas-thermen">
         <img src="img/NordGas.png" alt="Nordgas Thermenservice">
         <span>NORDGAS SERVICE</span>
       </a>
@@ -415,7 +415,7 @@ $metaDescription = "Installateur 1020 Wien (Leopoldstadt) für Heizung, Warmwass
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>FAQ – Installateur 1020 Wien</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
+      <div class="service-section__head"><h2>FAQ – Thermenwartung  1020 Wien</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
       <div class="service-faq"><details>
           <summary>1. Wie schnell sind Sie in meinem Bezirk vor Ort?</summary>
           <p>In der Regel erreichen wir Sie je nach Verkehrslage innerhalb kurzer Zeit. Für 1020 Wien planen wir Einsätze so, dass Anfahrt, Diagnose und erste Maßnahmen effizient ablaufen.</p>
