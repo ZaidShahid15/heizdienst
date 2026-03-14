@@ -164,4 +164,30 @@ Route::get('/installateur-1220-wien', fn() => view('installateur_wien.installate
 Route::get('/installateur-1230-wien', fn() => view('installateur_wien.installateur-1230-wien'))->name('installateur.1230');
 
 
+
+Route::get('/thermenwartung-1010-wien', fn() => view('thermenwartung.thermenwartung-1010-wien'))->name('thermenwartung.1010');
+Route::get('/thermenwartung-1020-wien', fn() => view('thermenwartung.thermenwartung-1020-wien'))->name('thermenwartung.1020');
+Route::get('/thermenwartung-1030-wien', fn() => view('thermenwartung.thermenwartung-1030-wien'))->name('thermenwartung.1030');
+Route::get('/thermenwartung-1040-wien', fn() => view('thermenwartung.thermenwartung-1040-wien'))->name('thermenwartung.1040');
+Route::get('/thermenwartung-1050-wien', fn() => view('thermenwartung.thermenwartung-1050-wien'))->name('thermenwartung.1050');
+Route::get('/thermenwartung-1060-wien', fn() => view('thermenwartung.thermenwartung-1060-wien'))->name('thermenwartung.1060');
+Route::get('/thermenwartung-1070-wien', fn() => view('thermenwartung.thermenwartung-1070-wien'))->name('thermenwartung.1070');
+Route::get('/thermenwartung-1080-wien', fn() => view('thermenwartung.thermenwartung-1080-wien'))->name('thermenwartung.1080');
+Route::get('/thermenwartung-1090-wien', fn() => view('thermenwartung.thermenwartung-1090-wien'))->name('thermenwartung.1090');
+Route::get('/thermenwartung-1100-wien', fn() => view('thermenwartung.thermenwartung-1100-wien'))->name('thermenwartung.1100');
+Route::get('/thermenwartung-1110-wien', fn() => view('thermenwartung.thermenwartung-1110-wien'))->name('thermenwartung.1110');
+Route::get('/thermenwartung-1120-wien', fn() => view('thermenwartung.thermenwartung-1120-wien'))->name('thermenwartung.1120');
+Route::get('/thermenwartung-1130-wien', fn() => view('thermenwartung.thermenwartung-1130-wien'))->name('thermenwartung.1130');
+Route::get('/thermenwartung-1140-wien', fn() => view('thermenwartung.thermenwartung-1140-wien'))->name('thermenwartung.1140');
+Route::get('/thermenwartung-1150-wien', fn() => view('thermenwartung.thermenwartung-1150-wien'))->name('thermenwartung.1150');
+Route::get('/thermenwartung-1160-wien', fn() => view('thermenwartung.thermenwartung-1160-wien'))->name('thermenwartung.1160');
+Route::get('/thermenwartung-1170-wien', fn() => view('thermenwartung.thermenwartung-1170-wien'))->name('thermenwartung.1170');
+Route::get('/thermenwartung-1180-wien', fn() => view('thermenwartung.thermenwartung-1180-wien'))->name('thermenwartung.1180');
+Route::get('/thermenwartung-1190-wien', fn() => view('thermenwartung.thermenwartung-1190-wien'))->name('thermenwartung.1190');
+Route::get('/thermenwartung-1200-wien', fn() => view('thermenwartung.thermenwartung-1200-wien'))->name('thermenwartung.1200');
+Route::get('/thermenwartung-1210-wien', fn() => view('thermenwartung.thermenwartung-1210-wien'))->name('thermenwartung.1210');
+Route::get('/thermenwartung-1220-wien', fn() => view('thermenwartung.thermenwartung-1220-wien'))->name('thermenwartung.1220');
+Route::get('/thermenwartung-1230-wien', fn() => view('thermenwartung.thermenwartung-1230-wien'))->name('thermenwartung.1230');
+
+
 Route::post('/mail-send',[ContactMailController::class,'mail'])->name('mail-send');
