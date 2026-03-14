@@ -336,73 +336,73 @@ $metaDescription = "Thermenwartung  1020 Wien (Leopoldstadt) für Heizung, Warmw
     <div class="brand-grid">
 
       <!-- 1 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-vaillant-thermen">
+      <a class="brand-card" href="#">
         <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
         <span>VAILLANT THERMENSERVICE</span>
       </a>
 
       <!-- 2 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-buderus-thermen">
+      <a class="brand-card" href="#">
         <img src="img/1buderus.jpeg" alt="Buderus Thermenservice">
         <span>BUDERUS THERMENSERVICE</span>
       </a>
 
       <!-- 3 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-baxi-thermen">
+      <a class="brand-card" href="#">
         <img src="img/1baxi.jpeg" alt="Baxi Thermenservice">
         <span>BAXI THERMENSERVICE</span>
       </a>
 
       <!-- 4 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-junkers-thermen">
+      <a class="brand-card" href="#">
         <img src="img/1junkers.jpeg" alt="Junkers Thermenservice">
         <span>JUNKERS THERMENSERVICE</span>
       </a>
 
       <!-- 5 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-viessmann-thermen">
+      <a class="brand-card" href="#">
         <img src="img/1viesman.jpeg" alt="Viessmann Thermenservice">
         <span>VIESSMANN THERMENSERVICE</span>
       </a>
 
       <!-- 6 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-wolf-thermen">
+      <a class="brand-card" href="#">
         <img src="img/1wolf.jpeg" alt="Wolf Thermenservice">
         <span>WOLF THERMENSERVICE</span>
       </a>
 
       <!-- 7 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-saunier-duval-thermen">
+      <a class="brand-card" href="#">
         <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
         <span>SAUNIER DUVAL SERVICE</span>
       </a>
 
       <!-- 8 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-loeblich-thermen">
+      <a class="brand-card" href="#">
         <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
         <span>LÖBLICH THERMENSERVICE</span>
       </a>
 
       <!-- 9 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-ocean-thermen">
+      <a class="brand-card" href="#">
         <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermenservice">
         <span>OCEAN THERMENSERVICE</span>
       </a>
 
       <!-- 10 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-rapido-thermen">
+      <a class="brand-card" href="#">
         <img src="img/1rapido.jpeg" alt="Rapido Thermenservice">
         <span>RAPIDO THERMENSERVICE</span>
       </a>
 
       <!-- 11 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-windhager-thermen">
+      <a class="brand-card" href="#">
         <img src="img/Windhager.png" alt="Windhager Thermenservice">
         <span>WINDHAGER SERVICE</span>
       </a>
 
       <!-- 12 -->
-      <a class="brand-card" href="/Thermenwartung -graf-kundendienst-fuer-nordgas-thermen">
+      <a class="brand-card" href="#">
         <img src="img/NordGas.png" alt="Nordgas Thermenservice">
         <span>NORDGAS SERVICE</span>
       </a>
