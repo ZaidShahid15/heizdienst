@@ -1,48 +1,96 @@
 @extends('layout.app')
 
-    @section('main')
+@section('main')
 
-    @php
-    $metaTitle = "Installateur 1050 Wien | Wartung, Reparatur & Notdienst";
-    $metaDescription = "Installateur 1050 Wien (Margareten) für Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere Ausführung.";
-    @endphp
+@php
+$metaTitle = "Installateur Notdienst 1050 Wien – 24h Installateur Margareten";
+$metaDescription = "Installateur Notdienst 1050 Wien – schneller Installateur Margareten für Rohrbruch, Abfluss verstopft, Heizung oder Gastherme. 24h Installateur Notdienst Wien. Jetzt anrufen!";
+@endphp
 
-    @push('meta')
-    <title>{{ $metaTitle }}</title>
-    <meta name="description" content="{{ $metaDescription }}">
-    @endpush
-
-  <style>
-    .m-hero-badges {
-    position: absolute !important;
-    left: 12px;
-    right: 12px;
-    bottom: -84px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    z-index: 3;
-    padding:10px;
-    pointer-events: none;
-}
-.hero-badge{
-
-  min-width:180px !important;
-}
-  </style>
+@push('meta')
+<title>{{ $metaTitle }}</title>
+<meta name="description" content="{{ $metaDescription }}">
+@endpush
 
 <main>
+  <style>
+    .m-hero-badges {
+      position: absolute !important;
+      left: 12px;
+      right: 12px;
+      bottom: -84px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      z-index: 3;
+      padding:10px;
+      pointer-events: none;
+    }
+    .hero-badge{
+      min-width:180px !important;
+    }
+
+    /* === BRAND GRID (neu für Thermen Marken) === */
+    .brand-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:25px;
+      margin-top:30px;
+    }
+
+    .brand-card{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      padding:25px;
+      background:#fff;
+      border-radius:10px;
+      text-align:center;
+      text-decoration:none;
+      box-shadow:0 8px 25px rgba(0,0,0,0.05);
+      transition:0.25s;
+    }
+
+    .brand-card img{
+      max-width:140px;
+      height:auto;
+      margin-bottom:10px;
+    }
+
+    .brand-card span{
+      font-weight:600;
+      color:#333;
+      font-size:14px;
+    }
+
+    .brand-card:hover{
+      transform:translateY(-4px);
+      box-shadow:0 10px 35px rgba(0,0,0,0.08);
+    }
+
+    @media(max-width:900px){
+      .brand-grid{
+        grid-template-columns:repeat(2,1fr);
+      }
+    }
+
+    @media(max-width:500px){
+      .brand-grid{
+        grid-template-columns:1fr;
+      }
+    }
+  </style>
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Installateur 1050 Wien <br>
-        <span style="color:#FB9A1B;">Rund um die Uhr Service</span>
+        Installateur Notdienst 1050 Wien <br>
+        <span style="color:#FB9A1B;">24h Installateur Margareten</span>
       </h1>
 
-
-
-      <p class="wolf-hero__sub">Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1050 Wien. Unser Installateur Notdienst Wien ist rund um die Uhr erreichbar und hilft bei Sanitär-, Gas- und Heizungsproblemen im Bezirk Margareten.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -89,7 +137,7 @@
     </div>
   </section>
 
-  <!-- TOC -->
+  <!-- TOC (aktualisiert: Thermen Marken als 09, FAQ 10, Kontakt 11) -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="container">
       <div class="toc-card is-collapsed" id="tocCard">
@@ -113,8 +161,10 @@
             <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
             <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
             <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
-            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
-            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">Kontakt</span></a></li>
+            <!-- NEU: Thermen Marken -->
+            <li class="toc-item"><a href="#thermen-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Thermenservice</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
       </div>
@@ -126,8 +176,8 @@
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Installateur‑Service in 1050 Wien – zuverlässig & strukturiert</h2>
-          <p>Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Ihr Installateur Notdienst in 1050 Wien</h2>
+          <p>Wenn ein Rohr bricht, die Heizung ausfällt oder der Abfluss plötzlich überläuft, brauchen Sie schnelle und zuverlässige Unterstützung. Unser Installateur Notdienst 1050 Wien ist jederzeit verfügbar und hilft Bewohnern sowie Unternehmen im Bezirk Margareten. Als erfahrener Installateur Wien 1050 bieten wir professionelle Lösungen für alle Probleme rund um Gas Wasser Heizung Wien, Sanitäranlagen und moderne Haustechnik Wien. Unser Notdienst Installateur 1050 Wien reagiert schnell bei dringenden Reparaturen und sorgt dafür, dass Schäden sofort behoben werden. Egal ob Wasserrohrbruch Wien, defekte Leitungen oder ein akuter Installateur Notfall Wien – unser Installateur Margareten ist schnell vor Ort. Wenn Sie einen Installateur Notdienst Nähe oder einen Installateur Nähe 1050 Wien suchen, steht unser Installateur Notdienst Wien sofort zur Verfügung.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1050 Wien" loading="lazy" decoding="async">
@@ -136,16 +186,16 @@
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div>
-          <h3>Wartung & Prüfung</h3><p>Regelmäßige Checks erhöhen Sicherheit, senken Verbrauch und verhindern Ausfälle im Alltag.</p>
+          <h3>Rohrbruch und Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann große Schäden verursachen. Unser Rohrbruch Notdienst Wien bietet schnelle Hilfe bei Wasserschaden Wien durch erfahrene Wasserinstallateur Wien Experten.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚡</div><div>
-          <h3>Reparatur & Fehlerbehebung</h3><p>Schnelle Diagnose bei Störungen – zielgerichtete Lösung, verständlich erklärt und sauber umgesetzt.</p>
+          <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss verstopft Wien oder das WC verstopft Wien ist, sorgt unser Rohrreinigung Wien Service schnell für freie Leitungen und funktionierende Sanitäranlagen.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div><div>
-          <h3>Erfahrene Fachkräfte</h3><p>Praxiswissen und strukturierte Abläufe sorgen für stabile Ergebnisse – vom ersten Kontakt bis zur Lösung.</p>
+          <h3>Professioneller Installateur für Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen rund um Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kümmern wir uns um Gasleitungen, Thermen und Heizsysteme. Gleichzeitig übernimmt unser Sanitär Installateur Wien alle Arbeiten an Wasserleitungen, Badezimmern und Sanitäranlagen.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">📍</div><div>
-          <h3>Schnell im Bezirk</h3><p>Kurze Wege in 1050 Wien helfen, Termine rasch zu koordinieren und vor Ort effizient zu handeln.</p>
+          <h3>Ihr Installateur in Wien Margareten</h3><p>Wenn Sie einen zuverlässigen Installateur 1050 Wien suchen, ist schnelle Hilfe besonders wichtig. Unser Installateur Notdienst Wien ist täglich im Bezirk Margareten im Einsatz und hilft bei allen Problemen rund um Sanitär, Gas und Heizung.</p>
         </div></article>
       </div>
     </div>
@@ -156,8 +206,8 @@
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Unser erfahrenes Team für 1050 Wien</h2>
-          <p>Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Warum unser Installateur Fachbetrieb in Wien</h2>
+          <p>Unser Installateur Fachbetrieb Wien steht für Qualität, Erfahrung und schnelle Hilfe. Unser Installateur Notdienst Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lösen. Unser Installateur Team Wien verfügt über umfangreiche Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfälle Wien ist eine schnelle Reaktion entscheidend. Deshalb ist unser Notdienst 24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrüchen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlässige und langfristige Lösungen zu bieten.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -174,14 +224,18 @@
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Leistungen im Überblick</h2><p>Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p></div>
+      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1050</h2><p>Unser Installateur Notdienst Wien bietet ein umfangreiches Leistungsspektrum für Haushalte, Unternehmen und Hausverwaltungen im fünften Bezirk. Als erfahrene Installateur Firma Wien übernehmen wir Reparaturen, Wartungen und neue Installationen Wien im Bereich Gas Wasser Heizung Wien. Unser Wasserinstallateur Wien kümmert sich um defekte Leitungen, Armaturen und Sanitäranlagen. Gleichzeitig sorgt unser Sanitär Installateur Wien für professionelle Lösungen in Badezimmern und Sanitärsystemen. Unsere Experten arbeiten mit moderner Heizungstechnik Wien, effizienter Sanitärtechnik Wien und zuverlässiger Haustechnik Wien. Unser Installateur Service Wien hilft bei kleinen Reparaturen ebenso wie bei größeren Projekten. Durch unser erfahrenes Installateur Team Wien bieten wir ein professionelles Margareten Installateur Service für Wohnungen, Häuser und Unternehmen.</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧽</div><div><h3>Wartung</h3><p>Reinigung, Prüfung, Einstellung und Funktionskontrolle – für einen sicheren, effizienten Betrieb.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧪</div><div><h3>Service & Optimierung</h3><p>Feinabstimmung, Druck-Checks und Effizienz‑Optimierung – damit Ihre Anlage stabil läuft.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚡</div><div><h3>Reparaturen</h3><p>Zügige Fehlerdiagnose und fachgerechte Reparatur – mit Blick auf Nachhaltigkeit und Folgekosten.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔥</div><div><h3>Heizung & Warmwasser</h3><p>Unterstützung bei Ausfall, schwankender Temperatur oder Druckproblemen – praxisnah gelöst.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔁</div><div><h3>Modernisierung</h3><p>Beratung zu Austausch und Modernisierung – passend zu Bedarf, Budget und Anlagenzustand.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">✅</div><div><h3>Sicherheit</h3><p>Kontrolle sicherheitsrelevanter Komponenten – für zuverlässigen Betrieb und mehr Wohlbefinden.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧽</div><div><h3>Rohrreinigung Wien</h3><p>Rohrreinigung Wien bei verstopften Leitungen oder Abfluss verstopft Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧪</div><div><h3>Wasserrohrbruch Wien</h3><p>Schnelle Hilfe bei Wasserrohrbruch Wien durch unseren Rohrbruch Notdienst Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚡</div><div><h3>WC verstopft Wien</h3><p>Reparatur bei WC verstopft Wien oder beschädigten Sanitäranlagen.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔥</div><div><h3>Sanitär Reparatur Wien</h3><p>Professionelle Sanitär Reparatur Wien durch erfahrene Fachkräfte.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔁</div><div><h3>Badsanierung Wien</h3><p>Planung moderner Badezimmer inklusive Badsanierung Wien und Bad Sanierung Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">✅</div><div><h3>Wartung Heizung Wien</h3><p>Wartung von Heizsystemen inklusive Wartung Heizung Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div><h3>Thermenwartung Wien</h3><p>Thermenservice mit Thermenwartung Wien, Thermen Service Wien und Gastherme Wartung Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚙️</div><div><h3>Gastherme Wartung Wien</h3><p>Gastherme Wartung Wien und regelmäßige Wartung Ihrer Therme.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔥</div><div><h3>Heizung Reparatur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien inklusive Heizung Reparatur Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🛁</div><div><h3>Montage Sanitär Wien</h3><p>Installation neuer Anlagen mit Montage Sanitär Wien.</p></div></article>
       </div>
     </div>
   </section>
@@ -191,8 +245,8 @@
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Wartung in 1050 Wien – planbar & sicher</h2>
-          <p>Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Gastherme Reparatur und Wartung</h2>
+          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -211,8 +265,8 @@
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Reparaturen & Austausch – wenn es darauf ankommt</h2>
-          <p>Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Heizung Reparatur und Thermenservice</h2>
+          <p>Wenn die Heizung ausfällt, hilft unser Heizung Installateur Wien sofort. Wir übernehmen Heizung Reparatur Wien, Wartung Heizung Wien und sorgen für zuverlässige Heizsysteme.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size4.jpeg" alt="Reparatur 1050 Wien" loading="lazy" decoding="async">
@@ -225,8 +279,8 @@
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="container service-emergency">
       <div class="service-emergency__text">
-        <h2>Notdienst in 1050 Wien – 24/7 erreichbar</h2>
-        <p>Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+        <h2>Installateur Notdienst 24h Wien</h2>
+        <p>Ein Rohrbruch, eine defekte Therme oder ein verstopfter Abfluss kann jederzeit auftreten. Deshalb steht unser Installateur Notdienst Wien rund um die Uhr zur Verfügung. Unser Notdienst 1050 Wien hilft schnell bei akuten Problemen im Bezirk Margareten. Als 24 Stunden Installateur Wien bieten wir schnelle Hilfe bei Installateur Notfall Wien, beschädigten Leitungen oder Heizungsproblemen. Unser Installateur Notdienst 1050 Wien reagiert sofort bei dringenden Situationen. Wenn Sie einen Installateur Notdienst Nähe suchen, erreichen wir Ihren Standort meist innerhalb kurzer Zeit. Unser Sanitär Notdienst Wien und unser Gas Installateur Wien kümmern sich um alle dringenden Reparaturen.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -252,8 +306,8 @@
           <img class="service-media__img" src="img/1size2.jpegs.jpeg" alt="Kosten Installateur" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Kosten & transparente Beratung</h2>
-          <p>Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Installateur Kosten Wien – transparente Preise</h2>
+          <p>Viele Kunden möchten vorab wissen, welche Installateur Kosten Wien entstehen können. Unser Installateur Notdienst Wien arbeitet mit transparenten Preisen und fairen Konditionen. Der genaue Installateur Preis Wien hängt vom Problem, der Arbeitszeit und den benötigten Materialien ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie eine klare Übersicht erhalten. Bei größeren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, damit Sie Planungssicherheit haben. Unser Ziel ist es, professionelle Leistungen zu fairen Preisen anzubieten, damit Sie sich jederzeit auf unseren Installateur 1050 Wien verlassen können.</p>
           <p>Für planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Störungen erklären wir nachvollziehbar, welche Schritte nötig sind und wie sich die Kosten zusammensetzen.</p>
         </div></div>
       </div>
@@ -265,8 +319,8 @@
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Ihr Installateur in Wien Margareten</h2>
+          <p>Wenn Sie einen zuverlässigen Installateur 1050 Wien suchen, ist schnelle Hilfe besonders wichtig. Unser Installateur Notdienst Wien ist täglich im Bezirk Margareten im Einsatz und hilft bei allen Problemen rund um Sanitär, Gas und Heizung. Als erfahrener Installateur Wien 1050 kennen wir die Gebäude, Leitungen und technischen Anlagen im fünften Bezirk sehr gut. Unser Notdienst Installateur 1050 Wien unterstützt Sie sowohl bei dringenden Reparaturen als auch bei geplanten Arbeiten. Unser Installateur Margareten arbeitet professionell, schnell und zuverlässig. Wenn Sie einen Installateur Notdienst Nähe oder einen Installateur Umgebung 1050 Wien suchen, steht unser Team jederzeit bereit. Unser Installateur Notdienst Margareten sorgt dafür, dass Probleme schnell und dauerhaft gelöst werden.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
@@ -275,7 +329,8 @@
     </div>
   </section>
 
-    <section class="service-section service-section--soft" id="thermen-services">
+
+ <section class="service-section service-section--soft" id="thermen-services">
   <div class="container">
     <div class="service-section__head">
       <h2>Thermenservice für alle Marken</h2>
@@ -360,49 +415,35 @@
   </div>
 </section>
 
+
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>FAQ – Installateur 1050 Wien</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
-      <div class="service-faq"><details>
-          <summary>1. Wie schnell sind Sie in meinem Bezirk vor Ort?</summary>
-          <p>In der Regel erreichen wir Sie je nach Verkehrslage innerhalb kurzer Zeit. Für 1050 Wien planen wir Einsätze so, dass Anfahrt, Diagnose und erste Maßnahmen effizient ablaufen.</p>
+      <div class="service-section__head"><h2>Häufig gestellte Fragen</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
+      <div class="service-faq">
+        <details>
+          <summary>Was kostet ein Installateur Notdienst in Wien?</summary>
+          <p>Die Kosten hängen vom Problem und vom Arbeitsaufwand ab. Unser Installateur Notdienst Wien informiert Sie transparent über mögliche Installateur Kosten Wien und den genauen Installateur Preis Wien.</p>
         </details>
         <details>
-          <summary>2. Bieten Sie Installateur‑Notdienst in 1050 Wien an?</summary>
-          <p>Ja. Bei Ausfällen von Heizung, Warmwasser oder sicherheitsrelevanten Auffälligkeiten helfen wir auch außerhalb der üblichen Zeiten.</p>
+          <summary>Wie schnell kommt ein Installateur in 1050 Wien?</summary>
+          <p>Unser Installateur Notdienst 1050 Wien ist direkt im Bezirk tätig. In vielen Fällen erreicht unser Installateur Wien 1050 Kunden innerhalb kurzer Zeit.</p>
         </details>
         <details>
-          <summary>3. Welche Leistungen umfasst eine Wartung?</summary>
-          <p>Wir prüfen Gerätezustand, reinigen relevante Komponenten, kontrollieren Sicherheitseinrichtungen und optimieren Einstellungen – für stabilen Betrieb und geringeren Verbrauch.</p>
+          <summary>Bieten Sie auch Thermenwartung in Wien an?</summary>
+          <p>Ja. Unser Team übernimmt Thermenwartung Wien, Thermen Service Wien und Gastherme Wartung Wien, damit Ihre Heizungsanlage sicher funktioniert.</p>
         </details>
         <details>
-          <summary>4. Reparieren Sie auch ältere Anlagen?</summary>
-          <p>Ja, sofern Ersatzteile verfügbar sind. Wir beurteilen Wirtschaftlichkeit und beraten transparent, ob Reparatur oder Austausch sinnvoller ist.</p>
+          <summary>Was tun bei Wasserrohrbruch in Wien?</summary>
+          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch Notdienst Wien kontaktieren. Unser Wasserinstallateur Wien kümmert sich um die Reparatur.</p>
         </details>
         <details>
-          <summary>5. Gibt es transparente Preise?</summary>
-          <p>Vor Ort erhalten Sie eine klare Einschätzung der Arbeiten. Bei planbaren Leistungen nennen wir Richtwerte und erklären die Kostentreiber verständlich.</p>
+          <summary>Sind Sie auch nachts erreichbar?</summary>
+          <p>Ja. Unser Notdienst 24h Wien ist rund um die Uhr erreichbar. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Einsätzen nachts oder am Wochenende.</p>
         </details>
         <details>
-          <summary>6. Kann ich einen Termin online anfragen?</summary>
-          <p>Ja. Nutzen Sie das Formular im Kontaktbereich. Wir melden uns zeitnah zur Terminbestätigung.</p>
-        </details>
-        <details>
-          <summary>7. Arbeiten Sie sauber und dokumentiert?</summary>
-          <p>Ja. Wir schützen den Arbeitsbereich, arbeiten nachvollziehbar und dokumentieren die wichtigsten Schritte – hilfreich für spätere Wartungen.</p>
-        </details>
-        <details>
-          <summary>8. Welche Marken und Systeme betreuen Sie?</summary>
-          <p>Wir betreuen gängige Heizungs- und Warmwassersysteme und kennen typische Fehlerbilder. Fragen Sie gern nach Ihrer konkreten Anlage.</p>
-        </details>
-        <details>
-          <summary>9. Wie kann ich Störungen vorbeugen?</summary>
-          <p>Regelmäßige Wartung, korrekte Druckeinstellungen und das rechtzeitige Reagieren auf Fehlermeldungen reduzieren Ausfälle deutlich.</p>
-        </details>
-        <details>
-          <summary>10. Was brauche ich für den Einsatz?</summary>
-          <p>Hilfreich sind Gerätedaten (Typenschild), letzte Wartungsunterlagen und eine kurze Beschreibung der Symptome. Das beschleunigt Diagnose und Lösung.</p>
+          <summary>Arbeiten Sie auch im Bezirk Margareten?</summary>
+          <p>Ja. Unser Installateur Margareten betreut Kunden im gesamten fünften Bezirk. Wenn Sie einen Installateur Nähe 1050 Wien benötigen, sind wir schnell vor Ort.</p>
         </details>
       </div>
     </div>
@@ -413,8 +454,8 @@
     <div class="container">
       <div class="service-cta__inner">
         <div>
-          <h2>Jetzt Termin vereinbaren</h2>
-          <p>Als Installateur in 1050 Wien (Margareten) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1050 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Installateur Kontakt Wien</h2>
+          <p>Wenn Sie einen zuverlässigen Installateur 1050 Wien benötigen, hilft unser Team sofort weiter. Unser Installateur Notdienst Wien unterstützt Sie bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitäranlagen und Rohrleitungen. Egal ob Installateur Notdienst 1050 Wien, Rohrreinigung Wien, Sanitär Reparatur Wien oder Heizung Reparatur Wien – unser Installateur Service Wien sorgt für schnelle Lösungen.</p>
           <p style="margin-top:10px"><strong>📞</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
         <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
@@ -430,15 +471,13 @@
     </div>
   </section>
 
-  <!-- Bezirke (bottom links) -->
-   @include('layout.location')
+  @include('layout.location')
 
+  <!-- Bezirke (bottom links) – bleibt unverändert -->
 
 </main>
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 
-    @endsection
+@endsection
