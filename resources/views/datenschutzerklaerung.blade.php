@@ -1,9 +1,6 @@
 @extends('layout.app')
 
 @section('main')
-@extends('layout.app')
-
-@section('main')
 
 @php
 $metaTitle = "Datenschutzerklärung | Heizdienst Wien – PR Installationstechnik & Klimaanlagen GmbH";

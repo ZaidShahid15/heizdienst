@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactMailController;
+use App\Http\Controllers\SitemapController;
+
+
+
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
@@ -191,3 +195,16 @@ Route::get('/thermenwartung-1230-wien', fn() => view('thermenwartung.thermenwart
 
 
 Route::post('/mail-send',[ContactMailController::class,'mail'])->name('mail-send');
+
+
+
+Route::get('/installateur-eisenstadt', fn() => view('Installateur-district.installateur-eisenstadt'))->name('installateur-eisenstadt');
+Route::get('/installateur-rust', fn() => view('Installateur-district.installateur-rust'))->name('installateur-rust');
+Route::get('/sitemap.xml', [SitemapController::class,'index']);
+
+Route::get('/sitemaps/sitemap-core.xml', [SitemapController::class,'core']);
+Route::get('/sitemaps/sitemap-brands.xml', [SitemapController::class,'brands']);
+Route::get('/sitemaps/sitemap-locations-core.xml', [SitemapController::class,'locationsCore']);
+Route::get('/sitemaps/sitemap-location-services-wien.xml', [SitemapController::class,'wien']);
+Route::get('/sitemaps/sitemap-location-services-noe.xml', [SitemapController::class,'noe']);
+Route::get('/sitemaps/sitemap-location-services-burgenland.xml', [SitemapController::class,'burgenland']);
