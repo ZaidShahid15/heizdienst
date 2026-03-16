@@ -442,8 +442,8 @@
 </style>
 
 @php
-$metaTitle = "Installateur Neudörfl | Sanitär, Heizung & Notdienst Service";
-$metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur und Notdienst. Schneller Service in Neudörfl und Umgebung. Jetzt anrufen oder E-Mail senden.";
+$metaTitle = "Installateur Bruck an der Leitha | Sanitär, Heizung & Notdienst Service";
+$metaDescription = "Installateur Bruck an der Leitha für Sanitär, Heizung, Rohrreinigung und Reparatur. Schneller Service in Bruck an der Leitha Niederösterreich und Umgebung. Jetzt anrufen oder E-Mail senden.";
 @endphp
 
 <main>
@@ -452,15 +452,13 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Installateur Neudörfl<br>
+        Installateur Bruck an der Leitha<br>
         <span style="color:#FB9A1B;">Schneller Service – rund um die Uhr.</span>
       </h1>
 
 
-
       <p class="wolf-hero__sub">
-        Ihr Installateur in Neudörfl bietet schnellen Service für Heizung, Sanitär und Reparaturen.
-        Wir helfen zuverlässig bei Installationen, Wartung und Notfällen.
+        Ihr Installateur Bruck an der Leitha bietet schnellen und zuverlässigen Service für Sanitär, Heizung und moderne Installationen. Unser Team unterstützt Haushalte und Betriebe professionell in Bruck an der Leitha.
       </p>
 
       <div class="wolf-hero__actions">
@@ -535,8 +533,8 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
             <li class="toc-item"><a href="#anlage-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Sanitär & Heizung</span></a></li>
             <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Preise</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Neudörfl & Umgebung</span></a></li>
-            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Rohrreparatur</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Bruck an der Leitha & Umgebung</span></a></li>
+            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Rohrreinigung</span></a></li>
             <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
             <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
@@ -545,30 +543,25 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
     </div>
   </section>
 
-  <!-- Ihr zuverlässiger Installateur in Neudörfl -->
+  <!-- Ihr zuverlässiger Installateur in Bruck an der Leitha -->
   <section class="service-section" id="partner-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Ihr zuverlässiger Installateur in Neudörfl</h2>
+            <h2>Ihr zuverlässiger Installateur in Bruck an der Leitha</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Neudörfl suchen, sind Sie bei uns genau richtig.
-              Unser Installateur bietet zuverlässige Lösungen für Sanitär, Heizung und moderne Installationen
-              in Neudörfl und der gesamten Umgebung im Burgenland. Ob neue Heizungsanlage, professionelle Bad Installation
-              oder schnelle Hilfe bei Problemen mit Wasser – unser Team unterstützt Sie kompetent.
+              Wenn Sie einen erfahrenen Installateur Bruck an der Leitha suchen, sind Sie bei uns genau richtig. Unser Installateur unterstützt private Haushalte und Unternehmen in Bruck an der Leitha Niederösterreich mit professionellen Lösungen rund um Sanitär, Wasser und moderne Technik. Dank unserer Erfahrung kennen wir die Anforderungen unserer Kunden genau und bieten zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, moderne Bad Installation oder professionelle Installationen im Gebäude – unser Team sorgt für sichere Ergebnisse.
             </p>
             <p>
-              Durch unsere langjährige Erfahrung kennen wir die Anforderungen unserer Kunden genau und bieten einen
-              umfassenden Service – von der ersten Beratung bis zur Ausführung. Wenn Sie einen Installateur Nähe Neudörfl suchen,
-              profitieren Sie von moderner Technik, fachgerechter Planung und persönlicher Betreuung.
+              Viele Menschen suchen einen Installateur Nähe Bruck an der Leitha, der schnell erreichbar ist und kompetent arbeitet. Genau diesen Service erhalten Sie bei unserem Installateur Bruck an der Leitha Niederösterreich. Mit moderner Technik, sorgfältiger Beratung und professioneller Planung sorgen wir dafür, dass jede Installation langfristig zuverlässig funktioniert. Unsere Kunden in Bruck an der Leitha und der Umgebung profitieren von professionellen Lösungen rund um Wasser, Sanitär und Heizung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size1.jpeg') }}" alt="Installateur Neudörfl Team" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size1.jpeg') }}" alt="Installateur Bruck an der Leitha Team" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -579,9 +572,9 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   <section class="service-section service-section--soft" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Sanitär- und Heizungsservice aus einer Hand</h2>
+        <h2>Sanitär und Heizung</h2>
         <p>
-          Wir übernehmen alle Installateur Arbeiten – von der Badinstallation über Heizungswartung bis zur Rohrreparatur.
+          Wir übernehmen alle Installateur Arbeiten – von der Badinstallation über Heizungswartung bis zur Rohrreinigung.
         </p>
       </div>
 
@@ -589,16 +582,16 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚿</div>
           <div>
-            <h3>Sanitär- und Badinstallation</h3>
-            <p>Wir übernehmen professionelle Sanitär Arbeiten und jede Bad Installation in Neudörfl. Hochwertige Lösungen, zuverlässige Installationen und moderner Komfort im Badezimmer.</p>
+            <h3>Sanitär und Bad Installation</h3>
+            <p>Unser Installateur übernimmt professionelle Sanitär Arbeiten und jede Bad Installation in Bruck an der Leitha. Wir planen moderne Badezimmerlösungen und führen alle Installationen zuverlässig durch. Hochwertige Technik und präzise Arbeiten sorgen dafür, dass Ihre Sanitär Anlagen langfristig sicher funktionieren.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Moderne Heizungsanlagen</h3>
-            <p>Eine moderne Heizungsanlage sorgt für effiziente Wärme und geringere Energiekosten. Wir planen und installieren passende Heizung Lösungen für Häuser und Wohnungen in Neudörfl.</p>
+            <h3>Moderne Heizungsanlagen für Ihr Zuhause</h3>
+            <p>Eine moderne Heizungsanlage sorgt für effiziente Wärme und geringere Energiekosten. Unser Installateur plant passende Heizung Lösungen für Häuser und Wohnungen in Bruck an der Leitha Niederösterreich. Dank moderner Technik und Erfahrung findet unser Team die optimale Heizungsanlage für jedes Gebäude.</p>
           </div>
         </article>
 
@@ -606,15 +599,15 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
             <h3>Installateur Notdienst</h3>
-            <p>Bei Rohrbruch, austretendem Wasser oder anderen Notfällen hilft unser Installateur Neudörfl schnell und zuverlässig – auch außerhalb der Geschäftszeiten.</p>
+            <p>Bei Rohrbruch, austretendem Wasser oder anderen Notfällen hilft unser Installateur Bruck an der Leitha schnell und zuverlässig – auch außerhalb der Geschäftszeiten.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Rohrreparatur & Wartung</h3>
-            <p>Defekte Leitungen? Wir führen eine präzise Rohrreparatur durch und sorgen dafür, dass Ihre Sanitär Anlage wieder zuverlässig funktioniert.</p>
+            <h3>Rohrreinigung & Reparatur</h3>
+            <p>Bei verstopften Leitungen führt unser Installateur eine professionelle Rohrreinigung durch. So wird das Problem schnell gelöst und Ihre Sanitär Anlage funktioniert wieder zuverlässig.</p>
           </div>
         </article>
       </div>
@@ -629,14 +622,10 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
           <div class="card-box">
             <h2>Heizung und Sanitär Service</h2>
             <p>
-              Unser Installateur Neudörfl bietet umfassenden Service rund um Heizung und Sanitär.
-              Von neuen Installationen bis zur regelmäßigen Wartung sorgen wir dafür, dass Ihre Anlagen zuverlässig funktionieren.
-              Eine gut gewartete Heizungsanlage spart Energie und verhindert teure Reparaturen.
-              Deshalb übernehmen wir sowohl Planung als auch langfristige Betreuung Ihrer Systeme.
+              Unser Installateur Bruck an der Leitha bietet umfassenden Service für Heizung und Sanitär in Bruck an der Leitha Niederösterreich. Von neuen Installationen bis zur regelmäßigen Wartung sorgen wir dafür, dass Ihre Anlagen zuverlässig funktionieren. Eine moderne Heizungsanlage spart Energie und reduziert langfristig Kosten. Deshalb kümmern wir uns sowohl um Installationen als auch um Wartung und professionelle Reparatur.
             </p>
             <p>
-              Als erfahrener Gas Wasser Installateur kümmern wir uns um sichere Leitungen, moderne Technik und effiziente Lösungen
-              für Ihr Zuhause in Neudörfl und im Burgenland. Unser Team arbeitet sorgfältig und führt alle Arbeiten professionell durch.
+              Als erfahrener Gas Wasser Installateur arbeitet unser Team mit moderner Technik und sorgt dafür, dass Wasser- und Heizsysteme sicher funktionieren. Viele Kunden in Bruck an der Leitha und der Umgebung schätzen unseren schnellen Service und unsere kompetente Beratung. Wenn ein Problem mit der Heizung oder mit Wasserleitungen entsteht, reagiert unser Installateur schnell und sorgt für eine passende Lösung für Haushalte und Betriebe in Bruck an der Leitha Niederösterreich.
             </p>
 
             <div class="service-stats">
@@ -699,8 +688,8 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
           <div class="card-box">
             <h2>Ablauf von Anfrage bis Termin</h2>
             <p>
-              Der Ablauf bei unserem Installateur Neudörfl ist klar strukturiert und kundenorientiert.
-              Nach Ihrer Kontaktaufnahme über diese Seite vereinbaren wir rasch einen Termin für Neudörfl und Umgebung.
+              Der Ablauf bei unserem Installateur Bruck an der Leitha ist klar strukturiert und kundenorientiert.
+              Nach Ihrer Kontaktaufnahme über diese Seite vereinbaren wir rasch einen Termin für Bruck an der Leitha und Umgebung.
             </p>
             <p>
               Unser Team analysiert vor Ort Ihre Heizungsanlage, Sanitäranlagen oder die betroffenen Leitungen
@@ -720,59 +709,50 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
     </div>
   </section>
 
-  <!-- Neudörfl und Umgebung -->
+  <!-- Bruck an der Leitha und Umgebung -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Neudörfl und Umgebung – immer in Ihrer Nähe</h2>
+            <h2>Installateur Arbeiten in Bruck an der Leitha und Umgebung</h2>
             <p>
-              Unser Installateur Service ist in ganz Neudörfl und Umgebung sowie im Burgenland im Einsatz.
-              Durch kurze Anfahrtswege reagieren wir flexibel auf Terminwünsche, Notfälle oder akute Störungen.
+              Unser Installateur Bruck an der Leitha unterstützt private Haushalte und Unternehmen in Bruck an der Leitha Niederösterreich sowie in der gesamten Umgebung. Viele Menschen suchen einen Installateur Nähe, der schnell erreichbar ist und zuverlässige Arbeiten ausführt. Genau diesen Service bietet unser Team. Ob Heizung, Sanitär oder moderne Installationen – unser Installateur sorgt für sichere Lösungen.
             </p>
             <p>
-              Unser Kundendienst steht Ihnen zur Verfügung und betreut Wohnungen, Häuser und kleinere Betriebe gleichermaßen.
-              Kunden schätzen unsere Verlässlichkeit, klare Kommunikation und schnelle Reaktionszeiten.
-              Als regionaler Fachpartner kennen wir die technischen Gegebenheiten vor Ort und bieten nachhaltige Lösungen
-              für Heizung, Sanitär und Warmwasser-Systeme.
+              Durch moderne Technik und unsere Erfahrung können viele Arbeiten effizient umgesetzt werden. Unser Ziel ist es, jedes Problem schnell zu lösen und langfristige Lösungen für Wasser- und Heizsysteme zu schaffen. Wenn Sie einen Installateur Bruck an der Leitha Niederösterreich benötigen, profitieren Sie von professioneller Unterstützung und regionaler Nähe.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Neudörfl und Umgebung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Bruck an der Leitha und Umgebung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Rohrreparatur und Notdienst -->
+  <!-- Rohrreinigung und Notdienst -->
   <section class="service-section" id="tausch-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Rohrreparatur & Notdienst</h2>
+            <h2>Rohrreinigung & Notdienst</h2>
             <p>
-              Ein Rohrbruch, austretendes Wasser oder andere unerwartete Schäden können jederzeit auftreten.
-              In solchen Situationen hilft unser Installateur Neudörfl schnell und zuverlässig.
-              Unser Notdienst ist bei dringenden Problemen erreichbar und sorgt dafür, dass größere Schäden vermieden werden.
+              Ein Rohrbruch oder ein anderes Problem mit Wasser kann jederzeit auftreten. In solchen Situationen hilft unser Installateur Bruck an der Leitha schnell und zuverlässig. Unser Installateur Notdienst ist bei dringenden Fällen erreichbar und sorgt dafür, dass größere Schäden vermieden werden. Besonders bei einem Rohrbruch oder einer defekten Heizung ist schnelles Handeln wichtig.
             </p>
             <p>
-              Besonders bei einem Rohrbruch oder einer defekten Heizungsanlage ist schnelles Handeln wichtig.
-              Unser Gas Wasser Installateur kennt sich mit allen wichtigen Systemen aus und führt eine fachgerechte
-              Reparatur oder Rohrreparatur durch. Wir stehen unseren Kunden mit kompetentem Service zur Seite
-              und kümmern uns um eine schnelle Lösung für jedes Problem.
+              Unser Gas Wasser Installateur kennt sich mit allen wichtigen Systemen aus und führt eine fachgerechte Reparatur oder Rohrreinigung durch. Viele Kunden in Bruck an der Leitha und der Umgebung vertrauen unserem schnellen Service. Wenn Sie einen Installateur Bruck an der Leitha Umgebung benötigen, erhalten Sie professionelle Unterstützung von unserem erfahrenen Team.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Rohrreparatur" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Rohrreinigung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -783,39 +763,39 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   <section class="service-section service-section--soft" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zum Installateur Neudörfl</h2>
+        <h2>Häufige Fragen zum Installateur Bruck an der Leitha</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
           <summary>Wann ist der Installateur Notdienst verfügbar?</summary>
-          <p>Unser Installateur Neudörfl bietet einen zuverlässigen Notdienst, der bei dringenden Problemen erreichbar ist. In vielen Fällen helfen wir schnell, auch außerhalb der normalen Uhr-Zeiten.</p>
+          <p>Unser Installateur Bruck an der Leitha bietet einen zuverlässigen Notdienst bei dringenden Problemen. In vielen Fällen sind wir schnell erreichbar und helfen auch außerhalb der normalen Uhr-Zeiten.</p>
         </details>
 
         <details>
-          <summary>Was kostet eine Rohrreparatur in Neudörfl?</summary>
-          <p>Die Kosten für eine Rohrreparatur hängen vom Schaden ab. Unser Installateur prüft zuerst das Problem und informiert Sie transparent über die notwendigen Arbeiten.</p>
+          <summary>Was kostet eine Reparatur durch einen Installateur?</summary>
+          <p>Die Kosten für eine Reparatur hängen vom jeweiligen Problem ab. Unser Installateur prüft zuerst die Situation und informiert Sie transparent über die notwendigen Arbeiten.</p>
         </details>
 
         <details>
           <summary>Reparieren Sie auch Heizungsanlagen?</summary>
-          <p>Ja, wir übernehmen die Reparatur und Wartung jeder Heizungsanlage. Unser Installateur sorgt dafür, dass Ihre Heizung wieder zuverlässig funktioniert.</p>
+          <p>Ja, unser Installateur übernimmt die Reparatur sowie Wartung jeder Heizungsanlage. So stellen wir sicher, dass Ihre Heizung wieder zuverlässig funktioniert.</p>
         </details>
 
         <details>
-          <summary>Arbeiten Sie auch in der Umgebung von Neudörfl?</summary>
-          <p>Ja, unser Installateur arbeitet nicht nur in Neudörfl, sondern auch in der gesamten Umgebung im Burgenland.</p>
+          <summary>Arbeiten Sie auch außerhalb von Bruck an der Leitha?</summary>
+          <p>Ja, unser Installateur arbeitet in Bruck an der Leitha Niederösterreich sowie in der gesamten Umgebung und unterstützt Kunden auch in nahegelegenen Orten.</p>
         </details>
 
         <details>
-          <summary>Übernehmen Sie Bad Installationen?</summary>
-          <p>Selbstverständlich führen wir jede Bad Installation sowie alle Sanitär Arbeiten durch. Unser Installateur sorgt für moderne und funktionale Lösungen.</p>
+          <summary>Übernehmen Sie auch Bad Installationen?</summary>
+          <p>Selbstverständlich führen wir jede Bad Installation sowie professionelle Sanitär Installationen durch. Unser Installateur sorgt für moderne Lösungen im Badezimmer.</p>
         </details>
 
         <details>
           <summary>Wie schnell kommt ein Installateur bei Rohrbruch?</summary>
-          <p>Bei einem Rohrbruch reagieren wir schnell. Unser Installateur Neudörfl kommt so rasch wie möglich, um Schäden durch austretendes Wasser zu begrenzen.</p>
+          <p>Bei einem Rohrbruch reagiert unser Installateur Bruck an der Leitha schnell. Unser Service sorgt dafür, dass austretendes Wasser rasch gestoppt wird und größere Schäden vermieden werden.</p>
         </details>
       </div>
     </div>
@@ -825,7 +805,7 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin vereinbaren',
-    'text' => 'Rufen Sie uns an oder senden Sie uns eine E-Mail. Ihr zuverlässiger Installateur in Neudörfl – für Sanitär, Heizung und Notfälle.',
+    'text' => 'Rufen Sie uns an oder senden Sie uns eine E-Mail. Ihr zuverlässiger Installateur in Bruck an der Leitha – für Sanitär, Heizung und Notfälle.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+43123456789',
     'btnAccent' => true,

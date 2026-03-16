@@ -442,8 +442,8 @@
 </style>
 
 @php
-$metaTitle = "Installateur Neudörfl | Sanitär, Heizung & Notdienst Service";
-$metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur und Notdienst. Schneller Service in Neudörfl und Umgebung. Jetzt anrufen oder E-Mail senden.";
+$metaTitle = "Installateur Gerasdorf bei Wien | Sanitär, Heizung & Notdienst";
+$metaDescription = "Installateur Gerasdorf bei Wien für Sanitär, Heizung, Rohrreinigung und Installateur Notdienst. Schneller Service in Gerasdorf bei Wien und Umgebung. Jetzt anrufen oder E-Mail senden.";
 @endphp
 
 <main>
@@ -452,15 +452,15 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Installateur Neudörfl<br>
+        Installateur Gerasdorf bei Wien<br>
         <span style="color:#FB9A1B;">Schneller Service – rund um die Uhr.</span>
       </h1>
 
 
 
       <p class="wolf-hero__sub">
-        Ihr Installateur in Neudörfl bietet schnellen Service für Heizung, Sanitär und Reparaturen.
-        Wir helfen zuverlässig bei Installationen, Wartung und Notfällen.
+        Ihr Installateur Gerasdorf bei Wien hilft schnell bei Sanitär, Heizung und Reparaturen.
+        Zuverlässiger Service für Haushalte und Betriebe in Gerasdorf bei Wien und Umgebung.
       </p>
 
       <div class="wolf-hero__actions">
@@ -535,8 +535,8 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
             <li class="toc-item"><a href="#anlage-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Sanitär & Heizung</span></a></li>
             <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Preise</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Neudörfl & Umgebung</span></a></li>
-            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Rohrreparatur</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Gerasdorf & Umgebung</span></a></li>
+            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Rohrreinigung</span></a></li>
             <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
             <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
@@ -545,30 +545,25 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
     </div>
   </section>
 
-  <!-- Ihr zuverlässiger Installateur in Neudörfl -->
+  <!-- Ihr kompetenter Installateur in Gerasdorf bei Wien -->
   <section class="service-section" id="partner-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Ihr zuverlässiger Installateur in Neudörfl</h2>
+            <h2>Ihr kompetenter Installateur in Gerasdorf bei Wien</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Neudörfl suchen, sind Sie bei uns genau richtig.
-              Unser Installateur bietet zuverlässige Lösungen für Sanitär, Heizung und moderne Installationen
-              in Neudörfl und der gesamten Umgebung im Burgenland. Ob neue Heizungsanlage, professionelle Bad Installation
-              oder schnelle Hilfe bei Problemen mit Wasser – unser Team unterstützt Sie kompetent.
+              Wenn Sie einen erfahrenen Installateur Gerasdorf bei Wien suchen, sind wir Ihr zuverlässiger Ansprechpartner für Sanitär, Heizung und moderne Installationen. Unser Installateur betreut private Haushalte sowie Unternehmen in Gerasdorf bei Wien und in der gesamten Umgebung in Niederösterreich. Ob eine neue Heizungsanlage, eine professionelle Bad Installation oder eine schnelle Reparatur, wir bieten einen umfassenden Service für unsere Kunden.
             </p>
             <p>
-              Durch unsere langjährige Erfahrung kennen wir die Anforderungen unserer Kunden genau und bieten einen
-              umfassenden Service – von der ersten Beratung bis zur Ausführung. Wenn Sie einen Installateur Nähe Neudörfl suchen,
-              profitieren Sie von moderner Technik, fachgerechter Planung und persönlicher Betreuung.
+              Als Installateur Gerasdorf kennen wir die regionalen Anforderungen und setzen Projekte mit moderner Technik und viel Erfahrung um. Unser Team führt alle wichtigen Arbeiten zuverlässig aus und sorgt dafür, dass Ihre Anlagen langfristig funktionieren. Wenn Sie einen Installateur Nähe Gerasdorf bei Wien oder einen Installateur Gerasdorf Umgebung suchen, profitieren Sie von kompetenter Beratung und professioneller Umsetzung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size1.jpeg') }}" alt="Installateur Neudörfl Team" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size1.jpeg') }}" alt="Installateur Gerasdorf bei Wien Team" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -581,7 +576,7 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
       <div class="service-section__head">
         <h2>Sanitär- und Heizungsservice aus einer Hand</h2>
         <p>
-          Wir übernehmen alle Installateur Arbeiten – von der Badinstallation über Heizungswartung bis zur Rohrreparatur.
+          Wir übernehmen alle Installateur Arbeiten – von der Badinstallation über Heizungswartung bis zur Rohrreinigung.
         </p>
       </div>
 
@@ -589,16 +584,16 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚿</div>
           <div>
-            <h3>Sanitär- und Badinstallation</h3>
-            <p>Wir übernehmen professionelle Sanitär Arbeiten und jede Bad Installation in Neudörfl. Hochwertige Lösungen, zuverlässige Installationen und moderner Komfort im Badezimmer.</p>
+            <h3>Sanitärarbeiten und Bad Installation</h3>
+            <p>Unser Installateur übernimmt professionelle Sanitär Lösungen sowie jede Bad Installation in Gerasdorf bei Wien. Wir planen moderne Badezimmer, führen sichere Installationen durch und sorgen für langlebige Ergebnisse.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Moderne Heizungsanlagen</h3>
-            <p>Eine moderne Heizungsanlage sorgt für effiziente Wärme und geringere Energiekosten. Wir planen und installieren passende Heizung Lösungen für Häuser und Wohnungen in Neudörfl.</p>
+            <h3>Moderne Heizsysteme für Ihr Zuhause</h3>
+            <p>Eine moderne Heizungsanlage sorgt für effiziente Wärme und spart Energiekosten. Unser Installateur Gerasdorf bei Wien installiert passende Heizung Lösungen für Häuser und Wohnungen in Gerasdorf bei Wien.</p>
           </div>
         </article>
 
@@ -606,15 +601,15 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
             <h3>Installateur Notdienst</h3>
-            <p>Bei Rohrbruch, austretendem Wasser oder anderen Notfällen hilft unser Installateur Neudörfl schnell und zuverlässig – auch außerhalb der Geschäftszeiten.</p>
+            <p>Bei Rohrbruch, austretendem Wasser oder anderen Notfällen hilft unser Installateur Gerasdorf bei Wien schnell und zuverlässig – auch außerhalb der Geschäftszeiten.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Rohrreparatur & Wartung</h3>
-            <p>Defekte Leitungen? Wir führen eine präzise Rohrreparatur durch und sorgen dafür, dass Ihre Sanitär Anlage wieder zuverlässig funktioniert.</p>
+            <h3>Rohrreinigung & Reparatur</h3>
+            <p>Verstopfte Leitungen? Wir führen eine gründliche Rohrreinigung durch und sorgen dafür, dass Ihr System wieder problemlos funktioniert.</p>
           </div>
         </article>
       </div>
@@ -627,21 +622,17 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Heizung und Sanitär Service</h2>
+            <h2>Heizung und Sanitär Service in Gerasdorf bei Wien</h2>
             <p>
-              Unser Installateur Neudörfl bietet umfassenden Service rund um Heizung und Sanitär.
-              Von neuen Installationen bis zur regelmäßigen Wartung sorgen wir dafür, dass Ihre Anlagen zuverlässig funktionieren.
-              Eine gut gewartete Heizungsanlage spart Energie und verhindert teure Reparaturen.
-              Deshalb übernehmen wir sowohl Planung als auch langfristige Betreuung Ihrer Systeme.
+              Unser Installateur Gerasdorf bei Wien bietet umfassenden Service rund um Heizung und Sanitär in Gerasdorf bei Wien und in der gesamten Umgebung in Niederösterreich. Von neuen Installationen bis zur regelmäßigen Wartung sorgen wir dafür, dass Ihre Anlagen zuverlässig funktionieren. Eine moderne Heizungsanlage steigert den Wohnkomfort und reduziert langfristig Energiekosten. Deshalb unterstützen wir unsere Kunden von der Planung bis zur Betreuung ihrer Anlagen.
             </p>
             <p>
-              Als erfahrener Gas Wasser Installateur kümmern wir uns um sichere Leitungen, moderne Technik und effiziente Lösungen
-              für Ihr Zuhause in Neudörfl und im Burgenland. Unser Team arbeitet sorgfältig und führt alle Arbeiten professionell durch.
+              Als erfahrener Gas Wasser Installateur kümmern wir uns um sichere Leitungen und funktionierende Systeme rund um Wasser. Unser Team arbeitet mit moderner Technik und führt alle Arbeiten präzise aus. Wenn Sie einen Installateur Gerasdorf oder einen Installateur Gerasdorf Umgebung suchen, erhalten Sie professionelle Unterstützung für Heizung, Sanitär und technische Anlagen in Gerasdorf bei Wien.
             </p>
 
             <div class="service-stats">
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Installation moderner Heizungsanlagen</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">regelmäßige Wartung von Heizung Anlagen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">regelmäßige Wartung Ihrer Heizung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">professionelle Sanitär Installationen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">erfahrener Gas Wasser Installateur</div></div>
             </div>
@@ -699,8 +690,8 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
           <div class="card-box">
             <h2>Ablauf von Anfrage bis Termin</h2>
             <p>
-              Der Ablauf bei unserem Installateur Neudörfl ist klar strukturiert und kundenorientiert.
-              Nach Ihrer Kontaktaufnahme über diese Seite vereinbaren wir rasch einen Termin für Neudörfl und Umgebung.
+              Der Ablauf bei unserem Installateur Gerasdorf bei Wien ist klar strukturiert und kundenorientiert.
+              Nach Ihrer Kontaktaufnahme über diese Seite vereinbaren wir rasch einen Termin für Gerasdorf bei Wien und Umgebung.
             </p>
             <p>
               Unser Team analysiert vor Ort Ihre Heizungsanlage, Sanitäranlagen oder die betroffenen Leitungen
@@ -720,59 +711,50 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
     </div>
   </section>
 
-  <!-- Neudörfl und Umgebung -->
+  <!-- Gerasdorf bei Wien und Umgebung -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Neudörfl und Umgebung – immer in Ihrer Nähe</h2>
+            <h2>Installateur Arbeiten in Gerasdorf bei Wien und Umgebung</h2>
             <p>
-              Unser Installateur Service ist in ganz Neudörfl und Umgebung sowie im Burgenland im Einsatz.
-              Durch kurze Anfahrtswege reagieren wir flexibel auf Terminwünsche, Notfälle oder akute Störungen.
+              Unser Installateur Gerasdorf bei Wien unterstützt Haushalte und Unternehmen bei wichtigen Installateur Arbeiten in Gerasdorf bei Wien sowie in der gesamten Umgebung in Niederösterreich. Viele Menschen suchen einen Installateur Nähe, der schnell erreichbar ist und zuverlässige Lösungen bietet. Genau diesen Service stellen wir bereit.
             </p>
             <p>
-              Unser Kundendienst steht Ihnen zur Verfügung und betreut Wohnungen, Häuser und kleinere Betriebe gleichermaßen.
-              Kunden schätzen unsere Verlässlichkeit, klare Kommunikation und schnelle Reaktionszeiten.
-              Als regionaler Fachpartner kennen wir die technischen Gegebenheiten vor Ort und bieten nachhaltige Lösungen
-              für Heizung, Sanitär und Warmwasser-Systeme.
+              Ob neue Heizung, eine moderne Heizungsanlage, Sanitär Anlagen oder andere Installationen, unser Installateur sorgt für sichere und langlebige Ergebnisse. Durch moderne Technik können Projekte effizient umgesetzt werden. Unser Ziel ist es, jedes Problem schnell zu lösen und langfristige Lösungen zu schaffen. Wenn Sie einen Installateur Gerasdorf, einen Installateur Gerasdorf Umgebung oder einen Installateur Gerasdorf bei Wien benötigen, profitieren Sie von regionaler Nähe und professioneller Unterstützung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Neudörfl und Umgebung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Gerasdorf bei Wien und Umgebung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Rohrreparatur und Notdienst -->
+  <!-- Rohrreinigung und Notdienst -->
   <section class="service-section" id="tausch-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Rohrreparatur & Notdienst</h2>
+            <h2>Rohrreinigung & Notdienst</h2>
             <p>
-              Ein Rohrbruch, austretendes Wasser oder andere unerwartete Schäden können jederzeit auftreten.
-              In solchen Situationen hilft unser Installateur Neudörfl schnell und zuverlässig.
-              Unser Notdienst ist bei dringenden Problemen erreichbar und sorgt dafür, dass größere Schäden vermieden werden.
+              Ein plötzlicher Rohrbruch, austretendes Wasser oder andere technische Störungen können schnell zu einem größeren Problem werden. In solchen Situationen hilft unser Installateur Gerasdorf bei Wien rasch und zuverlässig. Unser Installateur Notdienst steht bereit, um dringende Situationen schnell zu lösen.
             </p>
             <p>
-              Besonders bei einem Rohrbruch oder einer defekten Heizungsanlage ist schnelles Handeln wichtig.
-              Unser Gas Wasser Installateur kennt sich mit allen wichtigen Systemen aus und führt eine fachgerechte
-              Reparatur oder Rohrreparatur durch. Wir stehen unseren Kunden mit kompetentem Service zur Seite
-              und kümmern uns um eine schnelle Lösung für jedes Problem.
+              Besonders bei einer defekten Heizungsanlage oder Problemen im Sanitär Bereich ist schnelle Hilfe wichtig. Unser erfahrener Gas Wasser Installateur überprüft Ihre Anlage sorgfältig und führt eine fachgerechte Reparatur oder Rohrreinigung durch. Durch moderne Technik und zuverlässigen Service können viele Probleme schnell behoben werden. Wenn Sie einen Installateur Gerasdorf oder einen Installateur Gerasdorf Umgebung benötigen, sind wir Ihr Ansprechpartner für schnelle Hilfe.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Rohrreparatur" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Rohrreinigung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -783,39 +765,39 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   <section class="service-section service-section--soft" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zum Installateur Neudörfl</h2>
+        <h2>Häufige Fragen zum Installateur Gerasdorf bei Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
           <summary>Wann ist der Installateur Notdienst verfügbar?</summary>
-          <p>Unser Installateur Neudörfl bietet einen zuverlässigen Notdienst, der bei dringenden Problemen erreichbar ist. In vielen Fällen helfen wir schnell, auch außerhalb der normalen Uhr-Zeiten.</p>
+          <p>Unser Installateur Gerasdorf bei Wien bietet einen zuverlässigen Installateur Notdienst, der bei dringenden Problemen erreichbar ist. In vielen Fällen helfen wir schnell, auch außerhalb der üblichen Uhr-Zeiten.</p>
         </details>
 
         <details>
-          <summary>Was kostet eine Rohrreparatur in Neudörfl?</summary>
-          <p>Die Kosten für eine Rohrreparatur hängen vom Schaden ab. Unser Installateur prüft zuerst das Problem und informiert Sie transparent über die notwendigen Arbeiten.</p>
+          <summary>Was kostet eine Rohrreinigung in Gerasdorf bei Wien?</summary>
+          <p>Die Kosten für eine Rohrreinigung hängen vom Ausmaß des Problems ab. Unser Installateur prüft zuerst die Situation und informiert Sie transparent über die notwendigen Arbeiten.</p>
         </details>
 
         <details>
           <summary>Reparieren Sie auch Heizungsanlagen?</summary>
-          <p>Ja, wir übernehmen die Reparatur und Wartung jeder Heizungsanlage. Unser Installateur sorgt dafür, dass Ihre Heizung wieder zuverlässig funktioniert.</p>
+          <p>Ja, wir übernehmen die Reparatur und Wartung jeder Heizungsanlage. Unser Installateur Gerasdorf bei Wien sorgt dafür, dass Ihre Heizung wieder zuverlässig funktioniert.</p>
         </details>
 
         <details>
-          <summary>Arbeiten Sie auch in der Umgebung von Neudörfl?</summary>
-          <p>Ja, unser Installateur arbeitet nicht nur in Neudörfl, sondern auch in der gesamten Umgebung im Burgenland.</p>
+          <summary>Arbeiten Sie auch in der Umgebung von Gerasdorf bei Wien?</summary>
+          <p>Ja, unser Installateur arbeitet nicht nur in Gerasdorf bei Wien, sondern auch in der gesamten Umgebung in Niederösterreich.</p>
         </details>
 
         <details>
           <summary>Übernehmen Sie Bad Installationen?</summary>
-          <p>Selbstverständlich führen wir jede Bad Installation sowie alle Sanitär Arbeiten durch. Unser Installateur sorgt für moderne und funktionale Lösungen.</p>
+          <p>Selbstverständlich führen wir jede Bad Installation sowie alle Sanitär Arbeiten durch. Unser Installateur Gerasdorf sorgt für moderne und funktionale Lösungen.</p>
         </details>
 
         <details>
           <summary>Wie schnell kommt ein Installateur bei Rohrbruch?</summary>
-          <p>Bei einem Rohrbruch reagieren wir schnell. Unser Installateur Neudörfl kommt so rasch wie möglich, um Schäden durch austretendes Wasser zu begrenzen.</p>
+          <p>Bei einem Rohrbruch reagieren wir schnell. Unser Installateur Gerasdorf bei Wien kommt so rasch wie möglich, um Schäden durch austretendes Wasser zu verhindern.</p>
         </details>
       </div>
     </div>
@@ -825,7 +807,7 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin vereinbaren',
-    'text' => 'Rufen Sie uns an oder senden Sie uns eine E-Mail. Ihr zuverlässiger Installateur in Neudörfl – für Sanitär, Heizung und Notfälle.',
+    'text' => 'Rufen Sie uns an oder senden Sie uns eine E-Mail. Ihr zuverlässiger Installateur in Gerasdorf bei Wien – für Sanitär, Heizung und Notfälle.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+43123456789',
     'btnAccent' => true,

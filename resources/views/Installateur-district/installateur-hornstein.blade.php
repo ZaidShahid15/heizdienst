@@ -456,9 +456,7 @@ $metaDescription = "Installateur Hornstein für Sanitär, Heizung, Rohrreinigung
         <span style="color:#FB9A1B;">Schneller Service – rund um die Uhr.</span>
       </h1>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Installateur Hornstein Logo">
-      </div>
+
 
       <p class="wolf-hero__sub">
         Ihr Installateur in Hornstein unterstützt Sie bei Heizung, Sanitär und Reparaturen.

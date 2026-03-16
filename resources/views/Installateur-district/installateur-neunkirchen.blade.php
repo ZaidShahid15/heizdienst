@@ -442,8 +442,8 @@
 </style>
 
 @php
-$metaTitle = "Installateur Neudörfl | Sanitär, Heizung & Notdienst Service";
-$metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur und Notdienst. Schneller Service in Neudörfl und Umgebung. Jetzt anrufen oder E-Mail senden.";
+$metaTitle = "Installateur Neunkirchen | Sanitär, Heizung & Notdienst Service";
+$metaDescription = "Installateur Neunkirchen für Sanitär, Heizung, Rohrreinigung und Reparatur. Schneller Service in Neunkirchen und Umgebung. Jetzt anrufen oder E-Mail senden.";
 @endphp
 
 <main>
@@ -452,15 +452,13 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Installateur Neudörfl<br>
+        Installateur Neunkirchen<br>
         <span style="color:#FB9A1B;">Schneller Service – rund um die Uhr.</span>
       </h1>
 
 
-
       <p class="wolf-hero__sub">
-        Ihr Installateur in Neudörfl bietet schnellen Service für Heizung, Sanitär und Reparaturen.
-        Wir helfen zuverlässig bei Installationen, Wartung und Notfällen.
+        Ihr Installateur in Neunkirchen bietet schnellen Service für Heizung, Sanitär und moderne Installationen und unterstützt Sie zuverlässig bei Reparaturen und technischen Problemen.
       </p>
 
       <div class="wolf-hero__actions">
@@ -535,8 +533,8 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
             <li class="toc-item"><a href="#anlage-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Sanitär & Heizung</span></a></li>
             <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Preise</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Neudörfl & Umgebung</span></a></li>
-            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Rohrreparatur</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Neunkirchen & Umgebung</span></a></li>
+            <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Rohrreinigung</span></a></li>
             <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
             <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
@@ -545,30 +543,25 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
     </div>
   </section>
 
-  <!-- Ihr zuverlässiger Installateur in Neudörfl -->
+  <!-- Ihr zuverlässiger Installateur in Neunkirchen -->
   <section class="service-section" id="partner-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Ihr zuverlässiger Installateur in Neudörfl</h2>
+            <h2>Ihr zuverlässiger Installateur in Neunkirchen</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Neudörfl suchen, sind Sie bei uns genau richtig.
-              Unser Installateur bietet zuverlässige Lösungen für Sanitär, Heizung und moderne Installationen
-              in Neudörfl und der gesamten Umgebung im Burgenland. Ob neue Heizungsanlage, professionelle Bad Installation
-              oder schnelle Hilfe bei Problemen mit Wasser – unser Team unterstützt Sie kompetent.
+              Wenn Sie einen erfahrenen Installateur Neunkirchen suchen, sind Sie bei uns genau richtig. Unser Installateur bietet professionelle Lösungen für Sanitär, Heizung und moderne Haustechnik in Neunkirchen sowie in der gesamten Umgebung. Viele Haushalte in Neunkirchen Niederösterreich vertrauen auf unseren zuverlässigen Service, weil wir Qualität, Sicherheit und moderne Technik miteinander verbinden. Egal ob eine neue Heizungsanlage, eine vollständige Bad Installation oder Hilfe bei einem Problem mit Wasser, unser Team unterstützt Sie mit Kompetenz und langjähriger Erfahrung.
             </p>
             <p>
-              Durch unsere langjährige Erfahrung kennen wir die Anforderungen unserer Kunden genau und bieten einen
-              umfassenden Service – von der ersten Beratung bis zur Ausführung. Wenn Sie einen Installateur Nähe Neudörfl suchen,
-              profitieren Sie von moderner Technik, fachgerechter Planung und persönlicher Betreuung.
+              Als regionaler Gas Wasser Installateur kennen wir die Anforderungen von Gebäuden in Neunkirchen sehr genau und bieten persönliche Beratung sowie professionelle Arbeiten. Wenn Sie einen Installateur Nähe Neunkirchen oder einen Installateur Neunkirchen Umgebung suchen, profitieren Sie von schneller Hilfe, sorgfältiger Planung und zuverlässigen Lösungen für Ihr Zuhause in Neunkirchen.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size1.jpeg') }}" alt="Installateur Neudörfl Team" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size1.jpeg') }}" alt="Installateur Neunkirchen Team" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -579,9 +572,9 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   <section class="service-section service-section--soft" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Sanitär- und Heizungsservice aus einer Hand</h2>
+        <h2>Sanitär und Heizung</h2>
         <p>
-          Wir übernehmen alle Installateur Arbeiten – von der Badinstallation über Heizungswartung bis zur Rohrreparatur.
+          Wir übernehmen alle Installateur Arbeiten – von der Badinstallation über Heizungswartung bis zur Rohrreinigung.
         </p>
       </div>
 
@@ -589,16 +582,16 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚿</div>
           <div>
-            <h3>Sanitär- und Badinstallation</h3>
-            <p>Wir übernehmen professionelle Sanitär Arbeiten und jede Bad Installation in Neudörfl. Hochwertige Lösungen, zuverlässige Installationen und moderner Komfort im Badezimmer.</p>
+            <h3>Sanitär- und Bad Installation</h3>
+            <p>Unser Installateur übernimmt professionelle Sanitär Arbeiten und jede Bad Installation in Neunkirchen. Wir sorgen für moderne Installationen, hochwertige Materialien und mehr Komfort rund um Ihr Badezimmer und Wasser.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Moderne Heizungsanlagen</h3>
-            <p>Eine moderne Heizungsanlage sorgt für effiziente Wärme und geringere Energiekosten. Wir planen und installieren passende Heizung Lösungen für Häuser und Wohnungen in Neudörfl.</p>
+            <h3>Moderne Heizungsanlagen für Ihr Zuhause</h3>
+            <p>Eine moderne Heizung sorgt für angenehme Wärme und eine effiziente Energienutzung. Unser Installateur Neunkirchen plant und installiert die passende Heizungsanlage für Häuser und Wohnungen in Neunkirchen.</p>
           </div>
         </article>
 
@@ -606,15 +599,15 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
             <h3>Installateur Notdienst</h3>
-            <p>Bei Rohrbruch, austretendem Wasser oder anderen Notfällen hilft unser Installateur Neudörfl schnell und zuverlässig – auch außerhalb der Geschäftszeiten.</p>
+            <p>Bei Rohrbruch, austretendem Wasser oder anderen Notfällen hilft unser Installateur Neunkirchen schnell und zuverlässig – auch außerhalb der Geschäftszeiten.</p>
           </div>
         </article>
 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Rohrreparatur & Wartung</h3>
-            <p>Defekte Leitungen? Wir führen eine präzise Rohrreparatur durch und sorgen dafür, dass Ihre Sanitär Anlage wieder zuverlässig funktioniert.</p>
+            <h3>Rohrreinigung & Reparatur</h3>
+            <p>Bei verstopften Leitungen oder technischen Problemen übernimmt unser Installateur eine gründliche Rohrreinigung und eine präzise Reparatur, damit Ihre Sanitär Anlagen wieder zuverlässig funktionieren.</p>
           </div>
         </article>
       </div>
@@ -629,14 +622,10 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
           <div class="card-box">
             <h2>Heizung und Sanitär Service</h2>
             <p>
-              Unser Installateur Neudörfl bietet umfassenden Service rund um Heizung und Sanitär.
-              Von neuen Installationen bis zur regelmäßigen Wartung sorgen wir dafür, dass Ihre Anlagen zuverlässig funktionieren.
-              Eine gut gewartete Heizungsanlage spart Energie und verhindert teure Reparaturen.
-              Deshalb übernehmen wir sowohl Planung als auch langfristige Betreuung Ihrer Systeme.
+              Unser Installateur Neunkirchen bietet einen umfassenden Service rund um Heizung, Sanitär und moderne Haustechnik. Viele Haushalte in Neunkirchen und in ganz Niederösterreich verlassen sich auf unsere Unterstützung bei neuen Anlagen sowie bestehenden Systemen. Eine moderne Heizungsanlage sorgt für zuverlässige Wärme und hilft dabei, Energiekosten langfristig zu reduzieren. Deshalb übernehmen wir nicht nur neue Installationen, sondern auch regelmäßige Wartung und technische Betreuung Ihrer Anlagen.
             </p>
             <p>
-              Als erfahrener Gas Wasser Installateur kümmern wir uns um sichere Leitungen, moderne Technik und effiziente Lösungen
-              für Ihr Zuhause in Neudörfl und im Burgenland. Unser Team arbeitet sorgfältig und führt alle Arbeiten professionell durch.
+              Unser Team arbeitet mit moderner Technik und viel Erfahrung, damit alle Systeme sicher und effizient funktionieren. Als regionaler Installateur Neunkirchen Niederösterreich kümmern wir uns sowohl um kleinere Arbeiten als auch um größere Projekte in Neunkirchen und der Umgebung. Unser Ziel ist es, jedes Problem schnell zu lösen und unseren Kunden einen langfristig zuverlässigen Service rund um Heizung, Sanitär und Wasser zu bieten.
             </p>
 
             <div class="service-stats">
@@ -699,8 +688,8 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
           <div class="card-box">
             <h2>Ablauf von Anfrage bis Termin</h2>
             <p>
-              Der Ablauf bei unserem Installateur Neudörfl ist klar strukturiert und kundenorientiert.
-              Nach Ihrer Kontaktaufnahme über diese Seite vereinbaren wir rasch einen Termin für Neudörfl und Umgebung.
+              Der Ablauf bei unserem Installateur Neunkirchen ist klar strukturiert und kundenorientiert.
+              Nach Ihrer Kontaktaufnahme über diese Seite vereinbaren wir rasch einen Termin für Neunkirchen und Umgebung.
             </p>
             <p>
               Unser Team analysiert vor Ort Ihre Heizungsanlage, Sanitäranlagen oder die betroffenen Leitungen
@@ -720,59 +709,50 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
     </div>
   </section>
 
-  <!-- Neudörfl und Umgebung -->
+  <!-- Neunkirchen und Umgebung -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Neudörfl und Umgebung – immer in Ihrer Nähe</h2>
+            <h2>Installateur Arbeiten in Neunkirchen und Umgebung</h2>
             <p>
-              Unser Installateur Service ist in ganz Neudörfl und Umgebung sowie im Burgenland im Einsatz.
-              Durch kurze Anfahrtswege reagieren wir flexibel auf Terminwünsche, Notfälle oder akute Störungen.
+              Unser Installateur Neunkirchen unterstützt private Haushalte sowie Betriebe bei allen Aufgaben rund um Heizung, Sanitär und Haustechnik. Viele Menschen suchen einen Installateur Nähe Neunkirchen, der schnell erreichbar ist und hochwertige Arbeiten liefert. Genau das bietet unser Service. Von der Planung einer neuen Heizungsanlage bis zur schnellen Hilfe bei einem Rohrbruch oder einer notwendigen Rohrreinigung kümmern wir uns um jedes Detail.
             </p>
             <p>
-              Unser Kundendienst steht Ihnen zur Verfügung und betreut Wohnungen, Häuser und kleinere Betriebe gleichermaßen.
-              Kunden schätzen unsere Verlässlichkeit, klare Kommunikation und schnelle Reaktionszeiten.
-              Als regionaler Fachpartner kennen wir die technischen Gegebenheiten vor Ort und bieten nachhaltige Lösungen
-              für Heizung, Sanitär und Warmwasser-Systeme.
+              Unser Installateur arbeitet mit moderner Technik, damit alle Systeme zuverlässig funktionieren und zukünftige Probleme vermieden werden. Besonders in Neunkirchen und der Umgebung ist es wichtig, einen regionalen Ansprechpartner zu haben, der schnell reagieren kann. Wenn Sie einen Installateur Neunkirchen Umgebung suchen, erhalten Sie bei uns professionelle Unterstützung und langlebige Lösungen für Ihr Zuhause in Neunkirchen.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Neudörfl und Umgebung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Neunkirchen und Umgebung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Rohrreparatur und Notdienst -->
+  <!-- Rohrreinigung und Notdienst -->
   <section class="service-section" id="tausch-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Rohrreparatur & Notdienst</h2>
+            <h2>Rohrreinigung & Notdienst</h2>
             <p>
-              Ein Rohrbruch, austretendes Wasser oder andere unerwartete Schäden können jederzeit auftreten.
-              In solchen Situationen hilft unser Installateur Neudörfl schnell und zuverlässig.
-              Unser Notdienst ist bei dringenden Problemen erreichbar und sorgt dafür, dass größere Schäden vermieden werden.
+              Ein Rohrbruch, austretendes Wasser oder eine defekte Heizung kann jederzeit ein großes Problem darstellen. In solchen Situationen ist ein schneller Installateur Notdienst besonders wichtig. Unser Installateur Neunkirchen bietet einen zuverlässigen Notdienst für Neunkirchen und die Umgebung, damit Schäden schnell behoben werden können.
             </p>
             <p>
-              Besonders bei einem Rohrbruch oder einer defekten Heizungsanlage ist schnelles Handeln wichtig.
-              Unser Gas Wasser Installateur kennt sich mit allen wichtigen Systemen aus und führt eine fachgerechte
-              Reparatur oder Rohrreparatur durch. Wir stehen unseren Kunden mit kompetentem Service zur Seite
-              und kümmern uns um eine schnelle Lösung für jedes Problem.
+              Unser erfahrener Gas Wasser Installateur kennt sich mit allen Systemen rund um Sanitär, Heizung und Leitungen aus und führt eine professionelle Reparatur oder Rohrreinigung durch. Bei dringenden Fällen ist unser Installateur Notdienst sogar 24 Stunden erreichbar, sodass wir rund um die Uhr schnelle Hilfe bieten können. Dank moderner Technik, viel Erfahrung und einem engagierten Team sorgen wir dafür, dass Ihr Zuhause in Neunkirchen schnell wieder sicher und funktionstüchtig ist. Wenn Sie einen Installateur Neunkirchen Niederösterreich benötigen, erhalten Sie bei uns kompetenten Service.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Rohrreparatur" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Rohrreinigung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -783,39 +763,39 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   <section class="service-section service-section--soft" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zum Installateur Neudörfl</h2>
+        <h2>Häufige Fragen zum Installateur Neunkirchen</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
           <summary>Wann ist der Installateur Notdienst verfügbar?</summary>
-          <p>Unser Installateur Neudörfl bietet einen zuverlässigen Notdienst, der bei dringenden Problemen erreichbar ist. In vielen Fällen helfen wir schnell, auch außerhalb der normalen Uhr-Zeiten.</p>
+          <p>Unser Installateur Notdienst in Neunkirchen ist bei dringenden Problemen erreichbar. Bei einem Rohrbruch, einer defekten Heizung oder austretendem Wasser reagieren wir schnell. In vielen Fällen steht unser Service sogar 24 Stunden zur Verfügung.</p>
         </details>
 
         <details>
-          <summary>Was kostet eine Rohrreparatur in Neudörfl?</summary>
-          <p>Die Kosten für eine Rohrreparatur hängen vom Schaden ab. Unser Installateur prüft zuerst das Problem und informiert Sie transparent über die notwendigen Arbeiten.</p>
+          <summary>Was kostet eine Rohrreinigung oder Reparatur?</summary>
+          <p>Die Kosten hängen vom jeweiligen Problem ab. Nach einer kurzen Prüfung erklärt Ihnen unser Installateur Neunkirchen transparent, welche Reparatur oder Rohrreinigung notwendig ist und welche Arbeiten durchgeführt werden.</p>
         </details>
 
         <details>
           <summary>Reparieren Sie auch Heizungsanlagen?</summary>
-          <p>Ja, wir übernehmen die Reparatur und Wartung jeder Heizungsanlage. Unser Installateur sorgt dafür, dass Ihre Heizung wieder zuverlässig funktioniert.</p>
+          <p>Ja, unser Installateur übernimmt die Reparatur, Wartung und Optimierung jeder Heizungsanlage. So stellen wir sicher, dass Ihre Heizung zuverlässig arbeitet und effizient Energie nutzt.</p>
         </details>
 
         <details>
-          <summary>Arbeiten Sie auch in der Umgebung von Neudörfl?</summary>
-          <p>Ja, unser Installateur arbeitet nicht nur in Neudörfl, sondern auch in der gesamten Umgebung im Burgenland.</p>
+          <summary>Arbeiten Sie auch in der Umgebung von Neunkirchen?</summary>
+          <p>Ja, unser Installateur Neunkirchen Niederösterreich arbeitet nicht nur direkt in Neunkirchen, sondern auch in der gesamten Umgebung. Dadurch können wir schnell reagieren und einen zuverlässigen Service anbieten.</p>
         </details>
 
         <details>
-          <summary>Übernehmen Sie Bad Installationen?</summary>
-          <p>Selbstverständlich führen wir jede Bad Installation sowie alle Sanitär Arbeiten durch. Unser Installateur sorgt für moderne und funktionale Lösungen.</p>
+          <summary>Übernehmen Sie auch Bad Installationen?</summary>
+          <p>Selbstverständlich. Unser Installateur übernimmt jede Bad Installation sowie professionelle Sanitär Arbeiten und moderne Installationen für Badezimmer in Neunkirchen.</p>
         </details>
 
         <details>
           <summary>Wie schnell kommt ein Installateur bei Rohrbruch?</summary>
-          <p>Bei einem Rohrbruch reagieren wir schnell. Unser Installateur Neudörfl kommt so rasch wie möglich, um Schäden durch austretendes Wasser zu begrenzen.</p>
+          <p>Bei einem Rohrbruch reagieren wir so schnell wie möglich. Unser Installateur Neunkirchen kommt kurzfristig zu Ihnen, um austretendes Wasser zu stoppen und weitere Schäden zu vermeiden.</p>
         </details>
       </div>
     </div>
@@ -825,7 +805,7 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin vereinbaren',
-    'text' => 'Rufen Sie uns an oder senden Sie uns eine E-Mail. Ihr zuverlässiger Installateur in Neudörfl – für Sanitär, Heizung und Notfälle.',
+    'text' => 'Rufen Sie uns an oder senden Sie uns eine E-Mail. Ihr zuverlässiger Installateur in Neunkirchen – für Sanitär, Heizung und Notfälle.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+43123456789',
     'btnAccent' => true,

@@ -456,9 +456,7 @@ $metaDescription = "Installateur Rust für Sanitär, Heizung, Rohrreinigung und 
         <span style="color:#FB9A1B;">Schneller Service – rund um die Uhr.</span>
       </h1>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Installateur Rust Logo">
-      </div>
+
 
       <p class="wolf-hero__sub">
         Ihr Installateur in Rust bietet schnellen Service für Heizung, Sanitär und Reparaturen.

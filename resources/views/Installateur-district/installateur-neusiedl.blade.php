@@ -456,9 +456,6 @@ $metaDescription = "Installateur Neusiedl am See für Sanitär, Heizung, Rohrrei
         <span style="color:#FB9A1B;">Schneller Service – rund um die Uhr.</span>
       </h1>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Installateur Neusiedl am See Logo">
-      </div>
 
       <p class="wolf-hero__sub">
         Ihr Installateur Neusiedl am See bietet schnellen Service für Sanitär, Heizung und Reparaturen.
