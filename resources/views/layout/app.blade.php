@@ -5,7 +5,8 @@
     @if (!isset($allowIndex))
         <meta name="robots" content="noindex, nofollow">
     @endif
-<meta name="title" content="{!! $metaTitle ?? 'Default Site Title' !!}">    <link rel="shortcut icon" href="{{ asset('img/fav.png') }}" type="image/x-icon">
+    <meta name="title" content="{!! $metaTitle ?? 'Default Site Title' !!}">
+    <link rel="shortcut icon" href="{{ asset('img/fav.png') }}" type="image/x-icon">
     <meta name="description" content="{!! $metaDescription ?? 'Default meta description' !!} ">
     @stack('meta')
 
