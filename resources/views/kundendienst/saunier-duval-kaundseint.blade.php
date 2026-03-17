@@ -387,7 +387,7 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-   
+
     overflow:auto;
   }
   .toc-list{
@@ -453,7 +453,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
