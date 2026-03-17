@@ -265,3 +265,24 @@ Route::get('/installateur-vosendorf', fn() => view('Installateur-district.instal
 
 Route::get('/installateur-wiener', fn() => view('Installateur-district.installateur-wiener'))->name('installateur-wiener');
 
+
+
+Route::get('/installateur-notdienst-1010-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1010-wien'))->name('installateur-notdienst-1010-wien');
+
+Route::get('/installateur-notdienst-1020-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1020-wien'))->name('installateur-notdienst-1020-wien');
+
+Route::get('/installateur-notdienst-1030-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1030-wien'))->name('installateur-notdienst-1030-wien');
+
+Route::get('/installateur-notdienst-1040-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1040-wien'))->name('installateur-notdienst-1040-wien');
+
+Route::get('/installateur-notdienst-1050-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1050-wien'))->name('installateur-notdienst-1050-wien');
+
+Route::get('/installateur-notdienst-1060-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1060-wien'))->name('installateur-notdienst-1060-wien');
+
+Route::get('/installateur-notdienst-1070-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1070-wien'))->name('installateur-notdienst-1070-wien');
+
+Route::get('/installateur-notdienst-1080-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1080-wien'))->name('installateur-notdienst-1080-wien');
+
+Route::get('/installateur-notdienst-1090-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1090-wien'))->name('installateur-notdienst-1090-wien');
+
+Route::get('/installateur-notdienst-1100-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1100-wien'))->name('installateur-notdienst-1100-wien');

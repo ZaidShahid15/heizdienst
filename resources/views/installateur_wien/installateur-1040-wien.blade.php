@@ -3,8 +3,8 @@
 @section('main')
 
 @php
-$metaTitle = "Installateur Notdienst 1040 Wien – 24h Installateur Wieden";
-$metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur Wieden für Rohrbruch, Abfluss verstopft, Heizung oder Gastherme. 24h Installateur Notdienst Wien. Jetzt anrufen!";
+$metaTitle = "Installateur   1040 Wien – 24h Installateur Wieden";
+$metaDescription = "Installateur   1040 Wien – schneller Installateur Wieden für Rohrbruch, Abfluss verstopft, Heizung oder Gastherme. 24h Installateur   Wien. Jetzt anrufen!";
 @endphp
 
 @push('meta')
@@ -86,11 +86,11 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Installateur Notdienst 1040 Wien <br>
+        Installateur   1040 Wien <br>
         <span style="color:#FB9A1B;">24h Installateur Wieden</span>
       </h1>
 
-      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1040 Wien. Unser Installateur Notdienst Wien ist rund um die Uhr erreichbar und hilft bei Sanitär-, Gas- und Heizungsproblemen im Bezirk Wieden.</p>
+      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1040 Wien. Unser Installateur   Wien ist rund um die Uhr erreichbar und hilft bei Sanitär-, Gas- und Heizungsproblemen im Bezirk Wieden.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -158,7 +158,7 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
             <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
             <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="# -services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text"> </span></a></li>
             <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
             <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
             <!-- NEU: Thermen Marken -->
@@ -176,8 +176,8 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Ihr Installateur Notdienst in 1040 Wien</h2>
-          <p>Wenn plötzlich ein Rohr bricht, der Abfluss überläuft oder die Heizung ausfällt, benötigen Sie schnelle Unterstützung. Unser Installateur Notdienst 1040 Wien steht Bewohnern und Unternehmen im Bezirk Wieden jederzeit zur Verfügung. Als erfahrener Installateur Wien 1040 bieten wir professionelle Hilfe für alle Probleme rund um Gas Wasser Heizung Wien, Sanitäranlagen und moderne Haustechnik Wien. Unser Notdienst Installateur 1040 Wien ist spezialisiert auf schnelle Einsätze bei Installateur Notfall Wien und technischen Störungen. Egal ob Wasserrohrbruch Wien, ein verstopfter Abfluss oder defekte Leitungen – unser Installateur Wieden ist schnell vor Ort. Besonders in Bereichen wie der Installateur Wiedner Hauptstraße Umgebung sind wir täglich im Einsatz. Wenn Sie einen Installateur Notdienst Nähe oder einen Installateur Nähe 1040 Wien suchen, hilft unser Installateur Notdienst Wien sofort.</p>
+          <h2>Ihr Installateur   in 1040 Wien</h2>
+          <p>Wenn plötzlich ein Rohr bricht, der Abfluss überläuft oder die Heizung ausfällt, benötigen Sie schnelle Unterstützung. Unser Installateur   1040 Wien steht Bewohnern und Unternehmen im Bezirk Wieden jederzeit zur Verfügung. Als erfahrener Installateur Wien 1040 bieten wir professionelle Hilfe für alle Probleme rund um Gas Wasser Heizung Wien, Sanitäranlagen und moderne Haustechnik Wien. Unser   Installateur 1040 Wien ist spezialisiert auf schnelle Einsätze bei Installateur Notfall Wien und technischen Störungen. Egal ob Wasserrohrbruch Wien, ein verstopfter Abfluss oder defekte Leitungen – unser Installateur Wieden ist schnell vor Ort. Besonders in Bereichen wie der Installateur Wiedner Hauptstraße Umgebung sind wir täglich im Einsatz. Wenn Sie einen Installateur   Nähe oder einen Installateur Nähe 1040 Wien suchen, hilft unser Installateur   Wien sofort.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1040 Wien" loading="lazy" decoding="async">
@@ -186,7 +186,7 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div>
-          <h3>Rohrbruch und Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann schwere Schäden verursachen. Unser Rohrbruch Notdienst Wien bietet schnelle Hilfe bei Wasserschaden Wien durch erfahrene Wasserinstallateur Wien Experten.</p>
+          <h3>Rohrbruch und Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann schwere Schäden verursachen. Unser Rohrbruch   Wien bietet schnelle Hilfe bei Wasserschaden Wien durch erfahrene Wasserinstallateur Wien Experten.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚡</div><div>
           <h3>Abfluss verstopft oder WC verstopft</h3><p>Ein Abfluss verstopft Wien oder WC verstopft Wien kann den Alltag stark beeinträchtigen. Unser Rohrreinigung Wien Service löst Verstopfungen schnell und sorgt für funktionierende Leitungen.</p>
@@ -195,7 +195,7 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
           <h3>Professioneller Installateur für Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen rund um Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kümmern wir uns um Gasleitungen, Thermen und Heizsysteme. Gleichzeitig übernimmt unser Sanitär Installateur Wien alle Arbeiten an Wasserleitungen, Badezimmern und Sanitäranlagen.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">📍</div><div>
-          <h3>Ihr Installateur in Wien Wieden</h3><p>Wenn Sie einen zuverlässigen Installateur 1040 Wien suchen, ist schnelle Hilfe besonders wichtig. Unser Installateur Notdienst Wien ist täglich im vierten Bezirk unterwegs und hilft Bewohnern und Unternehmen im Gebiet Wieden bei allen Problemen rund um Sanitär, Gas und Heizung.</p>
+          <h3>Ihr Installateur in Wien Wieden</h3><p>Wenn Sie einen zuverlässigen Installateur 1040 Wien suchen, ist schnelle Hilfe besonders wichtig. Unser Installateur   Wien ist täglich im vierten Bezirk unterwegs und hilft Bewohnern und Unternehmen im Gebiet Wieden bei allen Problemen rund um Sanitär, Gas und Heizung.</p>
         </div></article>
       </div>
     </div>
@@ -207,7 +207,7 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Warum unser Installateur Fachbetrieb in Wien</h2>
-          <p>Unser Installateur Fachbetrieb Wien steht für Qualität, Erfahrung und schnelle Hilfe. Unser Installateur Notdienst Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lösen. Unser Installateur Team Wien verfügt über umfangreiche Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfälle Wien ist eine schnelle Reaktion entscheidend. Deshalb ist unser Notdienst 24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrüchen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlässige und langfristige Lösungen zu bieten.</p>
+          <p>Unser Installateur Fachbetrieb Wien steht für Qualität, Erfahrung und schnelle Hilfe. Unser Installateur   Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lösen. Unser Installateur Team Wien verfügt über umfangreiche Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfälle Wien ist eine schnelle Reaktion entscheidend. Deshalb ist unser   24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrüchen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlässige und langfristige Lösungen zu bieten.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -224,7 +224,7 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1040</h2><p>Unser Installateur Notdienst Wien bietet ein breites Leistungsspektrum für Wohnungen, Unternehmen und Hausverwaltungen im Bezirk Wieden. Als erfahrene Installateur Firma Wien übernehmen wir Reparaturen, Wartungen und neue Installationen Wien im Bereich Gas Wasser Heizung Wien. Unser Wasserinstallateur Wien kümmert sich um defekte Leitungen, Armaturen und Sanitäranlagen. Gleichzeitig sorgt unser Sanitär Installateur Wien für professionelle Lösungen in Badezimmern und Sanitärsystemen. Unsere Experten arbeiten mit moderner Heizungstechnik Wien, effizienter Sanitärtechnik Wien und zuverlässiger Haustechnik Wien. Unser Installateur Service Wien hilft bei kleinen Reparaturen ebenso wie bei großen Projekten. Dank unserem erfahrenen Installateur Team Wien bieten wir ein zuverlässiges Wieden Installateur Service für Privatkunden, Unternehmen und Hausverwaltungen.</p></div>
+      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1040</h2><p>Unser Installateur   Wien bietet ein breites Leistungsspektrum für Wohnungen, Unternehmen und Hausverwaltungen im Bezirk Wieden. Als erfahrene Installateur Firma Wien übernehmen wir Reparaturen, Wartungen und neue Installationen Wien im Bereich Gas Wasser Heizung Wien. Unser Wasserinstallateur Wien kümmert sich um defekte Leitungen, Armaturen und Sanitäranlagen. Gleichzeitig sorgt unser Sanitär Installateur Wien für professionelle Lösungen in Badezimmern und Sanitärsystemen. Unsere Experten arbeiten mit moderner Heizungstechnik Wien, effizienter Sanitärtechnik Wien und zuverlässiger Haustechnik Wien. Unser Installateur Service Wien hilft bei kleinen Reparaturen ebenso wie bei großen Projekten. Dank unserem erfahrenen Installateur Team Wien bieten wir ein zuverlässiges Wieden Installateur Service für Privatkunden, Unternehmen und Hausverwaltungen.</p></div>
       <div class="service-grid service-grid--2">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧽</div><div><h3>Rohrreinigung Wien</h3><p>Rohrreinigung Wien bei verstopften Leitungen oder Abfluss verstopft Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧪</div><div><h3>Wasserrohrbruch Wien</h3><p>Schnelle Hilfe bei Wasserrohrbruch Wien und beschädigten Leitungen.</p></div></article>
@@ -275,19 +275,19 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
     </div>
   </section>
 
-  <!-- Notdienst -->
-  <section class="service-section service-section--dark" id="notdienst-services">
+  <!--   -->
+  <section class="service-section service-section--dark" id=" -services">
     <div class="container service-emergency">
       <div class="service-emergency__text">
-        <h2>Installateur Notdienst 24h Wien</h2>
-        <p>Ein Rohrbruch, eine defekte Therme oder ein verstopfter Abfluss kann jederzeit auftreten. Deshalb steht unser Installateur Notdienst Wien rund um die Uhr zur Verfügung. Unser Notdienst 1040 Wien hilft schnell bei akuten Problemen im vierten Bezirk. Als 24 Stunden Installateur Wien bieten wir schnelle Hilfe bei Installateur Notfall Wien, Heizungsproblemen oder beschädigten Leitungen. Unser Installateur Notdienst 1040 Wien reagiert sofort bei dringenden Situationen. Wenn Sie einen Installateur Notdienst Nähe suchen, erreichen wir Ihren Standort meist innerhalb kurzer Zeit. Unser Sanitär Notdienst Wien und unser Gas Installateur Wien kümmern sich um alle dringenden Reparaturen.</p>
+        <h2>Installateur   24h Wien</h2>
+        <p>Ein Rohrbruch, eine defekte Therme oder ein verstopfter Abfluss kann jederzeit auftreten. Deshalb steht unser Installateur   Wien rund um die Uhr zur Verfügung. Unser   1040 Wien hilft schnell bei akuten Problemen im vierten Bezirk. Als 24 Stunden Installateur Wien bieten wir schnelle Hilfe bei Installateur Notfall Wien, Heizungsproblemen oder beschädigten Leitungen. Unser Installateur   1040 Wien reagiert sofort bei dringenden Situationen. Wenn Sie einen Installateur   Nähe suchen, erreichen wir Ihren Standort meist innerhalb kurzer Zeit. Unser Sanitär   Wien und unser Gas Installateur Wien kümmern sich um alle dringenden Reparaturen.</p>
         <div class="service-emergency__actions">
-          <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
+          <a class="service-btn-dark accent" href="#kontakt-services">  kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdienst‑Einsätze</h3>
+        <h3>Typische  ‑Einsätze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
           <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
@@ -307,7 +307,7 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
         </div></div>
         <div class="card-split__text"><div class="card-box">
           <h2>Installateur Kosten Wien – transparente Preise</h2>
-          <p>Viele Kunden möchten vorab wissen, welche Installateur Kosten Wien entstehen können. Unser Installateur Notdienst Wien arbeitet mit transparenten Preisen und fairen Konditionen. Der genaue Installateur Preis Wien hängt vom Problem, dem Arbeitsaufwand und den benötigten Materialien ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie eine klare Übersicht erhalten. Bei größeren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, damit Sie Planungssicherheit haben. Unser Ziel ist es, hochwertige Arbeit zu fairen Preisen anzubieten, damit Sie sich jederzeit auf unseren Installateur 1040 Wien verlassen können.</p>
+          <p>Viele Kunden möchten vorab wissen, welche Installateur Kosten Wien entstehen können. Unser Installateur   Wien arbeitet mit transparenten Preisen und fairen Konditionen. Der genaue Installateur Preis Wien hängt vom Problem, dem Arbeitsaufwand und den benötigten Materialien ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie eine klare Übersicht erhalten. Bei größeren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, damit Sie Planungssicherheit haben. Unser Ziel ist es, hochwertige Arbeit zu fairen Preisen anzubieten, damit Sie sich jederzeit auf unseren Installateur 1040 Wien verlassen können.</p>
           <p>Für planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Störungen erklären wir nachvollziehbar, welche Schritte nötig sind und wie sich die Kosten zusammensetzen.</p>
         </div></div>
       </div>
@@ -320,7 +320,7 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ihr Installateur in Wien Wieden</h2>
-          <p>Wenn Sie einen zuverlässigen Installateur 1040 Wien suchen, ist schnelle Hilfe besonders wichtig. Unser Installateur Notdienst Wien ist täglich im vierten Bezirk unterwegs und hilft Bewohnern und Unternehmen im Gebiet Wieden bei allen Problemen rund um Sanitär, Gas und Heizung. Als erfahrener Installateur Wien 1040 kennen wir die Gebäude und technischen Anlagen im Bezirk sehr genau. Unser Notdienst Installateur 1040 Wien unterstützt Sie sowohl bei akuten Reparaturen als auch bei geplanten Installationen. Unser Installateur Wieden arbeitet professionell und zuverlässig, egal ob kleine Reparatur oder größere Arbeiten. Wenn Sie einen Installateur Notdienst Nähe oder einen Installateur Umgebung 1040 Wien suchen, steht unser Team jederzeit bereit. Unser Installateur Notdienst 1040 Wien sorgt dafür, dass Probleme schnell und dauerhaft behoben werden.</p>
+          <p>Wenn Sie einen zuverlässigen Installateur 1040 Wien suchen, ist schnelle Hilfe besonders wichtig. Unser Installateur   Wien ist täglich im vierten Bezirk unterwegs und hilft Bewohnern und Unternehmen im Gebiet Wieden bei allen Problemen rund um Sanitär, Gas und Heizung. Als erfahrener Installateur Wien 1040 kennen wir die Gebäude und technischen Anlagen im Bezirk sehr genau. Unser   Installateur 1040 Wien unterstützt Sie sowohl bei akuten Reparaturen als auch bei geplanten Installationen. Unser Installateur Wieden arbeitet professionell und zuverlässig, egal ob kleine Reparatur oder größere Arbeiten. Wenn Sie einen Installateur   Nähe oder einen Installateur Umgebung 1040 Wien suchen, steht unser Team jederzeit bereit. Unser Installateur   1040 Wien sorgt dafür, dass Probleme schnell und dauerhaft behoben werden.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
@@ -422,12 +422,12 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
       <div class="service-section__head"><h2>Häufig gestellte Fragen</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
       <div class="service-faq">
         <details>
-          <summary>Was kostet ein Installateur Notdienst in Wien?</summary>
-          <p>Die Kosten hängen vom Problem und dem Arbeitsaufwand ab. Unser Installateur Notdienst Wien informiert Sie transparent über mögliche Installateur Kosten Wien und den genauen Installateur Preis Wien.</p>
+          <summary>Was kostet ein Installateur   in Wien?</summary>
+          <p>Die Kosten hängen vom Problem und dem Arbeitsaufwand ab. Unser Installateur   Wien informiert Sie transparent über mögliche Installateur Kosten Wien und den genauen Installateur Preis Wien.</p>
         </details>
         <details>
           <summary>Wie schnell kommt ein Installateur in 1040 Wien?</summary>
-          <p>Unser Installateur Notdienst 1040 Wien ist direkt im Bezirk tätig. In vielen Fällen erreicht unser Installateur Wien 1040 Kunden innerhalb kurzer Zeit.</p>
+          <p>Unser Installateur   1040 Wien ist direkt im Bezirk tätig. In vielen Fällen erreicht unser Installateur Wien 1040 Kunden innerhalb kurzer Zeit.</p>
         </details>
         <details>
           <summary>Bieten Sie auch Thermenwartung in Wien an?</summary>
@@ -435,11 +435,11 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
         </details>
         <details>
           <summary>Was tun bei Wasserrohrbruch in Wien?</summary>
-          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch Notdienst Wien kontaktieren. Unser Wasserinstallateur Wien kümmert sich sofort um die Reparatur.</p>
+          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch   Wien kontaktieren. Unser Wasserinstallateur Wien kümmert sich sofort um die Reparatur.</p>
         </details>
         <details>
           <summary>Sind Sie auch nachts erreichbar?</summary>
-          <p>Ja. Unser Notdienst 24h Wien ist rund um die Uhr verfügbar. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Einsätzen nachts oder am Wochenende.</p>
+          <p>Ja. Unser   24h Wien ist rund um die Uhr verfügbar. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Einsätzen nachts oder am Wochenende.</p>
         </details>
         <details>
           <summary>Arbeiten Sie auch im Bezirk Wieden?</summary>
@@ -455,7 +455,7 @@ $metaDescription = "Installateur Notdienst 1040 Wien – schneller Installateur 
       <div class="service-cta__inner">
         <div>
           <h2>Installateur Kontakt Wien</h2>
-          <p>Wenn Sie einen zuverlässigen Installateur 1040 Wien benötigen, hilft unser Team sofort weiter. Unser Installateur Notdienst Wien unterstützt Sie bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitäranlagen und Rohrleitungen. Egal ob Installateur Notdienst 1040 Wien, Rohrreinigung Wien, Sanitär Reparatur Wien oder Heizung Reparatur Wien – unser Installateur Service Wien sorgt für schnelle Lösungen.</p>
+          <p>Wenn Sie einen zuverlässigen Installateur 1040 Wien benötigen, hilft unser Team sofort weiter. Unser Installateur   Wien unterstützt Sie bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitäranlagen und Rohrleitungen. Egal ob Installateur   1040 Wien, Rohrreinigung Wien, Sanitär Reparatur Wien oder Heizung Reparatur Wien – unser Installateur Service Wien sorgt für schnelle Lösungen.</p>
           <p style="margin-top:10px"><strong>📞</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
         <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">

@@ -3,8 +3,8 @@
 @section('main')
 
 @php
-$metaTitle = "Installateur Notdienst 1020 Wien – 24h Installateur Leopoldstadt";
-$metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installateur in Leopoldstadt. Hilfe bei Rohrbruch, Abfluss verstopft, Heizung oder Gastherme Problemen. Jetzt anrufen!";
+$metaTitle = "Installateur   1020 Wien – 24h Installateur Leopoldstadt";
+$metaDescription = "Installateur   1020 Wien – schneller 24h Installateur in Leopoldstadt. Hilfe bei Rohrbruch, Abfluss verstopft, Heizung oder Gastherme Problemen. Jetzt anrufen!";
 @endphp
 
 @push('meta')
@@ -86,11 +86,11 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Installateur Notdienst 1020 Wien <br>
+        Installateur   1020 Wien <br>
         <span style="color:#FB9A1B;">24h Installateur Leopoldstadt</span>
       </h1>
 
-      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1020 Wien. Unser Installateur Notdienst Wien ist rund um die Uhr erreichbar und hilft bei Sanitär-, Gas- und Heizungsproblemen.</p>
+      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1020 Wien. Unser Installateur   Wien ist rund um die Uhr erreichbar und hilft bei Sanitär-, Gas- und Heizungsproblemen.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -158,7 +158,7 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
             <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
             <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="# -services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text"> </span></a></li>
             <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
             <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
             <!-- NEU: Thermen Marken -->
@@ -176,8 +176,8 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Ihr Installateur Notdienst in 1020 Wien</h2>
-          <p>Wenn ein Rohr bricht, der Abfluss verstopft oder die Heizung plötzlich ausfällt, brauchen Sie sofort professionelle Hilfe. Unser Installateur Notdienst 1020 Wien ist jederzeit für Sie erreichbar. Als erfahrener Installateur Wien 1020 bieten wir schnelle Unterstützung für Wohnungen, Büros und Betriebe in der Leopoldstadt. Unser Notdienst Installateur 1020 Wien hilft bei dringenden Problemen im Bereich Gas Wasser Heizung Wien, Sanitärtechnik und moderner Haustechnik Wien. Ob Wasserrohrbruch Wien, defekte Leitungen oder ein akuter Installateur Notfall Wien – unser Team reagiert schnell und zuverlässig. Als lokaler Installateur Leopoldstadt kennen wir die Besonderheiten der Gebäude im zweiten Bezirk und bieten effiziente Lösungen. Wenn Sie einen Installateur Notdienst Nähe oder einen Installateur Nähe 1020 Wien suchen, ist unser Installateur Notdienst Wien schnell bei Ihnen vor Ort.</p>
+          <h2>Ihr Installateur   in 1020 Wien</h2>
+          <p>Wenn ein Rohr bricht, der Abfluss verstopft oder die Heizung plötzlich ausfällt, brauchen Sie sofort professionelle Hilfe. Unser Installateur   1020 Wien ist jederzeit für Sie erreichbar. Als erfahrener Installateur Wien 1020 bieten wir schnelle Unterstützung für Wohnungen, Büros und Betriebe in der Leopoldstadt. Unser   Installateur 1020 Wien hilft bei dringenden Problemen im Bereich Gas Wasser Heizung Wien, Sanitärtechnik und moderner Haustechnik Wien. Ob Wasserrohrbruch Wien, defekte Leitungen oder ein akuter Installateur Notfall Wien – unser Team reagiert schnell und zuverlässig. Als lokaler Installateur Leopoldstadt kennen wir die Besonderheiten der Gebäude im zweiten Bezirk und bieten effiziente Lösungen. Wenn Sie einen Installateur   Nähe oder einen Installateur Nähe 1020 Wien suchen, ist unser Installateur   Wien schnell bei Ihnen vor Ort.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1020 Wien" loading="lazy" decoding="async">
@@ -186,7 +186,7 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div>
-          <h3>Rohrbruch und Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann große Schäden verursachen. Unser Rohrbruch Notdienst Wien reagiert sofort und bietet professionelle Hilfe bei Wasserschaden Wien durch erfahrene Wasserinstallateur Wien Experten.</p>
+          <h3>Rohrbruch und Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann große Schäden verursachen. Unser Rohrbruch   Wien reagiert sofort und bietet professionelle Hilfe bei Wasserschaden Wien durch erfahrene Wasserinstallateur Wien Experten.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚡</div><div>
           <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss verstopft Wien oder das WC verstopft Wien ist, hilft unser Rohrreinigung Wien Service schnell und zuverlässig im gesamten Bezirk 1020.</p>
@@ -195,7 +195,7 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
           <h3>Professioneller Installateur für Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen für Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kümmern wir uns um Gasleitungen, Thermen und Heizsysteme. Gleichzeitig übernimmt unser Sanitär Installateur Wien Arbeiten an Wasserleitungen, Badezimmern und Sanitäranlagen. Moderne Heizungstechnik Wien und professionelle Sanitärtechnik Wien gehören zu unseren täglichen Aufgaben. Unser Installateur 1020 Wien übernimmt Reparaturen, Wartung und neue Installationen Wien für Wohnungen und Gebäude im zweiten Bezirk. Als zuverlässige Installateur Firma Wien bieten wir Lösungen für moderne Haustechnik Wien sowie langfristige Wartungssysteme.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">📍</div><div>
-          <h3>Ihr Installateur in der Leopoldstadt</h3><p>Wenn Sie einen zuverlässigen Installateur 1020 Wien benötigen, ist schnelle Hilfe besonders wichtig. Unser Installateur Notdienst Wien ist täglich im zweiten Bezirk unterwegs und hilft Bewohnern der Leopoldstadt bei allen Problemen rund um Sanitär, Gas und Heizung. Als lokaler Installateur Wien 1020 kennen wir die Gebäude, Leitungen und technischen Systeme in diesem Bezirk sehr gut. Unser Notdienst Installateur 1020 Wien hilft sowohl bei kleinen Reparaturen als auch bei größeren Installationsarbeiten. Als erfahrener Installateur Leopoldstadt bieten wir schnelle Lösungen für Wohnungen, Unternehmen und Hausverwaltungen. Wenn Sie einen Installateur Notdienst Leopoldstadt oder einen Installateur Umgebung 1020 Wien suchen, steht unser Team jederzeit bereit. Unser Installateur Notdienst 1020 Wien sorgt dafür, dass Probleme schnell und professionell gelöst werden.</p>
+          <h3>Ihr Installateur in der Leopoldstadt</h3><p>Wenn Sie einen zuverlässigen Installateur 1020 Wien benötigen, ist schnelle Hilfe besonders wichtig. Unser Installateur   Wien ist täglich im zweiten Bezirk unterwegs und hilft Bewohnern der Leopoldstadt bei allen Problemen rund um Sanitär, Gas und Heizung. Als lokaler Installateur Wien 1020 kennen wir die Gebäude, Leitungen und technischen Systeme in diesem Bezirk sehr gut. Unser   Installateur 1020 Wien hilft sowohl bei kleinen Reparaturen als auch bei größeren Installationsarbeiten. Als erfahrener Installateur Leopoldstadt bieten wir schnelle Lösungen für Wohnungen, Unternehmen und Hausverwaltungen. Wenn Sie einen Installateur   Leopoldstadt oder einen Installateur Umgebung 1020 Wien suchen, steht unser Team jederzeit bereit. Unser Installateur   1020 Wien sorgt dafür, dass Probleme schnell und professionell gelöst werden.</p>
         </div></article>
       </div>
     </div>
@@ -207,7 +207,7 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Unser erfahrenes Team für 1020 Wien</h2>
-          <p>Unser Installateur Fachbetrieb Wien steht für Qualität, Erfahrung und schnelle Hilfe. Unser Installateur Notdienst Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lösen. Unser Installateur Team Wien verfügt über umfangreiche Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfälle Wien ist schnelle Reaktion entscheidend. Deshalb ist unser Notdienst 24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrüchen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlässige und langfristige Lösungen zu bieten.</p>
+          <p>Unser Installateur Fachbetrieb Wien steht für Qualität, Erfahrung und schnelle Hilfe. Unser Installateur   Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lösen. Unser Installateur Team Wien verfügt über umfangreiche Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfälle Wien ist schnelle Reaktion entscheidend. Deshalb ist unser   24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrüchen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlässige und langfristige Lösungen zu bieten.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -224,7 +224,7 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1020</h2><p>Unser Installateur Notdienst Wien bietet ein umfangreiches Leistungsspektrum für Haushalte, Unternehmen und Gebäude in der Leopoldstadt. Als erfahrene Installateur Firma Wien kümmern wir uns um moderne Installationen Wien, Reparaturen und Wartung im Bereich Gas Wasser Heizung Wien. Unser Sanitär Installateur Wien übernimmt Reparaturen an Wasserleitungen, Armaturen und Badezimmeranlagen. Zusätzlich kümmern sich unsere Experten um moderne Sanitärtechnik Wien, effiziente Heizungstechnik Wien sowie professionelle Lösungen im Bereich Haustechnik Wien. Unser Installateur Service Wien unterstützt Kunden bei kleinen Reparaturen ebenso wie bei größeren Projekten. Durch unser erfahrenes Installateur Team Wien bieten wir zuverlässigen Leopoldstadt Installateur Service für Privatkunden, Gewerbe und Hausverwaltungen.</p></div>
+      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1020</h2><p>Unser Installateur   Wien bietet ein umfangreiches Leistungsspektrum für Haushalte, Unternehmen und Gebäude in der Leopoldstadt. Als erfahrene Installateur Firma Wien kümmern wir uns um moderne Installationen Wien, Reparaturen und Wartung im Bereich Gas Wasser Heizung Wien. Unser Sanitär Installateur Wien übernimmt Reparaturen an Wasserleitungen, Armaturen und Badezimmeranlagen. Zusätzlich kümmern sich unsere Experten um moderne Sanitärtechnik Wien, effiziente Heizungstechnik Wien sowie professionelle Lösungen im Bereich Haustechnik Wien. Unser Installateur Service Wien unterstützt Kunden bei kleinen Reparaturen ebenso wie bei größeren Projekten. Durch unser erfahrenes Installateur Team Wien bieten wir zuverlässigen Leopoldstadt Installateur Service für Privatkunden, Gewerbe und Hausverwaltungen.</p></div>
       <div class="service-grid service-grid--2">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧽</div><div><h3>Rohrreinigung Wien</h3><p>Rohrreinigung Wien bei verstopften Leitungen oder Abfluss verstopft Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧪</div><div><h3>Wasserrohrbruch Wien</h3><p>Soforthilfe bei Wasserrohrbruch Wien.</p></div></article>
@@ -275,19 +275,19 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
     </div>
   </section>
 
-  <!-- Notdienst -->
-  <section class="service-section service-section--dark" id="notdienst-services">
+  <!--   -->
+  <section class="service-section service-section--dark" id=" -services">
     <div class="container service-emergency">
       <div class="service-emergency__text">
-        <h2>Installateur Notdienst 24h Wien</h2>
-        <p>Ein Rohrbruch, eine defekte Therme oder ein verstopfter Abfluss kann jederzeit auftreten. Deshalb steht unser Installateur Notdienst Wien rund um die Uhr bereit. Unser Notdienst 1020 Wien hilft schnell bei dringenden Problemen im zweiten Bezirk. Als 24 Stunden Installateur Wien bieten wir schnelle Hilfe für Haushalte, Unternehmen und Gebäude in der Leopoldstadt. Unser Installateur Notdienst 1020 Wien reagiert sofort bei Installateur Notfall Wien, Rohrbrüchen oder Heizungsproblemen. Wenn Sie einen Installateur Notdienst Nähe suchen, erreichen wir Ihren Standort schnell. Unser Sanitär Notdienst Wien und unser Gas Installateur Wien kümmern sich um alle dringenden Reparaturen.</p>
+        <h2>Installateur   24h Wien</h2>
+        <p>Ein Rohrbruch, eine defekte Therme oder ein verstopfter Abfluss kann jederzeit auftreten. Deshalb steht unser Installateur   Wien rund um die Uhr bereit. Unser   1020 Wien hilft schnell bei dringenden Problemen im zweiten Bezirk. Als 24 Stunden Installateur Wien bieten wir schnelle Hilfe für Haushalte, Unternehmen und Gebäude in der Leopoldstadt. Unser Installateur   1020 Wien reagiert sofort bei Installateur Notfall Wien, Rohrbrüchen oder Heizungsproblemen. Wenn Sie einen Installateur   Nähe suchen, erreichen wir Ihren Standort schnell. Unser Sanitär   Wien und unser Gas Installateur Wien kümmern sich um alle dringenden Reparaturen.</p>
         <div class="service-emergency__actions">
-          <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
+          <a class="service-btn-dark accent" href="#kontakt-services">  kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdienst‑Einsätze</h3>
+        <h3>Typische  ‑Einsätze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
           <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
@@ -307,7 +307,7 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
         </div></div>
         <div class="card-split__text"><div class="card-box">
           <h2>Installateur Kosten Wien – transparente Preise</h2>
-          <p>Viele Kunden möchten vorab wissen, welche Installateur Kosten Wien entstehen können. Unser Installateur Notdienst Wien arbeitet mit transparenten Preisen und fairen Konditionen. Der genaue Installateur Preis Wien hängt von der Art des Problems, der benötigten Arbeitszeit und den Materialien ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie eine klare Übersicht erhalten. Bei größeren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, sodass Sie Ihre Planung sicher durchführen können. Unser Ziel ist es, professionelle Leistungen zu fairen Preisen anzubieten, damit Sie sich jederzeit auf unseren Installateur 1020 Wien verlassen können.</p>
+          <p>Viele Kunden möchten vorab wissen, welche Installateur Kosten Wien entstehen können. Unser Installateur   Wien arbeitet mit transparenten Preisen und fairen Konditionen. Der genaue Installateur Preis Wien hängt von der Art des Problems, der benötigten Arbeitszeit und den Materialien ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie eine klare Übersicht erhalten. Bei größeren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, sodass Sie Ihre Planung sicher durchführen können. Unser Ziel ist es, professionelle Leistungen zu fairen Preisen anzubieten, damit Sie sich jederzeit auf unseren Installateur 1020 Wien verlassen können.</p>
           <p>Für planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Störungen erklären wir nachvollziehbar, welche Schritte nötig sind und wie sich die Kosten zusammensetzen.</p>
         </div></div>
       </div>
@@ -422,12 +422,12 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
       <div class="service-section__head"><h2>Häufig gestellte Fragen</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
       <div class="service-faq">
         <details>
-          <summary>Was kostet ein Installateur Notdienst in Wien?</summary>
-          <p>Die Kosten hängen vom Problem und vom Aufwand ab. Unser Installateur Notdienst Wien informiert Sie transparent über mögliche Installateur Kosten Wien und den genauen Installateur Preis Wien.</p>
+          <summary>Was kostet ein Installateur   in Wien?</summary>
+          <p>Die Kosten hängen vom Problem und vom Aufwand ab. Unser Installateur   Wien informiert Sie transparent über mögliche Installateur Kosten Wien und den genauen Installateur Preis Wien.</p>
         </details>
         <details>
           <summary>Wie schnell kommt ein Installateur in 1020 Wien?</summary>
-          <p>Unser Installateur Notdienst 1020 Wien ist direkt im Bezirk tätig. In vielen Fällen erreicht unser Installateur Wien 1020 Kunden innerhalb kurzer Zeit.</p>
+          <p>Unser Installateur   1020 Wien ist direkt im Bezirk tätig. In vielen Fällen erreicht unser Installateur Wien 1020 Kunden innerhalb kurzer Zeit.</p>
         </details>
         <details>
           <summary>Bieten Sie auch Thermenwartung in Wien an?</summary>
@@ -435,11 +435,11 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
         </details>
         <details>
           <summary>Was tun bei Wasserrohrbruch in Wien?</summary>
-          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch Notdienst Wien kontaktieren. Unser Wasserinstallateur Wien kümmert sich um die Reparatur.</p>
+          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch   Wien kontaktieren. Unser Wasserinstallateur Wien kümmert sich um die Reparatur.</p>
         </details>
         <details>
           <summary>Sind Sie auch nachts erreichbar?</summary>
-          <p>Ja. Unser Notdienst 24h Wien ist rund um die Uhr erreichbar. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Einsätzen nachts oder am Wochenende.</p>
+          <p>Ja. Unser   24h Wien ist rund um die Uhr erreichbar. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Einsätzen nachts oder am Wochenende.</p>
         </details>
         <details>
           <summary>Arbeiten Sie auch in der Leopoldstadt?</summary>
@@ -455,7 +455,7 @@ $metaDescription = "Installateur Notdienst 1020 Wien – schneller 24h Installat
       <div class="service-cta__inner">
         <div>
           <h2>Installateur Kontakt Wien</h2>
-          <p>Wenn Sie einen zuverlässigen Installateur 1020 Wien benötigen, hilft unser Team sofort weiter. Unser Installateur Notdienst Wien unterstützt Sie bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitäranlagen und Rohrleitungen. Egal ob Installateur Notdienst 1020 Wien, Rohrreinigung Wien, Sanitär Reparatur Wien oder Heizung Reparatur Wien – unser Installateur Service Wien sorgt für schnelle Lösungen.</p>
+          <p>Wenn Sie einen zuverlässigen Installateur 1020 Wien benötigen, hilft unser Team sofort weiter. Unser Installateur   Wien unterstützt Sie bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitäranlagen und Rohrleitungen. Egal ob Installateur   1020 Wien, Rohrreinigung Wien, Sanitär Reparatur Wien oder Heizung Reparatur Wien – unser Installateur Service Wien sorgt für schnelle Lösungen.</p>
           <p style="margin-top:10px"><strong>📞</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
         <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">

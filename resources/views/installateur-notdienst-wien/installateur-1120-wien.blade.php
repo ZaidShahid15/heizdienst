@@ -3,8 +3,8 @@
     @section('main')
 
     @php
-    $metaTitle = "Installateur 1060 Wien | Wartung, Reparatur &  ";
-    $metaDescription = "Installateur 1060 Wien (Mariahilf) für Heizung, Warmwasser, Wartung, Reparatur und  . Schnelle Hilfe, klare Preise, saubere Ausführung.";
+    $metaTitle = "Installateur 1120 Wien | Wartung, Reparatur & Notdienst";
+    $metaDescription = "Installateur 1120 Wien (Meidling) für Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere Ausführung.";
     @endphp
 
     @push('meta')
@@ -12,7 +12,7 @@
     <meta name="description" content="{{ $metaDescription }}">
     @endpush
 
-  <style>
+ <style>
     .m-hero-badges {
     position: absolute !important;
     left: 12px;
@@ -35,13 +35,13 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Installateur 1060 Wien <br>
+        Installateur 1120 Wien <br>
         <span style="color:#FB9A1B;">Rund um die Uhr Service</span>
       </h1>
 
 
 
-      <p class="wolf-hero__sub">Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+      <p class="wolf-hero__sub">Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -109,7 +109,7 @@
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
             <li class="toc-item"><a href="#wartung-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
             <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Reparaturen</span></a></li>
-            <li class="toc-item"><a href="# -services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text"> </span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Notdienst</span></a></li>
             <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kosten</span></a></li>
             <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Region</span></a></li>
             <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">FAQ</span></a></li>
@@ -125,11 +125,11 @@
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Installateur‑Service in 1060 Wien – zuverlässig & strukturiert</h2>
-          <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Installateur‑Service in 1120 Wien – zuverlässig & strukturiert</h2>
+          <p>Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1060 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1120 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
 
@@ -144,7 +144,7 @@
           <h3>Erfahrene Fachkräfte</h3><p>Praxiswissen und strukturierte Abläufe sorgen für stabile Ergebnisse – vom ersten Kontakt bis zur Lösung.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">📍</div><div>
-          <h3>Schnell im Bezirk</h3><p>Kurze Wege in 1060 Wien helfen, Termine rasch zu koordinieren und vor Ort effizient zu handeln.</p>
+          <h3>Schnell im Bezirk</h3><p>Kurze Wege in 1120 Wien helfen, Termine rasch zu koordinieren und vor Ort effizient zu handeln.</p>
         </div></article>
       </div>
     </div>
@@ -155,8 +155,8 @@
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Unser erfahrenes Team für 1060 Wien</h2>
-          <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Unser erfahrenes Team für 1120 Wien</h2>
+          <p>Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -173,7 +173,7 @@
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Leistungen im Überblick</h2><p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p></div>
+      <div class="service-section__head"><h2>Leistungen im Überblick</h2><p>Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p></div>
       <div class="service-grid service-grid--2">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧽</div><div><h3>Wartung</h3><p>Reinigung, Prüfung, Einstellung und Funktionskontrolle – für einen sicheren, effizienten Betrieb.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧪</div><div><h3>Service & Optimierung</h3><p>Feinabstimmung, Druck-Checks und Effizienz‑Optimierung – damit Ihre Anlage stabil läuft.</p></div></article>
@@ -190,8 +190,8 @@
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Wartung in 1060 Wien – planbar & sicher</h2>
-          <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Wartung in 1120 Wien – planbar & sicher</h2>
+          <p>Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -199,7 +199,7 @@
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size7.jpeg" alt="Wartung 1060 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size7.jpeg" alt="Wartung 1120 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -211,34 +211,34 @@
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Reparaturen & Austausch – wenn es darauf ankommt</h2>
-          <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size4.jpeg" alt="Reparatur 1060 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size4.jpeg" alt="Reparatur 1120 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
   </section>
 
-  <!--   -->
-  <section class="service-section service-section--dark" id=" -services">
+  <!-- Notdienst -->
+  <section class="service-section service-section--dark" id="notdienst-services">
     <div class="container service-emergency">
       <div class="service-emergency__text">
-        <h2>  in 1060 Wien – 24/7 erreichbar</h2>
-        <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+        <h2>Notdienst in 1120 Wien – 24/7 erreichbar</h2>
+        <p>Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
         <div class="service-emergency__actions">
-          <a class="service-btn-dark accent" href="#kontakt-services">  kontaktieren</a>
+          <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische  ‑Einsätze</h3>
+        <h3>Typische Notdienst‑Einsätze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
           <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
           <li>Sicherheitsrelevante Auffälligkeiten am Gerät</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1060 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1120 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -252,7 +252,7 @@
         </div></div>
         <div class="card-split__text"><div class="card-box">
           <h2>Kosten & transparente Beratung</h2>
-          <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
           <p>Für planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Störungen erklären wir nachvollziehbar, welche Schritte nötig sind und wie sich die Kosten zusammensetzen.</p>
         </div></div>
       </div>
@@ -265,7 +265,7 @@
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
@@ -274,8 +274,7 @@
     </div>
   </section>
 
-
- <section class="service-section service-section--soft" id="thermen-services">
+    <section class="service-section service-section--soft" id="thermen-services">
   <div class="container">
     <div class="service-section__head">
       <h2>Thermenservice für alle Marken</h2>
@@ -364,13 +363,13 @@
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>FAQ – Installateur 1060 Wien</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
+      <div class="service-section__head"><h2>FAQ – Installateur 1120 Wien</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
       <div class="service-faq"><details>
           <summary>1. Wie schnell sind Sie in meinem Bezirk vor Ort?</summary>
-          <p>In der Regel erreichen wir Sie je nach Verkehrslage innerhalb kurzer Zeit. Für 1060 Wien planen wir Einsätze so, dass Anfahrt, Diagnose und erste Maßnahmen effizient ablaufen.</p>
+          <p>In der Regel erreichen wir Sie je nach Verkehrslage innerhalb kurzer Zeit. Für 1120 Wien planen wir Einsätze so, dass Anfahrt, Diagnose und erste Maßnahmen effizient ablaufen.</p>
         </details>
         <details>
-          <summary>2. Bieten Sie Installateur‑  in 1060 Wien an?</summary>
+          <summary>2. Bieten Sie Installateur‑Notdienst in 1120 Wien an?</summary>
           <p>Ja. Bei Ausfällen von Heizung, Warmwasser oder sicherheitsrelevanten Auffälligkeiten helfen wir auch außerhalb der üblichen Zeiten.</p>
         </details>
         <details>
@@ -415,7 +414,7 @@
       <div class="service-cta__inner">
         <div>
           <h2>Jetzt Termin vereinbaren</h2>
-          <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1120 Wien (Meidling) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1120 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
           <p style="margin-top:10px"><strong>📞</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
         <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
@@ -432,10 +431,11 @@
   </section>
 
   <!-- Bezirke (bottom links) -->
-    @include('layout.location')
+   @include('layout.location')
 
 
 </main>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
