@@ -1,11 +1,3 @@
-Ocean.html
-
-
-
-
-
-
-
 @extends('layout.app')
 
 @section('main')
@@ -429,7 +421,7 @@ Ocean.html
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-    
+
     overflow:auto;
   }
   .toc-list{
@@ -493,7 +485,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">

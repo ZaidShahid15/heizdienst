@@ -1,11 +1,3 @@
-Ocean.html
-
-
-
-
-
-
-
 @extends('layout.app')
 
 @section('main')
@@ -429,7 +421,7 @@ Ocean.html
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-    
+
     overflow:auto;
   }
   .toc-list{
