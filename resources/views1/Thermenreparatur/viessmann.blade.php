@@ -505,8 +505,8 @@
 </style>
 
 @push('meta')
-  <title>Viessmann Thermenreparatur Wien – Notdienst &amp; Thermenwartung Wien</title>
-  <meta name="description" content="Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund um die Uhr, Viessmann Thermenwartung, Thermenservice &amp; Thermentausch in Wien, Niederösterreich und Burgenland.">
+  <title>Viessmann Thermenreparatur Wien – Notdienst & Thermenwartung Wien</title>
+  <meta name="description" content="Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund um die Uhr, Viessmann Thermenwartung, Thermenservice & Thermentausch in Wien, Niederösterreich und Burgenland.">
 @endpush
 
 <main>
@@ -689,7 +689,7 @@
             <li>Fehlermeldung / Ausfall</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die Uhr verfügbar – Wien, Niederösterreich &amp; Burgenland.
+            Rund um die Uhr verfügbar – Wien, Niederösterreich & Burgenland.
           </p>
         </div>
       </div>
@@ -780,8 +780,8 @@
 
             <ul class="service-checklist">
               <li>Analyse Ihrer Heizungsanlage</li>
-              <li>Beratung &amp; transparente Kosten</li>
-              <li>Installation &amp; Inbetriebnahme</li>
+              <li>Beratung & transparente Kosten</li>
+              <li>Installation & Inbetriebnahme</li>
               <li>Effiziente, moderne Systeme</li>
             </ul>
           </div>
@@ -818,7 +818,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧠</div>
           <div>
-            <h3>Fachwissen &amp; Schulungen</h3>
+            <h3>Fachwissen & Schulungen</h3>
             <p>Durch regelmäßige Schulungen bleiben unsere Mitarbeiter technisch am neuesten Stand der Marken und Systeme.</p>
           </div>
         </article>

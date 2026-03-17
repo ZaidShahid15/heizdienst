@@ -514,8 +514,8 @@
 </style>
 
 @push('meta')
-  <title>Viessmann Installateur Wien | Service, Wartung &amp; Installation</title>
-  <meta name="description" content="Erfahrener Viessmann Installateur Wien für Installation, Thermenwartung, Wärmepumpe &amp; Service. Persönliche Beratung, faire Kosten. Jetzt anfragen.">
+  <title>Viessmann Installateur Wien | Service, Wartung & Installation</title>
+  <meta name="description" content="Erfahrener Viessmann Installateur Wien für Installation, Thermenwartung, Wärmepumpe & Service. Persönliche Beratung, faire Kosten. Jetzt anfragen.">
 @endpush
 
 <main>
@@ -588,9 +588,9 @@
             <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Partner in Wien</span></a></li>
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Leistungen</span></a></li>
             <li class="toc-item"><a href="#waermepumpe-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Wärmepumpe</span></a></li>
-            <li class="toc-item"><a href="#angebot-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Beratung &amp; Kosten</span></a></li>
+            <li class="toc-item"><a href="#angebot-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Beratung & Kosten</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Wien &amp; Umgebung</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Wien & Umgebung</span></a></li>
             <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Kesseltausch</span></a></li>
             <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
             <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
@@ -697,8 +697,8 @@
             </p>
             <ul class="service-checklist">
               <li>Luft-, Wasser- und Hybridlösungen</li>
-              <li>Planung nach Gebäude &amp; Bedarf</li>
-              <li>Effizienter Betrieb &amp; Heizleistung</li>
+              <li>Planung nach Gebäude & Bedarf</li>
+              <li>Effizienter Betrieb & Heizleistung</li>
               <li>Nachhaltige Wärme mit Viessmann</li>
             </ul>
           </div>
@@ -772,10 +772,10 @@
             </p>
 
             <ul class="service-checklist">
-              <li>Anfrage &amp; Anliegen aufnehmen</li>
-              <li>Planung nach Bedarf &amp; Gegebenheiten</li>
-              <li>Terminvergabe &amp; Umsetzung</li>
-              <li>Betreuung durch Techniker &amp; Kundendienst</li>
+              <li>Anfrage & Anliegen aufnehmen</li>
+              <li>Planung nach Bedarf & Gegebenheiten</li>
+              <li>Terminvergabe & Umsetzung</li>
+              <li>Betreuung durch Techniker & Kundendienst</li>
             </ul>
           </div>
         </div>
@@ -845,7 +845,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧱</div>
           <div>
-            <h3>Demontage &amp; Inbetriebnahme</h3>
+            <h3>Demontage & Inbetriebnahme</h3>
             <p>Nach sorgfältiger Planung übernehmen wir Demontage, Austausch und fachgerechte Inbetriebnahme der neuen Lösung – sauber und zuverlässig.</p>
           </div>
         </article>

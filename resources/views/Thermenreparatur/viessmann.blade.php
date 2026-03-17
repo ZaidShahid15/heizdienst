@@ -515,7 +515,7 @@ $metaDescription = "Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -715,7 +715,7 @@ $metaDescription = "Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund
             <li>Fehlermeldung / Ausfall</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die Uhr verfügbar – Wien, Niederösterreich &amp; Burgenland.
+            Rund um die Uhr verfügbar – Wien, Niederösterreich & Burgenland.
           </p>
         </div>
       </div>
@@ -806,8 +806,8 @@ $metaDescription = "Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund
 
             <ul class="service-checklist">
               <li>Analyse Ihrer Heizungsanlage</li>
-              <li>Beratung &amp; transparente Kosten</li>
-              <li>Installation &amp; Inbetriebnahme</li>
+              <li>Beratung & transparente Kosten</li>
+              <li>Installation & Inbetriebnahme</li>
               <li>Effiziente, moderne Systeme</li>
             </ul>
           </div>
@@ -844,7 +844,7 @@ $metaDescription = "Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧠</div>
           <div>
-            <h3>Fachwissen &amp; Schulungen</h3>
+            <h3>Fachwissen & Schulungen</h3>
             <p>Durch regelmäßige Schulungen bleiben unsere Mitarbeiter technisch am neuesten Stand der Marken und Systeme.</p>
           </div>
         </article>

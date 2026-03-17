@@ -449,7 +449,7 @@
 
   .toc-body{
     padding:12px;
-   
+
     overflow:auto;
     transition:max-height .22s ease, padding .22s ease;
   }
@@ -514,7 +514,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -721,7 +721,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Wartung &amp; Reparatur</h3>
+            <h3>Wartung & Reparatur</h3>
             <p>Thermenwartung, Service und Reparatur für Baxi Thermen und Baxi Gastherme – sicher, effizient und zuverlässig.</p>
           </div>
         </article>
@@ -746,7 +746,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
           <div class="service-feature__icon" aria-hidden="true">🛡️</div>
           <div>
             <h3>Sichere Lösungen</h3>
-            <p>Als Fachpartner &amp; Installateur arbeiten wir strukturiert, sauber und nach Herstellervorgaben.</p>
+            <p>Als Fachpartner & Installateur arbeiten wir strukturiert, sauber und nach Herstellervorgaben.</p>
           </div>
         </article>
       </div>
@@ -793,7 +793,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Thermenwartung, Service &amp; Reparatur</h2>
+        <h2>Thermenwartung, Service & Reparatur</h2>
         <p>Von der Wartung bis zur Soforthilfe – Baxi Thermenservice aus einer Hand, mit klaren Abläufen.</p>
       </div>
 
@@ -801,7 +801,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧽</div>
           <div>
-            <h3>Thermenwartung &amp; Prüfung</h3>
+            <h3>Thermenwartung & Prüfung</h3>
             <p>Überprüfung aller relevanten Geräte, Reinigung und Funktionskontrolle – für Sicherheit, Effizienz und Langlebigkeit.</p>
           </div>
         </article>
@@ -841,7 +841,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
           <div>
-            <h3>Fachpartner &amp; Installateur</h3>
+            <h3>Fachpartner & Installateur</h3>
             <p>Als Fachpartner liefern wir klare Lösungen – sauber, strukturiert und kundenorientiert.</p>
           </div>
         </article>
@@ -990,7 +990,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
-            <h3>Garantie &amp; geprüfte Ersatzteile</h3>
+            <h3>Garantie & geprüfte Ersatzteile</h3>
             <p>Der Einsatz geprüfter Ersatzteile erhält die Garantie und sorgt für langfristige Funktion Ihrer Heizungsanlage.</p>
           </div>
         </article>
@@ -998,7 +998,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">✅</div>
           <div>
-            <h3>Qualität &amp; Sicherheit</h3>
+            <h3>Qualität & Sicherheit</h3>
             <p>Unsere Arbeitsweise kombiniert Fachwissen, Qualität und klare Kommunikation – für Sicherheit und dauerhafte Leistung.</p>
           </div>
         </article>
@@ -1102,7 +1102,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>FAQs – Baxi Kundendienst &amp; Thermenservice</h2>
+        <h2>FAQs – Baxi Kundendienst & Thermenservice</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 

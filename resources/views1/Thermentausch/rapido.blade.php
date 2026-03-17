@@ -501,7 +501,7 @@
 
       <h1>
         Rapido Notdienst Wien<br>
-        <em>Thermenservice &amp; Gastherme 24h</em>
+        <em>Thermenservice & Gastherme 24h</em>
       </h1>
 
       <p class="wolf-hero__sub">
@@ -614,7 +614,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Thermenwartung &amp; Service</h3>
+            <h3>Thermenwartung & Service</h3>
             <p>Regelmäßige Wartung verbessert Sicherheit, senkt Verbrauch und reduziert Ausfälle im Heizbetrieb.</p>
           </div>
         </article>
@@ -622,7 +622,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Reparatur &amp; Störungsbehebung</h3>
+            <h3>Reparatur & Störungsbehebung</h3>
             <p>Schnelle Hilfe bei Fehlfunktionen, Druckproblemen oder Störungen – sauber, strukturiert und zuverlässig.</p>
           </div>
         </article>
@@ -676,7 +676,7 @@
             <li>Sicherheitsrelevante Auffälligkeiten an Gasgeräten</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            24h erreichbar – schnelle Hilfe in Wien &amp; NÖ.
+            24h erreichbar – schnelle Hilfe in Wien & NÖ.
           </p>
         </div>
       </div>
@@ -711,7 +711,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Reparatur &amp; Thermenreparatur</h3>
+            <h3>Reparatur & Thermenreparatur</h3>
             <p>Fachgerechte Reparatur bei Ausfällen – wir setzen auf geprüfte Ersatzteile und nachhaltige Lösungen.</p>
           </div>
         </article>
@@ -719,7 +719,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Gastherme &amp; Gasgeräte</h3>
+            <h3>Gastherme & Gasgeräte</h3>
             <p>Prüfung von Gastherme, Gasgeräten und Heizsystem – inklusive Sicherheitscheck bei Bedarf.</p>
           </div>
         </article>
@@ -735,7 +735,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧯</div>
           <div>
-            <h3>Sicherheit &amp; Abgasmessung</h3>
+            <h3>Sicherheit & Abgasmessung</h3>
             <p>Reinigung, Abgasmessung und Kontrolle – für sicheren Betrieb und stabile Funktion, besonders im Winter.</p>
           </div>
         </article>
@@ -893,7 +893,7 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>FAQs – Rapido Notdienst &amp; Thermenservice Wien</h2>
+        <h2>FAQs – Rapido Notdienst & Thermenservice Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 

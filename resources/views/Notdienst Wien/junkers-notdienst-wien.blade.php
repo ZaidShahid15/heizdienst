@@ -436,7 +436,7 @@
 
   .toc-body{
     padding:12px;
-   
+
     overflow:auto;
     transition:max-height .22s ease, padding .22s ease;
   }
@@ -502,7 +502,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
 
 <main>
   <!-- HERO (keep your existing hero as-is) -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -671,7 +671,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📍</div>
           <div>
-            <h3>Wien &amp; Niederösterreich</h3>
+            <h3>Wien & Niederösterreich</h3>
             <p>Notdienst für Junkers in Wien und Niederösterreich – schnelle Unterstützung in der Umgebung.</p>
           </div>
         </article>
@@ -864,7 +864,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧩</div>
           <div>
-            <h3>Sensoren &amp; NTC</h3>
+            <h3>Sensoren & NTC</h3>
             <p>Vorlauf NTC, Brenner NTC, Warmwasser NTC, Speicher NTC, AD Speicher NTC, A7 Warmwasser NTC, E7 Brenner NTC.</p>
           </div>
         </article>
@@ -872,7 +872,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔌</div>
           <div>
-            <h3>Kontakte &amp; Bauteile</h3>
+            <h3>Kontakte & Bauteile</h3>
             <p>TA 211 E, C1 Druckdosenkontakt, C4 Druckdosenkontakt, D3 Brücke 8 9 – fachgerecht geprüft und ersetzt.</p>
           </div>
         </article>

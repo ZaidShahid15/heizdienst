@@ -516,7 +516,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
 <main>
 
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -619,7 +619,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
             <li class="toc-item">
               <a href="#heizung-services" class="toc-link">
                 <span class="toc-badge">03</span>
-                <span class="toc-text">Heizung &amp; Gas</span>
+                <span class="toc-text">Heizung & Gas</span>
               </a>
             </li>
             <li class="toc-item">
@@ -763,7 +763,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Stabile Wärme</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Effiziente Einstellungen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kosten reduzieren</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Komfort &amp; Umwelt</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Komfort & Umwelt</div></div>
             </div>
           </div>
         </div>
@@ -907,7 +907,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Montage &amp; Inbetriebnahme</h3>
+            <h3>Montage & Inbetriebnahme</h3>
             <p>Nach der Auswahl übernehmen wir Montage, Installation und die fachgerechte Inbetriebnahme für einen sicheren, effizienten Betrieb.</p>
           </div>
         </article>
@@ -978,7 +978,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
 
 </main>
 
-<!-- 
+<!--
 <script>
   (function(){
     // year
@@ -1028,6 +1028,6 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
       });
     });
   })();
-</script> 
+</script>
 -->
 @endsection

@@ -529,7 +529,7 @@
       <div class="wolf-hero__bullets" aria-label="Highlights">
         <span class="wolf-pill">Service</span>
         <span class="wolf-pill">Wartung</span>
-        <span class="wolf-pill">Reparatur &amp; Ersatzteile</span>
+        <span class="wolf-pill">Reparatur & Ersatzteile</span>
         <span class="wolf-pill">Notdienst</span>
       </div>
 

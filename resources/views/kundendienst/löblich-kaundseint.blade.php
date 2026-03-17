@@ -484,7 +484,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -587,7 +587,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
     </div>
   </div>
 </section>
-  
+
 
   <!-- Vorteile / bullets -->
   <section class="service-section service-section--soft" id="vorteile-services">
@@ -616,7 +616,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
           <article class="service-feature">
             <div class="service-feature__icon" aria-hidden="true">🧰</div>
             <div>
-              <h3>Wartung &amp; Service</h3>
+              <h3>Wartung & Service</h3>
               <p>Regelmäßige Thermenwartung senkt Ausfallrisiko, spart Kosten und verlängert die Lebensdauer Ihrer Therme.</p>
             </div>
           </article>
@@ -707,7 +707,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
             <li>Sicherheitsrelevante Auffälligkeiten an Gasgeräten</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Auch an Wochenenden &amp; Feiertagen erreichbar.
+            Auch an Wochenenden & Feiertagen erreichbar.
           </p>
         </div>
       </div>
@@ -742,7 +742,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Reparatur &amp; Thermenreparatur</h3>
+            <h3>Reparatur & Thermenreparatur</h3>
             <p>Gezielte Störungsbehebung bei Ausfällen und Funktionsproblemen – strukturiert, sauber und nachvollziehbar.</p>
           </div>
         </article>
@@ -750,7 +750,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧩</div>
           <div>
-            <h3>Ersatzteile &amp; Sicherheitsprüfung</h3>
+            <h3>Ersatzteile & Sicherheitsprüfung</h3>
             <p>Geprüfte Ersatzteile, Kontrolle sicherheitsrelevanter Bauteile und dokumentierte Behebung.</p>
           </div>
         </article>
@@ -924,7 +924,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>FAQs – Löblich Thermenwartung &amp; Notdienst Wien</h2>
+        <h2>FAQs – Löblich Thermenwartung & Notdienst Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 

@@ -515,7 +515,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
 <main>
 
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -638,7 +638,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
 
             <div class="service-stats">
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Baxi Kundendienst Wien</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien &amp; Niederösterreich</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & Niederösterreich</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schnelle Störungsbehebung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachgerechte Arbeit</div></div>
             </div>

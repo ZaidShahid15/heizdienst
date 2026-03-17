@@ -514,7 +514,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
 <main>
 
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -636,8 +636,8 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
 
             <div class="service-stats">
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kundendienst Wien</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien, NÖ &amp; Burgenland</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Reinigung &amp; Überprüfung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien, NÖ & Burgenland</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Reinigung & Überprüfung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Klare Terminvergabe</div></div>
             </div>
           </div>
@@ -710,7 +710,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
             <li>Ausfall der Heizung oder Gastherme</li>
             <li>Akute Störung / Fehlermeldung</li>
             <li>Gasgeruch oder Sicherheitsproblem</li>
-            <li>Störungsdienst &amp; Sofortmaßnahmen</li>
+            <li>Störungsdienst & Sofortmaßnahmen</li>
           </ul>
         </div>
       </div>
@@ -764,7 +764,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Reinigung &amp; Einstellung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Reinigung & Einstellung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sicherheitscheck</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Energiekosten senken</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Lebensdauer erhöhen</div></div>
@@ -822,7 +822,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧠</div>
           <div>
-            <h3>Know-how &amp; Erfahrung</h3>
+            <h3>Know-how & Erfahrung</h3>
             <p>Unser Team verfügt über umfassendes Know-how im Umgang mit Rapido Gasgeräten, Gasthermen und Heizsystemen.</p>
           </div>
         </article>

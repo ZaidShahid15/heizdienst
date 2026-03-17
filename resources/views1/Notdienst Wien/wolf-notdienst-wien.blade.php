@@ -612,7 +612,7 @@
   </div>
 </section>
 
- 
+
 
   <!-- Kundendienst -->
   <section class="service-section" id="kundendienst-services">
@@ -654,7 +654,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Reparatur &amp; Wartung</h3>
+            <h3>Reparatur & Wartung</h3>
             <p>Reparatur, Wartung, Thermenservice und Soforthilfe für Wolf Heizung, Therme und Gastherme.</p>
           </div>
         </article>
@@ -678,7 +678,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛡️</div>
           <div>
-            <h3>Sicherheit &amp; Qualität</h3>
+            <h3>Sicherheit & Qualität</h3>
             <p>Saubere Behebung, klare Kommunikation und Fokus auf Sicherheit – für einen stabilen Betrieb Ihrer Anlage.</p>
           </div>
         </article>
@@ -724,7 +724,7 @@
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Leistungen: Reparatur, Wartung &amp; Thermenservice</h2>
+        <h2>Leistungen: Reparatur, Wartung & Thermenservice</h2>
         <p>Alles aus einer Hand – vom Notdienst bis zur langfristigen Betreuung Ihrer Wolf Heizungsanlage.</p>
       </div>
 
@@ -740,7 +740,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
-            <h3>Überprüfung &amp; Diagnose</h3>
+            <h3>Überprüfung & Diagnose</h3>
             <p>Strukturierte Überprüfung, Fehleranalyse und klare Lösung – auch bei Fehlercodes und Fehlermeldungen.</p>
           </div>
         </article>
@@ -748,7 +748,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Reparatur &amp; Thermenreparatur</h3>
+            <h3>Reparatur & Thermenreparatur</h3>
             <p>Geprüfte Gasgeräte, fachgerechte Durchführung und saubere Behebung für zuverlässige Funktion.</p>
           </div>
         </article>
@@ -756,7 +756,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧼</div>
           <div>
-            <h3>Wartung &amp; Thermenwartung</h3>
+            <h3>Wartung & Thermenwartung</h3>
             <p>Reinigung, Einstellung und Funktionskontrolle – reduziert Störungen und erhöht die Lebensdauer.</p>
           </div>
         </article>
@@ -764,7 +764,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">💡</div>
           <div>
-            <h3>Effizienz &amp; Energie</h3>
+            <h3>Effizienz & Energie</h3>
             <p>Eine gut gewartete Anlage arbeitet zuverlässiger, spart Energie und sorgt für konstante Wärme.</p>
           </div>
         </article>
@@ -931,7 +931,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛡️</div>
           <div>
-            <h3>Qualität &amp; Sicherheit</h3>
+            <h3>Qualität & Sicherheit</h3>
             <p>Sorgfältige Überprüfung und fachgerechte Durchführung – Qualität, Sicherheit und saubere Behebung im Mittelpunkt.</p>
           </div>
         </article>
@@ -994,7 +994,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🏠</div>
           <div>
-            <h3>Für Wien &amp; Region</h3>
+            <h3>Für Wien & Region</h3>
             <p>Mit Kompetenz und starkem Team sorgen wir für zuverlässige Wärme in Wien, Niederösterreich und Umgebung.</p>
           </div>
         </article>

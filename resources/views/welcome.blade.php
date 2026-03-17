@@ -248,7 +248,7 @@ $allowIndex = true;
             <div class="hero-copy">
 <img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;"  alt="">
 
-                <h1>Thermenwartung &amp; Thermenservice in Wien &amp; Niederösterreich</h1>
+                <h1>Thermenwartung & Thermenservice in Wien & Niederösterreich</h1>
                 <p>
                     Professionelle Thermenwartung Wien, Thermenservice und Reparatur für jede Therme –
                     zuverlässig in Wien, Niederösterreich und der Umgebung, durch erfahrene Installateure,
@@ -258,11 +258,11 @@ $allowIndex = true;
                 <ul class="hero-bullets">
                     <li>
                         <svg><use href="#i-check"></use></svg>
-                        Thermenwartung Wien &amp; Umgebung
+                        Thermenwartung Wien & Umgebung
                     </li>
                     <li>
                         <svg><use href="#i-check"></use></svg>
-                        Alle Marken &amp; Hersteller
+                        Alle Marken & Hersteller
                     </li>
                     <li>
                         <svg><use href="#i-check"></use></svg>
@@ -270,7 +270,7 @@ $allowIndex = true;
                     </li>
                     <li>
                         <svg><use href="#i-check"></use></svg>
-                        Schnelle Hilfe, Service &amp; Notdienst
+                        Schnelle Hilfe, Service & Notdienst
                     </li>
                 </ul>
 
@@ -391,7 +391,7 @@ $allowIndex = true;
                     <div class="hero-copy position-relative">
 <img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;"  alt="">
 
-                        <h1>Thermenwartung &amp; Thermenservice in Wien &amp; Niederösterreich</h1>
+                        <h1>Thermenwartung & Thermenservice in Wien & Niederösterreich</h1>
                         <p>
                             Professionelle Thermenwartung Wien, Thermenservice und Reparatur für jede Therme –
                             zuverlässig in Wien, Niederösterreich und der Umgebung, durch erfahrene Installateure,
@@ -401,16 +401,16 @@ $allowIndex = true;
                         <ul class="hero-bullets">
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Thermenwartung Wien &amp; Umgebung</li>
+                                </svg>Thermenwartung Wien & Umgebung</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Alle Marken &amp; Hersteller</li>
+                                </svg>Alle Marken & Hersteller</li>
                             <li><svg>
                                     <use href="#i-check"></use>
                                 </svg>Transparente Preise inkl. MwSt</li>
                             <li><svg>
                                     <use href="#i-check"></use>
-                                </svg>Schnelle Hilfe, Service &amp; Notdienst</li>
+                                </svg>Schnelle Hilfe, Service & Notdienst</li>
                         </ul>
                           <a class="m-cta" href="tel:+4314420617">
         <svg><use href="#i-phone"></use></svg>
@@ -944,7 +944,7 @@ $allowIndex = true;
           <div class="step-top">
             <div class="step-num">2</div>
             <div class="step-title">
-              Kontaktaufnahme mit unserem Thermendienst – rasche Soforthilfe garantiert in Wien &amp; Niederösterreich
+              Kontaktaufnahme mit unserem Thermendienst – rasche Soforthilfe garantiert in Wien & Niederösterreich
             </div>
           </div>
           <div class="stp-img">
@@ -993,7 +993,7 @@ $allowIndex = true;
                     <div class="col-md-6 col-lg-4">
                         <div class="card h-100 shadow-sm border-0">
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Sicherheit &amp; Rechtssicherheit</h5>
+                                <h5 class="card-title fw-bold">Sicherheit & Rechtssicherheit</h5>
                                 <p class="card-text">
                                     Eine korrekt gewartete Therme erfüllt alle relevanten Pflichten laut technischer
                                     Richtlinie, MRG und Wohnrechtsnovelle. Besonders wichtig für Mieter und Vermieter,
@@ -1008,7 +1008,7 @@ $allowIndex = true;
                     <div class="col-md-6 col-lg-4">
                         <div class="card h-100 shadow-sm border-0">
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Geringere Kosten &amp; Effizienz</h5>
+                                <h5 class="card-title fw-bold">Geringere Kosten & Effizienz</h5>
                                 <p class="card-text">
                                     Durch professionelle Wartung, Reinigung und gezielte Einstellungen werden
                                     Gasverbrauch,
@@ -1039,7 +1039,7 @@ $allowIndex = true;
                     <div class="col-md-12">
                         <h2 class="text-center fw-bold">Für wen ist unser Service?</h2>
                         <p class="lead text-center">
-                            Thermenservice für Privatkunden, Immobilien &amp; Hausverwaltungen.
+                            Thermenservice für Privatkunden, Immobilien & Hausverwaltungen.
                         </p>
                     </div>
                 </div>
@@ -1063,7 +1063,7 @@ $allowIndex = true;
                     <div class="col-md-6 col-lg-4">
                         <div class="card h-100 shadow-sm border-0">
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Vermieter &amp; Hausverwaltungen</h5>
+                                <h5 class="card-title fw-bold">Vermieter & Hausverwaltungen</h5>
                                 <p class="card-text">
                                     Laufender Service für Immobilien inklusive Wartungsvertrag, klar geregeltem
                                     Leistungsumfang, ABGB-Vertrag und transparenter Preisstruktur.
@@ -1076,7 +1076,7 @@ $allowIndex = true;
                     <div class="col-md-6 col-lg-4">
                         <div class="card h-100 shadow-sm border-0">
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Gewerbe &amp; Dauerbetreuung</h5>
+                                <h5 class="card-title fw-bold">Gewerbe & Dauerbetreuung</h5>
                                 <p class="card-text">
                                     Individuell abgestimmte Wartungskonzepte für laufenden Betrieb – mit Pauschalpreis,
                                     ausgewiesener MwSt und persönlicher Beratung.
@@ -1192,7 +1192,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">3</div>
                 <h4>Mehr Sicherheit</h4>
-                <p>Prüfung aller Sicherheitsfunktionen &amp; Messwerte.</p>
+                <p>Prüfung aller Sicherheitsfunktionen & Messwerte.</p>
             </div>
             <div class="feat">
                 <div class="n">4</div>
@@ -1303,7 +1303,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">1</div>
                 <h4>Effizienz sichern</h4>
-                <p>Reinigung &amp; Einstellungen für besten Wirkungsgrad.</p>
+                <p>Reinigung & Einstellungen für besten Wirkungsgrad.</p>
             </div>
             <div class="feat">
                 <div class="n">2</div>
@@ -1328,7 +1328,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">6</div>
                 <h4>Zuverlässiger Betrieb</h4>
-                <p>Konstante Wärme &amp; Warmwasser.</p>
+                <p>Konstante Wärme & Warmwasser.</p>
             </div>
         </div> --}}
             </div>
@@ -1388,7 +1388,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">6</div>
                 <h4>Schneller Vor-Ort Service</h4>
-                <p>Rasche Hilfe in Wien &amp; NÖ.</p>
+                <p>Rasche Hilfe in Wien & NÖ.</p>
             </div>
         </div> --}}
             </div>
@@ -1448,7 +1448,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">6</div>
                 <h4>Verlässlicher Betrieb</h4>
-                <p>Konstante Wärme &amp; Warmwasser.</p>
+                <p>Konstante Wärme & Warmwasser.</p>
             </div>
         </div> --}}
             </div>
@@ -1570,7 +1570,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">6</div>
                 <h4>Schneller Service</h4>
-                <p>Termine in Wien &amp; NÖ.</p>
+                <p>Termine in Wien & NÖ.</p>
             </div>
         </div> --}}
             </div>
@@ -1614,7 +1614,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">3</div>
                 <h4>Sicherheit</h4>
-                <p>Abgas- &amp; Dichtheitsprüfung inklusive.</p>
+                <p>Abgas- & Dichtheitsprüfung inklusive.</p>
             </div>
             <div class="feat">
                 <div class="n">4</div>
@@ -1629,7 +1629,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">6</div>
                 <h4>Vor-Ort Termin</h4>
-                <p>Schnell bei Ihnen in Wien &amp; NÖ.</p>
+                <p>Schnell bei Ihnen in Wien & NÖ.</p>
             </div>
         </div> --}}
             </div>
@@ -1668,12 +1668,12 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">2</div>
                 <h4>Stabile Leistung</h4>
-                <p>Konstante Wärme &amp; Warmwasser.</p>
+                <p>Konstante Wärme & Warmwasser.</p>
             </div>
             <div class="feat">
                 <div class="n">3</div>
                 <h4>Sicherheit</h4>
-                <p>Prüfung der Abgaswerte &amp; Dichtheit.</p>
+                <p>Prüfung der Abgaswerte & Dichtheit.</p>
             </div>
             <div class="feat">
                 <div class="n">4</div>
@@ -1732,7 +1732,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">3</div>
                 <h4>Sicherheit</h4>
-                <p>Messung &amp; Kontrolle sicherheitsrelevanter Teile.</p>
+                <p>Messung & Kontrolle sicherheitsrelevanter Teile.</p>
             </div>
             <div class="feat">
                 <div class="n">4</div>
@@ -1747,7 +1747,7 @@ $allowIndex = true;
             <div class="feat">
                 <div class="n">6</div>
                 <h4>Vor-Ort Service</h4>
-                <p>Schnell verfügbar in Wien &amp; NÖ.</p>
+                <p>Schnell verfügbar in Wien & NÖ.</p>
             </div>
         </div> --}}
             </div>
@@ -1937,7 +1937,7 @@ $allowIndex = true;
     <div class="cta-wrap" id="kontakt">   <!-- ✅ this id is for header menu link -->
 
       <div class="cta-text">
-        <h2>Jetzt Thermenwartung in Wien &amp; Niederösterreich sichern</h2>
+        <h2>Jetzt Thermenwartung in Wien & Niederösterreich sichern</h2>
         <p>
           Setzen Sie auf Sicherheit, Zuverlässigkeit und einen professionellen Thermenservice – für
           jede Jahreszeit und jedes Gerät. Unsere erfahrenen Experten sind schnell vor Ort und sorgen

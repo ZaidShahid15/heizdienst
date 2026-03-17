@@ -507,7 +507,7 @@
 </style>
 
 @push('meta')
-  <title>Wolf Thermenreparatur Wien – Wolf Kundendienst &amp; Thermenwartung Wien</title>
+  <title>Wolf Thermenreparatur Wien – Wolf Kundendienst & Thermenwartung Wien</title>
   <meta name="description" content="Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendienst Wien, Thermenwartung Wien, Notdienst rund um die Uhr in Wien und Niederösterreich.">
 @endpush
 
@@ -644,10 +644,10 @@
             </p>
 
             <ul class="service-checklist">
-              <li>Fehlerdiagnose &amp; Überprüfung</li>
+              <li>Fehlerdiagnose & Überprüfung</li>
               <li>Reinigung sensibler Bauteile</li>
               <li>Austausch defekter Komponenten</li>
-              <li>Dokumentation &amp; sichere Inbetriebnahme</li>
+              <li>Dokumentation & sichere Inbetriebnahme</li>
             </ul>
           </div>
         </div>
@@ -692,7 +692,7 @@
             <li>Sicherheitsrelevantes Problem</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            24/7 verfügbar – Wien &amp; Niederösterreich.
+            24/7 verfügbar – Wien & Niederösterreich.
           </p>
         </div>
       </div>
@@ -783,8 +783,8 @@
             </p>
 
             <ul class="service-checklist">
-              <li>Beratung &amp; Geräteauswahl</li>
-              <li>Montage &amp; Inbetriebnahme</li>
+              <li>Beratung & Geräteauswahl</li>
+              <li>Montage & Inbetriebnahme</li>
               <li>Optimierung der Anlage</li>
               <li>Optionaler Wartungsvertrag</li>
             </ul>
@@ -812,7 +812,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧠</div>
           <div>
-            <h3>Kompetenz &amp; Know-how</h3>
+            <h3>Kompetenz & Know-how</h3>
             <p>Erfahrene Techniker, moderne Heiztechnik und strukturierte Arbeit – für zuverlässige Lösungen bei jedem Problem.</p>
           </div>
         </article>
@@ -896,7 +896,7 @@
     'btnAccent' => true,
 ])
 </main>
-<!-- 
+<!--
 <script>
 (function(){
 

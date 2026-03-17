@@ -540,7 +540,7 @@
       <div class="wolf-hero__logo">
         <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Thermentausch Wien" loading="lazy" decoding="async">
       </div>
-  
+
       <div class="wolf-hero__bullets" aria-label="Highlights">
         <span class="wolf-pill">Brennwerttherme</span>
         <span class="wolf-pill">inkl. Montage</span>
@@ -604,7 +604,7 @@
     </div>
   </section>
 
- 
+
 
   <!-- Wann sinnvoll -->
   <section class="service-section" id="wann-services">
@@ -694,10 +694,10 @@
               Nach der Inbetriebnahme prüft der Installateur alle Funktionen, stellt Raumthermostat und Raumtemperaturregelung ein und erklärt den Betrieb verständlich.
             </p>
             <ul class="service-checklist">
-              <li>Besichtigung &amp; Vorbefund</li>
-              <li>Installationsanzeige &amp; Abstimmung mit Rauchfangkehrer</li>
+              <li>Besichtigung & Vorbefund</li>
+              <li>Installationsanzeige & Abstimmung mit Rauchfangkehrer</li>
               <li>Montage, Anschlüsse und Austausch</li>
-              <li>Inbetriebnahme &amp; Funktionsprüfung</li>
+              <li>Inbetriebnahme & Funktionsprüfung</li>
             </ul>
           </div>
         </div>
@@ -898,7 +898,7 @@
     'btnAccent' => true,
 ])
 </main>
-<!-- 
+<!--
 <script>
   (function(){
     // Smooth scroll

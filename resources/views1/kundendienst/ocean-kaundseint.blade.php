@@ -423,7 +423,7 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-   
+
     overflow:auto;
   }
   .toc-list{
@@ -488,7 +488,7 @@
 
       <h1>
         Ocean Thermenservice Wien<br>
-        <em>Notdienst &amp; Wartung 24h</em>
+        <em>Notdienst & Wartung 24h</em>
       </h1>
 
       <p class="wolf-hero__sub">
@@ -593,7 +593,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Thermenwartung &amp; Service</h3>
+            <h3>Thermenwartung & Service</h3>
             <p>Regelmäßige Wartung erhöht Sicherheit, senkt Verbrauch und reduziert Störungen im laufenden Betrieb.</p>
           </div>
         </article>
@@ -601,7 +601,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Reparatur &amp; Fehlerbehebung</h3>
+            <h3>Reparatur & Fehlerbehebung</h3>
             <p>Schnelle Hilfe bei Fehlermeldungen, Ausfällen oder wiederkehrenden Ocean Störungen – effizient und dokumentiert.</p>
           </div>
         </article>
@@ -682,7 +682,7 @@
             <li>Sicherheitsrelevante Auffälligkeiten an Gastherme und Heizkörper</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            24h erreichbar – schnelle Hilfe in Wien &amp; Umgebung.
+            24h erreichbar – schnelle Hilfe in Wien & Umgebung.
           </p>
         </div>
       </div>
@@ -717,7 +717,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Reparatur &amp; Ocean Thermenreparatur</h3>
+            <h3>Reparatur & Ocean Thermenreparatur</h3>
             <p>Effiziente Fehlerbehebung, dokumentiert und nachhaltig – um Folgeschäden zu vermeiden.</p>
           </div>
         </article>
@@ -725,7 +725,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Ocean Gasgeräte &amp; Gastherme</h3>
+            <h3>Ocean Gasgeräte & Gastherme</h3>
             <p>Professioneller Gasgeräte-Kundendienst für Ocean Gasgeräte – sicher, sauber und nachvollziehbar.</p>
           </div>
         </article>
@@ -733,7 +733,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Installation &amp; Thermentausch</h3>
+            <h3>Installation & Thermentausch</h3>
             <p>Beratung, Installation und Inbetriebnahme – inklusive Ocean Thermentausch bei Bedarf.</p>
           </div>
         </article>
@@ -741,7 +741,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">✅</div>
           <div>
-            <h3>Sicherheit &amp; Effizienz</h3>
+            <h3>Sicherheit & Effizienz</h3>
             <p>Prüfung von Gasgeräten, Abgasführung und Anlage – für effizienten Betrieb und mehr Wohlbefinden.</p>
           </div>
         </article>
@@ -898,7 +898,7 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>FAQs – Ocean Thermenservice &amp; Notdienst Wien</h2>
+        <h2>FAQs – Ocean Thermenservice & Notdienst Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 

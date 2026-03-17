@@ -91,7 +91,7 @@ $metaDescription = "Datenschutzerklärung von Heizdienst Wien. Informationen zur
 
             <hr class="my-4">
 
-            <h4 class="mb-3">6. Vermittlung von Leistungen &amp; Weitergabe an Partnerunternehmen</h4>
+            <h4 class="mb-3">6. Vermittlung von Leistungen & Weitergabe an Partnerunternehmen</h4>
             <p>
                 Sofern Anfragen Leistungen betreffen, die nicht unmittelbar durch [Name des Unternehmens] selbst erbracht werden,
                 sondern durch selbstständige, befugte Partnerunternehmen, werden die für die Bearbeitung erforderlichen personenbezogenen

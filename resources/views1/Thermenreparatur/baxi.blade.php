@@ -504,7 +504,7 @@
 </style>
 
 @push('meta')
-  <title>Baxi Thermenreparatur Wien – Notdienst &amp; Baxi Thermenwartung Wien</title>
+  <title>Baxi Thermenreparatur Wien – Notdienst & Baxi Thermenwartung Wien</title>
   <meta name="description" content="Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendienst Wien, Thermenwartung Wien, Thermentausch & Notdienst rund um die Uhr in Wien und Niederösterreich.">
 @endpush
 
@@ -610,7 +610,7 @@
 
             <div class="service-stats">
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Baxi Kundendienst Wien</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien &amp; Niederösterreich</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien & Niederösterreich</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schnelle Störungsbehebung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachgerechte Arbeit</div></div>
             </div>

@@ -500,7 +500,7 @@
 </style>
 
 @push('meta')
-  <title>Buderus Thermenreparatur Wien – Buderus Thermenwartung Wien &amp; Notdienst</title>
+  <title>Buderus Thermenreparatur Wien – Buderus Thermenwartung Wien & Notdienst</title>
   <meta name="description" content="Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Thermenwartung Wien, Buderus Kundendienst Wien, Thermentausch & Notdienst rund um die Uhr in Wien und Niederösterreich.">
 @endpush
 
@@ -603,7 +603,7 @@
 
             <div class="service-stats">
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Buderus Kundendienst Wien</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien, NÖ &amp; Burgenland</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien, NÖ & Burgenland</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schnelle Störungsbehebung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Thermenservice vom Profi</div></div>
             </div>
@@ -734,7 +734,7 @@
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wartung &amp; Reinigung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wartung & Reinigung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sicherheitsprüfung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Lebensdauer erhöhen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Effizienter Betrieb</div></div>
@@ -816,7 +816,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🤝</div>
           <div>
-            <h3>Wien, NÖ &amp; Burgenland</h3>
+            <h3>Wien, NÖ & Burgenland</h3>
             <p>Wir betreuen Wien und Niederösterreich sowie Umgebung und Burgenland – mit persönlichem Ansprechpartner und langfristiger Betreuung.</p>
           </div>
         </article>

@@ -536,7 +536,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -626,10 +626,10 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
           <ul class="toc-list">
             <li class="toc-item"><a href="#fachpartner-services"><span class="toc-badge">01</span><span class="toc-text">Fachpartner</span></a></li>
             <li class="toc-item"><a href="#leistungen-services"><span class="toc-badge">02</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#technik-services"><span class="toc-badge">03</span><span class="toc-text">Heizung &amp; Gas</span></a></li>
+            <li class="toc-item"><a href="#technik-services"><span class="toc-badge">03</span><span class="toc-text">Heizung & Gas</span></a></li>
             <li class="toc-item"><a href="#preise-services"><span class="toc-badge">04</span><span class="toc-text">Preise</span></a></li>
             <li class="toc-item"><a href="#ablauf-services"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#region-services"><span class="toc-badge">06</span><span class="toc-text">Wien &amp; Umgebung</span></a></li>
+            <li class="toc-item"><a href="#region-services"><span class="toc-badge">06</span><span class="toc-text">Wien & Umgebung</span></a></li>
             <li class="toc-item"><a href="#tausch-services"><span class="toc-badge">07</span><span class="toc-text">Thermentausch</span></a></li>
             <li class="toc-item"><a href="#faq-services"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
             <li class="toc-item"><a href="#kontakt-services"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
@@ -731,10 +731,10 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
               Sicherheit, Qualität und zuverlässige Funktion stehen dabei im Fokus unseres Service in Wien.
             </p>
             <ul class="service-checklist">
-              <li>Überprüfung &amp; Sicherheitscheck</li>
-              <li>Effizienzsteigerung &amp; Gasverbrauch senken</li>
+              <li>Überprüfung & Sicherheitscheck</li>
+              <li>Effizienzsteigerung & Gasverbrauch senken</li>
               <li>Wartung nach Herstellervorgaben</li>
-              <li>Gezielte Fehlerdiagnose &amp; Reparatur</li>
+              <li>Gezielte Fehlerdiagnose & Reparatur</li>
             </ul>
           </div>
         </div>
@@ -802,9 +802,9 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
               Ziel ist ein sicherer Betrieb, minimale Ausfallzeiten und volle Zufriedenheit unserer Kunden.
             </p>
             <ul class="service-checklist">
-              <li>Anfrage &amp; Terminvergabe</li>
-              <li>Analyse &amp; Überprüfung vor Ort</li>
-              <li>Transparente Beratung zu Lösung &amp; Preis</li>
+              <li>Anfrage & Terminvergabe</li>
+              <li>Analyse & Überprüfung vor Ort</li>
+              <li>Transparente Beratung zu Lösung & Preis</li>
               <li>Installation / Wartung / Reparatur</li>
             </ul>
           </div>
@@ -870,7 +870,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧱</div>
           <div>
-            <h3>Montage &amp; fachgerechter Austausch</h3>
+            <h3>Montage & fachgerechter Austausch</h3>
             <p>Nach Auswahl der optimalen Lösung übernehmen wir Montage, Installation und den fachgerechten Austausch der alten Anlage – sauber, sicher und effizient.</p>
           </div>
         </article>
@@ -878,7 +878,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛡️</div>
           <div>
-            <h3>Sicherheit &amp; Lebensdauer</h3>
+            <h3>Sicherheit & Lebensdauer</h3>
             <p>Wir achten auf Sicherheit, saubere Umsetzung und eine lange Lebensdauer der neuen Heizanlage – für zuverlässigen Betrieb und stabile Leistung.</p>
           </div>
         </article>

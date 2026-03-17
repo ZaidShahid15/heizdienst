@@ -475,8 +475,8 @@
 </style>
 
 @push('meta')
-  <title>Rapido Thermentausch Wien | Gastherme inkl. Montage &amp; Service</title>
-  <meta name="description" content="Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme ✔ Thermenwartung, Reparatur &amp; Notdienst ✔ Transparente Preise &amp; schneller Service">
+  <title>Rapido Thermentausch Wien | Gastherme inkl. Montage & Service</title>
+  <meta name="description" content="Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme ✔ Thermenwartung, Reparatur & Notdienst ✔ Transparente Preise & schneller Service">
 @endpush
 
 <main>
@@ -487,7 +487,7 @@
 
       <h1>
         Rapido Thermentausch Wien<br>
-        <em>Montage &amp; Service</em>
+        <em>Montage & Service</em>
       </h1>
 
       <p class="wolf-hero__sub">
@@ -673,8 +673,8 @@
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Überprüfung &amp; Planung</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Montage &amp; Tausch</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Überprüfung & Planung</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Montage & Tausch</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Inbetriebnahme</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Übergabe</div></div>
             </div>
@@ -714,12 +714,12 @@
           <h3>Wichtige Punkte</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Installation durch erfahrene Techniker</li>
-            <li>Saubere Montage an Anschlüssen &amp; Heizsystem</li>
-            <li>Kontrolle von Betrieb, Abgas &amp; Sicherheit</li>
-            <li>Hinweise zur Wartung &amp; Reinigung</li>
+            <li>Saubere Montage an Anschlüssen & Heizsystem</li>
+            <li>Kontrolle von Betrieb, Abgas & Sicherheit</li>
+            <li>Hinweise zur Wartung & Reinigung</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Sicherheit &amp; Zuverlässigkeit – in jeder Jahreszeit.
+            Sicherheit & Zuverlässigkeit – in jeder Jahreszeit.
           </p>
         </div>
       </div>
@@ -805,10 +805,10 @@
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrung &amp; Know-how</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrung & Know-how</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Entsorgung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hohe Zuverlässigkeit</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Service &amp; Notdienst</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Service & Notdienst</div></div>
             </div>
           </div>
         </div>

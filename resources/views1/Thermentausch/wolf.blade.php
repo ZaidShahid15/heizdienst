@@ -580,7 +580,7 @@
           <li class="toc-item">
             <a href="#montage-services" class="toc-link">
               <span class="toc-badge">04</span>
-              <span class="toc-text">Montage &amp; Sicherheit</span>
+              <span class="toc-text">Montage & Sicherheit</span>
             </a>
           </li>
 
@@ -923,7 +923,7 @@
 ])
 
 </main>
-<!-- 
+<!--
 <script>
   (function(){
     // year

@@ -483,11 +483,11 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -749,7 +749,7 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
             <li>Dokumentierte Übergabe und Hinweise</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Sicherheit &amp; Komfort – aus einer Hand.
+            Sicherheit & Komfort – aus einer Hand.
           </p>
         </div>
       </div>
@@ -835,10 +835,10 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrung &amp; Expertenwissen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrung & Expertenwissen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Entsorgung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hohe Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Service &amp; Notdienst</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Service & Notdienst</div></div>
             </div>
           </div>
         </div>

@@ -487,7 +487,7 @@
 
       <h1>
         Ocean Installateur Wien<br>
-        <em>Thermenwartung &amp; Notdienst</em>
+        <em>Thermenwartung & Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">

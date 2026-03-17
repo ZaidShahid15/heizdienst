@@ -487,7 +487,7 @@
 
       <h1>
         Ocean Thermentausch Wien<br>
-        <em>Service &amp; Notdienst</em>
+        <em>Service & Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">
@@ -719,7 +719,7 @@
             <li>Dokumentierte Übergabe und Hinweise</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Sicherheit &amp; Komfort – aus einer Hand.
+            Sicherheit & Komfort – aus einer Hand.
           </p>
         </div>
       </div>
@@ -805,10 +805,10 @@
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrung &amp; Expertenwissen</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Erfahrung & Expertenwissen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Sichere Entsorgung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Hohe Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Service &amp; Notdienst</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Service & Notdienst</div></div>
             </div>
           </div>
         </div>

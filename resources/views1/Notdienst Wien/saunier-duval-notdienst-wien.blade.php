@@ -532,7 +532,7 @@
 
       <h1>
         Saunier Duval Thermenwartung Wien<br>
-        <em>Kundendienst &amp; Service</em>
+        <em>Kundendienst & Service</em>
       </h1>
 
       <p class="wolf-hero__sub">
@@ -645,7 +645,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Thermenwartung &amp; Service</h3>
+            <h3>Thermenwartung & Service</h3>
             <p>Regelmäßige Wartung und Thermenservice Wien für effiziente Funktion, lange Lebensdauer und weniger Störungen.</p>
           </div>
         </article>
@@ -653,7 +653,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
           <div>
-            <h3>Fachpartner &amp; Know-how</h3>
+            <h3>Fachpartner & Know-how</h3>
             <p>Installateur, Fachpartner und erfahrenes Team mit Know-how, Fachwissen und Praxis für Saunier Duval Systeme.</p>
           </div>
         </article>
@@ -734,7 +734,7 @@
           <div class="service-feature__icon" aria-hidden="true">♨️</div>
           <div>
             <h3>Thermenservice Wien</h3>
-            <p>Thermenservice Wien &amp; Duval Thermenservice für mehr Effizienz, weniger Energieverbrauch und mehr Wohnkomfort zuhause.</p>
+            <p>Thermenservice Wien & Duval Thermenservice für mehr Effizienz, weniger Energieverbrauch und mehr Wohnkomfort zuhause.</p>
           </div>
         </article>
 
@@ -757,7 +757,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
-            <h3>Installation &amp; Inbetriebnahme</h3>
+            <h3>Installation & Inbetriebnahme</h3>
             <p>Installation, Inbetriebnahme und Feinjustierung – abgestimmt auf Bedarf, Gegebenheiten und aktuelle Standards.</p>
           </div>
         </article>
@@ -765,7 +765,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
-            <h3>Angebot &amp; Garantie</h3>
+            <h3>Angebot & Garantie</h3>
             <p>Bei Bedarf erstellen wir ein transparentes Angebot und klären Garantie-Fragen offen und verständlich.</p>
           </div>
         </article>
@@ -836,7 +836,7 @@
   <section class="service-section service-section--soft" id="preise-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Kosten &amp; Preise</h2>
+        <h2>Kosten & Preise</h2>
         <p>Transparente Preise, klare Leistungen – wir beraten Sie vorab und nennen Ihnen die passenden Kosten für Wartung oder Reparatur.</p>
       </div>
 

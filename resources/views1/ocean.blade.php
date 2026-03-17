@@ -372,7 +372,7 @@
   <!-- HERO (same style as previous “wolf-hero”, same Ocean content) -->
 <section class="wolf-hero" id="hero-services">
   <div class="wolf-hero__inner">
-    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
+    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
 
     <h1>
       Ocean Thermenwartung Wien<br>
@@ -388,8 +388,8 @@
     </div>
 
     <div class="wolf-hero__bullets" aria-label="Highlights">
-      <span class="wolf-pill">Wartung &amp; Service</span>
-      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+      <span class="wolf-pill">Wartung & Service</span>
+      <span class="wolf-pill">Reparatur & Notdienst</span>
       <span class="wolf-pill">Transparente Leistungen</span>
       <span class="wolf-pill">Geprüfter Fachbetrieb</span>
     </div>
@@ -399,7 +399,7 @@
       <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
     </div>
 
-    
+
      <section class="promo-banner" id="wolf-aktion">
                     <div class="promo-banner__inner">
                         <div class="promo-banner__content">

@@ -506,8 +506,8 @@
 </style> -->
 
 @push('meta')
-  <title>Wolf Installateur Wien | Thermenservice, Wartung &amp; Notdienst</title>
-  <meta name="description" content="Erfahrener Wolf Installateur Wien für Wolf Thermenservice, Thermenwartung, Reparatur &amp; Notdienst. Wien, NÖ &amp; Burgenland. Jetzt Termin sichern.">
+  <title>Wolf Installateur Wien | Thermenservice, Wartung & Notdienst</title>
+  <meta name="description" content="Erfahrener Wolf Installateur Wien für Wolf Thermenservice, Thermenwartung, Reparatur & Notdienst. Wien, NÖ & Burgenland. Jetzt Termin sichern.">
 @endpush
 
 <main>
@@ -519,7 +519,7 @@
 
       <h1>
         Wolf Installateur Wien<br>
-        <em>Thermenservice, Wartung &amp; Notdienst</em>
+        <em>Thermenservice, Wartung & Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">
@@ -545,7 +545,7 @@
       <section class="promo-banner" id="wolf-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Wolf Service &amp; Notdienst</em></h2>
+            <h2 class="promo-banner__title"><em>Wolf Service & Notdienst</em></h2>
             <p class="promo-banner__price"><strong>Wien • NÖ • Burgenland</strong></p>
 
             <a class="promo-banner__btn" href="#kontakt-services" aria-label="Termin">
@@ -592,7 +592,7 @@
             <li class="toc-item">
               <a href="#heizung-services" class="toc-link">
                 <span class="toc-badge">03</span>
-                <span class="toc-text">Heizung &amp; Gas</span>
+                <span class="toc-text">Heizung & Gas</span>
               </a>
             </li>
             <li class="toc-item">
@@ -736,7 +736,7 @@
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Stabile Wärme</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Effiziente Einstellungen</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Kosten reduzieren</div></div>
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Komfort &amp; Umwelt</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Komfort & Umwelt</div></div>
             </div>
           </div>
         </div>
@@ -880,7 +880,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Montage &amp; Inbetriebnahme</h3>
+            <h3>Montage & Inbetriebnahme</h3>
             <p>Nach der Auswahl übernehmen wir Montage, Installation und die fachgerechte Inbetriebnahme für einen sicheren, effizienten Betrieb.</p>
           </div>
         </article>
@@ -951,7 +951,7 @@
 
 </main>
 
-<!-- 
+<!--
 <script>
   (function(){
     // year
@@ -1001,6 +1001,6 @@
       });
     });
   })();
-</script> 
+</script>
 -->
 @endsection

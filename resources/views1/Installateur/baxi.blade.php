@@ -442,8 +442,8 @@
 </style>
 
 @push('meta')
-  <title>Baxi Installateur Wien | Wartung, Reparatur &amp; Notdienst</title>
-  <meta name="description" content="Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparatur &amp; 24/7 Baxi Notdienst. Baxi Kundendienst Wien mit fairen Preisen. Jetzt Termin sichern.">
+  <title>Baxi Installateur Wien | Wartung, Reparatur & Notdienst</title>
+  <meta name="description" content="Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparatur & 24/7 Baxi Notdienst. Baxi Kundendienst Wien mit fairen Preisen. Jetzt Termin sichern.">
 @endpush
 
 <main>
@@ -455,7 +455,7 @@
 
       <h1>
         Baxi Installateur Wien<br>
-        <em>Wartung, Reparatur &amp; Notdienst</em>
+        <em>Wartung, Reparatur & Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">
@@ -481,7 +481,7 @@
       <section class="promo-banner" id="baxi-aktion">
         <div class="promo-banner__inner">
           <div class="promo-banner__content">
-            <h2 class="promo-banner__title"><em>Baxi Service &amp; Notdienst</em></h2>
+            <h2 class="promo-banner__title"><em>Baxi Service & Notdienst</em></h2>
             <p class="promo-banner__price"><strong>Wien • Umgebung • NÖ</strong></p>
 
             <a class="promo-banner__btn" href="tel:+4314420617" aria-label="HOTLINE">
@@ -515,10 +515,10 @@
           <ul class="toc-list" id="tocList">
             <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Fachpartner</span></a></li>
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Leistungen</span></a></li>
-            <li class="toc-item"><a href="#anlage-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Heizung &amp; Gasgeräte</span></a></li>
+            <li class="toc-item"><a href="#anlage-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Heizung & Gasgeräte</span></a></li>
             <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Preise</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
-            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Wien &amp; Umgebung</span></a></li>
+            <li class="toc-item"><a href="#region-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Wien & Umgebung</span></a></li>
             <li class="toc-item"><a href="#tausch-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Thermentausch</span></a></li>
             <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">FAQ</span></a></li>
             <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Kontakt</span></a></li>
@@ -621,7 +621,7 @@
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Effizienz &amp; Sicherheit</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Effizienz & Sicherheit</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Stabile Warmwasser-Versorgung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Gründliche Überprüfung</div></div>
               <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Professionelle Reinigung</div></div>

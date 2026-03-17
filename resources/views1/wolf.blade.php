@@ -392,7 +392,7 @@
 <section class="wolf-hero" id="hero-services">
   <div class="wolf-hero__inner">
 
-    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
+    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
 
     <h1>
       Wolf Thermenwartung Wien<br>
@@ -409,8 +409,8 @@
     </div>
 
     <div class="wolf-hero__bullets" aria-label="Highlights">
-      <span class="wolf-pill">Wartung &amp; Service</span>
-      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+      <span class="wolf-pill">Wartung & Service</span>
+      <span class="wolf-pill">Reparatur & Notdienst</span>
       <span class="wolf-pill">Kosten inkl. MwSt</span>
       <span class="wolf-pill">Geprüfter Fachbetrieb</span>
     </div>

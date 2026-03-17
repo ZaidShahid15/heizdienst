@@ -503,7 +503,7 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -705,7 +705,7 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
             <li>Kein Warmwasser</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die Uhr verfügbar – Wien &amp; Niederösterreich.
+            Rund um die Uhr verfügbar – Wien & Niederösterreich.
           </p>
         </div>
       </div>
@@ -790,7 +790,7 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
             </p>
 
             <ul class="service-checklist">
-              <li>Beratung &amp; Kostenvoranschlag</li>
+              <li>Beratung & Kostenvoranschlag</li>
               <li>Fachgerechte Neuinstallation</li>
               <li>Moderne Vaillant Geräte</li>
               <li>Langfristige Effizienz</li>
@@ -819,7 +819,7 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">✅</div>
           <div>
-            <h3>Erfahrung &amp; Know-how</h3>
+            <h3>Erfahrung & Know-how</h3>
             <p>Unsere geschulten Techniker verfügen über umfassende Erfahrung bei Vaillant Thermenreparatur, Thermenservice und Thermenwartung in Wien.</p>
           </div>
         </article>
@@ -843,7 +843,7 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🕒</div>
           <div>
-            <h3>24/7 für Wien &amp; Niederösterreich</h3>
+            <h3>24/7 für Wien & Niederösterreich</h3>
             <p>Unser Team betreut Kunden in Wien und Niederösterreich zuverlässig – inklusive Notdienst rund um die Uhr.</p>
           </div>
         </article>

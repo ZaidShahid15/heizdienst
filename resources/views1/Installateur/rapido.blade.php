@@ -500,7 +500,7 @@
 
       <h1>
         Rapido Installateur Wien<br>
-        <em>Wartung, Reparatur &amp; Notdienst</em>
+        <em>Wartung, Reparatur & Notdienst</em>
       </h1>
 
       <p class="wolf-hero__sub">

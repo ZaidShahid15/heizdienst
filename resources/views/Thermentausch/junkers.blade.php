@@ -536,7 +536,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -640,7 +640,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
     </div>
   </section>
 
- 
+
 
   <!-- Wann sinnvoll -->
   <section class="service-section" id="wann-services">
@@ -730,10 +730,10 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
               alle Daten erklärt und der sichere Betrieb dokumentiert. So entsteht ein transparenter Ablauf mit klarer Terminvergabe und einem festen Ansprechpartner.
             </p>
             <ul class="service-checklist">
-              <li>Besichtigung &amp; Kamin Vorbefund</li>
+              <li>Besichtigung & Kamin Vorbefund</li>
               <li>Abstimmung mit Rauchfangkehrer</li>
               <li>Montage, Anschlüsse und Tausch</li>
-              <li>Inbetriebnahme &amp; Einschulung</li>
+              <li>Inbetriebnahme & Einschulung</li>
             </ul>
           </div>
         </div>

@@ -496,7 +496,7 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
 <main>
 
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -610,7 +610,7 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
           <li class="toc-item">
             <a href="#montage-services" class="toc-link">
               <span class="toc-badge">04</span>
-              <span class="toc-text">Montage &amp; Sicherheit</span>
+              <span class="toc-text">Montage & Sicherheit</span>
             </a>
           </li>
 
@@ -953,7 +953,7 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
 ])
 
 </main>
-<!-- 
+<!--
 <script>
   (function(){
     // year

@@ -785,7 +785,7 @@
         @media (max-width: 700px) {
             .wolf-hero {
                 padding: 100px 14px 86px;
-                min-height: 480px;  
+                min-height: 480px;
             }
 
             .wolf-hero__sub {
@@ -837,7 +837,7 @@
         <section class="wolf-hero" id="hero-services">
             <div class="wolf-hero__inner">
 
-                <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
+                <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
 
                 <h1>
                     Vaillant Thermenwartung Wien<br>
@@ -853,19 +853,19 @@
                         decoding="async">
                 </div>
                 <div class="wolf-hero__bullets" aria-label="Highlights">
-                    <span class="wolf-pill">Wartung, Reparatur &amp; Notdienst</span>
+                    <span class="wolf-pill">Wartung, Reparatur & Notdienst</span>
                     <span class="wolf-pill">24 Stunden Service – rund um die Uhr</span>
                     <span class="wolf-pill">Fixpreise inkl. MwSt</span>
                     <span class="wolf-pill">Zertifizierte Vaillant Techniker</span>
                 </div>
-                
+
                 <div class="wolf-hero__actions">
                     <a class="wolf-btn wolf-btn--accent" href="#kontakt-services">Jetzt Termin vereinbaren</a>
                     <a class="wolf-btn wolf-btn--ghost" href="#leistungen-services">Leistungen ansehen</a>
                 </div>
 
                 <!-- optional brand/logo -->
-                
+
                 <section class="promo-banner" id="wolf-aktion">
                     <div class="promo-banner__inner">
                         <div class="promo-banner__content">

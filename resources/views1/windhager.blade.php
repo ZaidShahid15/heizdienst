@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Windhager Thermenwartung Wien – Service &amp; Notdienst</title>
+  <title>Windhager Thermenwartung Wien – Service & Notdienst</title>
   <meta name="description" content="Professionelle Windhager Thermenwartung Wien durch erfahrene Experten für Sicherheit, Effizienz und zuverlässigen Betrieb. Notdienst in Wien NÖ & Burgenland.">
   <style>
     :root{
@@ -479,7 +479,7 @@
       </h1>
 
       <p class="wolf-hero__sub">
-        Professionelle Windhager Thermenwartung Wien durch erfahrene Experten für Sicherheit, Effizienz und zuverlässigen Betrieb. 
+        Professionelle Windhager Thermenwartung Wien durch erfahrene Experten für Sicherheit, Effizienz und zuverlässigen Betrieb.
         Windhager Notdienst in Wien NÖ & Burgenland – transparente Preise, zertifizierter Kundendienst, persönliche Betreuung.
       </p>
 

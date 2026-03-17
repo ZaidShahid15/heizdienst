@@ -517,7 +517,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -720,7 +720,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
             <li>Sicherheitsrelevante Probleme</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            24/7 verfügbar – Wien, Niederösterreich &amp; Burgenland.
+            24/7 verfügbar – Wien, Niederösterreich & Burgenland.
           </p>
         </div>
       </div>
@@ -809,10 +809,10 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
             </p>
 
             <ul class="service-checklist">
-              <li>Beratung &amp; klares Angebot</li>
+              <li>Beratung & klares Angebot</li>
               <li>Fachgerechte Installation</li>
               <li>Moderne Junkers Bosch Technik</li>
-              <li>Effizienz &amp; geringere Heizkosten</li>
+              <li>Effizienz & geringere Heizkosten</li>
             </ul>
           </div>
         </div>
@@ -838,7 +838,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">✅</div>
           <div>
-            <h3>Erfahrung &amp; Fachwissen</h3>
+            <h3>Erfahrung & Fachwissen</h3>
             <p>Unsere Kompetenz basiert auf langjähriger Praxis mit Junkers Bosch und Bosch Thermenmarken – zuverlässig in Wien und Umgebung.</p>
           </div>
         </article>
@@ -922,7 +922,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
     'btnAccent' => true,
 ])
 </main>
-<!-- 
+<!--
 <script>
 (function(){
 

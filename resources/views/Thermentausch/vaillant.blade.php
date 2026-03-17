@@ -528,7 +528,7 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -632,7 +632,7 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
     </div>
   </section>
 
- 
+
 
   <!-- Wann sinnvoll -->
   <section class="service-section" id="wann-services">
@@ -722,10 +722,10 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
               Nach der Inbetriebnahme prüft der Installateur alle Funktionen, stellt Raumthermostat und Raumtemperaturregelung ein und erklärt den Betrieb verständlich.
             </p>
             <ul class="service-checklist">
-              <li>Besichtigung &amp; Vorbefund</li>
-              <li>Installationsanzeige &amp; Abstimmung mit Rauchfangkehrer</li>
+              <li>Besichtigung & Vorbefund</li>
+              <li>Installationsanzeige & Abstimmung mit Rauchfangkehrer</li>
               <li>Montage, Anschlüsse und Austausch</li>
-              <li>Inbetriebnahme &amp; Funktionsprüfung</li>
+              <li>Inbetriebnahme & Funktionsprüfung</li>
             </ul>
           </div>
         </div>
@@ -926,7 +926,7 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
     'btnAccent' => true,
 ])
 </main>
-<!-- 
+<!--
 <script>
   (function(){
     // Smooth scroll

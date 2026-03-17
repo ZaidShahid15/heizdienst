@@ -449,7 +449,7 @@
 
   .toc-body{
     padding:12px;
-   
+
     overflow:auto;
     transition:max-height .22s ease, padding .22s ease;
   }
@@ -515,7 +515,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -721,7 +721,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Wartung &amp; Thermenservice</h3>
+            <h3>Wartung & Thermenservice</h3>
             <p>Regelmäßige Wartung, Thermenwartung und Buderus Thermenservice für effizienten und sicheren Betrieb.</p>
           </div>
         </article>
@@ -729,7 +729,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Reparatur &amp; Behebung</h3>
+            <h3>Reparatur & Behebung</h3>
             <p>Fachgerechte Reparatur, strukturierte Fehleranalyse und nachhaltige Behebung – direkt vor Ort.</p>
           </div>
         </article>
@@ -802,7 +802,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧽</div>
           <div>
-            <h3>Wartung &amp; Thermenwartung</h3>
+            <h3>Wartung & Thermenwartung</h3>
             <p>Buderus Thermenwartung inklusive Reinigung, Einstellung und Funktionskontrolle – transparent und sicher.</p>
           </div>
         </article>
@@ -818,7 +818,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>Heizkessel &amp; Heizsysteme</h3>
+            <h3>Heizkessel & Heizsysteme</h3>
             <p>Service für Buderus Heizkessel und moderne Heizungsanlagen – effizient, zuverlässig und wohnkomfort-orientiert.</p>
           </div>
         </article>
@@ -826,7 +826,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Störung &amp; Behebung</h3>
+            <h3>Störung & Behebung</h3>
             <p>Strukturierte Diagnose und schnelle Behebung von Störungen, damit Ihre Anlage rasch wieder stabil läuft.</p>
           </div>
         </article>
@@ -834,7 +834,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧩</div>
           <div>
-            <h3>Reparatur &amp; Ersatzteile</h3>
+            <h3>Reparatur & Ersatzteile</h3>
             <p>Fachgerechte Reparatur mit geprüften Ersatzteilen – nachhaltig, sicher und herstellerkonform.</p>
           </div>
         </article>
@@ -842,7 +842,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔁</div>
           <div>
-            <h3>Austausch &amp; Beratung</h3>
+            <h3>Austausch & Beratung</h3>
             <p>Wenn sinnvoll: transparente Beratung zu Austausch, Brennwert-Technik und passenden Alternativen.</p>
           </div>
         </article>
@@ -1040,7 +1040,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">✅</div>
           <div>
-            <h3>Strukturiert &amp; zuverlässig</h3>
+            <h3>Strukturiert & zuverlässig</h3>
             <p>Dank Erfahrung, kurzen Reaktionszeiten und klaren Abläufen sichern wir Komfort und reibungslosen Betrieb Ihrer Heizung.</p>
           </div>
         </article>

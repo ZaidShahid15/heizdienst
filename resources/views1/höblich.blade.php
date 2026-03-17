@@ -565,7 +565,7 @@
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner">
-      <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
+      <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
 
       <h1>
         Höblich Thermenwartung Wien<br>
@@ -578,8 +578,8 @@
       </p>
 
       <div class="wolf-hero__bullets">
-        <span class="wolf-pill">Wartung &amp; Service</span>
-        <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+        <span class="wolf-pill">Wartung & Service</span>
+        <span class="wolf-pill">Reparatur & Notdienst</span>
         <span class="wolf-pill">Faire Preise</span>
         <span class="wolf-pill">Geprüfter Betrieb</span>
       </div>

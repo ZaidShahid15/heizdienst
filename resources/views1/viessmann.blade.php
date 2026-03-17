@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-    
+
     object-position:center;
   }
 
@@ -386,7 +386,7 @@
 <section class="wolf-hero" id="hero-services">
   <div class="wolf-hero__inner">
 
-    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien &amp; Umgebung</p>
+    <p class="wolf-hero__kicker">Zertifizierter Fachbetrieb • Wien & Umgebung</p>
 
     <h1>
       Viessmann Thermenwartung Wien<br>
@@ -402,8 +402,8 @@
     </div>
 
     <div class="wolf-hero__bullets" aria-label="Highlights">
-      <span class="wolf-pill">Wartung &amp; Service</span>
-      <span class="wolf-pill">Reparatur &amp; Notdienst</span>
+      <span class="wolf-pill">Wartung & Service</span>
+      <span class="wolf-pill">Reparatur & Notdienst</span>
       <span class="wolf-pill">Kosten inkl. MwSt</span>
       <span class="wolf-pill">Geprüfter Betrieb</span>
     </div>
@@ -542,7 +542,7 @@
     </div>
   </section>
 
- 
+
 
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">

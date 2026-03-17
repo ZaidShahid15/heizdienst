@@ -420,7 +420,7 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-   
+
     overflow:auto;
   }
 
@@ -515,7 +515,7 @@
       <div class="wolf-hero__bullets" aria-label="Highlights">
         <span class="wolf-pill">Service</span>
         <span class="wolf-pill">Wartung</span>
-        <span class="wolf-pill">Reparatur &amp; Ersatzteile</span>
+        <span class="wolf-pill">Reparatur & Ersatzteile</span>
         <span class="wolf-pill">Notdienst</span>
       </div>
 

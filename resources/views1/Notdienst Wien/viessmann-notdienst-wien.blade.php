@@ -426,7 +426,7 @@
     list-style:none;
     margin:0;
     padding:0;
-    max-height:260px;      
+    max-height:260px;
     overflow:auto;
     padding-right:6px;
   }
@@ -516,7 +516,7 @@
         <span class="wolf-pill">Notdienst</span>
         <span class="wolf-pill">Reparatur</span>
         <span class="wolf-pill">Wartung</span>
-        <span class="wolf-pill">Wien &amp; Umgebung</span>
+        <span class="wolf-pill">Wien & Umgebung</span>
       </div>
 
       <div class="wolf-hero__actions">
@@ -622,7 +622,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Notdienst &amp; Notfalldienst</h3>
+            <h3>Notdienst & Notfalldienst</h3>
             <p>Für Viessmann Therme und Heizsysteme – schnelle Reaktion bei dringenden Situationen.</p>
           </div>
         </article>
@@ -646,7 +646,7 @@
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📍</div>
           <div>
-            <h3>Wien &amp; Umgebung</h3>
+            <h3>Wien & Umgebung</h3>
             <p>Betreuung in Wien, Niederösterreich und der Umgebung – schnelle Hilfe direkt am Ort.</p>
           </div>
         </article>
@@ -851,7 +851,7 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>FAQs – Viessmann Service &amp; Therme</h2>
+        <h2>FAQs – Viessmann Service & Therme</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
