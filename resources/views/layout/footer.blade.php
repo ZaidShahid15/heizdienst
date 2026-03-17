@@ -82,17 +82,17 @@
                         <svg></svg>Marken
                     </div>
 
-                    <ul class="list">
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/vaillant') }}">Vaillant</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/buderus') }}">Buderus</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/löblich') }}">Löblich</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/baxi') }}">Baxi</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/junkers') }}">Junkers</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/wolf') }}">Wolf</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/viessmann') }}">Viessmann</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/saunier-duval') }}">Saunier Duval</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/rapido') }}">Rapido</a></li>
-                        <li><svg><use href="#i-check"></use></svg><a href="{{ url('/ocean') }}">Ocean</a></li>
+                   <ul class="list">
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('vaillant.thermenwartung') }}">Vaillant</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('buderus.thermenwartung') }}">Buderus</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('loeblich.thermenwartung') }}">Löblich</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('baxi.thermenwartung') }}">Baxi</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('junkers.thermenwartung') }}">Junkers</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('wolf.thermenwartung') }}">Wolf</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('viessmann.thermenwartung') }}">Viessmann</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('saunierduval.thermenwartung') }}">Saunier Duval</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('rapido.thermenwartung') }}">Rapido</a></li>
+                        <li><svg><use href="#i-check"></use></svg><a href="{{ route('ocean.thermenwartung') }}">Ocean</a></li>
                     </ul>
                 </div>
 

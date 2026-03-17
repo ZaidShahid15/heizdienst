@@ -27,6 +27,7 @@
   a{color:inherit;text-decoration:none}
   .service-container{width:min(1120px, 92%); margin-inline:auto}
 
+  /* Buttons */
   .service-btn{
     display:inline-flex; align-items:center; justify-content:center;
     gap:.5rem;
@@ -51,191 +52,324 @@
   .service-btn--ghost-on-dark:hover{transform:translateY(-1px); box-shadow:0 10px 26px rgba(0,0,0,.22)}
   .service-btn--full{width:100%}
 
-  /* HERO */
-  /* =========================
-   HERO (Desktop + Mobile unified)
-   ========================= */
+  /* Grids */
+  .service-grid{display:grid; gap:14px}
+  .service-grid--2{grid-template-columns: repeat(2, 1fr)}
+  .service-grid--3{grid-template-columns: repeat(3, 1fr)}
 
-.wolf-hero {
-  position: relative;
-  min-height: 560px;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  text-align: center;
-  padding: 160px 20px 110px;
-  overflow: hidden;
-}
-
-/* Background image */
-.wolf-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("{{ asset('img/hero-scetion.jpeg') }}");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: scale(1.02);
-  z-index: 0;
-}
-
-/* Dark gradient overlay */
-.wolf-hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(15,66,74,0.98) 0%,
-    rgba(15,66,74,0.95) 40%,
-    rgba(15,66,74,0.75) 46%,
-    rgba(15,66,74,0.35) 80%,
-    rgba(15,66,74,0.05) 90%
-  );
-  z-index: 1;
-}
-
-.wolf-hero__inner {
-  position: relative;
-  z-index: 2;
-  text-align: start;
-}
-
-/* Heading */
-.wolf-hero h1 {
-  margin: 0 0 14px;
-  text-align: center;
-  font-size: clamp(30px, 3.5vw, 54px);
-  line-height: 1.1;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: -.02em;
-}
-
-/* Sub text */
-.wolf-hero__sub {
-  font-size: 16px;
-  color: rgba(255,255,255,.92);
-  margin: 0;
-}
-
-/* Buttons */
-.wolf-hero__actions {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.wolf-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 14px 24px;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 14px;
-  transition: .2s ease;
-}
-
-.wolf-btn--red {
-  background: var(--accent);
-  color: #1a1a1a;
-}
-
-.wolf-btn-outline {
-  border: 1px solid rgba(255,255,255,.5);
-  color: #fff;
-  background: transparent;
-}
-
-/* Logo */
-.wolf-hero__logo {
-  margin: 36px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.wolf-hero__logo img {
-  width: 170px;
-  max-width: 60vw;
-  transform: rotate(-6deg);
-}
-
-/* Trust */
-.hero-trust {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  color: white;
-}
-
-.hero-trust .stars {
-  color: #ffc107;
-}
-
-.badges {
-  white-space: nowrap;
-}
-
-/* =========================
-   MOBILE
-   ========================= */
-
-@media (max-width: 768px){
-
-  .wolf-hero{
-    text-align:left;
-    align-items:flex-start;
-    padding:110px 20px 70px;
-    min-height:520px;
+  /* Sections */
+  .service-section{padding:54px 0}
+  .service-section--soft{background:linear-gradient(0deg, var(--muted), #fff)}
+  .service-section__head{margin-bottom:18px;}
+  .service-section__head h2{
+    margin:0 0 6px;
+    color:var(--ink);
+    font-size: clamp(22px, 2.2vw, 32px);
+    letter-spacing:-.02em;
   }
+  .service-section__head p{margin:0; max-width:70ch}
 
-  .wolf-hero::before{
-    background-position:right center;
+  /* Feature card (used in Leistungen) */
+  .service-feature{
+    display:flex; gap:12px;
+    padding:16px;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#fff;
   }
-
-  .wolf-hero__inner{
-    max-width:420px;
-    margin-top:20px;
+  .service-feature__icon{
+    width:40px; height:40px;
+    border-radius:14px;
+    display:grid; place-items:center;
+    background:rgba(251,154,27,.22);
+    border:1px solid rgba(251,154,27,.35);
+    font-size:18px;
+    flex:0 0 auto;
   }
+  .service-feature h3{margin:0 0 4px; color:var(--ink)}
+  .service-feature p{margin:0}
 
-  .wolf-hero h1{
-    text-align:left;
-    font-size:28px;
-    line-height:1.15;
+  /* Stats pills (2 in a row) */
+  .service-stats{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap:10px;
+    margin-top:14px;
   }
-
-  .wolf-hero__sub{
-    font-size:14px;
-    margin-bottom:22px;
+  .service-stat{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 14px;
+    border-radius:999px;
+    background:rgba(24,64,72,.06);
+    border:1px solid rgba(24,64,72,.18);
   }
-
-  .wolf-hero__actions{
-    justify-content:flex-start;
-    flex-direction:column;
+  .service-stat__num{
+    width:22px; height:22px;
+    border-radius:999px;
+    display:grid; place-items:center;
+    background:#fff;
+    border:1px solid rgba(24,64,72,.22);
+    font-weight:900;
+    color:var(--ink);
+    line-height:1;
+    flex:0 0 auto;
   }
+  .service-stat__label{font-weight:800; color:var(--ink)}
 
-  .wolf-btn{
+  /* Dark section emergency */
+  .service-section--dark{
+    background:linear-gradient(135deg, var(--ink), rgba(24,64,72,.92));
+    color:#fff;
+  }
+  .service-emergency{
+    display:grid;
+    grid-template-columns: 1.2fr .8fr;
+    gap:16px;
+    align-items:stretch;
+  }
+  .service-emergency__text h2{color:#fff; margin:0 0 10px}
+  .service-emergency__text p{margin:0 0 14px; color:rgba(255,255,255,.9)}
+  .service-emergency__actions{display:flex; gap:10px; flex-wrap:wrap}
+  .service-panel{
+    height:100%;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.18);
+    border-radius:var(--radius);
+    padding:16px;
+  }
+  .service-checklist{margin:0; padding-left:18px}
+  .service-checklist--on-dark{color:rgba(255,255,255,.92)}
+  .service-checklist--on-dark li{margin:10px 0}
+
+  /* FAQ */
+  .service-faq details{
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:14px 16px;
+    background:#fff;
+  }
+  .service-faq details + details{margin-top:10px}
+  .service-faq summary{
+    cursor:pointer;
+    font-weight:900;
+    color:var(--ink);
+  }
+  .service-faq p{margin:10px 0 0}
+
+  /* CTA (from first code) */
+  .service-cta{
+    padding:54px 0;
+    background:
+      radial-gradient(900px 320px at 10% 10%, rgba(251,154,27,.22), transparent 60%),
+      radial-gradient(800px 260px at 90% 20%, rgba(24,64,72,.16), transparent 60%),
+      #fff;
+  }
+  .service-cta__inner{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:16px;
+    align-items:start;
+    border:1px solid var(--line);
+    border-radius:var(--radius2);
+    padding:18px;
+    background:#fff;
+    box-shadow:0 12px 34px rgba(0,0,0,.08);
+  }
+  .service-cta h2{margin:0 0 6px; color:var(--ink)}
+  .service-cta p{margin:0; max-width:60ch}
+
+  .service-cta__form{
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:14px;
+    background:var(--muted);
+  }
+  label{display:block}
+  label span{display:block; font-weight:800; color:var(--ink); margin:0 0 6px}
+  input, textarea{
     width:100%;
+    border-radius:14px;
+    border:1px solid var(--line);
+    padding:12px 12px;
+    font:inherit;
+    outline:none;
+    background:#fff;
+  }
+  input:focus, textarea:focus{border-color:rgba(251,154,27,.7); box-shadow:0 0 0 4px rgba(251,154,27,.18)}
+  .service-formrow{display:grid; grid-template-columns: 1fr 1fr; gap:10px;}
+  textarea{resize:vertical}
+  .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
+
+  /* ===== CARD SPLIT (equal height) ===== */
+  .card-split{
+    display:grid;
+    grid-template-columns: 1.12fr .88fr;
+    gap:18px;
+    align-items:stretch;
+  }
+  .card-split--reverse .card-split__text{order:2}
+  .card-split--reverse .card-split__media{order:1}
+
+  .card-split__text,
+  .card-split__media{
+    display:flex;
   }
 
-  .wolf-hero__logo{
-    justify-content:start;
+  .card-box{
+    width:100%;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius2);
+    padding:18px;
   }
-
-  .wolf-hero__logo img{
-    width:120px;
-    transform:none;
+  .card-box h2{
+    margin:0 0 8px;
+    color:var(--ink);
+    font-size: clamp(22px, 2.2vw, 30px);
+    letter-spacing:-.02em;
   }
+  .card-box p{margin:0}
+  .card-box p + p{margin-top:10px}
 
-  .hero-trust{
+  /* Image box (fills height) */
+  .service-media{width:100%;}
+  .service-media__box{
+    width:100%;
+    height:100%;
+    border-radius: var(--radius2);
+    border:1px solid var(--line);
+    box-shadow:0 18px 50px rgba(0,0,0,.12);
+    overflow:hidden;
+    background: var(--muted);
+  }
+  .service-media__img{
+    width:100%;
+    height:100%;
     display:block;
-    margin-top:18px;
+    object-fit:cover;
+    object-position:center;
   }
-}
-  /* ✅ TOC (same as previous page) */
+
+  /* ===== HERO (Junkers specific, from second code) ===== */
+  .wolf-hero {
+    position: relative;
+    min-height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 160px 20px 110px;
+    overflow: hidden;
+  }
+
+  .wolf-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("{{ asset('img/hero-scetion.jpeg') }}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.02);
+    z-index: 0;
+  }
+
+  .wolf-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(15,66,74,0.98) 0%,
+      rgba(15,66,74,0.95) 40%,
+      rgba(15,66,74,0.75) 46%,
+      rgba(15,66,74,0.35) 80%,
+      rgba(15,66,74,0.05) 90%
+    );
+    z-index: 1;
+  }
+
+  .wolf-hero__inner {
+    position: relative;
+    z-index: 2;
+    text-align: start;
+  }
+
+  .wolf-hero h1 {
+    margin: 0 0 14px;
+    text-align: center;
+    font-size: clamp(30px, 3.5vw, 54px);
+    line-height: 1.1;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -.02em;
+  }
+
+  .wolf-hero__sub {
+    font-size: 16px;
+    color: rgba(255,255,255,.92);
+    margin: 0;
+  }
+
+  .wolf-hero__actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .wolf-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: .2s ease;
+  }
+
+  .wolf-btn--red {
+    background: var(--accent);
+    color: #1a1a1a;
+  }
+
+  .wolf-btn-outline {
+    border: 1px solid rgba(255,255,255,.5);
+    color: #fff;
+    background: transparent;
+  }
+
+  .wolf-hero__logo {
+    margin: 36px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wolf-hero__logo img {
+    width: 170px;
+    max-width: 60vw;
+    transform: rotate(-6deg);
+  }
+
+  .hero-trust {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+  }
+
+  .hero-trust .stars {
+    color: #ffc107;
+  }
+
+  .badges {
+    white-space: nowrap;
+  }
+
+  /* ===== TOC (from second code) ===== */
   .toc-wrap{
     padding:16px 0 0;
     background:#fff;
@@ -323,23 +457,61 @@
     overflow:hidden;
   }
 
-  /* Mobile */
+  /* ===== MOBILE ===== */
   @media (max-width: 980px){
-    .service-grid--3{grid-template-columns: 1fr}
-    .service-grid--2{grid-template-columns: 1fr}
-    .service-split{grid-template-columns: 1fr}
-    .service-split--reverse .service-split__text{order:1}
-    .service-split--reverse .service-split__media{order:2}
-    .service-emergency{grid-template-columns: 1fr}
-    .service-cta__inner{grid-template-columns: 1fr}
-    .service-formrow{grid-template-columns: 1fr}
+    .service-grid--2,
+    .service-grid--3{grid-template-columns:1fr}
+    .card-split{grid-template-columns:1fr}
+    .card-split--reverse .card-split__text{order:1}
+    .card-split--reverse .card-split__media{order:2}
+    .service-emergency{grid-template-columns:1fr}
+    .service-cta__inner{grid-template-columns:1fr}
+    .service-formrow{grid-template-columns:1fr}
+    .service-stats{grid-template-columns:1fr;}
+    .service-media__box{min-height:220px; height:auto;}
+  }
 
-    .service-hero{padding:120px 0 40px}
-    .service-hero::after{
-      background:linear-gradient(180deg, rgba(15,47,52,.92) 0%, rgba(15,47,52,.75) 55%, rgba(15,47,52,.25) 100%);
+  @media (max-width: 768px){
+    .wolf-hero{
+      text-align:left;
+      align-items:flex-start;
+      padding:110px 20px 70px;
+      min-height:520px;
     }
-    .service-hero__content{max-width:64ch}
-    .service-media__box{height:220px;}
+    .wolf-hero::before{
+      background-position:right center;
+    }
+    .wolf-hero__inner{
+      max-width:420px;
+      margin-top:20px;
+    }
+    .wolf-hero h1{
+      text-align:left;
+      font-size:28px;
+      line-height:1.15;
+    }
+    .wolf-hero__sub{
+      font-size:14px;
+      margin-bottom:22px;
+    }
+    .wolf-hero__actions{
+      justify-content:flex-start;
+      flex-direction:column;
+    }
+    .wolf-btn{
+      width:100%;
+    }
+    .wolf-hero__logo{
+      justify-content:start;
+    }
+    .wolf-hero__logo img{
+      width:120px;
+      transform:none;
+    }
+    .hero-trust{
+      display:block;
+      margin-top:18px;
+    }
   }
 
   .promo-banner__inner::after {
@@ -350,6 +522,7 @@
     z-index: 0;
   }
 </style>
+
 @php
 $metaTitle = " Junkers Thermenwartung Wien | 24h Notdienst & Meisterbetrieb";
 $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbetrieb. 24h Notdienst, Standard & Premium Wartung, transparente Preise inkl. MwSt – zuverlässig & sicher.";
@@ -357,11 +530,9 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
 <main>
-  <!-- HERO -->
-  
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -426,8 +597,7 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
     </div>
   </section>
 
-
-  <!-- ✅ TOC (same as previous) -->
+  <!-- TOC (Inhaltsverzeichnis) -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card is-collapsed" id="tocCard">
@@ -437,9 +607,7 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
              tabindex="0"
              aria-controls="tocBody"
              aria-expanded="false">
-
           <h4 id="tocTitle">Inhaltsverzeichnis</h4>
-
           <div class="toc-actions">
             <button class="toc-iconbtn"
                     type="button"
@@ -456,81 +624,24 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
 
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item">
-              <a href="#vorteile-services" class="toc-link">
-                <span class="toc-badge">01</span><span class="toc-text">Vorteile</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#partner-services" class="toc-link">
-                <span class="toc-badge">02</span><span class="toc-text">Fachbetrieb</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#leistungen-services" class="toc-link">
-                <span class="toc-badge">03</span><span class="toc-text">Leistungen</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#warum-services" class="toc-link">
-                <span class="toc-badge">04</span><span class="toc-text">Wartung</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#geraete-services" class="toc-link">
-                <span class="toc-badge">05</span><span class="toc-text">Geräte</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#ablauf-services" class="toc-link">
-                <span class="toc-badge">06</span><span class="toc-text">Ablauf</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#notdienst-services" class="toc-link">
-                <span class="toc-badge">07</span><span class="toc-text">Notdienst</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#preise-services" class="toc-link">
-                <span class="toc-badge">08</span><span class="toc-text">Kosten</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#warumwir-services" class="toc-link">
-                <span class="toc-badge">09</span><span class="toc-text">Warum wir</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#faq-services" class="toc-link">
-                <span class="toc-badge">10</span><span class="toc-text">FAQ</span>
-              </a>
-            </li>
-
-            <li class="toc-item">
-              <a href="#kontakt-services" class="toc-link">
-                <span class="toc-badge">11</span><span class="toc-text">Kontakt</span>
-              </a>
-            </li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Vorteile</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Fachbetrieb</span></a></li>
+            <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Leistungen</span></a></li>
+            <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Wartung</span></a></li>
+            <li class="toc-item"><a href="#geraete-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Geräte</span></a></li>
+            <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">06</span><span class="toc-text">Ablauf</span></a></li>
+            <li class="toc-item"><a href="#notdienst-services" class="toc-link"><span class="toc-badge">07</span><span class="toc-text">Notdienst</span></a></li>
+            <li class="toc-item"><a href="#preise-services" class="toc-link"><span class="toc-badge">08</span><span class="toc-text">Kosten</span></a></li>
+            <li class="toc-item"><a href="#warumwir-services" class="toc-link"><span class="toc-badge">09</span><span class="toc-text">Warum wir</span></a></li>
+            <li class="toc-item"><a href="#faq-services" class="toc-link"><span class="toc-badge">10</span><span class="toc-text">FAQ</span></a></li>
+            <li class="toc-item"><a href="#kontakt-services" class="toc-link"><span class="toc-badge">11</span><span class="toc-text">Kontakt</span></a></li>
           </ul>
         </div>
-
       </div>
     </div>
   </section>
 
- 
-
-  <!-- Vorteile -->
+  <!-- Vorteile (grid of three) -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -572,45 +683,38 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
     </div>
   </section>
 
-  <!-- Partner -->
+  <!-- Partner (split) -->
   <section class="service-section service-section--soft" id="partner-services">
-    <div class="service-container service-split">
-      <div class="service-split__text">
-        <h2>Ihr Junkers Partner in Wien & Umgebung</h2>
-        <p>
-          Als verlässlicher Partner für Junkers Thermenwartung, Thermenwartung Junkers und Thermenservice stehen wir unseren Kunden mit Erfahrung,
-          Kompetenz und technischem Know-how zur Seite. Unser Kundendienst ist Ihr fixer Ansprechpartner für alles rund um Ihre Junkers Therme.
-        </p>
-        <p style="margin-top:10px;">
-          Wir arbeiten nach Vorgaben des Herstellers, setzen auf originale Ersatzteile und moderne Gasgeräte.
-          Als spezialisierter Fachbetrieb betreuen wir Wien, NÖ, Burgenland und die gesamte Umgebung – zuverlässig, sicher und lösungsorientiert.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Originale Ersatzteile</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Geschultes Team</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Wien, NÖ & Burgenland</div>
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Ihr Junkers Partner in Wien & Umgebung</h2>
+            <p>
+              Als verlässlicher Partner für Junkers Thermenwartung, Thermenwartung Junkers und Thermenservice stehen wir unseren Kunden mit Erfahrung,
+              Kompetenz und technischem Know-how zur Seite. Unser Kundendienst ist Ihr fixer Ansprechpartner für alles rund um Ihre Junkers Therme.
+            </p>
+            <p>
+              Wir arbeiten nach Vorgaben des Herstellers, setzen auf originale Ersatzteile und moderne Gasgeräte.
+              Als spezialisierter Fachbetrieb betreuen wir Wien, NÖ, Burgenland und die gesamte Umgebung – zuverlässig, sicher und lösungsorientiert.
+            </p>
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Originale Ersatzteile</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Geschultes Team</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Wien, NÖ & Burgenland</div></div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/junkers.jpeg') }}" alt="Junkers Partner Wien" loading="lazy" decoding="async"/>
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/junkers.jpeg') }}" alt="Junkers Partner Wien" loading="lazy" decoding="async">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen -->
+  <!-- Leistungen (grid of features) -->
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -670,41 +774,34 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
     </div>
   </section>
 
-  <!-- Warum Wartung -->
+  <!-- Warum Wartung (split reverse) -->
   <section class="service-section service-section--soft" id="warum-services">
-    <div class="service-container service-split service-split--reverse">
-      <div class="service-split__text">
-        <h2>Warum eine Junkers Thermenwartung unverzichtbar ist</h2>
-        <p>
-          Eine regelmäßige Junkers Thermenwartung Wien ist entscheidend für die Sicherheit Ihrer Heizung, einen effizienten Gas-Verbrauch
-          und zuverlässigen Betrieb. Sie minimiert Risiken, erhöht den Komfort und sorgt für dauerhaft stabile Leistung.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Mehr Sicherheit</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">↓</div>
-            <div class="service-stat__label">Effizienter Verbrauch</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">⏱</div>
-            <div class="service-stat__label">Zuverlässiger Betrieb</div>
+    <div class="service-container">
+      <div class="card-split card-split--reverse">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Warum eine Junkers Thermenwartung unverzichtbar ist</h2>
+            <p>
+              Eine regelmäßige Junkers Thermenwartung Wien ist entscheidend für die Sicherheit Ihrer Heizung, einen effizienten Gas-Verbrauch
+              und zuverlässigen Betrieb. Sie minimiert Risiken, erhöht den Komfort und sorgt für dauerhaft stabile Leistung.
+            </p>
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+              <div class="service-stat"><div class="service-stat__num">↓</div><div class="service-stat__label">Effizienter Verbrauch</div></div>
+              <div class="service-stat"><div class="service-stat__num">⏱</div><div class="service-stat__label">Zuverlässiger Betrieb</div></div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Warum Junkers Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Warum Junkers Thermenwartung wichtig ist" loading="lazy" decoding="async">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Geräte & Systeme -->
+  <!-- Geräte & Systeme (special layout, keep as is) -->
   <section class="service-section" id="geraete-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -731,44 +828,32 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
     </div>
   </section>
 
-  <!-- Ablauf -->
+  <!-- Ablauf (split) -->
   <section class="service-section service-section--soft" id="ablauf-services">
-    <div class="service-container service-split">
-      <div class="service-split__text">
-        <h2>So läuft die Thermenwartung ab</h2>
-        <ol class="service-steps">
-          <li>
-            <strong>Terminvergabe</strong>
-            <span>Wir vereinbaren einen passenden Termin – schnell und flexibel.</span>
-          </li>
-          <li>
-            <strong>Überprüfung & Funktionskontrolle</strong>
-            <span>Prüfung sicherheitsrelevanter Punkte, Gas-Zufuhr und allgemeine Funktion.</span>
-          </li>
-          <li>
-            <strong>Reinigung & Zerlegung</strong>
-            <span>Reinigung, Zerlegung ausgewählter Bauteile und gründliche Kontrolle.</span>
-          </li>
-          <li>
-            <strong>Abgaswerte & Prüfprotokoll</strong>
-            <span>Kontrolle der Abgaswerte und Erstellung eines Prüfprotokolls.</span>
-          </li>
-          <li>
-            <strong>Optimierung & Empfehlungen</strong>
-            <span>Optimierte Einstellungen für mehr Effizienz, geringere Energiekosten und längere Lebensdauer.</span>
-          </li>
-        </ol>
-      </div>
-
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf der Junkers Thermenwartung" loading="lazy" decoding="async"/>
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>So läuft die Thermenwartung ab</h2>
+            <ol class="service-steps">
+              <li><strong>Terminvergabe</strong> – Wir vereinbaren einen passenden Termin – schnell und flexibel.</li>
+              <li><strong>Überprüfung & Funktionskontrolle</strong> – Prüfung sicherheitsrelevanter Punkte, Gas-Zufuhr und allgemeine Funktion.</li>
+              <li><strong>Reinigung & Zerlegung</strong> – Reinigung, Zerlegung ausgewählter Bauteile und gründliche Kontrolle.</li>
+              <li><strong>Abgaswerte & Prüfprotokoll</strong> – Kontrolle der Abgaswerte und Erstellung eines Prüfprotokolls.</li>
+              <li><strong>Optimierung & Empfehlungen</strong> – Optimierte Einstellungen für mehr Effizienz, geringere Energiekosten und längere Lebensdauer.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf der Junkers Thermenwartung" loading="lazy" decoding="async">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Notdienst -->
+  <!-- Notdienst (dark emergency) -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
@@ -800,7 +885,7 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
     </div>
   </section>
 
-  <!-- Kosten -->
+  <!-- Kosten (grid of three) -->
   <section class="service-section" id="preise-services">
     <div class="service-container">
       <div class="service-section__head">
@@ -831,38 +916,31 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
     </div>
   </section>
 
-  <!-- Warum wir -->
+  <!-- Warum wir (split) -->
   <section class="service-section service-section--soft" id="warumwir-services">
-    <div class="service-container service-split">
-      <div class="service-split__text">
-        <h2>Warum wir der richtige Fachpartner sind</h2>
-        <p>
-          Als zuverlässiger Partner und erfahrener Meisterbetrieb stehen wir für Qualität, Kompetenz und nachhaltige Lösungen.
-          Unser eingespieltes Team betreut Kunden persönlich und lösungsorientiert – vom ersten Kontakt bis zur laufenden Wartung.
-        </p>
-        <p style="margin-top:10px;">
-          Wir verbinden technische Präzision mit persönlicher Hilfe und stehen Ihnen bei allen Sachen rund um Ihre Therme zur Seite.
-        </p>
-
-        <div class="service-stats">
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Meisterbetrieb</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Schnell & lösungsorientiert</div>
-          </div>
-          <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Langfristige Betreuung</div>
+    <div class="service-container">
+      <div class="card-split">
+        <div class="card-split__text">
+          <div class="card-box">
+            <h2>Warum wir der richtige Fachpartner sind</h2>
+            <p>
+              Als zuverlässiger Partner und erfahrener Meisterbetrieb stehen wir für Qualität, Kompetenz und nachhaltige Lösungen.
+              Unser eingespieltes Team betreut Kunden persönlich und lösungsorientiert – vom ersten Kontakt bis zur laufenden Wartung.
+            </p>
+            <p>
+              Wir verbinden technische Präzision mit persönlicher Hilfe und stehen Ihnen bei allen Sachen rund um Ihre Therme zur Seite.
+            </p>
+            <div class="service-stats">
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Meisterbetrieb</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Schnell & lösungsorientiert</div></div>
+              <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Langfristige Betreuung</div></div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="service-split__media service-media">
-        <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Meisterbetrieb Junkers Wien" loading="lazy" decoding="async"/>
+        <div class="card-split__media service-media">
+          <div class="service-media__box">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Meisterbetrieb Junkers Wien" loading="lazy" decoding="async">
+          </div>
         </div>
       </div>
     </div>
@@ -881,22 +959,18 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
           <summary>Wie oft sollte eine Wartung durchgeführt werden?</summary>
           <p>Eine jährliche Thermenwartung wird empfohlen, um Sicherheit und Effizienz zu gewährleisten.</p>
         </details>
-
         <details>
           <summary>Was ist der Unterschied zwischen Standard und Premium Wartung?</summary>
           <p>Die Premium Wartung umfasst zusätzliche Prüfungen, tiefere Reinigung und erweiterte Kontrollen.</p>
         </details>
-
         <details>
           <summary>Welche Regionen werden betreut?</summary>
           <p>Wir sind in Wien, NÖ, Burgenland und der gesamten Umgebung im Einsatz.</p>
         </details>
-
         <details>
           <summary>Wann ist ein Thermentausch sinnvoll?</summary>
           <p>Bei häufigen Störungen oder veralteten Geräten ist ein Thermentausch empfehlenswert.</p>
         </details>
-
         <details>
           <summary>Wie erreiche ich den Service?</summary>
           <p>Kontaktieren Sie uns telefonisch oder über unsere E-Mail Adresse – wir helfen sofort.</p>
@@ -905,20 +979,19 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
     </div>
   </section>
 
-  <!-- CTA -->
+  <!-- CTA (contact) -->
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin Vereinbaren',
-        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+    'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> 📞 Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
-])
+  ])
 </main>
-<!-- 
-<script>
-(function(){
 
+{{-- <script>
+(function(){
   // Smooth scroll (works for TOC + tabs)
   document.querySelectorAll('a[href^="#"]').forEach(function(a){
     a.addEventListener('click', function(e){
@@ -1001,7 +1074,6 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
   // year
   var y = document.getElementById("year");
   if (y) y.textContent = new Date().getFullYear();
-
 })();
-</script> -->
+</script> --}}
 @endsection
