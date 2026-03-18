@@ -213,56 +213,31 @@ Route::get('/sitemaps/sitemap-location-services-burgenland.xml', [SitemapControl
 Route::get('/installateur-eisenstadt', fn() => view('Installateur-district.installateur-eisenstadt'))->name('installateur-eisenstadt');
 Route::get('/installateur-rust', fn() => view('Installateur-district.installateur-rust'))->name('installateur-rust');
 Route::get('/installateur-baden', fn() => view('Installateur-district.installateur-baden'))->name('installateur-baden');
-
 Route::get('/installateur-bruck', fn() => view('Installateur-district.installateur-bruck'))->name('installateur-bruck');
-
 Route::get('/installateur-deutsch', fn() => view('Installateur-district.installateur-deutsch'))->name('installateur-deutsch');
 Route::get('/installateur-fischamend', fn() => view('Installateur-district.installateur-fischamend'))->name('installateur-fischamend');
-
 Route::get('/installateur-gablitz', fn() => view('Installateur-district.installateur-gablitz'))->name('installateur-gablitz');
-
 Route::get('/installateur-gansendorf', fn() => view('Installateur-district.installateur-gansendorf'))->name('installateur-gansendorf');
-
 Route::get('/installateur-gerasdorf', fn() => view('Installateur-district.installateur-gerasdorf'))->name('installateur-gerasdorf');
-
 Route::get('/installateur-grob', fn() => view('Installateur-district.installateur-grob'))->name('installateur-grob');
-
 Route::get('/installateur-hornstein', fn() => view('Installateur-district.installateur-hornstein'))->name('installateur-hornstein');
-
 Route::get('/installateur-kostenneuburg', fn() => view('Installateur-district.installateur-kostenneuburg'))->name('installateur-kostenneuburg');
-
 Route::get('/installateur-korneuburg', fn() => view('Installateur-district.installateur-korneuburg'))->name('installateur-korneuburg');
-
 Route::get('/installateur-modling', fn() => view('Installateur-district.installateur-modling'))->name('installateur-modling');
-
 Route::get('/installateur-neunkirchen', fn() => view('Installateur-district.installateur-neunkirchen'))->name('installateur-neunkirchen');
-
 Route::get('/installateur-neusiedl', fn() => view('Installateur-district.installateur-neusiedl'))->name('installateur-neusiedl');
-
 Route::get('/installateur-parndorf', fn() => view('Installateur-district.installateur-parndorf'))->name('installateur-parndorf');
-
 Route::get('/installateur-perchtoldsdorf', fn() => view('Installateur-district.installateur-perchtoldsdorf'))->name('installateur-perchtoldsdorf');
-
 Route::get('/installateur-potten', fn() => view('Installateur-district.installateur-potten'))->name('installateur-potten');
-
 Route::get('/installateur-pressbaum', fn() => view('Installateur-district.installateur-pressbaum'))->name('installateur-pressbaum');
-
 Route::get('/installateur-purkersdorf', fn() => view('Installateur-district.installateur-purkersdorf'))->name('installateur-purkersdorf');
-
 Route::get('/installateur-rust', fn() => view('Installateur-district.installateur-rust'))->name('installateur-rust');
-
 Route::get('/installateur-schwechat', fn() => view('Installateur-district.installateur-schwechat'))->name('installateur-schwechat');
-
 Route::get('/installateur-sollenau', fn() => view('Installateur-district.installateur-sollenau'))->name('installateur-sollenau');
-
 Route::get('/installateur-strasshof', fn() => view('Installateur-district.installateur-strasshof'))->name('installateur-strasshof');
-
 Route::get('/installateur-traiskirchen', fn() => view('Installateur-district.installateur-traiskirchen'))->name('installateur-traiskirchen');
-
 Route::get('/installateur-tulln', fn() => view('Installateur-district.installateur-tulln'))->name('installateur-tulln');
-
 Route::get('/installateur-vosendorf', fn() => view('Installateur-district.installateur-vosendorf'))->name('installateur-vosendorf');
-
 Route::get('/installateur-wiener', fn() => view('Installateur-district.installateur-wiener'))->name('installateur-wiener');
 
 
