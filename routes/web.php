@@ -267,22 +267,56 @@ Route::get('/installateur-wiener', fn() => view('Installateur-district.installat
 
 
 
+
 Route::get('/installateur-notdienst-1010-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1010-wien'))->name('installateur-notdienst-1010-wien');
-
 Route::get('/installateur-notdienst-1020-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1020-wien'))->name('installateur-notdienst-1020-wien');
-
 Route::get('/installateur-notdienst-1030-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1030-wien'))->name('installateur-notdienst-1030-wien');
-
 Route::get('/installateur-notdienst-1040-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1040-wien'))->name('installateur-notdienst-1040-wien');
-
 Route::get('/installateur-notdienst-1050-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1050-wien'))->name('installateur-notdienst-1050-wien');
-
 Route::get('/installateur-notdienst-1060-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1060-wien'))->name('installateur-notdienst-1060-wien');
-
 Route::get('/installateur-notdienst-1070-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1070-wien'))->name('installateur-notdienst-1070-wien');
-
 Route::get('/installateur-notdienst-1080-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1080-wien'))->name('installateur-notdienst-1080-wien');
-
 Route::get('/installateur-notdienst-1090-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1090-wien'))->name('installateur-notdienst-1090-wien');
-
 Route::get('/installateur-notdienst-1100-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1100-wien'))->name('installateur-notdienst-1100-wien');
+Route::get('/installateur-notdienst-1110-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1110-wien'))->name('installateur-notdienst-1110-wien');
+Route::get('/installateur-notdienst-1120-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1120-wien'))->name('installateur-notdienst-1120-wien');
+Route::get('/installateur-notdienst-1130-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1130-wien'))->name('installateur-notdienst-1130-wien');
+Route::get('/installateur-notdienst-1140-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1140-wien'))->name('installateur-notdienst-1140-wien');
+Route::get('/installateur-notdienst-1150-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1150-wien'))->name('installateur-notdienst-1150-wien');
+Route::get('/installateur-notdienst-1160-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1160-wien'))->name('installateur-notdienst-1160-wien');
+Route::get('/installateur-notdienst-1170-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1170-wien'))->name('installateur-notdienst-1170-wien');
+Route::get('/installateur-notdienst-1180-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1180-wien'))->name('installateur-notdienst-1180-wien');
+Route::get('/installateur-notdienst-1190-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1190-wien'))->name('installateur-notdienst-1190-wien');
+Route::get('/installateur-notdienst-1200-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1200-wien'))->name('installateur-notdienst-1200-wien');
+Route::get('/installateur-notdienst-1210-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1210-wien'))->name('installateur-notdienst-1210-wien');
+Route::get('/installateur-notdienst-1220-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1220-wien'))->name('installateur-notdienst-1220-wien');
+Route::get('/installateur-notdienst-1230-wien', fn() => view('installateur-notdienst-wien.installateur-notdienst-1230-wien'))->name('installateur-notdienst-1230-wien');
+
+
+
+
+
+
+Route::get('/thermentausch-1010-wien', fn() => view('thermentausch-wien.thermentausch-1010-wien'))->name('thermentausch-1010-wien');
+Route::get('/thermentausch-1020-wien', fn() => view('thermentausch-wien.thermentausch-1020-wien'))->name('thermentausch-1020-wien');
+Route::get('/thermentausch-1030-wien', fn() => view('thermentausch-wien.thermentausch-1030-wien'))->name('thermentausch-1030-wien');
+Route::get('/thermentausch-1040-wien', fn() => view('thermentausch-wien.thermentausch-1040-wien'))->name('thermentausch-1040-wien');
+Route::get('/thermentausch-1050-wien', fn() => view('thermentausch-wien.thermentausch-1050-wien'))->name('thermentausch-1050-wien');
+Route::get('/thermentausch-1060-wien', fn() => view('thermentausch-wien.thermentausch-1060-wien'))->name('thermentausch-1060-wien');
+Route::get('/thermentausch-1070-wien', fn() => view('thermentausch-wien.thermentausch-1070-wien'))->name('thermentausch-1070-wien');
+Route::get('/thermentausch-1080-wien', fn() => view('thermentausch-wien.thermentausch-1080-wien'))->name('thermentausch-1080-wien');
+Route::get('/thermentausch-1090-wien', fn() => view('thermentausch-wien.thermentausch-1090-wien'))->name('thermentausch-1090-wien');
+Route::get('/thermentausch-1100-wien', fn() => view('thermentausch-wien.thermentausch-1100-wien'))->name('thermentausch-1100-wien');
+Route::get('/thermentausch-1110-wien', fn() => view('thermentausch-wien.thermentausch-1110-wien'))->name('thermentausch-1110-wien');
+Route::get('/thermentausch-1120-wien', fn() => view('thermentausch-wien.thermentausch-1120-wien'))->name('thermentausch-1120-wien');
+Route::get('/thermentausch-1130-wien', fn() => view('thermentausch-wien.thermentausch-1130-wien'))->name('thermentausch-1130-wien');
+Route::get('/thermentausch-1140-wien', fn() => view('thermentausch-wien.thermentausch-1140-wien'))->name('thermentausch-1140-wien');
+Route::get('/thermentausch-1150-wien', fn() => view('thermentausch-wien.thermentausch-1150-wien'))->name('thermentausch-1150-wien');
+Route::get('/thermentausch-1160-wien', fn() => view('thermentausch-wien.thermentausch-1160-wien'))->name('thermentausch-1160-wien');
+Route::get('/thermentausch-1170-wien', fn() => view('thermentausch-wien.thermentausch-1170-wien'))->name('thermentausch-1170-wien');
+Route::get('/thermentausch-1180-wien', fn() => view('thermentausch-wien.thermentausch-1180-wien'))->name('thermentausch-1180-wien');
+Route::get('/thermentausch-1190-wien', fn() => view('thermentausch-wien.thermentausch-1190-wien'))->name('thermentausch-1190-wien');
+Route::get('/thermentausch-1200-wien', fn() => view('thermentausch-wien.thermentausch-1200-wien'))->name('thermentausch-1200-wien');
+Route::get('/thermentausch-1210-wien', fn() => view('thermentausch-wien.thermentausch-1210-wien'))->name('thermentausch-1210-wien');
+Route::get('/thermentausch-1220-wien', fn() => view('thermentausch-wien.thermentausch-1220-wien'))->name('thermentausch-1220-wien');
+Route::get('/thermentausch-1230-wien', fn() => view('thermentausch-wien.thermentausch-1230-wien'))->name('thermentausch-1230-wien');
