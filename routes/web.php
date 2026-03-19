@@ -313,3 +313,6 @@ Route::get('/thermenreparatur-1120-wien', fn() => view('thermenreparatur-wien.th
 Route::get('/thermenreparatur-1130-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1130-wien'))->name('thermenreparatur-1130-wien');
 Route::get('/thermenreparatur-1140-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1140-wien'))->name('thermenreparatur-1140-wien');
 Route::get('/thermenreparatur-1150-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1150-wien'))->name('thermenreparatur-1150-wien');
+
+
+

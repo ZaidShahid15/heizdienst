@@ -453,3 +453,6 @@ $metaDescription = "Thermenreparatur 1020 Wien vom Installateur Wien. Schnelle H
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
+
