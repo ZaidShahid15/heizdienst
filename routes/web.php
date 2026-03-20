@@ -298,21 +298,21 @@ Route::get('/thermentausch-1230-wien', fn() => view('thermentausch-wien.therment
 
 
 
-Route::get('/thermenreparatur-1010-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1010-wien'))->name('thermenreparatur-1010-wien');
-Route::get('/thermenreparatur-1020-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1020-wien'))->name('thermenreparatur-1020-wien');
-Route::get('/thermenreparatur-1030-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1030-wien'))->name('thermenreparatur-1030-wien');
-Route::get('/thermenreparatur-1040-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1040-wien'))->name('thermenreparatur-1040-wien');
-Route::get('/thermenreparatur-1050-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1050-wien'))->name('thermenreparatur-1050-wien');
-Route::get('/thermenreparatur-1060-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1060-wien'))->name('thermenreparatur-1060-wien');
-Route::get('/thermenreparatur-1070-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1070-wien'))->name('thermenreparatur-1070-wien');
-Route::get('/thermenreparatur-1080-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1080-wien'))->name('thermenreparatur-1080-wien');
-Route::get('/thermenreparatur-1090-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1090-wien'))->name('thermenreparatur-1090-wien');
-Route::get('/thermenreparatur-1100-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1100-wien'))->name('thermenreparatur-1100-wien');
-Route::get('/thermenreparatur-1110-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1110-wien'))->name('thermenreparatur-1110-wien');
-Route::get('/thermenreparatur-1120-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1120-wien'))->name('thermenreparatur-1120-wien');
-Route::get('/thermenreparatur-1130-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1130-wien'))->name('thermenreparatur-1130-wien');
-Route::get('/thermenreparatur-1140-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1140-wien'))->name('thermenreparatur-1140-wien');
-Route::get('/thermenreparatur-1150-wien', fn() => view('thermenreparatur-wien.thermenreparatur-1150-wien'))->name('thermenreparatur-1150-wien');
+Route::get('/Thermenreparatur-1010-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1010-wien'))->name('Thermenreparatur-1010-wien');
+Route::get('/Thermenreparatur-1020-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1020-wien'))->name('Thermenreparatur-1020-wien');
+Route::get('/Thermenreparatur-1030-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1030-wien'))->name('Thermenreparatur-1030-wien');
+Route::get('/Thermenreparatur-1040-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1040-wien'))->name('Thermenreparatur-1040-wien');
+Route::get('/Thermenreparatur-1050-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1050-wien'))->name('Thermenreparatur-1050-wien');
+Route::get('/Thermenreparatur-1060-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1060-wien'))->name('Thermenreparatur-1060-wien');
+Route::get('/Thermenreparatur-1070-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1070-wien'))->name('Thermenreparatur-1070-wien');
+Route::get('/Thermenreparatur-1080-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1080-wien'))->name('Thermenreparatur-1080-wien');
+Route::get('/Thermenreparatur-1090-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1090-wien'))->name('Thermenreparatur-1090-wien');
+Route::get('/Thermenreparatur-1100-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1100-wien'))->name('Thermenreparatur-1100-wien');
+Route::get('/Thermenreparatur-1110-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1110-wien'))->name('Thermenreparatur-1110-wien');
+Route::get('/Thermenreparatur-1120-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1120-wien'))->name('Thermenreparatur-1120-wien');
+Route::get('/Thermenreparatur-1130-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1130-wien'))->name('Thermenreparatur-1130-wien');
+Route::get('/Thermenreparatur-1140-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1140-wien'))->name('Thermenreparatur-1140-wien');
+Route::get('/Thermenreparatur-1150-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1150-wien'))->name('Thermenreparatur-1150-wien');
 
 
 
