@@ -373,7 +373,7 @@ $metaDescription = " Ocean Thermenwartung in Wien vom erfahrenen Fachbetrieb. 24
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 <main>
   <!-- HERO -->
   <!-- HERO (same style as previous “wolf-hero”, same Ocean content) -->
@@ -530,7 +530,7 @@ $metaDescription = " Ocean Thermenwartung in Wien vom erfahrenen Fachbetrieb. 24
       <div class="service-split__text">
         <h2>Ihr Ocean Partner in Wien & Umgebung</h2>
         <p>
-          Als verlässlicher Partner für Ocean Thermenwartung und professionellen Thermenservice stehen wir unseren Kunden mit Erfahrung,
+          Als verlässlicher Partner für <a href="{{ route('loeblich.thermenwartung') }}">Ocean Thermenwartung </a>  und professionellen Thermenservice stehen wir unseren Kunden mit Erfahrung,
           Fachwissen und persönlicher Betreuung zur Seite. Ziel: höchste Kundenzufriedenheit – vom Erstkontakt bis zur laufenden Wartung.
         </p>
         <p style="margin-top:10px;">
@@ -709,9 +709,11 @@ $metaDescription = " Ocean Thermenwartung in Wien vom erfahrenen Fachbetrieb. 24
       <div class="service-emergency__text">
         <h2>Ocean Notdienst Wien – 24 Stunden verfügbar</h2>
         <p>
-          Bei akuten Problemen, plötzlichen Ausfällen oder dringenden Notfällen steht Ihnen unser Ocean Notdienst rund um die Uhr zur Verfügung.
-          Wir reagieren schnell – unabhängig von Uhrzeit oder Wochentag.
-        </p>
+  Bei akuten Problemen, plötzlichen Ausfällen oder dringenden Notfällen steht Ihnen unser Ocean Notdienst rund um die Uhr zur Verfügung. Wir reagieren schnell – unabhängig von Uhrzeit oder Wochentag. Für langfristige Sicherheit empfehlen wir zudem eine regelmäßige
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenwartung Wien
+  </a>, um unerwartete Störungen zu vermeiden.
+</p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>

@@ -219,7 +219,7 @@
     width:100%;
     height:100%;
     display:block;
-    
+
     object-position:center;
   }
 
@@ -386,7 +386,7 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 <main>
   <!-- HERO -->
   <!-- HERO (wolf-hero style – Viessmann) -->
@@ -502,7 +502,7 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
       <div class="service-split__text">
         <h2>Ihr Viessmann Partner in Wien & Umgebung</h2>
         <p>
-          Als zuverlässiger Partner für Viessmann Thermenwartung, Thermenwartung in Wien und professionellen Thermenservice
+          Als zuverlässiger Partner für Viessmann Thermenwartung, <a href="{{ route('junkers.thermenwartung') }}">Thermenwartung </a> in Wien und professionellen Thermenservice
           stehen wir unseren Kunden mit Erfahrung, Expertise und technischem Know-how zur Seite.
         </p>
         <p style="margin-top:10px;">
@@ -568,7 +568,7 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
     </div>
   </section>
 
- 
+
 
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
@@ -723,10 +723,13 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Viessmann Notdienst Wien – 24 Stunden verfügbar</h2>
-        <p>
-          Bei akuten Problemen, sicherheitsrelevanten Notfällen oder plötzlichen Ausfällen steht Ihnen unser Notdienst rund um die Uhr zur Verfügung.
-          Unser Team reagiert schnell und zuverlässig – auch außerhalb regulärer Zeiten.
-        </p>
+       <p>
+  Bei akuten Problemen, sicherheitsrelevanten Notfällen oder plötzlichen Ausfällen steht Ihnen unser Notdienst rund um die Uhr zur Verfügung. Unser Team reagiert schnell und zuverlässig – auch außerhalb regulärer Zeiten. Eine regelmäßige
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenwartung Wien
+  </a>
+  hilft dabei, solche Ausfälle frühzeitig zu vermeiden.
+</p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>

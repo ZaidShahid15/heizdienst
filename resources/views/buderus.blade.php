@@ -567,11 +567,11 @@ $metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 2
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -773,7 +773,7 @@ $metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 2
       <div class="service-split__text">
         <h2>Ihr Buderus Partner in Wien & Umgebung</h2>
         <p>
-          Als zuverlässiger Partner für Buderus Thermenwartung in Wien, Thermenwartung Wien und Buderus Thermenservice
+          Als zuverlässiger Partner für Buderus Thermenwartung in Wien,<a href="{{ route('vaillant.thermenwartung') }}"> Thermenwartung Wien </a> und Buderus Thermenservice
           betreuen wir unsere Kunden mit Erfahrung, Fachkompetenz und persönlicher Beratung.
         </p>
         <p style="margin-top:10px;">
@@ -968,10 +968,12 @@ $metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 2
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Buderus Notdienst Wien – 24 Stunden Verfügbar</h2>
-        <p>
-          Bei akuten Notfällen, sicherheitsrelevanten Problemen oder kompletten Ausfällen ist unser Notdienst rund um die Uhr erreichbar.
-          Unser Kundendienst ist schnell bei Ihnen vor Ort und sorgt für eine sichere Lösung.
-        </p>
+       <p>
+  Bei akuten Notfällen, sicherheitsrelevanten Problemen oder kompletten Ausfällen ist unser Notdienst rund um die Uhr erreichbar. Unser Kundendienst ist schnell bei Ihnen vor Ort und sorgt für eine sichere Lösung. Für langfristige Sicherheit und weniger Störungen empfehlen wir zudem unseren
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenservice Niederösterreich
+  </a>.
+</p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
@@ -1129,7 +1131,7 @@ $metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 2
     if (y) y.textContent = new Date().getFullYear();
   })();
 </script>
-<!-- 
+<!--
 <script>
 (function(){
   // ✅ Make sure HTML exists before running (fixes “not collapsing” issues)

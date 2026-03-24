@@ -691,7 +691,7 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
           <div class="card-box">
             <h2>Ihr Junkers Partner in Wien & Umgebung</h2>
             <p>
-              Als verlässlicher Partner für Junkers Thermenwartung, Thermenwartung Junkers und Thermenservice stehen wir unseren Kunden mit Erfahrung,
+              Als verlässlicher Partner für Junkers Thermenwartung,<a href="{{ route('baxi.thermenwartung') }}"> Thermenwartung </a> Junkers und Thermenservice stehen wir unseren Kunden mit Erfahrung,
               Kompetenz und technischem Know-how zur Seite. Unser Kundendienst ist Ihr fixer Ansprechpartner für alles rund um Ihre Junkers Therme.
             </p>
             <p>
@@ -859,9 +859,11 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
       <div class="service-emergency__text">
         <h2>Junkers Notdienst Wien – 24 Stunden verfügbar</h2>
         <p>
-          Bei akuten Problemen, plötzlichen Ausfällen oder sicherheitsrelevanten Notfällen ist unser Notdienst rund um die Uhr erreichbar.
-          Egal ob Tag oder Uhrzeit – wir sind sofort zur Stelle.
-        </p>
+  Bei akuten Problemen, plötzlichen Ausfällen oder sicherheitsrelevanten Notfällen ist unser Notdienst rund um die Uhr erreichbar. Egal ob Tag oder Uhrzeit – wir sind sofort zur Stelle. Für mehr Sicherheit im Alltag empfehlen wir zudem unseren
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenservice Wien & Niederösterreich
+  </a>, um Störungen frühzeitig vorzubeugen.
+</p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>

@@ -785,7 +785,7 @@
         @media (max-width: 700px) {
             .wolf-hero {
                 padding: 100px 14px 86px;
-                min-height: 480px;  
+                min-height: 480px;
             }
 
             .wolf-hero__sub {
@@ -809,10 +809,10 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
     <main>
 
-        
+
         <!-- HERO -->
         {{-- <section class="service-hero" id="hero-services">
     <div class="service-container service-hero__grid">
@@ -844,7 +844,7 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
   </section> --}}
 
         <!-- HERO (wolf-hero style, Vaillant content) -->
-        
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -1219,10 +1219,12 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
             <div class="service-container service-emergency">
                 <div class="service-emergency__text">
                     <h2>Vaillant Notdienst Wien – 24 Stunden Verfügbar</h2>
-                    <p>
-                        Bei Notfällen, plötzlichen Ausfällen oder defekter Therme sind wir rund um die Uhr erreichbar.
-                        Unser Kundendienst reagiert schnell und sorgt für rasche Umsetzung vor Ort.
-                    </p>
+                  <p>
+  Bei Notfällen, plötzlichen Ausfällen oder defekter Therme sind wir rund um die Uhr erreichbar. Unser Kundendienst reagiert schnell und sorgt für rasche Umsetzung vor Ort. Für eine langfristig sichere und effiziente Funktion empfehlen wir zudem eine regelmäßige
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenwartung Wien & Niederösterreich
+  </a>.
+</p>
                     <div class="service-emergency__actions">
                         <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
                         <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>

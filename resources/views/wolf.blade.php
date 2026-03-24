@@ -384,7 +384,7 @@ $metaDescription = " Wolf Thermenwartung in Wien vom geprüften Fachbetrieb. 24h
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 <main>
   <!-- HERO -->
   <!-- HERO (wolf-hero style – Wolf) -->
@@ -542,7 +542,7 @@ $metaDescription = " Wolf Thermenwartung in Wien vom geprüften Fachbetrieb. 24h
       <div class="service-split__text">
         <h2>Ihr Wolf Partner in Wien & Umgebung</h2>
         <p>
-          Als verlässlicher Partner für Wolf Thermenwartung und professionellen Thermenservice betreuen wir unsere Kunden
+          Als verlässlicher Partner für <a href="{{ route('saunierduval.thermenwartung') }}"> Wolf Thermenwartung </a> und professionellen Thermenservice betreuen wir unsere Kunden
           mit Erfahrung, technischem Know-how und persönlichem Kundenservice.
         </p>
         <p style="margin-top:10px;">
@@ -714,10 +714,12 @@ $metaDescription = " Wolf Thermenwartung in Wien vom geprüften Fachbetrieb. 24h
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Wolf Notdienst Wien – 24 Stunden verfügbar</h2>
-        <p>
-          Bei akuten Notfällen, plötzlichen Problemen oder einer Störung ist unser Wolf Notdienst jederzeit erreichbar.
-          Schnell, zuverlässig und kompetent – direkt vor Ort in Wien und Niederösterreich.
-        </p>
+       <p>
+  Bei akuten Notfällen, plötzlichen Problemen oder einer Störung ist unser Wolf Notdienst jederzeit erreichbar. Schnell, zuverlässig und kompetent – direkt vor Ort in Wien und Niederösterreich. Für langfristige Sicherheit und weniger Ausfälle empfehlen wir zudem eine regelmäßige
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenwartung Wien
+  </a>.
+</p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>

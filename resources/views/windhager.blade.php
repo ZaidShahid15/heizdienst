@@ -580,7 +580,7 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
           <div class="card-box">
             <h2>Ihr Windhager Partner in Wien Niederösterreich</h2>
             <p>
-              Als erfahrener Partner für Windhager Thermenwartung Wien betreuen wir Privatkunden und Betriebe in Wien Niederösterreich und Burgenland. Unsere Windhager Experten verfügen über fundiertes Fachwissen und langjährige Erfahrung im Umgang mit jeder Windhager Therme, Gastherme und modernen Heizungsanlage.
+              Als erfahrener Partner für Windhager <a href="{{ route('rapido.thermenwartung') }}"> Thermenwartung Wien </a> betreuen wir Privatkunden und Betriebe in Wien Niederösterreich und Burgenland. Unsere Windhager Experten verfügen über fundiertes Fachwissen und langjährige Erfahrung im Umgang mit jeder Windhager Therme, Gastherme und modernen Heizungsanlage.
             </p>
             <p>
               Wir arbeiten nach Hersteller Standards und führen sämtliche Wartungsarbeiten mit höchster Professionalität durch. Als Meisterbetrieb und Installateur garantieren wir Sicherheit, Effizienz und Zuverlässigkeit im laufenden Betrieb Ihrer Heizung. Unser Engagement für Qualität und Kundenzufriedenheit macht uns zum verlässlichen Partner in Wien NÖ und BGld – direkt bei Ihnen vor Ort.
@@ -746,8 +746,12 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
       <div class="service-emergency__text">
         <h2>Windhager Notdienst Wien NÖ BGld</h2>
         <p>
-          Bei einem akuten Problem steht Ihnen unser Windhager Notdienst in Wien Niederösterreich und Burgenland jederzeit zur Verfügung. Der Notdienst reagiert rasch, um Sicherheit und Betrieb Ihrer Windhager Therme sicherzustellen.
-        </p>
+  Bei einem akuten Problem steht Ihnen unser Windhager Notdienst in Wien, Niederösterreich und Burgenland jederzeit zur Verfügung. Der Notdienst reagiert rasch, um Sicherheit und Betrieb Ihrer Windhager Therme sicherzustellen – besonders dann, wenn eine regelmäßige
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenwartung Wien
+  </a>
+  vernachlässigt wurde oder plötzlich Störungen auftreten.
+</p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
           Unser Windhager Notdienst übernimmt die schnelle Behebung von Störungen, damit Heizungsprobleme oder Ausfälle Ihrer Gastherme keine langen Unterbrechungen verursachen. Im Einsatz handeln unsere Experten effizient, professionell und lösungsorientiert – für maximale Zuverlässigkeit.
         </p>

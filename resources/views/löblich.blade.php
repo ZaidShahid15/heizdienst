@@ -498,10 +498,10 @@ $metaDescription = " Löblich Thermenwartung in Wien vom erfahrenen Fachbetrieb.
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -677,7 +677,7 @@ $metaDescription = " Löblich Thermenwartung in Wien vom erfahrenen Fachbetrieb.
       <div class="service-split__text">
         <h2>Ihr Löblich Partner in Wien & Umgebung</h2>
         <p>
-          Als verlässlicher Partner für Löblich Thermenwartung und professionellen Thermenservice betreuen wir unsere Kunden
+          Als verlässlicher Partner für <a href="{{ route('wolf.thermenwartung') }}"> Löblich Thermenwartung </a> und professionellen Thermenservice betreuen wir unsere Kunden
           persönlich und lösungsorientiert. Unser Ziel ist der sichere und effiziente Betrieb jeder Therme.
         </p>
         <p>
@@ -787,8 +787,12 @@ $metaDescription = " Löblich Thermenwartung in Wien vom erfahrenen Fachbetrieb.
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Löblich Notdienst Wien – 24 Stunden verfügbar</h2>
-        <p>Bei Notfall, Gasgeruch oder Ausfall sind wir jederzeit erreichbar.</p>
-        <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
+<p>
+  Bei Notfall, Gasgeruch oder Ausfall sind wir jederzeit erreichbar. Für mehr Sicherheit im Alltag empfehlen wir eine regelmäßige
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenwartung Wien
+  </a>.
+</p>        <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
       </div>
     </div>
   </section>
@@ -820,7 +824,7 @@ $metaDescription = " Löblich Thermenwartung in Wien vom erfahrenen Fachbetrieb.
 ])
 
 </main>
-<!-- 
+<!--
 <script>
 (function(){
   document.addEventListener('DOMContentLoaded', function(){

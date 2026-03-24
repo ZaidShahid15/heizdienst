@@ -373,7 +373,7 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 <main>
   <!-- HERO -->
  <!-- HERO (same layout/style as the previous wolf-hero, with Saunier Duval content) -->
@@ -488,7 +488,7 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
       <div class="service-split__text">
         <h2>Ihr Saunier Duval Partner in Wien & Umgebung</h2>
         <p>
-          Als verlässlicher Partner für Saunier Duval Thermenwartung, Thermenwartung Wien und professionellen Thermenservice
+          Als verlässlicher Partner für  Saunier Duval   Thermenwartung,<a href="{{ route('viessmann.thermenwartung') }}"> Thermenwartung Wien </a> und professionellen Thermenservice
           stehen wir Ihnen mit Erfahrung, Kompetenz und persönlichem Service zur Seite.
         </p>
         <p style="margin-top:10px;">
@@ -553,7 +553,7 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
     </div>
   </section>
 
- 
+
 
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
@@ -705,9 +705,11 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
       <div class="service-emergency__text">
         <h2>Saunier Duval Notdienst Wien – 24 Stunden verfügbar</h2>
         <p>
-          Bei akuten Problemen, plötzlichen Ausfällen oder sicherheitsrelevanten Notfällen steht Ihnen unser Notdienst rund um die Uhr zur Verfügung.
-          Egal ob Tag oder Uhrzeit – wir helfen schnell und zuverlässig.
-        </p>
+  Bei akuten Problemen, plötzlichen Ausfällen oder sicherheitsrelevanten Notfällen steht Ihnen unser Notdienst rund um die Uhr zur Verfügung. Egal ob Tag oder Uhrzeit – wir helfen schnell und zuverlässig. Zur Vorbeugung solcher Situationen empfehlen wir eine regelmäßige
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenwartung Wien
+  </a>.
+</p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>

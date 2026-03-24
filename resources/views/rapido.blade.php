@@ -597,7 +597,7 @@ $metaDescription = " Rapido Thermenwartung in Wien vom geprüften Fachbetrieb. 2
           <div class="card-box">
             <h2>Rapido Thermentausch Wien</h2>
             <p>
-              Ein professioneller Rapido Thermentausch Wien steht für sichere Gastherme, schnelle Abwicklung und zuverlässigen Service in Wien und Umgebung.
+              Ein professioneller Rapido  <a href="{{ route('ocean.thermenwartung') }}">Thermentausch Wien </a> steht für sichere Gastherme, schnelle Abwicklung und zuverlässigen Service in Wien und Umgebung.
             </p>
           </div>
         </div>
@@ -722,10 +722,13 @@ $metaDescription = " Rapido Thermenwartung in Wien vom geprüften Fachbetrieb. 2
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Montage, Betrieb und Sicherheit</h2>
-        <p>
-          Eine fachgerechte Montage ist entscheidend für Sicherheit, Effizienz und Langlebigkeit der Rapido Therme.
-          Unsere Techniker und Mitarbeiter führen alle Arbeiten an Gasgeräte, Heizung und Anschlüssen fachgerecht aus und achten auf höchste Sicherheit.
-        </p>
+      <p>
+  Eine fachgerechte Montage ist entscheidend für Sicherheit, Effizienz und Langlebigkeit der Rapido Therme. Unsere Techniker und Mitarbeiter führen alle Arbeiten an Gasgeräte, Heizung und Anschlüssen fachgerecht aus und achten auf höchste Sicherheit. Auch eine regelmäßige
+  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+    Thermenwartung Wien
+  </a>
+  trägt wesentlich dazu bei, die Funktion und Lebensdauer Ihrer Anlage langfristig zu sichern.
+</p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
           Regelmäßige Rapido Thermenwartung, Rapido Thermenservice und ein starker Rapido Kundendienst sichern Betrieb, Zuverlässigkeit und lange Lebensdauer.
         </p>

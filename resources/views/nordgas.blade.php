@@ -469,10 +469,10 @@ $metaDescription = " Professionelle Nordgas Thermenwartung Wien vom Fachbetrieb.
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -582,7 +582,7 @@ $metaDescription = " Professionelle Nordgas Thermenwartung Wien vom Fachbetrieb.
           <div class="card-box">
             <h2>Ihr Nordgas Fachbetrieb in Wien & Umgebung</h2>
             <p>
-              Als spezialisierter Fachbetrieb für Nordgas Thermenwartung Wien betreuen wir private Haushalte und Unternehmen in Wien, Niederösterreich und Burgenland mit höchster Kompetenz. Unsere Erfahrung mit Nordgas Geräten, Gasgeräte-Systemen und modernen Heizungsanlagen ermöglicht maßgeschneiderte Lösungen für jede Nordgas Therme.
+              Als spezialisierter Fachbetrieb für Nordgas <a href="{{ route('windhager.thermenwartung') }}"> Thermenwartung Wien </a> betreuen wir private Haushalte und Unternehmen in Wien, Niederösterreich und Burgenland mit höchster Kompetenz. Unsere Erfahrung mit Nordgas Geräten, Gasgeräte-Systemen und modernen Heizungsanlagen ermöglicht maßgeschneiderte Lösungen für jede Nordgas Therme.
             </p>
             <p>
               Unser Techniker Team arbeitet nach Herstellervorgaben und koordiniert jede Wartung, Reparatur oder Überprüfung sorgfältig vor Ort. Wir verwenden ausschließlich geprüfte Bauteile und Original Teilen vom Hersteller Nordgas, um Sicherheit, Qualität und langfristige Funktion zu gewährleisten. Als Installateur und offizieller Werkskundendienst stehen wir unseren Kunden zuverlässig zur Seite – ob im Herzen von Wien oder in NÖ und Niederösterreich.
@@ -754,11 +754,18 @@ $metaDescription = " Professionelle Nordgas Thermenwartung Wien vom Fachbetrieb.
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Nordgas Notdienst – jederzeit erreichbar</h2>
-        <p>
-          Bei einem Notfall oder plötzlichen Ausfällen Ihrer Nordgas Therme steht unser Notdienst in Wien rund um die Uhr bereit. Unser Techniker Team ist schnell im Einsatz – auch in Niederösterreich und Burgenland.
+       <p style="margin-bottom:12px;">
+        <a href="{{ route('home') }}" style="color:#fff; text-decoration:underline;">
+            Thermenwartung & Thermenservice Wien & Niederösterreich
+        </a>
         </p>
+
+        <p>
+        Bei einem Notfall oder plötzlichen Ausfällen Ihrer Nordgas Therme steht unser Notdienst in Wien rund um die Uhr bereit. Unser Techniker-Team ist schnell im Einsatz – auch in Niederösterreich und Burgenland.
+        </p>
+
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Gerade bei Störungen der Gastherme oder Problemen mit Gasgeräten ist rasche Hilfe entscheidend für Sicherheit und Wohnkomfort. Unser Kundendienst reagiert sofort und sorgt für eine zuverlässige Reparatur direkt vor Ort. Sie erreichen uns jederzeit telefonisch über unsere Telefon­nummer – wir lassen Sie im Ernstfall nicht allein.
+        Gerade bei Störungen der Gastherme oder Problemen mit Gasgeräten ist rasche Hilfe entscheidend für Sicherheit und Wohnkomfort. Unser Kundendienst reagiert sofort und sorgt für eine zuverlässige Reparatur direkt vor Ort. Sie erreichen uns jederzeit telefonisch über unsere Telefonnummer – wir lassen Sie im Ernstfall nicht allein. Zusätzlich bieten wir professionelle Thermenwartung & Thermenservice Wien & Niederösterreich, damit Ihre Anlage langfristig sicher und effizient läuft.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
