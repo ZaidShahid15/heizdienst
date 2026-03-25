@@ -603,12 +603,12 @@ $metaDescription = "Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wie
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermenreparatur Wien und Thermenservice</h2>
+            <h2 id="kundendienst">Kundendienst – Löblich Thermenreparatur Wien und Thermenservice</h2>
             <p>
-              Unsere Löblich Thermenreparatur Wien steht für professionellen Löblich Thermenservice und fachgerechte Reparaturen an allen Löblich Thermen. Als erfahrener Installateur betreuen wir Gasthermen, Gasgeräte und jedes einzelne Gerät direkt bei Ihnen zuhause in Wien und Umgebung.
+              Unsere Löblich Thermenreparatur Wien steht für professionellen Löblich Thermenservice und fachgerechte Reparaturen an allen Löblich Thermen. Zudem bieten wir einen <a href="/wolf-thermenreparatur-wien">fachgerechten Service für verschiedene Heizsysteme</a> für höchste Betriebssicherheit an.
             </p>
             <p>
-              Unser Kundendienst ist rasch im Einsatz und sorgt für sichere Überprüfung, gründliche Kontrolle und nachhaltige Lösung bei jedem Problem. Löblich arbeitet nach aktuellen Richtlinien der Hersteller und setzt auf hochwertige Ersatzteile für maximale Sicherheit. Ob für Mieter, Vermieter oder Eigentümer – wir kümmern uns um Thermenservice, Thermenwartung und optimale Funktionen Ihrer Heizungsanlage. Auch in Niederösterreich und im Burgenland stehen wir als verlässlicher Partner zur Verfügung.
+              Unser <a href="/">Kundendienst</a> ist rasch im Einsatz und sorgt für sichere Überprüfung, gründliche Kontrolle und nachhaltige Lösung bei jedem Problem. Löblich arbeitet nach aktuellen Richtlinien der Hersteller und setzt auf hochwertige Ersatzteile für maximale Sicherheit. Ob für Mieter, Vermieter oder Eigentümer – wir kümmern uns um Thermenservice, Thermenwartung und optimale Funktionen Ihrer Heizungsanlage. Auch in Niederösterreich und im Burgenland stehen wir als verlässlicher Partner zur Verfügung.
             </p>
           </div>
         </div>
@@ -697,7 +697,7 @@ $metaDescription = "Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wie
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Störungsbehebung & Reparaturen</h3>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
             <p>Rasche Störungsbehebung und Reparaturen durch Experten mit klarer Lösung und effizienter Durchführung. Wir stellen den optimalen Zustand Ihrer Thermen wieder her.</p>
           </div>
         </article>
@@ -719,7 +719,7 @@ $metaDescription = "Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wie
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Löblich Thermenwartung und langfristige Werterhaltung</h2>
+            <h2 id="thermenreparatur-wien">Löblich Thermenreparatur Wien und langfristige Werterhaltung</h2>
             <p>
               Eine professionelle Löblich Thermenwartung sorgt für dauerhafte Sicherheit, optimale Effizienz und stabile Leistung Ihrer Thermen. Unsere regelmäßige Thermenwartung umfasst Reinigung, Kontrolle aller sicherheitsrelevanten Komponenten sowie genaue Überprüfung der Gasgeräte.
             </p>
@@ -781,7 +781,7 @@ $metaDescription = "Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wie
       <div class="service-emergency__text">
         <h2>Sicherheit und Kontrolle im Notfall</h2>
         <p>
-          Bei einem Notfall mit Gas oder Wasser reagieren wir rasch, prüfen den Zustand Ihrer Therme und sorgen für sichere Abwicklung aller Arbeiten. Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Bei einem Notfall mit Gas oder Wasser reagieren wir rasch, prüfen den Zustand Ihrer Therme und sorgen für sichere Abwicklung aller Arbeiten. Unser <a href="/">Notdienst Wien</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
           Sicherheit hat dabei höchste Priorität. Unsere Servicetechniker analysieren die Situation, leiten Sofortmaßnahmen ein und sorgen für eine stabile Lösung – rund um die Uhr in Wien, Niederösterreich und Burgenland.

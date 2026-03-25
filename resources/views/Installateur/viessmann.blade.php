@@ -540,8 +540,7 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
       </div>
 
       <p class="wolf-hero__sub">
-       Als Viessmann Installateur Wien bieten wir professionelle Installation, Wartung und Service für moderne Heizsysteme, Thermen und Wärmepumpen in Wien.
-
+       Als Viessmann Installateur Wien bietet unser Fachbetrieb professionelle Installation, Wartung und Service für moderne Heizsysteme, Thermen und Wärmepumpe in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -637,8 +636,7 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
           <div class="card-box">
             <h2>Viessmann Partner in Wien</h2>
             <p>
-              Als erfahrener Viessmann Partner in Wien begleiten wir Kunden bei der Umsetzung moderner Heizlösungen nach aktuellem Standard.
-              Unsere Installateure arbeiten als Fachmann mit umfassender Erfahrung in Heizung, Wasser, Gas und innovativen Systemen.
+              Als erfahrener Viessmann Partner in Wien begleiten wir Kunden bei der Umsetzung moderner Heizlösungen nach aktuellem Standard. Zudem bieten wir eine <a href="/junkers-installateur-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Wir betreuen Viessmann Geräte und Produkte für Wohnungen und Häuser im gesamten Ort Wien sowie in der Umgebung.
@@ -665,9 +663,9 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
     <div class="service-container">
 
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
         <p>
-          Unser Installateur Service für Viessmann in Wien umfasst Installation, laufende Wartung und professionellen Kundendienst – von der ersten Beratung bis zur laufenden Betreuung.
+          Unser Installateur Service für Viessmann in Wien umfasst Installation, laufende Wartung und professionellen <a href="/">Kundendienst</a> – von der ersten Beratung bis zur laufenden Betreuung.
         </p>
       </div>
 
@@ -684,7 +682,7 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
           <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
             <h3>Thermenwartung und Thermenservice</h3>
-            <p>Unsere Thermenwartung und unser Thermenservice sichern die Funktion der Therme, verbessern Effizienz und sorgen für einen stabilen Betrieb.</p>
+            <p>Unsere <a href="/">Thermenwartung Wien</a> und unser Thermenservice sichern die Funktion der Therme, verbessern Effizienz und sorgen für einen stabilen Betrieb.</p>
           </div>
         </article>
 
@@ -699,8 +697,8 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Service bei Notfällen</h3>
-            <p>Bei Notfällen reagieren wir rasch, analysieren das Anliegen vor Ort und stellen eine sichere Lösung für Heizung und Wärme bereit.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Bei Notfällen reagieren wir rasch, analysieren das Anliegen vor Ort und stellen eine sichere Lösung für Heizung und Wärme bereit. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
       </div>
@@ -750,7 +748,7 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Beratung, Angebot und Kosten</h2>
+            <h2 id="installateur-wien">Viessmann Installateur Wien – Beratung, Angebot und Kosten</h2>
             <p>
               Eine fundierte Beratung ist die Basis jeder guten Heizlösung.
               Wir analysieren Bedürfnisse, Faktoren wie Gebäudeart, Postleitzahl, Heizbedarf und bestehende Systeme.

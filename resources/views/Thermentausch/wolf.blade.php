@@ -664,9 +664,7 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine alte Therme häufige Reparaturen benötigt, der Energieverbrauch steigt
-              oder die Heizleistung nicht mehr ausreicht. Besonders bei älteren Wolf Gasthermen nimmt die Effizienz mit dem Alter ab,
-              was höhere Betriebskosten verursacht.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine alte Therme häufige Reparaturen benötigt, der Energieverbrauch steigt oder die Heizleistung nicht mehr ausreicht. Zudem bieten wir <a href="/saunier-thermentausch-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Moderne Wolf Thermen bieten eine verbesserte Brennwerttechnik, geringeren Energieverbrauch und mehr Sicherheit.
@@ -744,8 +742,8 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔎</div>
           <div>
-            <h3>Besichtigung und Planung</h3>
-            <p>Nach der Kontaktaufnahme erfolgt die Besichtigung der alten Therme und der Heizungsanlage. Danach plant der Fachmann den Austausch.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Nach der Kontaktaufnahme erfolgt die Besichtigung der alten Therme und der Heizungsanlage. Danach plant der Fachmann den Austausch. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
 
@@ -812,7 +810,7 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Förderungen</h2>
+            <h2 id="thermentausch-wien">Wolf Thermentausch Wien – Kosten, Preise und Förderungen</h2>
             <p>
               Die Kosten für einen Wolf Thermentausch in Wien hängen von Gerät, Heizleistung, Installation und Zustand der Anlage ab.
               Ein transparenter Kostenvoranschlag zeigt Preise inklusive MwSt und mögliche Förderungen.
@@ -871,7 +869,7 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
   <section class="service-section service-section--dark" id="vorteile-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Warum ein professioneller Wolf Thermentausch überzeugt</h2>
+        <h2 id="kundendienst">Kundendienst – Warum ein professioneller Wolf Thermentausch überzeugt</h2>
         <p>
           Ein fachgerecht durchgeführter Wolf Thermentausch sorgt für langfristige Sicherheit, hohe Effizienz und stabile Heizleistung.
           Unsere Experten prüfen alte Therme, Anlage, Gasgeräte und Heizsystemen sorgfältig.
@@ -926,7 +924,7 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
 
         <details>
           <summary>Sind Wartung und Thermenservice notwendig?</summary>
-          <p>Ja, regelmäßige Wartung, Wolf Thermenservice und Kundendienst sichern Effizienz, Sicherheit und lange Lebensdauer.</p>
+          <p>Ja, regelmäßige Wartung, Wolf Thermenservice und <a href="/">Kundendienst</a> sichern Effizienz, Sicherheit und lange Lebensdauer.</p>
         </details>
 
         <details>

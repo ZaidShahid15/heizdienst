@@ -604,7 +604,7 @@ $metaDescription = "Saunier Duval Thermenreparatur Wien vom Fachbetrieb. Thermen
           <div class="card-box">
             <h2>Saunier Duval Thermenreparatur Wien und Kundendienst</h2>
             <p>
-              Unsere Saunier Duval Thermenreparatur Wien bietet professionelle Thermenreparatur, zuverlässigen Kundendienst und umfassenden Service für alle Saunier Duval Gasgeräte. Als erfahrener Installateur betreuen wir jede Saunier Duval Therme, moderne Duval Therme sowie effiziente Gastherme Modelle direkt vor Ort in Wien und Umgebung.
+              Unsere Saunier Duval Thermenreparatur Wien bietet professionelle Thermenreparatur, zuverlässigen Kundendienst und umfassenden Service für alle Saunier Duval Gasgeräte. Zudem bieten wir <a href="/viessmann-thermenreparatur-wien">zuverlässige Heizungsservice-Leistungen</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Unsere Techniker analysieren Probleme rasch und führen jede Reparatur nach Vorgaben vom Hersteller durch. Ob Thermenstörung, Heizungsausfall oder allgemeine Probleme im Betrieb – unser Team sorgt für eine nachhaltige Lösung. Durch regelmäßige Thermenwartung erhöhen wir Sicherheit, Effizienz und Langlebigkeit Ihrer Anlage. Wir betreuen Wien, Niederösterreich und stehen als verlässlicher Partner jederzeit zur Verfügung.
@@ -627,8 +627,8 @@ $metaDescription = "Saunier Duval Thermenreparatur Wien vom Fachbetrieb. Thermen
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Saunier Duval Thermenreparatur Wien Experten</h2>
-            <p>
+            <h2 id="kundendienst">Kundendienst – Saunier Duval Thermenreparatur Wien Experten</h2>
+            <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
               Unser Team besteht aus erfahrenen Servicetechnikern und Installateuren mit umfassendem Know-how im Umgang mit Saunier Duval Gasthermen und Duval Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards und führt Reparaturen mit höchster Professionalität durch.
             </p>
             <p>
@@ -718,7 +718,7 @@ $metaDescription = "Saunier Duval Thermenreparatur Wien vom Fachbetrieb. Thermen
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Saunier Duval Thermenwartung Wien für Sicherheit und Effizienz</h2>
+            <h2 id="thermenreparatur-wien">Saunier Duval Thermenreparatur Wien für Sicherheit und Effizienz</h2>
             <p>
               Eine regelmäßige Thermenwartung ist entscheidend für die Sicherheit und langfristige Funktion Ihrer Saunier Duval Therme. Unsere professionelle Thermenwartung Wien sowie spezialisierte Saunier Duval Thermenwartung umfasst gründliche Kontrolle aller Gasgeräte, sorgfältige Reinigung wichtiger Komponenten und präzise Überprüfung der gesamten Anlage.
             </p>
@@ -778,7 +778,7 @@ $metaDescription = "Saunier Duval Thermenreparatur Wien vom Fachbetrieb. Thermen
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Saunier Duval Notdienst Wien rund um die Uhr</h2>
+        <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
         <p>
           Bei akuten Ausfällen steht unser Saunier Duval Notdienst in Wien rund um die Uhr zur Verfügung. Ob Heizungsausfall, Defekt an der Duval Therme oder sicherheitsrelevantes Problem – unsere Techniker sind schnell am Ort. Der Notdienst betreut Wien und Niederösterreich zuverlässig.
         </p>
@@ -874,7 +874,7 @@ $metaDescription = "Saunier Duval Thermenreparatur Wien vom Fachbetrieb. Thermen
 
         <details>
           <summary>Ist der Saunier Duval Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Notdienst ist rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
+          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
         </details>
 
         <details>

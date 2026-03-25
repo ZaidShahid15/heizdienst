@@ -1220,11 +1220,11 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
                 <div class="service-emergency__text">
                     <h2>Vaillant Notdienst Wien – 24 Stunden Verfügbar</h2>
                   <p>
-  Bei Notfällen, plötzlichen Ausfällen oder defekter Therme sind wir rund um die Uhr erreichbar. Unser Kundendienst reagiert schnell und sorgt für rasche Umsetzung vor Ort. Für eine langfristig sichere und effiziente Funktion empfehlen wir zudem eine regelmäßige
-  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
-    Thermenwartung Wien & Niederösterreich
-  </a>.
-</p>
+                    Bei Notfällen, plötzlichen Ausfällen oder defekter Therme sind wir rund um die Uhr erreichbar. Unser Kundendienst reagiert schnell und sorgt für rasche Umsetzung vor Ort. Für eine langfristig sichere und effiziente Funktion empfehlen wir zudem eine regelmäßige
+                    <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+                        Thermenwartung Wien & Niederösterreich
+                    </a>.
+                    </p>
                     <div class="service-emergency__actions">
                         <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
                         <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>

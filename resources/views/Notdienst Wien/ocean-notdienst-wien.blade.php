@@ -505,7 +505,7 @@
 </style>
 
 @php
-$metaTitle = "Ocean Thermenservice Wien – Notdienst & Thermenwartung 24h";
+$metaTitle = "Notdienst Wien – Thermenservice & Thermenwartung 24h";
 $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ Thermenwartung, Ocean Gastherme & Heizung ✔ Kundendienst Wien mit Erfahrung.";
 @endphp
 
@@ -652,8 +652,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
           <div class="card-box">
             <h2>Ocean Service in Wien</h2>
             <p>
-              Als erfahrener Partner betreuen wir Ocean Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Als erfahrener Partner betreuen wir Ocean Geräte, Gasgeräte und moderne Heizsysteme für Zuhause. Als spezialisierter Installateur für Heiztechnik übernehmen wir die fachgerechte Wartung und Reparatur Ihrer Geräte. Für weitere Marken bieten wir zudem einen <a href="/löblich-notdienst-wien">Löblich Notdienst Wien</a> an.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,
@@ -902,7 +901,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
             <h2>Regionale Betreuung</h2>
             <p>
               Wir betreuen Kunden in Wien sowie Niederösterreich und im Burgenland.
-              Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
+              Kurze Wege und regionale Nähe sichern schnellen Service durch unseren <a href="/">Thermenwartung Wien & Niederösterreich</a> Experten-Service in allen Regionen.
             </p>
           </div>
         </div>

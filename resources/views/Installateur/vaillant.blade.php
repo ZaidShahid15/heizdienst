@@ -542,8 +542,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
       </div>
 
       <p class="wolf-hero__sub">
-        Als zuverlässiger Vaillant Installateur Wien bieten wir professionelle Installation, Wartung und Service für Therme, Heizung und Gasgeräte in Wien.
-
+        Als zuverlässiger Vaillant Installateur Wien bietet unser Fachbetrieb professionelle Installation, Wartung und Service für Therme, Heizung und Gasgeräte in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -640,7 +639,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
           <div class="card-box">
             <h2>Vaillant Installateur Wien</h2>
             <p>
-              Als zuverlässiger Vaillant Installateur Wien bieten wir professionelle Installation, Wartung und Service für Therme, Heizung und Gasgeräte in Wien.
+              Als zuverlässiger Vaillant Installateur Wien bietet unser Fachbetrieb professionelle Installation, Wartung und Service für Therme, Heizung und Gasgeräte. Zudem bieten wir eine <a href="/nordgas-installateur-wien">umfassende Betreuung von Gasgeräten</a> an, um die Funktion Ihrer Anlage langfristig zu sichern.
             </p>
           </div>
         </div>
@@ -686,13 +685,13 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
   <section class="service-section" id="service-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
         <p>Unser Installateur Service in Wien deckt die komplette Installation, laufende Wartung und professionelle Thermenwartung von Vaillant Geräten ab.</p>
       </div>
 
       <div class="card-box" style="margin-bottom:14px;">
         <p>
-          Wir übernehmen Montage, Einbau und Inbetriebnahme von Therme, Gastherme und Heizungsanlage ebenso wie regelmäßige Wartung und Kundendienst. Eine fachgerechte Installation sorgt für sicheren Betrieb, effiziente Nutzung und langfristige Qualität.
+          Wir übernehmen Montage, Einbau und Inbetriebnahme von Therme, Gastherme und Heizungsanlage ebenso wie regelmäßige Wartung und <a href="/">Kundendienst</a>. Eine fachgerechte Installation sorgt für sicheren Betrieb, effiziente Nutzung und langfristige Qualität.
         </p>
         <p>
           Durch strukturierte Wartung lassen sich Störungen frühzeitig erkennen und Reparatur-Einsätze minimieren. Unser Service richtet sich an private Kunden und Betriebe, die Wert auf zuverlässige Technik, transparente Abläufe und einen kompetenten Fachmann legen. Auch bei Reparatur, Installationsanzeige oder laufendem Betrieb stehen wir als verlässlicher Partner zur Verfügung.
@@ -727,8 +726,8 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
-            <h3>Notdienst rund um Uhr</h3>
-            <p>Unser Notdienst ist rund um die Uhr im Einsatz und hilft bei akuten Problemen schnell vor Ort in Wien und Umgebung.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p><a href="/">Notdienst Wien</a> rund um die Uhr im Einsatz und hilft bei akuten Problemen schnell vor Ort in Wien und Umgebung.</p>
           </div>
         </article>
       </div>
@@ -746,7 +745,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
               Wir betreuen Vaillant Heizungssysteme, Gasgeräte und Warmwasser-Lösungen mit moderner Technik und hoher Sicherheit. Ob Gastherme, Brennwert-Gerät oder Heizwert-System – unsere Installateure kennen jede Anlage im Detail.
             </p>
             <p>
-              Eine optimal eingestellte Heizung sorgt für gleichmäßige Wärme im Raum, niedrigen Verbrauch und zuverlässige Nutzung im Alltag. Auch Wasser-Systeme und Warmwasser-Aufbereitung werden fachgerecht geprüft, gewartet und bei Bedarf repariert.
+              Eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie die optimal eingestellte Heizung sorgt für gleichmäßige Wärme im Raum, niedrigen Verbrauch und zuverlässige Nutzung im Alltag. Auch Wasser-Systeme und Warmwasser-Aufbereitung werden fachgerecht geprüft, gewartet und bei Bedarf repariert.
             </p>
             <p>
               Durch den Einsatz aktueller Technologie und geprüfter Technik gewährleisten wir einen effizienten Betrieb und reduzieren das Risiko von Störungen. Unser Service verbindet Komfort, Sicherheit und nachhaltige Qualität für Kunden in Wien.
@@ -769,7 +768,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preis, MwSt und Angebote</h2>
+            <h2 id="installateur-wien">Vaillant Installateur Wien – Preis, MwSt und Angebote</h2>
             <p>
               Transparente Preisgestaltung ist ein zentraler Bestandteil unseres Services als Vaillant Installateur Wien. Unsere Preise sind klar aufgebaut, die MwSt wird vollständig ausgewiesen und alle Kosten verständlich erklärt.
             </p>

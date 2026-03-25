@@ -499,8 +499,7 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
       </div>
 
       <p class="wolf-hero__sub">
-        Als Ocean Installateur Wien bieten wir professionelle Thermenwartung Wien, Reparatur und Ocean Notdienst für Ocean Therme und Gasgeräte in Wien.
-
+        Als Ocean Installateur Wien bietet unser Fachbetrieb professionelle Ocean Thermenwartung, Reparatur und Ocean Notdienst für Ocean Therme und Gasgeräte in Wien. Zusätzlich bieten wir einen Service für maximale Heizsicherheit an.
       </p>
 
       <div class="wolf-hero__actions">
@@ -596,8 +595,7 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
           <div class="card-box">
             <h2>Ocean Partner in Wien</h2>
             <p>
-              Als erfahrener Installateur und zuverlässiger Partner für Ocean in Wien betreuen wir Ocean Therme, Ocean Heizung und Ocean Gasgeräte mit höchstem Fachwissen.
-              Unser Unternehmen bietet umfassende Dienstleistungen für Kunden in Wien und Umgebung sowie in Niederösterreich.
+              Als erfahrener Installateur und zuverlässiger Partner für Ocean in Wien betreuen wir Ocean Therme, Ocean Heizung und Ocean Gasgeräte mit höchstem Fachwissen. Zudem bieten wir eine <a href="/löblich-installateur-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Wir arbeiten mit qualifiziertem Fachpersonal und erfahrenen Technikern, die regelmäßige Wartung, Reparatur und Installationen fachgerecht durchführen.
@@ -620,7 +618,7 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
   <section class="service-section service-section--soft" id="service-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
         <p>
           Unsere Installationen, Wartungen und Reparaturen decken Ocean Therme, Gasthermen und Sanitärinstallationen ab – mit klarem Ablauf, sauberer Ausführung und transparentem Service.
         </p>
@@ -666,8 +664,8 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Ocean Notdienst rund um Uhr</h3>
-            <p>Unser Ocean Notdienst ist rund um die Uhr verfügbar und bietet schnelle Hilfe bei akuten Störungen oder im Notfall in Wien.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Unser Ocean <a href="/">Notdienst Wien</a> ist rund um die Uhr verfügbar und bietet schnelle Hilfe bei akuten Störungen oder im Notfall in Wien.</p>
           </div>
         </article>
       </div>
@@ -682,13 +680,12 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
           <div class="card-box">
             <h2>Heizung, Gasgeräte und Sanitär</h2>
             <p>
-              Wir betreuen Ocean Heizung, Gasgeräte, Gasthermen, Kombithermen sowie Sanitär- und Klimatechnik-Systeme.
-              Durch regelmäßige Thermenwartung Wien und professionelle Wartungen stellen wir sicher, dass Ihre Therme, Boiler oder Heizsysteme in Bestform bleiben.
+              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie professionelle Wartungen stellen wir sicher, dass Ihre Therme, Boiler oder Heizsysteme in Bestform bleiben.
             </p>
             <p>
               Unsere Experten prüfen Energieverbrauch, Wasserführung und sicherheitsrelevante Komponenten sorgfältig.
               Auch im Fall eines Defekts stehen unsere Fachleuten rasch zur Verfügung.
-              Neben Ocean betreuen wir auch ausgewählte Marken wie Saunier Duval – für eine umfassende Palette an Dienstleistungen für Heizung, Sanitär und Energie in Wien und Umgebung.
+              Neben Ocean betreuen wir auch ausgewählte Marken wie Saunier Duval – für eine umfassende Palette an Dienstleistungen für Heizung, Sanitär and Energie in Wien und Umgebung.
             </p>
           </div>
         </div>
@@ -708,7 +705,7 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, Beratung und Angebote</h2>
+            <h2 id="installateur-wien">Ocean Installateur Wien – Preise, Beratung und Angebote</h2>
             <p>
               Transparente Preise und faire Beratung sind fester Bestandteil unserer Arbeit.
               Vor jeder Reparatur, Wartung oder Thermenservice erhalten Kunden eine klare Kostenübersicht.
@@ -861,7 +858,7 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
 
         <details>
           <summary>Was tun bei Fehlermeldungen?</summary>
-          <p>Kontaktieren Sie unseren Kundendienst Wien – unsere Techniker analysieren Fehlermeldungen und lösen das Problem effizient.</p>
+          <p>Kontaktieren Sie unseren <a href="/">Kundendienst</a> Wien – unsere Techniker analysieren Fehlermeldungen und lösen das Problem effizient.</p>
         </details>
       </div>
     </div>

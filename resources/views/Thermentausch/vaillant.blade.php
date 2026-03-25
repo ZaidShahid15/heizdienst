@@ -642,8 +642,7 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
           <div class="card-box">
             <h2>Wann ein Thermentausch sinnvoll ist</h2>
             <p>
-              Ein Thermentausch ist sinnvoll, wenn eine alte Gastherme häufige Reparatur benötigt, hohe Kosten verursacht oder nicht mehr dem aktuellen Stand der Technik entspricht.
-              Besonders bei veralteten Heizwert-Geräten lohnt sich der Austausch auf moderne Vaillant Brennwertthermen.
+              Ein Thermentausch ist sinnvoll, wenn eine alte Gastherme häufige Reparatur benötigt, hohe Kosten verursacht oder nicht mehr dem aktuellen Stand der Technik entspricht. Zudem bieten wir <a href="/buderus-thermentausch-wien">zuverlässige Heizungsservice-Leistungen</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Diese arbeiten effizienter, senken den Gasverbrauch und verbessern die Leistung der gesamten Heizung.
@@ -773,7 +772,7 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Aktionsangebote</h2>
+            <h2 id="thermentausch-wien">Vaillant Thermentausch Wien – Kosten, Preise und Aktionsangebote</h2>
             <p>
               Die Kosten für einen Vaillant Thermentausch in Wien hängen vom Modell, Zubehör, Montageaufwand und den Anschlüssen ab.
               Moderne Brennwertthermen sind in verschiedenen Preisklassen verfügbar und oft im Aktionspreis erhältlich.
@@ -834,7 +833,7 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
   <section class="service-section" id="warum-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Warum ein professioneller Thermentausch entscheidet</h2>
+        <h2 id="kundendienst">Kundendienst – Warum ein professioneller Thermentausch entscheidet</h2>
         <p>Ein fachgerecht durchgeführter Thermentausch erhöht Effizienz, Sicherheit und Lebensdauer – mit sauberer Montage, korrekter Anzeige und dokumentierter Inbetriebnahme.</p>
       </div>
 
@@ -866,8 +865,8 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
-            <h3>Ein Ansprechpartner von Planung bis Betrieb</h3>
-            <p>Kunden profitieren von einem klaren Überblick, festen Ansprechpartnern und professionellem Kundendienst – von der Einführung bis zum laufenden Betrieb.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Kunden profitieren von einem klaren Überblick, festen Ansprechpartnern und professionellem <a href="/">Kundendienst</a> – von der Einführung bis zum laufenden Betrieb. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
       </div>

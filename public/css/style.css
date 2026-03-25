@@ -2908,3 +2908,10 @@ font-weight: normal !important;
   }
 }
 
+.service-emergency__text  p a{
+    color:#EE7C20 !important;
+}
+
+.card-box  p a{
+    color:#EE7C20 !important;
+}

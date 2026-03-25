@@ -484,11 +484,11 @@ $metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -600,9 +600,7 @@ $metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen
-              oder Sicherheitsaspekte nicht mehr erfüllt sind. Besonders ältere Löblich Thermen oder Gasgeräte verlieren mit der Zeit
-              an Effizienz und verursachen steigende Energiekosten.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende <strong>Therme</strong> häufige Störungen zeigt, <strong>Wartung</strong> und <strong>Reparatur</strong> zunehmen oder Sicherheitsaspekte nicht mehr erfüllt sind. Zudem bieten wir <a href="/wolf-thermentausch-wien">einen fachgerechten Service für verschiedene Heizsysteme</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Regelmäßige Thermenwartung kann die Lebensdauer verlängern, doch bei Schäden, Gasgeruch oder Problemen mit Abgasmessung
@@ -682,7 +680,7 @@ $metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔎</div>
           <div>
-            <h3>Überprüfung und Planung</h3>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
             <p>Wir prüfen Zustand, Heizsystem, Gasgeräte und Wasseranschlüsse und planen den Tausch passend zu Ihrem Zuhause und Bedarf.</p>
           </div>
         </article>
@@ -750,7 +748,7 @@ $metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Vorteile und Transparenz</h2>
+            <h2 id="thermentausch-wien">Löblich Thermentausch Wien – Kosten, Vorteile und Transparenz</h2>
             <p>
               Die Kosten für einen Löblich Thermentausch in Wien hängen von Gerät, Montageaufwand und Zustand der Anlage ab.
               Transparente Kosten schaffen Vertrauen und Planungssicherheit.
@@ -810,14 +808,13 @@ $metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen
   <section class="service-section service-section--dark" id="vorteile-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Warum ein professioneller Löblich Thermentausch überzeugt</h2>
-        <p>
+        <h2 id="kundendienst">Kundendienst – Warum ein professioneller Löblich Thermentausch überzeugt</h2>
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
           Ein fachgerecht umgesetzter Löblich Thermentausch erhöht die Sicherheit, senkt Energiekosten und verbessert das Raumklima dauerhaft.
           Unsere Experten prüfen Therme, Heizsystem, Wasseranschlüsse und Emissionen sorgfältig.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Durch saubere Montage, regelmäßige Löblich Thermenwartung und zuverlässigen Kundendienst bleibt die neue Therme langlebig und effizient.
-          Kunden profitieren von persönlicher Betreuung, hoher Kompetenz und einem festen Partner für Wartung, Reparaturen, Löblich Thermenreparatur und Notdienst.
+          Durch saubere Montage, regelmäßige Löblich <strong>Wartung</strong> und zuverlässigen Kundendienst bleibt die neue Therme langlebig und effizient. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Beratung anfordern</a>
@@ -875,7 +872,7 @@ $metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen
 
         <details>
           <summary>Wer ist Ansprechpartner für Service und Notdienst?</summary>
-          <p>Unser Kundenservice, Servicetechniker und Notdienst stehen bei Anliegen, Störungen oder Fragen zuverlässig zur Verfügung.</p>
+          <p>Unser Kundenservice, Servicetechniker und <a href="/">Notdienst Wien</a> stehen bei Anliegen, Störungen oder Fragen zuverlässig zur Verfügung.</p>
         </details>
       </div>
     </div>

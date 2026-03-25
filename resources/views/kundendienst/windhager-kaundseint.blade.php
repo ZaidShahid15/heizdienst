@@ -473,7 +473,7 @@ $metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Therme
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -588,7 +588,8 @@ $metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Therme
             <h2>Windhager Service in Wien</h2>
             <p>
               Der Windhager Kundendienst Wien bietet zuverlässigen Service für Windhager Gastherme, Thermen und moderne Heizsysteme direkt am Ort.
-              Kunden in Wien und Niederösterreich profitieren von schneller Hilfe, persönlicher Beratung und professioneller Betreuung.
+              Als spezialisierter <strong>Installateur</strong> für <strong>Wartung</strong> und <strong>Reparatur</strong> betreuen wir Boiler in Wien &amp; Niederösterreich –
+              mehr zur <a href="{{ route('rapido.thermenwartung') }}">Thermenwartung Wien</a>.
             </p>
             <p>
               Als Meisterbetrieb arbeiten wir nach höchsten Standards und betreuen unterschiedliche Modelle der Marke Windhager.
@@ -680,7 +681,7 @@ $metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Therme
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3>Windhager Notdienst Einsatz</h3>
-            <p>Zuverlässiger Windhager Notdienst im Einsatz bei Notfällen oder akuten Problemen.</p>
+            <p>Zuverlässiger Windhager <a href="/">Notdienst Wien</a> im Einsatz bei Notfällen oder akuten Problemen.</p>
           </div>
         </article>
 
@@ -746,7 +747,9 @@ $metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Therme
           <div class="card-box">
             <h2>Reparatur & Ersatzteile</h2>
             <p>
-              Der Windhager Kundendienst Wien übernimmt fachgerechte Reparaturarbeiten an Gastherme, Therme und Heizung.
+              Der Windhager Kundendienst Wien übernimmt fachgerechte Reparaturarbeiten an Gastherme, Therme und Heizung. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
+            </p>
+            <p>
               Unsere Techniker prüfen die Ursache, führen eine präzise Diagnose durch und beheben Störungen zuverlässig.
               Dabei berücksichtigen wir Fehler, Fehlermeldungen und typische Fehlercode-Hinweise wie E02 Überhitzungsschutz,
               E133 Zündungsfehler oder E161 Lüfterfehler.
@@ -874,7 +877,7 @@ $metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Therme
       <div class="service-faq">
         <details>
           <summary>Was umfasst der Windhager Kundendienst Wien?</summary>
-          <p>Unser Kundendienst umfasst Thermenservice, Wartung, Thermenwartung, Reparatur, Diagnose und Notdienst für Windhager Geräte.</p>
+          <p>Unser <a href="/">Kundendienst</a> umfasst Thermenservice, Wartung, Thermenwartung, Reparatur, Diagnose und Notdienst für Windhager Geräte.</p>
         </details>
 
         <details>

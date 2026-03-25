@@ -624,12 +624,11 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
           <div class="card-box">
             <h2>Rapido Thermenreparatur Wien und Rapido Kundendienst</h2>
             <p>
-              Unsere Rapido Thermenreparatur Wien steht für professionelle Reparatur, zuverlässigen Rapido Kundendienst und umfassenden Rapido Thermenservice.
-              Als erfahrener Installateur betreuen wir Rapido Thermen, Rapido Gasgeräte und moderne Gasthermen in Wien, Niederösterreich und Umgebung.
+              Unsere Rapido Thermenreparatur Wien steht für professionelle Reparatur, zuverlässigen Rapido Kundendienst und umfassenden Rapido Thermenservice. Zudem bieten wir <a href="/ocean-thermenreparatur-wien">zuverlässige Heizungsservice-Leistungen</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Rapido Gastherme, Durchlauferhitzer oder komplettes Heizsystem – unser Techniker Team analysiert Probleme präzise und sorgt für sichere Lösungen.
-              Der Rapido Kundendienst Wien übernimmt Überprüfung, Reinigung und fachgerechte Arbeiten direkt bei Ihnen zuhause.
+              Der Rapido <a href="/">Kundendienst</a> Wien übernimmt Überprüfung, Reinigung und fachgerechte Arbeiten direkt bei Ihnen zuhause.
               Mit Know-how, Berufserfahrung und klarer Terminvergabe garantieren wir effiziente Reparatur und nachhaltige Betreuung.
               Auch im Burgenland und NÖ stehen wir als verlässlicher Partner zur Verfügung.
             </p>
@@ -658,7 +657,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparatur Ihrer Rapido Gastherme bei Problemen</h2>
+            <h2 id="kundendienst">Kundendienst – Reparatur Ihrer Rapido Gastherme bei Problemen</h2>
             <p>
               Wenn Ihre Rapido Gastherme nicht mehr korrekt im Betrieb läuft oder Gasgeruch auftritt, ist rascher Einsatz entscheidend.
               Unsere Servicetechniker führen Abgasmessung, gründliche Überprüfung und gezielte Reparatur durch.
@@ -685,7 +684,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Rapido Notdienst Wien rund um die Uhr</h2>
+        <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
         <p>
           Bei einem Notfall steht unser Rapido Notdienst in Wien und Wien Niederösterreich rund um die Uhr zur Verfügung.
           Der Notdienst reagiert schnell bei Ausfall der Heizung, Defekt an Rapido Thermen oder akuten Gas Problemen.
@@ -751,7 +750,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Rapido Thermenwartung Wien für langfristige Effizienz</h2>
+            <h2 id="thermenreparatur-wien">Rapido Thermenreparatur Wien für langfristige Effizienz</h2>
             <p>
               Eine regelmäßige Rapido Thermenwartung ist entscheidend für Sicherheit, Effizienz und einen stabilen Betrieb Ihrer Therme.
               Unsere professionelle Thermenwartung in Wien umfasst gründliche Überprüfung aller Gasgeräte, sorgfältige Reinigung und präzise Einstellung der Anlage.
@@ -870,7 +869,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
 
         <details>
           <summary>2. Ist der Rapido Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Notdienst ist rund um die Uhr in Wien, Niederösterreich (NÖ) und Burgenland verfügbar.</p>
+          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien, Niederösterreich (NÖ) und Burgenland verfügbar.</p>
         </details>
 
         <details>

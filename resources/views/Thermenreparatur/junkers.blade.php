@@ -632,10 +632,9 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Junkers Thermenreparatur und Thermenservice Wien</h2>
+            <h2 id="kundendienst">Kundendienst – Junkers Thermenreparatur und Thermenservice Wien</h2>
             <p>
-              Unsere Junkers Thermenreparatur Wien steht für professionelle Lösungen bei Problemen mit Ihrer Junkers Therme.
-              Als erfahrener Installateur bieten wir umfassenden Junkers Thermenservice, fachgerechte Reparaturen und zuverlässigen Kundendienst in Wien und Umgebung.
+              Unsere Junkers Thermenreparatur Wien steht für professionelle Lösungen bei Problemen mit Ihrer Junkers Therme. Zudem bieten wir einen <a href="/baxi-thermenreparatur-wien">fachgerechten Service für verschiedene Heizsysteme</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Egal ob klassische Gasthermen, moderne Junkers Bosch Geräte oder komplette Heizungsanlage – wir kümmern uns um jede Therme präzise und effizient.
@@ -694,7 +693,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Junkers Notdienst Wien rund um die Uhr</h2>
+        <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
         <p>
           Bei akuten Notfällen ist unser Junkers Notdienst in Wien rund um die Uhr erreichbar.
           Der 24/7 Notdienst steht Ihnen bei plötzlichen Ausfällen, Sicherheitsfragen oder technischen Problemen sofort zur Verfügung.
@@ -732,7 +731,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
     <div class="service-container">
       <div class="service-section__head">
         <h2>Soforthilfe bei Ausfälle und Probleme</h2>
-        <p>Unser Notdienst reagiert schnell bei Störungen Ihrer Junkers Therme und sorgt mit Fachwissen und Erfahrung für eine sichere Lösung direkt vor Ort.</p>
+        <p>Unser <a href="/">Notdienst Wien</a> reagiert schnell bei Störungen Ihrer Junkers Therme und sorgt mit Fachwissen und Erfahrung für eine sichere Lösung direkt vor Ort.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -761,7 +760,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Junkers Thermenwartung Wien für Sicherheit und Effizienz</h2>
+            <h2 id="thermenreparatur-wien">Junkers Thermenreparatur Wien für Sicherheit und Effizienz</h2>
             <p>
               Eine regelmäßige Junkers Thermenwartung ist entscheidend für die Sicherheit und Leistungsfähigkeit Ihrer Heizungsanlage.
               Unsere Junkers Thermenwartung Wien umfasst gründliche Reinigung, präzise Überprüfung aller Komponenten sowie fachgerechte Wartung Ihrer Junkers Therme.
@@ -863,7 +862,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
           <div class="service-feature__icon" aria-hidden="true">🕒</div>
           <div>
             <h3>24/7 Betreuung</h3>
-            <p>Unser Kundendienst ist rund um die Uhr erreichbar – für Wien, Niederösterreich und Burgenland.</p>
+            <p><a href="/">Kundendienst</a> ist rund um die Uhr erreichbar – für Wien, Niederösterreich und Burgenland.</p>
           </div>
         </article>
       </div>

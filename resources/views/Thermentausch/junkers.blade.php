@@ -650,8 +650,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll wird</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme veraltet ist, häufige Störungen auftreten oder der Gasverbrauch steigt.
-              Besonders ältere Heizwert-Gasthermen erreichen nicht mehr die gewünschte Energieeffizienz.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme veraltet ist, häufige Störungen auftreten oder der Gasverbrauch steigt. Zudem bieten wir <a href="/vaillant-thermentausch-wien">einen professionellen Service für verschiedene Heizsysteme</a> für maximale Effizienz an.
             </p>
             <p>
               Moderne Junkers Geräte – heute Teil von Junkers Bosch – bieten verbesserte Brennwerttechnik, leisen Betrieb und hohe Sicherheit.
@@ -759,8 +758,8 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🏠</div>
           <div>
-            <h3>Abgasführung, Kamin und Rauchfangkehrer</h3>
-            <p>Abgasrohre, Kamin und Freigabe durch den Rauchfangkehrer müssen exakt abgestimmt sein, um einen sicheren Betrieb der Brennwerttechnik zu gewährleisten.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Abgasrohre, Kamin und Freigabe durch den Rauchfangkehrer müssen exakt abgestimmt sein, um einen sicheren Betrieb der Brennwerttechnik zu gewährleisten. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
 
@@ -781,7 +780,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preis und Aktion</h2>
+            <h2 id="thermentausch-wien">Junkers Thermentausch Wien – Kosten, Preis und Aktion</h2>
             <p>
               Die Kosten für einen Junkers Thermentausch in Wien hängen vom Modell, Leistung, Montageaufwand und Zubehör ab.
               Ein detaillierter Kostenvoranschlag schafft Transparenz über Preis, MwSt und mögliche Aktion.
@@ -841,7 +840,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
   <section class="service-section" id="warum-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Warum ein fachgerechter Junkers Thermentausch entscheidend ist</h2>
+        <h2 id="kundendienst">Kundendienst – Warum ein fachgerechter Junkers Thermentausch entscheidend ist</h2>
         <p>Ein professioneller Thermentausch erhöht Effizienz, Komfort und Sicherheit – mit korrekter Installation, dokumentierter Inbetriebnahme und erhaltener Gewährleistung.</p>
       </div>
 
@@ -874,7 +873,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
             <h3>Ein Partner von Planung bis Betrieb</h3>
-            <p>Kunden profitieren von klarer Beratung, zuverlässigem Kundendienst und langfristiger Energieeffizienz im täglichen Betrieb.</p>
+            <p>Kunden profitieren von klarer Beratung, zuverlässigem <a href="/">Kundendienst</a> und langfristiger Energieeffizienz im täglichen Betrieb.</p>
           </div>
         </article>
       </div>

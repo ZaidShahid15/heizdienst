@@ -397,7 +397,7 @@
   .toc-body{
     padding:10px;
     transition:max-height .22s ease, padding .22s ease;
-   
+
     overflow:auto;
   }
   .toc-list{
@@ -469,7 +469,7 @@ $metaDescription = "Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizs
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -581,8 +581,7 @@ $metaDescription = "Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizs
           <div class="card-box">
             <h2>Viessmann Service in Wien</h2>
             <p>
-              Als erfahrener Partner betreuen wir Viessmann Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Als erfahrener <strong>Installateur</strong> betreuen wir Viessmann Geräte, <strong>Gastherme</strong> und moderne <strong>Heiztechnik</strong> in Wien &amp; Niederösterreich. Unser Service umfasst <strong>Wartung</strong>, <strong>Reparatur</strong> und fachgerechte Betreuung für jeden <strong>Boiler</strong>. Erfahren Sie mehr über unsere <a href="{{ route('junkers.thermenwartung') }}">Thermenwartung Wien</a>.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,
@@ -738,8 +737,7 @@ $metaDescription = "Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizs
               Wir verwenden hochwertige Ersatzteile und Zubehör, um Funktion, Effizienz und Zuverlässigkeit dauerhaft sicherzustellen.
             </p>
             <p>
-              Bei starkem Verschleiß beraten wir transparent zu Thermentausch, Montage oder einer passenden Lösung.
-              Kunden profitieren von klaren Abläufen, sauberer Arbeit und nachhaltigen Ergebnissen.
+              Bei starkem Verschleiß beraten wir transparent zu Thermentausch, Montage oder einer passenden Lösung. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
             </p>
 
             <div class="service-stats">
@@ -765,7 +763,7 @@ $metaDescription = "Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizs
       <div class="service-emergency__text">
         <h2>Viessmann Notdienst im Notfall</h2>
         <p>
-          Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Unser <a href="/">Notdienst Wien</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
           Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
@@ -856,7 +854,7 @@ $metaDescription = "Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizs
       <div class="service-faq">
         <details>
           <summary>Was bietet der Viessmann Kundendienst Wien?</summary>
-          <p>Unser Kundendienst umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
+          <p>Unser <a href="/">Kundendienst</a> umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
         </details>
 
         <details>

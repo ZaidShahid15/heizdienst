@@ -526,7 +526,7 @@
 </style>
 
 @php
-$metaTitle = "Wolf Notdienst Wien – 24h Service, Kundendienst & Reparatur";
+$metaTitle = "Notdienst Wien – 24h Service, Kundendienst & Reparatur";
 $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartung & Wolf Kundendienst für Heizung, Therme und Gastherme in Wien & Niederösterreich.";
 @endphp
 
@@ -676,8 +676,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
           <div class="card-box">
             <h2>Wolf Kundendienst Wien mit Erfahrung</h2>
             <p>
-              Der Wolf Kundendienst in Wien unterstützt private Kunden und Betriebe zuverlässig bei jedem Problem rund um Wolf Heizung,
-              Wolf Thermen und moderne Wolf Anlagen. Unser Service ist auf Sicherheit, Effizienz und ein stabiles Raumklima ausgerichtet.
+              Der Wolf Kundendienst in Wien unterstützt private Kunden und Betriebe zuverlässig bei jedem Problem rund um Wolf Heizung, Wolf Thermen und moderne Wolf Anlagen. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Wartung und Reparatur Ihrer Geräte. Für spezialisierte Anforderungen steht zudem unser <a href="/saunier-duval-notdienst-wien">Saunier Duval Notdienst Wien</a> zur Verfügung.
             </p>
             <p>
               Als erfahrener Installateur und Partner von Wolf betreuen wir Wolf Geräte, Gasthermen und komplette Heizungsanlagen direkt vor Ort.
@@ -936,8 +935,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
             </p>
             <p>
               Jeder Kunde erhält einen festen Ansprechpartner, der Anliegen koordiniert und für klare Kommunikation sorgt.
-              Unsere Mitarbeiter legen Wert auf professionellen Umgang, transparente Abläufe und verlässliche Lösungen.
-              So schaffen wir Vertrauen und hohe Zufriedenheit bei unseren Kunden.
+              In unserem <a href="/">Thermenservice Wien & Niederösterreich</a> Team legen wir Wert auf professionellen Umgang, transparente Abläufe und verlässliche Lösungen für hohe Kundenzufriedenheit.
             </p>
 
             <div class="service-stats">

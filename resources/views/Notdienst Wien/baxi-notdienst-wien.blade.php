@@ -502,8 +502,8 @@
   }
 </style>
 @php
-$metaTitle = "Baxi Kundendienst Wien – Thermenwartung & Gastherme Service";
-$metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparatur für Baxi Gastherme ✔ Fachpartner & Installateur für sichere Lösungen.";
+$metaTitle = "Notdienst & Kundendienst Wien – Thermenwartung & Heizungsservice";
+$metaDescription = "Notdienst & Kundendienst Wien ✔ Thermenwartung, Service & Reparatur für Gasthermen ✔ Fachpartner & Installateur für sichere Lösungen.";
 @endphp
 
 @push('meta')
@@ -519,21 +519,21 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Baxi Notdienst Wien
+        24-Stunden Notdienst Wien
 <br>
-        <span style="color:#FB9A1B;">Schnelle Hilfe bei Störungen, Ausfällen oder Problemen mit der Gastherme – der Baxi Notdienst Wien ist rund um die Uhr erreichbar.
+        <span style="color:#FB9A1B;">Schnelle Hilfe bei Störungen, Ausfällen oder Problemen mit der Gastherme – unser Notdienst Wien ist rund um die Uhr erreichbar.
 </span>
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi-notdienst-wien Logo">
+        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Notdienst Wien Logo">
       </div>
 
        <div class="wolf-hero__sub">
 <ul class="hero-checklist-center">
 <li>
 <i class="bi bi-check-circle-fill"></i>
-<span>Baxi Notdienst und Kundendienst in Wien und Umgebung
+<span>Notdienst und Kundendienst in Wien und Umgebung
 </span>
 </li>
 
@@ -687,11 +687,9 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Baxi Kundendienst Wien mit Kompetenz</h2>
+            <h2>Notdienst & Kundendienst Wien mit Kompetenz</h2>
             <p>
-              Der Baxi Kundendienst Wien betreut Kunden zuverlässig bei allen Anliegen rund um Baxi Thermen, Baxi Gastherme
-              und moderne Heizungsanlagen. Als spezialisierter Baxi Installateur und erfahrener Fachpartner bieten wir
-              professionellen Service, transparente Beratung und nachhaltige Lösungen.
+              Der Notdienst Wien betreut Kunden zuverlässig bei allen Anliegen rund um Gasthermen und moderne Heizungsanlagen. Als erfahrener Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Mit schneller Soforthilfe rund um die Uhr garantieren wir maximale Zuverlässigkeit.
             </p>
             <p>
               Unsere Techniker analysieren Probleme strukturiert, übernehmen Wartung und Reparatur und sorgen für eine sichere Funktion Ihrer Anlage.
@@ -702,7 +700,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Kundendienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Notdienst & Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -713,7 +711,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Baxi Notdienst und Kundendienst in Wien und Umgebung</h2>
+        <h2>Notdienst und Kundendienst in Wien und Umgebung</h2>
         <p>Thermenwartung, Reparatur und Soforthilfe aus einer Hand – klar organisiert, schnell vor Ort.</p>
       </div>
 
@@ -722,7 +720,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
             <h3>Wartung & Reparatur</h3>
-            <p>Thermenwartung, Service und Reparatur für Baxi Thermen und Baxi Gastherme – sicher, effizient und zuverlässig.</p>
+            <p>Thermenwartung, Service und Reparatur für Gasthermen und moderne Heizungsanlagen – sicher, effizient und zuverlässig.</p>
           </div>
         </article>
 
@@ -757,10 +755,10 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Baxi Notdienst rund um die Uhr</h2>
+        <h2>Notdienst rund um die Uhr verfügbar</h2>
         <p>
           Ein Ausfall der Gastherme, plötzliche Störungen oder fehlende Wärme erfordern schnelle Reaktion.
-          Der Baxi Notdienst in Wien steht rund um die Uhr zur Verfügung und bietet schnelle Hilfe bei akuten Problemen.
+          Der Notdienst in Wien steht rund um die Uhr zur Verfügung und bietet schnelle Hilfe bei akuten Problemen.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
           Ob spätabends, an Wochenenden oder Feiertagen – unser Notdienst organisiert Soforthilfe direkt vor Ort.
@@ -777,7 +775,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
         <div class="service-panel">
           <h3>Typische Einsätze im Notdienst</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>Störungsbehebung an Baxi Gasthermen und Gasgeräte(n)</li>
+            <li>Störungsbehebung an Gasthermen und Gasgeräte(n)</li>
             <li>Kein Warmwasser oder Ausfall der Heizung</li>
             <li>Wiederkehrende Störungen oder komplette Thermenreparatur</li>
           </ul>
@@ -794,7 +792,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
     <div class="service-container">
       <div class="service-section__head">
         <h2>Thermenwartung, Service & Reparatur</h2>
-        <p>Von der Wartung bis zur Soforthilfe – Baxi Thermenservice aus einer Hand, mit klaren Abläufen.</p>
+        <p>Von der Wartung bis zur Soforthilfe – Heizungsservice aus einer Hand, mit klaren Abläufen.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -818,7 +816,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
           <div class="service-feature__icon" aria-hidden="true">🛠️</div>
           <div>
             <h3>Thermenreparatur</h3>
-            <p>Reparatur und Baxi Thermenreparatur mit geprüften Ersatzteilen und fachgerechter Umsetzung.</p>
+            <p>Reparatur mit geprüften Ersatzteilen und fachgerechter Umsetzung – für langfristige Funktionssicherheit.</p>
           </div>
         </article>
 
@@ -826,7 +824,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
             <h3>Gastherme Service</h3>
-            <p>Service für Baxi Gastherme – stabile Wärme, zuverlässige Warmwasserversorgung und weniger Energieverluste.</p>
+            <p>Service für Gasthermen – stabile Wärme, zuverlässige Warmwasserversorgung und weniger Energieverluste.</p>
           </div>
         </article>
 
@@ -855,13 +853,13 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Thermenwartung, Reparatur und Baxi Thermenservice</h2>
+            <h2>Thermenwartung, Reparatur und Heizungsservice</h2>
             <p>
-              Regelmäßige Thermenwartung und professionelle Baxi Thermenwartung sind entscheidend für Sicherheit, Effizienz
-              und Langlebigkeit Ihrer Anlage. Unser Baxi Thermenservice umfasst Instandhaltung, Überprüfung, Reinigung und Funktionskontrolle.
+              Regelmäßige Thermenwartung und professioneller Heizungsservice sind entscheidend für Sicherheit, Effizienz
+              und Langlebigkeit Ihrer Anlage. Unser Service umfasst Instandhaltung, Überprüfung, Reinigung und Funktionskontrolle.
             </p>
             <p>
-              Bei einer Reparatur oder Baxi Thermenreparatur setzen wir auf geprüfte Ersatzteile und fachgerechte Umsetzung.
+              Bei einer Reparatur setzen wir auf geprüfte Ersatzteile und fachgerechte Umsetzung.
               So lassen sich hohe Kosten, Energieverluste und Folgeschäden vermeiden. Eine gut gewartete Gastherme arbeitet effizienter,
               spart Energie und sorgt für stabile Wärme.
             </p>
@@ -876,7 +874,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Baxi Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Thermenwartung Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -891,11 +889,11 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
           <div class="card-box">
             <h2>Installation, Thermentausch und Austausch</h2>
             <p>
-              Wenn eine Reparatur nicht mehr sinnvoll ist, beraten unsere Experten transparent zum Thermentausch bzw. Baxi Thermentausch.
+              Wenn eine Reparatur nicht mehr sinnvoll ist, beraten unsere Experten transparent zum Thermentausch.
               Wir erklären Vorteile, mögliche Alternativen und begleiten Installation, Austausch und Inbetriebnahme Schritt für Schritt.
             </p>
             <p>
-              Als verlässlicher Partner sorgen wir dafür, dass neue Baxi Geräte optimal auf Ihre Heizsystemen abgestimmt sind –
+              Als verlässlicher Partner sorgen wir dafür, dass neue Geräte optimal auf Ihre Heizsystemen abgestimmt sind –
               alles aus einer Hand, mit Fokus auf Qualität und Zuverlässigkeit.
             </p>
           </div>
@@ -918,7 +916,8 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
           <div class="card-box">
             <h2>Einsatzgebiet Wien, NÖ und Umgebung</h2>
             <p>
-              Der Baxi Notdienst Wien ist in allen Bezirken von Wien sowie in NÖ, Wien und Niederösterreich, im Bgld und der gesamten Umgebung im Einsatz.
+            <p>
+              Der Notdienst Wien ist in allen Bezirken von Wien sowie in NÖ, Wien und Niederösterreich, im Bgld und der gesamten Umgebung im Einsatz.
               Dank regionaler Organisation und kurzer Anfahrtszeiten sind unsere Techniker schnell vor Ort – auch bei dringenden Einsätzen.
             </p>
             <p>
@@ -946,11 +945,11 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
             <h2>Team, Firma und Fachpartner</h2>
             <p>
               Unser erfahrenes Team besteht aus qualifizierten Installateuren, geschulten Technikern und engagierten Mitarbeitern mit hoher Kompetenz.
-              Als spezialisierte Firma und zertifizierter Fachpartner für Baxi arbeiten wir strukturiert, sauber und kundenorientiert.
+              Als spezialisierte Firma und zertifizierter Fachpartner arbeiten wir strukturiert, sauber und kundenorientiert.
             </p>
             <p>
               Persönlicher Kontakt, klare Zuständigkeiten und echte Verlässlichkeit sind für uns selbstverständlich.
-              Unsere Erfahrung im Umgang mit Baxi Thermen, Baxi Gasthermen und Baxi Geräten sorgt für nachhaltige Ergebnisse und hohe Zuverlässigkeit.
+              Unsere Erfahrung im Umgang mit modernen Gasthermen und Heizungsanlagen sorgt für nachhaltige Ergebnisse und hohe Zuverlässigkeit.
             </p>
 
             <div class="service-stats">
@@ -963,7 +962,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Baxi Fachpartner" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Fachpartner & Installateur in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -983,7 +982,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
           <div class="service-feature__icon" aria-hidden="true">🏭</div>
           <div>
             <h3>Zusammenarbeit Werkskundendienst</h3>
-            <p>Bei komplexen Fällen arbeiten wir eng mit dem Baxi Werkskundendienst zusammen – sicher und nach Vorgabe.</p>
+            <p>Bei komplexen Fällen arbeiten wir eng mit dem Herstellersupport zusammen – sicher und nach Vorgabe.</p>
           </div>
         </article>
 
@@ -1022,8 +1021,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
           <div class="card-box">
             <h2>Kosten, Leistung und Vorteile</h2>
             <p>
-              Transparente Kosten und nachvollziehbare Leistung stehen im Mittelpunkt unseres Kundendienstes.
-              Vor jeder Arbeit informieren wir klar über Umfang, mögliche Optionen und empfohlene Schritte.
+              Transparente Kosten und eine nachvollziehbare Leistung durch unseren <a href="/">Thermenwartung Wien</a> Service stehen im Mittelpunkt. Vor jeder Arbeit informieren wir klar über den Umfang und die empfohlenen Schritte für Ihre Anlage.
             </p>
             <p>
               Kunden profitieren von fairen Preisen, professioneller Ausführung und messbaren Vorteilen:
@@ -1074,7 +1072,7 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
   <section class="service-section service-section--soft" id="abschluss-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Ihr Baxi Notdienst Wien</h2>
+        <h2>Ihr Notdienst & Kundendienst Wien</h2>
         <p>Wartung, Reparatur, Installation und Austausch – ein Partner, der liefert: zuverlässig in Wien, NÖ und der Region.</p>
       </div>
 
@@ -1102,39 +1100,39 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>FAQs – Baxi Kundendienst & Thermenservice</h2>
+        <h2>FAQs – Notdienst & Thermenservice Wien</h2>
         <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>1. Wann sollte ich den Baxi Kundendienst Wien kontaktieren?</summary>
-          <p>Den Baxi Kundendienst Wien kontaktieren Sie bei Problemen mit Baxi Thermen, Gastherme oder wenn eine fachgerechte Thermenwartung notwendig ist.</p>
+          <summary>1. Wann sollte ich den Notdienst Wien kontaktieren?</summary>
+          <p>Den Notdienst Wien kontaktieren Sie bei Problemen mit Gasthermen, Heizungsanlagen oder wenn eine fachgerechte Thermenwartung notwendig ist.</p>
         </details>
 
         <details>
-          <summary>2. Warum ist Baxi Thermenwartung wichtig?</summary>
-          <p>Regelmäßige Baxi Thermenwartung erhöht die Sicherheit, senkt Ausfallrisiken und sorgt für eine effiziente Gastherme im Alltag.</p>
+          <summary>2. Warum ist Thermenwartung wichtig?</summary>
+          <p>Regelmäßige Thermenwartung erhöht die Sicherheit, senkt Ausfallrisiken und sorgt für eine effiziente Gastherme im Alltag.</p>
         </details>
 
         <details>
-          <summary>3. Welche Thermen betreut der Baxi Kundendienst?</summary>
-          <p>Der Baxi Kundendienst betreut alle Baxi Thermen, moderne Thermen und zugehörige Geräte fachgerecht.</p>
+          <summary>3. Welche Thermen betreut der Notdienst Wien?</summary>
+          <p>Der Notdienst Wien betreut alle modernen Gasthermen, Heizungsanlagen und zugehörige Geräte fachgerecht.</p>
         </details>
 
         <details>
-          <summary>4. Wird auch eine Baxi Gastherme gewartet?</summary>
-          <p>Ja, jede Baxi Gastherme wird im Rahmen von Thermenwartung geprüft und optimal eingestellt.</p>
+          <summary>4. Wird auch eine Gastherme gewartet?</summary>
+          <p>Ja, jede Gastherme wird im Rahmen von Thermenwartung geprüft und optimal eingestellt.</p>
         </details>
 
         <details>
           <summary>5. Wer führt Service und Reparaturen durch?</summary>
-          <p>Ein zertifizierter Baxi Installateur bzw. erfahrener Installateur übernimmt Service, Wartung und Reparaturen.</p>
+          <p>Ein zertifizierter Installateur bzw. erfahrener Techniker übernimmt Service, Wartung und Reparaturen professionell.</p>
         </details>
 
         <details>
           <summary>6. Arbeiten Sie als Fachpartner?</summary>
-          <p>Ja, wir sind geprüfter Fachpartner und arbeiten nach Herstellervorgaben von Baxi.</p>
+          <p>Ja, wir sind geprüfter Fachpartner und arbeiten nach Herstellervorgaben moderner Heiztechnik.</p>
         </details>
 
         <details>
@@ -1143,18 +1141,18 @@ $metaDescription = "Baxi Kundendienst Wien ✔ Thermenwartung, Service & Reparat
         </details>
 
         <details>
-          <summary>8. Welche Vorteile bietet der Baxi Service?</summary>
+          <summary>8. Welche Vorteile bietet der professionelle Service?</summary>
           <p>Der Service sorgt für weniger Probleme, längere Lebensdauer der Geräte und zuverlässigen Betrieb.</p>
         </details>
 
         <details>
           <summary>9. Wird auch außerhalb Wiens geholfen?</summary>
-          <p>Ja, der Baxi Kundendienst Wien unterstützt Kunden auch in der Umgebung durch flexible Einsätze.</p>
+          <p>Ja, der Notdienst Wien unterstützt Kunden auch in der Umgebung durch flexible Einsätze.</p>
         </details>
 
         <details>
-          <summary>10. Warum Baxi Experten beauftragen?</summary>
-          <p>Unsere Experten verfügen über Erfahrung mit Baxi, erkennen Probleme früh und liefern nachhaltige Lösungen.</p>
+          <summary>10. Warum Experten bei uns beauftragen?</summary>
+          <p>Unsere Experten verfügen über breite Erfahrung mit modernen Heizanlagen, erkennen Probleme früh und liefern nachhaltige Lösungen.</p>
         </details>
       </div>
     </div>

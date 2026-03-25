@@ -600,7 +600,7 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
           <div class="card-box">
             <h2>Ocean Thermentausch Wien</h2>
             <p>
-              Ein professioneller Ocean Thermentausch Wien steht für sichere Gastherme, hohe Effizienz und zuverlässigen Service in Wien und Niederösterreich.
+              Ein professioneller Ocean Thermentausch Wien steht für sichere Gastherme, hohe Effizienz und zuverlässigen Service in Wien und Niederösterreich. Zudem bieten wir eine <a href="/löblich-thermentausch-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
             </p>
           </div>
         </div>
@@ -741,7 +741,7 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Warum Sicherheit zählt</h3>
+          <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Saubere Montage nach Richtlinien</li>
             <li>Kontrolle von Anschlüssen und Funktion</li>
@@ -762,7 +762,7 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Aktion</h2>
+            <h2 id="thermentausch-wien">Ocean Thermentausch Wien – Kosten, Preise und Aktion</h2>
             <p>
               Die Kosten für einen Ocean Thermentausch in Wien hängen von Modell, Montageaufwand und Zustand der Anlage ab.
               Transparente Preise schaffen Sicherheit bei der Entscheidung. Aktionsangebote ermöglichen zusätzliche Vorteile ohne Qualitätsverlust.
@@ -824,13 +824,13 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Warum ein professioneller Ocean Thermentausch überzeugt</h2>
+            <h2 id="kundendienst">Kundendienst – Warum ein professioneller Ocean Thermentausch überzeugt</h2>
             <p>
               Ein fachgerecht durchgeführter Ocean Thermentausch erhöht nicht nur die Sicherheit, sondern verlängert auch die Lebensdauer der neuen Therme.
               Unsere Fachbetriebe prüfen Gasgeräte, Funktion, Abgasmessung und Energieeffizienz sorgfältig.
             </p>
             <p>
-              Durch saubere Montage, regelmäßige Wartung und einen starken Ocean Kundendienst bleibt der Betrieb zuverlässig.
+              Durch saubere Montage, regelmäßige Wartung und einen starken Ocean <a href="/">Kundendienst</a> bleibt der Betrieb zuverlässig.
               Kunden profitieren von persönlicher Beratung, schneller Fehlerbehebung, Ocean Thermenreparatur und einem verlässlichen Notdienst – alles aus einer Hand.
             </p>
 
@@ -883,7 +883,7 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
         </details>
         <details>
           <summary>Gibt es einen Ocean Notdienst?</summary>
-          <p>Ja, ein Ocean Notdienst steht bei akuten Problemen und Defekts schnell zur Verfügung.</p>
+          <p>Ja, ein Ocean <a href="/">Notdienst Wien</a> steht bei akuten Problemen und Defekts schnell zur Verfügung.</p>
         </details>
       </div>
     </div>

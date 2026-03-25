@@ -504,8 +504,8 @@
 </style>
 
 @php
-$metaTitle = "Buderus Service Wien – Kundendienst, Wartung & Heizkessel";
-$metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung für Buderus Thermen und Heizkessel ✔ Fachpersonal & Techniker vor Ort.";
+$metaTitle = "Notdienst & Kundendienst Wien – Service, Wartung & Heizkessel";
+$metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebung für Gasthermen und Heizkessel ✔ Fachpersonal & Techniker vor Ort.";
 @endphp
 
 @push('meta')
@@ -527,14 +527,14 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus-notdienst-wien Logo">
+        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Notdienst Wien Logo">
       </div>
 
        <div class="wolf-hero__sub">
 <ul class="hero-checklist-center">
 <li>
 <i class="bi bi-check-circle-fill"></i>
-<span>Buderus Notdienst und Kundendienst in Wien und Umgebung
+<span>Notdienst und Kundendienst in Wien und Umgebung
 </span>
 </li>
 
@@ -689,8 +689,8 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
           <div class="card-box">
             <h2>Buderus Kundendienst Wien mit Kompetenz</h2>
             <p>
-              Der Buderus Kundendienst in Wien unterstützt private Haushalte und den laufenden Betrieb bei allen Anliegen rund um Buderus Thermen,
-              Heizkessel und moderne Heizungsanlagen. Als spezialisierter Fachmann und verlässlicher Partner für Buderus Produkte bieten wir
+              Der Notdienst in Wien unterstützt private Haushalte und den laufenden Betrieb bei allen Anliegen rund um Gasthermen,
+              Heizkessel und moderne Heizungsanlagen. Als spezialisierter Fachmann und verlässlicher Partner bieten wir
               professionelle Beratung, strukturierte Abläufe und nachhaltige Behebung von Problemen.
             </p>
             <p>
@@ -702,7 +702,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Kundendienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Notdienst & Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -858,9 +858,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
           <div class="card-box">
             <h2>Wartung, Thermenwartung und Buderus Thermenservice</h2>
             <p>
-              Regelmäßige Wartung und fachgerechte Thermenwartung sind entscheidend für Lebensdauer, Effizienz und Sicherheit Ihrer Anlage.
-              Unsere Buderus Thermenwartung und der Buderus Thermenservice umfassen gründliche Reinigung, Überprüfung, Einstellung
-              und Funktionskontrolle aller relevanten Komponenten.
+              Regelmäßige Wartung und fachgerechte Thermenwartung sind entscheidend für Lebensdauer, Effizienz und Sicherheit Ihrer Anlage. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Betreuung Ihrer Geräte. Zudem bieten wir einen <a href="/vaillant-notdienst-wien">Vaillant Notdienst Wien</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               So lassen sich Probleme frühzeitig erkennen und teure Reparaturen vermeiden. Eine gut gewartete Therme arbeitet zuverlässiger,
@@ -980,8 +978,7 @@ $metaDescription = "Buderus Service Wien ✔ Kundendienst, Wartung & Behebung f�
           <div class="card-box">
             <h2>Preise, MwSt und Vorteile</h2>
             <p>
-              Transparente Preise sind ein zentraler Bestandteil unseres Kundendienstes. Vor Beginn der Arbeiten informieren wir klar über Kosten,
-              Leistungen und ausgewiesene MwSt.
+              Transparente Preise für eine fachgerechte <a href="/">Thermenwartung Wien</a> sind ein zentraler Bestandteil unseres Kundendienstes. Vor Beginn der Arbeiten informieren wir klar über Kosten, Leistungen und die ausgewiesene MwSt.
             </p>
             <p>
               Kunden profitieren von fairen Konditionen, nachvollziehbarer Abrechnung und klaren Vorteilen:

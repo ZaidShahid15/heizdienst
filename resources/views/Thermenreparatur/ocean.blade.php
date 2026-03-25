@@ -598,7 +598,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
           <div class="card-box">
             <h2>Ocean Thermenreparatur Wien und Ocean Kundendienst Wien</h2>
             <p>
-              Unsere Ocean Thermenreparatur Wien steht für professionelle Reparatur, präzise Fehlerbehebung und umfassenden Ocean Kundendienst Wien. Als erfahrener Installateur betreuen wir Ocean Therme, Ocean Gastherme sowie moderne Ocean Heizungsanlagen in Wien Niederösterreich und Umgebung.
+              Unsere Ocean Thermenreparatur Wien steht für professionelle Reparaturen, zuverlässigen Kundendienst und umfassenden Ocean Thermenservice. Zudem bieten wir eine <a href="/löblich-thermenreparatur-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Der Ocean Kundendienst übernimmt alle Arbeiten an Gasgeräte, Durchlauferhitzer und kompletter Heizungsanlage fachgerecht. Ob Probleme im Betrieb, Störungen oder ineffiziente Funktion – unser Team analysiert den Zustand Ihrer Therme sorgfältig. Mit strukturiertem Thermenservice und nachhaltigen Lösungen sorgen wir für Sicherheit, Effizienz und langfristige Lebensdauer Ihrer Ocean Heizung. Auch in Niederösterreich, NÖ und Burgenland stehen wir als zuverlässiger Partner zur Verfügung.
@@ -621,7 +621,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Ocean Thermenreparatur Wien Experten</h2>
+            <h2 id="kundendienst">Kundendienst – Ocean Thermenreparatur Wien Experten</h2>
             <p>
               Unser Team besteht aus erfahrenen Servicetechnikern, Installateuren und Mitarbeitern mit umfassendem Know-how im Umgang mit Ocean Heizungen und Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards und führt Thermenreparaturen mit höchster Professionalität durch.
             </p>
@@ -690,7 +690,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
-            <h3>Störungsbehebung & Reparaturen</h3>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
             <p>Rasche Störungsbehebung und Reparaturen durch Experten mit klarer Lösung und effizienter Durchführung. Wenn Ihre Ocean Therme nicht mehr ordnungsgemäß arbeitet, sind wir sofort zur Stelle.</p>
           </div>
         </article>
@@ -712,7 +712,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Ocean Thermenwartung Wien & Wartungsarbeiten</h2>
+            <h2 id="thermenreparatur-wien">Ocean Thermenreparatur Wien für Effizienz und Sicherheit</h2>
             <p>
               Eine regelmäßige Ocean Thermenwartung Wien ist ein zentraler Bestandteil für den sicheren Betrieb Ihrer Therme. Unsere professionelle Ocean Thermenwartung Wien umfasst gründliche Wartung, sorgfältige Kontrolle und umfassende Reinigung aller relevanten Komponenten.
             </p>
@@ -838,7 +838,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
               Wir betreuen Kunden in Wien Niederösterreich, NÖ und Burgenland zuverlässig mit schneller Unterstützung, professionellen Installationen und zuverlässigem Thermenservice. Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
             </p>
             <p>
-              Unser Team ist in Wien Niederösterreich, NÖ und Burgenland im Einsatz und bietet persönliche Betreuung vor Ort. Ob Thermenreparatur, Wartung oder Notdienst – wir sind jederzeit zur Verfügung.
+              Unser Team ist in Wien Niederösterreich, NÖ und Burgenland im Einsatz und bietet persönliche Betreuung vor Ort. Ob Thermenreparatur, Wartung oder <a href="/">Notdienst Wien</a> – wir sind jederzeit zur Verfügung.
             </p>
           </div>
         </div>
@@ -868,7 +868,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
 
         <details>
           <summary>Ist der Ocean Kundendienst Wien rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Kundendienst ist rund um die Uhr in Wien, Niederösterreich und Burgenland verfügbar. Bei Notfällen reagieren wir sofort.</p>
+          <p>Ja, <a href="/">Kundendienst</a> ist rund um die Uhr in Wien, Niederösterreich und Burgenland verfügbar. Bei Notfällen reagieren wir sofort.</p>
         </details>
 
         <details>

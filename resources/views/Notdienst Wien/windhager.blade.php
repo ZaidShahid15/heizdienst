@@ -600,7 +600,7 @@
 </style>
 
 @php
-$metaTitle = "Windhager Notdienst Wien – Thermenservice & Reparatur
+$metaTitle = "Notdienst Wien – Thermenservice & Heizungsreparatur
 ";
 $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & Thermenwartung ✔ Hilfe bei Fehlercode, Gasgeruch & Ausfall in Wien, NÖ & Burgenland.
 ";
@@ -748,8 +748,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
           <div class="card-box">
             <h2>Windhager Kundendienst für Therme und Heizung</h2>
             <p>
-              Der Windhager Kundendienst betreut Kunden in Wien, Niederösterreich und Burgenland bei allen Anliegen rund um Windhager Therme,
-              Gastherme und moderne Heizungssysteme. Ob im privaten Haus oder im gewerblichen Betrieb – unsere erfahrenen Installateure und qualifizierten Techniker sorgen für sichere Betreuung.
+              Der Windhager Kundendienst betreut Kunden in Wien, Niederösterreich und Burgenland bei allen Anliegen rund um Windhager Therme, Gastherme und moderne Heizungssysteme. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Wartung und Reparatur Ihrer Geräte. Für spezialisierte Anforderungen steht zudem unser <a href="/rapido-notdienst-wien">Rapido Notdienst Wien</a> zur Verfügung.
             </p>
             <p>
               Jede Windhager Therme wird sorgfältig geprüft, um Probleme, sinkenden Wasserdruck, fehlendes Warmwasser oder ungewöhnliche Geräusche frühzeitig zu erkennen.
@@ -985,7 +984,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
             </p>
             <p>
               Ob Reparatur, Wartung oder Windhager Thermentausch – wir beraten offen zu jeder Möglichkeit.
-              So behalten Sie jederzeit die Kontrolle und investieren gezielt in Qualität.
+              So behalten Sie jederzeit die Kontrolle und investieren gezielt in Qualität durch unseren <a href="/">Thermenservice Wien</a> Fachbetrieb.
             </p>
 
             <div class="service-stats">

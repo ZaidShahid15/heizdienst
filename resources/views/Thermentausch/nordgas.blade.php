@@ -472,11 +472,11 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -492,7 +492,6 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
 
       <p class="wolf-hero__sub">
         Ein professioneller Nordgas Thermentausch Wien sorgt für sichere Gastherme, effiziente Heizung und zuverlässigen Wohnkomfort in Wien und Umgebung.
-
       </p>
 
       <div class="wolf-hero__actions">
@@ -589,9 +588,7 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
           <div class="card-box">
             <h2>Nordgas Thermenreparatur Wien und Nordgas Kundendienst</h2>
             <p>
-              Unsere Nordgas Thermenreparatur Wien steht für professionelle Reparaturen, zuverlässigen Kundendienst und umfassenden Nordgas Thermenservice.
-              Als erfahrener Installateur betreuen wir Nordgas Therme, Nordgas Gastherme sowie weitere Gasgeräte direkt bei Ihnen zuhause in Wien und Umgebung.
-              Der Nordgas Kundendienst übernimmt Überprüfung, Reinigung und fachgerechte Reparaturen an allen Geräten.
+              Unsere Nordgas Thermenreparatur Wien steht für professionelle Reparaturen, zuverlässigen Kundendienst und umfassenden Nordgas Thermenservice. Zudem bieten wir <a href="/windhager-thermentausch-wien">einen fachgerechten Service für verschiedene Heizsysteme</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Fehlermeldungen, Störungen oder andere Probleme im Betrieb – unser Team analysiert jede Therme sorgfältig und bietet nachhaltige Lösungen.
@@ -616,7 +613,7 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparaturen Ihrer Nordgas Gastherme bei Störungen</h2>
+            <h2 id="kundendienst">Kundendienst – Reparaturen Ihrer Nordgas Gastherme bei Störungen</h2>
             <p>
               Wenn Ihre Nordgas Gastherme nicht mehr einwandfrei arbeitet, ist rasche Hilfe entscheidend.
               Unsere Techniker führen präzise Überprüfung aller Komponenten, Funktionsprüfung sowie Dichtheit Kontrollen durch.
@@ -689,7 +686,7 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Nordgas Notdienst</h3>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
             <p>Rund um die Uhr im Einsatz bei Notfall, Gasgeruch oder Ausfall – Wien, NÖ und Wiener Neustadt.</p>
           </div>
         </article>
@@ -747,7 +744,7 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Nordgas Thermentausch und moderne Lösungen</h2>
+            <h2 id="thermentausch-wien">Nordgas Thermentausch Wien und moderne Lösungen</h2>
             <p>
               Wenn wiederholte Reparaturen oder häufige Probleme auftreten, empfehlen wir einen Nordgas Thermentausch.
               Der Austausch älterer Nordgas Geräte gegen moderne Systeme verbessert Effizienz und erhöht den Wohnkomfort.
@@ -824,8 +821,7 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
             <h2>Warum Nordgas Ihr Partner in Wien ist</h2>
             <p>
               Nordgas ist Ihr Spezialist für Thermenservice, Reparaturen und Wartung in Wien und Niederösterreich.
-              Unser Team aus erfahrenen Techniker und Experten betreut Nordgas Therme, Nordgas Gastherme und andere Gasgeräte mit höchster Sorgfalt.
-              Der Nordgas Kundendienst Wien bietet schnelle Hilfe, persönliche Beratung und professionelle Dienstleistungen.
+              Unser Team aus erfahrenen Techniker und Experten betreuen die Nordgas Therme, Nordgas Gastherme und andere Gasgeräte mit höchster Sorgfalt.
             </p>
             <p>
               Mit umfassendem Fachwissen, langjähriger Erfahrung und echter Kundenorientierung kümmern wir uns um alle Anliegen rund um Ihre Heizung.
@@ -888,12 +884,12 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
 
         <details>
           <summary>2. Ist der Nordgas Notdienst in Wien verfügbar?</summary>
-          <p>Ja, unser Notdienst ist rund um die Uhr in Wien, Niederösterreich, NÖ und Wiener Neustadt im Einsatz.</p>
+          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien, Niederösterreich, NÖ und Wiener Neustadt im Einsatz.</p>
         </details>
 
         <details>
           <summary>3. Welche Leistungen umfasst der Nordgas Thermenservice?</summary>
-          <p>Der Nordgas Thermenservice umfasst Reparaturen, Überprüfung, Reinigung, Austausch von Teilen und umfassenden Kundendienst.</p>
+          <p>Der Nordgas Thermenservice umfasst Reparaturen, Überprüfung, Reinigung, Austausch von Teilen und umfassenden <a href="/">Kundendienst</a>.</p>
         </details>
 
         <details>

@@ -626,8 +626,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
           <div class="card-box">
             <h2>Baxi Thermenreparatur Wien und Baxi Kundendienst Wien</h2>
             <p>
-              Unsere Baxi Thermenreparatur Wien bietet zuverlässige Reparatur, professionellen Baxi Kundendienst Wien und umfassenden Service für alle Baxi Thermen.
-              Als erfahrener Installateur und Installateurbetrieb betreuen wir Kunden in Wien und Umgebung sowie in Niederösterreich.
+              Unsere Baxi Thermenreparatur Wien bietet zuverlässige Reparatur, professionellen Baxi Kundendienst Wien und umfassenden Service für alle Baxi Thermen. Zudem bieten wir <a href="/buderus-thermenreparatur-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Baxi Gastherme, moderne Luna Duo Tec Modelle oder andere Baxi Geräte – wir kümmern uns um jedes Problem rasch und fachgerecht.
@@ -660,7 +659,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparatur Ihrer Baxi Therme bei Störung</h2>
+            <h2 id="kundendienst">Kundendienst – Reparatur Ihrer Baxi Therme bei Störung</h2>
             <p>
               Wenn Ihre Baxi Therme nicht mehr korrekt funktioniert oder die Gastherme ausfällt, ist schnelle Thermenreparatur entscheidend.
               Unsere Techniker analysieren jedes Problem präzise und führen die Reparatur nach Herstellervorgaben durch.
@@ -687,7 +686,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Baxi Notdienst Wien rund um die Uhr</h2>
+        <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
         <p>
           Bei einem akuten Defekt oder Notfall ist unser Baxi Notdienst in Wien und NÖ rund um die Uhr erreichbar.
           Der Notdienst reagiert schnell bei Ausfall der Baxi Gastherme oder anderen Gasgeräte Störungen.
@@ -753,7 +752,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Baxi Thermenwartung Wien für Sicherheit und Effizienz</h2>
+            <h2 id="thermenreparatur-wien">Baxi Thermenreparatur Wien für Sicherheit und Effizienz</h2>
             <p>
               Eine regelmäßige Baxi Thermenwartung ist entscheidend für die Sicherheit, Effizienz und Zuverlässigkeit Ihrer Therme.
               Unsere professionelle Baxi Thermenwartung Wien sowie die gezielte Thermenwartung Wien umfasst gründliche Wartung,
@@ -842,7 +841,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
           <div class="service-feature__icon" aria-hidden="true">⏱️</div>
           <div>
             <h3>Schnelle Terminvereinbarung</h3>
-            <p>Der Baxi Kundendienst Wien reagiert rasch, organisiert den Einsatz und sorgt für schnelle Störungsbehebung.</p>
+            <p>Der Baxi <a href="/">Kundendienst</a> Wien reagiert rasch, organisiert den Einsatz und sorgt für schnelle Störungsbehebung.</p>
           </div>
         </article>
 
@@ -873,7 +872,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
 
         <details>
           <summary>Bieten Sie einen Baxi Notdienst rund um die Uhr an?</summary>
-          <p>Ja, unser Notdienst ist rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
+          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
         </details>
 
         <details>

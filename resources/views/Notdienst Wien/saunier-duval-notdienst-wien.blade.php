@@ -520,7 +520,7 @@
 </style>
 
 @php
-$metaTitle = "Saunier Duval Thermenwartung Wien – Kundendienst & Service";
+$metaTitle = "Notdienst Wien – Thermenwartung & Kundendienst & Service";
 $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung & Service für Saunier Duval Therme und Gastherme ✔ Beratung & Terminvereinbarung.";
 @endphp
 
@@ -668,9 +668,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
           <div class="card-box">
             <h2>Saunier Duval Kundendienst mit Know-how</h2>
             <p>
-              Der Saunier Duval Kundendienst unterstützt Kunden in Wien und der Umgebung bei allen Anliegen rund um Saunier Duval Thermen,
-              Duval Therme und moderne Gasgeräte. Als spezialisierter Installateur, Fachpartner und Partner der Marke Saunier Duval arbeiten wir
-              strukturiert, transparent und lösungsorientiert.
+              Der Saunier Duval Kundendienst unterstützt Kunden in Wien und der Umgebung bei allen Anliegen rund um Saunier Duval Thermen, Duval Therme und moderne Gasgeräte. Als erfahrener Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Ergänzend bieten wir einen <a href="/viessmann-notdienst-wien">Viessmann Notdienst Wien</a> für höchste Betriebssicherheit.
             </p>
             <p>
               Unser geschultes Team bringt umfassendes Know-how, fundiertes Fachwissen und langjährige Erfahrung mit.
@@ -954,7 +952,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
               der Marke sicher beherrschen.
             </p>
             <p>
-              Diese Kombination aus Praxis, Erfahrung und laufender Schulung garantiert hohe Qualität, Sicherheit und nachhaltige Ergebnisse bei jedem Einsatz.
+              Diese Kombination aus Praxis, Erfahrung und laufender Schulung garantiert hohe Qualität durch unseren <a href="/">Thermenservice Wien</a> Fachbetrieb. Wir sichern Sicherheit und nachhaltige Ergebnisse bei jedem Einsatz.
             </p>
 
             <div class="service-stats">

@@ -471,11 +471,11 @@ $metaDescription = "Windhager Thermentausch in Wien ✔ Gastherme, Reparatur & T
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -587,12 +587,11 @@ $metaDescription = "Windhager Thermentausch in Wien ✔ Gastherme, Reparatur & T
           <div class="card-box">
             <h2>Windhager Thermenreparatur Wien und Windhager Kundendienst</h2>
             <p>
-              Unsere Windhager Thermenreparatur Wien steht für professionelle Reparatur, zuverlässigen Windhager Kundendienst und umfassenden Windhager Thermenservice.
-              Als erfahrener Installateur und Meisterbetrieb betreuen wir Windhager Thermen, moderne Gastherme Modelle und verschiedene Gasgeräte in Wien Niederösterreich und Umgebung.
+              Unsere Windhager Thermenreparatur Wien steht für professionelle Reparatur, zuverlässigen Windhager Kundendienst und umfassenden Windhager Thermenservice. Zudem bieten wir <a href="/rapido-thermentausch-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Fehlercode, E02 Überhitzungsschutz oder andere Heizungsprobleme – unsere Experten analysieren die Ursache präzise und sorgen für eine nachhaltige Lösung.
-              Der Windhager Kundendienst arbeitet nach hohen Standards des Hersteller und garantiert Sicherheit, Effizienz und optimale Leistung Ihrer Heizung.
+              Der Windhager <a href="/">Kundendienst</a> arbeitet nach hohen Standards des Hersteller und garantiert Sicherheit, Effizienz und optimale Leistung Ihrer Heizung.
               Mit Professionalität, Engagement und Fachwissen sichern wir langfristige Kundenzufriedenheit in Wien, Niederösterreich und Burgenland.
             </p>
           </div>
@@ -613,7 +612,7 @@ $metaDescription = "Windhager Thermentausch in Wien ✔ Gastherme, Reparatur & T
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparatur Ihrer Windhager Gastherme bei Problem</h2>
+            <h2 id="kundendienst">Kundendienst – Reparatur Ihrer Windhager Gastherme bei Problem</h2>
             <p>
               Wenn Ihre Windhager Gastherme nicht mehr zuverlässig im Betrieb läuft, ist rasche Hilfe entscheidend.
               Unsere Techniker führen gezielte Überprüfung, Reinigung sowie präzise Behebung von Störungen durch.
@@ -647,7 +646,7 @@ $metaDescription = "Windhager Thermentausch in Wien ✔ Gastherme, Reparatur & T
     <div class="service-container">
       <div class="service-section__head">
         <h2>Leistungen unseres Kundendienstes</h2>
-        <p>Notdienst, Thermenservice, Wartung, Reparatur, Überprüfung und Thermentausch – professionell betreut.</p>
+        <p><a href="/">Notdienst Wien</a>, Thermenservice, Wartung, Reparatur, Überprüfung und Thermentausch – professionell betreut.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -678,7 +677,7 @@ $metaDescription = "Windhager Thermentausch in Wien ✔ Gastherme, Reparatur & T
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Windhager Notdienst</h3>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
             <p>Notdienst rund um die Uhr in Wien, Niederösterreich und Burgenland – schnelle Hilfe im Notfall.</p>
           </div>
         </article>
@@ -743,7 +742,7 @@ $metaDescription = "Windhager Thermentausch in Wien ✔ Gastherme, Reparatur & T
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Windhager Thermentausch und moderne Modelle</h2>
+            <h2 id="thermentausch-wien">Windhager Thermentausch Wien und moderne Modelle</h2>
             <p>
               Wenn wiederholte Reparatur oder häufige Heizungsprobleme auftreten, empfehlen wir einen Windhager Thermentausch.
               Moderne Windhager Modelle bieten höhere Effizienz, bessere Leistung und langfristigen Wert für Ihre Heizungsanlagen.

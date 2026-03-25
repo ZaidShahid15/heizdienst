@@ -622,8 +622,7 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
           <div class="card-box">
             <h2>Buderus Thermenreparatur Wien und Buderus Kundendienst</h2>
             <p>
-              Unsere Buderus Thermenreparatur Wien steht für professionelle Reparatur, zuverlässigen Buderus Kundendienst und umfassenden Buderus Thermenservice für alle Buderus Thermen.
-              Als erfahrene Installateure betreuen wir Buderus Geräte, moderne Gasgeräte und komplette Heizungsanlage in Wien und Niederösterreich.
+              Unsere Buderus Thermenreparatur Wien steht für professionelle Reparatur, zuverlässigen Buderus Kundendienst und umfassenden Buderus Thermenservice für alle Buderus Thermen. Zudem bieten wir <a href="/vaillant-thermenreparatur-wien">zuverlässige Heizungsservice-Leistungen</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Buderus Gastherme, klassische Gastherme oder komplexe Heizsystemen – unser Team analysiert jedes Problem präzise.
@@ -656,7 +655,7 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparatur Ihrer Buderus Gastherme bei Störungen</h2>
+            <h2 id="kundendienst">Kundendienst – Reparatur Ihrer Buderus Gastherme bei Störungen</h2>
             <p>
               Wenn Ihre Buderus Gastherme nicht mehr korrekt arbeitet oder die Heizung ausfällt, ist schnelle Hilfe gefragt.
               Unsere Techniker führen eine präzise Fehlerdiagnose durch und prüfen alle relevanten Bauteile Ihrer Therme.
@@ -683,7 +682,7 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Buderus Notdienst Wien rund um die Uhr</h2>
+        <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
         <p>
           Bei einem akuten Problem oder Defekt steht unser Buderus Notdienst in Wien und Niederösterreich rund um die Uhr zur Verfügung.
           Der Notdienst ist auch an Wochenenden einsatzbereit und bietet schnelle Hilfe bei Störungen Ihrer Buderus Therme.
@@ -751,7 +750,7 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Buderus Thermenwartung Wien für maximale Sicherheit</h2>
+            <h2 id="thermenreparatur-wien">Buderus Thermenreparatur Wien für maximale Sicherheit</h2>
             <p>
               Eine regelmäßige Buderus Thermenwartung Wien ist der wichtigste Grund für einen sicheren und effizienten Betrieb Ihrer Buderus Therme.
               Unsere umfassende Thermenwartung sowie spezialisierte Buderus Thermenwartung beinhaltet sorgfältige Wartungsarbeiten,
@@ -840,7 +839,7 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
           <div class="service-feature__icon" aria-hidden="true">⏱️</div>
           <div>
             <h3>Schnelle Terminvergabe</h3>
-            <p>Der Buderus Kundendienst Wien ist rasch im Einsatz und übernimmt Reparatur, Wartung und Thermenservice zuverlässig.</p>
+            <p>Der Buderus <a href="/">Kundendienst</a> Wien ist rasch im Einsatz und übernimmt Reparatur, Wartung und Thermenservice zuverlässig.</p>
           </div>
         </article>
 
@@ -871,7 +870,7 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
 
         <details>
           <summary>Ist der Buderus Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Notdienst ist rund um die Uhr in Wien und Niederösterreich einsatzbereit – auch an Wochenenden.</p>
+          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien und Niederösterreich einsatzbereit – auch an Wochenenden.</p>
         </details>
 
         <details>

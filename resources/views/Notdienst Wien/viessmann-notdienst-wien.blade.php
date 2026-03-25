@@ -489,7 +489,7 @@
 </style>
 
 @php
-$metaTitle = "Viessmann Service Wien – Wartung, Therme & Sicherheit
+$metaTitle = "Notdienst Wien – Heizungsservice, Wartung & Sicherheit
 ";
 $metaDescription = "Viessmann Service Wien ✔ Wartung, Überprüfung & Beratung für Viessmann Therme, Heizung und Warmwasser ✔ Sicherheit & Erfahrung vor Ort.";
 @endphp
@@ -641,9 +641,7 @@ $metaDescription = "Viessmann Service Wien ✔ Wartung, Überprüfung & Beratung
           <div class="card-box">
             <h2>Viessmann Kundendienst und Service vor Ort</h2>
             <p>
-              Der Viessmann Kundendienst in Wien unterstützt Kunden im privaten Haushalt ebenso wie im laufenden Betrieb.
-              Ob Viessmann Therme, Gastherme, Heizkessel oder moderne Heizsysteme – wir arbeiten mit Fokus auf Sicherheit,
-              Effizienz und Zuverlässigkeit.
+              Der Viessmann Kundendienst in Wien unterstützt Kunden im privaten Haushalt ebenso wie im laufenden Betrieb. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Wartung und Reparatur Ihrer Geräte. Für spezialisierte Anforderungen bieten wir zudem einen <a href="/junkers-notdienst-wien">Junkers Notdienst Wien</a> an.
             </p>
             <p>
               Als erfahrener Installateur betreuen wir Anlagen direkt am Ort, analysieren Störungen strukturiert und setzen
@@ -837,7 +835,7 @@ $metaDescription = "Viessmann Service Wien ✔ Wartung, Überprüfung & Beratung
             <h2>Fachpartner, Werkskundendienst und Betreuung</h2>
             <p>
               Als Fachpartner arbeiten wir nach Herstellervorgaben und in enger Abstimmung mit dem Werkskundendienst.
-              Unsere Experten verfügen über fundierte Erfahrung mit unterschiedlichen Modellen und Heizsystemen.
+              Unsere Experten bieten einen professionellen <a href="/">Thermenwartung Wien</a> Service für alle Modelle und Heizsysteme für maximale Betriebssicherheit.
             </p>
             <p>
               Kunden profitieren von persönlicher Betreuung, klarer Beratung und strukturierter Umsetzung – von der ersten Anfrage

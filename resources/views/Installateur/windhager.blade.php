@@ -518,8 +518,7 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
       </div>
 
       <p class="wolf-hero__sub">
-       Als Windhager Installateur Wien bieten wir professionelle Windhager Thermenwartung, Reparatur und Notdienst für Therme, Heizung und Wärmepumpe in Wien.
-
+       Als Windhager Installateur Wien bietet unser Fachbetrieb professionelle Windhager Thermenwartung, Reparatur und Notdienst für Therme, Heizung und Wärmepumpe in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -616,7 +615,7 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
           <div class="card-box">
             <h2>Windhager Installateur Wien</h2>
             <p>
-              Als Windhager Installateur Wien bieten wir professionelle Windhager Thermenwartung, Reparatur und Notdienst für Therme, Heizung und Wärmepumpe in Wien.
+              Als Windhager Installateur Wien bieten wir professionelle Windhager Thermenwartung, Reparatur und Notdienst für Therme, Heizung und Wärmepumpe in Wien. Ergänzend bieten wir eine <a href="/rapido-installateur-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
             </p>
           </div>
         </div>
@@ -669,8 +668,8 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
-        <p>Fachgerechte Installation, Thermenwartung, Fehleranalyse und Notdienst – Windhager Service in Wien & Umgebung.</p>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
+        <p>Unser <a href="/">Kundendienst</a> kümmert sich um Ihr Anliegen: Fachgerechte Installation, Thermenwartung, Fehleranalyse und Notdienst – Windhager Service in Wien & Umgebung.</p>
       </div>
 
       <div class="card-box" style="margin-bottom:14px;">
@@ -714,8 +713,8 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Notdienst rund um Uhr</h3>
-            <p>Unser Notdienst ist in Wien und Niederösterreich rund um die Uhr verfügbar und hilft bei akuten Fehler oder Notfall schnell weiter.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p><a href="/">Notdienst Wien</a> in Wien und Niederösterreich rund um die Uhr verfügbar und hilft bei akuten Fehler oder Notfall schnell weiter.</p>
           </div>
         </article>
       </div>
@@ -734,7 +733,7 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
               Unser Team überprüft Luftführung, Elektronik und sämtliche Komponenten der Heizungsanlage sorgfältig.
             </p>
             <p>
-              Durch regelmäßige Thermenwartung Windhager sichern wir optimalen Umgang mit Energie und gewährleisten stabilen Betrieb im gesamten Heizkreislauf.
+              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> für Windhager Geräte sichern wir optimalen Umgang mit Energie und gewährleisten stabilen Betrieb im gesamten Heizkreislauf.
               Auch moderne Modelle und innovative Systeme werden von unseren Experten zuverlässig betreut.
               Qualität, Sicherheit und nachhaltige Lösungen stehen bei jeder Arbeit im Mittelpunkt – für langfristigen Wohnkomfort in Wien und Umgebung.
             </p>
@@ -763,7 +762,7 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, Betreuung und Qualität</h2>
+            <h2 id="installateur-wien">Windhager Installateur Wien – Preise, Betreuung und Qualität</h2>
             <p>
               Transparente Betreuung und faire Preise sind fester Bestandteil unseres Service in Wien.
               Vor jeder Windhager Thermenwartung oder Reparatur erhalten Kunden einen klaren Überblick über Leistungen, Kosten und mögliche Lösung.

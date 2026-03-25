@@ -464,8 +464,7 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
       </div>
 
       <p class="wolf-hero__sub">
-        Als Saunier Duval Installateur Wien bieten wir professionelle Installation, Thermenwartung und Reparatur für Saunier Duval Therme und Gasgeräte in Wien.
-
+        Als Saunier Duval Installateur Wien bietet unser Fachbetrieb professionelle Installation, Thermenwartung und Reparatur für Saunier Duval Therme und Gasgeräte in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -561,8 +560,7 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
           <div class="card-box">
             <h2>Saunier Duval Partner Wien</h2>
             <p>
-              Als erfahrener Spezialist für Saunier Duval in Wien stehen wir für Kompetenz, Sicherheit und nachhaltigen Service.
-              Unsere Installateure betreuen alle Saunier Duval Modelle, von moderner Saunier Duval Therme bis zur leistungsstarken Saunier Duval Gastherme.
+              Als erfahrener Spezialist für Saunier Duval in Wien stehen wir für Kompetenz, Sicherheit und nachhaltigen Service. Zudem bieten wir <a href="/viessmann-installateur-wien">zuverlässige Heizungsservice-Leistungen</a> für maximale Zuverlässigkeit an.
             </p>
             <p>
               Mit fundiertem Fachwissen und langjähriger Erfahrung kümmern wir uns um Installation, Wartung und Reparatur sämtlicher Geräte dieser Marke.
@@ -585,7 +583,7 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
   <section class="service-section service-section--soft" id="service-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
         <p>
           Unser Installateur Service für Saunier Duval umfasst fachgerechte Installation, regelmäßige Wartung und professionelle Thermenwartung.
         </p>
@@ -595,7 +593,7 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
         <p>
           Wir übernehmen Montage und Einrichtung Ihrer Saunier Duval Therme oder Duval Gastherme inklusive sicherer Inbetriebnahme der gesamten Anlage.
           Eine regelmäßige Thermenwartung verlängert die Lebensdauer, verbessert die Energieeffizienz und reduziert Störungen frühzeitig.
-          Unser Kundendienst bietet schnellen Einsatz bei Problemen sowie zuverlässigen Notdienst in Wien.
+          Unser <a href="/">Kundendienst</a> bietet schnellen Einsatz bei Problemen sowie zuverlässigen Notdienst in Wien.
         </p>
         <p>
           Alle Arbeiten erfolgen durch geschultes Fachpersonal mit modernsten Materialien und präziser Kontrolle.
@@ -631,8 +629,8 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Notdienst rund um Uhr</h3>
-            <p>Unser Notdienst Team ist rund um die Uhr im Einsatz und hilft bei akuten Problemen mit Saunier Duval Gasgeräte oder Gastherme.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Unser <a href="/">Notdienst Wien</a> Team ist rund um die Uhr im Einsatz und hilft bei akuten Problemen mit Saunier Duval Gasgeräte oder Gastherme.</p>
           </div>
         </article>
       </div>
@@ -651,7 +649,7 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
               Unsere Spezialisten prüfen alle Geräte sorgfältig und sorgen für optimale Wärme, Warmwasser und effizienten Betrieb.
             </p>
             <p>
-              Durch regelmäßige Wartung, Reinigung und Kontrolle werden Energiekosten reduziert und die Lebensdauer der Anlage erhöht.
+              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a>, Reinigung und Kontrolle werden Energiekosten reduziert und die Lebensdauer der Anlage erhöht.
               Unser Kundendienst Techniker steht bei Störungen oder Problemen schnell zur Verfügung.
               Dank präziser Einstellung und sorgfältiger Überprüfung sichern wir Leistung, Komfort und langfristige Sicherheit Ihrer Heizung in Wien und Umgebung.
             </p>
@@ -673,7 +671,7 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, Angebot und Beratung</h2>
+            <h2 id="installateur-wien">Saunier Duval Installateur Wien – Preise, Angebot und Beratung</h2>
             <p>
               Transparenter Preis und faire Kosten sind Bestandteil unseres Service in Wien.
               Vor jedem Einsatz erhalten Sie ein klares Angebot für Installation, Wartung oder Thermenservice.

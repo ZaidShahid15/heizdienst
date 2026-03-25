@@ -522,7 +522,7 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
           <h3>Flexibel nach Terminvereinbarung</h3>
-          <p>Schneller Kundendienst – flexibel und zuverlässig, abgestimmt auf Ihren Termin.</p>
+          <p>Schneller <a href="{{ route('saunier-duval.kundendienst') }}">Kundendienst</a> – flexibel und zuverlässig, abgestimmt auf Ihren Termin.</p>
           <ul class="service-checklist">
             <li>Schnelle Rückmeldung</li>
             <li>Flexible Terminplanung</li>

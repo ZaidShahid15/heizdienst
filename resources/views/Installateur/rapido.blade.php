@@ -512,8 +512,7 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
       </div>
 
       <p class="wolf-hero__sub">
-        Als Rapido Installateur Wien bieten wir professionelle Rapido Thermenwartung, Reparatur und 24 Stunden Notdienst für Rapido Therme und Gasgeräte in Wien.
-
+        Als Rapido Installateur Wien bietet unser Fachbetrieb professionelle Wartung, Reparatur und Service für Rapido Thermen, Heizung und Gasgeräte in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -610,7 +609,7 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
           <div class="card-box">
             <h2>Rapido Installateur Wien</h2>
             <p>
-              Als Rapido Installateur Wien bieten wir professionelle Rapido Thermenwartung, Reparatur und 24 Stunden Notdienst für Rapido Therme und Gasgeräte in Wien.
+              Als Rapido Installateur Wien bietet unser Fachbetrieb professionelle Wartung, Reparatur und Service für Rapido Thermen, Heizung und Gasgeräte in Wien. Zusätzlich bieten wir <a href="/ocean-installateur-wien">zuverlässige Heizungsservice-Leistungen</a> für maximale Sicherheit an.
             </p>
           </div>
         </div>
@@ -656,7 +655,7 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
   <section class="service-section service-section--soft" id="service-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
         <p>
           Unsere Dienstleistungen umfassen Installationstechnik, regelmäßige Wartung und professionelles Rapido Thermenservice – transparent, sicher und zuverlässig.
         </p>
@@ -703,8 +702,8 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🕒</div>
           <div>
-            <h3>24 Stunden Notdienst</h3>
-            <p>Unser Notdienst ist 24 Stunden rund um die Uhr in Wien Niederösterreich und Burgenland im Einsatz – auch an Feiertagen.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p><a href="/">Notdienst Wien</a> 24 Stunden rund um die Uhr in Wien Niederösterreich und Burgenland im Einsatz – auch an Feiertagen.</p>
           </div>
         </article>
       </div>
@@ -723,7 +722,7 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
               Unsere Experten prüfen Funktion, Sicherheit und Brennwert-Komponenten sorgfältig.
             </p>
             <p>
-              Durch regelmäßige Wartung und professionelle Überprüfung bleiben Rapido Geräte im optimalen Betrieb.
+              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie professionelle Überprüfung bleiben Rapido Geräte im optimalen Betrieb.
               Neben Rapido betreuen wir auch ausgewählte Marken wie Saunier Duval, De Dietrich und Viessmann.
               So bieten wir eine breite Palette an Lösungen für Heizanlage, Klimaanlagen und Sanitärsysteme.
               Unser Service deckt alles von Planung bis Montage ab und sorgt für nachhaltige Effizienz.
@@ -746,7 +745,7 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, Planung und Betreuung</h2>
+            <h2 id="installateur-wien">Rapido Installateur Wien – Preise, Planung und Betreuung</h2>
             <p>
               Transparente Preise, klarer Pauschalpreis und individuelle Planung sind Teil unseres Rapido Service in Wien.
               Vor Beginn aller Arbeiten erhalten Kunden einen genauen Überblick über Kosten, Leistungen und mögliche Lösungen.
@@ -889,7 +888,7 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
 
         <details>
           <summary>Bieten Sie auch Reparatur bei Gastherme Problemen?</summary>
-          <p>Ja, unser Rapido Kundendienst übernimmt Reparatur und Austausch bei Problemen mit Rapido Gastherme oder anderen Gasgeräte.</p>
+          <p>Ja, unser Rapido <a href="/">Kundendienst</a> übernimmt Reparatur und Austausch bei Problemen mit Rapido Gastherme oder anderen Gasgeräte.</p>
         </details>
 
         <details>

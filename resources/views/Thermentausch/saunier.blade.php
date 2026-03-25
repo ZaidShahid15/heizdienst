@@ -446,11 +446,11 @@ $metaDescription = " Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme &
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -562,9 +562,7 @@ $metaDescription = " Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme &
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Probleme verursacht, Reparaturen zunehmen
-              oder die Energieeffizienz nicht mehr dem aktuellen Stand entspricht. Besonders ältere Saunier Duval Gasthermen verlieren
-              mit der Zeit an Leistung und Sicherheit.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Probleme verursacht, Reparaturen zunehmen oder die Energieeffizienz nicht mehr dem aktuellen Stand entspricht. Zudem bieten wir <a href="/viessmann-thermentausch-wien">zuverlässige Heizungsservice-Leistungen</a> für maximale Sicherheit an.
             </p>
             <p>
               Moderne Brennwert Therme Lösungen von Saunier Duval senken den Gasverbrauch, reduzieren CO2 und verbessern die Wärmeversorgung.
@@ -644,7 +642,7 @@ $metaDescription = " Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme &
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔎</div>
           <div>
-            <h3>Besichtigung & Vorbefund</h3>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
             <p>Wir prüfen Gerät, Heizsystemen, Anschlüsse und Zustand. Der Vorbefund schafft Klarheit für Planung, Kosten und die passende Therme.</p>
           </div>
         </article>
@@ -714,7 +712,7 @@ $metaDescription = " Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme &
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preis und Aktion</h2>
+            <h2 id="thermentausch-wien">Saunier Duval Thermentausch Wien – Kosten, Preis und Aktion</h2>
             <p>
               Die Kosten für einen Saunier Duval Thermentausch in Wien hängen von Gerät, Heizleistung, Montageaufwand und Auswahl ab.
               Ein transparenter Kostenvoranschlag zeigt alle Preise inklusive MwSt.
@@ -775,8 +773,8 @@ $metaDescription = " Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme &
   <section class="service-section service-section--dark" id="vorteile-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Warum ein professioneller Saunier Duval Thermentausch überzeugt</h2>
-        <p>
+        <h2 id="kundendienst">Kundendienst – Warum ein professioneller Saunier Duval Thermentausch überzeugt</h2>
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
           Ein fachgerecht umgesetzter Saunier Duval Thermentausch erhöht die Sicherheit, senkt Kosten und verbessert den Wohnkomfort nachhaltig.
           Unsere Experten prüfen Gerät, Heizleistung, Brenner und Anschlüsse sorgfältig.
         </p>
@@ -840,7 +838,7 @@ $metaDescription = " Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme &
 
         <details>
           <summary>Gibt es einen Saunier Duval Notdienst?</summary>
-          <p>Ja, bei Störung oder dringendem Anliegen steht ein Notdienst zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
+          <p>Ja, bei Störung oder dringendem Anliegen steht <a href="/">Notdienst Wien</a> zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
         </details>
       </div>
     </div>

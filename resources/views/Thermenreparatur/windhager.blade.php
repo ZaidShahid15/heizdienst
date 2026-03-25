@@ -584,10 +584,10 @@ $metaDescription = "Windhager Thermenreparatur Wien vom Meisterbetrieb. Windhage
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Windhager Notdienst und Kundendienst in Wien</h2>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
             <p>
               Reparatur, Thermenservice und Wartung aus einer Hand – der Windhager Kundendienst betreut Kunden in Wien,
-              Niederösterreich und Burgenland bei allen Anliegen rund um Windhager Therme, Gastherme und moderne Heizungssysteme.
+              Niederösterreich und Burgenland bei allen Anliegen rund um Windhager Therme und Gasgeräte. Zudem bieten wir eine <a href="/rapido-thermenreparatur-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob im privaten Haus oder im gewerblichen Betrieb – unsere erfahrenen Installateure und qualifizierten Techniker sorgen
@@ -618,7 +618,7 @@ $metaDescription = "Windhager Thermenreparatur Wien vom Meisterbetrieb. Windhage
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Windhager Kundendienst für Therme und Heizung</h2>
+            <h2 id="kundendienst">Kundendienst – Windhager Kundendienst für Therme und Heizung</h2>
             <p>
               Unsere Techniker und Installateure betreuen Windhager Therme, Gastherme und Heizsysteme mit Erfahrung und strukturierter Vorgehensweise.
               Wir prüfen Ihre Anlage sorgfältig und erkennen Störungen wie sinkenden Wasserdruck, fehlendes Warmwasser oder ungewöhnliche Geräusche frühzeitig.
@@ -711,7 +711,7 @@ $metaDescription = "Windhager Thermenreparatur Wien vom Meisterbetrieb. Windhage
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Windhager Thermenservice und Thermenwartung</h2>
+            <h2 id="thermenreparatur-wien">Windhager Thermenreparatur Wien für Effizienz und Sicherheit</h2>
             <p>
               Regelmäßige Thermenwartung und professioneller Windhager Thermenservice sind entscheidend für einen sicheren Betrieb.
               Unsere Windhager Thermenwartung umfasst Überprüfung, Reinigung, Kontrolle aller relevanten Komponenten und Einstellung wichtiger Werte.
@@ -880,7 +880,7 @@ $metaDescription = "Windhager Thermenreparatur Wien vom Meisterbetrieb. Windhage
       <div class="service-faq">
         <details>
           <summary>1. Wann sollte ich den Windhager Notdienst kontaktieren?</summary>
-          <p>Den Windhager Notdienst rufen Sie bei Ausfall der Windhager Therme, Gasgeruch, starkem Druckverlust oder akutem Fehlercode – besonders in Wien und Niederösterreich.</p>
+          <p>Den Windhager <a href="/">Notdienst Wien</a> rufen Sie bei Ausfall der Windhager Therme, Gasgeruch, starkem Druckverlust oder akutem Fehlercode – besonders in Wien und Niederösterreich.</p>
         </details>
 
         <details>
@@ -900,7 +900,7 @@ $metaDescription = "Windhager Thermenreparatur Wien vom Meisterbetrieb. Windhage
 
         <details>
           <summary>5. Ist der Kundendienst auch außerhalb von Wien verfügbar?</summary>
-          <p>Der Kundendienst betreut Kunden in Wien, Niederösterreich und Burgenland zuverlässig im laufenden Betrieb.</p>
+          <p><a href="/">Kundendienst</a> betreut Kunden in Wien, Niederösterreich und Burgenland zuverlässig im laufenden Betrieb.</p>
         </details>
 
         <details>

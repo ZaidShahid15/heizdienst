@@ -503,8 +503,7 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
       </div>
 
       <p class="wolf-hero__sub">
-        Als Löblich Installateur Wien bieten wir professionelle Löblich Thermenwartung, Thermenservice und Notdienst für Therme und Gasgerät in Wien.
-
+        Als Löblich Installateur Wien bietet unser Fachbetrieb professionelle Löblich Thermenwartung, Thermenservice und Notdienst für Therme und Gasgerät in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -600,8 +599,7 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
           <div class="card-box">
             <h2>Löblich Partner in Wien</h2>
             <p>
-              Als erfahrener Installateur und regionaler Anbieter steht Löblich in Wien für Qualität, Sicherheit und nachhaltige Betreuung.
-              Unser Team betreut Therme, Kombitherme und moderne Geräte verschiedener Hersteller zuverlässig und fachgerecht.
+              Als erfahrener Installateur und regionaler Anbieter steht Löblich in Wien für Qualität, Sicherheit und nachhaltige Betreuung. Zudem bieten wir einen <a href="/wolf-installateur-wien">fachgerechten Service für verschiedene Heizsysteme</a> für maximale Heizsicherheit an.
             </p>
             <p>
               Löblich Thermenwartung erfolgt nach aktuellen Standards und berücksichtigt individuelle Betriebsbedingungen sowie den Zustand der Anlage.
@@ -625,8 +623,8 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
   <section class="service-section service-section--soft" id="wartung-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Thermenwartung, Service und Reparaturen</h2>
-        <p>
+        <h2 id="kundendienst">Kundendienst – Thermenwartung, Service und Reparaturen</h2>
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
           Unsere Löblich Thermenwartung umfasst regelmäßige Thermenwartung, professionelle Wartung und umfassenden Thermenservice für alle gängigen Marken.
         </p>
       </div>
@@ -670,8 +668,8 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Notdienst rund um Uhr</h3>
-            <p>Unser Notdienst ist in Wien und Niederösterreich rund um die Uhr erreichbar und hilft bei akuten Problemen sofort.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p><a href="/">Notdienst Wien</a> in Wien und Niederösterreich rund um die Uhr erreichbar und hilft bei akuten Problemen sofort.</p>
           </div>
         </article>
       </div>
@@ -690,9 +688,8 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
               Eine regelmäßige Thermenwartung Löblich sorgt für optimale Verbrennung, sichere Funktion und stabiles Raumklima.
             </p>
             <p>
-              Durch Abgasmessung, Überprüfung der Dichtungen und Anpassung der Einstellung wird die Anlage effizient betrieben.
-              So lassen sich Energiekosten und Heizkosten reduzieren, während Sicherheit und Komfort steigen.
-              Löblich Thermenservice berücksichtigt alle relevanten Faktoren wie Betriebsbedingungen, Zustand und Alter der Therme in Wien.
+              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie Wartung und Thermenservice für Löblich Geräte sorgt für optimale Verbrennung, sichere Funktion und stabiles Raumklima.
+              Neben Löblich betreuen wir auch ausgewählte Marken wie Saunier Duval – für eine umfassende Palette an Dienstleistungen für Heizung, Sanitär und Energie in Wien und Umgebung.
             </p>
           </div>
         </div>
@@ -712,7 +709,7 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Beratung</h2>
+            <h2 id="installateur-wien">Löblich Installateur Wien – Kosten, Preise und Beratung</h2>
             <p>
               Transparente Kosten und faire Preise sind ein zentraler Bestandteil unserer Löblich Thermenwartung.
               Vor Beginn aller Arbeiten erhalten Sie klare Informationen zu Wartung, Reparaturen oder möglicher Montage.

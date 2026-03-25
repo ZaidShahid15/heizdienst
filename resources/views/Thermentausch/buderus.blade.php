@@ -451,12 +451,12 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
 <main>
 
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -568,8 +568,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Heizkosten steigen.
-              Besonders ältere Buderus Gasthermen verlieren mit der Zeit an Effizienz und Zuverlässigkeit.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Heizkosten steigen. Zudem bieten wir <a href="/baxi-thermentausch-wien">professionelle Unterstützung für Markengeräte</a> für maximale Sicherheit an.
             </p>
             <p>
               Moderne Buderus Brennwert Thermen bieten eine bessere Nutzung der Energie, erhöhen den Wohnkomfort und reduzieren Energiekosten.
@@ -649,8 +648,8 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔎</div>
           <div>
-            <h3>Überprüfung und Beratung vor Ort</h3>
-            <p>Wir prüfen Gerät, Anlage und Heizsysteme – inklusive Wärmetauscher und Sicherheit – und klären den Bedarf für eine passende Lösung.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Wir prüfen Gerät, Anlage und Heizsysteme – inklusive Wärmetauscher und Sicherheit – und klären den Bedarf für eine passende Lösung. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
 
@@ -715,7 +714,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Transparenz</h2>
+            <h2 id="thermentausch-wien">Buderus Thermentausch Wien – Kosten, Preise und Transparenz</h2>
             <p>
               Die Kosten für einen Buderus Thermentausch in Wien hängen von Gerät, Anlage und Montageaufwand ab.
               Ein transparenter Kostenvoranschlag zeigt alle Kosten klar auf. Moderne Buderus Thermen reduzieren Energiekosten und verbessern die Energieeffizienz langfristig.
@@ -774,8 +773,8 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
   <section class="service-section service-section--dark" id="vorteile-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Warum ein professioneller Buderus Thermentausch überzeugt</h2>
-        <p>
+        <h2 id="kundendienst">Kundendienst – Warum ein professioneller Buderus Thermentausch überzeugt</h2>
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
           Ein fachgerecht umgesetzter Buderus Thermentausch erhöht die Sicherheit, senkt Energiekosten und verbessert den Wohnkomfort dauerhaft.
           Unsere Experten prüfen Anlage, Gerät, Wärmetauscher und Heizsysteme sorgfältig.
         </p>

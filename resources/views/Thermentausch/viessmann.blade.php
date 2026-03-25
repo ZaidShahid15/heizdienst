@@ -495,7 +495,7 @@ $metaDescription = " Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Bre
 <main>
 
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -607,8 +607,7 @@ $metaDescription = " Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Bre
           <div class="card-box">
             <h2>Wann ein Thermentausch wirklich sinnvoll ist</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Viessmann Therme häufige Probleme verursacht, Reparaturen zunehmen oder die Energiekosten steigen.
-              Ältere Gasthermen entsprechen oft nicht mehr dem aktuellen Standard moderner Heizsysteme.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Viessmann Therme häufige Probleme verursacht, Reparaturen zunehmen oder die Energiekosten steigen. Zudem bieten wir eine <a href="/junkers-thermentausch-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Neue Viessmann Gas Brennwertthermen bieten höhere Effizienz, bessere Sicherheit und einen stabilen Betrieb.
@@ -687,8 +686,8 @@ $metaDescription = " Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Bre
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
-            <h3>Beratung, Planung und Kontrolle</h3>
-            <p>Nach der Beratung prüft der Techniker vor Ort Gerät, Heizungsanlage und bestehende Arbeiten. Danach folgt Planung und Angebot.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Nach der Beratung prüft der Techniker vor Ort Gerät, Heizungsanlage und bestehende Arbeiten. Danach folgt Planung und Angebot. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
 
@@ -755,7 +754,7 @@ $metaDescription = " Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Bre
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Förderungen</h2>
+            <h2 id="thermentausch-wien">Viessmann Thermentausch Wien – Kosten, Preise und Förderungen</h2>
             <p>
               Die Kosten für einen Viessmann Thermentausch in Wien hängen vom Modell, Montageaufwand, Anlage und Zubehör ab.
               Ein transparenter Kostenvoranschlag zeigt alle Preise inklusive MwSt und möglichen Förderungen.
@@ -818,8 +817,8 @@ $metaDescription = " Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Bre
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Warum ein fachgerechter Viessmann Thermentausch überzeugt</h2>
-        <p>
+        <h2 id="kundendienst">Kundendienst – Warum ein fachgerechter Viessmann Thermentausch überzeugt</h2>
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
           Ein professionell umgesetzter Thermentausch erhöht nicht nur Effizienz, sondern auch Sicherheit und Zuverlässigkeit der Heizungsanlage.
           Ein erfahrener Fachbetrieb prüft Anlage, Bauteile und Betrieb sorgfältig.
         </p>

@@ -959,11 +959,11 @@ $metaDescription = " Professionelle Baxi Thermenwartung in Wien vom Fachbetrieb.
       <div class="service-emergency__text">
         <h2>Baxi Notdienst Wien – 24 Stunden verfügbar</h2>
        <p>
-  Bei akuten Notfällen, plötzlichen Problemen oder kompletten Ausfällen steht Ihnen unser Baxi Notdienst Wien rund um die Uhr zur Verfügung. Egal ob Nacht, Wochenende oder Feiertag – unser Kundendienst reagiert schnell und zuverlässig. Für eine langfristig sichere Funktion empfehlen wir zudem eine regelmäßige
-  <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
-    Thermenwartung Wien
-  </a>.
-</p>
+        Bei akuten Notfällen, plötzlichen Problemen oder kompletten Ausfällen steht Ihnen unser Baxi Notdienst Wien rund um die Uhr zur Verfügung. Egal ob Nacht, Wochenende oder Feiertag – unser Kundendienst reagiert schnell und zuverlässig. Für eine langfristig sichere Funktion empfehlen wir zudem eine regelmäßige
+        <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
+            Thermenwartung Wien
+        </a>.
+        </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Sofort Hilfe anfordern</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>

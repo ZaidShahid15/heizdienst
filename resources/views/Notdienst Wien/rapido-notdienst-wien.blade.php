@@ -505,7 +505,7 @@
 </style>
 
 @php
-$metaTitle = "Rapido Notdienst Wien – Thermenservice & Gastherme 24h";
+$metaTitle = "Notdienst Wien – Thermenservice & Gastherme 24h";
 $metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & Reparatur ✔ Gastherme, Heizung & Kundendienst rund um die Uhr in Wien & NÖ.";
 @endphp
 
@@ -654,8 +654,7 @@ $metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & R
           <div class="card-box">
             <h2>Rapido Service in Wien</h2>
             <p>
-              Als erfahrener Partner betreuen wir Rapido Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+               Als erfahrener Partner betreuen wir Rapido Geräte, Gasgeräte und moderne Heizsysteme für Ihr Zuhause. Als spezialisierter Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Ergänzend bieten wir einen <a href="/ocean-notdienst-wien">Ocean Notdienst Wien</a> für maximale Zuverlässigkeit.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,
@@ -904,7 +903,7 @@ $metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & R
             <h2>Regionale Betreuung</h2>
             <p>
               Wir betreuen Kunden in Wien sowie Niederösterreich und im Burgenland.
-              Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
+              Kurze Wege und regionale Nähe sichern schnellen Service durch unseren <a href="/">Thermenwartung & Thermenservice Wien</a> Fachbetrieb in allen Regionen.
             </p>
           </div>
         </div>

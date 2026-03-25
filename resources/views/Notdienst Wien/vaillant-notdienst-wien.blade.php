@@ -502,7 +502,7 @@
 </style>
 
 @php
-$metaTitle = "Vaillant Notdienst Wien – 24h Kundendienst, Reparatur & Service";
+$metaTitle = "Notdienst Wien – 24h Kundendienst, Reparatur & Heizungsservice";
 $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Kundendienst, Reparatur, Wartung & Thermenservice in Wien & Niederösterreich inkl. MwSt.";
 
 @endphp
@@ -519,7 +519,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Vaillant Notdienst Wien 24/7 <br>
+        Notdienst Wien 24/7 <br>
         <span style="color:#FB9A1B;"> Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.</span>
       </h1>
 
@@ -705,8 +705,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
               Unser Kundendienst unterstützt privat und im Betrieb – zuverlässig, strukturiert und mit Blick auf Sicherheit und Komfort.
             </p>
             <p>
-              Als Installateur-Service arbeiten wir mit erfahrenem Fachpersonal, geschulten Technikern und Experten.
-              Wir prüfen Geräte, erkennen Ursachen von Störungen früh und setzen Reparatur oder Wartung fachgerecht um.
+              Als Installateur-Service arbeiten wir mit erfahrenem Fachpersonal, geschulten Technikern und Experten. Wir prüfen Geräte, erkennen Ursachen von Störungen früh und setzen Reparatur oder Wartung fachgerecht um. Zudem bieten wir einen <a href="/nordgas-notdienst-wien">Nordgas Notdienst Wien</a> für höchste Betriebssicherheit an.
             </p>
 
             <p style="margin-top:10px; font-weight:900; color:var(--ink);">Darauf können Sie sich verlassen:</p>
@@ -910,8 +909,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
           <div class="card-box">
             <h2>Einsatzgebiet Wien und Niederösterreich</h2>
             <p>
-              Wir betreuen ganz Wien sowie Niederösterreich zuverlässig. Kurze Anfahrten, klare Routenplanung und realistische Zeitfenster
-              sorgen für schnelle Hilfe am Ort.
+              Wir betreuen ganz Wien sowie Niederösterreich zuverlässig. Kurze Anfahrten und eine klare Planung sichern einen professionellen <a href="/">Thermenwartung Wien</a> Service für alle Haushalte und Betriebe am Ort.
             </p>
             <p>
               Auch bei Wegzeit Niederösterreich kalkulieren wir transparent und fair. Ob Wohnung, Haus oder Betrieb –

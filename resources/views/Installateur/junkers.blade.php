@@ -550,8 +550,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
       </div>
 
       <p class="wolf-hero__sub">
-        Als erfahrener Junkers Installateur Wien bieten wir zuverlässige Installation, Wartung und Service für Junkers Therme, Heizung und Gas in Wien.
-
+        Als erfahrener Junkers Installateur Wien bietet unser Fachbetrieb professionelle Installation, Wartung und Service für Junkers Therme, Heizung und Gas in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -647,8 +646,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
           <div class="card-box">
             <h2>Junkers Fachpartner in Wien</h2>
             <p>
-              Als zertifizierter Junkers Fachpartner in Wien stehen wir Kunden mit Kompetenz, Erfahrung und hoher Servicequalität zur Verfügung.
-              Unser Unternehmen arbeitet eng mit Junkers und Bosch zusammen und betreut sämtliche Produkte dieser Marke professionell.
+              Als zertifizierter Junkers Fachpartner in Wien stehen wir Kunden mit Kompetenz, Erfahrung und hoher Servicequalität zur Verfügung. Zudem bieten wir einen <a href="/baxi-installateur-wien">fachgerechten Service für verschiedene Heizsysteme</a> für maximale Zuverlässigkeit an.
             </p>
             <p>
               Unsere Installateure sind geschulte Fachkräfte mit fundiertem Know-how in Heiztechnik, Gas und modernen Heizungsanlagen.
@@ -672,9 +670,9 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
   <section class="service-section service-section--soft" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
         <p>
-          Unser Installateur Service für Junkers in Wien umfasst Installation, laufende Wartung und professionellen Kundendienst – für sicheren Betrieb, klare Preise und zuverlässige Betreuung.
+          Unser Installateur Service für Junkers in Wien umfasst Installation, laufende Wartung und professionellen <a href="/">Kundendienst</a> – für sicheren Betrieb, klare Preise und zuverlässige Betreuung.
         </p>
       </div>
 
@@ -706,8 +704,8 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
-            <h3>Notdienst rund um Uhr</h3>
-            <p>Unser Junkers Notdienst ist rund um die Uhr verfügbar und hilft bei akuten Störungen schnell vor Ort in Wien und Umgebung.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Unser Junkers <a href="/">Notdienst Wien</a> ist rund um die Uhr verfügbar und hilft bei akuten Störungen schnell vor Ort in Wien und Umgebung.</p>
           </div>
         </article>
       </div>
@@ -723,7 +721,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
             <h2>Heizung, Gas und Technik</h2>
             <p>
               Wir betreuen Junkers Heizungssysteme, Gasgeräte und moderne Heiztechnik mit hoher Fachkompetenz.
-              Ob Gastherme, Heizungsanlage oder komplettes Heizsystem – unsere Installateure sorgen für sicheren Betrieb und optimale Leistung.
+              Eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie fachgerechte Wartung und Service sorgen für sicheren Betrieb und optimale Leistung.
             </p>
             <p>
               Durch regelmäßige Überprüfung, fachgerechte Wartung und gezielte Behebung von Problemen erhöhen wir die Energieeffizienz und reduzieren Gasverbrauch.
@@ -754,7 +752,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, Transparenz und Vertrauen</h2>
+            <h2 id="installateur-wien">Junkers Installateur Wien – Preise, Transparenz und Vertrauen</h2>
             <p>
               Faire Preise und transparente Abrechnung sind für uns selbstverständlich.
               Unsere Kunden erhalten vor jedem Einsatz klare Informationen zu Preisen, Leistungen und Umfang der Arbeiten.

@@ -406,7 +406,7 @@
   .toc-body{
     padding:12px;
     transition:max-height .22s ease, padding .22s ease;
-   
+
     overflow:auto;
   }
   .toc-list{
@@ -474,7 +474,7 @@ $metaDescription = "Wolf Kundendienst Wien für Thermen, Heizung & Heizsysteme. 
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -772,7 +772,7 @@ $metaDescription = "Wolf Kundendienst Wien für Thermen, Heizung & Heizsysteme. 
       <div class="service-emergency__text">
         <h2>Wolf Notdienst im Notfall</h2>
         <p>
-          Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Unser <a href="/">Notdienst Wien</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
           Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
@@ -863,7 +863,7 @@ $metaDescription = "Wolf Kundendienst Wien für Thermen, Heizung & Heizsysteme. 
       <div class="service-faq">
         <details>
           <summary>Was bietet der Wolf Kundendienst Wien?</summary>
-          <p>Unser Kundendienst umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
+          <p>Unser <a href="/">Kundendienst</a> umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
         </details>
 
         <details>

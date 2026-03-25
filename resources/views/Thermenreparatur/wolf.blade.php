@@ -626,8 +626,7 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
           <div class="card-box">
             <h2>Wolf Thermenreparatur Wien und Wolf Kundendienst</h2>
             <p>
-              Unsere Wolf Thermenreparatur Wien steht für professionelle Reparatur, zuverlässigen Wolf Kundendienst und umfassenden Service für Ihre Wolf Therme.
-              Als erfahrener Fachbetrieb betreuen wir Wolf Geräte, moderne Heizgeräte sowie komplette Heizungsanlagen in Wien und Niederösterreich.
+              Unsere Wolf Thermenreparatur Wien steht für professionelle Reparatur, zuverlässigen Wolf Kundendienst und umfassenden Service für Ihre Wolf Therme. Zudem bieten wir <a href="/saunier-duval-thermenreparatur-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Wolf Gastherme, Gaskessel oder Ölkessel – unser Team analysiert jede Thermenstörung präzise und sorgt für eine nachhaltige Lösung.
@@ -659,7 +658,7 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparatur Ihrer Wolf Therme bei Störungen</h2>
+            <h2 id="kundendienst">Kundendienst – Reparatur Ihrer Wolf Therme bei Störungen</h2>
             <p>
               Wenn Ihre Wolf Therme ein Problem zeigt oder die Heizung ausfällt, ist rasche Unterstützung entscheidend.
               Unsere Techniker führen eine strukturierte Überprüfung durch und erkennen Störungen frühzeitig.
@@ -693,7 +692,7 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Wolf Notdienst Wien rund um die Uhr</h2>
+        <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
         <p>
           Bei einem Notfall ist unser Wolf Notdienst in Wien und Niederösterreich rund um die Uhr erreichbar.
           Ob plötzliche Thermenstörung, Ausfall der Wolf Gastherme oder sicherheitsrelevantes Problem – unser Team bietet sofortige Unterstützung.
@@ -761,7 +760,7 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wolf Thermenwartung Wien für Sicherheit und Effizienz</h2>
+            <h2 id="thermenreparatur-wien">Wolf Thermenreparatur Wien für Sicherheit und Effizienz</h2>
             <p>
               Eine regelmäßige Wolf Thermenwartung ist entscheidend für die Sicherheit, Effizienz und Langlebigkeit Ihrer Wolf Therme.
               Unsere Thermenwartung Wien umfasst die gründliche Überprüfung aller relevanten Komponenten, Reinigung sensibler Bauteile
@@ -833,7 +832,7 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
     <div class="service-container">
       <div class="service-section__head">
         <h2>Warum wir Ihr Wolf Partner in Wien sind</h2>
-        <p>Kompetenz, Know-how und persönliche Betreuung – für Wolf Thermenservice, Kundendienst, Wartung und Reparatur.</p>
+        <p>Kompetenz, Know-how und persönliche Betreuung – für Wolf Thermenservice, <a href="/">Kundendienst</a>, Wartung und Reparatur.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -888,7 +887,7 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
 
         <details>
           <summary>Ist der Wolf Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Wolf Notdienst ist rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
+          <p>Ja, unser Wolf <a href="/">Notdienst Wien</a> ist rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
         </details>
 
         <details>

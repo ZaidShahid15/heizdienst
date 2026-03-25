@@ -585,9 +585,7 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
           <div class="card-box">
             <h2>Nordgas Thermenreparatur Wien und Nordgas Kundendienst</h2>
             <p>
-              Unsere Nordgas Thermenreparatur Wien steht für professionelle Reparaturen, zuverlässigen Kundendienst und umfassenden Nordgas Thermenservice.
-              Als erfahrener Installateur betreuen wir Nordgas Therme, Nordgas Gastherme sowie weitere Gasgeräte direkt bei Ihnen zuhause in Wien und Umgebung.
-              Der Nordgas Kundendienst übernimmt Überprüfung, Reinigung und fachgerechte Reparaturen an allen Geräten.
+              Unsere Nordgas Thermenreparatur Wien steht für professionelle Reparaturen, zuverlässigen Kundendienst und umfassenden Nordgas Thermenservice. Zudem bieten wir einen <a href="/windhager-thermenreparatur-wien">fachgerechten Service für verschiedene Heizsysteme</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Fehlermeldungen, Störungen oder andere Probleme im Betrieb – unser Team analysiert jede Therme sorgfältig und bietet nachhaltige Lösungen.
@@ -618,7 +616,7 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Reparaturen Ihrer Nordgas Gastherme bei Störungen</h2>
+            <h2 id="kundendienst">Kundendienst – Reparaturen Ihrer Nordgas Gastherme bei Störungen</h2>
             <p>
               Wenn Ihre Nordgas Gastherme nicht mehr einwandfrei arbeitet, ist rasche Hilfe entscheidend.
               Unsere Techniker führen präzise Überprüfung aller Komponenten, Funktionsprüfung sowie Dichtheit Kontrollen durch.
@@ -648,8 +646,8 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
       <div style="height:14px"></div>
 
       <div class="service-section__head">
-        <h2>Nordgas Thermenservice, Wartung, Thermentausch & Notdienst</h2>
-        <p>Professioneller Kundendienst für Nordgas Therme und Gasgeräte in Wien, Niederösterreich und Wiener Neustadt.</p>
+        <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+        <p>Professioneller <a href="/">Kundendienst</a> für Nordgas Therme und Gasgeräte in Wien, Niederösterreich und Wiener Neustadt.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -710,7 +708,7 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Nordgas Thermenwartung Wien für Effizienz und Sicherheit</h2>
+            <h2 id="thermenreparatur-wien">Nordgas Thermenreparatur Wien für Effizienz und Sicherheit</h2>
             <p>
               Eine regelmäßige Nordgas Thermenwartung ist entscheidend für die langfristige Funktion Ihrer Nordgas Therme.
               Unsere professionelle Thermenwartung sowie gezielte Wartung Ihrer Nordgas Gastherme umfasst gründliche Überprüfung aller Komponenten,
@@ -892,7 +890,7 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
 
         <details>
           <summary>2. Ist der Nordgas Notdienst in Wien verfügbar?</summary>
-          <p>Ja, unser Notdienst ist rund um die Uhr in Wien, Niederösterreich, NÖ und Wiener Neustadt im Einsatz.</p>
+          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien, Niederösterreich, NÖ und Wiener Neustadt im Einsatz.</p>
         </details>
 
         <details>

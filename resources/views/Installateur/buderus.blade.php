@@ -469,8 +469,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
       </div>
 
       <p class="wolf-hero__sub">
-        Als Buderus Installateur Wien bieten wir professionelle Thermenwartung, Reparatur und Installation für Buderus Therme und Gastherme in Wien.
-
+        Als Buderus Installateur Wien bietet unser Fachbetrieb professionelle Thermenwartung, Reparatur und Installation für Buderus Therme und Gastherme in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -566,8 +565,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
           <div class="card-box">
             <h2>Buderus Fachpartner in Wien</h2>
             <p>
-              Als erfahrener Installateur und kompetenter Partner für Buderus in Wien stehen wir für Qualität, Sicherheit und nachhaltige Betreuung.
-              Unsere Mitarbeiter und unser geschultes Fachpersonal verfügen über langjährige Erfahrung im Bereich Buderus Heizsystem, Buderus Gastherme und moderne Heizkessel.
+              Als erfahrener Installateur und kompetenter Partner für Buderus in Wien stehen wir für Qualität, Sicherheit und nachhaltige Betreuung. Zudem bieten wir <a href="/vaillant-installateur-wien">zuverlässige Heizungsservice-Leistungen</a> für maximale Heizsicherheit an.
             </p>
             <p>
               Wir betreuen Kunden in Wien und Umgebung zuverlässig und mit kurzen Wegzeit. Ob Wohnung, Restaurants oder gewerblicher Betrieb – wir kennen die Anforderungen vor Ort und reagieren schnell.
@@ -590,7 +588,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
   <section class="service-section service-section--soft" id="service-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
         <p>
           Unser Service umfasst Installation, regelmäßige Wartung und professionelle Buderus Thermenwartung für alle Buderus Geräte.
         </p>
@@ -604,7 +602,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
         </p>
         <p>
           Unser Buderus Thermenservice erstellt ein Prüfprotokoll und informiert transparent über Leistung und Zustand Ihrer Anlage.
-          Kunden profitieren von zuverlässigem Kundendienst, transparenter Terminvergabe und fairem Preis Leistungsverhältnis inklusive MwSt.
+          Kunden profitieren von zuverlässigem <a href="/">Kundendienst</a>, transparenter Terminvergabe und fairem Preis Leistungsverhältnis inklusive MwSt.
         </p>
       </div>
 
@@ -636,8 +634,8 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
-            <h3>Notdienst in Wien</h3>
-            <p>Unser Notdienst steht in Wien und Umgebung zur Verfügung und hilft bei akuten Problemen oder Ausfällen Ihrer Gastherme schnell vor Ort.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p><a href="/">Notdienst Wien</a> in Wien und Umgebung zur Verfügung und hilft bei akuten Problemen oder Ausfällen Ihrer Gastherme schnell vor Ort.</p>
           </div>
         </article>
       </div>
@@ -652,8 +650,8 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
           <div class="card-box">
             <h2>Heizung, Gastherme und Heizkessel</h2>
             <p>
-              Wir betreuen Buderus Heizungssysteme, Buderus Gastherme, Kombitherme und moderne Heizkessel im gesamten Leistungsbereich.
-              Eine regelmäßige Thermenwartung Buderus verbessert die Leistung, verlängert die Lebensdauer und reduziert Gasverbrauch.
+              Wir betreuen Buderus Heizungssysteme, Buderus Gastherme und moderne Heizkessel.
+              Eine regelmäßige <a href="/">Thermenwartung Wien</a> verbessert die Leistung, verlängert die Lebensdauer und reduziert Gasverbrauch.
             </p>
             <p>
               Unsere Wartung umfasst Entleerung, Zerlegung relevanter Komponenten sowie Überprüfung aller sicherheitsrelevanten Funktionen.
@@ -678,7 +676,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, Angebot und Beratung</h2>
+            <h2 id="installateur-wien">Buderus Installateur Wien – Preise, Angebot und Beratung</h2>
             <p>
               Transparente Preise und faire Kosten sind Teil unseres Service in Wien.
               Vor jeder Thermenwartung Buderus oder Reparatur erhalten Sie ein klares Angebot inklusive MwSt.

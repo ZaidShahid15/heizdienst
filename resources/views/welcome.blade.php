@@ -1140,10 +1140,7 @@ $allowIndex = true;
                     <div class="col-md-12">
                         <h2 class="text-center fw-bold">Thermenservice & Wartung aller Marken</h2>
                         <p class="lead text-center">
-                            Wir bieten professionellen Thermenservice, Wartung und Reparatur für alle gängigen
-                            Thermenmarken –
-                            fachgerecht, sicher und zuverlässig durch erfahrene Installateure in Wien und
-                            Niederösterreich.
+                            Wir bieten eine professionelle Thermenwartung & Thermenservice Wien & Niederösterreich für alle gängigen Marken an. Unser Fachbetrieb garantiert eine erstklassige Thermenwartung Wien & Niederösterreich, wobei unsere erfahrenen Installateure sowohl eine fachgerechte Thermenwartung Wien als auch eine zuverlässige Thermenwartung Niederösterreich direkt am Standort durchführen. Vertrauen Sie auf einen kompetenten Thermenservice Wien & Niederösterreich, der durch unseren spezialisierten Thermenservice Wien und den flexiblen Thermenservice Niederösterreich für höchste Sicherheit, Effizienz und langlebige Funktion Ihrer Gastherme sorgt.
                         </p>
                     </div>
                 </div>

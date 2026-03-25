@@ -623,10 +623,9 @@ $metaDescription = "Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Viessmann Thermenreparatur und Service in Wien</h2>
+            <h2 id="kundendienst">Kundendienst – Viessmann Thermenreparatur und Service in Wien</h2>
             <p>
-              Eine funktionierende Viessmann Therme ist entscheidend für zuverlässige Heizung, warmes Wasser und einen sicheren Betrieb im Hause.
-              Unsere Viessmann Thermenreparatur Wien bietet professionelle Reparatur und umfassenden Viessmann Thermenservice für alle gängigen Geräte und Gasgeräte der Marke Viessmann.
+              Eine funktionierende Viessmann Therme ist entscheidend für zuverlässige Heizung, warmes Wasser und einen sicheren Betrieb im Hause. Zudem bieten wir eine <a href="/junkers-thermenreparatur-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Wohnung, Einfamilienhaus oder gewerblicher Standort – wir betreuen Kunden in Wien und Umgebung mit fachgerechtem Service.
@@ -689,7 +688,7 @@ $metaDescription = "Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Viessmann Notdienst Wien rund um die Uhr</h2>
+        <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
         <p>
           Bei einem Notfall steht unser Viessmann Notdienst in Wien rund um die Uhr zur Verfügung.
           Egal ob plötzlicher Ausfall der Heizung, kein warmes Wasser oder sicherheitsrelevante Störungen – unser Team reagiert sofort.
@@ -756,7 +755,7 @@ $metaDescription = "Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Viessmann Thermenwartung Wien für Effizienz und Langlebigkeit</h2>
+            <h2 id="thermenreparatur-wien">Viessmann Thermenreparatur Wien für Effizienz und Langlebigkeit</h2>
             <p>
               Eine regelmäßige Viessmann Thermenwartung ist einer der wichtigsten Punkte für die Sicherheit und Effizienz Ihrer Heizung.
               Unsere professionelle Thermenwartung Wien umfasst gründliche Wartung, sorgfältige Reinigung sowie detaillierte Überprüfung aller sicherheitsrelevanten Komponenten.
@@ -829,7 +828,7 @@ $metaDescription = "Viessmann Thermenreparatur Wien vom Fachmann. Notdienst rund
     <div class="service-container">
       <div class="service-section__head">
         <h2>Warum wir Ihr Viessmann Partner in Wien sind</h2>
-        <p>Service aus einer Hand – Thermenservice, Wartung, Reparatur und Notdienst mit erfahrenen Experten und klaren Abläufen.</p>
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität: Service aus einer Hand – Thermenservice, Wartung, Reparatur und <a href="/">Notdienst Wien</a> mit erfahrenen Experten und klaren Abläufen.</p>
       </div>
 
       <div class="service-grid service-grid--2">

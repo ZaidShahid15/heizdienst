@@ -615,10 +615,9 @@ $metaDescription = " Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme �
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Rapido Notdienst und Kundendienst in Wien und Umgebung</h2>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
             <p>
-              Thermenwartung, Reparatur und Rapido Thermenservice aus einer Hand – erfahrenes Techniker Team mit Know-how.
-              Service rund um die Uhr, auch im Winter und in jeder Jahreszeit.
+              Thermenwartung, Reparatur und Rapido Thermenservice aus einer Hand – erfahrenes Techniker Team mit Know-how. Zudem bieten wir <a href="/ocean-thermentausch-wien">zuverlässige Heizungsservice-Leistungen</a> für maximale Sicherheit an.
             </p>
             <p>
               Unser Team aus qualifizierten Technikern und Installateuren bringt umfassendes Fachwissen, langjährige Erfahrung und praxisnahes Know-how mit.
@@ -669,7 +668,7 @@ $metaDescription = " Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme �
           <div class="service-feature__icon" aria-hidden="true">🕒</div>
           <div>
             <h3>24h erreichbar</h3>
-            <p>Notdienst rund um die Uhr – auch an Wochenenden, Feiertagen und in der kalten Jahreszeit.</p>
+            <p><a href="/">Notdienst Wien</a> rund um die Uhr – auch an Wochenenden, Feiertagen und in der kalten Jahreszeit.</p>
           </div>
         </article>
       </div>
@@ -680,8 +679,8 @@ $metaDescription = " Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme �
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Rapido Notdienst rund um die Uhr</h2>
-        <p>
+        <h2 id="kundendienst">Kundendienst – Rapido Notdienst rund um die Uhr</h2>
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
           Ein plötzlicher Ausfall der Gastherme, Gasgeruch oder wiederkehrende Störungen erfordern rasches Handeln.
           Der Notdienst von Rapido ist rund um die Uhr erreichbar und hilft im akuten Notfall schnell weiter.
         </p>
@@ -812,7 +811,7 @@ $metaDescription = " Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme �
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Montage, Planung und Thermentausch</h2>
+            <h2 id="thermentausch-wien">Montage, Planung und Thermentausch Wien</h2>
             <p>
               Wenn eine Reparatur nicht mehr sinnvoll ist, beraten wir transparent zum Thermentausch oder Gasgerätetausch.
               Unsere Dienstleistungen umfassen Planung, Montage, Durchführung und Inbetriebnahme neuer Systeme.

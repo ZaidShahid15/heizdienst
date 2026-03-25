@@ -492,7 +492,7 @@
 </style>
 
 @php
-$metaTitle = "Junkers Notdienst Wien – 24h Service, Kundendienst & Reparatur";
+$metaTitle = "Notdienst & Kundendienst Wien – 24h Service & Reparatur";
 $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Kundendienst, Wartung & Reparatur für Junkers Therme und Gasgeräte in Wien, NÖ & Bgld.";
 @endphp
 
@@ -640,8 +640,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
           <div class="card-box">
             <h2>Junkers Kundendienst Wien mit Rundum Service</h2>
             <p>
-              Der Junkers Kundendienst in Wien unterstützt Haushalte und Betriebe bei akuten Problemen ebenso wie bei planbarer Wartung.
-              Wir helfen bei Junkers Therme, Gastherme und anderen Gasgeräten – schnell, sicher und strukturiert.
+              Der Junkers Kundendienst in Wien unterstützt Haushalte und Betriebe bei akuten Problemen ebenso wie bei planbarer Wartung. Als erfahrener Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Zudem bieten wir einen <a href="/baxi-notdienst-wien">Baxi Notdienst Wien</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Unsere Techniker prüfen Geräte sorgfältig, analysieren das Problem und setzen Reparatur oder Inbetriebnahme fachgerecht um.
@@ -801,8 +800,8 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
           <div class="card-box">
             <h2>Einsatzgebiet Wien, Niederösterreich und Bgld</h2>
             <p>
-              Unser Junkers Notdienst ist in Wien, Niederösterreich (NÖ) und im Burgenland (Bgld) im Einsatz.
-              Durch regionale Planung, kurze Wege und ein eingespieltes Team sind wir schnell vor Ort – Wohnung, Haus oder Betrieb.
+              Der Junkers Notdienst Wien ist in allen Bezirken von Wien sowie in Niederösterreich und Umgebung im Einsatz.
+              Dank regionaler Einsatzplanung bieten wir einen schnellen <a href="/">Thermenwartung & Thermenservice Wien</a> Service bei Notfällen und Störungen direkt vor Ort.
             </p>
             <p>
               Auch außerhalb von Wien bieten wir zuverlässige Unterstützung, damit Heizungsprobleme rasch gelöst werden.

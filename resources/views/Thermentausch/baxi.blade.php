@@ -461,12 +461,12 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
 
 @push('meta')
 <title>{{ $metaTitle }}</title>
-@endpush	
+@endpush
 
 <main>
 
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -578,8 +578,7 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Betriebssicherheit nicht mehr gegeben ist.
-              Besonders ältere Baxi Thermen oder Gasgeräte verlieren mit der Zeit an Leistung und Zuverlässigkeit.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Betriebssicherheit nicht mehr gegeben ist. Zudem bieten wir eine <a href="/nordgas-thermentausch-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Moderne Baxi Gasthermen bieten höhere Effizienz, bessere Sicherheit und einen stabilen Betrieb.
@@ -659,7 +658,7 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔎</div>
           <div>
-            <h3>Überprüfung und Beratung vor Ort</h3>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
             <p>Wir prüfen Therme, Anlage und Bedarf und klären alle Fragen – Grundlage für ein passendes Angebot und eine sichere Planung.</p>
           </div>
         </article>
@@ -725,7 +724,7 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Kosten, Preise und Aktion</h2>
+            <h2 id="thermentausch-wien">Baxi Thermentausch Wien – Kosten, Preise und Aktion</h2>
             <p>
               Die Kosten für einen Baxi Thermentausch in Wien hängen von Modell, Montageaufwand und Bedarf ab.
               Ein transparenter Kostenvoranschlag zeigt alle Preise inklusive MwSt. Durch eine Aktion oder ein attraktives Angebot lassen sich zusätzliche Einsparungen erzielen.
@@ -784,8 +783,8 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
   <section class="service-section service-section--dark" id="vorteile-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Warum ein professioneller Baxi Thermentausch überzeugt</h2>
-        <p>
+        <h2 id="kundendienst">Kundendienst – Warum ein professioneller Baxi Thermentausch überzeugt</h2>
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
           Ein fachgerecht umgesetzter Baxi Thermentausch erhöht die Sicherheit, senkt Kosten und verbessert den Komfort dauerhaft.
           Unsere Fachleute prüfen Anlage, Geräte und Betrieb sorgfältig.
         </p>
@@ -849,7 +848,7 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
 
         <details>
           <summary>Gibt es einen Baxi Notdienst?</summary>
-          <p>Ja, bei Störung oder Problem steht ein Baxi Notdienst zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
+          <p>Ja, bei Störung oder Problem steht ein Baxi <a href="/">Notdienst Wien</a> zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
         </details>
       </div>
     </div>

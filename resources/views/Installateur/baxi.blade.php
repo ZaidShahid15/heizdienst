@@ -465,8 +465,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
       </div>
 
       <p class="wolf-hero__sub">
-       Als erfahrener Baxi Installateur Wien bieten wir professionelle Installation, Wartung und Reparatur für Baxi Thermen, Gasgeräte und Heizsysteme in Wien und Umgebung.
-
+       Als erfahrener Baxi Installateur Wien bietet unser Fachbetrieb professionelle Installation, Wartung und Reparatur für Baxi Thermen, Gasgeräte und Heizsysteme in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -562,8 +561,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
           <div class="card-box">
             <h2>Baxi Fachpartner in Wien</h2>
             <p>
-              Als zertifizierter Baxi Fachpartner in Wien stehen wir für Kompetenz, Erfahrung und zuverlässigen Service rund um Baxi Thermen und moderne Heizungsanlagen.
-              Unser Installateurbetrieb betreut sämtliche Baxi Produkte gemäß Vorgaben des Herstellers und arbeitet ausschließlich mit geprüften Original Ersatzteilen.
+              Als zertifizierter Baxi Fachpartner in Wien stehen wir für Kompetenz, Erfahrung und zuverlässigen Service rund um Baxi Thermen und moderne Heizungsanlagen. Zudem bieten wir eine <a href="/buderus-installateur-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Unsere Techniker verfügen über umfassendes Know how und regelmäßige Schulungen im Bereich Baxi Gasgeräte, Heizsysteme und Baxi Heizung.
@@ -586,7 +584,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
   <section class="service-section service-section--soft" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
         <p>
           Unser Baxi Installateur Service umfasst die fachgerechte Installation, regelmäßige Wartung und professionelle Reparatur Ihrer Baxi Therme oder Baxi Gastherme – alles aus einer Hand.
         </p>
@@ -620,8 +618,8 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⏱️</div>
           <div>
-            <h3>Baxi Notdienst rund um Uhr</h3>
-            <p>Unser Baxi Notdienst sowie 24 7 Baxi Notdienst ist rund um die Uhr verfügbar und hilft bei Notfällen schnell in Wien und Umgebung.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Unser Baxi <a href="/">Notdienst Wien</a> sowie 24 7 Baxi Notdienst ist rund um die Uhr verfügbar und hilft bei Notfällen schnell in Wien und Umgebung.</p>
           </div>
         </article>
       </div>
@@ -637,7 +635,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
             <h2>Heizung, Gasgeräte und Anlage</h2>
             <p>
               Wir betreuen Baxi Heizung, Baxi Gasgeräte und komplette Heizungsanlage mit höchstem Fachwissen.
-              Ob Baxi Gastherme, Wärmetauscher, Brenner oder komplexe Heizsysteme – unsere Techniker prüfen jedes Modell sorgfältig.
+              Eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie gründliche Überprüfung sorgen für Effizienz, Sicherheit und stabile Warmwasser-Versorgung.
             </p>
             <p>
               Durch regelmäßige Wartung, gründliche Überprüfung und professionelle Reinigung sichern wir Effizienz, Sicherheit und stabile Warmwasser-Versorgung.
@@ -670,7 +668,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, Service und Kompetenz</h2>
+            <h2 id="installateur-wien">Baxi Installateur Wien – Preise, Service und Kompetenz</h2>
             <p>
               Faire Preise und transparenter Service sind fester Bestandteil unseres Installateurbetrieb.
               Vor Beginn aller Arbeiten informieren wir klar über Kosten, Leistungen und notwendigen Austausch.
@@ -807,7 +805,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
 
         <details>
           <summary>Was macht der Baxi Kundendienst Wien?</summary>
-          <p>Der Baxi Kundendienst Wien übernimmt Wartung, Reparatur, Thermenservice und Behebung von Fehlercodes.</p>
+          <p>Der Baxi <a href="/">Kundendienst</a> Wien übernimmt Wartung, Reparatur, Thermenservice und Behebung von Fehlercodes.</p>
         </details>
 
         <details>

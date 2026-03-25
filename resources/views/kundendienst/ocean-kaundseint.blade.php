@@ -667,7 +667,8 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
             <h2>Ocean Kundendienst Wien für Therme und Heizung</h2>
             <p>
               Der Ocean Kundendienst Wien unterstützt Kunden bei allen Anliegen rund um Ocean Therme, Ocean Heizung und moderne Gasgeräte.
-              Ob privates Zuhause oder laufender Betrieb – wir bieten professionellen Service für Heizung, Gastherme und komplette Heizungsanlagen.
+              Als erfahrener <strong>Installateur</strong> für <strong>Wartung</strong> und <strong>Reparatur</strong> betreuen wir Boiler in Wien &amp; Niederösterreich –
+              mehr zur <a href="{{ route('loeblich.thermenwartung') }}">Thermenwartung Wien</a>.
             </p>
             <p>
               Als erfahrener Installateur und verlässlicher Partner arbeiten wir strukturiert, transparent und lösungsorientiert.
@@ -721,7 +722,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
     <div class="service-container">
       <div class="service-section__head">
         <h2>Leistungen und Vorteile auf einen Blick</h2>
-        <p>Ocean Kundendienst, Thermenservice, Wartung, Reparatur und Thermentausch – klare Abläufe, transparente Betreuung und hohe Sicherheit.</p>
+        <p>Ocean <a href="/">Kundendienst</a>, Thermenservice, Wartung, Reparatur und Thermentausch – klare Abläufe, transparente Betreuung und hohe Sicherheit.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -821,8 +822,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
               Unsere Fachleute erklären Unterschiede zwischen Modellen, zeigen Alternativen auf und begleiten Installation sowie Inbetriebnahme.
             </p>
             <p>
-              Dabei berücksichtigen wir den tatsächlichen Bedarf, den Zustand der Anlage und Ihre individuellen Anliegen.
-              Ziel ist eine Lösung, die langfristig zuverlässig arbeitet und Ihre Anlage wieder in Bestform bringt.
+              Dabei berücksichtigen wir den tatsächlichen Bedarf, den Zustand der Anlage und Ihre individuellen Anliegen. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
             </p>
           </div>
         </div>
@@ -848,7 +848,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
               Durch kurze Anfahrtszeiten und regionale Planung sind unsere Techniker rasch am Ort – auch in der Umgebung reagieren wir flexibel.
             </p>
             <p>
-              Unser Notdienst steht Kunden jederzeit zur Verfügung, damit Ausfälle nicht zu größeren Schäden führen und Heizung sowie Warmwasser
+              Unser <a href="/">Notdienst Wien</a> steht Kunden jederzeit zur Verfügung, damit Ausfälle nicht zu größeren Schäden führen und Heizung sowie Warmwasser
               schnell wieder funktionieren.
             </p>
           </div>

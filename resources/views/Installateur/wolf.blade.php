@@ -531,7 +531,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
       </div>
 
       <p class="wolf-hero__sub">
-       Als Wolf Installateur Wien bieten wir professionelle Installation, Thermenservice und Wartung für Wolf Thermen, Heizung und Gasgeräte in Wien.
+       Als Wolf Installateur Wien bietet unser Fachbetrieb professionelle Installation, Thermenservice und Wartung für Wolf Thermen, Heizung und Gasgeräte in Wien.
       </p>
 
       <div class="wolf-hero__actions">
@@ -673,8 +673,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
           <div class="card-box">
             <h2>Wolf Fachpartner in Wien</h2>
             <p>
-              Als erfahrener Wolf Fachpartner in Wien betreuen wir Kunden mit hoher Fachkompetenz, langjähriger Erfahrung und zuverlässigem Service.
-              Unser Fachbetrieb arbeitet eng mit dem Hersteller Wolf zusammen und kennt den aktuellen Stand moderner Heiztechnik.
+              Als erfahrener Wolf Fachpartner in Wien betreuen wir Kunden mit hoher Fachkompetenz, langjähriger Erfahrung und zuverlässigem Service. Zudem bieten wir eine <a href="/saunier-duval-installateur-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Wir betreuen Wolf Geräte, Wolf Gasgeräte und Wolf Thermen für Wohnungen und Häuser in Wien und der Umgebung.
@@ -699,9 +698,9 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
     <div class="service-container">
 
       <div class="service-section__head">
-        <h2>Installation, Wartung und Service</h2>
+        <h2 id="kundendienst">Kundendienst – Installation, Wartung und Service</h2>
         <p>
-          Unser Installateur Service für Wolf in Wien umfasst fachgerechte Installation, laufende Wartung und umfassenden Kundendienst – professionell, transparent und serviceorientiert.
+          Unser Installateur Service für Wolf in Wien umfasst fachgerechte Installation, laufende Wartung und umfassenden <a href="/">Kundendienst</a> – professionell, transparent und serviceorientiert.
         </p>
       </div>
 
@@ -733,8 +732,8 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">⏱️</div>
           <div>
-            <h3>Notdienst rund um Uhr</h3>
-            <p>Unser Wolf Notdienst ist rund um die Uhr erreichbar und steht bei akuten Problemen schnell zur Verfügung.</p>
+            <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
+            <p>Unser Wolf <a href="/">Notdienst Wien</a> ist rund um die Uhr erreichbar und steht bei akuten Problemen schnell zur Verfügung.</p>
           </div>
         </article>
       </div>
@@ -754,7 +753,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
               Ob Gasthermen, Heizung oder komplette Heizsystems – unsere Installateure sorgen für effiziente Einstellungen, stabile Wärme und zuverlässigen Betrieb.
             </p>
             <p>
-              Durch regelmäßige Überprüfung und fachgerechten Thermenservice lassen sich Energiekosten senken und Heizkosten langfristig reduzieren.
+              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie fachgerechten Thermenservice lassen sich Energiekosten senken und Heizkosten langfristig reduzieren.
               Auch Aspekte wie Umwelt, Energie und Komfort fließen in unsere Arbeit ein.
               Wolf Technik steht für Qualität und Effizienz – wir setzen diese Vorteile im Alltag unserer Kunden konsequent um.
             </p>
@@ -783,7 +782,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Preise, Transparenz und Vorteile</h2>
+            <h2 id="installateur-wien">Wolf Installateur Wien – Preise, Transparenz und Vorteile</h2>
             <p>
               Faire Preise und transparente Abläufe sind ein zentraler Teil unseres Kundenservice.
               Vor jedem Einsatz informieren wir klar über Preise, Leistungen und mögliche Vorteile unserer Lösungen.

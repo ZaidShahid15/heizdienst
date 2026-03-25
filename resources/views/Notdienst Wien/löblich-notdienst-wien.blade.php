@@ -507,7 +507,7 @@
 </style>
 
 @php
-$metaTitle = "Löblich Thermenwartung Wien – Notdienst & Reparatur
+$metaTitle = "Notdienst Wien – Thermenwartung & Reparatur
 ";
 $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Reparatur für Thermen und Gasthermen ✔ Faire Kosten & schnelle Hilfe in Wien.
 ";
@@ -656,10 +656,9 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>L�blich Service in Wien</h2>
+            <h2>Löblich Service in Wien</h2>
             <p>
-              Als erfahrener Partner betreuen wir L�blich Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Als erfahrener Partner betreuen wir Löblich Geräte, Gasgeräte und moderne Heizsysteme für Ihr Zuhause. Als spezialisierter Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Zudem bieten wir einen <a href="/wolf-notdienst-wien">Wolf Notdienst Wien</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,
@@ -908,7 +907,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
             <h2>Regionale Betreuung</h2>
             <p>
               Wir betreuen Kunden in Wien sowie Niederösterreich und im Burgenland.
-              Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
+              Kurze Wege und regionale Nähe sichern schnellen Service durch unseren <a href="/">Thermenwartung Wien</a> Experten-Service in allen Regionen.
             </p>
           </div>
         </div>
