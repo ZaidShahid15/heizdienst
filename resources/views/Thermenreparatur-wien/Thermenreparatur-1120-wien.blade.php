@@ -176,7 +176,7 @@ $metaDescription = "Thermenreparatur 1120 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Schnelle Hilfe bei Thermenproblemen</h2>
-          <p>Wenn Ihre Therme defekt ist oder kein Warmwasser verfügbar ist, benötigen Sie in 1120 Wien schnelle Hilfe. Unser Installateur Wien bietet professionelle Thermenreparatur 1120 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in Wien Meidling, entlang der Meidlinger Hauptstraße und in der Bahnhof Meidling Umgebung im gesamten 12 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder Notdienst – unser Team sorgt für Soforthilfe und eine zuverlässige Lösung. Als Installateur 1120 Wien sind wir täglich im Einsatz und schnell in der Nähe. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht.</p>
+          <p>Wenn Ihre Therme defekt ist <a href="{{ route('Thermenreparatur-1110-wien') }}"> oder kein Warmwasser verfügbar ist </a>, benötigen Sie in 1120 Wien schnelle Hilfe. Unser Installateur Wien bietet professionelle Thermenreparatur 1120 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in Wien Meidling, entlang der Meidlinger Hauptstraße und in der Bahnhof Meidling Umgebung im gesamten 12 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder Notdienst – unser Team sorgt für Soforthilfe und eine zuverlässige Lösung. Als Installateur 1120 Wien sind wir täglich im Einsatz und schnell in der Nähe. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Thermenreparatur 1120 Wien" loading="lazy" decoding="async">
@@ -198,8 +198,7 @@ $metaDescription = "Thermenreparatur 1120 Wien vom Installateur Wien. Schnelle H
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">📍</div><div>
           <h3>24h Notdienst Installateur Wien</h3>
-          <p>Unser Installateur Notdienst 1120 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Meidling, im gesamten Wien 1120 und im 12 Bezirk Wien im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser vorhanden ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfällen wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1120 Wien und Umgebung.</p>
-        </div></article>
+<p>Unser Installateur Notdienst 1120 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Meidling, im gesamten Wien 1120 und im 12 Bezirk Wien im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser vorhanden ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfällen wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Für eine langfristige Lösung empfehlen wir auch unsere <a href="/">Thermenwartung Wien & Niederösterreich</a>. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1120 Wien und Umgebung.</p>        </div></article>
       </div>
     </div>
   </section>
@@ -278,8 +277,7 @@ $metaDescription = "Thermenreparatur 1120 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>24h Notdienst Installateur Wien</h2>
-        <p>Unser Installateur Notdienst 1120 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Meidling, im gesamten Wien 1120 und im 12 Bezirk Wien im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser vorhanden ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfällen wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1120 Wien und Umgebung.</p>
-        <div class="service-emergency__actions">
+<p>Unser Installateur Notdienst 1120 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Meidling, im gesamten Wien 1120 und im 12 Bezirk Wien im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser vorhanden ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfällen wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Auch unsere <a href="/">Thermenwartung Niederösterreich</a> hilft dabei, solche Notfälle langfristig zu vermeiden. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1120 Wien und Umgebung.</p>        <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
@@ -453,3 +451,13 @@ $metaDescription = "Thermenreparatur 1120 Wien vom Installateur Wien. Schnelle H
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+@php
+    preg_match('/(\d{4})/', Route::currentRouteName(), $matches);
+    $current = isset($matches[1]) ? (int)$matches[1] : null;
+    $next = $current ? $current - 10 : null;
+@endphp
+
+
+
+

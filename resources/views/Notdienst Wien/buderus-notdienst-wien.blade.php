@@ -689,8 +689,8 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
           <div class="card-box">
             <h2>Buderus Kundendienst Wien mit Kompetenz</h2>
             <p>
-              Der Notdienst in Wien unterstützt private Haushalte und den laufenden Betrieb bei allen Anliegen rund um Gasthermen,
-              Heizkessel und moderne Heizungsanlagen. Als spezialisierter Fachmann und verlässlicher Partner bieten wir
+              Der Buderus Kundendienst in <a href="/vaillant-notdienst-wien"> Wien unterstützt private </a> Haushalte und den laufenden Betrieb bei allen Anliegen rund um Buderus Thermen,
+              Heizkessel und moderne Heizungsanlagen. Als spezialisierter Fachmann und verlässlicher Partner für Buderus Produkte bieten wir
               professionelle Beratung, strukturierte Abläufe und nachhaltige Behebung von Problemen.
             </p>
             <p>

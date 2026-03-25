@@ -664,7 +664,7 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine alte Therme häufige Reparaturen benötigt, der Energieverbrauch steigt oder die Heizleistung nicht mehr ausreicht. Zudem bieten wir <a href="/saunier-thermentausch-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine alte Therme häufige Reparaturen benötigt, der Energieverbrauch steigt oder die Heizleistung nicht mehr ausreicht. Zudem bieten wir <a href="{{ route('saunier-duval.thermentausch') }}">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Moderne Wolf Thermen bieten eine verbesserte Brennwerttechnik, geringeren Energieverbrauch und mehr Sicherheit.

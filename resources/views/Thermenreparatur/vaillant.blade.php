@@ -622,7 +622,7 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
           <div class="card-box">
             <h2 id="kundendienst">Kundendienst – Vaillant Thermenreparatur und Service in Wien</h2>
             <p>
-              Eine funktionierende Vaillant Therme ist entscheidend für Warmwasser, Heizung und den sicheren Betrieb Ihrer Heizungsanlage. Zudem bieten wir eine <a href="/nordgas-thermenreparatur-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
+              Eine funktionierende Vaillant Therme ist entscheidend für Warmwasser, Heizung und den sicheren Betrieb Ihrer Heizungsanlage. Zudem bieten wir eine <a href="/">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Defekt, Fehlermeldung oder akutes Problem – unser Kundendienst analysiert die Ursache präzise und sorgt für eine fachgerechte Reparatur.

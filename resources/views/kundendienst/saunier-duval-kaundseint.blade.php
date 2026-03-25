@@ -565,7 +565,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
           <div class="card-box">
             <h2>Saunier Duval Service in Wien</h2>
             <p>
-              Als erfahrener <strong>Installateur</strong> betreuen wir Saunier Duval Geräte, <strong>Gastherme</strong> und moderne <strong>Heiztechnik</strong> in Wien &amp; Niederösterreich. Wir bieten <a href="{{ route('viessmann.thermenwartung') }}">Thermenwartung Wien</a>.
+              Als erfahrener <strong>Installateur</strong> betreuen wir Saunier Duval Geräte, <strong>Gastherme</strong> und <a href="{{ route('viessmann.kundendienst') }}"> moderne <strong>Heiztechnik</strong> </a> in Wien &amp; Niederösterreich. Wir bieten Thermenwartung Wien.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,

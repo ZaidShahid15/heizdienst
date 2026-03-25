@@ -449,7 +449,7 @@
 
   .toc-body{
     padding:12px;
-   
+
     overflow:auto;
     transition:max-height .22s ease, padding .22s ease;
   }
@@ -514,7 +514,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
 @endpush
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -652,7 +652,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
           <div class="card-box">
             <h2>Ocean Service in Wien</h2>
             <p>
-              Als erfahrener Partner betreuen wir Ocean Geräte, Gasgeräte und moderne Heizsysteme für Zuhause. Als spezialisierter Installateur für Heiztechnik übernehmen wir die fachgerechte Wartung und Reparatur Ihrer Geräte. Für weitere Marken bieten wir zudem einen <a href="/löblich-notdienst-wien">Löblich Notdienst Wien</a> an.
+              Als erfahrener Partner betreuen wir Ocean Geräte, Gasgeräte und moderne Heizsysteme für Zuhause. Als spezialisierter Installateur für Heiztechnik übernehmen wir die fachgerechte Wartung und Reparatur Ihrer Geräte.<a href="/löblich-notdienst-wien"> Für weitere Marken bieten </a> wir zudem einen Löblich Notdienst Wien an.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,

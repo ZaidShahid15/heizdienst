@@ -514,7 +514,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
 <main>
 
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -644,7 +644,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
         <div class="card-split__text">
           <div class="card-box">
             <h2>Vaillant Notdienst Wien 24/7</h2>
-            <p>Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Vaillant Notdienst Wien ist sofort für Sie da.</p>
+            <p>Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr <a href="{{ route('home') }}"> Vaillant </a> Notdienst Wien ist sofort für Sie da.</p>
           </div>
         </div>
 
@@ -705,7 +705,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
               Unser Kundendienst unterstützt privat und im Betrieb – zuverlässig, strukturiert und mit Blick auf Sicherheit und Komfort.
             </p>
             <p>
-              Als Installateur-Service arbeiten wir mit erfahrenem Fachpersonal, geschulten Technikern und Experten. Wir prüfen Geräte, erkennen Ursachen von Störungen früh und setzen Reparatur oder Wartung fachgerecht um. Zudem bieten wir einen <a href="/nordgas-notdienst-wien">Nordgas Notdienst Wien</a> für höchste Betriebssicherheit an.
+              Als Installateur-Service arbeiten wir mit erfahrenem Fachpersonal, geschulten Technikern und Experten. Wir prüfen Geräte, erkennen Ursachen von Störungen früh und setzen Reparatur oder Wartung fachgerecht um. Zudem bieten wir einen Nordgas Notdienst Wien für höchste Betriebssicherheit an.
             </p>
 
             <p style="margin-top:10px; font-weight:900; color:var(--ink);">Darauf können Sie sich verlassen:</p>

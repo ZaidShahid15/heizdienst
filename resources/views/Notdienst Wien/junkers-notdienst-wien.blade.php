@@ -640,10 +640,10 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
           <div class="card-box">
             <h2>Junkers Kundendienst Wien mit Rundum Service</h2>
             <p>
-              Der Junkers Kundendienst in Wien unterstützt Haushalte und Betriebe bei akuten Problemen ebenso wie bei planbarer Wartung. Als erfahrener Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Zudem bieten wir einen <a href="/baxi-notdienst-wien">Baxi Notdienst Wien</a> für höchste Betriebssicherheit an.
+              Der Junkers Kundendienst in Wien unterstützt Haushalte und Betriebe bei akuten Problemen ebenso wie bei planbarer Wartung. Als erfahrener Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Zudem bieten wir einen  für höchste Betriebssicherheit an.
             </p>
             <p>
-              Unsere Techniker prüfen Geräte sorgfältig, analysieren das Problem und setzen Reparatur oder Inbetriebnahme fachgerecht um.
+              Unsere Techniker prüfen Geräte sorgfältig, <a href="/baxi-notdienst-wien">analysieren das Problem </a> und setzen Reparatur oder Inbetriebnahme fachgerecht um.
               Ziel ist die rasche Behebung, die Wiederherstellung von Warmwasser und Heizung sowie eine lange Lebensdauer der Geräte.
             </p>
           </div>

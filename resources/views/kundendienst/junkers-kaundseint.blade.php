@@ -599,7 +599,7 @@ $metaDescription = "Zuverlässiger Junkers Kundendienst Wien für Thermen & Gasg
           <div class="card-box">
             <h2>Junkers Service in Wien</h2>
             <p>
-              Als erfahrener <strong>Installateur</strong> für <strong>Heiztechnik</strong> betreuen wir Junkers Geräte, <strong>Gastherme</strong> und moderne Heizsysteme in Wien &amp; Niederösterreich. Wir bieten <a href="{{ route('baxi.thermenwartung') }}">Thermenwartung Wien</a> und professionelle Betreuung für Ihren <strong>Boiler</strong>.
+              Als erfahrener <strong>Installateur</strong> für <strong>Heiztechnik</strong> betreuen wir Junkers Geräte, <strong>Gastherme</strong> und  <a href="{{ route('baxi.kundendienst') }}"> moderne Heizsysteme in Wien &amp; Niederösterreich </a>. Wir bieten Thermenwartung Wien</a> und professionelle Betreuung für Ihren <strong>Boiler</strong>.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,

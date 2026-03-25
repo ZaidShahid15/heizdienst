@@ -176,7 +176,7 @@ $metaDescription = "Thermenreparatur 1130 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Schnelle Hilfe bei Thermenproblemen in 1130 Wien</h2>
-          <p>Wenn Ihre Therme defekt ist oder kein Warmwasser verfügbar ist, benötigen Sie in 1130 Wien schnelle Hilfe. Unser Installateur Wien bietet professionelle Thermenreparatur 1130 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in Wien Hietzing, entlang der Hietzinger Hauptstraße und in der Schönbrunn Nähe im gesamten 13 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder Notdienst – unser Team sorgt für Soforthilfe und eine zuverlässige Lösung. Als Installateur 1130 Wien sind wir täglich im Einsatz und schnell in der Nähe. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht oder eine Reparatur notwendig ist.</p>
+          <p>Wenn Ihre Therme defekt ist oder kein Warmwasser verfügbar ist, benötigen Sie in 1130 Wien schnelle Hilfe. Unser Installateur Wien bietet professionelle Thermenreparatur 1130 Wien sowie umfassenden Thermenservice Wien <a href="{{ route('Thermenreparatur-1120-wien') }}"> direkt vor Ort in Wien Hietzing  </a>, entlang der Hietzinger Hauptstraße und in der Schönbrunn Nähe im gesamten 13 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder Notdienst – unser Team sorgt für Soforthilfe und eine zuverlässige Lösung. Als Installateur 1130 Wien sind wir täglich im Einsatz und schnell in der Nähe. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht oder eine Reparatur notwendig ist.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1130 Wien" loading="lazy" decoding="async">
@@ -275,8 +275,7 @@ $metaDescription = "Thermenreparatur 1130 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>24h Notdienst Installateur Wien</h2>
-        <p>Unser Installateur Notdienst 1130 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Hietzing, im gesamten Wien 1130 und im 13 Bezirk Wien im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser vorhanden ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1130 Wien und Umgebung.</p>
-        <div class="service-emergency__actions">
+<p>Unser Installateur Notdienst 1130 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Hietzing, im gesamten Wien 1130 und im 13 Bezirk Wien im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser vorhanden ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Für mehr Informationen zu unserem <a href="/">Thermenservice Wien</a> besuchen Sie gerne unsere Startseite. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1130 Wien und Umgebung.</p>        <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
@@ -461,3 +460,13 @@ $metaDescription = "Thermenreparatur 1130 Wien vom Installateur Wien. Schnelle H
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+@php
+    preg_match('/(\d{4})/', Route::currentRouteName(), $matches);
+    $current = isset($matches[1]) ? (int)$matches[1] : null;
+    $next = $current ? $current - 10 : null;
+@endphp
+
+
+
+

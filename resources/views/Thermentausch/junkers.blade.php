@@ -650,7 +650,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll wird</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme veraltet ist, häufige Störungen auftreten oder der Gasverbrauch steigt. Zudem bieten wir <a href="/vaillant-thermentausch-wien">einen professionellen Service für verschiedene Heizsysteme</a> für maximale Effizienz an.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme veraltet ist, häufige Störungen auftreten oder der Gasverbrauch steigt. Zudem bieten wir <a href="/baxi-thermentausch-wien">einen professionellen Service für verschiedene Heizsysteme</a> für maximale Effizienz an.
             </p>
             <p>
               Moderne Junkers Geräte – heute Teil von Junkers Bosch – bieten verbesserte Brennwerttechnik, leisen Betrieb und hohe Sicherheit.

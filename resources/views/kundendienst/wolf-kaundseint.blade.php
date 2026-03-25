@@ -589,7 +589,7 @@ $metaDescription = "Wolf Kundendienst Wien für Thermen, Heizung & Heizsysteme. 
             <h2>Wolf Service in Wien</h2>
             <p>
               Als erfahrener Partner betreuen wir Wolf Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Unser Leistungsbereich umfasst Wartung, <a href="{{ route('saunier-duval.kundendienst') }}"> Reparaturen und fachgerechte </a> Betreuung durch qualifizierte Installateure.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,

@@ -456,3 +456,13 @@ $metaDescription = "Thermenreparatur 1020 Wien vom Installateur Wien. Schnelle H
 
 
 
+
+@php
+    preg_match('/(\d{4})/', Route::currentRouteName(), $matches);
+    $current = isset($matches[1]) ? (int)$matches[1] : null;
+    $next = $current ? $current - 10 : null;
+@endphp
+
+
+
+

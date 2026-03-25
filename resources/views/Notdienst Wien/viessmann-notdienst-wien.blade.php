@@ -641,10 +641,10 @@ $metaDescription = "Viessmann Service Wien ✔ Wartung, Überprüfung & Beratung
           <div class="card-box">
             <h2>Viessmann Kundendienst und Service vor Ort</h2>
             <p>
-              Der Viessmann Kundendienst in Wien unterstützt Kunden im privaten Haushalt ebenso wie im laufenden Betrieb. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Wartung und Reparatur Ihrer Geräte. Für spezialisierte Anforderungen bieten wir zudem einen <a href="/junkers-notdienst-wien">Junkers Notdienst Wien</a> an.
+              Der Viessmann Kundendienst in Wien unterstützt Kunden im privaten Haushalt ebenso wie im laufenden Betrieb. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Wartung und Reparatur Ihrer Geräte. Für spezialisierte Anforderungen bieten wir zudem einen  an.
             </p>
             <p>
-              Als erfahrener Installateur betreuen wir Anlagen direkt am Ort, analysieren Störungen strukturiert und setzen
+              Als erfahrener Installateur betreuen <a href="/junkers-notdienst-wien"> wir Anlagen direkt am Ort </a>, analysieren Störungen strukturiert und setzen
               eine passende Lösung um. Ziel ist es, Heizung, Warmwasser und Wasserversorgung rasch wiederherzustellen –
               sicher und fachgerecht.
             </p>

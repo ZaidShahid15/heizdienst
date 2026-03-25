@@ -612,7 +612,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -748,7 +748,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
           <div class="card-box">
             <h2>Windhager Kundendienst für Therme und Heizung</h2>
             <p>
-              Der Windhager Kundendienst betreut Kunden in Wien, Niederösterreich und Burgenland bei allen Anliegen rund um Windhager Therme, Gastherme und moderne Heizungssysteme. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Wartung und Reparatur Ihrer Geräte. Für spezialisierte Anforderungen steht zudem unser <a href="/rapido-notdienst-wien">Rapido Notdienst Wien</a> zur Verfügung.
+              Der Windhager Kundendienst betreut Kunden in Wien, Niederösterreich und Burgenland bei allen Anliegen rund um Windhager Therme, Gastherme und moderne Heizungssysteme. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Wartung und Reparatur Ihrer Geräte.<a href="/rapido-notdienst-wien"> Für spezialisierte Anforderungen steht zudem unser </a> zur Verfügung.
             </p>
             <p>
               Jede Windhager Therme wird sorgfältig geprüft, um Probleme, sinkenden Wasserdruck, fehlendes Warmwasser oder ungewöhnliche Geräusche frühzeitig zu erkennen.

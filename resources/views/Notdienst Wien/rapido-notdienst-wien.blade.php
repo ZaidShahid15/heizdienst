@@ -449,7 +449,7 @@
 
   .toc-body{
     padding:12px;
-   
+
     overflow:auto;
     transition:max-height .22s ease, padding .22s ease;
   }
@@ -515,7 +515,7 @@ $metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & R
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -645,7 +645,7 @@ $metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & R
 </section>
 
 
- 
+
   <!-- card box left + image right -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
@@ -654,7 +654,7 @@ $metaDescription = "Rapido Notdienst Wien ✔ Thermenservice, Thermenwartung & R
           <div class="card-box">
             <h2>Rapido Service in Wien</h2>
             <p>
-               Als erfahrener Partner betreuen wir Rapido Geräte, Gasgeräte und moderne Heizsysteme für Ihr Zuhause. Als spezialisierter Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Ergänzend bieten wir einen <a href="/ocean-notdienst-wien">Ocean Notdienst Wien</a> für maximale Zuverlässigkeit.
+               Als erfahrener Partner betreuen wir Rapido Geräte, Gasgeräte und moderne Heizsysteme für Ihr Zuhause. Als spezialisierter Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. <a href="/ocean-notdienst-wien"> Ergänzend bieten wir einen </a> für maximale Zuverlässigkeit.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,

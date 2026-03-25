@@ -676,7 +676,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
           <div class="card-box">
             <h2>Wolf Kundendienst Wien mit Erfahrung</h2>
             <p>
-              Der Wolf Kundendienst in Wien unterstützt private Kunden und Betriebe zuverlässig bei jedem Problem rund um Wolf Heizung, Wolf Thermen und moderne Wolf Anlagen. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Wartung und Reparatur Ihrer Geräte. Für spezialisierte Anforderungen steht zudem unser <a href="/saunier-duval-notdienst-wien">Saunier Duval Notdienst Wien</a> zur Verfügung.
+              Der Wolf Kundendienst in Wien unterstützt <a href="/saunier-duval-notdienst-wien"> private Kunden und Betriebe zuverlässig </a> bei jedem Problem rund um Wolf Heizung, Wolf Thermen und moderne Wolf Anlagen. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Wartung und Reparatur Ihrer Geräte. Für spezialisierte Anforderungen steht zudem unser  zur Verfügung.
             </p>
             <p>
               Als erfahrener Installateur und Partner von Wolf betreuen wir Wolf Geräte, Gasthermen und komplette Heizungsanlagen direkt vor Ort.

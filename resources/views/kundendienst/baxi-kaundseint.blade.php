@@ -603,7 +603,7 @@ $metaDescription = "Baxi Kundendienst Wien für Thermen & Gastherme. Wartung, Re
             <h2>Baxi Service in Wien</h2>
             <p>
               Als erfahrener Partner betreuen wir Baxi Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Unser Leistungsbereich umfasst Wartung,  <a href="{{ route('buderus.kundendienst') }}"> Reparaturen und fachgerechte Betreuung </a> durch qualifizierte Installateure.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,

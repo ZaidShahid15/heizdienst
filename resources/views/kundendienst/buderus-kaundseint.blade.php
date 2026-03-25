@@ -596,7 +596,7 @@ $metaDescription = "Buderus Kundendienst Wien für Thermen & Heizsysteme. Werksk
             <h2>Buderus Service in Wien</h2>
             <p>
               Als erfahrener Partner betreuen wir Buderus Geräte, Gasgeräte und moderne Heizsysteme für Zuhause.
-              Unser Leistungsbereich umfasst Wartung, Reparaturen und fachgerechte Betreuung durch qualifizierte Installateure.
+              Unser Leistungsbereich umfasst Wartung, Reparaturen und  <a href="{{ route('vaillant.kundendienst') }}"> fachgerechte Betreuung </a> durch qualifizierte Installateure.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,

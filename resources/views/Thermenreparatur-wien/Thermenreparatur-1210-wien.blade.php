@@ -126,7 +126,7 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur 
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Ihr Installateur Notdienst 1210 Wien – immer einsatzbereit</h2>
-                        <p>Wenn bei Ihnen in Floridsdorf das Wasser aus der Wand schießt, die Heizung streikt oder der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1210 Wien ist speziell für solche Notfälle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach Floridsdorf. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben.</p>
+                        <p>Wenn bei Ihnen in Floridsdorf das Wasser aus der Wand schießt, die <a href="{{ route('Thermenreparatur-1200-wien') }}"> Heizung streikt oder </a> der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1210 Wien ist speziell für solche Notfälle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach Floridsdorf. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
@@ -295,8 +295,7 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur 
         <div class="container service-emergency">
             <div class="service-emergency__text">
                 <h2>Installateur Notdienst 1210 Wien – 24/7 für Sie erreichbar</h2>
-                <p>Ein Rohrbruch überschwemmt den Keller, mitten in der Nacht fällt die Heizung aus oder am Sonntagmorgen ist der Abfluss dicht – das sind die Momente, in denen Sie unseren 24h-Notdienst brauchen. Wir sind rund um die Uhr für Bewohner und Betriebe in Floridsdorf im Einsatz. Ein Anruf genügt, und unser Bereitschaftsteam macht sich sofort auf den Weg zu Ihnen. Wir sichern die Schadensstelle, beheben das akute Problem und beraten Sie, ob weitere Maßnahmen nötig sind. Vertrauen Sie auf unsere jahrelange Erfahrung im Notfallmanagement.</p>
-                <div class="service-emergency__actions">
+<p>Ein Rohrbruch überschwemmt den Keller, mitten in der Nacht fällt die Heizung aus oder am Sonntagmorgen ist der Abfluss dicht – das sind die Momente, in denen Sie unseren 24h-Notdienst brauchen. Wir sind rund um die Uhr für Bewohner und Betriebe in Floridsdorf im Einsatz. Ein Anruf genügt, und unser Bereitschaftsteam macht sich sofort auf den Weg zu Ihnen. Mehr über unsere Leistungen im Bereich <a href="/">Thermenservice Wien & Niederösterreich</a> erfahren Sie auch auf unserer Website. Wir sichern die Schadensstelle, beheben das akute Problem und beraten Sie, ob weitere Maßnahmen nötig sind. Vertrauen Sie auf unsere jahrelange Erfahrung im Notfallmanagement.</p>                <div class="service-emergency__actions">
                     <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
                     <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
                 </div>
@@ -513,3 +512,13 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur 
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+@php
+    preg_match('/(\d{4})/', Route::currentRouteName(), $matches);
+    $current = isset($matches[1]) ? (int)$matches[1] : null;
+    $next = $current ? $current - 10 : null;
+@endphp
+
+
+
+

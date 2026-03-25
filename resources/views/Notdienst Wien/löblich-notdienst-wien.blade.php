@@ -451,7 +451,7 @@
 
   .toc-body{
     padding:12px;
-   
+
     overflow:auto;
     transition:max-height .22s ease, padding .22s ease;
   }
@@ -519,7 +519,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -658,7 +658,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
           <div class="card-box">
             <h2>Löblich Service in Wien</h2>
             <p>
-              Als erfahrener Partner betreuen wir Löblich Geräte, Gasgeräte und moderne Heizsysteme für Ihr Zuhause. Als spezialisierter Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Zudem bieten wir einen <a href="/wolf-notdienst-wien">Wolf Notdienst Wien</a> für höchste Betriebssicherheit an.
+              Als erfahrener Partner betreuen wir Löblich Geräte, Gasgeräte und moderne Heizsysteme für Ihr Zuhause. Als spezialisierter Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage.<a href="/wolf-notdienst-wien"> Zudem bieten wir einen     </a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,

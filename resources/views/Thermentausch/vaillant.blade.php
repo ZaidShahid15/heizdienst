@@ -642,7 +642,7 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
           <div class="card-box">
             <h2>Wann ein Thermentausch sinnvoll ist</h2>
             <p>
-              Ein Thermentausch ist sinnvoll, wenn eine alte Gastherme häufige Reparatur benötigt, hohe Kosten verursacht oder nicht mehr dem aktuellen Stand der Technik entspricht. Zudem bieten wir <a href="/buderus-thermentausch-wien">zuverlässige Heizungsservice-Leistungen</a> für höchste Betriebssicherheit an.
+              Ein Thermentausch ist sinnvoll, wenn eine alte Gastherme häufige Reparatur benötigt, hohe Kosten verursacht oder nicht mehr dem aktuellen Stand der Technik entspricht. Zudem bieten wir <a href="/">zuverlässige Heizungsservice-Leistungen</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Diese arbeiten effizienter, senken den Gasverbrauch und verbessern die Leistung der gesamten Heizung.

@@ -615,7 +615,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
             <h2>Vaillant Service in Wien</h2>
            <p>
             Unser Vaillant Kundendienst Wien bietet professionellen Service direkt vor Ort für Kunden in Wien und Umgebung.
-            Als erfahrener Partner für <strong>Heiztechnik</strong> betreuen wir alle Vaillant Produkte – von <strong>Gastherme</strong> bis zu modernen <strong>Boiler</strong>-Systemen. Wir bieten <a href="{{ route('nordgas.thermenwartung') }}">Thermenwartung Wien</a>.
+            Als erfahrener Partner für <strong>Heiztechnik</strong> betreuen wir alle Vaillant Produkte – von <strong>Gastherme</strong> bis zu modernen <strong>Boiler</strong>-Systemen. Wir bieten Thermenwartung Wien.
           </p>
 
           <p>

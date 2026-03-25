@@ -568,7 +568,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Heizkosten steigen. Zudem bieten wir <a href="/baxi-thermentausch-wien">professionelle Unterstützung für Markengeräte</a> für maximale Sicherheit an.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Heizkosten steigen. Zudem bieten wir <a href="/vaillant-thermentausch-wien">professionelle Unterstützung für Markengeräte</a> für maximale Sicherheit an.
             </p>
             <p>
               Moderne Buderus Brennwert Thermen bieten eine bessere Nutzung der Energie, erhöhen den Wohnkomfort und reduzieren Energiekosten.
@@ -774,7 +774,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2 id="kundendienst">Kundendienst – Warum ein professioneller Buderus Thermentausch überzeugt</h2>
-        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität.
           Ein fachgerecht umgesetzter Buderus Thermentausch erhöht die Sicherheit, senkt Energiekosten und verbessert den Wohnkomfort dauerhaft.
           Unsere Experten prüfen Anlage, Gerät, Wärmetauscher und Heizsysteme sorgfältig.
         </p>

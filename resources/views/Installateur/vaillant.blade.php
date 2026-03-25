@@ -527,7 +527,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 
 <main>
   <!-- HERO -->
-  
+
   <!-- HERO -->
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
@@ -639,7 +639,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
           <div class="card-box">
             <h2>Vaillant Installateur Wien</h2>
             <p>
-              Als zuverlässiger Vaillant Installateur Wien bietet unser Fachbetrieb professionelle Installation, Wartung und Service für Therme, Heizung und Gasgeräte. Zudem bieten wir eine <a href="/nordgas-installateur-wien">umfassende Betreuung von Gasgeräten</a> an, um die Funktion Ihrer Anlage langfristig zu sichern.
+              Als zuverlässiger Vaillant Installateur Wien bietet unser Fachbetrieb professionelle Installation, Wartung und Service für Therme, Heizung und Gasgeräte. Zudem bieten wir eine <a href="/">umfassende Betreuung von Gasgeräten</a> an, um die Funktion Ihrer Anlage langfristig zu sichern.
             </p>
           </div>
         </div>

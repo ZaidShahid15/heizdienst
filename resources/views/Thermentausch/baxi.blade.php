@@ -578,7 +578,7 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
           <div class="card-box">
             <h2>Wann ein Thermentausch in Wien sinnvoll ist</h2>
             <p>
-              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Betriebssicherheit nicht mehr gegeben ist. Zudem bieten wir eine <a href="/nordgas-thermentausch-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
+              Ein Thermentausch in Wien ist sinnvoll, wenn eine bestehende Therme häufige Störungen zeigt, Reparaturen zunehmen oder die Betriebssicherheit nicht mehr gegeben ist. Zudem bieten wir eine <a href="/buderus-thermentausch-wien">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
             </p>
             <p>
               Moderne Baxi Gasthermen bieten höhere Effizienz, bessere Sicherheit und einen stabilen Betrieb.
@@ -784,7 +784,7 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2 id="kundendienst">Kundendienst – Warum ein professioneller Baxi Thermentausch überzeugt</h2>
-        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
+        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität.
           Ein fachgerecht umgesetzter Baxi Thermentausch erhöht die Sicherheit, senkt Kosten und verbessert den Komfort dauerhaft.
           Unsere Fachleute prüfen Anlage, Geräte und Betrieb sorgfältig.
         </p>

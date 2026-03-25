@@ -152,7 +152,7 @@
   .img-box img{
     width:100%;
     height:100%;
-    object-fit:cover;
+    /* object-fit:cover; */
     object-position:center;
     display:block;
   }
@@ -581,7 +581,7 @@ $metaDescription = "Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizs
           <div class="card-box">
             <h2>Viessmann Service in Wien</h2>
             <p>
-              Als erfahrener <strong>Installateur</strong> betreuen wir Viessmann Geräte, <strong>Gastherme</strong> und moderne <strong>Heiztechnik</strong> in Wien &amp; Niederösterreich. Unser Service umfasst <strong>Wartung</strong>, <strong>Reparatur</strong> und fachgerechte Betreuung für jeden <strong>Boiler</strong>. Erfahren Sie mehr über unsere <a href="{{ route('junkers.thermenwartung') }}">Thermenwartung Wien</a>.
+              Als erfahrener <strong>Installateur</strong> betreuen wir Viessmann Geräte, <strong>Gastherme</strong> und moderne <strong>Heiztechnik</strong> in Wien &amp; Niederösterreich. Unser Service umfasst <strong>Wartung</strong>, <strong>Reparatur</strong> und fachgerechte <a href="{{ route('junkers.kundendienst') }}"> Betreuung für jeden <strong>Boiler</strong></a> . Erfahren Sie mehr über unsere Thermenwartung Wien.
             </p>
             <p>
               Sicherheit, Qualität und Effizienz stehen dabei im Mittelpunkt. Kunden in Wien schätzen unsere Kompetenz,

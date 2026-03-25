@@ -687,13 +687,13 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Thermenwartung, Service & 
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Notdienst & Kundendienst Wien mit Kompetenz</h2>
+            <h2>Baxi Kundendienst Wien mit Kompetenz</h2>
             <p>
-              Der Notdienst Wien betreut Kunden zuverlässig bei allen Anliegen rund um Gasthermen und moderne Heizungsanlagen. Als erfahrener Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Mit schneller Soforthilfe rund um die Uhr garantieren wir maximale Zuverlässigkeit.
+              Der Baxi Kundendienst Wien betreut Kunden zuverlässig bei allen Anliegen rund um Baxi Thermen, Baxi Gastherme und moderne Heizungsanlagen. Als erfahrener Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Ergänzend bieten wir einen  für maximale Zuverlässigkeit.
             </p>
             <p>
               Unsere Techniker analysieren Probleme strukturiert, übernehmen Wartung und Reparatur und sorgen für eine sichere Funktion Ihrer Anlage.
-              Ziel ist es, Heizung, Warmwasser und Warmwasserversorgung rasch wiederherzustellen – zuverlässig in Wien, Wien NÖ und der Umgebung.
+              Ziel ist es, Heizung, Warmwasser und <a href="/buderus-notdienst-wien"> Warmwasserversorgung rasch </a> wiederherzustellen – zuverlässig in Wien, Wien NÖ und der Umgebung.
             </p>
           </div>
         </div>

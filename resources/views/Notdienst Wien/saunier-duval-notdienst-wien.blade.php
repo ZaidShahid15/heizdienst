@@ -668,11 +668,11 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
           <div class="card-box">
             <h2>Saunier Duval Kundendienst mit Know-how</h2>
             <p>
-              Der Saunier Duval Kundendienst unterstützt Kunden in Wien und der Umgebung bei allen Anliegen rund um Saunier Duval Thermen, Duval Therme und moderne Gasgeräte. Als erfahrener Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Ergänzend bieten wir einen <a href="/viessmann-notdienst-wien">Viessmann Notdienst Wien</a> für höchste Betriebssicherheit.
+              Der Saunier Duval Kundendienst unterstützt Kunden in Wien und der Umgebung bei allen Anliegen rund um Saunier Duval Thermen, Duval Therme und moderne Gasgeräte. Als erfahrener Installateur für Heiztechnik kümmern wir uns um die fachgerechte Wartung und Reparatur Ihrer Anlage. Ergänzend bieten wir einen  für höchste Betriebssicherheit.
             </p>
             <p>
               Unser geschultes Team bringt umfassendes Know-how, fundiertes Fachwissen und langjährige Erfahrung mit.
-              Ziel ist es, individuelle Bedürfnisse zu verstehen, Probleme nachhaltig zu lösen und die sichere Funktion Ihrer Anlage im Betrieb zu gewährleisten.
+              Ziel ist es, individuelle Bedürfnisse zu verstehen,<a href="/viessmann-notdienst-wien"> Probleme nachhaltig </a>   zu lösen und die sichere Funktion Ihrer Anlage im Betrieb zu gewährleisten.
             </p>
           </div>
         </div>
