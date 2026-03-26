@@ -1,8 +1,8 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @php
-    $metaTitle = 'Wärmepumpe Wartung Burgenland | Service, Förderung & Komplettpaket';
-    $metaDescription = 'Professionelle Wärmepumpe Wartung Burgenland inkl. Service, Installation, Reparatur und Förderabwicklung. Jetzt Beratung sichern und Energiekosten senken.';
+    $metaTitle = 'WÃ¤rmepumpe Wartung Burgenland | Service, FÃ¶rderung & Komplettpaket';
+    $metaDescription = 'Professionelle WÃ¤rmepumpe Wartung Burgenland inkl. Service, Installation, Reparatur und FÃ¶rderabwicklung. Jetzt Beratung sichern und Energiekosten senken.';
 @endphp
 
 @section('main')
@@ -66,7 +66,7 @@
 
 
   /* =========================
-     ✅ TOC like screenshot
+     âœ… TOC like screenshot
      ========================= */
   .toc-wrap{
     padding:16px 0 0;
@@ -368,7 +368,7 @@
 </style>
 <style>
   /* =====================================
-   MOBILE HERO – EXACT LIKE SCREENSHOT
+   MOBILE HERO â€“ EXACT LIKE SCREENSHOT
    ===================================== */
    .hero-first-block{
   padding: 20px 0;
@@ -545,16 +545,12 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Wärmepumpe Wartung Burgenland <br>
-        <span style="color:#FB9A1B;">Service, Förderung & Komplettpaket vom Fachbetrieb.</span>
+        WÃ¤rmepumpe Wartung Burgenland <br>
+        <span style="color:#FB9A1B;">Service, FÃ¶rderung & Komplettpaket vom Fachbetrieb.</span>
       </h1>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/heatpump-icon.svg') }}" alt="Wärmepumpe Icon" onerror="this.style.display='none'">
-      </div>
-
       <p class="wolf-hero__sub">
-        Professionelle Wärmepumpe Wartung Burgenland inkl. Service, Installation, Reparatur und Förderabwicklung. Jetzt Beratung sichern und Energiekosten senken.
+        Professionelle WÃ¤rmepumpe Wartung Burgenland inkl. Service, Installation, Reparatur und FÃ¶rderabwicklung. Jetzt Beratung sichern und Energiekosten senken.
       </p>
 
       <div class="wolf-hero__actions">
@@ -592,7 +588,7 @@
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            Geprüfte Experten
+            GeprÃ¼fte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -605,13 +601,13 @@
   </section>
 
 
-  <!-- ✅ TOC EXACT LIKE IMAGE -->
+  <!-- âœ… TOC EXACT LIKE IMAGE -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
-    <!-- ✅ collapsed by default -->
+    <!-- âœ… collapsed by default -->
     <div class="toc-card is-collapsed" id="tocCard">
 
-      <!-- ✅ aria-expanded false by default -->
+      <!-- âœ… aria-expanded false by default -->
       <div class="toc-head"
            id="tocHead"
            role="button"
@@ -622,7 +618,7 @@
         <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
         <div class="toc-actions">
-          <!-- ✅ aria-expanded false by default -->
+          <!-- âœ… aria-expanded false by default -->
           <button class="toc-iconbtn"
                   type="button"
                   id="tocToggle"
@@ -655,7 +651,7 @@
           </li>
           <li class="toc-item">
             <a href="#foerderung" class="toc-link">
-              <span class="toc-badge">04</span><span class="toc-text">Förderung</span>
+              <span class="toc-badge">04</span><span class="toc-text">FÃ¶rderung</span>
             </a>
           </li>
           <li class="toc-item">
@@ -691,26 +687,26 @@
 </section>
 
 
-  <!-- Wartung für effiziente Wärmepumpen Systeme -->
+  <!-- Wartung fÃ¼r effiziente WÃ¤rmepumpen Systeme -->
   <section class="service-section" id="wartung-systeme">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Wartung für effiziente Wärmepumpen Systeme</h2>
-        <p>Eine regelmäßige Wärmepumpe Wartung Burgenland ist entscheidend, damit Wärmepumpen im Betrieb zuverlässig arbeiten und dauerhaft Komfort liefern.</p>
+        <h2>Wartung fÃ¼r effiziente WÃ¤rmepumpen Systeme</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. Eine regelmÃ¤ÃŸige WÃ¤rmepumpe Wartung Burgenland ist entscheidend, damit WÃ¤rmepumpen im Betrieb zuverlÃ¤ssig arbeiten und dauerhaft Komfort liefern.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Ganzheitliche Prüfung</h3>
-          <p>Unsere Experten prüfen Heizung, Klima, Kälte und Haustechnik ganzheitlich und behalten alle Details im Blick. Durch Inspektion, Wartungsservice und gezielte Reparatur werden Störungen früh erkannt und die Lebensdauer der Heizsysteme verlängert.</p>
+          <h3>Ganzheitliche PrÃ¼fung</h3>
+          <p>Unsere Experten prÃ¼fen Heizung, Klima, KÃ¤lte und Haustechnik ganzheitlich und behalten alle Details im Blick. Durch Inspektion, Wartungsservice und gezielte Reparatur werden StÃ¶rungen frÃ¼h erkannt und die Lebensdauer der Heizsysteme verlÃ¤ngert.</p>
         </article>
         <article class="service-card service-card--service">
           <h3>Hohe Energieeffizienz</h3>
-          <p>Besonders Haushalte profitieren von hoher Energieeffizienz, stabiler Wärme und niedrigeren Heizkosten. Wir betreuen Anlagen in Eisenstadt und im gesamten Burgenland.</p>
+          <p>Besonders Haushalte profitieren von hoher Energieeffizienz, stabiler WÃ¤rme und niedrigeren Heizkosten. Wir betreuen Anlagen in Eisenstadt und im gesamten Burgenland.</p>
         </article>
         <article class="service-card service-card--service">
-          <h3>Überregionale Expertise</h3>
-          <p>Mit Know-how, Technik und Qualität sichern wir den Betrieb – vom ersten Blick bis zur laufenden Umsetzung. Auch Projekte in Vorarlberg unterstützen wir als überregionaler Partner.</p>
+          <h3>Ãœberregionale Expertise</h3>
+          <p>Mit Know-how, Technik und QualitÃ¤t sichern wir den Betrieb â€“ vom ersten Blick bis zur laufenden Umsetzung. Auch Projekte in Vorarlberg unterstÃ¼tzen wir als Ã¼berregionaler Partner.</p>
         </article>
       </div>
     </div>
@@ -721,111 +717,111 @@
     <div class="service-container service-split">
       <div class="service-split__text">
         <h2>Vorteile mit Profi Service Paket</h2>
-        <p>
-          Ein professioneller Wartungsservice verbessert Effizienz, Sicherheit und Komfort – ohne dass Sie sich um Details kümmern müssen.
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. 
+          Ein professioneller Wartungsservice verbessert Effizienz, Sicherheit und Komfort â€“ ohne dass Sie sich um Details kÃ¼mmern mÃ¼ssen.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
+            <div class="service-stat__num">âœ“</div>
             <div class="service-stat__label">Weniger Energiekosten im Zuhause</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
+            <div class="service-stat__num">âœ“</div>
             <div class="service-stat__label">Mehr Sicherheit im Betrieb</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Längere Lebensdauer der Technik</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">LÃ¤ngere Lebensdauer der Technik</div>
           </div>
         </div>
 
         <p style="margin-top:20px;">
-          Durch Wartung und Inspektion arbeiten Wärmepumpen effizienter, senken Energiekosten und reduzieren Heizkosten spürbar im Alltag. Kontrollen erhöhen Sicherheit, reduzieren Risiken bei Gas, Öl und Brennstoffen und verhindern Ausfälle im Heizsystem. Regelmäßige Wartung schützt Systeme, erhöht die Lebensdauer und sichert Qualität bei modernen Heizsystemen und Klimaanlagen.
+          Durch Wartung und Inspektion arbeiten WÃ¤rmepumpen effizienter, senken Energiekosten und reduzieren Heizkosten spÃ¼rbar im Alltag. Kontrollen erhÃ¶hen Sicherheit, reduzieren Risiken bei Gas, Ã–l und Brennstoffen und verhindern AusfÃ¤lle im Heizsystem. RegelmÃ¤ÃŸige Wartung schÃ¼tzt Systeme, erhÃ¶ht die Lebensdauer und sichert QualitÃ¤t bei modernen Heizsystemen und Klimaanlagen.
         </p>
       </div>
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/waermepumpe-vorteile.jpg') }}" alt="Vorteile Wärmepumpen Wartung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size4.jpeg') }}" alt="Vorteile WÃ¤rmepumpen Wartung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Komplettpaket für Installation und Wartung -->
+  <!-- Komplettpaket fÃ¼r Installation und Wartung -->
   <section class="service-section" id="komplettpaket">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Komplettpaket für Installation und Wartung</h2>
-        <p>Unser Komplettpaket kombiniert Installation, Wartung, Reparatur und laufenden Service für Wärmepumpen, Klimaanlagen und Kühlsysteme.</p>
+        <h2>Komplettpaket fÃ¼r Installation und Wartung</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. Unser Komplettpaket kombiniert Installation, Wartung, Reparatur und laufenden Service fÃ¼r WÃ¤rmepumpen, Klimaanlagen und KÃ¼hlsysteme.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">📋</div>
+          <div class="service-feature__icon" aria-hidden="true">ðŸ“‹</div>
           <div>
             <h3>Alles aus einer Hand</h3>
-            <p>Wir übernehmen Planung, Auswahl, Umsetzung und den Austausch relevanter Komponenten – passend zu Bedürfnissen, Ort und Voraussetzungen.</p>
+            <p>Wir Ã¼bernehmen Planung, Auswahl, Umsetzung und den Austausch relevanter Komponenten â€“ passend zu BedÃ¼rfnissen, Ort und Voraussetzungen.</p>
           </div>
         </article>
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏭</div>
+          <div class="service-feature__icon" aria-hidden="true">ðŸ­</div>
           <div>
-            <h3>Herstellerübergreifend</h3>
-            <p>Als Unternehmen mit Erfahrung arbeiten wir herstellerübergreifend und kennen Anforderungen von Viessmann ebenso wie anderer Hersteller.</p>
+            <h3>HerstellerÃ¼bergreifend</h3>
+            <p>Als Unternehmen mit Erfahrung arbeiten wir herstellerÃ¼bergreifend und kennen Anforderungen von Viessmann ebenso wie anderer Hersteller.</p>
           </div>
         </article>
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔍</div>
+          <div class="service-feature__icon" aria-hidden="true">ðŸ”</div>
           <div>
             <h3>Inspektion & Optimierung</h3>
             <p>Unsere Leistungen umfassen Inspektion, technische Details, Sicherheitschecks und die Optimierung der Energieeffizienz.</p>
           </div>
         </article>
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔄</div>
+          <div class="service-feature__icon" aria-hidden="true">ðŸ”„</div>
           <div>
-            <h3>Umstieg von Öl oder Gas</h3>
-            <p>Auf Wunsch integrieren wir Lösungen für Umstieg von Ölheizungen oder Gas auf moderne Energielösungen – mit festem Ansprechpartner.</p>
+            <h3>Umstieg von Ã–l oder Gas</h3>
+            <p>Auf Wunsch integrieren wir LÃ¶sungen fÃ¼r Umstieg von Ã–lheizungen oder Gas auf moderne EnergielÃ¶sungen â€“ mit festem Ansprechpartner.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Beratung für Förderung und Förderabwicklung -->
+  <!-- Beratung fÃ¼r FÃ¶rderung und FÃ¶rderabwicklung -->
   <section class="service-section service-section--soft" id="foerderung">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>Beratung für Förderung und Förderabwicklung</h2>
-        <p>
-          Wir unterstützen mit Beratung, Überblick und Förderabwicklung, damit Landesförderung und Bundesförderung optimal genutzt werden.
+        <h2>Beratung fÃ¼r FÃ¶rderung und FÃ¶rderabwicklung</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. 
+          Wir unterstÃ¼tzen mit Beratung, Ãœberblick und FÃ¶rderabwicklung, damit LandesfÃ¶rderung und BundesfÃ¶rderung optimal genutzt werden.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Landesförderung</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">LandesfÃ¶rderung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Bundesförderung</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">BundesfÃ¶rderung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Umstieg von Ölheizungen</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">Umstieg von Ã–lheizungen</div>
           </div>
         </div>
 
         <p style="margin-top:20px;">
-          Wir klären Voraussetzungen, Ziel und Auswahl, unterstützen die Förderabwicklung und bringen Förderung sicher in die Umsetzung. Wir begleiten Planung, Wahl und Umsetzung, damit der Umstieg von Öl oder Gas zur effizienten Lösung wird.
+          Wir klÃ¤ren Voraussetzungen, Ziel und Auswahl, unterstÃ¼tzen die FÃ¶rderabwicklung und bringen FÃ¶rderung sicher in die Umsetzung. Wir begleiten Planung, Wahl und Umsetzung, damit der Umstieg von Ã–l oder Gas zur effizienten LÃ¶sung wird.
         </p>
       </div>
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/foerderung-burgenland.jpg') }}" alt="Förderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size7.jpeg') }}" alt="FÃ¶rderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -836,8 +832,8 @@
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Service im Bereich Eisenstadt Burgenland</h2>
-        <p>
-          Unser Service deckt den Bereich Eisenstadt und das gesamte Burgenland ab – für Haushalte, Unternehmen und Haustechnik-Projekte. Wir liefern Wartung, Installation und Reparatur für Wärmepumpen, Klimaanlagen und Heizsystemen, abgestimmt auf Technik, Ort und Anforderungen. Als Partner mit Know-how bieten wir zuverlässige Ansprechpartner, schnelle Termine und klare Kosten. Wir prüfen Systeme, behalten alles im Blick und lassen nichts offen – von der Auswahl bis zu Details der Umsetzung. So bleibt Komfort konstant, Energieeffizienz hoch und Sicherheit im Betrieb gewährleistet.
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. 
+          Unser Service deckt den Bereich Eisenstadt und das gesamte Burgenland ab â€“ fÃ¼r Haushalte, Unternehmen und Haustechnik-Projekte. Wir liefern Wartung, Installation und Reparatur fÃ¼r WÃ¤rmepumpen, Klimaanlagen und Heizsystemen, abgestimmt auf Technik, Ort und Anforderungen. Als Partner mit Know-how bieten wir zuverlÃ¤ssige Ansprechpartner, schnelle Termine und klare Kosten. Wir prÃ¼fen Systeme, behalten alles im Blick und lassen nichts offen â€“ von der Auswahl bis zu Details der Umsetzung. So bleibt Komfort konstant, Energieeffizienz hoch und Sicherheit im Betrieb gewÃ¤hrleistet.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Termin vereinbaren</a>
@@ -854,11 +850,11 @@
             <li>Mattersburg</li>
             <li>Neusiedl am See</li>
             <li>Jennersdorf</li>
-            <li>Güssing</li>
+            <li>GÃ¼ssing</li>
             <li>und ganz Burgenland</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Wir sind für Sie im gesamten Burgenland schnell vor Ort.
+            Wir sind fÃ¼r Sie im gesamten Burgenland schnell vor Ort.
           </p>
         </div>
       </div>
@@ -870,55 +866,55 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Transparente Kosten und langfristige Vorteile</h2>
-        <p>
-          Die Kosten für eine Wärmepumpe Wartung Burgenland hängen vom Zustand der Wärmepumpen, dem gewählten Service, der Installation sowie vom Umfang der Leistungen ab. Durch regelmäßige Wartung, Inspektion und professionelle Reparatur sichern Sie langfristig Energieeffizienz und senken spürbar Energiekosten sowie Heizkosten. Unser Komplettpaket sorgt dafür, dass alles optimal aufeinander abgestimmt ist – von der Planung bis zur laufenden Betreuung. Wir prüfen Voraussetzungen für Landesförderung und Bundesförderung und übernehmen auf Wunsch die komplette Förderabwicklung. So entsteht eine wirtschaftliche Lösung mit klar kalkulierbaren Kosten, hoher Qualität und nachhaltigem Nutzen für Haushalte in Eisenstadt und im gesamten Burgenland.
+        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. 
+          Die Kosten fÃ¼r eine WÃ¤rmepumpe Wartung Burgenland hÃ¤ngen vom Zustand der WÃ¤rmepumpen, dem gewÃ¤hlten Service, der Installation sowie vom Umfang der Leistungen ab. Durch regelmÃ¤ÃŸige Wartung, Inspektion und professionelle Reparatur sichern Sie langfristig Energieeffizienz und senken spÃ¼rbar Energiekosten sowie Heizkosten. Unser Komplettpaket sorgt dafÃ¼r, dass alles optimal aufeinander abgestimmt ist â€“ von der Planung bis zur laufenden Betreuung. Wir prÃ¼fen Voraussetzungen fÃ¼r LandesfÃ¶rderung und BundesfÃ¶rderung und Ã¼bernehmen auf Wunsch die komplette FÃ¶rderabwicklung. So entsteht eine wirtschaftliche LÃ¶sung mit klar kalkulierbaren Kosten, hoher QualitÃ¤t und nachhaltigem Nutzen fÃ¼r Haushalte in Eisenstadt und im gesamten Burgenland.
         </p>
       </div>
 
       <div class="service-grid service-grid--3">
         <div class="service-pricecard">
           <h3>Klare Kostenstruktur</h3>
-          <p>Vorab transparente Aufstellung aller Leistungen – keine versteckten Gebühren. Sie wissen genau, was Sie erwartet.</p>
+          <p>Vorab transparente Aufstellung aller Leistungen â€“ keine versteckten GebÃ¼hren. Sie wissen genau, was Sie erwartet.</p>
         </div>
         <div class="service-pricecard">
-          <h3>Förderung nutzen</h3>
-          <p>Wir beraten und unterstützen bei der Förderabwicklung, damit Sie von Landes- und Bundesförderungen profitieren.</p>
+          <h3>FÃ¶rderung nutzen</h3>
+          <p>Wir beraten und unterstÃ¼tzen bei der FÃ¶rderabwicklung, damit Sie von Landes- und BundesfÃ¶rderungen profitieren.</p>
         </div>
         <div class="service-pricecard">
           <h3>Langfristig sparen</h3>
-          <p>Durch regelmäßige Wartung sinken die Energiekosten dauerhaft und teure Reparaturen werden vermieden.</p>
+          <p>Durch regelmÃ¤ÃŸige Wartung sinken die Energiekosten dauerhaft und teure Reparaturen werden vermieden.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Ihr Partner für moderne Energielösungen -->
+  <!-- Ihr Partner fÃ¼r moderne EnergielÃ¶sungen -->
   <section class="service-section service-section--soft" id="partner">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Ihr Partner für moderne Energielösungen</h2>
-        <p>
-          Als erfahrenes Unternehmen im Bereich Heiztechnik, Haustechnik und Klima sind wir verlässlicher Partner für Wärmepumpen, Klimaanlagen und Heizsysteme. Unsere Experten verfügen über umfassende Expertise, technisches Know-how und langjährige Erfahrung mit Herstellern wie Viessmann. Ob Wartung, Reparatur, Austausch oder Neuinstallation – wir begleiten jedes Projekt mit persönlichem Ansprechpartner und klarer Beratung. Unser Ziel ist es, Komfort, Sicherheit und Effizienz in Ihrem Zuhause dauerhaft zu gewährleisten. Von Eisenstadt bis in alle Regionen im Burgenland stehen wir für Zuverlässigkeit, Qualität und maßgeschneiderte Energielösungen aus einer Hand.
+        <h2>Ihr Partner fÃ¼r moderne EnergielÃ¶sungen</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. 
+          Als erfahrenes Unternehmen im Bereich Heiztechnik, Haustechnik und Klima sind wir verlÃ¤sslicher Partner fÃ¼r WÃ¤rmepumpen, Klimaanlagen und Heizsysteme. Unsere Experten verfÃ¼gen Ã¼ber umfassende Expertise, technisches Know-how und langjÃ¤hrige Erfahrung mit Herstellern wie Viessmann. Ob Wartung, Reparatur, Austausch oder Neuinstallation â€“ wir begleiten jedes Projekt mit persÃ¶nlichem Ansprechpartner und klarer Beratung. Unser Ziel ist es, Komfort, Sicherheit und Effizienz in Ihrem Zuhause dauerhaft zu gewÃ¤hrleisten. Von Eisenstadt bis in alle Regionen im Burgenland stehen wir fÃ¼r ZuverlÃ¤ssigkeit, QualitÃ¤t und maÃŸgeschneiderte EnergielÃ¶sungen aus einer Hand.
         </p>
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
+            <div class="service-stat__num">âœ“</div>
             <div class="service-stat__label">Erfahrung mit Viessmann</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Persönlicher Ansprechpartner</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">PersÃ¶nlicher Ansprechpartner</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Maßgeschneiderte Lösungen</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">MaÃŸgeschneiderte LÃ¶sungen</div>
           </div>
         </div>
       </div>
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/partner-waermepumpe.jpg') }}" alt="Partner für Wärmepumpen" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size3.jpeg') }}" alt="Partner fÃ¼r WÃ¤rmepumpen" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -928,22 +924,22 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zur Wärmepumpe Wartung</h2>
-        <p>Die wichtigsten Antworten rund um Wartung, Förderung und Service im Burgenland.</p>
+        <h2>HÃ¤ufige Fragen zur WÃ¤rmepumpe Wartung</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um Wartung, FÃ¶rderung und Service im Burgenland.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wie oft sollten Wärmepumpen gewartet werden?</summary>
-          <p>Eine jährliche Wartung wird empfohlen, um Sicherheit, Effizienz und langfristige Lebensdauer der Wärmepumpen zu gewährleisten.</p>
+          <summary>Wie oft sollten WÃ¤rmepumpen gewartet werden?</summary>
+          <p>Eine jÃ¤hrliche Wartung wird empfohlen, um Sicherheit, Effizienz und langfristige Lebensdauer der WÃ¤rmepumpen zu gewÃ¤hrleisten.</p>
         </details>
         <details>
           <summary>Wird auch Reparatur im Burgenland angeboten?</summary>
-          <p>Ja, unser Service umfasst Reparatur, Inspektion und Wartungsservice für Wärmepumpen, Klimaanlagen und Heizsysteme im gesamten Burgenland.</p>
+          <p>Ja, unser Service umfasst Reparatur, Inspektion und Wartungsservice fÃ¼r WÃ¤rmepumpen, Klimaanlagen und Heizsysteme im gesamten Burgenland.</p>
         </details>
         <details>
-          <summary>Gibt es Förderung für den Umstieg auf Wärmepumpen?</summary>
-          <p>Je nach Voraussetzungen sind Landesförderung und Bundesförderung möglich. Wir unterstützen bei Beratung und Förderabwicklung.</p>
+          <summary>Gibt es FÃ¶rderung fÃ¼r den Umstieg auf WÃ¤rmepumpen?</summary>
+          <p>Je nach Voraussetzungen sind LandesfÃ¶rderung und BundesfÃ¶rderung mÃ¶glich. Wir unterstÃ¼tzen bei Beratung und FÃ¶rderabwicklung.</p>
         </details>
         <details>
           <summary>Betreuen Sie auch Haushalte in Eisenstadt?</summary>
@@ -951,7 +947,7 @@
         </details>
         <details>
           <summary>Arbeiten Sie mit Herstellern wie Viessmann?</summary>
-          <p>Unsere Experten verfügen über Erfahrung mit Viessmann und weiteren Herstellern moderner Wärmepumpen und Heizsysteme.</p>
+          <p>Unsere Experten verfÃ¼gen Ã¼ber Erfahrung mit Viessmann und weiteren Herstellern moderner WÃ¤rmepumpen und Heizsysteme.</p>
         </details>
       </div>
     </div>
@@ -961,7 +957,7 @@
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Beratung und Service anfragen',
-    'text' => 'Sie suchen einen Profi für Wärmepumpe Wartung Burgenland? Kontaktieren Sie unser Unternehmen für persönliche Beratung, transparente Kosten und zuverlässigen Service. Wir unterstützen Sie bei Installation, Wartung, Förderabwicklung und Optimierung Ihrer Wärmepumpen – für mehr Komfort, Sicherheit und Energieeffizienz in Ihrem Zuhause.',
+    'text' => 'Sie suchen einen Profi fÃ¼r WÃ¤rmepumpe Wartung Burgenland? Kontaktieren Sie unser Unternehmen fÃ¼r persÃ¶nliche Beratung, transparente Kosten und zuverlÃ¤ssigen Service. Wir unterstÃ¼tzen Sie bei Installation, Wartung, FÃ¶rderabwicklung und Optimierung Ihrer WÃ¤rmepumpen â€“ fÃ¼r mehr Komfort, Sicherheit und Energieeffizienz in Ihrem Zuhause.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -970,3 +966,8 @@
 </main>
 
 @endsection
+
+
+
+
+

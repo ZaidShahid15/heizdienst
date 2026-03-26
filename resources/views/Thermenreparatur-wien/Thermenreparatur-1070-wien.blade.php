@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -176,7 +176,7 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Schnelle Hilfe bei Thermenproblemen in 1070 Wien</h2>
-          <p>Wenn Ihre Therme defekt ist oder plötzlich kein Warmwasser vorhanden ist, brauchen Sie in 1070 Wien schnelle Hilfe. Unser Installateur Wien bietet professionelle Thermenreparatur 1070 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in Wien Neubau, rund um das Museumsquartier und im gesamten 7 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder akuter Notdienst – unser Team sorgt für Soforthilfe und eine nachhaltige Lösung. Als Installateur 1070 Wien sind wir täglich im Einsatz und schnell in der Nähe. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht oder eine Reparatur notwendig ist.</p>
+          <p>Wenn Ihre Therme defekt ist oder plötzlich kein Warmwasser vorhanden ist, brauchen Sie in 1070 Wien schnelle Hilfe. Unser Installateur Wien bietet  <a href="{{ route('Thermenreparatur-1060-wien') }}"> professionelle </a> Thermenreparatur 1070 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in Wien Neubau, rund um das Museumsquartier und im gesamten 7 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder akuter Notdienst – unser Team sorgt für Soforthilfe und eine nachhaltige Lösung. Als Installateur 1070 Wien sind wir täglich im Einsatz und schnell in der Nähe. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht oder eine Reparatur notwendig ist.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1070 Wien" loading="lazy" decoding="async">
@@ -275,7 +275,7 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>24h Notdienst Installateur Wien</h2>
-        <p>Unser Installateur Notdienst 1070 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Neubau, rund um das Museumsquartier und im gesamten Wien 1070 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1070 Wien und Umgebung.</p>
+        <p>Unser Installateur Notdienst 1070 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Neubau, rund um das Museumsquartier und im gesamten Wien 1070 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1070 Wien und Umgebung. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -407,7 +407,7 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
         </details>
         <details>
           <summary>Wie schnell ist der Notdienst vor Ort?</summary>
-          <p>Unser Installateur Notdienst 1070 Wien ist meist schnell vor Ort in Wien Neubau oder im gesamten 7 Bezirk Wien.</p>
+          <p>Unser Installateur Notdienst 1070 Wien ist meist schnell vor Ort in Wien Neubau oder im gesamten 7 Bezirk Wien. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         </details>
         <details>
           <summary>Was tun bei kein Warmwasser?</summary>
@@ -467,6 +467,11 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
+
+
+
+
 
 
 

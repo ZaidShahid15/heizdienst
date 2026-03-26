@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -278,7 +278,7 @@ $metaDescription = "Installateur Notdienst 1190 Wien – schneller Installateur 
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Reparaturen – schnell und fachgerecht</h2>
-<p>Wenn die Heizung nicht zündet, die Spülung läuft oder der Boiler tropft, ist schnelle Hilfe gefragt. Unser Installateur Notdienst in 1190 diagnostiziert den Fehler meist direkt vor Ort und hat die gängigsten Ersatzteile bereits im Fahrzeug dabei. So können wir viele Reparaturen sofort erledigen – ohne zweiten Termin. Mehr zu unserem <a href="/">Thermenservice Niederösterreich</a> und weiteren Leistungen finden Sie auf unserer Startseite. Sollte doch ein Spezialteil nötig sein, organisieren wir es schnellstmöglich und halten Sie über den Fortschritt auf dem Laufenden. Wir arbeiten markenunabhängig und kennen die typischen Schwachstellen aller gängigen Fabrikate.</p>                    </div>
+<p>Wenn die Heizung nicht zündet, die Spülung läuft oder der Boiler tropft, ist schnelle Hilfe gefragt. Unser Installateur Notdienst in 1190 diagnostiziert den Fehler meist direkt vor Ort und hat die gängigsten Ersatzteile bereits im Fahrzeug dabei. So können wir viele Reparaturen sofort erledigen – ohne zweiten Termin. Mehr zu unserem <a href="/">Thermenwartung Wien</a> und weiteren Leistungen finden Sie auf unserer Startseite. Sollte doch ein Spezialteil nötig sein, organisieren wir es schnellstmöglich und halten Sie über den Fortschritt auf dem Laufenden. Wir arbeiten markenunabhängig und kennen die typischen Schwachstellen aller gängigen Fabrikate.</p>                    </div>
                 </div>
                 <div class="card-split__media">
                     <div class="service-media__box">
@@ -518,6 +518,8 @@ $metaDescription = "Installateur Notdienst 1190 Wien – schneller Installateur 
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
+
 
 
 

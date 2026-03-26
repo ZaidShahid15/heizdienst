@@ -1,8 +1,8 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @php
-    $metaTitle = 'Wärmepumpen Reparatur Burgenland | Service & Wartung';
-    $metaDescription = 'Wärmepumpen Reparatur Burgenland vom Profi. Service, Wartung, Installation & faire Preise. Beratung zu Förderung und schnelle Hilfe bei Problemen.';
+    $metaTitle = 'WÃ¤rmepumpen Reparatur Burgenland | Service & Wartung';
+    $metaDescription = 'WÃ¤rmepumpen Reparatur Burgenland vom Profi. Service, Wartung, Installation & faire Preise. Beratung zu FÃ¶rderung und schnelle Hilfe bei Problemen.';
 @endphp
 
 @section('main')
@@ -66,7 +66,7 @@
 
 
   /* =========================
-     ✅ TOC like screenshot
+     âœ… TOC like screenshot
      ========================= */
   .toc-wrap{
     padding:16px 0 0;
@@ -368,7 +368,7 @@
 </style>
 <style>
   /* =====================================
-   MOBILE HERO – EXACT LIKE SCREENSHOT
+   MOBILE HERO â€“ EXACT LIKE SCREENSHOT
    ===================================== */
    .hero-first-block{
   padding: 20px 0;
@@ -545,16 +545,12 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        Wärmepumpen Reparatur Burgenland <br>
+        WÃ¤rmepumpen Reparatur Burgenland <br>
         <span style="color:#FB9A1B;">Service & Wartung vom Fachbetrieb.</span>
       </h1>
 
-      <div class="wolf-hero__logo">
-        <img src="{{ asset('img/heatpump-icon.svg') }}" alt="Wärmepumpe Icon" onerror="this.style.display='none'">
-      </div>
-
       <p class="wolf-hero__sub">
-        Professionelle Wärmepumpen Reparatur Burgenland für zuverlässige Wärme, schnelle Hilfe bei Problemen und erfahrenen Service direkt vor Ort.
+        Professionelle WÃ¤rmepumpen Reparatur Burgenland fÃ¼r zuverlÃ¤ssige WÃ¤rme, schnelle Hilfe bei Problemen und erfahrenen Service direkt vor Ort.
       </p>
 
       <div class="wolf-hero__actions">
@@ -592,7 +588,7 @@
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            Geprüfte Experten
+            GeprÃ¼fte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -605,13 +601,13 @@
   </section>
 
 
-  <!-- ✅ TOC EXACT LIKE IMAGE -->
+  <!-- âœ… TOC EXACT LIKE IMAGE -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
-    <!-- ✅ collapsed by default -->
+    <!-- âœ… collapsed by default -->
     <div class="toc-card is-collapsed" id="tocCard">
 
-      <!-- ✅ aria-expanded false by default -->
+      <!-- âœ… aria-expanded false by default -->
       <div class="toc-head"
            id="tocHead"
            role="button"
@@ -622,7 +618,7 @@
         <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
         <div class="toc-actions">
-          <!-- ✅ aria-expanded false by default -->
+          <!-- âœ… aria-expanded false by default -->
           <button class="toc-iconbtn"
                   type="button"
                   id="tocToggle"
@@ -655,12 +651,12 @@
           </li>
           <li class="toc-item">
             <a href="#foerderung" class="toc-link">
-              <span class="toc-badge">04</span><span class="toc-text">Förderung</span>
+              <span class="toc-badge">04</span><span class="toc-text">FÃ¶rderung</span>
             </a>
           </li>
           <li class="toc-item">
             <a href="#preise" class="toc-link">
-              <span class="toc-badge">05</span><span class="toc-text">Preise & Qualität</span>
+              <span class="toc-badge">05</span><span class="toc-text">Preise & QualitÃ¤t</span>
             </a>
           </li>
           <li class="toc-item">
@@ -691,59 +687,59 @@
 </section>
 
 
-  <!-- Wärmepumpen Service und Wartung -->
+  <!-- WÃ¤rmepumpen Service und Wartung -->
   <section class="service-section" id="service-wartung">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Wärmepumpen Service und Wartung</h2>
-        <p>Unser Wärmepumpen Service im Burgenland bietet umfassende Betreuung für moderne Heizungsanlagen und nachhaltige Haustechnik.</p>
+        <h2>WÃ¤rmepumpen Service und Wartung</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. Unser WÃ¤rmepumpen Service im Burgenland bietet umfassende Betreuung fÃ¼r moderne Heizungsanlagen und nachhaltige Haustechnik.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Regelmäßige Wartung</h3>
-          <p>Regelmäßige Wartung erhöht die Lebensdauer Ihrer Anlagen und sichert eine stabile Wärmeversorgung im Zuhause. Wir übernehmen Reparatur, Überprüfung und fachgerechte Einstellung aller Wärmepumpen, unabhängig vom Hersteller.</p>
+          <h3>RegelmÃ¤ÃŸige Wartung</h3>
+          <p>RegelmÃ¤ÃŸige Wartung erhÃ¶ht die Lebensdauer Ihrer Anlagen und sichert eine stabile WÃ¤rmeversorgung im Zuhause. Wir Ã¼bernehmen Reparatur, ÃœberprÃ¼fung und fachgerechte Einstellung aller WÃ¤rmepumpen, unabhÃ¤ngig vom Hersteller.</p>
         </article>
         <article class="service-card service-card--service">
           <h3>Heizung, Klima & Klimaanlage</h3>
-          <p>Auch bei Problemen mit Heizung, Klima oder Klimaanlage stehen wir als erfahrener Partner zur Verfügung. Durch professionelle Wartung und gezielten Heizungsservice verbessern wir Effizienz, Sicherheit und Komfort.</p>
+          <p>Auch bei Problemen mit Heizung, Klima oder Klimaanlage stehen wir als erfahrener Partner zur VerfÃ¼gung. Durch professionelle Wartung und gezielten Heizungsservice verbessern wir Effizienz, Sicherheit und Komfort.</p>
         </article>
         <article class="service-card service-card--service">
           <h3>Reinigung & Kontrolle</h3>
-          <p>Unsere Leistungen umfassen ebenso die Reinigung von Filtern sowie die Kontrolle aller relevanten Komponenten für einen zuverlässigen Betrieb.</p>
+          <p>Unsere Leistungen umfassen ebenso die Reinigung von Filtern sowie die Kontrolle aller relevanten Komponenten fÃ¼r einen zuverlÃ¤ssigen Betrieb.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Reparatur, Sicherheit und Qualität -->
+  <!-- Reparatur, Sicherheit und QualitÃ¤t -->
   <section class="service-section service-section--soft" id="reparatur-sicherheit">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Reparatur, Sicherheit und Qualität</h2>
-        <p>
-          Eine rasche Reparatur sorgt dafür, dass Ihre Heizung im Burgenland wieder zuverlässig funktioniert. Unser Service deckt sämtliche Arbeiten an Wärmepumpen, Heizungsanlage und Heizsystem ab. Wir prüfen Gas-Verbindungen, kontrollieren Öl- oder Ölheizung-Komponenten und beheben Störungen fachgerecht. Qualität und Sicherheit stehen bei jeder Wartung im Mittelpunkt. Durch regelmäßige Überprüfung lassen sich größere Schäden vermeiden und Energiekosten reduzieren. Unser Unternehmen verbindet Erfahrung mit moderner Haustechnik, um nachhaltige Lösungen für Ihr Zuhause zu schaffen. So bleibt Ihre Anlage effizient, sicher und langfristig leistungsfähig.
+        <h2>Reparatur, Sicherheit und QualitÃ¤t</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. 
+          Eine rasche Reparatur sorgt dafÃ¼r, dass Ihre Heizung im Burgenland wieder zuverlÃ¤ssig funktioniert. Unser Service deckt sÃ¤mtliche Arbeiten an WÃ¤rmepumpen, Heizungsanlage und Heizsystem ab. Wir prÃ¼fen Gas-Verbindungen, kontrollieren Ã–l- oder Ã–lheizung-Komponenten und beheben StÃ¶rungen fachgerecht. QualitÃ¤t und Sicherheit stehen bei jeder Wartung im Mittelpunkt. Durch regelmÃ¤ÃŸige ÃœberprÃ¼fung lassen sich grÃ¶ÃŸere SchÃ¤den vermeiden und Energiekosten reduzieren. Unser Unternehmen verbindet Erfahrung mit moderner Haustechnik, um nachhaltige LÃ¶sungen fÃ¼r Ihr Zuhause zu schaffen. So bleibt Ihre Anlage effizient, sicher und langfristig leistungsfÃ¤hig.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
+            <div class="service-stat__num">âœ“</div>
             <div class="service-stat__label">Schnelle Hilfe bei Problemen</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Wartung für lange Lebensdauer</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">Wartung fÃ¼r lange Lebensdauer</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Klimaanlage & Wohnraumlüftung</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">Klimaanlage & WohnraumlÃ¼ftung</div>
           </div>
         </div>
       </div>
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/waermepumpe-reparatur.jpg') }}" alt="Wärmepumpen Reparatur" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size2.jpeg') }}" alt="WÃ¤rmepumpen Reparatur" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -754,82 +750,82 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Moderne Heizsysteme und Planung</h2>
-        <p>Moderne Wärmepumpen sind eine umweltfreundliche Alternative zu Gas oder Öl. Sie nutzen Energie aus der Umwelt und sorgen für effiziente Wärme im Zuhause.</p>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. Moderne WÃ¤rmepumpen sind eine umweltfreundliche Alternative zu Gas oder Ã–l. Sie nutzen Energie aus der Umwelt und sorgen fÃ¼r effiziente WÃ¤rme im Zuhause.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">📋</div>
+          <div class="service-feature__icon" aria-hidden="true">ðŸ“‹</div>
           <div>
             <h3>Planung & Umsetzung</h3>
-            <p>Unser Unternehmen unterstützt Sie bei Planung, Auswahl und Umsetzung passender Heizsysteme. Ob Neuinstallation, Einbau oder Sanierung bestehender Heizungsanlagen – wir begleiten jedes Projekt von Anfang bis zur fertigen Installation.</p>
+            <p>Unser Unternehmen unterstÃ¼tzt Sie bei Planung, Auswahl und Umsetzung passender Heizsysteme. Ob Neuinstallation, Einbau oder Sanierung bestehender Heizungsanlagen â€“ wir begleiten jedes Projekt von Anfang bis zur fertigen Installation.</p>
           </div>
         </article>
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔄</div>
+          <div class="service-feature__icon" aria-hidden="true">ðŸ”„</div>
           <div>
-            <h3>Umstieg von Thermen oder Ölheizung</h3>
-            <p>Auch beim Umstieg von Thermen oder Ölheizung beraten wir umfassend. Durch Kombination mit Wohnraumlüftung oder Klimaanlage entsteht ein ganzheitliches Konzept für Heizung und Klima.</p>
+            <h3>Umstieg von Thermen oder Ã–lheizung</h3>
+            <p>Auch beim Umstieg von Thermen oder Ã–lheizung beraten wir umfassend. Durch Kombination mit WohnraumlÃ¼ftung oder Klimaanlage entsteht ein ganzheitliches Konzept fÃ¼r Heizung und Klima.</p>
           </div>
         </article>
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🔧</div>
+          <div class="service-feature__icon" aria-hidden="true">ðŸ”§</div>
           <div>
             <h3>Installation & Neuinstallation</h3>
-            <p>Wir übernehmen Installation, Einbau und Neuinstallation moderner Wärmepumpen inklusive fachgerechter Montage.</p>
+            <p>Wir Ã¼bernehmen Installation, Einbau und Neuinstallation moderner WÃ¤rmepumpen inklusive fachgerechter Montage.</p>
           </div>
         </article>
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">🏠</div>
+          <div class="service-feature__icon" aria-hidden="true">ðŸ </div>
           <div>
             <h3>Sanierung & Umstieg</h3>
-            <p>Bei Sanierung oder Umstieg auf neue Heizsysteme beraten wir transparent und entwickeln passende Lösungen für Ihr Zuhause.</p>
+            <p>Bei Sanierung oder Umstieg auf neue Heizsysteme beraten wir transparent und entwickeln passende LÃ¶sungen fÃ¼r Ihr Zuhause.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Förderung und Beratung im Burgenland -->
+  <!-- FÃ¶rderung und Beratung im Burgenland -->
   <section class="service-section service-section--soft" id="foerderung">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>Förderung und Beratung im Burgenland</h2>
-        <p>
-          Für Wärmepumpen Projekte im Burgenland stehen unterschiedliche Förderungen zur Verfügung, darunter Bundesförderung und Landesförderung. In einem persönlichen Beratungsgespräch informieren wir Sie über aktuelle Möglichkeiten und unterstützen bei der Antragstellung. Unsere Beratung berücksichtigt individuelle Anforderungen, geplante Sanierung und gewünschte Effizienz. Auch Themen wie Umwelt, Energieeinsparung und langfristige Reduktion der Energiekosten werden besprochen. Als Servicepartner begleiten wir Sie von der ersten Planung bis zur finalen Umsetzung. Dabei profitieren Kunden von klaren Infos, transparenter Qualität und einem festen Ansprechpartner im gesamten Ort.
+        <h2>FÃ¶rderung und Beratung im Burgenland</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. 
+          FÃ¼r WÃ¤rmepumpen Projekte im Burgenland stehen unterschiedliche FÃ¶rderungen zur VerfÃ¼gung, darunter BundesfÃ¶rderung und LandesfÃ¶rderung. In einem persÃ¶nlichen BeratungsgesprÃ¤ch informieren wir Sie Ã¼ber aktuelle MÃ¶glichkeiten und unterstÃ¼tzen bei der Antragstellung. Unsere Beratung berÃ¼cksichtigt individuelle Anforderungen, geplante Sanierung und gewÃ¼nschte Effizienz. Auch Themen wie Umwelt, Energieeinsparung und langfristige Reduktion der Energiekosten werden besprochen. Als Servicepartner begleiten wir Sie von der ersten Planung bis zur finalen Umsetzung. Dabei profitieren Kunden von klaren Infos, transparenter QualitÃ¤t und einem festen Ansprechpartner im gesamten Ort.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Bundesförderung</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">BundesfÃ¶rderung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Landesförderung</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">LandesfÃ¶rderung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
-            <div class="service-stat__label">Persönliche Beratung</div>
+            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__label">PersÃ¶nliche Beratung</div>
           </div>
         </div>
       </div>
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/foerderung-burgenland.jpg') }}" alt="Förderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size7.jpeg') }}" alt="FÃ¶rderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Preise, Pauschalen und Qualität (dark style) -->
+  <!-- Preise, Pauschalen und QualitÃ¤t (dark style) -->
   <section class="service-section service-section--dark" id="preise">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Preise, Pauschalen und Qualität</h2>
-        <p>
-          Transparente Preise und klar definierte Pauschalen schaffen Vertrauen bei jeder Wärmepumpen Reparatur Burgenland. Vor Beginn aller Arbeiten erhalten Kunden eine nachvollziehbare Übersicht über Service, Wartung oder Reparatur. Unser Unternehmen legt großen Wert auf Qualität in allen Bereichen der Haustechnik – von der ersten Beratung bis zur finalen Umsetzung. Faire Kalkulation, hochwertige Komponenten und erfahrene Profis sichern langfristige Zufriedenheit. Auch bei Sanierung, Einbau oder Installation neuer Anlagen beraten wir umfassend zu Kosten, Förderung und möglichen Einsparungen bei Energiekosten. So verbinden wir Qualität, Effizienz und Wirtschaftlichkeit für Ihr Zuhause im Burgenland.
+        <h2>Preise, Pauschalen und QualitÃ¤t</h2>
+        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. 
+          Transparente Preise und klar definierte Pauschalen schaffen Vertrauen bei jeder WÃ¤rmepumpen Reparatur Burgenland. Vor Beginn aller Arbeiten erhalten Kunden eine nachvollziehbare Ãœbersicht Ã¼ber Service, Wartung oder Reparatur. Unser Unternehmen legt groÃŸen Wert auf QualitÃ¤t in allen Bereichen der Haustechnik â€“ von der ersten Beratung bis zur finalen Umsetzung. Faire Kalkulation, hochwertige Komponenten und erfahrene Profis sichern langfristige Zufriedenheit. Auch bei Sanierung, Einbau oder Installation neuer Anlagen beraten wir umfassend zu Kosten, FÃ¶rderung und mÃ¶glichen Einsparungen bei Energiekosten. So verbinden wir QualitÃ¤t, Effizienz und Wirtschaftlichkeit fÃ¼r Ihr Zuhause im Burgenland.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Angebot anfordern</a>
@@ -847,7 +843,7 @@
             <li>Hochwertige Komponenten</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Faire Kalkulation und erfahrene Profis für Ihre Wärmepumpe.
+            Faire Kalkulation und erfahrene Profis fÃ¼r Ihre WÃ¤rmepumpe.
           </p>
         </div>
       </div>
@@ -859,7 +855,7 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Einsatzgebiet Burgenland und Umgebung</h2>
-        <p>Unser Service ist im gesamten Burgenland für private und gewerbliche Kunden verfügbar.</p>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. Unser Service ist im gesamten Burgenland fÃ¼r private und gewerbliche Kunden verfÃ¼gbar.</p>
       </div>
 
       <div class="service-chips">
@@ -868,14 +864,14 @@
         <span class="service-chip">Oberwart</span>
         <span class="service-chip">Neusiedl am See</span>
         <span class="service-chip">Jennersdorf</span>
-        <span class="service-chip">Güssing</span>
+        <span class="service-chip">GÃ¼ssing</span>
         <span class="service-chip">Nordburgenland</span>
-        <span class="service-chip">Südburgenland</span>
+        <span class="service-chip">SÃ¼dburgenland</span>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Wir betreuen Anlagen in jedem Ort der Region und stehen als zuverlässiger Partner im Bereich Heizung und Haustechnik zur Verfügung. Auch Projekte in Wien oder angrenzenden Bundesländern wie Vorarlberg werden bei Bedarf koordiniert. Dank strukturierter Planung und schneller Reaktionszeiten gewährleisten wir kurze Wege und direkte Unterstützung. Unsere Leistungen umfassen Reparatur, Wartung, Installation und persönliche Beratung – alles aus einer Hand für maximale Sicherheit und Komfort.
+          Wir betreuen Anlagen in jedem Ort der Region und stehen als zuverlÃ¤ssiger Partner im Bereich Heizung und Haustechnik zur VerfÃ¼gung. Auch Projekte in Wien oder angrenzenden BundeslÃ¤ndern wie Vorarlberg werden bei Bedarf koordiniert. Dank strukturierter Planung und schneller Reaktionszeiten gewÃ¤hrleisten wir kurze Wege und direkte UnterstÃ¼tzung. Unsere Leistungen umfassen Reparatur, Wartung, Installation und persÃ¶nliche Beratung â€“ alles aus einer Hand fÃ¼r maximale Sicherheit und Komfort.
         </p>
       </div>
     </div>
@@ -886,20 +882,20 @@
     <div class="service-container service-split">
       <div class="service-split__text">
         <h2>Warum unser Unternehmen im Burgenland</h2>
-        <p>
-          Als erfahrenes Unternehmen im Bereich Haustechnik bieten wir maßgeschneiderte Lösungen rund um Wärmepumpen, Heizungsanlagen und Klimaanlage. Unsere Partner und Servicepartner arbeiten eng mit renommierten Hersteller zusammen, um höchste Qualität sicherzustellen. Von Heizungsservice über Badsanierung bis zur Wohnraumlüftung decken wir ein breites Leistungsspektrum ab. Erfahrung, professionelle Umsetzung und klare Kommunikation garantieren nachhaltige Ergebnisse. Unser Ziel ist die langfristige Zufriedenheit unserer Kunden – mit effizienter Heizung, optimalem Klima und maximalem Komfort im Zuhause.
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. 
+          Als erfahrenes Unternehmen im Bereich Haustechnik bieten wir maÃŸgeschneiderte LÃ¶sungen rund um WÃ¤rmepumpen, Heizungsanlagen und Klimaanlage. Unsere Partner und Servicepartner arbeiten eng mit renommierten Hersteller zusammen, um hÃ¶chste QualitÃ¤t sicherzustellen. Von Heizungsservice Ã¼ber Badsanierung bis zur WohnraumlÃ¼ftung decken wir ein breites Leistungsspektrum ab. Erfahrung, professionelle Umsetzung und klare Kommunikation garantieren nachhaltige Ergebnisse. Unser Ziel ist die langfristige Zufriedenheit unserer Kunden â€“ mit effizienter Heizung, optimalem Klima und maximalem Komfort im Zuhause.
         </p>
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
+            <div class="service-stat__num">âœ“</div>
             <div class="service-stat__label">Erfahrene Partner</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
+            <div class="service-stat__num">âœ“</div>
             <div class="service-stat__label">Renommierte Hersteller</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">✓</div>
+            <div class="service-stat__num">âœ“</div>
             <div class="service-stat__label">Breites Leistungsspektrum</div>
           </div>
         </div>
@@ -907,7 +903,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/team-waermepumpe.jpg') }}" alt="Unser Team" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size2.jpegs.jpeg') }}" alt="Unser Team" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -917,29 +913,29 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zur Wärmepumpen Reparatur Burgenland</h2>
-        <p>Die wichtigsten Antworten rund um Reparatur, Wartung und Service.</p>
+        <h2>HÃ¤ufige Fragen zur WÃ¤rmepumpen Reparatur Burgenland</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um Reparatur, Wartung und Service.</p>
       </div>
 
       <div class="service-faq">
         <details>
           <summary>Wie oft ist eine Wartung notwendig?</summary>
-          <p>Eine jährliche Wartung inklusive Überprüfung erhöht die Lebensdauer der Wärmepumpen und sichert effiziente Wärmeversorgung.</p>
+          <p>Eine jÃ¤hrliche Wartung inklusive ÃœberprÃ¼fung erhÃ¶ht die Lebensdauer der WÃ¤rmepumpen und sichert effiziente WÃ¤rmeversorgung.</p>
         </details>
         <details>
           <summary>Wird auch bei akuten Problemen geholfen?</summary>
-          <p>Ja, bei Problemen oder Ausfällen steht unser Service inklusive Notdienst rasch zur Verfügung.</p>
+          <p>Ja, bei Problemen oder AusfÃ¤llen steht unser Service inklusive Notdienst rasch zur VerfÃ¼gung.</p>
         </details>
         <details>
-          <summary>Gibt es Förderungen für Wärmepumpen?</summary>
-          <p>Je nach Projekt sind Bundesförderung oder Landesförderung möglich. Wir beraten Sie im persönlichen Beratungsgespräch.</p>
+          <summary>Gibt es FÃ¶rderungen fÃ¼r WÃ¤rmepumpen?</summary>
+          <p>Je nach Projekt sind BundesfÃ¶rderung oder LandesfÃ¶rderung mÃ¶glich. Wir beraten Sie im persÃ¶nlichen BeratungsgesprÃ¤ch.</p>
         </details>
         <details>
-          <summary>Werden auch Gas- oder Öl-Systeme betreut?</summary>
-          <p>Wir prüfen auch bestehende Gas- oder Ölheizung-Systeme im Rahmen von Sanierung oder Umstieg.</p>
+          <summary>Werden auch Gas- oder Ã–l-Systeme betreut?</summary>
+          <p>Wir prÃ¼fen auch bestehende Gas- oder Ã–lheizung-Systeme im Rahmen von Sanierung oder Umstieg.</p>
         </details>
         <details>
-          <summary>Ist eine Kombination mit Wohnraumlüftung sinnvoll?</summary>
+          <summary>Ist eine Kombination mit WohnraumlÃ¼ftung sinnvoll?</summary>
           <p>Ja, die Kombination steigert Komfort, Effizienz und verbessert das Klima im Zuhause deutlich.</p>
         </details>
       </div>
@@ -950,7 +946,7 @@
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Termin vereinbaren und Kontakt aufnehmen',
-    'text' => 'Sie benötigen eine Wärmepumpen Reparatur Burgenland oder möchten sich unverbindlich beraten lassen? Kontaktieren Sie uns für ein persönliches Beratungsgespräch. Unser Ansprechpartner informiert Sie zu Service, Wartung, Installation oder Sanierung Ihrer Heizungsanlage. Wir begleiten Ihr Projekt von der Planung bis zur Umsetzung und stehen bei allen Fragen rund um Heizung, Klima und Haustechnik zur Seite. Nehmen Sie jetzt Kontakt auf und sichern Sie sich professionelle Unterstützung für Ihr Zuhause im Burgenland.',
+    'text' => 'Sie benÃ¶tigen eine WÃ¤rmepumpen Reparatur Burgenland oder mÃ¶chten sich unverbindlich beraten lassen? Kontaktieren Sie uns fÃ¼r ein persÃ¶nliches BeratungsgesprÃ¤ch. Unser Ansprechpartner informiert Sie zu Service, Wartung, Installation oder Sanierung Ihrer Heizungsanlage. Wir begleiten Ihr Projekt von der Planung bis zur Umsetzung und stehen bei allen Fragen rund um Heizung, Klima und Haustechnik zur Seite. Nehmen Sie jetzt Kontakt auf und sichern Sie sich professionelle UnterstÃ¼tzung fÃ¼r Ihr Zuhause im Burgenland.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -959,3 +955,8 @@
 </main>
 
 @endsection
+
+
+
+
+
