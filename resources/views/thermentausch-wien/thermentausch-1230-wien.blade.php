@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -388,7 +388,7 @@ $metaDescription = "Thermentausch 1230 Wien vom Installateur Wien. Gastherme tau
   </a>
 
         <!-- 8 -->
-          <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+          <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
     <img src="img/1loblich.jpeg" alt="Löblich Thermentausch">
     <span>LÖBLICH THERMENTAUSCH</span>
   </a>
@@ -501,3 +501,5 @@ $metaDescription = "Thermentausch 1230 Wien vom Installateur Wien. Gastherme tau
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+

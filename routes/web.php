@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactMailController;
@@ -63,6 +63,7 @@ Route::get('/saunier-duval-kundendienst-wien', fn() => view('kundendienst.saunie
 Route::get('/ocean-kundendienst-wien', fn() => view('kundendienst.ocean-kaundseint'))->name('ocean.kundendienst');
 Route::get('/rapido-kundendienst-wien', fn() => view('kundendienst.rapido-kaundseint'))->name('rapido.kundendienst');
 Route::get('/löblich-kundendienst-wien', fn() => view('kundendienst.löblich-kaundseint'))->name('löblich.kundendienst');
+Route::get('/loeblich-kundendienst-wien', fn() => view('kundendienst.löblich-kaundseint'))->name('loeblich.kundendienst');
 Route::get('/buderus-kundendienst-wien', fn() => view('kundendienst.buderus-kaundseint'))->name('buderus.kundendienst');
 Route::get('/baxi-kundendienst-wien', fn() => view('kundendienst.baxi-kaundseint'))->name('baxi.kundendienst');
 Route::get('/nordgas-kundendienst-wien', fn() => view('kundendienst.nordgas-kaundseint'))->name('nordgas.kundendienst');
@@ -77,6 +78,7 @@ Route::get('/saunier-duval-notdienst-wien', fn() => view('Notdienst Wien.saunier
 Route::get('/ocean-notdienst-wien', fn() => view('Notdienst Wien.ocean-notdienst-wien'))->name('ocean.notdienst');
 Route::get('/rapido-notdienst-wien', fn() => view('Notdienst Wien.rapido-notdienst-wien'))->name('rapido.notdienst');
 Route::get('/löblich-notdienst-wien', fn() => view('Notdienst Wien.löblich-notdienst-wien'))->name('löblich.notdienst');
+Route::get('/loeblich-notdienst-wien', fn() => view('Notdienst Wien.löblich-notdienst-wien'))->name('loeblich.notdienst');
 Route::get('/buderus-notdienst-wien', fn() => view('Notdienst Wien.buderus-notdienst-wien'))->name('buderus.notdienst');
 Route::get('/baxi-notdienst-wien', fn() => view('Notdienst Wien.baxi-notdienst-wien'))->name('baxi.notdienst');
 // Special case: nordgas and windhager use view names without the suffix
@@ -93,6 +95,7 @@ Route::get('/saunier-duval-thermentausch-wien', fn() => view('Thermentausch.saun
 Route::get('/ocean-thermentausch-wien', fn() => view('Thermentausch.ocean'))->name('ocean.thermentausch');
 Route::get('/rapido-thermentausch-wien', fn() => view('Thermentausch.rapido'))->name('rapido.thermentausch');
 Route::get('/löblich-thermentausch-wien', fn() => view('Thermentausch.löblich'))->name('löblich.thermentausch');
+Route::get('/loeblich-thermentausch-wien', fn() => view('Thermentausch.löblich'))->name('loeblich.thermentausch');
 Route::get('/buderus-thermentausch-wien', fn() => view('Thermentausch.buderus'))->name('buderus.thermentausch');
 Route::get('/baxi-thermentausch-wien', fn() => view('Thermentausch.baxi'))->name('baxi.thermentausch');
 Route::get('/nordgas-thermentausch-wien', fn() => view('Thermentausch.nordgas'))->name('nordgas.thermentausch');
@@ -108,6 +111,7 @@ Route::get('/saunier-duval-thermenreparatur-wien', fn() => view('Thermenreparatu
 Route::get('/ocean-thermenreparatur-wien', fn() => view('Thermenreparatur.ocean'))->name('ocean.thermenreparatur');
 Route::get('/rapido-thermenreparatur-wien', fn() => view('Thermenreparatur.rapido'))->name('rapido.thermenreparatur');
 Route::get('/löblich-thermenreparatur-wien', fn() => view('Thermenreparatur.löblich'))->name('löblich.thermenreparatur');
+Route::get('/loeblich-thermenreparatur-wien', fn() => view('Thermenreparatur.löblich'))->name('loeblich.thermenreparatur');
 Route::get('/buderus-thermenreparatur-wien', fn() => view('Thermenreparatur.buderus'))->name('buderus.thermenreparatur');
 Route::get('/baxi-thermenreparatur-wien', fn() => view('Thermenreparatur.baxi'))->name('baxi.thermenreparatur');
 Route::get('/nordgas-thermenreparatur-wien', fn() => view('Thermenreparatur.nordgas'))->name('nordgas.thermenreparatur');
@@ -123,6 +127,7 @@ Route::get('/saunier-duval-installateur-wien', fn() => view('Installateur.saunie
 Route::get('/ocean-installateur-wien', fn() => view('Installateur.ocean'))->name('ocean.installateur');
 Route::get('/rapido-installateur-wien', fn() => view('Installateur.rapido'))->name('rapido.installateur');
 Route::get('/löblich-installateur-wien', fn() => view('Installateur.löblich'))->name('löblich.installateur');
+Route::get('/loeblich-installateur-wien', fn() => view('Installateur.löblich'))->name('loeblich.installateur');
 Route::get('/buderus-installateur-wien', fn() => view('Installateur.buderus'))->name('buderus.installateur');
 Route::get('/baxi-installateur-wien', fn() => view('Installateur.baxi'))->name('baxi.installateur');
 Route::get('/nordgas-installateur-wien', fn() => view('Installateur.nordgas'))->name('nordgas.installateur');
@@ -321,5 +326,8 @@ Route::get('/Thermenreparatur-1200-wien', fn() => view('Thermenreparatur-wien.Th
 Route::get('/Thermenreparatur-1210-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1210-wien'))->name('Thermenreparatur-1210-wien');
 Route::get('/Thermenreparatur-1220-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1220-wien'))->name('Thermenreparatur-1220-wien');
 Route::get('/Thermenreparatur-1230-wien', fn() => view('Thermenreparatur-wien.Thermenreparatur-1230-wien'))->name('Thermenreparatur-1230-wien');
+
+
+
 
 

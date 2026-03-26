@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -986,3 +986,4 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
 </script> -->
 
 @endsection
+

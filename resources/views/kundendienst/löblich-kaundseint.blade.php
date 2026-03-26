@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -949,3 +949,4 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
 </main>
 
 @endsection
+

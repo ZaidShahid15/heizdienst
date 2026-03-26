@@ -276,7 +276,7 @@ $metaDescription = "Thermenreparatur 1030 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>24h Notdienst Installateur Wien</h2>
-        <p>Unser Installateur Notdienst 1030 Wien ist rund um die Uhr für Sie erreichbar und bietet schnelle Hilfe bei dringenden Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Landstraße, rund um die Ritterstrasse und im gesamten Wien 1030 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist immer in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1030 Wien und Umgebung. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+        <p>Unser Installateur Notdienst 1030 Wien ist rund um die Uhr für Sie erreichbar und bietet schnelle Hilfe bei dringenden Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Landstraße, rund um die Ritterstrasse und im gesamten Wien 1030 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist immer in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1030 Wien und Umgebung. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -369,7 +369,7 @@ $metaDescription = "Thermenreparatur 1030 Wien vom Installateur Wien. Schnelle H
           <span>SAUNIER DUVAL SERVICE</span>
         </a>
         <!-- 8 -->
-        <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+        <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
           <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
           <span>LÖBLICH THERMENSERVICE</span>
         </a>
@@ -408,7 +408,7 @@ $metaDescription = "Thermenreparatur 1030 Wien vom Installateur Wien. Schnelle H
         </details>
         <details>
           <summary>Wie schnell ist der Notdienst vor Ort?</summary>
-          <p>Unser Installateur Notdienst 1030 Wien ist meist innerhalb kurzer Zeit bei Ihnen in Wien Landstraße oder im Wien dritter Bezirk vor Ort. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+          <p>Unser Installateur Notdienst 1030 Wien ist meist innerhalb kurzer Zeit bei Ihnen in Wien Landstraße oder im Wien dritter Bezirk vor Ort. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         </details>
         <details>
           <summary>Was tun bei kein Warmwasser?</summary>
@@ -462,6 +462,8 @@ $metaDescription = "Thermenreparatur 1030 Wien vom Installateur Wien. Schnelle H
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
 
 
 

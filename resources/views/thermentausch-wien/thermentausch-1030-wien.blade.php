@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -340,7 +340,7 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
       <div class="brand-grid">
 
         <!-- 1 -->
-        <a class="brand-card" href="{{ route('') }}">
+        <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
           <img src="img/vaillant1-1.jpg" alt="Vaillant Thermentausch">
           <span>VAILLANT THERMENTAUSCH</span>
         </a>
@@ -382,7 +382,7 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
   </a>
 
         <!-- 8 -->
-          <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+          <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
     <img src="img/1loblich.jpeg" alt="Löblich Thermentausch">
     <span>LÖBLICH THERMENTAUSCH</span>
   </a>
@@ -495,3 +495,6 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
+

@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -846,3 +846,4 @@ $metaDescription = " Ocean Thermenwartung in Wien vom erfahrenen Fachbetrieb. 24
   })();
 </script>
 @endsection
+

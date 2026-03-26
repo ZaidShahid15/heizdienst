@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <!-- <style>
@@ -991,3 +991,4 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 </script> -->
 
 @endsection
+

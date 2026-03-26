@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -890,3 +890,4 @@ $metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen
 </main>
 
 @endsection
+

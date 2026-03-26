@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -966,3 +966,4 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
 </main>
 
 @endsection
+

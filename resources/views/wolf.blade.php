@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -860,3 +860,4 @@ $metaDescription = " Wolf Thermenwartung in Wien vom geprüften Fachbetrieb. 24h
   })();
 </script>
 @endsection
+

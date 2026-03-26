@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -883,3 +883,4 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
 </main>
 
 @endsection
+

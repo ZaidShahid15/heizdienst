@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -1019,3 +1019,4 @@
 </script>
 
 @endsection
+

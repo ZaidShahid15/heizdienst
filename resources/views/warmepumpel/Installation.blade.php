@@ -1,8 +1,8 @@
 ﻿@extends('layout.app')
 
 @php
-    $metaTitle = 'WÃ¤rmepumpe Installation Wien | Beratung, FÃ¶rderung & Angebot';
-    $metaDescription = 'WÃ¤rmepumpe Installation in Wien: Beratung, FÃ¶rderung, Kosten & Service. Effizient heizen, kÃ¼hlen und Energiekosten senken. Jetzt Angebot anfordern.';
+    $metaTitle = 'Wärmepumpe Installation Wien | Beratung, Förderung & Angebot';
+    $metaDescription = 'Wärmepumpe Installation in Wien: Beratung, Förderung, Kosten & Service. Effizient heizen, kühlen und Energiekosten senken. Jetzt Angebot anfordern.';
 @endphp
 
 @section('main')
@@ -66,7 +66,7 @@
 
 
   /* =========================
-     âœ… TOC like screenshot
+     ✅ TOC like screenshot
      ========================= */
   .toc-wrap{
     padding:16px 0 0;
@@ -368,7 +368,7 @@
 </style>
 <style>
   /* =====================================
-   MOBILE HERO â€“ EXACT LIKE SCREENSHOT
+   MOBILE HERO – EXACT LIKE SCREENSHOT
    ===================================== */
    .hero-first-block{
   padding: 20px 0;
@@ -545,12 +545,12 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        WÃ¤rmepumpe Installation Wien <br>
-        <span style="color:#FB9A1B;">Beratung, FÃ¶rderung & Angebot vom Fachbetrieb.</span>
+        Wärmepumpe Installation Wien <br>
+        <span style="color:#FB9A1B;">Beratung, Förderung & Angebot vom Fachbetrieb.</span>
       </h1>
 
       <p class="wolf-hero__sub">
-        Eine moderne WÃ¤rmepumpe ermÃ¶glicht effizientes Heizen und KÃ¼hlen fÃ¼r Haushalte in Wien und Umgebung bei dauerhaft niedrigen Energiekosten.
+        Eine moderne Wärmepumpe ermöglicht effizientes Heizen und Kühlen für Haushalte in Wien und Umgebung bei dauerhaft niedrigen Energiekosten.
       </p>
 
       <div class="wolf-hero__actions">
@@ -588,7 +588,7 @@
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            GeprÃ¼fte Experten
+            Geprüfte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -601,13 +601,13 @@
   </section>
 
 
-  <!-- âœ… TOC EXACT LIKE IMAGE -->
+  <!-- ✅ TOC EXACT LIKE IMAGE -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
-    <!-- âœ… collapsed by default -->
+    <!-- ✅ collapsed by default -->
     <div class="toc-card is-collapsed" id="tocCard">
 
-      <!-- âœ… aria-expanded false by default -->
+      <!-- ✅ aria-expanded false by default -->
       <div class="toc-head"
            id="tocHead"
            role="button"
@@ -618,7 +618,7 @@
         <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
         <div class="toc-actions">
-          <!-- âœ… aria-expanded false by default -->
+          <!-- ✅ aria-expanded false by default -->
           <button class="toc-iconbtn"
                   type="button"
                   id="tocToggle"
@@ -651,7 +651,7 @@
           </li>
           <li class="toc-item">
             <a href="#foerderung-services" class="toc-link">
-              <span class="toc-badge">04</span><span class="toc-text">FÃ¶rderung</span>
+              <span class="toc-badge">04</span><span class="toc-text">Förderung</span>
             </a>
           </li>
           <li class="toc-item">
@@ -691,24 +691,24 @@
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Vorteile einer WÃ¤rmepumpe</h2>
+        <h2>Vorteile einer Wärmepumpe</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. Nachhaltige Energie, niedrige Betriebskosten und aktiver Klimaschutz.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
           <h3>Zukunftssichere Technologie</h3>
-          <p>Eine WÃ¤rmepumpe nutzt Umweltenergie aus Luft, Wasser oder Erde und wandelt diese in nutzbare WÃ¤rme um â€“ unabhÃ¤ngig von Gas oder Ã–l.</p>
+          <p>Eine Wärmepumpe nutzt Umweltenergie aus Luft, Wasser oder Erde und wandelt diese in nutzbare Wärme um – unabhängig von Gas oder Öl.</p>
         </article>
 
         <article class="service-card service-card--service">
           <h3>Reduzierte Energiekosten</h3>
-          <p>Durch hohe Energieeffizienz und Nutzung kostenloser Umweltenergie sinken die laufenden Heizkosten deutlich gegenÃ¼ber fossilen Brennstoffen.</p>
+          <p>Durch hohe Energieeffizienz und Nutzung kostenloser Umweltenergie sinken die laufenden Heizkosten deutlich gegenüber fossilen Brennstoffen.</p>
         </article>
 
         <article class="service-card service-card--service">
           <h3>Umwelt & Klimaschutz</h3>
-          <p>WÃ¤rmepumpen arbeiten emissionsfrei vor Ort, schonen die Umwelt und tragen aktiv zur Reduzierung von COâ‚‚ bei.</p>
+          <p>Wärmepumpen arbeiten emissionsfrei vor Ort, schonen die Umwelt und tragen aktiv zur Reduzierung von CO₂ bei.</p>
         </article>
       </div>
     </div>
@@ -720,20 +720,20 @@
       <div class="service-split__text">
         <h2>Installation und Planung Wien</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. 
-          Die Installation einer WÃ¤rmepumpe in Wien beginnt mit einer sorgfÃ¤ltigen Planung, abgestimmt auf GebÃ¤ude, Heizsysteme und individuelle Voraussetzungen. Ein erfahrener Installateur analysiert Heizbedarf, Boden, Wasserzugang und bestehende Systeme, um eine passende LÃ¶sung zu entwickeln. Von der Auswahl des WÃ¤rmepumpen Modells bis zum Einbau erfolgt alles aus einer Hand. Die fachgerechte Montage stellt sicher, dass das GerÃ¤t effizient arbeitet und langfristig zuverlÃ¤ssig bleibt. Nach der Inbetriebnahme wird das System optimal eingestellt, damit Heizen, KÃ¼hlen und Warmwasser reibungslos funktionieren. Durch professionelle Arbeit, klare Details und hohe Fachkompetenz profitieren Haushalte von stabiler QualitÃ¤t, geringem Wartungsaufwand und einer langlebigen HeizlÃ¶sung fÃ¼r WohngebÃ¤ude in Wien und NiederÃ¶sterreich.
+          Die Installation einer Wärmepumpe in Wien beginnt mit einer sorgfältigen Planung, abgestimmt auf Gebäude, Heizsysteme und individuelle Voraussetzungen. Ein erfahrener Installateur analysiert Heizbedarf, Boden, Wasserzugang und bestehende Systeme, um eine passende Lösung zu entwickeln. Von der Auswahl des Wärmepumpen Modells bis zum Einbau erfolgt alles aus einer Hand. Die fachgerechte Montage stellt sicher, dass das Gerät effizient arbeitet und langfristig zuverlässig bleibt. Nach der Inbetriebnahme wird das System optimal eingestellt, damit Heizen, Kühlen und Warmwasser reibungslos funktionieren. Durch professionelle Arbeit, klare Details und hohe Fachkompetenz profitieren Haushalte von stabiler Qualität, geringem Wartungsaufwand und einer langlebigen Heizlösung für Wohngebäude in Wien und Niederösterreich.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Planung vom Fachmann</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Fachgerechte Montage</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Sichere Inbetriebnahme</div>
           </div>
         </div>
@@ -741,7 +741,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="WÃ¤rmepumpen Installation Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="Wärmepumpen Installation Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -751,49 +751,49 @@
   <section class="service-section" id="systeme-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>WÃ¤rmepumpen Systeme Ãœberblick</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. Je nach GebÃ¤ude und Umgebung kommen unterschiedliche WÃ¤rmepumpen Systeme zum Einsatz.</p>
+        <h2>Wärmepumpen Systeme Überblick</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. Je nach Gebäude und Umgebung kommen unterschiedliche Wärmepumpen Systeme zum Einsatz.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Luft Wasser WÃ¤rmepumpe</h3>
-          <p>Luft Wasser WÃ¤rmepumpen sind flexibel einsetzbar, benÃ¶tigen wenig Platz und eignen sich ideal fÃ¼r Einfamilienhaus-Projekte in Wien.</p>
+          <h3>Luft Wasser Wärmepumpe</h3>
+          <p>Luft Wasser Wärmepumpen sind flexibel einsetzbar, benötigen wenig Platz und eignen sich ideal für Einfamilienhaus-Projekte in Wien.</p>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>Sole Wasser WÃ¤rmepumpe</h3>
-          <p>Diese LÃ¶sung nutzt konstante ErdwÃ¤rme aus dem Boden und bietet besonders hohe Energieeffizienz bei langfristigem Betrieb.</p>
+          <h3>Sole Wasser Wärmepumpe</h3>
+          <p>Diese Lösung nutzt konstante Erdwärme aus dem Boden und bietet besonders hohe Energieeffizienz bei langfristigem Betrieb.</p>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>Wasser Wasser WÃ¤rmepumpe</h3>
-          <p>Die Wasser Wasser WÃ¤rmepumpe verwendet Grundwasser als Energiequelle und liefert sehr stabile WÃ¤rmeleistung fÃ¼r WohngebÃ¤ude.</p>
+          <h3>Wasser Wasser Wärmepumpe</h3>
+          <p>Die Wasser Wasser Wärmepumpe verwendet Grundwasser als Energiequelle und liefert sehr stabile Wärmeleistung für Wohngebäude.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- FÃ¶rderung -->
+  <!-- Förderung -->
   <section class="service-section service-section--soft" id="foerderung-services">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>FÃ¶rderung fÃ¼r WÃ¤rmepumpen Wien</h2>
+        <h2>Förderung für Wärmepumpen Wien</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. 
-          FÃ¼r Haushalte in Wien stehen attraktive FÃ¶rderungen fÃ¼r die Installation einer WÃ¤rmepumpe zur VerfÃ¼gung. Die WÃ¤rmepumpen FÃ¶rderung setzt sich aus LandesfÃ¶rderung und BundesfÃ¶rderung zusammen und reduziert die Investitionskosten deutlich. Je nach Heizsystem, WohngebÃ¤ude und Energieeffizienz kÃ¶nnen mehrere BeitrÃ¤ge kombiniert werden. Auch der Umstieg von Gas oder Ã–l auf erneuerbare Heiztechnologie wird gezielt unterstÃ¼tzt. Wichtig sind bestimmte Voraussetzungen wie GebÃ¤udestand, Heizenergiebedarf und fachgerechte Installation. Die Antragstellung erfolgt vor oder wÃ¤hrend der Umsetzung und erfordert genaue Angaben zu GerÃ¤t, Einbau und geplanten Leistungen. Mit professioneller Beratung lassen sich FÃ¶rderungen optimal nutzen und finanzielle Vorteile langfristig sichern.
+          Für Haushalte in Wien stehen attraktive Förderungen für die Installation einer Wärmepumpe zur Verfügung. Die Wärmepumpen Förderung setzt sich aus Landesförderung und Bundesförderung zusammen und reduziert die Investitionskosten deutlich. Je nach Heizsystem, Wohngebäude und Energieeffizienz können mehrere Beiträge kombiniert werden. Auch der Umstieg von Gas oder Öl auf erneuerbare Heiztechnologie wird gezielt unterstützt. Wichtig sind bestimmte Voraussetzungen wie Gebäudestand, Heizenergiebedarf und fachgerechte Installation. Die Antragstellung erfolgt vor oder während der Umsetzung und erfordert genaue Angaben zu Gerät, Einbau und geplanten Leistungen. Mit professioneller Beratung lassen sich Förderungen optimal nutzen und finanzielle Vorteile langfristig sichern.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">LandesfÃ¶rderung</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Landesförderung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">BundesfÃ¶rderung</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Bundesförderung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Kombinierbar</div>
           </div>
         </div>
@@ -801,7 +801,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size10.jpeg') }}" alt="FÃ¶rderung fÃ¼r WÃ¤rmepumpen in Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size10.jpeg') }}" alt="Förderung für Wärmepumpen in Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -813,22 +813,22 @@
       <div class="service-section__head">
         <h2>Kosten und individuelles Angebot</h2>
         <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. 
-          Die Kosten fÃ¼r eine WÃ¤rmepumpe in Wien hÃ¤ngen von System, GebÃ¤udegrÃ¶ÃŸe und vorhandenen Heizsystemen ab. Faktoren wie Luft, Wasser oder Boden als Energiequelle beeinflussen den Gesamtpreis ebenso wie Montage, Inbetriebnahme und notwendige Anpassungen. Trotz hÃ¶herer Anfangsinvestition sinken die laufenden Energiekosten deutlich, da Umweltenergie effizient genutzt wird. Im Vergleich zu Gas oder Ã–l profitieren Haushalte von stabilen Preisen und geringerer AbhÃ¤ngigkeit vom Land und globalen MÃ¤rkten. Ein transparentes Angebot berÃ¼cksichtigt alle Details, von der Planung bis zur Wartung, und schafft Planungssicherheit. Langfristig amortisiert sich die LÃ¶sung durch niedrige Betriebskosten und FÃ¶rderungen.
+          Die Kosten für eine Wärmepumpe in Wien hängen von System, Gebäudegröße und vorhandenen Heizsystemen ab. Faktoren wie Luft, Wasser oder Boden als Energiequelle beeinflussen den Gesamtpreis ebenso wie Montage, Inbetriebnahme und notwendige Anpassungen. Trotz höherer Anfangsinvestition sinken die laufenden Energiekosten deutlich, da Umweltenergie effizient genutzt wird. Im Vergleich zu Gas oder Öl profitieren Haushalte von stabilen Preisen und geringerer Abhängigkeit vom Land und globalen Märkten. Ein transparentes Angebot berücksichtigt alle Details, von der Planung bis zur Wartung, und schafft Planungssicherheit. Langfristig amortisiert sich die Lösung durch niedrige Betriebskosten und Förderungen.
         </p>
       </div>
 
       <div class="service-grid service-grid--3">
         <div class="service-pricecard">
           <h3>Transparente Kosten</h3>
-          <p>Klare Aufstellung aller Positionen â€“ von der Planung Ã¼ber die Montage bis zur Inbetriebnahme. Keine versteckten GebÃ¼hren.</p>
+          <p>Klare Aufstellung aller Positionen – von der Planung über die Montage bis zur Inbetriebnahme. Keine versteckten Gebühren.</p>
         </div>
         <div class="service-pricecard">
           <h3>Individuelles Angebot</h3>
-          <p>MaÃŸgeschneiderte LÃ¶sung fÃ¼r Ihr GebÃ¤ude, exakt berechnet nach Heizlast, Systemwahl und FÃ¶rdermÃ¶glichkeiten.</p>
+          <p>Maßgeschneiderte Lösung für Ihr Gebäude, exakt berechnet nach Heizlast, Systemwahl und Fördermöglichkeiten.</p>
         </div>
         <div class="service-pricecard">
-          <h3>FÃ¶rderung nutzen</h3>
-          <p>Wir beraten Sie zu allen verfÃ¼gbaren Landes- und BundesfÃ¶rderungen und unterstÃ¼tzen bei der Antragstellung.</p>
+          <h3>Förderung nutzen</h3>
+          <p>Wir beraten Sie zu allen verfügbaren Landes- und Bundesförderungen und unterstützen bei der Antragstellung.</p>
         </div>
       </div>
     </div>
@@ -840,7 +840,7 @@
       <div class="service-emergency__text">
         <h2>Service und Wartung Wien</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. 
-          Ein zuverlÃ¤ssiger Service ist entscheidend fÃ¼r den langfristigen Betrieb einer WÃ¤rmepumpe. RegelmÃ¤ÃŸige Wartung sichert Effizienz, verlÃ¤ngert die Lebensdauer des GerÃ¤ts und schÃ¼tzt vor unerwarteten Reparaturen. Ein Rundum Service umfasst Kontrolle, Reinigung, FunktionsprÃ¼fung und schnelle UnterstÃ¼tzung im Bedarfsfall. Auch nach der Installation stehen erfahrene Partner zur Seite, um QualitÃ¤t und Leistung dauerhaft zu gewÃ¤hrleisten. Durch fachgerechte Arbeit und kontinuierliche Betreuung bleibt das Heizsystem optimal eingestellt und sorgt fÃ¼r konstante WÃ¤rme, Warmwasser und KÃ¼hlung in allen Jahreszeiten.
+          Ein zuverlässiger Service ist entscheidend für den langfristigen Betrieb einer Wärmepumpe. Regelmäßige Wartung sichert Effizienz, verlängert die Lebensdauer des Geräts und schützt vor unerwarteten Reparaturen. Ein Rundum Service umfasst Kontrolle, Reinigung, Funktionsprüfung und schnelle Unterstützung im Bedarfsfall. Auch nach der Installation stehen erfahrene Partner zur Seite, um Qualität und Leistung dauerhaft zu gewährleisten. Durch fachgerechte Arbeit und kontinuierliche Betreuung bleibt das Heizsystem optimal eingestellt und sorgt für konstante Wärme, Warmwasser und Kühlung in allen Jahreszeiten.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Service anfragen</a>
@@ -852,13 +852,13 @@
         <div class="service-panel">
           <h3>Unsere Serviceleistungen</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>RegelmÃ¤ÃŸige Wartung</li>
+            <li>Regelmäßige Wartung</li>
             <li>Schnelle Reparatur</li>
             <li>24h Notdienst</li>
             <li>Original Ersatzteile</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Durch regelmÃ¤ÃŸige Wartung bleiben Effizienz und Lebensdauer Ihrer Anlage erhalten.
+            Durch regelmäßige Wartung bleiben Effizienz und Lebensdauer Ihrer Anlage erhalten.
           </p>
         </div>
       </div>
@@ -869,24 +869,24 @@
   <section class="service-section" id="umgebung-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>WÃ¤rmepumpe in Wien Umgebung</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. Nicht nur in der Stadt Wien, sondern auch in der Umgebung und in NiederÃ¶sterreich ist die Installation von WÃ¤rmepumpen stark gefragt.</p>
+        <h2>Wärmepumpe in Wien Umgebung</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. Nicht nur in der Stadt Wien, sondern auch in der Umgebung und in Niederösterreich ist die Installation von Wärmepumpen stark gefragt.</p>
       </div>
 
       <div class="service-chips">
         <span class="service-chip">Wien</span>
-        <span class="service-chip">NiederÃ¶sterreich</span>
-        <span class="service-chip">St. PÃ¶lten</span>
+        <span class="service-chip">Niederösterreich</span>
+        <span class="service-chip">St. Pölten</span>
         <span class="service-chip">Baden</span>
-        <span class="service-chip">MÃ¶dling</span>
+        <span class="service-chip">Mödling</span>
         <span class="service-chip">Klosterneuburg</span>
         <span class="service-chip">Umgebung Wien</span>
-        <span class="service-chip">NÃ–</span>
+        <span class="service-chip">NÖ</span>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Unterschiedliche Postleitzahl-Bereiche, GrundstÃ¼cksarten und Wohnformen erfordern individuelle LÃ¶sungen. Ob stÃ¤dtisches Wohnhaus oder Einfamilienhaus im Umland â€“ moderne Heizsysteme lassen sich flexibel anpassen. Auch Themen wie Anschrift, Anfahrt und regionale FÃ¶rderprogramme spielen eine Rolle. Durch regionale Erfahrung und Ortskenntnis wird sichergestellt, dass Planung, Einbau und Service optimal auf die jeweilige Umgebung abgestimmt sind.
+          Unterschiedliche Postleitzahl-Bereiche, Grundstücksarten und Wohnformen erfordern individuelle Lösungen. Ob städtisches Wohnhaus oder Einfamilienhaus im Umland – moderne Heizsysteme lassen sich flexibel anpassen. Auch Themen wie Anschrift, Anfahrt und regionale Förderprogramme spielen eine Rolle. Durch regionale Erfahrung und Ortskenntnis wird sichergestellt, dass Planung, Einbau und Service optimal auf die jeweilige Umgebung abgestimmt sind.
         </p>
       </div>
     </div>
@@ -896,44 +896,44 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>HÃ¤ufige Fragen zur WÃ¤rmepumpe</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um die WÃ¤rmepumpe.</p>
+        <h2>Häufige Fragen zur Wärmepumpe</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um die Wärmepumpe.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Welche WÃ¤rmepumpe eignet sich fÃ¼r Wien?</summary>
-          <p>Die passende WÃ¤rmepumpe hÃ¤ngt von GebÃ¤ude, Heizsystem, PlatzverhÃ¤ltnissen und Energiequelle wie Luft, Wasser oder Boden ab.</p>
+          <summary>Welche Wärmepumpe eignet sich für Wien?</summary>
+          <p>Die passende Wärmepumpe hängt von Gebäude, Heizsystem, Platzverhältnissen und Energiequelle wie Luft, Wasser oder Boden ab.</p>
         </details>
 
         <details>
-          <summary>Wie hoch sind die Kosten einer WÃ¤rmepumpe?</summary>
-          <p>Die Kosten variieren je nach System, Einbau und Leistung, werden jedoch durch FÃ¶rderungen und niedrige Energiekosten ausgeglichen.</p>
+          <summary>Wie hoch sind die Kosten einer Wärmepumpe?</summary>
+          <p>Die Kosten variieren je nach System, Einbau und Leistung, werden jedoch durch Förderungen und niedrige Energiekosten ausgeglichen.</p>
         </details>
 
         <details>
-          <summary>Gibt es FÃ¶rderungen in Wien?</summary>
-          <p>Ja, in Wien stehen LandesfÃ¶rderung und BundesfÃ¶rderung fÃ¼r WÃ¤rmepumpen zur VerfÃ¼gung, abhÃ¤ngig von Voraussetzungen und Antragstellung.</p>
+          <summary>Gibt es Förderungen in Wien?</summary>
+          <p>Ja, in Wien stehen Landesförderung und Bundesförderung für Wärmepumpen zur Verfügung, abhängig von Voraussetzungen und Antragstellung.</p>
         </details>
 
         <details>
-          <summary>Kann eine WÃ¤rmepumpe auch kÃ¼hlen?</summary>
-          <p>Moderne WÃ¤rmepumpen ermÃ¶glichen neben dem Heizen auch effiziente KÃ¼hlung fÃ¼r ein angenehmes Raumklima im Sommer.</p>
+          <summary>Kann eine Wärmepumpe auch kühlen?</summary>
+          <p>Moderne Wärmepumpen ermöglichen neben dem Heizen auch effiziente Kühlung für ein angenehmes Raumklima im Sommer.</p>
         </details>
 
         <details>
           <summary>Wie lange dauert die Installation?</summary>
-          <p>Die Installation dauert in der Regel wenige Tage, abhÃ¤ngig von Planung, Systemwahl und baulichen Gegebenheiten.</p>
+          <p>Die Installation dauert in der Regel wenige Tage, abhängig von Planung, Systemwahl und baulichen Gegebenheiten.</p>
         </details>
 
         <details>
           <summary>Ist der Betrieb auch im Winter effizient?</summary>
-          <p>Ja, hochwertige WÃ¤rmepumpen arbeiten selbst im Winter zuverlÃ¤ssig und liefern ausreichend WÃ¤rme fÃ¼r Haushalte.</p>
+          <p>Ja, hochwertige Wärmepumpen arbeiten selbst im Winter zuverlässig und liefern ausreichend Wärme für Haushalte.</p>
         </details>
 
         <details>
-          <summary>BenÃ¶tigt eine WÃ¤rmepumpe regelmÃ¤ÃŸige Wartung?</summary>
-          <p>RegelmÃ¤ÃŸige Wartung ist empfehlenswert, um Effizienz, Sicherheit und Lebensdauer des Heizsystems zu erhalten.</p>
+          <summary>Benötigt eine Wärmepumpe regelmäßige Wartung?</summary>
+          <p>Regelmäßige Wartung ist empfehlenswert, um Effizienz, Sicherheit und Lebensdauer des Heizsystems zu erhalten.</p>
         </details>
       </div>
     </div>
@@ -943,7 +943,7 @@
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Beratung und Angebot Wien',
-    'text' => 'Eine professionelle Beratung ist der erste Schritt zur passenden WÃ¤rmepumpe in Wien. Gemeinsam werden Heizbedarf, Kosten, FÃ¶rderungen und technische Voraussetzungen analysiert. Auf dieser Basis entsteht eine maÃŸgeschneiderte LÃ¶sung inklusive transparentem Angebot. Von der ersten Anfrage per E-Mail bis zur finalen Umsetzung begleitet ein erfahrener Fachmann den gesamten Prozess. Klare Kommunikation, zuverlÃ¤ssige UnterstÃ¼tzung und fachliche Kompetenz sorgen dafÃ¼r, dass Haushalte eine effiziente und nachhaltige HeizlÃ¶sung erhalten, die langfristig Ã¼berzeugt.',
+    'text' => 'Eine professionelle Beratung ist der erste Schritt zur passenden Wärmepumpe in Wien. Gemeinsam werden Heizbedarf, Kosten, Förderungen und technische Voraussetzungen analysiert. Auf dieser Basis entsteht eine maßgeschneiderte Lösung inklusive transparentem Angebot. Von der ersten Anfrage per E-Mail bis zur finalen Umsetzung begleitet ein erfahrener Fachmann den gesamten Prozess. Klare Kommunikation, zuverlässige Unterstützung und fachliche Kompetenz sorgen dafür, dass Haushalte eine effiziente und nachhaltige Heizlösung erhalten, die langfristig überzeugt.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -952,6 +952,8 @@
 </main>
 
 @endsection
+
+
 
 
 

@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -1073,3 +1073,4 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
 </main>
 
 @endsection
+

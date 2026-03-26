@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <!-- <style>
@@ -916,3 +916,4 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
 </main>
 
 @endsection
+

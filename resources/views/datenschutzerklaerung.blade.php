@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -216,3 +216,4 @@ $metaDescription = "Datenschutzerklärung von Heizdienst Wien. Informationen zur
 
 </div>
 @endsection
+

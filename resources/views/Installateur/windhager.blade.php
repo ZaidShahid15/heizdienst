@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <!-- <style>
@@ -943,3 +943,4 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
 </main>
 
 @endsection
+

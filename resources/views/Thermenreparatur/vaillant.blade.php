@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -905,3 +905,4 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
 
 
 @endsection
+

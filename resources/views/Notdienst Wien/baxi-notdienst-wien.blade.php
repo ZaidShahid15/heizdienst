@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -1298,3 +1298,4 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Thermenwartung, Service & 
   })();
 </script> -->
 @endsection
+

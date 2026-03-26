@@ -275,7 +275,7 @@ $metaDescription = "Thermenreparatur 1090 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>24h Notdienst Installateur Wien</h2>
-        <p>Unser Installateur Notdienst 1090 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Alsergrund, im gesamten Wien 1090 und im 9 Bezirk Wien im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser vorhanden ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1090 Wien und Umgebung. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+        <p>Unser Installateur Notdienst 1090 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Alsergrund, im gesamten Wien 1090 und im 9 Bezirk Wien im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser vorhanden ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1090 Wien und Umgebung. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -368,7 +368,7 @@ $metaDescription = "Thermenreparatur 1090 Wien vom Installateur Wien. Schnelle H
           <span>SAUNIER DUVAL SERVICE</span>
         </a>
         <!-- 8 -->
-        <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+        <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
           <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
           <span>LÖBLICH THERMENSERVICE</span>
         </a>
@@ -407,7 +407,7 @@ $metaDescription = "Thermenreparatur 1090 Wien vom Installateur Wien. Schnelle H
         </details>
         <details>
           <summary>Wie schnell ist der Notdienst vor Ort?</summary>
-          <p>Unser Installateur Notdienst 1090 Wien ist meist sehr schnell vor Ort im Wien Alsergrund oder im gesamten 9 Bezirk Wien. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+          <p>Unser Installateur Notdienst 1090 Wien ist meist sehr schnell vor Ort im Wien Alsergrund oder im gesamten 9 Bezirk Wien. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         </details>
         <details>
           <summary>Was tun bei kein Warmwasser?</summary>
@@ -467,6 +467,8 @@ $metaDescription = "Thermenreparatur 1090 Wien vom Installateur Wien. Schnelle H
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
+
 
 
 

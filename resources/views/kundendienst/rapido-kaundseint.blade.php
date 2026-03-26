@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -944,3 +944,4 @@ $metaDescription = "Rapido Kundendienst Wien für Thermen & Gasgeräte. Thermenw
 </main>
 
 @endsection
+

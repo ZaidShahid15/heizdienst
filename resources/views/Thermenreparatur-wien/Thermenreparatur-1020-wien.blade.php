@@ -198,7 +198,7 @@ $metaDescription = "Thermenreparatur 1020 Wien vom Installateur Wien. Schnelle H
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">📍</div><div>
           <h3>24h Notdienst Installateur Wien</h3>
-          <p>Unser Installateur Notdienst 1020 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Leopoldstadt, im Prater und im gesamten Wien 1020 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist immer in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1020 Wien und Umgebung. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+          <p>Unser Installateur Notdienst 1020 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Leopoldstadt, im Prater und im gesamten Wien 1020 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist immer in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1020 Wien und Umgebung. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         </div></article>
       </div>
     </div>
@@ -278,7 +278,7 @@ $metaDescription = "Thermenreparatur 1020 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>24h Notdienst Installateur Wien</h2>
-        <p>Unser Installateur Notdienst 1020 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Leopoldstadt, im Prater und im gesamten Wien 1020 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist immer in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1020 Wien und Umgebung. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+        <p>Unser Installateur Notdienst 1020 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Leopoldstadt, im Prater und im gesamten Wien 1020 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist immer in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1020 Wien und Umgebung. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -364,7 +364,7 @@ $metaDescription = "Thermenreparatur 1020 Wien vom Installateur Wien. Schnelle H
           <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
           <span>SAUNIER DUVAL SERVICE</span>
         </a>
-        <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+        <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
           <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
           <span>LÖBLICH THERMENSERVICE</span>
         </a>
@@ -399,7 +399,7 @@ $metaDescription = "Thermenreparatur 1020 Wien vom Installateur Wien. Schnelle H
         </details>
         <details>
           <summary>Wie schnell ist der Notdienst vor Ort?</summary>
-          <p>Unser Installateur Notdienst 1020 Wien ist meist innerhalb kurzer Zeit bei Ihnen in Leopoldstadt oder im Wien zweiter Bezirk vor Ort. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+          <p>Unser Installateur Notdienst 1020 Wien ist meist innerhalb kurzer Zeit bei Ihnen in Leopoldstadt oder im Wien zweiter Bezirk vor Ort. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         </details>
         <details>
           <summary>Was tun bei kein Warmwasser?</summary>
@@ -462,6 +462,8 @@ $metaDescription = "Thermenreparatur 1020 Wien vom Installateur Wien. Schnelle H
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
+
 
 
 

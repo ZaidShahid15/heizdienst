@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -960,3 +960,4 @@ $metaDescription = "Zuverlässiger Junkers Kundendienst Wien für Thermen & Gasg
   })();
 </script> -->
 @endsection
+

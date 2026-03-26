@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
     <style>
@@ -1389,3 +1389,4 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
         })();
     </script>
 @endsection
+

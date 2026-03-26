@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 @section("main")
   <title>Windhager Thermenwartung Wien – Service & Notdienst</title>
   <meta name="description" content="Professionelle Windhager Thermenwartung Wien durch erfahrene Experten für Sicherheit, Effizienz und zuverlässigen Betrieb. Notdienst in Wien NÖ & Burgenland.">
@@ -905,3 +905,4 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
   });
 </script>
 @endsection
+

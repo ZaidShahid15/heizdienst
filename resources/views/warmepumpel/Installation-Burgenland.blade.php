@@ -1,8 +1,8 @@
 ﻿@extends('layout.app')
 
 @php
-    $metaTitle = 'WÃ¤rmepumpe Installation Burgenland | FÃ¶rderung & Komplettpaket';
-    $metaDescription = 'WÃ¤rmepumpe Installation Burgenland: Heizungstausch von Ã–l und Gas, FÃ¶rderung, Beratung und Service. Jetzt Termin sichern und Heizkosten senken.';
+    $metaTitle = 'Wärmepumpe Installation Burgenland | Förderung & Komplettpaket';
+    $metaDescription = 'Wärmepumpe Installation Burgenland: Heizungstausch von Öl und Gas, Förderung, Beratung und Service. Jetzt Termin sichern und Heizkosten senken.';
 @endphp
 
 @section('main')
@@ -66,7 +66,7 @@
 
 
   /* =========================
-     âœ… TOC like screenshot
+     ✅ TOC like screenshot
      ========================= */
   .toc-wrap{
     padding:16px 0 0;
@@ -368,7 +368,7 @@
 </style>
 <style>
   /* =====================================
-   MOBILE HERO â€“ EXACT LIKE SCREENSHOT
+   MOBILE HERO – EXACT LIKE SCREENSHOT
    ===================================== */
    .hero-first-block{
   padding: 20px 0;
@@ -545,12 +545,12 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        WÃ¤rmepumpe Installation Burgenland <br>
-        <span style="color:#FB9A1B;">FÃ¶rderung & Komplettpaket vom Fachbetrieb.</span>
+        Wärmepumpe Installation Burgenland <br>
+        <span style="color:#FB9A1B;">Förderung & Komplettpaket vom Fachbetrieb.</span>
       </h1>
 
       <p class="wolf-hero__sub">
-        Moderne WÃ¤rmepumpe LÃ¶sungen fÃ¼r effizientes Heizen im Burgenland mit Beratung, FÃ¶rderung und Komplettpaket vom Installateur.
+        Moderne Wärmepumpe Lösungen für effizientes Heizen im Burgenland mit Beratung, Förderung und Komplettpaket vom Installateur.
       </p>
 
       <div class="wolf-hero__actions">
@@ -588,7 +588,7 @@
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            GeprÃ¼fte Experten
+            Geprüfte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -601,13 +601,13 @@
   </section>
 
 
-  <!-- âœ… TOC EXACT LIKE IMAGE -->
+  <!-- ✅ TOC EXACT LIKE IMAGE -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
-    <!-- âœ… collapsed by default -->
+    <!-- ✅ collapsed by default -->
     <div class="toc-card is-collapsed" id="tocCard">
 
-      <!-- âœ… aria-expanded false by default -->
+      <!-- ✅ aria-expanded false by default -->
       <div class="toc-head"
            id="tocHead"
            role="button"
@@ -618,7 +618,7 @@
         <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
         <div class="toc-actions">
-          <!-- âœ… aria-expanded false by default -->
+          <!-- ✅ aria-expanded false by default -->
           <button class="toc-iconbtn"
                   type="button"
                   id="tocToggle"
@@ -651,7 +651,7 @@
           </li>
           <li class="toc-item">
             <a href="#foerderung" class="toc-link">
-              <span class="toc-badge">04</span><span class="toc-text">FÃ¶rderung</span>
+              <span class="toc-badge">04</span><span class="toc-text">Förderung</span>
             </a>
           </li>
           <li class="toc-item">
@@ -692,21 +692,21 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Effiziente Heizung im Burgenland</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. Eine WÃ¤rmepumpe ist im Burgenland eine nachhaltige Alternative zu Ã–l und Gas. Immer mehr Haushalte setzen beim Umstieg auf moderne Heiztechnik, um Heizkosten dauerhaft zu senken und unabhÃ¤ngiger von fossilen EnergietrÃ¤ger zu werden.</p>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. Eine Wärmepumpe ist im Burgenland eine nachhaltige Alternative zu Öl und Gas. Immer mehr Haushalte setzen beim Umstieg auf moderne Heiztechnik, um Heizkosten dauerhaft zu senken und unabhängiger von fossilen Energieträger zu werden.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Zukunftssichere LÃ¶sung</h3>
-          <p>Gerade bei einem Heizungstausch oder einer Neuinstallation im Haus bietet dieses Heizsystem eine zukunftssichere LÃ¶sung. Die Kombination aus Heizen und optionalem KÃ¼hlen verbessert das Klima im Zuhause und steigert das Wohlbefinden.</p>
+          <h3>Zukunftssichere Lösung</h3>
+          <p>Gerade bei einem Heizungstausch oder einer Neuinstallation im Haus bietet dieses Heizsystem eine zukunftssichere Lösung. Die Kombination aus Heizen und optionalem Kühlen verbessert das Klima im Zuhause und steigert das Wohlbefinden.</p>
         </article>
         <article class="service-card service-card--service">
           <h3>Innovative Technologien</h3>
-          <p>Durch innovative Technologien wird Energie effizient genutzt und in angenehme WÃ¤rme umgewandelt. Ob im Nordburgenland, in Eisenstadt oder Mattersburg â€“ im gesamten Burgenland gewinnt diese Form der Heizung zunehmend an Bedeutung.</p>
+          <p>Durch innovative Technologien wird Energie effizient genutzt und in angenehme Wärme umgewandelt. Ob im Nordburgenland, in Eisenstadt oder Mattersburg – im gesamten Burgenland gewinnt diese Form der Heizung zunehmend an Bedeutung.</p>
         </article>
         <article class="service-card service-card--service">
-          <h3>Nachhaltigkeit & UnabhÃ¤ngigkeit</h3>
-          <p>Die WÃ¤rmepumpe reduziert die AbhÃ¤ngigkeit von fossilen Brennstoffen und leistet einen aktiven Beitrag zum Umweltschutz â€“ bei gleichzeitig stabilen Heizkosten.</p>
+          <h3>Nachhaltigkeit & Unabhängigkeit</h3>
+          <p>Die Wärmepumpe reduziert die Abhängigkeit von fossilen Brennstoffen und leistet einen aktiven Beitrag zum Umweltschutz – bei gleichzeitig stabilen Heizkosten.</p>
         </article>
       </div>
     </div>
@@ -718,20 +718,20 @@
       <div class="service-split__text">
         <h2>Planung und Installation vom Installateur</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. 
-          Eine professionelle Planung bildet die Basis jeder WÃ¤rmepumpe Installation Burgenland. Ein erfahrener Installateur prÃ¼ft Haus, Ort, Haustechnik und individuelle Voraussetzungen, um das passende Heizsystem zu bestimmen. Von der Auswahl der Anlage bis zur fachgerechten Montage erfolgen alle Arbeiten aus einer Hand. Nach der Installation wird die Inbetriebnahme durchgefÃ¼hrt und alle Einstellungen exakt angepasst. So ist ein effizienter Betrieb gewÃ¤hrleistet. Ob Neuinstallation im Neubau oder Umstieg von einer bestehenden Gasheizung â€“ eine sorgfÃ¤ltige Planung sichert QualitÃ¤t und lange Lebensdauer. Auch Details wie Anschluss an bestehende Heizungsanlagen oder Kombination mit Photovoltaikanlagen werden berÃ¼cksichtigt.
+          Eine professionelle Planung bildet die Basis jeder Wärmepumpe Installation Burgenland. Ein erfahrener Installateur prüft Haus, Ort, Haustechnik und individuelle Voraussetzungen, um das passende Heizsystem zu bestimmen. Von der Auswahl der Anlage bis zur fachgerechten Montage erfolgen alle Arbeiten aus einer Hand. Nach der Installation wird die Inbetriebnahme durchgeführt und alle Einstellungen exakt angepasst. So ist ein effizienter Betrieb gewährleistet. Ob Neuinstallation im Neubau oder Umstieg von einer bestehenden Gasheizung – eine sorgfältige Planung sichert Qualität und lange Lebensdauer. Auch Details wie Anschluss an bestehende Heizungsanlagen oder Kombination mit Photovoltaikanlagen werden berücksichtigt.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Individuelle Planung und Beratung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Fachgerechte Montage und Installation</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Sichere Inbetriebnahme der Anlage</div>
           </div>
         </div>
@@ -739,65 +739,65 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="WÃ¤rmepumpen Planung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Wärmepumpen Planung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WÃ¤rmepumpen Systeme im Ãœberblick -->
+  <!-- Wärmepumpen Systeme im Überblick -->
   <section class="service-section" id="systeme-ueberblick">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>WÃ¤rmepumpen Systeme im Ãœberblick</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. Je nach Standort und Voraussetzungen stehen im Burgenland unterschiedliche WÃ¤rmepumpe Systeme zur VerfÃ¼gung.</p>
+        <h2>Wärmepumpen Systeme im Überblick</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. Je nach Standort und Voraussetzungen stehen im Burgenland unterschiedliche Wärmepumpe Systeme zur Verfügung.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Luft Wasser WÃ¤rmepumpe</h3>
-          <p>Die Luft Wasser WÃ¤rmepumpe Ã¼berzeugt durch einfache Installation, flexible EinsatzmÃ¶glichkeiten und niedrige Heizkosten im Vergleich zu Ã–l und Gasheizung. Ideal fÃ¼r viele Haushalte.</p>
+          <h3>Luft Wasser Wärmepumpe</h3>
+          <p>Die Luft Wasser Wärmepumpe überzeugt durch einfache Installation, flexible Einsatzmöglichkeiten und niedrige Heizkosten im Vergleich zu Öl und Gasheizung. Ideal für viele Haushalte.</p>
         </article>
         <article class="service-card service-card--service">
-          <h3>ErdwÃ¤rmepumpe</h3>
-          <p>Eine ErdwÃ¤rmepumpe nutzt konstante Temperaturen im Erdreich und bietet hohe Effizienz sowie stabile WÃ¤rmeleistung Ã¼ber viele Jahre.</p>
+          <h3>Erdwärmepumpe</h3>
+          <p>Eine Erdwärmepumpe nutzt konstante Temperaturen im Erdreich und bietet hohe Effizienz sowie stabile Wärmeleistung über viele Jahre.</p>
         </article>
         <article class="service-card service-card--service">
-          <h3>Grundwasser-WÃ¤rmepumpe</h3>
-          <p>WÃ¤rmepumpen mit Wasser als Energiequelle arbeiten besonders konstant und ermÃ¶glichen effizientes Heizen bei geeigneten Voraussetzungen.</p>
+          <h3>Grundwasser-Wärmepumpe</h3>
+          <p>Wärmepumpen mit Wasser als Energiequelle arbeiten besonders konstant und ermöglichen effizientes Heizen bei geeigneten Voraussetzungen.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- FÃ¶rderung und HeizungsfÃ¶rderung Burgenland -->
+  <!-- Förderung und Heizungsförderung Burgenland -->
   <section class="service-section service-section--soft" id="foerderung">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>FÃ¶rderung und HeizungsfÃ¶rderung Burgenland</h2>
+        <h2>Förderung und Heizungsförderung Burgenland</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. 
-          Im Burgenland stehen umfangreiche FÃ¶rderungen fÃ¼r den Umstieg auf eine moderne WÃ¤rmepumpe zur VerfÃ¼gung. Die LandesfÃ¶rderung sowie die BundesfÃ¶rderung unterstÃ¼tzen Haushalte beim Heizungstausch von Ã–l und Gas auf nachhaltige Heiztechnik. Besonders beim Ersatz einer alten Gasheizung oder von Ã–l und Gas Heizungsanlagen ist eine attraktive HeizungsfÃ¶rderung mÃ¶glich. Die HÃ¶he der FÃ¶rderung hÃ¤ngt von Anlage, Voraussetzungen und Art der Installation ab. Eine professionelle FÃ¶rderabwicklung Ã¼bernimmt alle notwendigen Schritte â€“ von der Antragstellung bis zur Einreichung aller Details. So erhalten Haushalte im Burgenland einen wichtigen Beitrag zu ihrem Vorhaben und reduzieren die Kosten fÃ¼r Neuinstallation oder Umstieg deutlich.
+          Im Burgenland stehen umfangreiche Förderungen für den Umstieg auf eine moderne Wärmepumpe zur Verfügung. Die Landesförderung sowie die Bundesförderung unterstützen Haushalte beim Heizungstausch von Öl und Gas auf nachhaltige Heiztechnik. Besonders beim Ersatz einer alten Gasheizung oder von Öl und Gas Heizungsanlagen ist eine attraktive Heizungsförderung möglich. Die Höhe der Förderung hängt von Anlage, Voraussetzungen und Art der Installation ab. Eine professionelle Förderabwicklung übernimmt alle notwendigen Schritte – von der Antragstellung bis zur Einreichung aller Details. So erhalten Haushalte im Burgenland einen wichtigen Beitrag zu ihrem Vorhaben und reduzieren die Kosten für Neuinstallation oder Umstieg deutlich.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">LandesfÃ¶rderung</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Landesförderung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">BundesfÃ¶rderung</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Bundesförderung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">Professionelle FÃ¶rderabwicklung</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Professionelle Förderabwicklung</div>
           </div>
         </div>
       </div>
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size7.jpeg') }}" alt="FÃ¶rderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size7.jpeg') }}" alt="Förderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -809,22 +809,22 @@
       <div class="service-section__head">
         <h2>Kosten und wirtschaftliche Vorteile</h2>
         <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. 
-          Die Kosten einer WÃ¤rmepumpe im Burgenland variieren je nach Haus, Heizsystem und technischer Auswahl. Faktoren wie Montage, Anlage, Planung und bestehende Heizungsanlagen beeinflussen den Gesamtpreis. Trotz Investition profitieren Haushalte von dauerhaft geringeren Heizkosten und hÃ¶herer UnabhÃ¤ngigkeit von Ã–l und Gas. Der Umstieg auf moderne Heiztechnik steigert nicht nur den Wert der Immobilie, sondern reduziert auch langfristige Betriebskosten. In Kombination mit Photovoltaikanlagen lÃ¤sst sich Strom effizient nutzen, wodurch zusÃ¤tzliche Einsparungen mÃ¶glich sind. Diese nachhaltige LÃ¶sung bietet klare Vorteile gegenÃ¼ber fossilen EnergietrÃ¤ger und schafft Planungssicherheit fÃ¼r viele Jahre.
+          Die Kosten einer Wärmepumpe im Burgenland variieren je nach Haus, Heizsystem und technischer Auswahl. Faktoren wie Montage, Anlage, Planung und bestehende Heizungsanlagen beeinflussen den Gesamtpreis. Trotz Investition profitieren Haushalte von dauerhaft geringeren Heizkosten und höherer Unabhängigkeit von Öl und Gas. Der Umstieg auf moderne Heiztechnik steigert nicht nur den Wert der Immobilie, sondern reduziert auch langfristige Betriebskosten. In Kombination mit Photovoltaikanlagen lässt sich Strom effizient nutzen, wodurch zusätzliche Einsparungen möglich sind. Diese nachhaltige Lösung bietet klare Vorteile gegenüber fossilen Energieträger und schafft Planungssicherheit für viele Jahre.
         </p>
       </div>
 
       <div class="service-grid service-grid--3">
         <div class="service-pricecard">
           <h3>Transparente Kosten</h3>
-          <p>Klare Aufstellung aller Positionen â€“ von der Planung Ã¼ber die Montage bis zur Inbetriebnahme. Keine versteckten GebÃ¼hren.</p>
+          <p>Klare Aufstellung aller Positionen – von der Planung über die Montage bis zur Inbetriebnahme. Keine versteckten Gebühren.</p>
         </div>
         <div class="service-pricecard">
           <h3>Wirtschaftlicher Wert</h3>
-          <p>Die WÃ¤rmepumpe steigert den Wert Ihrer Immobilie und senkt langfristig die Energiekosten durch hohe Effizienz.</p>
+          <p>Die Wärmepumpe steigert den Wert Ihrer Immobilie und senkt langfristig die Energiekosten durch hohe Effizienz.</p>
         </div>
         <div class="service-pricecard">
-          <h3>FÃ¶rderungen nutzen</h3>
-          <p>Wir beraten Sie zu allen verfÃ¼gbaren Landes- und BundesfÃ¶rderungen und unterstÃ¼tzen bei der Antragstellung.</p>
+          <h3>Förderungen nutzen</h3>
+          <p>Wir beraten Sie zu allen verfügbaren Landes- und Bundesförderungen und unterstützen bei der Antragstellung.</p>
         </div>
       </div>
     </div>
@@ -836,7 +836,7 @@
       <div class="service-emergency__text">
         <h2>Service, Wartung und Betrieb</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. 
-          Ein zuverlÃ¤ssiger Service sichert die langfristige LeistungsfÃ¤higkeit jeder WÃ¤rmepumpe im Burgenland. RegelmÃ¤ÃŸige Wartung erhÃ¶ht die Lebensdauer der Anlage und sorgt fÃ¼r einen stabilen Betrieb. Erfahrene Installateur Partner stehen als Ansprechpartner fÃ¼r Haushalte und Gewerbeobjekte zur VerfÃ¼gung und kÃ¼mmern sich um alle Details. Auch nach der Installation begleiten Experten das Projekt mit persÃ¶nlicher Beratung und schneller Terminvergabe. Ob Einstellungen optimieren, kleinere Arbeiten durchfÃ¼hren oder Fragen zur Heiztechnik klÃ¤ren â€“ ein professionelles Komplettpaket garantiert QualitÃ¤t aus einer Hand und nachhaltige LÃ¶sungen fÃ¼r jedes Zuhause.
+          Ein zuverlässiger Service sichert die langfristige Leistungsfähigkeit jeder Wärmepumpe im Burgenland. Regelmäßige Wartung erhöht die Lebensdauer der Anlage und sorgt für einen stabilen Betrieb. Erfahrene Installateur Partner stehen als Ansprechpartner für Haushalte und Gewerbeobjekte zur Verfügung und kümmern sich um alle Details. Auch nach der Installation begleiten Experten das Projekt mit persönlicher Beratung und schneller Terminvergabe. Ob Einstellungen optimieren, kleinere Arbeiten durchführen oder Fragen zur Heiztechnik klären – ein professionelles Komplettpaket garantiert Qualität aus einer Hand und nachhaltige Lösungen für jedes Zuhause.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Termin vereinbaren</a>
@@ -848,25 +848,25 @@
         <div class="service-panel">
           <h3>Unsere Serviceleistungen</h3>
           <ul class="service-checklist service-checklist--on-dark">
-            <li>RegelmÃ¤ÃŸige Wartung und Kontrolle</li>
-            <li>PersÃ¶nlicher Service vor Ort</li>
+            <li>Regelmäßige Wartung und Kontrolle</li>
+            <li>Persönlicher Service vor Ort</li>
             <li>Schnelle Terminvergabe</li>
             <li>Optimierung der Einstellungen</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Durch fachgerechte Wartung bleibt die WÃ¤rmepumpe effizient und reduziert AusfÃ¤lle.
+            Durch fachgerechte Wartung bleibt die Wärmepumpe effizient und reduziert Ausfälle.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WÃ¤rmepumpe im Burgenland Umgebung -->
+  <!-- Wärmepumpe im Burgenland Umgebung -->
   <section class="service-section" id="regionen">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>WÃ¤rmepumpe im Burgenland Umgebung</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. Ob im Nordburgenland, in Eisenstadt oder Mattersburg â€“ im gesamten Burgenland steigt die Nachfrage nach moderner Heiztechnik.</p>
+        <h2>Wärmepumpe im Burgenland Umgebung</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. Ob im Nordburgenland, in Eisenstadt oder Mattersburg – im gesamten Burgenland steigt die Nachfrage nach moderner Heiztechnik.</p>
       </div>
 
       <div class="service-chips">
@@ -875,14 +875,14 @@
         <span class="service-chip">Oberwart</span>
         <span class="service-chip">Neusiedl am See</span>
         <span class="service-chip">Jennersdorf</span>
-        <span class="service-chip">GÃ¼ssing</span>
+        <span class="service-chip">Güssing</span>
         <span class="service-chip">Nordburgenland</span>
-        <span class="service-chip">NÃ¤he Wien</span>
+        <span class="service-chip">Nähe Wien</span>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Auch die NÃ¤he zu Wien beeinflusst viele Vorhaben rund um Neuinstallation und Heizungstausch. Unterschiedliche Voraussetzungen je nach Ort, GebÃ¤ude und Umgebung erfordern individuelle Planung. Moderne WÃ¤rmepumpe Systeme bieten sowohl fÃ¼r private Haushalte als auch fÃ¼r Gewerbeobjekte passende LÃ¶sungen. Durch nachhaltige Energiegewinnung, effizientes Heizen und optionales KÃ¼hlen entsteht ein angenehmes Klima im Haus und langfristige Sicherheit bei steigenden Energiekosten.
+          Auch die Nähe zu Wien beeinflusst viele Vorhaben rund um Neuinstallation und Heizungstausch. Unterschiedliche Voraussetzungen je nach Ort, Gebäude und Umgebung erfordern individuelle Planung. Moderne Wärmepumpe Systeme bieten sowohl für private Haushalte als auch für Gewerbeobjekte passende Lösungen. Durch nachhaltige Energiegewinnung, effizientes Heizen und optionales Kühlen entsteht ein angenehmes Klima im Haus und langfristige Sicherheit bei steigenden Energiekosten.
         </p>
       </div>
     </div>
@@ -892,38 +892,38 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>HÃ¤ufige Fragen zur WÃ¤rmepumpe im Burgenland</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um Installation, FÃ¶rderung und Betrieb.</p>
+        <h2>Häufige Fragen zur Wärmepumpe im Burgenland</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um Installation, Förderung und Betrieb.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Welche FÃ¶rderung erhalte ich im Burgenland?</summary>
-          <p>Die LandesfÃ¶rderung und BundesfÃ¶rderung bieten attraktive UnterstÃ¼tzung beim Umstieg von Ã–l und Gas auf eine WÃ¤rmepumpe, abhÃ¤ngig von Voraussetzungen und Anlage.</p>
+          <summary>Welche Förderung erhalte ich im Burgenland?</summary>
+          <p>Die Landesförderung und Bundesförderung bieten attraktive Unterstützung beim Umstieg von Öl und Gas auf eine Wärmepumpe, abhängig von Voraussetzungen und Anlage.</p>
         </details>
         <details>
-          <summary>Ist eine WÃ¤rmepumpe besser als eine Gasheizung?</summary>
-          <p>Ja, eine WÃ¤rmepumpe reduziert Heizkosten, steigert UnabhÃ¤ngigkeit und nutzt nachhaltige EnergietrÃ¤ger statt fossilem Gas.</p>
+          <summary>Ist eine Wärmepumpe besser als eine Gasheizung?</summary>
+          <p>Ja, eine Wärmepumpe reduziert Heizkosten, steigert Unabhängigkeit und nutzt nachhaltige Energieträger statt fossilem Gas.</p>
         </details>
         <details>
           <summary>Wie lange dauert die Installation?</summary>
-          <p>Planung, Montage und Inbetriebnahme dauern meist wenige Tage, abhÃ¤ngig von Haus, Heizsystem und technischen Details.</p>
+          <p>Planung, Montage und Inbetriebnahme dauern meist wenige Tage, abhängig von Haus, Heizsystem und technischen Details.</p>
         </details>
         <details>
-          <summary>Kann ich mit der WÃ¤rmepumpe auch kÃ¼hlen?</summary>
-          <p>Viele moderne Systeme ermÃ¶glichen neben dem Heizen auch KÃ¼hlen und ersetzen teilweise klassische Klimaanlagen.</p>
+          <summary>Kann ich mit der Wärmepumpe auch kühlen?</summary>
+          <p>Viele moderne Systeme ermöglichen neben dem Heizen auch Kühlen und ersetzen teilweise klassische Klimaanlagen.</p>
         </details>
         <details>
           <summary>Wie hoch sind die laufenden Kosten?</summary>
-          <p>Durch effiziente Nutzung von Energie bleiben die Betriebskosten langfristig stabil und niedriger als bei Ã–l und Gasheizung.</p>
+          <p>Durch effiziente Nutzung von Energie bleiben die Betriebskosten langfristig stabil und niedriger als bei Öl und Gasheizung.</p>
         </details>
         <details>
           <summary>Ist ein Umstieg im Altbau sinnvoll?</summary>
-          <p>Auch im Altbau ist ein Umstieg mÃ¶glich, wenn technische Voraussetzungen geprÃ¼ft und angepasst werden.</p>
+          <p>Auch im Altbau ist ein Umstieg möglich, wenn technische Voraussetzungen geprüft und angepasst werden.</p>
         </details>
         <details>
-          <summary>Wer Ã¼bernimmt die FÃ¶rderabwicklung?</summary>
-          <p>Ein erfahrener Installateur im Burgenland kÃ¼mmert sich um die komplette FÃ¶rderabwicklung inklusive aller Informationen und Einreichungen.</p>
+          <summary>Wer übernimmt die Förderabwicklung?</summary>
+          <p>Ein erfahrener Installateur im Burgenland kümmert sich um die komplette Förderabwicklung inklusive aller Informationen und Einreichungen.</p>
         </details>
       </div>
     </div>
@@ -933,7 +933,7 @@
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Beratung und Komplettpaket Burgenland',
-    'text' => 'Eine professionelle Beratung bildet den ersten Schritt zur passenden WÃ¤rmepumpe Installation Burgenland. Gemeinsam werden Haus, Heizsystem, WÃ¼nsche und Budget analysiert, um eine individuelle LÃ¶sung zu entwickeln. Das Komplettpaket umfasst Planung, Installation, FÃ¶rderabwicklung, Wartung und langfristigen Service. Von der ersten Anfrage bis zur finalen Inbetriebnahme steht ein Experte als Ansprechpartner zur VerfÃ¼gung. So erhalten Haushalte im Burgenland eine nachhaltige HeizlÃ¶sung, die Effizienz, QualitÃ¤t und Komfort vereint.',
+    'text' => 'Eine professionelle Beratung bildet den ersten Schritt zur passenden Wärmepumpe Installation Burgenland. Gemeinsam werden Haus, Heizsystem, Wünsche und Budget analysiert, um eine individuelle Lösung zu entwickeln. Das Komplettpaket umfasst Planung, Installation, Förderabwicklung, Wartung und langfristigen Service. Von der ersten Anfrage bis zur finalen Inbetriebnahme steht ein Experte als Ansprechpartner zur Verfügung. So erhalten Haushalte im Burgenland eine nachhaltige Heizlösung, die Effizienz, Qualität und Komfort vereint.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -942,6 +942,8 @@
 </main>
 
 @endsection
+
+
 
 
 

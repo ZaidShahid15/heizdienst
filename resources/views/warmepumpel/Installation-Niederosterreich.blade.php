@@ -1,8 +1,8 @@
 ﻿@extends('layout.app')
 
 @php
-    $metaTitle = 'WÃ¤rmepumpe Installation NiederÃ¶sterreich | FÃ¶rderung & Beratung';
-    $metaDescription = 'WÃ¤rmepumpe Installation NiederÃ¶sterreich: LuftwÃ¤rmepumpe, FÃ¶rderung vom Land & Bund, Beratung und Komplettpaket. Jetzt Termin sichern und effizient heizen.';
+    $metaTitle = 'Wärmepumpe Installation Niederösterreich | Förderung & Beratung';
+    $metaDescription = 'Wärmepumpe Installation Niederösterreich: Luftwärmepumpe, Förderung vom Land & Bund, Beratung und Komplettpaket. Jetzt Termin sichern und effizient heizen.';
 @endphp
 
 @section('main')
@@ -66,7 +66,7 @@
 
 
   /* =========================
-     âœ… TOC like screenshot
+     ✅ TOC like screenshot
      ========================= */
   .toc-wrap{
     padding:16px 0 0;
@@ -368,7 +368,7 @@
 </style>
 <style>
   /* =====================================
-   MOBILE HERO â€“ EXACT LIKE SCREENSHOT
+   MOBILE HERO – EXACT LIKE SCREENSHOT
    ===================================== */
    .hero-first-block{
   padding: 20px 0;
@@ -545,12 +545,12 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        WÃ¤rmepumpe Installation NiederÃ¶sterreich <br>
-        <span style="color:#FB9A1B;">FÃ¶rderung & Beratung vom Fachbetrieb.</span>
+        Wärmepumpe Installation Niederösterreich <br>
+        <span style="color:#FB9A1B;">Förderung & Beratung vom Fachbetrieb.</span>
       </h1>
 
       <p class="wolf-hero__sub">
-        Moderne WÃ¤rmepumpe LÃ¶sungen fÃ¼r effizientes Heizen und KÃ¼hlen in NiederÃ¶sterreich mit attraktiven FÃ¶rderungen und persÃ¶nlicher Beratung.
+        Moderne Wärmepumpe Lösungen für effizientes Heizen und Kühlen in Niederösterreich mit attraktiven Förderungen und persönlicher Beratung.
       </p>
 
       <div class="wolf-hero__actions">
@@ -588,7 +588,7 @@
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            GeprÃ¼fte Experten
+            Geprüfte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -601,13 +601,13 @@
   </section>
 
 
-  <!-- âœ… TOC EXACT LIKE IMAGE -->
+  <!-- ✅ TOC EXACT LIKE IMAGE -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
-    <!-- âœ… collapsed by default -->
+    <!-- ✅ collapsed by default -->
     <div class="toc-card is-collapsed" id="tocCard">
 
-      <!-- âœ… aria-expanded false by default -->
+      <!-- ✅ aria-expanded false by default -->
       <div class="toc-head"
            id="tocHead"
            role="button"
@@ -618,7 +618,7 @@
         <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
         <div class="toc-actions">
-          <!-- âœ… aria-expanded false by default -->
+          <!-- ✅ aria-expanded false by default -->
           <button class="toc-iconbtn"
                   type="button"
                   id="tocToggle"
@@ -646,12 +646,12 @@
           </li>
           <li class="toc-item">
             <a href="#luftwaermepumpe-systeme" class="toc-link">
-              <span class="toc-badge">03</span><span class="toc-text">LuftwÃ¤rmepumpe & Systeme</span>
+              <span class="toc-badge">03</span><span class="toc-text">Luftwärmepumpe & Systeme</span>
             </a>
           </li>
           <li class="toc-item">
             <a href="#foerderungen" class="toc-link">
-              <span class="toc-badge">04</span><span class="toc-text">FÃ¶rderungen</span>
+              <span class="toc-badge">04</span><span class="toc-text">Förderungen</span>
             </a>
           </li>
           <li class="toc-item">
@@ -687,28 +687,28 @@
 </section>
 
 
-  <!-- Effizient heizen in NiederÃ¶sterreich -->
+  <!-- Effizient heizen in Niederösterreich -->
   <section class="service-section" id="effizient-heizen">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Effizient heizen in NiederÃ¶sterreich</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. Eine WÃ¤rmepumpe ist in NiederÃ¶sterreich eine nachhaltige HeizlÃ¶sung fÃ¼r Haushalte im Neubau, Altbau oder bei einer Sanierung.</p>
+        <h2>Effizient heizen in Niederösterreich</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. Eine Wärmepumpe ist in Niederösterreich eine nachhaltige Heizlösung für Haushalte im Neubau, Altbau oder bei einer Sanierung.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>UnabhÃ¤ngigkeit von Gas & Ã–l</h3>
-          <p>Statt Gas oder Ã–l nutzt die Technik Energie aus Luft, Wasser oder Erdreich und wandelt diese in zuverlÃ¤ssige WÃ¤rme um. Gerade im Land mit vielen Einfamilienhaus-GebÃ¤udeformen bietet eine LuftwÃ¤rmepumpe hohe Effizienz und niedrige Betriebskosten.</p>
+          <h3>Unabhängigkeit von Gas & Öl</h3>
+          <p>Statt Gas oder Öl nutzt die Technik Energie aus Luft, Wasser oder Erdreich und wandelt diese in zuverlässige Wärme um. Gerade im Land mit vielen Einfamilienhaus-Gebäudeformen bietet eine Luftwärmepumpe hohe Effizienz und niedrige Betriebskosten.</p>
         </article>
 
         <article class="service-card service-card--service">
           <h3>Wertsteigerung der Immobilie</h3>
-          <p>Der Umstieg von Gasheizung oder Ã–lheizungen reduziert laufende Kosten und steigert den Wert vom Haus. Auch im Vergleich zu klassischen Brennstoffe Ã¼berzeugt diese Alternative durch mehr UnabhÃ¤ngigkeit und aktiven Umweltschutz.</p>
+          <p>Der Umstieg von Gasheizung oder Ölheizungen reduziert laufende Kosten und steigert den Wert vom Haus. Auch im Vergleich zu klassischen Brennstoffe überzeugt diese Alternative durch mehr Unabhängigkeit und aktiven Umweltschutz.</p>
         </article>
 
         <article class="service-card service-card--service">
           <h3>Beliebte Regionen</h3>
-          <p>In Regionen wie Wiener Neustadt, Wolkersdorf oder GÃ¤nserndorf setzen immer mehr Haushalte auf moderne Heizsysteme, um langfristig Heizenergie zu sparen und komfortabel zu heizen.</p>
+          <p>In Regionen wie Wiener Neustadt, Wolkersdorf oder Gänserndorf setzen immer mehr Haushalte auf moderne Heizsysteme, um langfristig Heizenergie zu sparen und komfortabel zu heizen.</p>
         </article>
       </div>
     </div>
@@ -720,20 +720,20 @@
       <div class="service-split__text">
         <h2>Planung und Installation vom Installateur</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. 
-          Eine professionelle Planung ist die Grundlage fÃ¼r eine effiziente WÃ¤rmepumpe Installation NiederÃ¶sterreich. Ein erfahrener Installateur prÃ¼ft GebÃ¤ude, Standort, Technikraum, Anschluss und individuelle Voraussetzungen. Je nach Art des Haus, Altbau oder Neubau, wird das passende Heizsystem ausgewÃ¤hlt. Die Wahl zwischen LuftwÃ¤rmepumpe, Luft Wasser Variante oder ErdwÃ¤rmepumpe hÃ¤ngt von Platz, Erdreich, Grundwasser und Umgebung ab. Nach genauer Beratung erfolgt die fachgerechte Montage sowie der Einbau aller Systeme. Die anschlieÃŸende Inbetriebnahme stellt sicher, dass Heizung, Warmwasser und KÃ¼hlung im Betrieb optimal funktionieren. Ein strukturiertes Komplettpaket deckt alles von Planung bis Details ab und sorgt fÃ¼r eine zuverlÃ¤ssige LÃ¶sung im gesamten Land NiederÃ¶sterreich.
+          Eine professionelle Planung ist die Grundlage für eine effiziente Wärmepumpe Installation Niederösterreich. Ein erfahrener Installateur prüft Gebäude, Standort, Technikraum, Anschluss und individuelle Voraussetzungen. Je nach Art des Haus, Altbau oder Neubau, wird das passende Heizsystem ausgewählt. Die Wahl zwischen Luftwärmepumpe, Luft Wasser Variante oder Erdwärmepumpe hängt von Platz, Erdreich, Grundwasser und Umgebung ab. Nach genauer Beratung erfolgt die fachgerechte Montage sowie der Einbau aller Systeme. Die anschließende Inbetriebnahme stellt sicher, dass Heizung, Warmwasser und Kühlung im Betrieb optimal funktionieren. Ein strukturiertes Komplettpaket deckt alles von Planung bis Details ab und sorgt für eine zuverlässige Lösung im gesamten Land Niederösterreich.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Individuelle Planung vor Ort</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Fachgerechte Montage und Einbau</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Sichere Inbetriebnahme im Haus</div>
           </div>
         </div>
@@ -741,76 +741,76 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="WÃ¤rmepumpen Planung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Wärmepumpen Planung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- LuftwÃ¤rmepumpe und alternative Systeme -->
+  <!-- Luftwärmepumpe und alternative Systeme -->
   <section class="service-section" id="luftwaermepumpe-systeme">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>LuftwÃ¤rmepumpe und alternative Systeme</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. Die LuftwÃ¤rmepumpe ist in NiederÃ¶sterreich besonders gefragt, da sie ohne aufwendige Erdarbeiten auskommt und flexibel einsetzbar ist.</p>
+        <h2>Luftwärmepumpe und alternative Systeme</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. Die Luftwärmepumpe ist in Niederösterreich besonders gefragt, da sie ohne aufwendige Erdarbeiten auskommt und flexibel einsetzbar ist.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ðŸŒ¬ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">🌬️</div>
           <div>
-            <h3>Luft Wasser WÃ¤rmepumpe Vorteile</h3>
-            <p>Die Luft Wasser WÃ¤rmepumpe kombiniert einfache Installation mit hoher Effizienz und eignet sich ideal fÃ¼r Neubau sowie Altbau.</p>
+            <h3>Luft Wasser Wärmepumpe Vorteile</h3>
+            <p>Die Luft Wasser Wärmepumpe kombiniert einfache Installation mit hoher Effizienz und eignet sich ideal für Neubau sowie Altbau.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ðŸŒ</div>
+          <div class="service-feature__icon" aria-hidden="true">🌍</div>
           <div>
-            <h3>ErdwÃ¤rmepumpe im Erdreich</h3>
-            <p>Diese Variante nutzt konstante Temperaturen im Erdreich und sorgt fÃ¼r stabile WÃ¤rme auch bei niedrigen AuÃŸentemperaturen.</p>
+            <h3>Erdwärmepumpe im Erdreich</h3>
+            <p>Diese Variante nutzt konstante Temperaturen im Erdreich und sorgt für stabile Wärme auch bei niedrigen Außentemperaturen.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ðŸ’§</div>
+          <div class="service-feature__icon" aria-hidden="true">💧</div>
           <div>
             <h3>Systeme mit Grundwasser nutzen</h3>
-            <p>Eine WÃ¤rmepumpe mit Grundwasser als Energiequelle liefert sehr konstante Leistung und ermÃ¶glicht effizientes Heizen im ganzen Jahr.</p>
+            <p>Eine Wärmepumpe mit Grundwasser als Energiequelle liefert sehr konstante Leistung und ermöglicht effizientes Heizen im ganzen Jahr.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">âš¡</div>
+          <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
             <h3>Moderne Technik</h3>
-            <p>Durch moderne Technik, abgestimmt auf Haus und Standort, entsteht eine nachhaltige LÃ¶sung fÃ¼r Stadt und Land rund um Wien.</p>
+            <p>Durch moderne Technik, abgestimmt auf Haus und Standort, entsteht eine nachhaltige Lösung für Stadt und Land rund um Wien.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- FÃ¶rderungen fÃ¼r WÃ¤rmepumpe NiederÃ¶sterreich -->
+  <!-- Förderungen für Wärmepumpe Niederösterreich -->
   <section class="service-section service-section--soft" id="foerderungen">
     <div class="service-container service-split service-split--reverse">
       <div class="service-split__text">
-        <h2>FÃ¶rderungen fÃ¼r WÃ¤rmepumpe NiederÃ¶sterreich</h2>
+        <h2>Förderungen für Wärmepumpe Niederösterreich</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. 
-          In NiederÃ¶sterreich profitieren Haushalte von attraktiven FÃ¶rderungen fÃ¼r den Umstieg auf eine moderne WÃ¤rmepumpe. Das Land NiederÃ¶sterreich sowie der Bund bieten finanzielle UnterstÃ¼tzung fÃ¼r Heizungstausch, Neubau oder Sanierung. Besonders beim Ersatz einer Gasheizung, alter Ã–lheizungen oder anderer fossiler Brennstoffe werden mehrere FÃ¶rderungen kombiniert. Die HÃ¶he vom Beitrag hÃ¤ngt von GebÃ¤ude, System und technischen Voraussetzungen ab. Eine LuftwÃ¤rmepumpe oder Luft Wasser WÃ¤rmepumpe wird ebenso gefÃ¶rdert wie eine ErdwÃ¤rmepumpe. Wichtig sind rechtzeitige Planung, korrekte Antragstellung und die Einhaltung aller Punkte laut Richtlinie. Mit professioneller Beratung lassen sich FÃ¶rderungen optimal nutzen und die Kosten fÃ¼r die neue HeizlÃ¶sung deutlich senken.
+          In Niederösterreich profitieren Haushalte von attraktiven Förderungen für den Umstieg auf eine moderne Wärmepumpe. Das Land Niederösterreich sowie der Bund bieten finanzielle Unterstützung für Heizungstausch, Neubau oder Sanierung. Besonders beim Ersatz einer Gasheizung, alter Ölheizungen oder anderer fossiler Brennstoffe werden mehrere Förderungen kombiniert. Die Höhe vom Beitrag hängt von Gebäude, System und technischen Voraussetzungen ab. Eine Luftwärmepumpe oder Luft Wasser Wärmepumpe wird ebenso gefördert wie eine Erdwärmepumpe. Wichtig sind rechtzeitige Planung, korrekte Antragstellung und die Einhaltung aller Punkte laut Richtlinie. Mit professioneller Beratung lassen sich Förderungen optimal nutzen und die Kosten für die neue Heizlösung deutlich senken.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">Land NiederÃ¶sterreich</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Land Niederösterreich</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">BundesfÃ¶rderung</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Bundesförderung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Kombinierbar</div>
           </div>
         </div>
@@ -818,7 +818,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size8.jpeg') }}" alt="FÃ¶rderung NiederÃ¶sterreich" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size8.jpeg') }}" alt="Förderung Niederösterreich" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -830,34 +830,34 @@
       <div class="service-section__head">
         <h2>Kosten und wirtschaftlicher Wert</h2>
         <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. 
-          Die Kosten einer WÃ¤rmepumpe in NiederÃ¶sterreich variieren je nach Art des Heizsystem, GrÃ¶ÃŸe vom Haus und gewÃ¼nschter Variante. Faktoren wie Einbau, Montage, Technikraum, Anschluss und mÃ¶gliche PV Anlage beeinflussen den Gesamtpreis. Trotz Investition Ã¼berzeugen niedrige Betriebskosten, hohe Effizienz und langfristige UnabhÃ¤ngigkeit von Gas und Ã–l. Gerade im Land mit steigenden Energiepreisen gewinnt der Umstieg auf eine nachhaltige Alternative an Bedeutung. Eine LuftwÃ¤rmepumpe benÃ¶tigt wenig Platz und eignet sich fÃ¼r viele GebÃ¤ude, wÃ¤hrend Systeme mit Erdreich oder Wasser zusÃ¤tzliche Leistung bieten. Durch geringere Heizenergie-Kosten und stabile Strom-Nutzung steigert die WÃ¤rmepumpe dauerhaft den Wert der Immobilie.
+          Die Kosten einer Wärmepumpe in Niederösterreich variieren je nach Art des Heizsystem, Größe vom Haus und gewünschter Variante. Faktoren wie Einbau, Montage, Technikraum, Anschluss und mögliche PV Anlage beeinflussen den Gesamtpreis. Trotz Investition überzeugen niedrige Betriebskosten, hohe Effizienz und langfristige Unabhängigkeit von Gas und Öl. Gerade im Land mit steigenden Energiepreisen gewinnt der Umstieg auf eine nachhaltige Alternative an Bedeutung. Eine Luftwärmepumpe benötigt wenig Platz und eignet sich für viele Gebäude, während Systeme mit Erdreich oder Wasser zusätzliche Leistung bieten. Durch geringere Heizenergie-Kosten und stabile Strom-Nutzung steigert die Wärmepumpe dauerhaft den Wert der Immobilie.
         </p>
       </div>
 
       <div class="service-grid service-grid--3">
         <div class="service-pricecard">
           <h3>Transparente Kosten</h3>
-          <p>Klare Aufstellung aller Positionen â€“ von der Planung Ã¼ber die Montage bis zur Inbetriebnahme. Keine versteckten GebÃ¼hren.</p>
+          <p>Klare Aufstellung aller Positionen – von der Planung über die Montage bis zur Inbetriebnahme. Keine versteckten Gebühren.</p>
         </div>
         <div class="service-pricecard">
           <h3>Wirtschaftlicher Wert</h3>
-          <p>Die WÃ¤rmepumpe steigert den Wert Ihrer Immobilie und senkt langfristig die Energiekosten durch hohe Effizienz.</p>
+          <p>Die Wärmepumpe steigert den Wert Ihrer Immobilie und senkt langfristig die Energiekosten durch hohe Effizienz.</p>
         </div>
         <div class="service-pricecard">
-          <h3>FÃ¶rderungen nutzen</h3>
-          <p>Wir beraten Sie zu allen verfÃ¼gbaren Landes- und BundesfÃ¶rderungen und unterstÃ¼tzen bei der Antragstellung.</p>
+          <h3>Förderungen nutzen</h3>
+          <p>Wir beraten Sie zu allen verfügbaren Landes- und Bundesförderungen und unterstützen bei der Antragstellung.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Service, Betrieb und LÃ¶sung (dark style) -->
+  <!-- Service, Betrieb und Lösung (dark style) -->
   <section class="service-section service-section--dark" id="service-betrieb">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Service, Betrieb und LÃ¶sung</h2>
+        <h2>Service, Betrieb und Lösung</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. 
-          Ein zuverlÃ¤ssiger Service sichert den langfristigen Betrieb jeder WÃ¤rmepumpe in NiederÃ¶sterreich. RegelmÃ¤ÃŸige Kontrolle, technische ÃœberprÃ¼fung und fachgerechte Betreuung sorgen dafÃ¼r, dass Heizung, Warmwasser und KÃ¼hlung dauerhaft effizient arbeiten. Moderne Systeme sind wartungsarm, dennoch empfiehlt sich eine periodische PrÃ¼fung, um Leistung und Effizienz konstant zu halten. Besonders im Altbau oder nach einer Sanierung ist eine abgestimmte LÃ¶sung entscheidend. Von Wiener Neustadt bis Wolkersdorf und GÃ¤nserndorf stehen regionale Ansprechpartner bereit, um schnelle Termine und persÃ¶nliche Beratung zu ermÃ¶glichen. So bleibt alles optimal eingestellt und die HeizlÃ¶sung arbeitet auch bei hoher Belastung zuverlÃ¤ssig.
+          Ein zuverlässiger Service sichert den langfristigen Betrieb jeder Wärmepumpe in Niederösterreich. Regelmäßige Kontrolle, technische Überprüfung und fachgerechte Betreuung sorgen dafür, dass Heizung, Warmwasser und Kühlung dauerhaft effizient arbeiten. Moderne Systeme sind wartungsarm, dennoch empfiehlt sich eine periodische Prüfung, um Leistung und Effizienz konstant zu halten. Besonders im Altbau oder nach einer Sanierung ist eine abgestimmte Lösung entscheidend. Von Wiener Neustadt bis Wolkersdorf und Gänserndorf stehen regionale Ansprechpartner bereit, um schnelle Termine und persönliche Beratung zu ermöglichen. So bleibt alles optimal eingestellt und die Heizlösung arbeitet auch bei hoher Belastung zuverlässig.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Termin vereinbaren</a>
@@ -870,40 +870,40 @@
           <h3>Unsere Serviceleistungen</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Wartung und langfristiger Betrieb</li>
-            <li>PersÃ¶nlicher Termin vor Ort</li>
-            <li>RegelmÃ¤ÃŸige Kontrolle</li>
+            <li>Persönlicher Termin vor Ort</li>
+            <li>Regelmäßige Kontrolle</li>
             <li>Optimale Einstellung</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Durch regelmÃ¤ÃŸige Wartung bleibt die WÃ¤rmepumpe effizient und sorgt fÃ¼r konstante WÃ¤rme im gesamten Haus.
+            Durch regelmäßige Wartung bleibt die Wärmepumpe effizient und sorgt für konstante Wärme im gesamten Haus.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WÃ¤rmepumpe in Regionen NiederÃ¶sterreich -->
+  <!-- Wärmepumpe in Regionen Niederösterreich -->
   <section class="service-section" id="regionen">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>WÃ¤rmepumpe in Regionen NiederÃ¶sterreich</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. Ob im Raum Wien, in Wiener Neustadt, Wolkersdorf oder GÃ¤nserndorf â€“ in ganz NiederÃ¶sterreich steigt die Nachfrage nach moderner Heiztechnik.</p>
+        <h2>Wärmepumpe in Regionen Niederösterreich</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. Ob im Raum Wien, in Wiener Neustadt, Wolkersdorf oder Gänserndorf – in ganz Niederösterreich steigt die Nachfrage nach moderner Heiztechnik.</p>
       </div>
 
       <div class="service-chips">
         <span class="service-chip">Wien Umgebung</span>
         <span class="service-chip">Wiener Neustadt</span>
         <span class="service-chip">Wolkersdorf</span>
-        <span class="service-chip">GÃ¤nserndorf</span>
+        <span class="service-chip">Gänserndorf</span>
         <span class="service-chip">Baden</span>
-        <span class="service-chip">MÃ¶dling</span>
+        <span class="service-chip">Mödling</span>
         <span class="service-chip">Tulln</span>
-        <span class="service-chip">St. PÃ¶lten</span>
+        <span class="service-chip">St. Pölten</span>
       </div>
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Unterschiedliche Regionen im Land stellen eigene Anforderungen an GebÃ¤ude, Platz und Energieversorgung. Eine LuftwÃ¤rmepumpe eignet sich besonders fÃ¼r dicht bebaute Umgebung, wÃ¤hrend Systeme mit Erdreich oder Wasser bei geeigneten Voraussetzungen zusÃ¤tzliche Effizienz bieten. Der Umstieg auf eine WÃ¤rmepumpe schafft eine nachhaltige Alternative zu Gas und Ã–l und unterstÃ¼tzt aktiven Umweltschutz. Dank moderner Technik lassen sich Heizen und KÃ¼hlen optimal kombinieren und an jedes Haus individuell anpassen.
+          Unterschiedliche Regionen im Land stellen eigene Anforderungen an Gebäude, Platz und Energieversorgung. Eine Luftwärmepumpe eignet sich besonders für dicht bebaute Umgebung, während Systeme mit Erdreich oder Wasser bei geeigneten Voraussetzungen zusätzliche Effizienz bieten. Der Umstieg auf eine Wärmepumpe schafft eine nachhaltige Alternative zu Gas und Öl und unterstützt aktiven Umweltschutz. Dank moderner Technik lassen sich Heizen und Kühlen optimal kombinieren und an jedes Haus individuell anpassen.
         </p>
       </div>
     </div>
@@ -913,34 +913,34 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>HÃ¤ufige Fragen zur WÃ¤rmepumpe in NiederÃ¶sterreich</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um Installation, FÃ¶rderung und Betrieb.</p>
+        <h2>Häufige Fragen zur Wärmepumpe in Niederösterreich</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um Installation, Förderung und Betrieb.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Welche WÃ¤rmepumpe passt zu meinem Haus in NiederÃ¶sterreich?</summary>
-          <p>Die Wahl hÃ¤ngt von GebÃ¤udeart, Platz, Standort und gewÃ¼nschten Leistungen ab. LuftwÃ¤rmepumpe, Luft Wasser Variante oder ErdwÃ¤rmepumpe bieten unterschiedliche Vorteile.</p>
+          <summary>Welche Wärmepumpe passt zu meinem Haus in Niederösterreich?</summary>
+          <p>Die Wahl hängt von Gebäudeart, Platz, Standort und gewünschten Leistungen ab. Luftwärmepumpe, Luft Wasser Variante oder Erdwärmepumpe bieten unterschiedliche Vorteile.</p>
         </details>
 
         <details>
-          <summary>Wie hoch sind die FÃ¶rderungen im Land NiederÃ¶sterreich?</summary>
-          <p>Land und Bund unterstÃ¼tzen den Heizungstausch mit mehreren FÃ¶rderungen, abhÃ¤ngig von System, Voraussetzungen und Umstieg von Gas oder Ã–l.</p>
+          <summary>Wie hoch sind die Förderungen im Land Niederösterreich?</summary>
+          <p>Land und Bund unterstützen den Heizungstausch mit mehreren Förderungen, abhängig von System, Voraussetzungen und Umstieg von Gas oder Öl.</p>
         </details>
 
         <details>
-          <summary>Ist eine LuftwÃ¤rmepumpe auch im Altbau sinnvoll?</summary>
-          <p>Ja, besonders bei Sanierung oder Heizungstausch ist eine LuftwÃ¤rmepumpe eine effiziente Alternative mit guter Effizienz.</p>
+          <summary>Ist eine Luftwärmepumpe auch im Altbau sinnvoll?</summary>
+          <p>Ja, besonders bei Sanierung oder Heizungstausch ist eine Luftwärmepumpe eine effiziente Alternative mit guter Effizienz.</p>
         </details>
 
         <details>
-          <summary>Kann ich mit einer WÃ¤rmepumpe auch kÃ¼hlen?</summary>
-          <p>Moderne Systeme ermÃ¶glichen neben dem Heizen auch KÃ¼hlung und sorgen im Sommer fÃ¼r angenehme Temperaturen.</p>
+          <summary>Kann ich mit einer Wärmepumpe auch kühlen?</summary>
+          <p>Moderne Systeme ermöglichen neben dem Heizen auch Kühlung und sorgen im Sommer für angenehme Temperaturen.</p>
         </details>
 
         <details>
           <summary>Wie lange dauert die Installation?</summary>
-          <p>Planung, Montage und Inbetriebnahme dauern meist nur wenige Tage, abhÃ¤ngig von GebÃ¤ude und technischer LÃ¶sung.</p>
+          <p>Planung, Montage und Inbetriebnahme dauern meist nur wenige Tage, abhängig von Gebäude und technischer Lösung.</p>
         </details>
 
         <details>
@@ -949,8 +949,8 @@
         </details>
 
         <details>
-          <summary>BenÃ¶tigt die WÃ¤rmepumpe viel Platz?</summary>
-          <p>Eine LuftwÃ¤rmepumpe benÃ¶tigt wenig Platz, wÃ¤hrend Systeme mit Erdreich oder Wasser zusÃ¤tzliche FlÃ¤che erfordern kÃ¶nnen.</p>
+          <summary>Benötigt die Wärmepumpe viel Platz?</summary>
+          <p>Eine Luftwärmepumpe benötigt wenig Platz, während Systeme mit Erdreich oder Wasser zusätzliche Fläche erfordern können.</p>
         </details>
       </div>
     </div>
@@ -959,8 +959,8 @@
   <!-- CTA -->
   @include('layout.contact', [
     'id' => 'kontakt-services',
-    'title' => 'Beratung und Komplettpaket NiederÃ¶sterreich',
-    'text' => 'Eine fundierte Beratung ist der erste Schritt zur passenden WÃ¤rmepumpe Installation NiederÃ¶sterreich. Gemeinsam werden GebÃ¤ude, Heizsystem, Energiebedarf und persÃ¶nliche WÃ¼nsche analysiert. Auf Basis dieser Planung entsteht ein maÃŸgeschneidertes Komplettpaket inklusive transparentem Angebot. Von der ersten Anfrage bis zur finalen Inbetriebnahme begleitet ein erfahrener Installateur den gesamten Prozess. So erhalten Haushalte im gesamten Land eine nachhaltige HeizlÃ¶sung, die Effizienz, Komfort und langfristige Sicherheit vereint.',
+    'title' => 'Beratung und Komplettpaket Niederösterreich',
+    'text' => 'Eine fundierte Beratung ist der erste Schritt zur passenden Wärmepumpe Installation Niederösterreich. Gemeinsam werden Gebäude, Heizsystem, Energiebedarf und persönliche Wünsche analysiert. Auf Basis dieser Planung entsteht ein maßgeschneidertes Komplettpaket inklusive transparentem Angebot. Von der ersten Anfrage bis zur finalen Inbetriebnahme begleitet ein erfahrener Installateur den gesamten Prozess. So erhalten Haushalte im gesamten Land eine nachhaltige Heizlösung, die Effizienz, Komfort und langfristige Sicherheit vereint.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -969,6 +969,8 @@
 </main>
 
 @endsection
+
+
 
 
 

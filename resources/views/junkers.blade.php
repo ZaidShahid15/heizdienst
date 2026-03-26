@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -1079,3 +1079,4 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
 })();
 </script> --}}
 @endsection
+

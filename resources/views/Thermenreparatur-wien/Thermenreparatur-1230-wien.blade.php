@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -518,6 +518,7 @@ $metaDescription = "Installateur Notdienst 1230 Wien – schneller Installateur 
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
 
 
 

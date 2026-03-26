@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -839,3 +839,4 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
 </main>
 
 @endsection
+

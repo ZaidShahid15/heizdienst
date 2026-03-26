@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -1164,3 +1164,4 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
 </script>
 
 @endsection
+

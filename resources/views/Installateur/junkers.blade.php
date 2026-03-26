@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -993,3 +993,4 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
   })();
 </script>
 @endsection
+

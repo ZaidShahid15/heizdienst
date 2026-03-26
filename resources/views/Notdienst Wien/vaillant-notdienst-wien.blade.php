@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -1153,3 +1153,4 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
 
 
 @endsection
+

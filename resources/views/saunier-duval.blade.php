@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -845,3 +845,4 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
   })();
 </script>
 @endsection
+

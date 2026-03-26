@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -362,7 +362,7 @@ $metaDescription = "Thermenreparatur 1140 Wien vom Installateur Wien. Schnelle H
           <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
           <span>SAUNIER DUVAL SERVICE</span>
         </a>
-        <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+        <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
           <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
           <span>LÖBLICH THERMENSERVICE</span>
         </a>
@@ -457,6 +457,8 @@ $metaDescription = "Thermenreparatur 1140 Wien vom Installateur Wien. Schnelle H
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
+
 
 
 

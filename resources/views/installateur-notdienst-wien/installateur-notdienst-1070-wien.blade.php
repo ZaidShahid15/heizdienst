@@ -382,7 +382,7 @@ $metaDescription = "Installateur Notdienst 1070 Wien – schneller Installateur 
   </a>
 
       <!-- 8 -->
- <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+ <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
     <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
     <span>LÖBLICH THERMENSERVICE</span>
   </a>
@@ -482,6 +482,7 @@ $metaDescription = "Installateur Notdienst 1070 Wien – schneller Installateur 
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
 
 
 

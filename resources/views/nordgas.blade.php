@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -899,3 +899,4 @@ $metaDescription = " Professionelle Nordgas Thermenwartung Wien vom Fachbetrieb.
 </main>
 
 @endsection
+

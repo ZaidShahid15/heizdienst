@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 @section('main')
 @php
     $metaTitle = 'Thermenwartung & Thermenservice Wien & NÖ | Reparatur & Notdienst';
@@ -2536,3 +2536,4 @@ html{ scroll-behavior:smooth; }
 
 
 @endsection
+

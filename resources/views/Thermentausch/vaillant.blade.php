@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <!-- <style>
@@ -973,3 +973,4 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
   })();
 </script> -->
 @endsection
+

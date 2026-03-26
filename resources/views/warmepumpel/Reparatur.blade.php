@@ -1,8 +1,8 @@
 ﻿@extends('layout.app')
 
 @php
-    $metaTitle = 'WÃ¤rmepumpen Reparatur Wien | Service, Wartung & Notdienst';
-    $metaDescription = 'WÃ¤rmepumpen Reparatur Wien vom Fachbetrieb. Reparatur, Wartung, Notdienst, faire Preise & schnelle Termine in Wien und NiederÃ¶sterreich.';
+    $metaTitle = 'Wärmepumpen Reparatur Wien | Service, Wartung & Notdienst';
+    $metaDescription = 'Wärmepumpen Reparatur Wien vom Fachbetrieb. Reparatur, Wartung, Notdienst, faire Preise & schnelle Termine in Wien und Niederösterreich.';
 @endphp
 
 @section('main')
@@ -66,7 +66,7 @@
 
 
   /* =========================
-     âœ… TOC like screenshot
+     ✅ TOC like screenshot
      ========================= */
   .toc-wrap{
     padding:16px 0 0;
@@ -368,7 +368,7 @@
 </style>
 <style>
   /* =====================================
-   MOBILE HERO â€“ EXACT LIKE SCREENSHOT
+   MOBILE HERO – EXACT LIKE SCREENSHOT
    ===================================== */
    .hero-first-block{
   padding: 20px 0;
@@ -545,12 +545,12 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        WÃ¤rmepumpen Reparatur Wien <br>
+        Wärmepumpen Reparatur Wien <br>
         <span style="color:#FB9A1B;">Service, Wartung & Notdienst vom Fachbetrieb.</span>
       </h1>
 
       <p class="wolf-hero__sub">
-        Professionelle WÃ¤rmepumpen Reparatur Wien fÃ¼r schnelle Hilfe bei StÃ¶rungen, effizientem Betrieb, zuverlÃ¤ssigem Service und erfahrenen Technikern vor Ort.
+        Professionelle Wärmepumpen Reparatur Wien für schnelle Hilfe bei Störungen, effizientem Betrieb, zuverlässigem Service und erfahrenen Technikern vor Ort.
       </p>
 
       <div class="wolf-hero__actions">
@@ -588,7 +588,7 @@
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            GeprÃ¼fte Experten
+            Geprüfte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -601,13 +601,13 @@
   </section>
 
 
-  <!-- âœ… TOC EXACT LIKE IMAGE -->
+  <!-- ✅ TOC EXACT LIKE IMAGE -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
-    <!-- âœ… collapsed by default -->
+    <!-- ✅ collapsed by default -->
     <div class="toc-card is-collapsed" id="tocCard">
 
-      <!-- âœ… aria-expanded false by default -->
+      <!-- ✅ aria-expanded false by default -->
       <div class="toc-head"
            id="tocHead"
            role="button"
@@ -618,7 +618,7 @@
         <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
         <div class="toc-actions">
-          <!-- âœ… aria-expanded false by default -->
+          <!-- ✅ aria-expanded false by default -->
           <button class="toc-iconbtn"
                   type="button"
                   id="tocToggle"
@@ -646,7 +646,7 @@
           </li>
           <li class="toc-item">
             <a href="#systeme" class="toc-link">
-              <span class="toc-badge">03</span><span class="toc-text">HeizlÃ¶sungen</span>
+              <span class="toc-badge">03</span><span class="toc-text">Heizlösungen</span>
             </a>
           </li>
           <li class="toc-item">
@@ -656,7 +656,7 @@
           </li>
           <li class="toc-item">
             <a href="#kosten-foerderung" class="toc-link">
-              <span class="toc-badge">05</span><span class="toc-text">Kosten & FÃ¶rderung</span>
+              <span class="toc-badge">05</span><span class="toc-text">Kosten & Förderung</span>
             </a>
           </li>
           <li class="toc-item">
@@ -687,28 +687,28 @@
 </section>
 
 
-  <!-- Service Ãœberblick -->
+  <!-- Service Überblick -->
   <section class="service-section" id="service-ueberblick">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>ZuverlÃ¤ssiger WÃ¤rmepumpen Service in Wien</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. Unser wÃ¤rmepumpen service in Wien richtet sich an private und gewerbliche Kunden, die eine zuverlÃ¤ssige LÃ¶sung fÃ¼r ihre wÃ¤rmepumpe suchen.</p>
+        <h2>Zuverlässiger Wärmepumpen Service in Wien</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. Unser wärmepumpen service in Wien richtet sich an private und gewerbliche Kunden, die eine zuverlässige Lösung für ihre wärmepumpe suchen.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
-          <h3>Alle Anlagen â€“ ein Service</h3>
-          <p>Wir betreuen unterschiedliche Anlagen im gesamten Ort und auch in NiederÃ¶sterreich. Ob kleine Reparaturen oder umfangreiche Reparaturen an der gesamten Anlage â€“ unser Service deckt alles ab.</p>
+          <h3>Alle Anlagen – ein Service</h3>
+          <p>Wir betreuen unterschiedliche Anlagen im gesamten Ort und auch in Niederösterreich. Ob kleine Reparaturen oder umfangreiche Reparaturen an der gesamten Anlage – unser Service deckt alles ab.</p>
         </article>
 
         <article class="service-card service-card--service">
-          <h3>RegelmÃ¤ÃŸige Wartung</h3>
-          <p>Durch regelmÃ¤ÃŸige Wartung sichern wir den stabilen Betrieb, reduzieren Fehler und verlÃ¤ngern die Lebensdauer Ihrer Heizung.</p>
+          <h3>Regelmäßige Wartung</h3>
+          <p>Durch regelmäßige Wartung sichern wir den stabilen Betrieb, reduzieren Fehler und verlängern die Lebensdauer Ihrer Heizung.</p>
         </article>
 
         <article class="service-card service-card--service">
           <h3>Technische Beratung</h3>
-          <p>Unsere Techniker Ã¼bernehmen Beratung, ÃœberprÃ¼fung und fachgerechte Einstellungen, damit Ihr Heizsystem effizient arbeitet.</p>
+          <p>Unsere Techniker übernehmen Beratung, Überprüfung und fachgerechte Einstellungen, damit Ihr Heizsystem effizient arbeitet.</p>
         </article>
       </div>
     </div>
@@ -720,20 +720,20 @@
       <div class="service-split__text">
         <h2>Reparatur, Wartung und Inspektion</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. 
-          Eine fachgerechte Reparatur Wartung ist entscheidend, um StÃ¶rungen frÃ¼hzeitig zu erkennen und grÃ¶ÃŸere SchÃ¤den zu vermeiden. Unser Kundendienst in Wien fÃ¼hrt Inspektion, ÃœberprÃ¼fung und gezielte Reparaturen an Ihrer WÃ¤rmepumpe durch. Fehler an Komponenten, falsche Einstellungen oder VerschleiÃŸ werden systematisch behoben. RegelmÃ¤ÃŸige Wartung verbessert die Energieeffizienz, senkt Energiekosten und erhÃ¶ht die Sicherheit im laufenden Betrieb. Als Fachbetrieb arbeiten wir transparent, erklÃ¤ren alle Schritte und beraten Sie zu sinnvollen MaÃŸnahmen. Unser Service umfasst alles von kleinen Korrekturen bis zu komplexen Reparaturen, damit Ihre Anlage langfristig zuverlÃ¤ssig funktioniert.
+          Eine fachgerechte Reparatur Wartung ist entscheidend, um Störungen frühzeitig zu erkennen und größere Schäden zu vermeiden. Unser Kundendienst in Wien führt Inspektion, Überprüfung und gezielte Reparaturen an Ihrer Wärmepumpe durch. Fehler an Komponenten, falsche Einstellungen oder Verschleiß werden systematisch behoben. Regelmäßige Wartung verbessert die Energieeffizienz, senkt Energiekosten und erhöht die Sicherheit im laufenden Betrieb. Als Fachbetrieb arbeiten wir transparent, erklären alle Schritte und beraten Sie zu sinnvollen Maßnahmen. Unser Service umfasst alles von kleinen Korrekturen bis zu komplexen Reparaturen, damit Ihre Anlage langfristig zuverlässig funktioniert.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">WÃ¤rmepumpen Reparaturen</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Wärmepumpen Reparaturen</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">RegelmÃ¤ÃŸige Wartung</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Regelmäßige Wartung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Notdienst in Wien</div>
           </div>
         </div>
@@ -741,50 +741,50 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size2.jpeg') }}" alt="WÃ¤rmepumpen Reparatur Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size2.jpeg') }}" alt="Wärmepumpen Reparatur Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Moderne HeizlÃ¶sungen und Systeme -->
+  <!-- Moderne Heizlösungen und Systeme -->
   <section class="service-section" id="systeme">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Moderne HeizlÃ¶sungen und Systeme</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. Moderne WÃ¤rmepumpensysteme bieten effiziente HeizlÃ¶sungen fÃ¼r unterschiedliche Umgebungen in Wien und NiederÃ¶sterreich.</p>
+        <h2>Moderne Heizlösungen und Systeme</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. Moderne Wärmepumpensysteme bieten effiziente Heizlösungen für unterschiedliche Umgebungen in Wien und Niederösterreich.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ðŸŒ¬ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">🌬️</div>
           <div>
-            <h3>Luft- und WasserlÃ¶sungen</h3>
-            <p>Wir warten und reparieren Systeme mit Umgebungsluft oder Wasser und sichern konstante WÃ¤rme bei hoher Effizienz.</p>
+            <h3>Luft- und Wasserlösungen</h3>
+            <p>Wir warten und reparieren Systeme mit Umgebungsluft oder Wasser und sichern konstante Wärme bei hoher Effizienz.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ðŸ’§</div>
+          <div class="service-feature__icon" aria-hidden="true">💧</div>
           <div>
-            <h3>Wasser Wasser WÃ¤rmepumpe</h3>
-            <p>Professionelle Betreuung fÃ¼r Anlagen, die Grundwasser als Energiequelle nutzen â€“ zuverlÃ¤ssig und leistungsstark.</p>
+            <h3>Wasser Wasser Wärmepumpe</h3>
+            <p>Professionelle Betreuung für Anlagen, die Grundwasser als Energiequelle nutzen – zuverlässig und leistungsstark.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ðŸŒ</div>
+          <div class="service-feature__icon" aria-hidden="true">🌍</div>
           <div>
             <h3>Alternative Heizenergie</h3>
-            <p>WÃ¤rmepumpen nutzen moderne Heizenergie und reduzieren AbhÃ¤ngigkeiten von Gas, Ã–l und anderen klassischen Brennstoffen.</p>
+            <p>Wärmepumpen nutzen moderne Heizenergie und reduzieren Abhängigkeiten von Gas, Öl und anderen klassischen Brennstoffen.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">âš¡</div>
+          <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
             <h3>Hybridsysteme</h3>
-            <p>Kombinierte Systeme mit Gas oder Ã–l als ErgÃ¤nzung â€“ wir warten und optimieren Ihr gesamtes Heizsystem.</p>
+            <p>Kombinierte Systeme mit Gas oder Öl als Ergänzung – wir warten und optimieren Ihr gesamtes Heizsystem.</p>
           </div>
         </article>
       </div>
@@ -797,20 +797,20 @@
       <div class="service-split__text">
         <h2>Installation, Montage und Inbetriebnahme</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. 
-          Neben Reparaturen Ã¼bernehmen wir auch Installation, Montage und Inbetriebnahme neuer Anlagen. Unser Team aus erfahrenen Technikern, Installateuren und Mitarbeitern plant jede Umsetzung sorgfÃ¤ltig. Dabei berÃ¼cksichtigen wir Planung, Gegebenheiten vor Ort und die gewÃ¼nschte Leistung der WÃ¤rmepumpe. Eine fachgerechte Montage ist entscheidend fÃ¼r den spÃ¤teren Betrieb, die Effizienz und die Lebensdauer des GerÃ¤ts. Nach der Inbetriebnahme prÃ¼fen wir alle Einstellungen, erklÃ¤ren die Bedienung und stehen fÃ¼r weitere UnterstÃ¼tzung zur VerfÃ¼gung. So erhalten Kunden in Wien eine ganzheitliche LÃ¶sung aus einer Hand.
+          Neben Reparaturen übernehmen wir auch Installation, Montage und Inbetriebnahme neuer Anlagen. Unser Team aus erfahrenen Technikern, Installateuren und Mitarbeitern plant jede Umsetzung sorgfältig. Dabei berücksichtigen wir Planung, Gegebenheiten vor Ort und die gewünschte Leistung der Wärmepumpe. Eine fachgerechte Montage ist entscheidend für den späteren Betrieb, die Effizienz und die Lebensdauer des Geräts. Nach der Inbetriebnahme prüfen wir alle Einstellungen, erklären die Bedienung und stehen für weitere Unterstützung zur Verfügung. So erhalten Kunden in Wien eine ganzheitliche Lösung aus einer Hand.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Planung vom Fachmann</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Fachgerechte Montage</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Sichere Inbetriebnahme</div>
           </div>
         </div>
@@ -818,34 +818,34 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="WÃ¤rmepumpen Installation Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="Wärmepumpen Installation Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Kosten, Preise und FÃ¶rderung -->
+  <!-- Kosten, Preise und Förderung -->
   <section class="service-section" id="kosten-foerderung">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Kosten, Preise und FÃ¶rderung</h2>
+        <h2>Kosten, Preise und Förderung</h2>
         <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. 
-          Die Kosten fÃ¼r eine WÃ¤rmepumpen Reparatur in Wien hÃ¤ngen vom GerÃ¤t, dem Fehler und dem Umfang der Arbeiten ab. Wir erstellen ein transparentes Angebot, das Reparaturen, Service oder notwendige Komponenten klar aufschlÃ¼sselt. Faire Preise, nachvollziehbare Leistungen und keine versteckten Kosten stehen bei uns im Fokus. ZusÃ¤tzlich informieren wir Sie Ã¼ber mÃ¶gliche FÃ¶rderung und staatliche BeitrÃ¤ge, die bei Reparatur, Wartung oder Heizungstausch zur VerfÃ¼gung stehen. Eine fachkundige Beratung hilft dabei, Energiekosten zu senken und die Energieeffizienz Ihrer Anlage langfristig zu verbessern. So behalten Sie Kosten, Betrieb und Nutzen jederzeit im Blick.
+          Die Kosten für eine Wärmepumpen Reparatur in Wien hängen vom Gerät, dem Fehler und dem Umfang der Arbeiten ab. Wir erstellen ein transparentes Angebot, das Reparaturen, Service oder notwendige Komponenten klar aufschlüsselt. Faire Preise, nachvollziehbare Leistungen und keine versteckten Kosten stehen bei uns im Fokus. Zusätzlich informieren wir Sie über mögliche Förderung und staatliche Beiträge, die bei Reparatur, Wartung oder Heizungstausch zur Verfügung stehen. Eine fachkundige Beratung hilft dabei, Energiekosten zu senken und die Energieeffizienz Ihrer Anlage langfristig zu verbessern. So behalten Sie Kosten, Betrieb und Nutzen jederzeit im Blick.
         </p>
       </div>
 
       <div class="service-grid service-grid--3">
         <div class="service-pricecard">
           <h3>Transparente Preise</h3>
-          <p>Klare Aufstellung aller Kosten â€“ keine versteckten GebÃ¼hren. Sie wissen vorab, was auf Sie zukommt.</p>
+          <p>Klare Aufstellung aller Kosten – keine versteckten Gebühren. Sie wissen vorab, was auf Sie zukommt.</p>
         </div>
         <div class="service-pricecard">
           <h3>Individuelles Angebot</h3>
-          <p>MaÃŸgeschneiderte LÃ¶sung fÃ¼r Ihre Reparatur oder Wartung â€“ exakt auf Ihren Bedarf abgestimmt.</p>
+          <p>Maßgeschneiderte Lösung für Ihre Reparatur oder Wartung – exakt auf Ihren Bedarf abgestimmt.</p>
         </div>
         <div class="service-pricecard">
-          <h3>FÃ¶rderung nutzen</h3>
-          <p>Wir beraten Sie zu mÃ¶glichen FÃ¶rderungen und unterstÃ¼tzen bei der Antragstellung, um Ihre Kosten zu senken.</p>
+          <h3>Förderung nutzen</h3>
+          <p>Wir beraten Sie zu möglichen Förderungen und unterstützen bei der Antragstellung, um Ihre Kosten zu senken.</p>
         </div>
       </div>
     </div>
@@ -857,7 +857,7 @@
       <div class="service-emergency__text">
         <h2>Servicegebiet Wien und Umgebung</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. 
-          Unser Service ist in ganz Wien sowie in NiederÃ¶sterreich verfÃ¼gbar. Wir betreuen zahlreiche Orte und reagieren schnell auf Anfragen aus der Umgebung. Dank effizienter Terminvergabe sind unsere Techniker zeitnah bei Kunden vor Ort. Ob Innenstadt, Stadtrand oder angrenzende Regionen â€“ wir sorgen dafÃ¼r, dass Ihre WÃ¤rmepumpe zuverlÃ¤ssig funktioniert. Unser Service richtet sich an private Haushalte und Betriebe, die Wert auf QualitÃ¤t, VerfÃ¼gbarkeit und persÃ¶nliche Betreuung legen. Kurze Wege, schnelle UnterstÃ¼tzung und ein klarer Ansprechpartner machen unseren Kundendienst besonders effizient.
+          Unser Service ist in ganz Wien sowie in Niederösterreich verfügbar. Wir betreuen zahlreiche Orte und reagieren schnell auf Anfragen aus der Umgebung. Dank effizienter Terminvergabe sind unsere Techniker zeitnah bei Kunden vor Ort. Ob Innenstadt, Stadtrand oder angrenzende Regionen – wir sorgen dafür, dass Ihre Wärmepumpe zuverlässig funktioniert. Unser Service richtet sich an private Haushalte und Betriebe, die Wert auf Qualität, Verfügbarkeit und persönliche Betreuung legen. Kurze Wege, schnelle Unterstützung und ein klarer Ansprechpartner machen unseren Kundendienst besonders effizient.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Termin vereinbaren</a>
@@ -867,15 +867,15 @@
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Wien & NiederÃ¶sterreich</h3>
+          <h3>Wien & Niederösterreich</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Wien (alle Bezirke)</li>
-            <li>NiederÃ¶sterreich</li>
+            <li>Niederösterreich</li>
             <li>Umgebung Wien</li>
             <li>Schnelle Anfahrt</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Wir sind in Wien und NiederÃ¶sterreich aktiv und bieten flÃ¤chendeckenden Service fÃ¼r Reparatur, Wartung und Notdienst.
+            Wir sind in Wien und Niederösterreich aktiv und bieten flächendeckenden Service für Reparatur, Wartung und Notdienst.
           </p>
         </div>
       </div>
@@ -887,23 +887,23 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Warum unser Fachbetrieb</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. Als erfahrener Fachbetrieb verbinden wir technisches Know-how mit persÃ¶nlicher Betreuung.</p>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. Als erfahrener Fachbetrieb verbinden wir technisches Know-how mit persönlicher Betreuung.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
           <h3>Erfahrenes Team</h3>
-          <p>Unser Team aus Experten, Technikern und Fachleuten fÃ¼r Haustechnik arbeitet eng zusammen, um optimale LÃ¶sungen zu liefern.</p>
+          <p>Unser Team aus Experten, Technikern und Fachleuten für Haustechnik arbeitet eng zusammen, um optimale Lösungen zu liefern.</p>
         </article>
 
         <article class="service-card service-card--service">
           <h3>Starke Partner</h3>
-          <p>Wir kooperieren mit starken Partnern und bieten umfassende Dienstleistungen rund um WÃ¤rmepumpen, Klimaanlagen und Badsanierung.</p>
+          <p>Wir kooperieren mit starken Partnern und bieten umfassende Dienstleistungen rund um Wärmepumpen, Klimaanlagen und Badsanierung.</p>
         </article>
 
         <article class="service-card service-card--service">
           <h3>Klarer Ansprechpartner</h3>
-          <p>Kunden profitieren von klaren AblÃ¤ufen, kompetenter UnterstÃ¼tzung und einem zuverlÃ¤ssigen Ansprechpartner fÃ¼r alle Fragen.</p>
+          <p>Kunden profitieren von klaren Abläufen, kompetenter Unterstützung und einem zuverlässigen Ansprechpartner für alle Fragen.</p>
         </article>
       </div>
     </div>
@@ -913,39 +913,39 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>HÃ¤ufige Fragen zur WÃ¤rmepumpen Reparatur Wien</h2>
+        <h2>Häufige Fragen zur Wärmepumpen Reparatur Wien</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um Reparatur, Wartung und Service.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wie schnell ist eine Terminvergabe mÃ¶glich?</summary>
-          <p>In vielen FÃ¤llen bieten wir kurzfristige Termine an. Bei Notdienst-Anfragen reagieren wir besonders schnell.</p>
+          <summary>Wie schnell ist eine Terminvergabe möglich?</summary>
+          <p>In vielen Fällen bieten wir kurzfristige Termine an. Bei Notdienst-Anfragen reagieren wir besonders schnell.</p>
         </details>
 
         <details>
-          <summary>Welche WÃ¤rmepumpen GerÃ¤te werden repariert?</summary>
-          <p>Wir betreuen unterschiedliche GerÃ¤te, Anlagen und WÃ¤rmepumpensysteme, unabhÃ¤ngig vom Hersteller.</p>
+          <summary>Welche Wärmepumpen Geräte werden repariert?</summary>
+          <p>Wir betreuen unterschiedliche Geräte, Anlagen und Wärmepumpensysteme, unabhängig vom Hersteller.</p>
         </details>
 
         <details>
-          <summary>Was tun bei akuten StÃ¶rungen?</summary>
-          <p>Bei StÃ¶rungen empfehlen wir, den Betrieb zu stoppen und unseren Notdienst zu kontaktieren.</p>
+          <summary>Was tun bei akuten Störungen?</summary>
+          <p>Bei Störungen empfehlen wir, den Betrieb zu stoppen und unseren Notdienst zu kontaktieren.</p>
         </details>
 
         <details>
-          <summary>Gibt es FÃ¶rderungen fÃ¼r Reparatur oder Wartung?</summary>
-          <p>Ja, je nach Situation stehen FÃ¶rderungen oder BeitrÃ¤ge zur VerfÃ¼gung. Wir geben Ihnen alle relevanten Informationen.</p>
+          <summary>Gibt es Förderungen für Reparatur oder Wartung?</summary>
+          <p>Ja, je nach Situation stehen Förderungen oder Beiträge zur Verfügung. Wir geben Ihnen alle relevanten Informationen.</p>
         </details>
 
         <details>
-          <summary>Wird auch eine Inspektion durchgefÃ¼hrt?</summary>
-          <p>Ja, Inspektion und ÃœberprÃ¼fung sind fester Bestandteil unseres Service, um Fehler frÃ¼hzeitig zu erkennen.</p>
+          <summary>Wird auch eine Inspektion durchgeführt?</summary>
+          <p>Ja, Inspektion und Überprüfung sind fester Bestandteil unseres Service, um Fehler frühzeitig zu erkennen.</p>
         </details>
 
         <details>
           <summary>Wie kann ich einen Termin vereinbaren?</summary>
-          <p>Nutzen Sie unser Kontaktformular oder rufen Sie uns einfach an â€“ wir kÃ¼mmern uns umgehend um Ihr Anliegen.</p>
+          <p>Nutzen Sie unser Kontaktformular oder rufen Sie uns einfach an – wir kümmern uns umgehend um Ihr Anliegen.</p>
         </details>
       </div>
     </div>
@@ -955,7 +955,7 @@
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Termin vereinbaren und Kontakt',
-    'text' => 'Sie mÃ¶chten einen Termin fÃ¼r WÃ¤rmepumpen Reparatur Wien vereinbaren oder benÃ¶tigen Beratung? Nutzen Sie unsere Seite fÃ¼r eine schnelle Terminvergabe oder nehmen Sie direkt Kontakt mit uns auf. Wir unterstÃ¼tzen Sie bei Reparaturen, Wartung, Inspektion und allen Fragen rund um Ihre Anlage. Gerne informieren wir Sie zu Preisen, FÃ¶rderung und passenden LÃ¶sungen fÃ¼r Ihr Zuhause. Kontaktieren Sie uns telefonisch oder Ã¼ber unsere E-Mail Adresse â€“ wir stehen Ihnen zuverlÃ¤ssig zur VerfÃ¼gung.',
+    'text' => 'Sie möchten einen Termin für Wärmepumpen Reparatur Wien vereinbaren oder benötigen Beratung? Nutzen Sie unsere Seite für eine schnelle Terminvergabe oder nehmen Sie direkt Kontakt mit uns auf. Wir unterstützen Sie bei Reparaturen, Wartung, Inspektion und allen Fragen rund um Ihre Anlage. Gerne informieren wir Sie zu Preisen, Förderung und passenden Lösungen für Ihr Zuhause. Kontaktieren Sie uns telefonisch oder über unsere E-Mail Adresse – wir stehen Ihnen zuverlässig zur Verfügung.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -964,6 +964,8 @@
 </main>
 
 @endsection
+
+
 
 
 

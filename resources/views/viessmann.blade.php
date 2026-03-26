@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -861,3 +861,4 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
   })();
 </script>
 @endsection
+

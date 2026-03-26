@@ -1,4 +1,4 @@
-<!-- =========================================================
+﻿<!-- =========================================================
 FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
 ✅ Mobile = BOOTSTRAP OFFCANVAS (left) with internal scroll
 ✅ Link click FIX: close then navigate/scroll (#kontakt works)
@@ -127,7 +127,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ route('viessmann.kundendienst') }}"><img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('saunier-duval.kundendienst') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('wolf.kundendienst') }}"><img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
-              <a class="mm-dd-item mm-navlink" href="{{ route('löblich.kundendienst') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="mm-dd-item mm-navlink" href="{{ route('loeblich.kundendienst') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('ocean.kundendienst') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('rapido.kundendienst') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('windhager.kundendienst') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
@@ -154,7 +154,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ route('viessmann.notdienst') }}"><img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('saunier-duval.notdienst') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('wolf.notdienst') }}"><img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
-              <a class="mm-dd-item mm-navlink" href="{{ route('löblich.notdienst') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="mm-dd-item mm-navlink" href="{{ route('loeblich.notdienst') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('ocean.notdienst') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('rapido.notdienst') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('windhager.notdienst') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
@@ -181,7 +181,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ route('viessmann.thermentausch') }}"><img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('wolf.thermentausch') }}"><img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('saunier-duval.thermentausch') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
-              <a class="mm-dd-item mm-navlink" href="{{ route('löblich.thermentausch') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="mm-dd-item mm-navlink" href="{{ route('loeblich.thermentausch') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('ocean.thermentausch') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('rapido.thermentausch') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('windhager.thermentausch') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
@@ -207,7 +207,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ route('junkers.thermenreparatur') }}"><img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('viessmann.thermenreparatur') }}"><img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('saunier-duval.thermenreparatur') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
-              <a class="mm-dd-item mm-navlink" href="{{ route('löblich.thermenreparatur') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="mm-dd-item mm-navlink" href="{{ route('loeblich.thermenreparatur') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('ocean.thermenreparatur') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('wolf.thermenreparatur') }}"><img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('rapido.thermenreparatur') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
@@ -235,7 +235,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="mm-dd-item mm-navlink" href="{{ route('viessmann.installateur') }}"><img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('saunier-duval.installateur') }}"><img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('wolf.installateur') }}"><img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
-              <a class="mm-dd-item mm-navlink" href="{{ route('löblich.installateur') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="mm-dd-item mm-navlink" href="{{ route('loeblich.installateur') }}"><img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('ocean.installateur') }}"><img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('rapido.installateur') }}"><img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
               <a class="mm-dd-item mm-navlink" href="{{ route('windhager.installateur') }}"><img src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
@@ -360,7 +360,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" href="{{ route('viessmann.kundendienst') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="dd-item" href="{{ route('saunier-duval.kundendienst') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
               <a class="dd-item" href="{{ route('wolf.kundendienst') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
-              <a class="dd-item" href="{{ route('löblich.kundendienst') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="dd-item" href="{{ route('loeblich.kundendienst') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="dd-item" href="{{ route('ocean.kundendienst') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="dd-item" href="{{ route('rapido.kundendienst') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
               <a class="dd-item" href="{{ route('windhager.kundendienst') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
@@ -382,7 +382,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" href="{{ route('viessmann.notdienst') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="dd-item" href="{{ route('saunier-duval.notdienst') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
               <a class="dd-item" href="{{ route('wolf.notdienst') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
-              <a class="dd-item" href="{{ route('löblich.notdienst') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="dd-item" href="{{ route('loeblich.notdienst') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="dd-item" href="{{ route('ocean.notdienst') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="dd-item" href="{{ route('rapido.notdienst') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
               <a class="dd-item" href="{{ route('windhager.notdienst') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
@@ -404,7 +404,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" href="{{ route('viessmann.thermentausch') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="dd-item" href="{{ route('wolf.thermentausch') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
               <a class="dd-item" href="{{ route('saunier-duval.thermentausch') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
-              <a class="dd-item" href="{{ route('löblich.thermentausch') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="dd-item" href="{{ route('loeblich.thermentausch') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="dd-item" href="{{ route('ocean.thermentausch') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="dd-item" href="{{ route('rapido.thermentausch') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
               <a class="dd-item" href="{{ route('windhager.thermentausch') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
@@ -425,7 +425,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" href="{{ route('junkers.thermenreparatur') }}"><img class="dd-logo" src="{{ asset('img/junkers.jpg') }}" alt="Junkers">Junkers</a>
               <a class="dd-item" href="{{ route('viessmann.thermenreparatur') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="dd-item" href="{{ route('saunier-duval.thermenreparatur') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
-              <a class="dd-item" href="{{ route('löblich.thermenreparatur') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="dd-item" href="{{ route('loeblich.thermenreparatur') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="dd-item" href="{{ route('ocean.thermenreparatur') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="dd-item" href="{{ route('wolf.thermenreparatur') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
               <a class="dd-item" href="{{ route('rapido.thermenreparatur') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
@@ -448,7 +448,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" href="{{ route('viessmann.installateur') }}"><img class="dd-logo" src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">Viessmann</a>
               <a class="dd-item" href="{{ route('saunier-duval.installateur') }}"><img class="dd-logo" src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">Saunier Duval</a>
               <a class="dd-item" href="{{ route('wolf.installateur') }}"><img class="dd-logo" src="{{ asset('img/wolf.jpg') }}" alt="Wolf">Wolf</a>
-              <a class="dd-item" href="{{ route('löblich.installateur') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
+              <a class="dd-item" href="{{ route('loeblich.installateur') }}"><img class="dd-logo" src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">Löblich</a>
               <a class="dd-item" href="{{ route('ocean.installateur') }}"><img class="dd-logo" src="{{ asset('img/ocean.jpg') }}" alt="Ocean">Ocean</a>
               <a class="dd-item" href="{{ route('rapido.installateur') }}"><img class="dd-logo" src="{{ asset('img/rapido.jpg') }}" alt="Rapido">Rapido</a>
               <a class="dd-item" href="{{ route('windhager.installateur') }}"><img class="dd-logo" src="{{ asset('img/Windhager.png') }}" alt="Windhager">Windhager</a>
@@ -521,7 +521,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('viessmann.kundendienst') }}">Viessmann</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('saunier-duval.kundendienst') }}">Saunier Duval</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('wolf.kundendienst') }}">Wolf</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('löblich.kundendienst') }}">Löblich</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('loeblich.kundendienst') }}">Löblich</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('ocean.kundendienst') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('rapido.kundendienst') }}">Rapido</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('windhager.kundendienst') }}">Windhager</a>
@@ -542,7 +542,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('viessmann.notdienst') }}">Viessmann</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('saunier-duval.notdienst') }}">Saunier Duval</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('wolf.notdienst') }}">Wolf</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('löblich.notdienst') }}">Löblich</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('loeblich.notdienst') }}">Löblich</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('ocean.notdienst') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('rapido.notdienst') }}">Rapido</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('windhager.notdienst') }}">Windhager</a>
@@ -563,7 +563,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('viessmann.thermentausch') }}">Viessmann</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('wolf.thermentausch') }}">Wolf</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('saunier-duval.thermentausch') }}">Saunier Duval</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('löblich.thermentausch') }}">Löblich</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('loeblich.thermentausch') }}">Löblich</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('ocean.thermentausch') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('rapido.thermentausch') }}">Rapido</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('windhager.thermentausch') }}">Windhager</a>
@@ -584,7 +584,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('viessmann.thermenreparatur') }}">Viessmann</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('saunier-duval.thermenreparatur') }}">Saunier Duval</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('wolf.thermenreparatur') }}">Wolf</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('löblich.thermenreparatur') }}">Löblich</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('loeblich.thermenreparatur') }}">Löblich</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('ocean.thermenreparatur') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('rapido.thermenreparatur') }}">Rapido</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('windhager.thermenreparatur') }}">Windhager</a>
@@ -605,7 +605,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('viessmann.installateur') }}">Viessmann</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('saunier-duval.installateur') }}">Saunier Duval</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('wolf.installateur') }}">Wolf</a>
-              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('löblich.installateur') }}">Löblich</a>
+              <a class="dd-item" style="text-transform:uppercase;" href="{{ route('loeblich.installateur') }}">Löblich</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('ocean.installateur') }}">Ocean</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('rapido.installateur') }}">Rapido</a>
               <a class="dd-item" style="text-transform:uppercase;" href="{{ route('windhager.installateur') }}">Windhager</a>
@@ -827,3 +827,5 @@ REQUIRED:
 Bootstrap 5 bundle (includes Offcanvas + Collapse):
 <script src=".../bootstrap.bundle.min.js"></script>
 ========================================================= -->
+
+

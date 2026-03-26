@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -906,3 +906,4 @@ $metaDescription = "Wolf Kundendienst Wien für Thermen, Heizung & Heizsysteme. 
 </main>
 
 @endsection
+

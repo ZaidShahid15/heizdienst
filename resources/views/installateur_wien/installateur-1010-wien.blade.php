@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -382,7 +382,7 @@ $metaDescription = "Installateur   1010 Wien – schneller 24h Installateur Wien
   </a>
 
       <!-- 8 -->
- <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+ <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
     <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
     <span>LÖBLICH THERMENSERVICE</span>
   </a>
@@ -482,3 +482,5 @@ $metaDescription = "Installateur   1010 Wien – schneller 24h Installateur Wien
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+

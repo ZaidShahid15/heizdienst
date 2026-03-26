@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
     @section('main')
 
@@ -329,7 +329,7 @@
   </a>
 
       <!-- 8 -->
- <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+ <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
     <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
     <span>LÖBLICH THERMENSERVICE</span>
   </a>
@@ -445,3 +445,5 @@
 <script src="{{ asset('js/main.js') }}"></script>
 
     @endsection
+
+

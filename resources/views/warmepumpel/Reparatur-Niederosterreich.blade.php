@@ -1,8 +1,8 @@
 ﻿@extends('layout.app')
 
 @php
-    $metaTitle = 'WÃ¤rmepumpen Reparatur NiederÃ¶sterreich | Service & Wartung';
-    $metaDescription = 'WÃ¤rmepumpen Reparatur NiederÃ¶sterreich vom Profi. Service, Wartung, ÃœberprÃ¼fung & faire Preise in ganz NÃ– und Wien. Schnelle Anfahrt & zuverlÃ¤ssige Techniker.';
+    $metaTitle = 'Wärmepumpen Reparatur Niederösterreich | Service & Wartung';
+    $metaDescription = 'Wärmepumpen Reparatur Niederösterreich vom Profi. Service, Wartung, Überprüfung & faire Preise in ganz NÖ und Wien. Schnelle Anfahrt & zuverlässige Techniker.';
 @endphp
 
 @section('main')
@@ -66,7 +66,7 @@
 
 
   /* =========================
-     âœ… TOC like screenshot
+     ✅ TOC like screenshot
      ========================= */
   .toc-wrap{
     padding:16px 0 0;
@@ -368,7 +368,7 @@
 </style>
 <style>
   /* =====================================
-   MOBILE HERO â€“ EXACT LIKE SCREENSHOT
+   MOBILE HERO – EXACT LIKE SCREENSHOT
    ===================================== */
    .hero-first-block{
   padding: 20px 0;
@@ -545,12 +545,12 @@
   <section class="wolf-hero" id="hero-services">
     <div class="wolf-hero__inner container">
       <h1>
-        WÃ¤rmepumpen Reparatur NiederÃ¶sterreich <br>
+        Wärmepumpen Reparatur Niederösterreich <br>
         <span style="color:#FB9A1B;">Service & Wartung vom Fachbetrieb.</span>
       </h1>
 
       <p class="wolf-hero__sub">
-        Professionelle WÃ¤rmepumpen Reparatur NiederÃ¶sterreich fÃ¼r zuverlÃ¤ssigen Service, schnelle Hilfe bei StÃ¶rungen und erfahrene Techniker in Ihrer Region.
+        Professionelle Wärmepumpen Reparatur Niederösterreich für zuverlässigen Service, schnelle Hilfe bei Störungen und erfahrene Techniker in Ihrer Region.
       </p>
 
       <div class="wolf-hero__actions">
@@ -588,7 +588,7 @@
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            GeprÃ¼fte Experten
+            Geprüfte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -601,13 +601,13 @@
   </section>
 
 
-  <!-- âœ… TOC EXACT LIKE IMAGE -->
+  <!-- ✅ TOC EXACT LIKE IMAGE -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
-    <!-- âœ… collapsed by default -->
+    <!-- ✅ collapsed by default -->
     <div class="toc-card is-collapsed" id="tocCard">
 
-      <!-- âœ… aria-expanded false by default -->
+      <!-- ✅ aria-expanded false by default -->
       <div class="toc-head"
            id="tocHead"
            role="button"
@@ -618,7 +618,7 @@
         <h4 id="tocTitle">Inhaltsverzeichnis</h4>
 
         <div class="toc-actions">
-          <!-- âœ… aria-expanded false by default -->
+          <!-- ✅ aria-expanded false by default -->
           <button class="toc-iconbtn"
                   type="button"
                   id="tocToggle"
@@ -636,7 +636,7 @@
         <ul class="toc-list" id="tocList">
           <li class="toc-item">
             <a href="#service-noe" class="toc-link">
-              <span class="toc-badge">01</span><span class="toc-text">Service NÃ–</span>
+              <span class="toc-badge">01</span><span class="toc-text">Service NÖ</span>
             </a>
           </li>
           <li class="toc-item">
@@ -656,7 +656,7 @@
           </li>
           <li class="toc-item">
             <a href="#preise" class="toc-link">
-              <span class="toc-badge">05</span><span class="toc-text">Preise & QualitÃ¤t</span>
+              <span class="toc-badge">05</span><span class="toc-text">Preise & Qualität</span>
             </a>
           </li>
           <li class="toc-item">
@@ -687,99 +687,99 @@
 </section>
 
 
-  <!-- WÃ¤rmepumpen Service in NiederÃ¶sterreich -->
+  <!-- Wärmepumpen Service in Niederösterreich -->
   <section class="service-section" id="service-noe">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>WÃ¤rmepumpen Service in NiederÃ¶sterreich</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. Unser WÃ¤rmepumpen Service in NiederÃ¶sterreich betreut private Haushalte, Unternehmen und Gewerbebetriebe in der gesamten Region.</p>
+        <h2>Wärmepumpen Service in Niederösterreich</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. Unser Wärmepumpen Service in Niederösterreich betreut private Haushalte, Unternehmen und Gewerbebetriebe in der gesamten Region.</p>
       </div>
 
       <div class="service-grid service-grid--3">
         <article class="service-card service-card--service">
           <h3>Flexibel im Einsatz</h3>
-          <p>Ob in Wiener Neudorf, Wiener Neustadt, Tulln, Schwechat oder GÃ¤nserndorf â€“ unsere Techniker sind flexibel im Einsatz und kÃ¼mmern sich um Wartung, Reparatur und regelmÃ¤ÃŸige ÃœberprÃ¼fung Ihrer WÃ¤rmepumpen.</p>
+          <p>Ob in Wiener Neudorf, Wiener Neustadt, Tulln, Schwechat oder Gänserndorf – unsere Techniker sind flexibel im Einsatz und kümmern sich um Wartung, Reparatur und regelmäßige Überprüfung Ihrer Wärmepumpen.</p>
         </article>
         <article class="service-card service-card--service">
           <h3>Individuelle Haustechnik</h3>
-          <p>Wir berÃ¼cksichtigen individuelle Haustechnik, bestehende Heizsysteme und moderne Energie-LÃ¶sungen wie PV Anlagen, um die Leistung Ihrer Anlage zu steigern.</p>
+          <p>Wir berücksichtigen individuelle Haustechnik, bestehende Heizsysteme und moderne Energie-Lösungen wie PV Anlagen, um die Leistung Ihrer Anlage zu steigern.</p>
         </article>
         <article class="service-card service-card--service">
-          <h3>QualitÃ¤t und schnelle Anfahrt</h3>
-          <p>Auch in Wien und NÃ– stehen wir als erfahrener Partner fÃ¼r QualitÃ¤t, transparente Preise und rasche Anfahrt zur VerfÃ¼gung.</p>
+          <h3>Qualität und schnelle Anfahrt</h3>
+          <p>Auch in Wien und NÖ stehen wir als erfahrener Partner für Qualität, transparente Preise und rasche Anfahrt zur Verfügung.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Reparatur, Wartung und ÃœberprÃ¼fung -->
+  <!-- Reparatur, Wartung und Überprüfung -->
   <section class="service-section service-section--soft" id="reparatur-wartung">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Reparatur, Wartung und ÃœberprÃ¼fung</h2>
+        <h2>Reparatur, Wartung und Überprüfung</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. 
-          Eine regelmÃ¤ÃŸige Wartung und ÃœberprÃ¼fung Ihrer WÃ¤rmepumpen ist entscheidend fÃ¼r einen sicheren Betrieb und eine konstante WÃ¤rmeversorgung. Unser Installateur-Team fÃ¼hrt fachgerechte Reparatur-Arbeiten durch und behebt Probleme, StÃ¶rungen oder ungewÃ¶hnliche GerÃ¤usche rasch und zuverlÃ¤ssig. Mit prÃ¤ziser Fehlerdiagnose erkennen wir SchÃ¤den frÃ¼hzeitig und vermeiden grÃ¶ÃŸere Folgekosten. Die Reinigung von Komponenten, Kontrolle der Dichtheit und ÃœberprÃ¼fung von Gas- sowie Wasser-Leitungen sichern die Funktion Ihrer Heizungsanlage. Unser WÃ¤rmepumpen Service deckt alle Arbeiten ab â€“ von der kleinen Reparatur bis zur umfassenden Wartung. So bleibt Ihre Heizung effizient, leistungsstark und optimal auf Ihr Zuhause abgestimmt.
+          Eine regelmäßige Wartung und Überprüfung Ihrer Wärmepumpen ist entscheidend für einen sicheren Betrieb und eine konstante Wärmeversorgung. Unser Installateur-Team führt fachgerechte Reparatur-Arbeiten durch und behebt Probleme, Störungen oder ungewöhnliche Geräusche rasch und zuverlässig. Mit präziser Fehlerdiagnose erkennen wir Schäden frühzeitig und vermeiden größere Folgekosten. Die Reinigung von Komponenten, Kontrolle der Dichtheit und Überprüfung von Gas- sowie Wasser-Leitungen sichern die Funktion Ihrer Heizungsanlage. Unser Wärmepumpen Service deckt alle Arbeiten ab – von der kleinen Reparatur bis zur umfassenden Wartung. So bleibt Ihre Heizung effizient, leistungsstark und optimal auf Ihr Zuhause abgestimmt.
         </p>
 
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">Schnelle Reparatur bei StÃ¶rungen</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Schnelle Reparatur bei Störungen</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">RegelmÃ¤ÃŸige Wartung und Reinigung</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Regelmäßige Wartung und Reinigung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">Notfall-Service im gesamten NÃ–</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Notfall-Service im gesamten NÖ</div>
           </div>
         </div>
       </div>
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size2.jpeg') }}" alt="WÃ¤rmepumpen Reparatur" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size2.jpeg') }}" alt="Wärmepumpen Reparatur" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Moderne WÃ¤rmepumpen und Heizsysteme -->
+  <!-- Moderne Wärmepumpen und Heizsysteme -->
   <section class="service-section" id="moderne-systeme">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Moderne WÃ¤rmepumpen und Heizsysteme</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. Moderne WÃ¤rmepumpen bieten nachhaltige LÃ¶sungen fÃ¼r Heizung und KÃ¼hlung in NiederÃ¶sterreich.</p>
+        <h2>Moderne Wärmepumpen und Heizsysteme</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. Moderne Wärmepumpen bieten nachhaltige Lösungen für Heizung und Kühlung in Niederösterreich.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ðŸŒ¬ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">🌬️</div>
           <div>
-            <h3>Luft Wasser WÃ¤rmepumpe LÃ¶sungen</h3>
-            <p>Wir betreuen Luft Wasser WÃ¤rmepumpe Systeme fÃ¼r effizientes Heizen und KÃ¼hlen in Wohn- und Gewerbeobjekten.</p>
+            <h3>Luft Wasser Wärmepumpe Lösungen</h3>
+            <p>Wir betreuen Luft Wasser Wärmepumpe Systeme für effizientes Heizen und Kühlen in Wohn- und Gewerbeobjekten.</p>
           </div>
         </article>
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ðŸ’§</div>
+          <div class="service-feature__icon" aria-hidden="true">💧</div>
           <div>
             <h3>Wasserbasierte Heiztechnik</h3>
-            <p>Eine Wasser Wasser WÃ¤rmepumpe nutzt Grundwasser fÃ¼r konstante Energie und hohe Effizienz im Betrieb.</p>
+            <p>Eine Wasser Wasser Wärmepumpe nutzt Grundwasser für konstante Energie und hohe Effizienz im Betrieb.</p>
           </div>
         </article>
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">â˜€ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">☀️</div>
           <div>
             <h3>Kombination mit PV Anlagen</h3>
-            <p>In Kombination mit PV Anlagen entsteht ein besonders effizientes Gesamtsystem â€“ wir beraten Sie zur optimalen Planung.</p>
+            <p>In Kombination mit PV Anlagen entsteht ein besonders effizientes Gesamtsystem – wir beraten Sie zur optimalen Planung.</p>
           </div>
         </article>
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">âš™ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">⚙️</div>
           <div>
             <h3>Integration bestehender Technik</h3>
-            <p>Auch bestehende HeizgerÃ¤te und Haustechnik werden in das neue Konzept integriert, um maximale Effizienz sicherzustellen.</p>
+            <p>Auch bestehende Heizgeräte und Haustechnik werden in das neue Konzept integriert, um maximale Effizienz sicherzustellen.</p>
           </div>
         </article>
       </div>
@@ -792,19 +792,19 @@
       <div class="service-split__text">
         <h2>Installation, Montage und Einbau</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. 
-          Neben Reparatur und Wartung Ã¼bernehmen wir auch Installation, Einbau und Montage neuer WÃ¤rmepumpen in NiederÃ¶sterreich. Unsere Installateure planen jedes Projekt sorgfÃ¤ltig und stimmen die Umsetzung auf vorhandene Haustechnik, Heizsystem und individuelle BedÃ¼rfnisse ab. Eine prÃ¤zise Planung reduziert spÃ¤tere Probleme und steigert die QualitÃ¤t der gesamten Anlage. WÃ¤hrend der Arbeitszeit achten unsere Techniker auf saubere AblÃ¤ufe und transparente Kommunikation. Ersatzteile werden bei Bedarf rasch beschafft, damit keine unnÃ¶tigen VerzÃ¶gerungen entstehen. Ob in Brunn am Gebirge, GroÃŸ Enzersdorf, Leobersdorf, Spillern oder Pillichsdorf â€“ unser Unternehmen steht fÃ¼r ZuverlÃ¤ssigkeit und fachgerechte Umsetzung.
+          Neben Reparatur und Wartung übernehmen wir auch Installation, Einbau und Montage neuer Wärmepumpen in Niederösterreich. Unsere Installateure planen jedes Projekt sorgfältig und stimmen die Umsetzung auf vorhandene Haustechnik, Heizsystem und individuelle Bedürfnisse ab. Eine präzise Planung reduziert spätere Probleme und steigert die Qualität der gesamten Anlage. Während der Arbeitszeit achten unsere Techniker auf saubere Abläufe und transparente Kommunikation. Ersatzteile werden bei Bedarf rasch beschafft, damit keine unnötigen Verzögerungen entstehen. Ob in Brunn am Gebirge, Groß Enzersdorf, Leobersdorf, Spillern oder Pillichsdorf – unser Unternehmen steht für Zuverlässigkeit und fachgerechte Umsetzung.
         </p>
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
-            <div class="service-stat__label">SorgfÃ¤ltige Planung</div>
+            <div class="service-stat__num">✓</div>
+            <div class="service-stat__label">Sorgfältige Planung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Transparente Kommunikation</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Schnelle Ersatzteilbeschaffung</div>
           </div>
         </div>
@@ -812,19 +812,19 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="WÃ¤rmepumpen Installation" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="Wärmepumpen Installation" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Preise, Pauschalpreise und QualitÃ¤t (dark style) -->
+  <!-- Preise, Pauschalpreise und Qualität (dark style) -->
   <section class="service-section service-section--dark" id="preise">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Preise, Pauschalpreise und QualitÃ¤t</h2>
+        <h2>Preise, Pauschalpreise und Qualität</h2>
         <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. 
-          Transparente Preise und faire Pauschalpreise sind ein zentraler Bestandteil unseres WÃ¤rmepumpen Service in NiederÃ¶sterreich. Die Kosten fÃ¼r Reparatur, Wartung oder ÃœberprÃ¼fung hÃ¤ngen von Anlage, Arbeitszeit und eventuellen SchÃ¤den ab. Vor Beginn erhalten Kunden einen klaren Ãœberblick Ã¼ber alle Leistungen. Unser Unternehmen legt groÃŸen Wert auf QualitÃ¤t, ZuverlÃ¤ssigkeit und nachhaltige LÃ¶sungen. Durch regelmÃ¤ÃŸige Wartung steigern wir die Effizienz Ihrer WÃ¤rmepumpen und reduzieren langfristig Energie- und Betriebskosten. Ob kleinere Reparatur, Austausch von Ersatzteilen oder umfassende Instandsetzung â€“ wir stehen als erfahrener Partner in ganz NÃ– zur VerfÃ¼gung.
+          Transparente Preise und faire Pauschalpreise sind ein zentraler Bestandteil unseres Wärmepumpen Service in Niederösterreich. Die Kosten für Reparatur, Wartung oder Überprüfung hängen von Anlage, Arbeitszeit und eventuellen Schäden ab. Vor Beginn erhalten Kunden einen klaren Überblick über alle Leistungen. Unser Unternehmen legt großen Wert auf Qualität, Zuverlässigkeit und nachhaltige Lösungen. Durch regelmäßige Wartung steigern wir die Effizienz Ihrer Wärmepumpen und reduzieren langfristig Energie- und Betriebskosten. Ob kleinere Reparatur, Austausch von Ersatzteilen oder umfassende Instandsetzung – wir stehen als erfahrener Partner in ganz NÖ zur Verfügung.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Angebot anfordern</a>
@@ -838,36 +838,36 @@
           <ul class="service-checklist service-checklist--on-dark">
             <li>Faire Pauschalpreise</li>
             <li>Transparente Kostenaufstellung</li>
-            <li>Keine versteckten GebÃ¼hren</li>
+            <li>Keine versteckten Gebühren</li>
             <li>Langfristige Einsparungen</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Durch regelmÃ¤ÃŸige Wartung senken Sie Ihre Energiekosten und vermeiden teure Reparaturen.
+            Durch regelmäßige Wartung senken Sie Ihre Energiekosten und vermeiden teure Reparaturen.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Einsatzgebiet NiederÃ¶sterreich und Wien -->
+  <!-- Einsatzgebiet Niederösterreich und Wien -->
   <section class="service-section" id="einsatzgebiet">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Einsatzgebiet NiederÃ¶sterreich und Wien</h2>
-        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. Unser Servicegebiet umfasst ganz NiederÃ¶sterreich sowie angrenzende Regionen in Wien.</p>
+        <h2>Einsatzgebiet Niederösterreich und Wien</h2>
+        <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. Unser Servicegebiet umfasst ganz Niederösterreich sowie angrenzende Regionen in Wien.</p>
       </div>
 
       <div class="service-chips">
-        <span class="service-chip">Bad VÃ¶slau</span>
+        <span class="service-chip">Bad Vöslau</span>
         <span class="service-chip">Wiener Neustadt</span>
         <span class="service-chip">Wiener Neudorf</span>
-        <span class="service-chip">GÃ¤nserndorf</span>
+        <span class="service-chip">Gänserndorf</span>
         <span class="service-chip">Wolkersdorf</span>
         <span class="service-chip">Tulln</span>
         <span class="service-chip">Schwechat</span>
         <span class="service-chip">Laa</span>
         <span class="service-chip">Theresienfeld</span>
-        <span class="service-chip">GroÃŸ Enzersdorf</span>
+        <span class="service-chip">Groß Enzersdorf</span>
         <span class="service-chip">Spillern</span>
         <span class="service-chip">Pillichsdorf</span>
         <span class="service-chip">Thaya</span>
@@ -875,31 +875,31 @@
 
       <div class="service-card" style="margin-top:14px;">
         <p style="margin:0;">
-          Dank kurzer Anfahrt gewÃ¤hrleisten wir schnelle Hilfe bei StÃ¶rungen und Problemen. Unsere Techniker sind flexibel im Einsatz und kÃ¼mmern sich zuverlÃ¤ssig um Wartung, Reparatur und ÃœberprÃ¼fung Ihrer WÃ¤rmepumpen. Egal ob im privaten Zuhause oder im gewerblichen Betrieb â€“ wir sorgen fÃ¼r sichere Funktion und konstante WÃ¤rme in der gesamten Region NiederÃ¶sterreich.
+          Dank kurzer Anfahrt gewährleisten wir schnelle Hilfe bei Störungen und Problemen. Unsere Techniker sind flexibel im Einsatz und kümmern sich zuverlässig um Wartung, Reparatur und Überprüfung Ihrer Wärmepumpen. Egal ob im privaten Zuhause oder im gewerblichen Betrieb – wir sorgen für sichere Funktion und konstante Wärme in der gesamten Region Niederösterreich.
         </p>
       </div>
     </div>
   </section>
 
-  <!-- Warum unser Unternehmen in NÃ– -->
+  <!-- Warum unser Unternehmen in NÖ -->
   <section class="service-section service-section--soft" id="unternehmen">
     <div class="service-container service-split">
       <div class="service-split__text">
-        <h2>Warum unser Unternehmen in NÃ–</h2>
+        <h2>Warum unser Unternehmen in NÖ</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. 
-          Als erfahrenes Unternehmen im Bereich Haustechnik stehen wir fÃ¼r QualitÃ¤t, ZuverlÃ¤ssigkeit und nachhaltige Technik. Unser Team aus Installateur, KÃ¤ltetechniker und spezialisierten Technikern arbeitet eng zusammen, um optimale LÃ¶sungen fÃ¼r WÃ¤rmepumpen und Klimaanlagen zu bieten. Wir betreuen Heizungsanlage, HeizgerÃ¤te und komplette Systeme inklusive Gas-Anbindung. Unsere Beratung berÃ¼cksichtigt Energieverbrauch, Effizienz und individuelle Anforderungen. Kunden profitieren von strukturierter Planung, professioneller Montage und fachgerechter ÃœberprÃ¼fung. Durch kontinuierliche Reinigung, FunktionsprÃ¼fung und Kontrolle sichern wir den langfristigen Betrieb Ihrer Anlage und erhÃ¶hen deren Lebensdauer.
+          Als erfahrenes Unternehmen im Bereich Haustechnik stehen wir für Qualität, Zuverlässigkeit und nachhaltige Technik. Unser Team aus Installateur, Kältetechniker und spezialisierten Technikern arbeitet eng zusammen, um optimale Lösungen für Wärmepumpen und Klimaanlagen zu bieten. Wir betreuen Heizungsanlage, Heizgeräte und komplette Systeme inklusive Gas-Anbindung. Unsere Beratung berücksichtigt Energieverbrauch, Effizienz und individuelle Anforderungen. Kunden profitieren von strukturierter Planung, professioneller Montage und fachgerechter Überprüfung. Durch kontinuierliche Reinigung, Funktionsprüfung und Kontrolle sichern wir den langfristigen Betrieb Ihrer Anlage und erhöhen deren Lebensdauer.
         </p>
         <div class="service-stats">
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Erfahrenes Team</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Umfassende Betreuung</div>
           </div>
           <div class="service-stat">
-            <div class="service-stat__num">âœ“</div>
+            <div class="service-stat__num">✓</div>
             <div class="service-stat__label">Nachhaltige Technik</div>
           </div>
         </div>
@@ -917,30 +917,30 @@
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>HÃ¤ufige Fragen zur WÃ¤rmepumpen Reparatur NiederÃ¶sterreich</h2>
+        <h2>Häufige Fragen zur Wärmepumpen Reparatur Niederösterreich</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. Die wichtigsten Antworten rund um Reparatur, Wartung und Service.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>Wie oft sollte eine Wartung durchgefÃ¼hrt werden?</summary>
-          <p>Eine jÃ¤hrliche Wartung inklusive ÃœberprÃ¼fung und Reinigung ist empfehlenswert, um Effizienz, Funktion und Sicherheit der WÃ¤rmepumpen dauerhaft zu gewÃ¤hrleisten.</p>
+          <summary>Wie oft sollte eine Wartung durchgeführt werden?</summary>
+          <p>Eine jährliche Wartung inklusive Überprüfung und Reinigung ist empfehlenswert, um Effizienz, Funktion und Sicherheit der Wärmepumpen dauerhaft zu gewährleisten.</p>
         </details>
         <details>
-          <summary>Was tun bei ungewÃ¶hnlichen GerÃ¤uschen oder StÃ¶rungen?</summary>
-          <p>Bei auffÃ¤lligen GerÃ¤uschen oder StÃ¶rungen sollte rasch ein Techniker kontaktiert werden, um SchÃ¤den und grÃ¶ÃŸere Reparatur-Kosten zu vermeiden.</p>
+          <summary>Was tun bei ungewöhnlichen Geräuschen oder Störungen?</summary>
+          <p>Bei auffälligen Geräuschen oder Störungen sollte rasch ein Techniker kontaktiert werden, um Schäden und größere Reparatur-Kosten zu vermeiden.</p>
         </details>
         <details>
-          <summary>Wird auch eine FunktionsprÃ¼fung durchgefÃ¼hrt?</summary>
-          <p>Ja, jede Wartung beinhaltet eine umfassende FunktionsprÃ¼fung, Kontrolle der Dichtheit sowie ÃœberprÃ¼fung aller relevanten Komponenten.</p>
+          <summary>Wird auch eine Funktionsprüfung durchgeführt?</summary>
+          <p>Ja, jede Wartung beinhaltet eine umfassende Funktionsprüfung, Kontrolle der Dichtheit sowie Überprüfung aller relevanten Komponenten.</p>
         </details>
         <details>
-          <summary>Sind auch Gas- oder Hybrid-Systeme mÃ¶glich?</summary>
-          <p>Wir betreuen auch Anlagen mit Gas-UnterstÃ¼tzung und kombinierte Systeme innerhalb moderner Haustechnik-Konzepte.</p>
+          <summary>Sind auch Gas- oder Hybrid-Systeme möglich?</summary>
+          <p>Wir betreuen auch Anlagen mit Gas-Unterstützung und kombinierte Systeme innerhalb moderner Haustechnik-Konzepte.</p>
         </details>
         <details>
-          <summary>Wie schnell ist eine Anfahrt in NiederÃ¶sterreich?</summary>
-          <p>Dank regionaler Struktur sind wir in ganz NiederÃ¶sterreich mit kurzer Anfahrt fÃ¼r unsere Kunden verfÃ¼gbar.</p>
+          <summary>Wie schnell ist eine Anfahrt in Niederösterreich?</summary>
+          <p>Dank regionaler Struktur sind wir in ganz Niederösterreich mit kurzer Anfahrt für unsere Kunden verfügbar.</p>
         </details>
       </div>
     </div>
@@ -950,7 +950,7 @@
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Termin vereinbaren und Kontakt aufnehmen',
-    'text' => 'Sie benÃ¶tigen eine WÃ¤rmepumpen Reparatur NiederÃ¶sterreich oder mÃ¶chten eine Wartung planen? Kontaktieren Sie uns Ã¼ber unsere Seite und vereinbaren Sie einen Termin. Unser Team steht Ihnen fÃ¼r Beratung, ÃœberprÃ¼fung, Reparatur oder Installation zur VerfÃ¼gung. Wir unterstÃ¼tzen Sie bei allen Fragen rund um WÃ¤rmepumpen, Heizsystem, KÃ¼hlung und effiziente Energie-Nutzung. Ob in NÃ– oder Wien â€“ wir sorgen fÃ¼r professionelle Betreuung, transparente Preise und zuverlÃ¤ssigen Service fÃ¼r Ihr Zuhause oder Unternehmen.',
+    'text' => 'Sie benötigen eine Wärmepumpen Reparatur Niederösterreich oder möchten eine Wartung planen? Kontaktieren Sie uns über unsere Seite und vereinbaren Sie einen Termin. Unser Team steht Ihnen für Beratung, Überprüfung, Reparatur oder Installation zur Verfügung. Wir unterstützen Sie bei allen Fragen rund um Wärmepumpen, Heizsystem, Kühlung und effiziente Energie-Nutzung. Ob in NÖ oder Wien – wir sorgen für professionelle Betreuung, transparente Preise und zuverlässigen Service für Ihr Zuhause oder Unternehmen.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -959,6 +959,8 @@
 </main>
 
 @endsection
+
+
 
 
 

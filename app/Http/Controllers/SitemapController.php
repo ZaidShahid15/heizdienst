@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 namespace App\Http\Controllers;
 
@@ -304,3 +304,4 @@ return response($xml,200)->header('Content-Type','text/xml');
 }
 
 }
+

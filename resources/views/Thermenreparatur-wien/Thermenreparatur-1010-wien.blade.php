@@ -280,7 +280,7 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Installateur Notdienst 24h Wien</h2>
-        <p>Unser Installateur Notdienst 1010 Wien ist rund um die Uhr für Sie erreichbar. Der Thermen Notdienst Wien bietet schnelle Hilfe bei akuten Problemen wie Heizung funktioniert nicht oder kein Warmwasser in Ihrer Wohnung oder Ihrem Haus. Als 24h Installateur Wien sind wir sofort vor Ort in Wien Zentrum, in der Innere Stadt und in der gesamten Umgebung. Bei Notfällen wie Rohrbruch oder Wasserschaden reagieren wir schnell und zuverlässig. Unser Team sorgt für Soforthilfe und ist jederzeit in der Nähe, wenn Sie einen erfahrenen Installateur Wien benötigen. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+        <p>Unser Installateur Notdienst 1010 Wien ist rund um die Uhr für Sie erreichbar. Der Thermen Notdienst Wien bietet schnelle Hilfe bei akuten Problemen wie Heizung funktioniert nicht oder kein Warmwasser in Ihrer Wohnung oder Ihrem Haus. Als 24h Installateur Wien sind wir sofort vor Ort in Wien Zentrum, in der Innere Stadt und in der gesamten Umgebung. Bei Notfällen wie Rohrbruch oder Wasserschaden reagieren wir schnell und zuverlässig. Unser Team sorgt für Soforthilfe und ist jederzeit in der Nähe, wenn Sie einen erfahrenen Installateur Wien benötigen. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -381,7 +381,7 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
   </a>
 
       <!-- 8 -->
- <a class="brand-card" href="{{ route('löblich.thermentausch') }}">
+ <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
     <img src="img/1loblich.jpeg" alt="Löblich Thermenservice">
     <span>LÖBLICH THERMENSERVICE</span>
   </a>
@@ -427,7 +427,7 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
         </details>
         <details>
           <summary>Wie schnell ist der Notdienst vor Ort?</summary>
-          <p>Unser Installateur Notdienst 1010 Wien ist meist innerhalb kurzer Zeit bei Ihnen vor Ort in der Innere Stadt oder im Wien Zentrum. Durch unsere zentrale Lage im ersten Bezirk sind schnelle Einsätze garantiert. F�r mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+          <p>Unser Installateur Notdienst 1010 Wien ist meist innerhalb kurzer Zeit bei Ihnen vor Ort in der Innere Stadt oder im Wien Zentrum. Durch unsere zentrale Lage im ersten Bezirk sind schnelle Einsätze garantiert. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
         </details>
         <details>
           <summary>Was tun bei kein Warmwasser?</summary>
@@ -487,6 +487,8 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
+
 
 
 

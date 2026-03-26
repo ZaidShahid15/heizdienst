@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -897,3 +897,4 @@ $metaDescription = "Viessmann Kundendienst Wien für Thermen, Gasgeräte & Heizs
 </main>
 
 @endsection
+

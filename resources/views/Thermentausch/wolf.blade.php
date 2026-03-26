@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -1003,3 +1003,4 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
   })();
 </script> -->
 @endsection
+

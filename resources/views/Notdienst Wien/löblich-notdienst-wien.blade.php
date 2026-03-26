@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -669,7 +669,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="L�blich Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="Löblich Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -685,7 +685,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
             <h2>Servicetechniker, Team & Kompetenz</h2>
             <p>
               Unser Team besteht aus erfahrenen Servicetechnikern, Installateuren und Mitarbeitern mit umfassendem Know-how
-              im Umgang mit L�blich Heizungen und Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards.
+              im Umgang mit Löblich Heizungen und Thermen. Jeder Techniker arbeitet nach hohen Qualitätsstandards.
             </p>
             <p>
               Durch laufende Schulungen sichern wir eine kompetente Betreuung aller Systeme. Klare Abläufe, Zuverlässigkeit
@@ -721,8 +721,8 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🔥</div>
           <div>
-            <h3>L�blich Gasgeräte Service</h3>
-            <p>Service für L�blich Gasgeräte inklusive Überprüfung, Wartung und sicherer Funktion im gesamten Zuhause.</p>
+            <h3>Löblich Gasgeräte Service</h3>
+            <p>Service für Löblich Gasgeräte inklusive Überprüfung, Wartung und sicherer Funktion im gesamten Zuhause.</p>
           </div>
         </article>
 
@@ -777,7 +777,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
           <div class="card-box">
             <h2>Thermenwartung & Wartungsarbeiten</h2>
             <p>
-              Eine regelmäßige Thermenwartung ist entscheidend für Funktion, Sicherheit und Langlebigkeit Ihrer L�blich Geräte.
+              Eine regelmäßige Thermenwartung ist entscheidend für Funktion, Sicherheit und Langlebigkeit Ihrer Löblich Geräte.
               Unsere Wartungsarbeiten umfassen Überprüfung, Abgasmessungen, Reinigung von Verschleißteilen und Funktionskontrolle.
             </p>
             <p>
@@ -839,7 +839,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>L�blich Notdienst im Notfall</h2>
+        <h2>Löblich Notdienst im Notfall</h2>
         <p>
           Unser Notdienst steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
           Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
@@ -884,7 +884,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
             </p>
             <p>
               Kunden erhalten eine ehrliche Beratung – abgestimmt auf Bedarf. Fachgerechter Service sorgt dafür,
-              dass die Qualität von L�blich Systemen dauerhaft erhalten bleibt.
+              dass die Qualität von Löblich Systemen dauerhaft erhalten bleibt.
             </p>
           </div>
         </div>
@@ -931,7 +931,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
 
       <div class="service-faq">
         <details>
-          <summary>Was bietet der L�blich Kundendienst Wien?</summary>
+          <summary>Was bietet der Löblich Kundendienst Wien?</summary>
           <p>Unser Kundendienst umfasst Wartung, Reparaturen, Thermenwartung, Notdienst und Betreuung von Heizsystemen.</p>
         </details>
 
@@ -942,7 +942,7 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
 
         <details>
           <summary>Sind Ersatzteile verfügbar?</summary>
-          <p>Ja, wir verwenden passende Ersatzteile und Verschleißteile für L�blich Geräte.</p>
+          <p>Ja, wir verwenden passende Ersatzteile und Verschleißteile für Löblich Geräte.</p>
         </details>
 
         <details>
@@ -975,3 +975,5 @@ $metaDescription = "Löblich Thermenwartung Wien ✔ Notdienst, Wartung & Repara
 </main>
 
 @endsection
+
+

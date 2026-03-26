@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <!-- <style>
@@ -1030,3 +1030,4 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
 </script>
 -->
 @endsection
+

@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -909,3 +909,4 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
 </main>
 
 @endsection
+
