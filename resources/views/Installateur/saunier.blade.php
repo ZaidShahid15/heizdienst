@@ -630,7 +630,7 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Unser <a href="/">Notdienst Wien</a> Team ist rund um die Uhr im Einsatz und hilft bei akuten Problemen mit Saunier Duval Gasgeräte oder Gastherme.</p>
+            <p>Unser <a href="/">unserer Notfallhilfe</a> Team ist rund um die Uhr im Einsatz und hilft bei akuten Problemen mit Saunier Duval Gasgeräte oder Gastherme.</p>
           </div>
         </article>
       </div>
@@ -649,7 +649,7 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
               Unsere Spezialisten prüfen alle Geräte sorgfältig und sorgen für optimale Wärme, Warmwasser und effizienten Betrieb.
             </p>
             <p>
-              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a>, Reinigung und Kontrolle werden Energiekosten reduziert und die Lebensdauer der Anlage erhöht.
+              Durch eine regelmäßige <a href="/">Serviceangebot</a>, Reinigung und Kontrolle werden Energiekosten reduziert und die Lebensdauer der Anlage erhöht.
               Unser Kundendienst Techniker steht bei Störungen oder Problemen schnell zur Verfügung.
               Dank präziser Einstellung und sorgfältiger Überprüfung sichern wir Leistung, Komfort und langfristige Sicherheit Ihrer Heizung in Wien und Umgebung.
             </p>
@@ -843,4 +843,6 @@ $metaDescription = "Saunier Duval Installateur Wien für Thermenwartung, Reparat
 </main>
 
 @endsection
+
+
 

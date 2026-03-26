@@ -682,7 +682,7 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
           <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
             <h3>Thermenwartung und Thermenservice</h3>
-            <p>Unsere <a href="/">Thermenwartung Wien</a> und unser Thermenservice sichern die Funktion der Therme, verbessern Effizienz und sorgen für einen stabilen Betrieb.</p>
+            <p>Unsere <a href="/">Serviceangebot</a> und unser Thermenservice sichern die Funktion der Therme, verbessern Effizienz und sorgen für einen stabilen Betrieb.</p>
           </div>
         </article>
 
@@ -698,7 +698,7 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
           <div class="service-feature__icon" aria-hidden="true">⚡</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Bei Notfällen reagieren wir rasch, analysieren das Anliegen vor Ort und stellen eine sichere Lösung für Heizung und Wärme bereit. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
+            <p>Bei Notfällen reagieren wir rasch, analysieren das Anliegen vor Ort und stellen eine sichere Lösung für Heizung und Wärme bereit. Unser <a href="/">unserer Notfallhilfe</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
       </div>
@@ -1012,4 +1012,6 @@ $metaDescription = "Erfahrener Viessmann Installateur Wien für Installation, Th
 </script>
 
 @endsection
+
+
 

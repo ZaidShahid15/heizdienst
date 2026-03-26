@@ -748,7 +748,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
             <p>
               Regelmäßige Thermenwartung und fachgerechter Thermenservice reduzieren Störungen und verlängern die Lebensdauer Ihrer Anlage.
               Unsere Leistungen umfassen Überprüfung, Reinigung, Einstellung und sicherheitsrelevante Kontrollen.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Bei Reparaturen verwenden wir geprüfte Ersatzteile und berücksichtigen die Vorgaben von Junkers und Bosch.
               Unsere Erfahrung mit unterschiedlichen Modellen ermöglicht schnelle Fehlerbehebung – nachhaltig und nachvollziehbar.
@@ -801,7 +801,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
             <h2>Einsatzgebiet Wien, Niederösterreich und Bgld</h2>
             <p>
               Der Junkers Notdienst Wien ist in allen Bezirken von Wien sowie in Niederösterreich und Umgebung im Einsatz.
-              Dank regionaler Einsatzplanung bieten wir einen schnellen <a href="/">Thermenwartung & Thermenservice Wien</a> Service bei Notfällen und Störungen direkt vor Ort.
+              Dank regionaler Einsatzplanung bieten wir einen schnellen Serviceangebot Service bei Notfällen und Störungen direkt vor Ort.
             </p>
             <p>
               Auch außerhalb von Wien bieten wir zuverlässige Unterstützung, damit Heizungsprobleme rasch gelöst werden.
@@ -996,4 +996,5 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
 </main>
 
 @endsection
+
 

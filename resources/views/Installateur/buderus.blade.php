@@ -635,7 +635,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p><a href="/">Notdienst Wien</a> in Wien und Umgebung zur Verfügung und hilft bei akuten Problemen oder Ausfällen Ihrer Gastherme schnell vor Ort.</p>
+            <p><a href="/">unserer Notfallhilfe</a> in Wien und Umgebung zur Verfügung und hilft bei akuten Problemen oder Ausfällen Ihrer Gastherme schnell vor Ort.</p>
           </div>
         </article>
       </div>
@@ -651,7 +651,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
             <h2>Heizung, Gastherme und Heizkessel</h2>
             <p>
               Wir betreuen Buderus Heizungssysteme, Buderus Gastherme und moderne Heizkessel.
-              Eine regelmäßige <a href="/">Thermenwartung Wien</a> verbessert die Leistung, verlängert die Lebensdauer und reduziert Gasverbrauch.
+              Eine regelmäßige <a href="/">Serviceangebot</a> verbessert die Leistung, verlängert die Lebensdauer und reduziert Gasverbrauch.
             </p>
             <p>
               Unsere Wartung umfasst Entleerung, Zerlegung relevanter Komponenten sowie Überprüfung aller sicherheitsrelevanten Funktionen.
@@ -849,4 +849,6 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
 </main>
 
 @endsection
+
+
 

@@ -884,7 +884,7 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
 
         <details>
           <summary>2. Ist der Nordgas Notdienst in Wien verfügbar?</summary>
-          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien, Niederösterreich, NÖ und Wiener Neustadt im Einsatz.</p>
+          <p>Ja, <a href="/">unserer Notfallhilfe</a> rund um die Uhr in Wien, Niederösterreich, NÖ und Wiener Neustadt im Einsatz.</p>
         </details>
 
         <details>
@@ -922,4 +922,5 @@ $metaDescription = "Nordgas Thermentausch in Wien ✔ Moderne Nordgas Gastherme 
 </main>
 
 @endsection
+
 

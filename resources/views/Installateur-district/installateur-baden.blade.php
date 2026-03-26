@@ -656,7 +656,7 @@ $metaDescription = "Installateur Baden für Sanitär, Heizung, Rohrreinigung und
             <p>
               Faire Preise und transparente Abläufe sind fester Bestandteil unseres Installateurbetriebs.
               Vor Beginn aller Arbeiten informieren wir klar über Kosten, Leistungen und notwendige Schritte.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Kunden profitieren von nachvollziehbarer Preisstruktur, kompetenter Beratung und persönlichem Kundenservice.
               Unser Team steht für Kompetenz, Erfahrung und strukturierte Abläufe – vom ersten Termin bis zur Ausführung.
@@ -814,6 +814,8 @@ $metaDescription = "Installateur Baden für Sanitär, Heizung, Rohrreinigung und
 </main>
 
 @endsection
+
+
 
 
 

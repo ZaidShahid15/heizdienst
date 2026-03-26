@@ -176,7 +176,7 @@ $metaDescription = "Thermentausch 1230 Wien vom Installateur Wien. Gastherme tau
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ihre Lösung für Thermentausch in 1230 Wien</h2>
-          <p>Ein professioneller Thermentausch 1230 Wien ist in Wien 1230 Liesing besonders wichtig, da viele Gebäude entlang der Liesinger Hauptstraße und der Perfektastraße noch mit älteren Thermen und Gasgeräten ausgestattet sind, die häufige Wartung, Reparatur oder sogar einen Notdienst erfordern, weshalb ein moderner Thermentausch Wien oder ein kompletter Thermenwechsel die ideale Lösung darstellt, bei der unser Installateur Wien alle Schritte von der ersten Beratung bis zur fertigen Installation übernimmt und sämtliche Gasgeräte, Leitungen für Gas und Wasser sowie die gesamte Heizungsanlage überprüft, um eine sichere und langlebige Lösung zu gewährleisten, während unser Installateur 1230 Wien durch Erfahrung, saubere Montage und moderne Heizungstechnik sicherstellt, dass Ihre neue Gastherme effizient arbeitet und Ihre Heizung in Wien 1230 dauerhaft zuverlässig bleibt.</p>
+          <p>Ein professioneller Thermentausch 1230 Wien ist in Wien 1230 Liesing besonders wichtig, da viele Gebäude entlang der Liesinger Hauptstraße und der Perfektastraße noch mit älteren Thermen und Gasgeräten ausgestattet sind, die häufige Wartung, Reparatur oder sogar einen Notdienst erfordern, weshalb ein moderner Thermentausch Wien oder ein kompletter Thermenwechsel die ideale Lösung darstellt, bei der unser Installateur Wien alle Schritte von der ersten Beratung bis zur fertigen Installation übernimmt und sämtliche Gasgeräte, Leitungen für Gas und Wasser sowie die gesamte Heizungsanlage überprüft, um eine sichere und langlebige Lösung zu gewährleisten, während unser Installateur 1230 Wien durch Erfahrung, saubere Montage und moderne Heizungstechnik sicherstellt, dass Ihre neue Gastherme effizient arbeitet und Ihre Heizung in Wien 1230 dauerhaft zuverlässig bleibt. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1220-wien') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Thermentausch 1230 Wien" loading="lazy" decoding="async">
@@ -326,7 +326,7 @@ $metaDescription = "Thermentausch 1230 Wien vom Installateur Wien. Gastherme tau
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermentausch für Wohnung und Haus</h2>
-          <p>Ein Thermentausch 1230 Wien ist sowohl für eine Wohnung als auch für ein Haus in Wien 1230 Liesing sinnvoll, wenn bestehende Thermen ineffizient arbeiten oder häufige Wartung benötigen, weshalb unser Installateur Wien alle Gasgeräte, die Heizungsanlage sowie sämtliche Sanitär Installationen überprüft und anschließend eine passende Gastherme empfiehlt, die optimal zu Ihrem Bedarf passt, wodurch Sie eine zuverlässige Heizung, stabiles Warmwasser und eine sichere Nutzung von Gas erhalten, was besonders in älteren Gebäuden rund um die Liesinger Hauptstraße und Perfektastraße eine wichtige Sanierung und Erneuerung darstellt.</p>
+          <p>Ein Thermentausch 1230 Wien ist sowohl für eine Wohnung als auch für ein Haus in Wien 1230 Liesing sinnvoll, wenn bestehende Thermen ineffizient arbeiten oder häufige Wartung benötigen, weshalb unser Installateur Wien alle Gasgeräte, die Heizungsanlage sowie sämtliche Sanitär Installationen überprüft und anschließend eine passende Gastherme empfiehlt, die optimal zu Ihrem Bedarf passt, wodurch Sie eine zuverlässige Heizung, stabiles Warmwasser und eine sichere Nutzung von Gas erhalten, was besonders in älteren Gebäuden rund um die Liesinger Hauptstraße und Perfektastraße eine wichtige Sanierung und Erneuerung darstellt. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien 1230" loading="lazy" decoding="async">
@@ -501,5 +501,6 @@ $metaDescription = "Thermentausch 1230 Wien vom Installateur Wien. Gastherme tau
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
 
 

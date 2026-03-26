@@ -703,7 +703,7 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
           <div class="service-feature__icon" aria-hidden="true">🕒</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p><a href="/">Notdienst Wien</a> 24 Stunden rund um die Uhr in Wien Niederösterreich und Burgenland im Einsatz – auch an Feiertagen.</p>
+            <p><a href="/">unserer Notfallhilfe</a> 24 Stunden rund um die Uhr in Wien Niederösterreich und Burgenland im Einsatz – auch an Feiertagen.</p>
           </div>
         </article>
       </div>
@@ -722,7 +722,7 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
               Unsere Experten prüfen Funktion, Sicherheit und Brennwert-Komponenten sorgfältig.
             </p>
             <p>
-              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie professionelle Überprüfung bleiben Rapido Geräte im optimalen Betrieb.
+              Durch eine regelmäßige <a href="/">Serviceangebot</a> sowie professionelle Überprüfung bleiben Rapido Geräte im optimalen Betrieb.
               Neben Rapido betreuen wir auch ausgewählte Marken wie Saunier Duval, De Dietrich und Viessmann.
               So bieten wir eine breite Palette an Lösungen für Heizanlage, Klimaanlagen und Sanitärsysteme.
               Unser Service deckt alles von Planung bis Montage ab und sorgt für nachhaltige Effizienz.
@@ -916,4 +916,6 @@ $metaDescription = "Rapido Installateur Wien für Rapido Thermenwartung, Reparat
 </main>
 
 @endsection
+
+
 

@@ -808,7 +808,7 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Kosten und wirtschaftliche Vorteile</h2>
-        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. 
+        <p>Mehr zu unserem <a href="/">Serviceangebot</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur-Niederosterreich') }}">Wärmepumpen-Service</a>. 
           Die Kosten einer Wärmepumpe im Burgenland variieren je nach Haus, Heizsystem und technischer Auswahl. Faktoren wie Montage, Anlage, Planung und bestehende Heizungsanlagen beeinflussen den Gesamtpreis. Trotz Investition profitieren Haushalte von dauerhaft geringeren Heizkosten und höherer Unabhängigkeit von Öl und Gas. Der Umstieg auf moderne Heiztechnik steigert nicht nur den Wert der Immobilie, sondern reduziert auch langfristige Betriebskosten. In Kombination mit Photovoltaikanlagen lässt sich Strom effizient nutzen, wodurch zusätzliche Einsparungen möglich sind. Diese nachhaltige Lösung bietet klare Vorteile gegenüber fossilen Energieträger und schafft Planungssicherheit für viele Jahre.
         </p>
       </div>
@@ -942,6 +942,8 @@
 </main>
 
 @endsection
+
+
 
 
 

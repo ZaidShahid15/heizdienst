@@ -624,9 +624,9 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
     <div class="service-container">
       <div class="service-section__head">
         <h2 id="kundendienst">Kundendienst – Thermenwartung, Service und Reparaturen</h2>
-        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
+        <p>Unser Serviceangebot bietet höchste Qualität. 
           Unsere Löblich Thermenwartung umfasst regelmäßige Thermenwartung, professionelle Wartung und umfassenden Thermenservice für alle gängigen Marken.
-        </p>
+         Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
       </div>
 
       <div class="card-box" style="margin-bottom:14px;">
@@ -669,7 +669,7 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p><a href="/">Notdienst Wien</a> in Wien und Niederösterreich rund um die Uhr erreichbar und hilft bei akuten Problemen sofort.</p>
+            <p>Serviceangebot in Wien und Niederösterreich rund um die Uhr erreichbar und hilft bei akuten Problemen sofort.</p>
           </div>
         </article>
       </div>
@@ -688,7 +688,7 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
               Eine regelmäßige Thermenwartung Löblich sorgt für optimale Verbrennung, sichere Funktion und stabiles Raumklima.
             </p>
             <p>
-              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie Wartung und Thermenservice für Löblich Geräte sorgt für optimale Verbrennung, sichere Funktion und stabiles Raumklima.
+              Durch eine regelmäßige Serviceangebot sowie Wartung und Thermenservice für Löblich Geräte sorgt für optimale Verbrennung, sichere Funktion und stabiles Raumklima.
               Neben Löblich betreuen wir auch ausgewählte Marken wie Saunier Duval – für eine umfassende Palette an Dienstleistungen für Heizung, Sanitär und Energie in Wien und Umgebung.
             </p>
           </div>
@@ -883,4 +883,7 @@ $metaDescription = "Löblich Installateur Wien für professionelle Löblich Ther
 </main>
 
 @endsection
+
+
+
 

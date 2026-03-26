@@ -714,7 +714,7 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p><a href="/">Notdienst Wien</a> in Wien und Niederösterreich rund um die Uhr verfügbar und hilft bei akuten Fehler oder Notfall schnell weiter.</p>
+            <p><a href="/">unserer Notfallhilfe</a> in Wien und Niederösterreich rund um die Uhr verfügbar und hilft bei akuten Fehler oder Notfall schnell weiter.</p>
           </div>
         </article>
       </div>
@@ -733,7 +733,7 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
               Unser Team überprüft Luftführung, Elektronik und sämtliche Komponenten der Heizungsanlage sorgfältig.
             </p>
             <p>
-              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> für Windhager Geräte sichern wir optimalen Umgang mit Energie und gewährleisten stabilen Betrieb im gesamten Heizkreislauf.
+              Durch eine regelmäßige <a href="/">Serviceangebot</a> für Windhager Geräte sichern wir optimalen Umgang mit Energie und gewährleisten stabilen Betrieb im gesamten Heizkreislauf.
               Auch moderne Modelle und innovative Systeme werden von unseren Experten zuverlässig betreut.
               Qualität, Sicherheit und nachhaltige Lösungen stehen bei jeder Arbeit im Mittelpunkt – für langfristigen Wohnkomfort in Wien und Umgebung.
             </p>
@@ -943,4 +943,6 @@ $metaDescription = "Windhager Installateur Wien für Windhager Thermenwartung, R
 </main>
 
 @endsection
+
+
 

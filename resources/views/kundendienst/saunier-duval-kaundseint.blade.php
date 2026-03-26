@@ -747,7 +747,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
       <div class="service-emergency__text">
         <h2>Saunier Duval Notdienst im Notfall</h2>
         <p>
-          Unser <a href="/">Notdienst Wien</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Unser <a href="/">unserer Notfallhilfe</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
           Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
@@ -881,4 +881,5 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
 </main>
 
 @endsection
+
 

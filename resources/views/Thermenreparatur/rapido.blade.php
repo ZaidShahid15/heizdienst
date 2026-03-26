@@ -628,7 +628,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
             </p>
             <p>
               Ob Rapido Gastherme, Durchlauferhitzer oder komplettes Heizsystem – unser Techniker Team analysiert Probleme präzise und sorgt für sichere Lösungen.
-              Der Rapido <a href="/">Kundendienst</a> Wien übernimmt Überprüfung, Reinigung und fachgerechte Arbeiten direkt bei Ihnen zuhause.
+              Der Rapido Serviceangebot Wien übernimmt Überprüfung, Reinigung und fachgerechte Arbeiten direkt bei Ihnen zuhause.
               Mit Know-how, Berufserfahrung und klarer Terminvergabe garantieren wir effiziente Reparatur und nachhaltige Betreuung.
               Auch im Burgenland und NÖ stehen wir als verlässlicher Partner zur Verfügung.
             </p>
@@ -754,7 +754,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
             <p>
               Eine regelmäßige Rapido Thermenwartung ist entscheidend für Sicherheit, Effizienz und einen stabilen Betrieb Ihrer Therme.
               Unsere professionelle Thermenwartung in Wien umfasst gründliche Überprüfung aller Gasgeräte, sorgfältige Reinigung und präzise Einstellung der Anlage.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Mit strukturierter Wartung sichern wir die optimale Funktion Ihrer Rapido Thermen und verlängern die Lebensdauer deutlich.
               Unsere Techniker prüfen Gasthermen, Brennwert Systeme und komplette Heizanlage auf mögliche Probleme.
@@ -869,7 +869,7 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
 
         <details>
           <summary>2. Ist der Rapido Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien, Niederösterreich (NÖ) und Burgenland verfügbar.</p>
+          <p>Ja, Serviceangebot rund um die Uhr in Wien, Niederösterreich (NÖ) und Burgenland verfügbar.</p>
         </details>
 
         <details>
@@ -909,4 +909,6 @@ $metaDescription = "Rapido Thermenreparatur Wien vom Installateur. Rapido Therme
 
 
 @endsection
+
+
 

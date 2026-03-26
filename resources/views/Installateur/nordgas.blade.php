@@ -706,7 +706,7 @@ $metaDescription = "Nordgas Installateur Wien für Nordgas Thermenwartung, Repar
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p><a href="/">Notdienst Wien</a> in Wien und Umgebung im Einsatz und hilft bei akuten Störungen oder Notfall schnell weiter.</p>
+            <p><a href="/">unserer Notfallhilfe</a> in Wien und Umgebung im Einsatz und hilft bei akuten Störungen oder Notfall schnell weiter.</p>
           </div>
         </article>
       </div>
@@ -725,7 +725,7 @@ $metaDescription = "Nordgas Installateur Wien für Nordgas Thermenwartung, Repar
               Unser Team prüft Anlage, Heizkörper und Warmwasser-Systeme sorgfältig, um einen sicheren Betrieb zu gewährleisten.
             </p>
             <p>
-              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie Wartung und Thermenservice wird Energie optimal genutzt und der sichere Betrieb der Heizungsanlage gewährleistet.
+              Durch eine regelmäßige <a href="/">Serviceangebot</a> sowie Wartung und Thermenservice wird Energie optimal genutzt und der sichere Betrieb der Heizungsanlage gewährleistet.
               Unsere Experten prüfen alle Parameter sorgfältig, um Stabilität und Effizienz im Heizkreislauf dauerhaft zu sichern.
               Qualität, Sicherheit und nachhaltiger Kundendienst Wien stehen bei jeder Arbeit im Fokus – für Ihren Wohnkomfort in Wien.
             </p>
@@ -926,4 +926,6 @@ $metaDescription = "Nordgas Installateur Wien für Nordgas Thermenwartung, Repar
 </main>
 
 @endsection
+
+
 

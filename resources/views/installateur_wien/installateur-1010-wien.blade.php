@@ -207,7 +207,7 @@ $metaDescription = "Installateur   1010 Wien – schneller 24h Installateur Wien
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Unser erfahrenes Team für 1010 Wien</h2>
-          <p>Unser Installateur   Wien steht für Qualität, Erfahrung und schnelle Hilfe. Als etablierter Installateur Fachbetrieb Wien arbeiten wir mit modernen Werkzeugen und professionellen Methoden. Unser Installateur Team Wien verfügt über langjährige Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Kunden schätzen besonders unsere schnelle Reaktionszeit und unseren zuverlässigen Installateur Service Wien. Wir verstehen, dass Wien Installateur Notfälle sofort gelöst werden müssen, deshalb arbeitet unser   24h Wien rund um die Uhr. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, jedes Problem effizient und dauerhaft zu lösen. Für eine fachgerechte <a href="/">Thermenwartung Wien</a> sind wir Ihr zuverlässiger Partner im Bezirk.</p>
+          <p>Unser Installateur   Wien steht für Qualität, Erfahrung und schnelle Hilfe. Als etablierter Installateur Fachbetrieb Wien arbeiten wir mit modernen Werkzeugen und professionellen Methoden. Unser Installateur Team Wien verfügt über langjährige Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Kunden schätzen besonders unsere schnelle Reaktionszeit und unseren zuverlässigen Installateur Service Wien. Wir verstehen, dass Wien Installateur Notfälle sofort gelöst werden müssen, deshalb arbeitet unser   24h Wien rund um die Uhr. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, jedes Problem effizient und dauerhaft zu lösen. Für eine fachgerechte Serviceangebot sind wir Ihr zuverlässiger Partner im Bezirk.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -232,7 +232,7 @@ $metaDescription = "Installateur   1010 Wien – schneller 24h Installateur Wien
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔥</div><div><h3>Sanitär Reparatur Wien</h3><p>Professionelle Sanitär Reparatur Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔁</div><div><h3>Bad Installation Wien</h3><p>Planung und Umsetzung von Bad Installation Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">✅</div><div><h3>Badsanierung Wien</h3><p>Moderne Badsanierung Wien und Sanierung Bad Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div><h3>Thermenwartung Wien</h3><p>Wartung von Thermen inklusive Thermenwartung Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div><h3>Serviceangebot</h3><p>Wartung von Thermen inklusive Thermenwartung Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚙️</div><div><h3>Gastherme Wartung Wien</h3><p>Gastherme Wartung Wien und Thermen Service Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔥</div><div><h3>Heizung Installateur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🛁</div><div><h3>Montage Sanitär Wien</h3><p>Montage Sanitär Wien für neue Anlagen.</p></div></article>
@@ -246,7 +246,7 @@ $metaDescription = "Installateur   1010 Wien – schneller 24h Installateur Wien
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Gastherme Reparatur und Wartung</h2>
-          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien.</p>
+          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -482,5 +482,9 @@ $metaDescription = "Installateur   1010 Wien – schneller 24h Installateur Wien
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
+
+
 
 

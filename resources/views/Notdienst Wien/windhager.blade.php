@@ -984,7 +984,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
             </p>
             <p>
               Ob Reparatur, Wartung oder Windhager Thermentausch – wir beraten offen zu jeder Möglichkeit.
-              So behalten Sie jederzeit die Kontrolle und investieren gezielt in Qualität durch unseren <a href="/">Thermenservice Wien</a> Fachbetrieb.
+              So behalten Sie jederzeit die Kontrolle und investieren gezielt in Qualität durch unseren <a href="/">Serviceangebot</a> Fachbetrieb.
             </p>
 
             <div class="service-stats">
@@ -1164,4 +1164,6 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
 </script>
 
 @endsection
+
+
 

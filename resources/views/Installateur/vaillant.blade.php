@@ -727,7 +727,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p><a href="/">Notdienst Wien</a> rund um die Uhr im Einsatz und hilft bei akuten Problemen schnell vor Ort in Wien und Umgebung.</p>
+            <p><a href="/">unserer Notfallhilfe</a> rund um die Uhr im Einsatz und hilft bei akuten Problemen schnell vor Ort in Wien und Umgebung.</p>
           </div>
         </article>
       </div>
@@ -745,7 +745,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
               Wir betreuen Vaillant Heizungssysteme, Gasgeräte und Warmwasser-Lösungen mit moderner Technik und hoher Sicherheit. Ob Gastherme, Brennwert-Gerät oder Heizwert-System – unsere Installateure kennen jede Anlage im Detail.
             </p>
             <p>
-              Eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie die optimal eingestellte Heizung sorgt für gleichmäßige Wärme im Raum, niedrigen Verbrauch und zuverlässige Nutzung im Alltag. Auch Wasser-Systeme und Warmwasser-Aufbereitung werden fachgerecht geprüft, gewartet und bei Bedarf repariert.
+              Eine regelmäßige <a href="/">Serviceangebot</a> sowie die optimal eingestellte Heizung sorgt für gleichmäßige Wärme im Raum, niedrigen Verbrauch und zuverlässige Nutzung im Alltag. Auch Wasser-Systeme und Warmwasser-Aufbereitung werden fachgerecht geprüft, gewartet und bei Bedarf repariert.
             </p>
             <p>
               Durch den Einsatz aktueller Technologie und geprüfter Technik gewährleisten wir einen effizienten Betrieb und reduzieren das Risiko von Störungen. Unser Service verbindet Komfort, Sicherheit und nachhaltige Qualität für Kunden in Wien.
@@ -991,4 +991,6 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 </script> -->
 
 @endsection
+
+
 

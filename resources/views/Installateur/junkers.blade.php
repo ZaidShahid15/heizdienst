@@ -705,7 +705,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Unser Junkers <a href="/">Notdienst Wien</a> ist rund um die Uhr verfügbar und hilft bei akuten Störungen schnell vor Ort in Wien und Umgebung.</p>
+            <p>Unser Junkers <a href="/">unserer Notfallhilfe</a> ist rund um die Uhr verfügbar und hilft bei akuten Störungen schnell vor Ort in Wien und Umgebung.</p>
           </div>
         </article>
       </div>
@@ -721,7 +721,7 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
             <h2>Heizung, Gas und Technik</h2>
             <p>
               Wir betreuen Junkers Heizungssysteme, Gasgeräte und moderne Heiztechnik mit hoher Fachkompetenz.
-              Eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie fachgerechte Wartung und Service sorgen für sicheren Betrieb und optimale Leistung.
+              Eine regelmäßige <a href="/">Serviceangebot</a> sowie fachgerechte Wartung und Service sorgen für sicheren Betrieb und optimale Leistung.
             </p>
             <p>
               Durch regelmäßige Überprüfung, fachgerechte Wartung und gezielte Behebung von Problemen erhöhen wir die Energieeffizienz und reduzieren Gasverbrauch.
@@ -993,4 +993,6 @@ $metaDescription = "Zuverlässiger Junkers Installateur Wien für Installation, 
   })();
 </script>
 @endsection
+
+
 

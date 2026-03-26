@@ -644,7 +644,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
         <div class="card-split__text">
           <div class="card-box">
             <h2>Vaillant Notdienst Wien 24/7</h2>
-            <p>Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr <a href="{{ route('home') }}"> Vaillant </a> Notdienst Wien ist sofort für Sie da.</p>
+            <p>Schnelle Hilfe bei Störungen, Ausfall oder kalter Heizung: Ihr Serviceangebot Notdienst Wien ist sofort für Sie da.</p>
           </div>
         </div>
 
@@ -784,7 +784,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
             <p>
               Regelmäßige Thermenwartung ist der beste Schutz vor Störungen und teurem Ausfall.
               Unsere Wartung folgt einem strukturierten Ablauf: Sichtprüfung, Reinigung, Einstellungen, Sicherheitscheck und Funktionskontrolle.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Das senkt Verbrauch, verbessert den Komfort und unterstützt Garantie sowie Gewährleistung,
               weil Wartungsintervalle eingehalten werden. Bei Reparaturen dokumentieren wir nachvollziehbar, was gemacht wurde.
@@ -909,7 +909,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
           <div class="card-box">
             <h2>Einsatzgebiet Wien und Niederösterreich</h2>
             <p>
-              Wir betreuen ganz Wien sowie Niederösterreich zuverlässig. Kurze Anfahrten und eine klare Planung sichern einen professionellen <a href="/">Thermenwartung Wien</a> Service für alle Haushalte und Betriebe am Ort.
+              Wir betreuen ganz Wien sowie Niederösterreich zuverlässig. Kurze Anfahrten und eine klare Planung sichern einen professionellen Serviceangebot Service für alle Haushalte und Betriebe am Ort.
             </p>
             <p>
               Auch bei Wegzeit Niederösterreich kalkulieren wir transparent und fair. Ob Wohnung, Haus oder Betrieb –
@@ -1153,4 +1153,7 @@ $metaDescription = "Zuverlässiger Vaillant Notdienst Wien ✔ Rund um die Uhr e
 
 
 @endsection
+
+
+
 

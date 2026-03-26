@@ -765,7 +765,7 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
               Eine regelmäßige Wolf Thermenwartung ist entscheidend für die Sicherheit, Effizienz und Langlebigkeit Ihrer Wolf Therme.
               Unsere Thermenwartung Wien umfasst die gründliche Überprüfung aller relevanten Komponenten, Reinigung sensibler Bauteile
               und exakte Einstellung Ihrer Wolf Geräte.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Durch konsequente Wartung reduzieren Sie Störungen, senken Energiekosten und verbessern die Performance Ihres Heizsystems.
               Unsere Techniker prüfen Gaskessel, Ölkessel und moderne Thermengeräte nach aktuellen Vorgaben vom Hersteller Wolf.
@@ -832,7 +832,7 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
     <div class="service-container">
       <div class="service-section__head">
         <h2>Warum wir Ihr Wolf Partner in Wien sind</h2>
-        <p>Kompetenz, Know-how und persönliche Betreuung – für Wolf Thermenservice, <a href="/">Kundendienst</a>, Wartung und Reparatur.</p>
+        <p>Kompetenz, Know-how und persönliche Betreuung – für Wolf Thermenservice, Serviceangebot, Wartung und Reparatur.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -887,7 +887,7 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
 
         <details>
           <summary>Ist der Wolf Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Wolf <a href="/">Notdienst Wien</a> ist rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
+          <p>Ja, unser Wolf Serviceangebot ist rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
         </details>
 
         <details>
@@ -987,4 +987,6 @@ $metaDescription = "Wolf Thermenreparatur Wien vom Fachbetrieb. Wolf Kundendiens
 })();
 </script> -->
 @endsection
+
+
 

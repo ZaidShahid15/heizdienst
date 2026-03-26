@@ -743,7 +743,7 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
           <div class="service-feature__icon" aria-hidden="true">🔎</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Nach der Kontaktaufnahme erfolgt die Besichtigung der alten Therme und der Heizungsanlage. Danach plant der Fachmann den Austausch. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
+            <p>Nach der Kontaktaufnahme erfolgt die Besichtigung der alten Therme und der Heizungsanlage. Danach plant der Fachmann den Austausch. Unser <a href="/">unserer Notfallhilfe</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
 
@@ -1003,4 +1003,5 @@ $metaDescription = " Wolf Thermentausch in Wien ✔ Moderne Wolf Gastherme & Bre
   })();
 </script> -->
 @endsection
+
 

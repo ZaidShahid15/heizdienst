@@ -619,7 +619,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
           <div class="service-feature__icon" aria-hidden="true">⏱️</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Unser Baxi <a href="/">Notdienst Wien</a> sowie 24 7 Baxi Notdienst ist rund um die Uhr verfügbar und hilft bei Notfällen schnell in Wien und Umgebung.</p>
+            <p>Unser Baxi <a href="/">unserer Notfallhilfe</a> sowie 24 7 Baxi Notdienst ist rund um die Uhr verfügbar und hilft bei Notfällen schnell in Wien und Umgebung.</p>
           </div>
         </article>
       </div>
@@ -635,7 +635,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
             <h2>Heizung, Gasgeräte und Anlage</h2>
             <p>
               Wir betreuen Baxi Heizung, Baxi Gasgeräte und komplette Heizungsanlage mit höchstem Fachwissen.
-              Eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie gründliche Überprüfung sorgen für Effizienz, Sicherheit und stabile Warmwasser-Versorgung.
+              Eine regelmäßige <a href="/">Serviceangebot</a> sowie gründliche Überprüfung sorgen für Effizienz, Sicherheit und stabile Warmwasser-Versorgung.
             </p>
             <p>
               Durch regelmäßige Wartung, gründliche Überprüfung und professionelle Reinigung sichern wir Effizienz, Sicherheit und stabile Warmwasser-Versorgung.
@@ -839,4 +839,6 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
 </main>
 
 @endsection
+
+
 

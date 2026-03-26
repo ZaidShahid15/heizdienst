@@ -731,7 +731,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
     <div class="service-container">
       <div class="service-section__head">
         <h2>Soforthilfe bei Ausfälle und Probleme</h2>
-        <p>Unser <a href="/">Notdienst Wien</a> reagiert schnell bei Störungen Ihrer Junkers Therme und sorgt mit Fachwissen und Erfahrung für eine sichere Lösung direkt vor Ort.</p>
+        <p>Unser Serviceangebot reagiert schnell bei Störungen Ihrer Junkers Therme und sorgt mit Fachwissen und Erfahrung für eine sichere Lösung direkt vor Ort.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -764,7 +764,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
             <p>
               Eine regelmäßige Junkers Thermenwartung ist entscheidend für die Sicherheit und Leistungsfähigkeit Ihrer Heizungsanlage.
               Unsere Junkers Thermenwartung Wien umfasst gründliche Reinigung, präzise Überprüfung aller Komponenten sowie fachgerechte Wartung Ihrer Junkers Therme.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Durch eine strukturierte Thermenwartung erkennen wir mögliche Schäden frühzeitig.
               Die Wartung verlängert die Lebensdauer, reduziert Heizkosten und verbessert das Preis-Leistungs-Verhältnis.
@@ -862,7 +862,7 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
           <div class="service-feature__icon" aria-hidden="true">🕒</div>
           <div>
             <h3>24/7 Betreuung</h3>
-            <p><a href="/">Kundendienst</a> ist rund um die Uhr erreichbar – für Wien, Niederösterreich und Burgenland.</p>
+            <p>Serviceangebot ist rund um die Uhr erreichbar – für Wien, Niederösterreich und Burgenland.</p>
           </div>
         </article>
       </div>
@@ -986,4 +986,6 @@ $metaDescription = "Professionelle Junkers Thermenreparatur Wien mit 24 7 Notdie
 </script> -->
 
 @endsection
+
+
 

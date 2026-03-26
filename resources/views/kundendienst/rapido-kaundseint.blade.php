@@ -593,7 +593,7 @@ $metaDescription = "Rapido Kundendienst Wien für Thermen & Gasgeräte. Thermenw
             <p>
               Thermenwartung, Reparatur und Rapido Thermenservice aus einer Hand – erfahrenes Techniker Team mit Know-how.
               Als <strong>Installateur</strong> für <strong>Heiztechnik</strong> und <strong>Gastherme</strong>-Service sind wir in Wien &amp; Niederösterreich im Einsatz –
-              mehr zur <a href="{{ route('ocean.thermenwartung') }}">Thermenwartung Wien</a>.
+              mehr zur <a href="{{ route('ocean.thermenwartung') }}">Serviceangebot</a>.
             </p>
             <p>
               Unser Team aus qualifizierten Technikern und Installateuren bringt umfassendes Fachwissen, langjährige Erfahrung und praxisnahes Know-how mit.
@@ -636,7 +636,7 @@ $metaDescription = "Rapido Kundendienst Wien für Thermen & Gasgeräte. Thermenw
           <div class="service-feature__icon" aria-hidden="true">🧑‍🔧</div>
           <div>
             <h3>Techniker mit Know-how</h3>
-            <p>Qualifizierte Techniker und unser engagierter <a href="/">Kundendienst</a> sowie Installateure mit Erfahrung – praxisnah, professionell und lösungsorientiert.</p>
+            <p>Qualifizierte Techniker und unser engagierter Serviceangebot sowie Installateure mit Erfahrung – praxisnah, professionell und lösungsorientiert.</p>
           </div>
         </article>
 
@@ -760,9 +760,9 @@ $metaDescription = "Rapido Kundendienst Wien für Thermen & Gasgeräte. Thermenw
             <p>
               Regelmäßige Thermenwartung ist ein wichtiger Bestandteil eines zuverlässigen Heizbetriebs.
               Unsere Wartung umfasst Reinigung, Überprüfung, Einstellung und Funktionskontrolle aller relevanten Geräte.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
-              Bei Bedarf führen wir eine fachgerechte Reparatur durch und setzen auf geprüfte Ersatzteile. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
+              Bei Bedarf führen wir eine fachgerechte Reparatur durch und setzen auf geprüfte Ersatzteile. Mehr Informationen zur Serviceangebot.
             </p>
 
             <div class="service-stats">
@@ -881,7 +881,7 @@ $metaDescription = "Rapido Kundendienst Wien für Thermen & Gasgeräte. Thermenw
               Dank effizienter Einsatzplanung und kurzer Anfahrt sind unsere Techniker rasch vor Ort – auch in der weiteren Umgebung.
             </p>
             <p>
-              Unser <a href="/">Notdienst Wien</a> steht Kunden jederzeit zur Verfügung – zuverlässig in jeder Jahreszeit, besonders im Winter.
+              Unser Serviceangebot steht Kunden jederzeit zur Verfügung – zuverlässig in jeder Jahreszeit, besonders im Winter.
             </p>
           </div>
         </div>
@@ -944,4 +944,7 @@ $metaDescription = "Rapido Kundendienst Wien für Thermen & Gasgeräte. Thermenw
 </main>
 
 @endsection
+
+
+
 

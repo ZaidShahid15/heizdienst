@@ -901,7 +901,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
             <h2>Regionale Betreuung</h2>
             <p>
               Wir betreuen Kunden in Wien sowie Niederösterreich und im Burgenland.
-              Kurze Wege und regionale Nähe sichern schnellen Service durch unseren <a href="/">Thermenwartung Wien & Niederösterreich</a> Experten-Service in allen Regionen.
+              Kurze Wege und regionale Nähe sichern schnellen Service durch unseren <a href="/">Serviceangebot</a> Experten-Service in allen Regionen.
             </p>
           </div>
         </div>
@@ -969,4 +969,6 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
 </main>
 
 @endsection
+
+
 

@@ -838,7 +838,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
               Wir betreuen Kunden in Wien Niederösterreich, NÖ und Burgenland zuverlässig mit schneller Unterstützung, professionellen Installationen und zuverlässigem Thermenservice. Kurze Wege und regionale Nähe sichern schnellen Service in allen Regionen.
             </p>
             <p>
-              Unser Team ist in Wien Niederösterreich, NÖ und Burgenland im Einsatz und bietet persönliche Betreuung vor Ort. Ob Thermenreparatur, Wartung oder <a href="/">Notdienst Wien</a> – wir sind jederzeit zur Verfügung.
+              Unser Team ist in Wien Niederösterreich, NÖ und Burgenland im Einsatz und bietet persönliche Betreuung vor Ort. Ob Thermenreparatur, Wartung oder <a href="/">unserer Notfallhilfe</a> – wir sind jederzeit zur Verfügung.
             </p>
           </div>
         </div>
@@ -906,4 +906,5 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
 </main>
 
 @endsection
+
 

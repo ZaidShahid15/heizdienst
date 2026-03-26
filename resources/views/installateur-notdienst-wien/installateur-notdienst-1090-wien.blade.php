@@ -177,7 +177,7 @@ $metaDescription = "Installateur Notdienst 1090 Wien – schneller Installateur 
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ihr Installateur Notdienst in 1090 Wien</h2>
-          <p>Wenn ein Rohr bricht, der Abfluss verstopft oder die Heizung ausfällt, brauchen Sie schnelle und professionelle Hilfe. Unser Installateur Notdienst 1090 Wien steht Ihnen jederzeit zur Verfügung. Als erfahrener Installateur Wien 1090 bieten wir schnelle Lösungen für Haushalte und Unternehmen im Bezirk Alsergrund. Unser Notdienst Installateur 1090 Wien ist spezialisiert auf dringende Reparaturen im Bereich Gas Wasser Heizung Wien sowie Sanitärinstallationen. Egal ob Wasserrohrbruch Wien, defekte Armaturen oder ein akuter Installateur Notfall Wien – unser Team reagiert schnell und zuverlässig. Als lokaler Installateur Alsergrund kennen wir die Anforderungen älterer Gebäude genauso wie moderner Anlagen. Unser Installateur Notdienst Alsergrund sorgt dafür, dass Ihr Zuhause oder Ihr Betrieb schnell wieder funktioniert und bietet jederzeit einen zuverlässigen Installateur Service Wien.</p>
+          <p>Wenn ein Rohr bricht, der Abfluss verstopft oder die Heizung ausfällt, brauchen Sie schnelle und professionelle Hilfe. Unser Installateur Notdienst 1090 Wien steht Ihnen jederzeit zur Verfügung. Als erfahrener Installateur Wien 1090 bieten wir schnelle Lösungen für Haushalte und Unternehmen im Bezirk Alsergrund. Unser Notdienst Installateur 1090 Wien ist spezialisiert auf dringende Reparaturen im Bereich Gas Wasser Heizung Wien sowie Sanitärinstallationen. Egal ob Wasserrohrbruch Wien, defekte Armaturen oder ein akuter Installateur Notfall Wien – unser Team reagiert schnell und zuverlässig. Als lokaler Installateur Alsergrund kennen wir die Anforderungen älterer Gebäude genauso wie moderner Anlagen. Unser Installateur Notdienst Alsergrund sorgt dafür, dass Ihr Zuhause oder Ihr Betrieb schnell wieder funktioniert und bietet jederzeit einen zuverlässigen Installateur Service Wien. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1080-wien') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1090 Wien" loading="lazy" decoding="async">
@@ -232,7 +232,7 @@ $metaDescription = "Installateur Notdienst 1090 Wien – schneller Installateur 
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔥</div><div><h3>Sanitär Reparatur Wien</h3><p>Professionelle Sanitär Reparatur Wien für Badezimmer und Leitungen.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔁</div><div><h3>Badsanierung Wien</h3><p>Planung und Umsetzung von Badsanierung Wien sowie moderner Bad Sanierung Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">✅</div><div><h3>Gas Wasser Heizung Wien</h3><p>Installation und Wartung von Anlagen im Bereich Gas Wasser Heizung Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div><h3>Thermenwartung Wien</h3><p>Wartung von Thermen inklusive Thermenwartung Wien und Thermen Service Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div><h3>Serviceangebot</h3><p>Wartung von Thermen inklusive Thermenwartung Wien und Thermen Service Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚙️</div><div><h3>Gastherme Wartung Wien</h3><p>Regelmäßige Gastherme Wartung Wien und schnelle Gastherme Reparatur Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔥</div><div><h3>Heizung Reparatur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🛁</div><div><h3>Montage Sanitär Wien</h3><p>Professionelle Montage Sanitär Wien für neue Anlagen.</p></div></article>
@@ -246,7 +246,7 @@ $metaDescription = "Installateur Notdienst 1090 Wien – schneller Installateur 
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Gastherme Reparatur und Wartung</h2>
-          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Thermenwartung Wien und Gastherme Wartung Wien, damit Ihre Heizungsanlage zuverlässig funktioniert. Auch beim <a href="{{ route('home') }}">Thermenwartung Wien & Niederösterreich</a> profitieren Sie von unserer strukturierten Arbeitsweise.</p>
+          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Thermenwartung Wien und Gastherme Wartung Wien, damit Ihre Heizungsanlage zuverlässig funktioniert. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -320,7 +320,7 @@ $metaDescription = "Installateur Notdienst 1090 Wien – schneller Installateur 
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Als Installateur in 1090 Wien (Alsergrund) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die <a href="{{ route('installateur-notdienst-1080-wien') }}">schnelle Störungsbehebung</a> bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1090 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1090 Wien (Alsergrund) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1090 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
@@ -482,6 +482,10 @@ $metaDescription = "Installateur Notdienst 1090 Wien – schneller Installateur 
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
+
+
 
 
 

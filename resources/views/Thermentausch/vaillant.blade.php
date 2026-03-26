@@ -866,7 +866,7 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
           <div class="service-feature__icon" aria-hidden="true">📞</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Kunden profitieren von einem klaren Überblick, festen Ansprechpartnern und professionellem <a href="/">Kundendienst</a> – von der Einführung bis zum laufenden Betrieb. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
+            <p>Kunden profitieren von einem klaren Überblick, festen Ansprechpartnern und professionellem <a href="/">Kundendienst</a> – von der Einführung bis zum laufenden Betrieb. Unser <a href="/">unserer Notfallhilfe</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
       </div>
@@ -973,4 +973,5 @@ $metaDescription = " Vaillant Thermentausch in Wien ✔ Brennwertthermen, Kombit
   })();
 </script> -->
 @endsection
+
 

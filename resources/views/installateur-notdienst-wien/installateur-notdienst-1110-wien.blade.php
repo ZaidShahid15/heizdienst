@@ -40,7 +40,7 @@
 
 
 
-      <p class="wolf-hero__sub">Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die <a href="{{ route('installateur-notdienst-1100-wien') }}">schnelle Störungsbehebung</a> bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+      <p class="wolf-hero__sub">Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -125,7 +125,7 @@
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Installateur‑Service in 1110 Wien – zuverlässig & strukturiert</h2>
-          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1100-wien') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1110 Wien" loading="lazy" decoding="async">
@@ -190,7 +190,7 @@
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Wartung in 1110 Wien – planbar & sicher</h2>
-          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert. Auch beim <a href="{{ route('home') }}">Thermenwartung Niederösterreich</a> profitieren Sie von unserer strukturierten Arbeitsweise.</p>
+          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -442,6 +442,9 @@
 <script src="{{ asset('js/main.js') }}"></script>
 
     @endsection
+
+
+
 
 
 

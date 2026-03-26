@@ -755,7 +755,7 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
               Eine regelmäßige Buderus Thermenwartung Wien ist der wichtigste Grund für einen sicheren und effizienten Betrieb Ihrer Buderus Therme.
               Unsere umfassende Thermenwartung sowie spezialisierte Buderus Thermenwartung beinhaltet sorgfältige Wartungsarbeiten,
               gründliche Überprüfung aller sicherheitsrelevanten Bauteile und professionelle Reinigung Ihrer Gasgeräte.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Durch konsequente Buderus Thermenwartung Wien erhöhen wir die Lebensdauer Ihrer Buderus Gastherme und vermeiden unnötige Schäden.
               Unsere Installateure arbeiten nach Vorgaben des Herstellers und setzen auf original Ersatzteile sowie geprüfte Ersatzteilen.
@@ -839,7 +839,7 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
           <div class="service-feature__icon" aria-hidden="true">⏱️</div>
           <div>
             <h3>Schnelle Terminvergabe</h3>
-            <p>Der Buderus <a href="/">Kundendienst</a> Wien ist rasch im Einsatz und übernimmt Reparatur, Wartung und Thermenservice zuverlässig.</p>
+            <p>Der Buderus Serviceangebot Wien ist rasch im Einsatz und übernimmt Reparatur, Wartung und Thermenservice zuverlässig.</p>
           </div>
         </article>
 
@@ -870,7 +870,7 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
 
         <details>
           <summary>Ist der Buderus Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien und Niederösterreich einsatzbereit – auch an Wochenenden.</p>
+          <p>Ja, Serviceangebot rund um die Uhr in Wien und Niederösterreich einsatzbereit – auch an Wochenenden.</p>
         </details>
 
         <details>
@@ -909,4 +909,6 @@ $metaDescription = "Buderus Thermenreparatur Wien vom Fachbetrieb. Buderus Therm
 </main>
 
 @endsection
+
+
 

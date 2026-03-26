@@ -622,7 +622,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
             Durch kurze Wegzeit innerhalb von Wien sind unsere Installateure schnell am Ort und kümmern sich kompetent um Wartung,
             Reparatur oder Störungen. Wir sorgen dafür, dass Qualität, Effizienz und Langlebigkeit optimal genutzt werden –
             besonders bei unserem professionellen
-            <a href="{{ route('home') }}" class="text-transparent">Thermenservice Wien</a>.
+            <a href="{{ route('home') }}" class="text-transparent">Serviceangebot</a>.
           </p>
           </div>
         </div>
@@ -644,7 +644,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
           <div class="card-box">
             <h2>Kundendienst Techniker & Fachpersonal</h2>
             <p>
-              Unsere <a href="/">Kundendienst</a> Techniker sind geschulte Mitarbeiter mit langjähriger Erfahrung im Umgang mit Vaillant Geräten.
+              Unsere Serviceangebot Techniker sind geschulte Mitarbeiter mit langjähriger Erfahrung im Umgang mit Vaillant Geräten.
               Als Service Team arbeiten wir nach Herstellervorgaben und setzen auf regelmäßige Schulungen.
             </p>
             <p>
@@ -679,7 +679,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
             <p>
               Regelmäßige Wartung Ihrer Vaillant Therme ist entscheidend für Effizienz, Sicherheit und ein langes Geräteleben.
               Unsere Wartungsarbeiten umfassen eine gründliche Thermenwartung, Funktionsprüfung und Feinjustierung.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Eine fachgerechte Wartung erhält Garantie und Gewährleistung und sorgt für einen sparsamen Betrieb Ihrer Heizung.
               Mit unserem Kundendienst Wien bleibt Ihre Gastherme zuverlässig, effizient und sicher.
@@ -801,7 +801,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
       <div class="service-emergency__text">
         <h2>Vaillant Notdienst rund um die uhr</h2>
         <p>
-          Unser Vaillant <a href="/">Notdienst Wien</a> ist rund um die uhr erreichbar und bietet schnelle Hilfe bei dringenden Problemen.
+          Unser Vaillant Serviceangebot ist rund um die uhr erreichbar und bietet schnelle Hilfe bei dringenden Problemen.
           Ob Ausfall der Gastherme, Störungen oder sicherheitsrelevante Situationen – wir helfen sofort.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
@@ -843,7 +843,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
               Auf Wunsch erhalten Kunden ein Angebot – abgestimmt auf Reparatur, Wartung oder Austausch.
             </p>
             <p>
-              Wir stehen für faire Kosten, nachvollziehbare Abrechnung und offene Kommunikation. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
+              Wir stehen für faire Kosten, nachvollziehbare Abrechnung und offene Kommunikation. Mehr Informationen zur Serviceangebot.
             </p>
           </div>
         </div>
@@ -934,4 +934,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
 </main>
 
 @endsection
+
+
+
 

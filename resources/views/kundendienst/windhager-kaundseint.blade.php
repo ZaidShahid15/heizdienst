@@ -589,7 +589,7 @@ $metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Therme
             <p>
               Der Windhager Kundendienst Wien bietet zuverlässigen Service für Windhager Gastherme, Thermen und moderne Heizsysteme direkt am Ort.
               Als spezialisierter <strong>Installateur</strong> für <strong>Wartung</strong> und <strong>Reparatur</strong> betreuen wir Boiler in Wien &amp; Niederösterreich –
-              mehr zur <a href="{{ route('rapido.thermenwartung') }}">Thermenwartung Wien</a>.
+              mehr zur <a href="{{ route('rapido.thermenwartung') }}">Serviceangebot</a>.
             </p>
             <p>
               Als Meisterbetrieb arbeiten wir nach höchsten Standards und betreuen unterschiedliche Modelle der Marke Windhager.
@@ -681,7 +681,7 @@ $metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Therme
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3>Windhager Notdienst Einsatz</h3>
-            <p>Zuverlässiger Windhager <a href="/">Notdienst Wien</a> im Einsatz bei Notfällen oder akuten Problemen.</p>
+            <p>Zuverlässiger Windhager <a href="/">unserer Notfallhilfe</a> im Einsatz bei Notfällen oder akuten Problemen.</p>
           </div>
         </article>
 
@@ -920,4 +920,6 @@ $metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Therme
 </main>
 
 @endsection
+
+
 

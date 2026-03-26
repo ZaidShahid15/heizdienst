@@ -757,7 +757,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
               Eine regelmäßige Baxi Thermenwartung ist entscheidend für die Sicherheit, Effizienz und Zuverlässigkeit Ihrer Therme.
               Unsere professionelle Baxi Thermenwartung Wien sowie die gezielte Thermenwartung Wien umfasst gründliche Wartung,
               sorgfältige Reinigung und detaillierte Überprüfung aller relevanten Bauteile.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Mit strukturierter Baxi Gasgeräte Wartung stellen wir sicher, dass Ihre Baxi Gastherme effizient arbeitet und keine unnötigen Kosten entstehen.
               Durch konsequente Wartung verlängern wir die Lebensdauer Ihrer Anlage und sichern einen störungsfreien Betrieb Ihrer Heizung.
@@ -841,7 +841,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
           <div class="service-feature__icon" aria-hidden="true">⏱️</div>
           <div>
             <h3>Schnelle Terminvereinbarung</h3>
-            <p>Der Baxi <a href="/">Kundendienst</a> Wien reagiert rasch, organisiert den Einsatz und sorgt für schnelle Störungsbehebung.</p>
+            <p>Der Baxi Serviceangebot Wien reagiert rasch, organisiert den Einsatz und sorgt für schnelle Störungsbehebung.</p>
           </div>
         </article>
 
@@ -872,7 +872,7 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
 
         <details>
           <summary>Bieten Sie einen Baxi Notdienst rund um die Uhr an?</summary>
-          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
+          <p>Ja, Serviceangebot rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
         </details>
 
         <details>
@@ -910,4 +910,6 @@ $metaDescription = "Baxi Thermenreparatur Wien vom Fachbetrieb. Baxi Kundendiens
 
 </main>
 @endsection
+
+
 

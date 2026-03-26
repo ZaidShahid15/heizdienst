@@ -649,7 +649,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
           <div class="service-feature__icon" aria-hidden="true">🔎</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Wir prüfen Gerät, Anlage und Heizsysteme – inklusive Wärmetauscher und Sicherheit – und klären den Bedarf für eine passende Lösung. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
+            <p>Wir prüfen Gerät, Anlage und Heizsysteme – inklusive Wärmetauscher und Sicherheit – und klären den Bedarf für eine passende Lösung. Unser <a href="/">unserer Notfallhilfe</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
 
@@ -857,4 +857,5 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
 </main>
 
 @endsection
+
 

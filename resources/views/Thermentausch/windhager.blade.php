@@ -646,7 +646,7 @@ $metaDescription = "Windhager Thermentausch in Wien ✔ Gastherme, Reparatur & T
     <div class="service-container">
       <div class="service-section__head">
         <h2>Leistungen unseres Kundendienstes</h2>
-        <p><a href="/">Notdienst Wien</a>, Thermenservice, Wartung, Reparatur, Überprüfung und Thermentausch – professionell betreut.</p>
+        <p><a href="/">unserer Notfallhilfe</a>, Thermenservice, Wartung, Reparatur, Überprüfung und Thermentausch – professionell betreut.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -924,4 +924,5 @@ $metaDescription = "Windhager Thermentausch in Wien ✔ Gastherme, Reparatur & T
 </main>
 
 @endsection
+
 

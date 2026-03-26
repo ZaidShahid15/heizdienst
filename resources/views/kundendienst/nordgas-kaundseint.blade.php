@@ -589,7 +589,7 @@ $metaDescription = "Nordgas Kundendienst Wien für Gastherme & Heizung. Thermenw
             <p>
               Der Nordgas Kundendienst Wien bietet professionellen Service für Nordgas Therme, Gastherme und weitere Geräte direkt vor Ort.
               Als erfahrener <strong>Installateur</strong> für <strong>Heiztechnik</strong> betreuen wir Gasgeräte in Wien &amp; Niederösterreich –
-              mehr zur <a href="{{ route('windhager.thermenwartung') }}">Thermenwartung Wien</a>.
+              mehr zur <a href="{{ route('windhager.thermenwartung') }}">Serviceangebot</a>.
             </p>
             <p>
               Als Fachbetrieb arbeiten wir nach Stand der Technik und betreuen Gasgeräte, Heizkörper sowie moderne Heizsysteme.
@@ -747,7 +747,7 @@ $metaDescription = "Nordgas Kundendienst Wien für Gastherme & Heizung. Thermenw
               Der Nordgas Kundendienst Wien unterstützt Kunden bei Reparaturen, Störungen und akuten Notfällen zuverlässig. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
             </p>
             <p>
-              Der <a href="/">Notdienst Wien</a> ist rund um die uhr erreichbar – auch an Feiertagen.
+              Der <a href="/">unserer Notfallhilfe</a> ist rund um die uhr erreichbar – auch an Feiertagen.
               Bei Gasgeruch, Fehlermeldungen oder Ausfällen leisten wir rasche Hilfe vor Ort.
               Durch fachgerechte Überprüfung, Reinigung und Optimierung vermeiden wir Folgeschäden und unnötige Kosten.
               Unser Ziel ist ein sicherer Betrieb Ihrer Heizung sowie nachhaltige Stabilität im Zuhause.
@@ -776,7 +776,7 @@ $metaDescription = "Nordgas Kundendienst Wien für Gastherme & Heizung. Thermenw
       <div class="service-emergency__text">
         <h2>Nordgas Notdienst im Notfall</h2>
         <p>
-          Unser <a href="/">Notdienst Wien</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Unser <a href="/">unserer Notfallhilfe</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
           Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
@@ -911,4 +911,6 @@ $metaDescription = "Nordgas Kundendienst Wien für Gastherme & Heizung. Thermenw
 </main>
 
 @endsection
+
+
 

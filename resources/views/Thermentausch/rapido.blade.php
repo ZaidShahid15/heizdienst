@@ -668,7 +668,7 @@ $metaDescription = " Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme �
           <div class="service-feature__icon" aria-hidden="true">🕒</div>
           <div>
             <h3>24h erreichbar</h3>
-            <p><a href="/">Notdienst Wien</a> rund um die Uhr – auch an Wochenenden, Feiertagen und in der kalten Jahreszeit.</p>
+            <p>Serviceangebot rund um die Uhr – auch an Wochenenden, Feiertagen und in der kalten Jahreszeit.</p>
           </div>
         </article>
       </div>
@@ -680,7 +680,7 @@ $metaDescription = " Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme �
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2 id="kundendienst">Kundendienst – Rapido Notdienst rund um die Uhr</h2>
-        <p>Unser <a href="/">Kundendienst</a> bietet höchste Qualität. 
+        <p>Unser Serviceangebot bietet höchste Qualität. 
           Ein plötzlicher Ausfall der Gastherme, Gasgeruch oder wiederkehrende Störungen erfordern rasches Handeln.
           Der Notdienst von Rapido ist rund um die Uhr erreichbar und hilft im akuten Notfall schnell weiter.
         </p>
@@ -782,7 +782,7 @@ $metaDescription = " Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme �
             <p>
               Regelmäßige Thermenwartung ist ein wichtiger Bestandteil eines zuverlässigen Heizbetriebs.
               Unsere Wartung umfasst Reinigung, Überprüfung, Einstellung und Funktionskontrolle aller relevanten Geräte.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Bei Bedarf führen wir eine fachgerechte Reparatur durch und setzen auf geprüfte Ersatzteile.
               So lassen sich Ausfälle vermeiden, Effizienz steigern und Energiekosten reduzieren – besonders in der kalten Jahreszeit.
@@ -967,4 +967,6 @@ $metaDescription = " Rapido Thermentausch in Wien ✔ Moderne Rapido Gastherme �
 </main>
 
 @endsection
+
+
 

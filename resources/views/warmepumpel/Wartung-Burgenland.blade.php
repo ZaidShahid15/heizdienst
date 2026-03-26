@@ -866,7 +866,7 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Transparente Kosten und langfristige Vorteile</h2>
-        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. 
+        <p>Mehr zu unserem <a href="/">Serviceangebot</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Niederosterreich') }}">Wärmepumpen-Service</a>. 
           Die Kosten für eine Wärmepumpe Wartung Burgenland hängen vom Zustand der Wärmepumpen, dem gewählten Service, der Installation sowie vom Umfang der Leistungen ab. Durch regelmäßige Wartung, Inspektion und professionelle Reparatur sichern Sie langfristig Energieeffizienz und senken spürbar Energiekosten sowie Heizkosten. Unser Komplettpaket sorgt dafür, dass alles optimal aufeinander abgestimmt ist – von der Planung bis zur laufenden Betreuung. Wir prüfen Voraussetzungen für Landesförderung und Bundesförderung und übernehmen auf Wunsch die komplette Förderabwicklung. So entsteht eine wirtschaftliche Lösung mit klar kalkulierbaren Kosten, hoher Qualität und nachhaltigem Nutzen für Haushalte in Eisenstadt und im gesamten Burgenland.
         </p>
       </div>
@@ -966,6 +966,8 @@
 </main>
 
 @endsection
+
+
 
 
 

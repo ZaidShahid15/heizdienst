@@ -759,7 +759,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
           <div class="service-feature__icon" aria-hidden="true">🏠</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Abgasrohre, Kamin und Freigabe durch den Rauchfangkehrer müssen exakt abgestimmt sein, um einen sicheren Betrieb der Brennwerttechnik zu gewährleisten. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
+            <p>Abgasrohre, Kamin und Freigabe durch den Rauchfangkehrer müssen exakt abgestimmt sein, um einen sicheren Betrieb der Brennwerttechnik zu gewährleisten. Unser <a href="/">unserer Notfallhilfe</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
 
@@ -981,4 +981,5 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
   })();
 </script>
 @endsection
+
 

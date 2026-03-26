@@ -374,7 +374,7 @@ FULL UPDATED HEADER (MOBILE + DESKTOP + TABLET)
               Notdienst Wien <span class="chev">▾</span>
             </a>
             <div class="nav-dropdown-panel" role="menu" aria-label="Notdienst Wien">
-              <div class="dd-title">Notdienst Wien</div>
+              <div class="dd-title">unserer Notfallhilfe</div>
               <a class="dd-item" href="{{ route('vaillant.notdienst') }}"><img class="dd-logo" src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">Vaillant</a>
               <a class="dd-item" href="{{ route('buderus.notdienst') }}"><img class="dd-logo" src="{{ asset('img/buderus.jpg') }}" alt="Buderus">Buderus</a>
               <a class="dd-item" href="{{ route('baxi.notdienst') }}"><img class="dd-logo" src="{{ asset('img/baxi.jpg') }}" alt="Baxi">Baxi</a>
@@ -827,5 +827,6 @@ REQUIRED:
 Bootstrap 5 bundle (includes Offcanvas + Collapse):
 <script src=".../bootstrap.bundle.min.js"></script>
 ========================================================= -->
+
 
 

@@ -843,7 +843,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
             <p>
               Regelmäßige Wartung und professioneller Wolf Thermenservice sind entscheidend für die Lebensdauer Ihrer Wolf Heizung.
               Unsere Serviceleistungen umfassen Überprüfung, Reinigung, Einstellung und Funktionskontrolle aller relevanten Geräte.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Auch Wolf Thermenwartung und Thermenreparatur werden effizient umgesetzt.
               So lassen sich Fehler, wiederkehrende Störungen und hohe Energiekosten vermeiden.
@@ -935,7 +935,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
             </p>
             <p>
               Jeder Kunde erhält einen festen Ansprechpartner, der Anliegen koordiniert und für klare Kommunikation sorgt.
-              In unserem <a href="/">Thermenservice Wien & Niederösterreich</a> Team legen wir Wert auf professionellen Umgang, transparente Abläufe und verlässliche Lösungen für hohe Kundenzufriedenheit.
+              In unserem Serviceangebot Team legen wir Wert auf professionellen Umgang, transparente Abläufe und verlässliche Lösungen für hohe Kundenzufriedenheit.
             </p>
 
             <div class="service-stats">
@@ -1175,4 +1175,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
   })();
 </script>
 @endsection
+
+
+
 

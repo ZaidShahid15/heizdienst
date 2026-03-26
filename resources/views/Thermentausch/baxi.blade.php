@@ -848,7 +848,7 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
 
         <details>
           <summary>Gibt es einen Baxi Notdienst?</summary>
-          <p>Ja, bei Störung oder Problem steht ein Baxi <a href="/">Notdienst Wien</a> zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
+          <p>Ja, bei Störung oder Problem steht ein Baxi <a href="/">unserer Notfallhilfe</a> zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
         </details>
       </div>
     </div>
@@ -868,4 +868,5 @@ $metaDescription = "Baxi Thermentausch in Wien ✔ Moderne Baxi Gastherme & Bren
 
 
 @endsection
+
 

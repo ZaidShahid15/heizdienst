@@ -824,7 +824,7 @@
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Preise, Pauschalen und Qualität</h2>
-        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. 
+        <p>Mehr zu unserem <a href="/">Serviceangebot</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Burgenland') }}">Wärmepumpen-Service</a>. 
           Transparente Preise und klar definierte Pauschalen schaffen Vertrauen bei jeder Wärmepumpen Reparatur Burgenland. Vor Beginn aller Arbeiten erhalten Kunden eine nachvollziehbare Übersicht über Service, Wartung oder Reparatur. Unser Unternehmen legt großen Wert auf Qualität in allen Bereichen der Haustechnik – von der ersten Beratung bis zur finalen Umsetzung. Faire Kalkulation, hochwertige Komponenten und erfahrene Profis sichern langfristige Zufriedenheit. Auch bei Sanierung, Einbau oder Installation neuer Anlagen beraten wir umfassend zu Kosten, Förderung und möglichen Einsparungen bei Energiekosten. So verbinden wir Qualität, Effizienz und Wirtschaftlichkeit für Ihr Zuhause im Burgenland.
         </p>
         <div class="service-emergency__actions">
@@ -955,6 +955,8 @@
 </main>
 
 @endsection
+
+
 
 
 

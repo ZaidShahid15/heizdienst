@@ -883,7 +883,7 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
         </details>
         <details>
           <summary>Gibt es einen Ocean Notdienst?</summary>
-          <p>Ja, ein Ocean <a href="/">Notdienst Wien</a> steht bei akuten Problemen und Defekts schnell zur Verfügung.</p>
+          <p>Ja, ein Ocean <a href="/">unserer Notfallhilfe</a> steht bei akuten Problemen und Defekts schnell zur Verfügung.</p>
         </details>
       </div>
     </div>
@@ -901,4 +901,5 @@ $metaDescription = " Ocean Thermentausch in Wien ✔ Moderne Ocean Gastherme ✔
 </main>
 
 @endsection
+
 

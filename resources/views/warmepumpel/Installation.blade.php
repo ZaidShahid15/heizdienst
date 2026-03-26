@@ -812,7 +812,7 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Kosten und individuelles Angebot</h2>
-        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. 
+        <p> Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. 
           Die Kosten für eine Wärmepumpe in Wien hängen von System, Gebäudegröße und vorhandenen Heizsystemen ab. Faktoren wie Luft, Wasser oder Boden als Energiequelle beeinflussen den Gesamtpreis ebenso wie Montage, Inbetriebnahme und notwendige Anpassungen. Trotz höherer Anfangsinvestition sinken die laufenden Energiekosten deutlich, da Umweltenergie effizient genutzt wird. Im Vergleich zu Gas oder Öl profitieren Haushalte von stabilen Preisen und geringerer Abhängigkeit vom Land und globalen Märkten. Ein transparentes Angebot berücksichtigt alle Details, von der Planung bis zur Wartung, und schafft Planungssicherheit. Langfristig amortisiert sich die Lösung durch niedrige Betriebskosten und Förderungen.
         </p>
       </div>
@@ -841,7 +841,7 @@
         <h2>Service und Wartung Wien</h2>
         <p>Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung') }}">Wärmepumpen-Service</a>. 
           Ein zuverlässiger Service ist entscheidend für den langfristigen Betrieb einer Wärmepumpe. Regelmäßige Wartung sichert Effizienz, verlängert die Lebensdauer des Geräts und schützt vor unerwarteten Reparaturen. Ein Rundum Service umfasst Kontrolle, Reinigung, Funktionsprüfung und schnelle Unterstützung im Bedarfsfall. Auch nach der Installation stehen erfahrene Partner zur Seite, um Qualität und Leistung dauerhaft zu gewährleisten. Durch fachgerechte Arbeit und kontinuierliche Betreuung bleibt das Heizsystem optimal eingestellt und sorgt für konstante Wärme, Warmwasser und Kühlung in allen Jahreszeiten.
-        </p>
+         Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Service anfragen</a>
           <a class="service-btn service-btn--ghost-on-dark" href="#faq-services">FAQ ansehen</a>
@@ -952,6 +952,9 @@
 </main>
 
 @endsection
+
+
+
 
 
 

@@ -668,7 +668,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
             <p>
               Der Ocean Kundendienst Wien unterstützt Kunden bei allen Anliegen rund um Ocean Therme, Ocean Heizung und moderne Gasgeräte.
               Als erfahrener <strong>Installateur</strong> für <strong>Wartung</strong> und <strong>Reparatur</strong> betreuen wir Boiler in Wien &amp; Niederösterreich –
-              mehr zur <a href="{{ route('loeblich.thermenwartung') }}">Thermenwartung Wien</a>.
+              mehr zur <a href="{{ route('loeblich.thermenwartung') }}">Serviceangebot</a>.
             </p>
             <p>
               Als erfahrener Installateur und verlässlicher Partner arbeiten wir strukturiert, transparent und lösungsorientiert.
@@ -722,7 +722,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
     <div class="service-container">
       <div class="service-section__head">
         <h2>Leistungen und Vorteile auf einen Blick</h2>
-        <p>Ocean <a href="/">Kundendienst</a>, Thermenservice, Wartung, Reparatur und Thermentausch – klare Abläufe, transparente Betreuung und hohe Sicherheit.</p>
+        <p>Ocean Serviceangebot, Thermenservice, Wartung, Reparatur und Thermentausch – klare Abläufe, transparente Betreuung und hohe Sicherheit.</p>
       </div>
 
       <div class="service-grid service-grid--2">
@@ -737,7 +737,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧪</div>
           <div>
-            <h3>Thermenservice Wien</h3>
+            <h3>Serviceangebot</h3>
             <p>Planbare Wartungen und Service-Termine zur Sicherung der Langlebigkeit Ihrer Ocean Therme.</p>
           </div>
         </article>
@@ -787,7 +787,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
             <p>
               Regelmäßige Thermenwartung ist ein zentraler Bestandteil für den sicheren Betrieb Ihrer Anlage.
               Unsere Ocean Thermenwartung folgt klaren Abläufen: Zustandsprüfung, Reinigung, Einstellung und Funktionskontrolle.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Bei einer Reparatur arbeiten unsere Fachkräfte effizient und dokumentiert. So lassen sich Folgeschäden vermeiden,
               die Effizienz steigern und Energiekosten senken – gut für Komfort, Umwelt und Wohlbefinden.
@@ -822,7 +822,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
               Unsere Fachleute erklären Unterschiede zwischen Modellen, zeigen Alternativen auf und begleiten Installation sowie Inbetriebnahme.
             </p>
             <p>
-              Dabei berücksichtigen wir den tatsächlichen Bedarf, den Zustand der Anlage und Ihre individuellen Anliegen. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
+              Dabei berücksichtigen wir den tatsächlichen Bedarf, den Zustand der Anlage und Ihre individuellen Anliegen. Mehr Informationen zur Serviceangebot.
             </p>
           </div>
         </div>
@@ -848,7 +848,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
               Durch kurze Anfahrtszeiten und regionale Planung sind unsere Techniker rasch am Ort – auch in der Umgebung reagieren wir flexibel.
             </p>
             <p>
-              Unser <a href="/">Notdienst Wien</a> steht Kunden jederzeit zur Verfügung, damit Ausfälle nicht zu größeren Schäden führen und Heizung sowie Warmwasser
+              Unser Serviceangebot steht Kunden jederzeit zur Verfügung, damit Ausfälle nicht zu größeren Schäden führen und Heizung sowie Warmwasser
               schnell wieder funktionieren.
             </p>
           </div>
@@ -966,4 +966,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
 </main>
 
 @endsection
+
+
+
 

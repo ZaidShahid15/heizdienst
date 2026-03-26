@@ -665,7 +665,7 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
           <div class="service-feature__icon" aria-hidden="true">🚨</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Unser Ocean <a href="/">Notdienst Wien</a> ist rund um die Uhr verfügbar und bietet schnelle Hilfe bei akuten Störungen oder im Notfall in Wien.</p>
+            <p>Unser Ocean <a href="/">unserer Notfallhilfe</a> ist rund um die Uhr verfügbar und bietet schnelle Hilfe bei akuten Störungen oder im Notfall in Wien.</p>
           </div>
         </article>
       </div>
@@ -680,7 +680,7 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
           <div class="card-box">
             <h2>Heizung, Gasgeräte und Sanitär</h2>
             <p>
-              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie professionelle Wartungen stellen wir sicher, dass Ihre Therme, Boiler oder Heizsysteme in Bestform bleiben.
+              Durch eine regelmäßige <a href="/">Serviceangebot</a> sowie professionelle Wartungen stellen wir sicher, dass Ihre Therme, Boiler oder Heizsysteme in Bestform bleiben.
             </p>
             <p>
               Unsere Experten prüfen Energieverbrauch, Wasserführung und sicherheitsrelevante Komponenten sorgfältig.
@@ -876,4 +876,6 @@ $metaDescription = "Ocean Installateur Wien für Ocean Thermenwartung, Reparatur
 </main>
 
 @endsection
+
+
 

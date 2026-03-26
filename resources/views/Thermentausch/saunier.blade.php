@@ -838,7 +838,7 @@ $metaDescription = " Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme &
 
         <details>
           <summary>Gibt es einen Saunier Duval Notdienst?</summary>
-          <p>Ja, bei Störung oder dringendem Anliegen steht <a href="/">Notdienst Wien</a> zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
+          <p>Ja, bei Störung oder dringendem Anliegen steht <a href="/">unserer Notfallhilfe</a> zur Verfügung, um schnelle Hilfe zu gewährleisten.</p>
         </details>
       </div>
     </div>
@@ -856,4 +856,5 @@ $metaDescription = " Saunier Duval Thermentausch in Wien ✔ Moderne Gastherme &
 </main>
 
 @endsection
+
 

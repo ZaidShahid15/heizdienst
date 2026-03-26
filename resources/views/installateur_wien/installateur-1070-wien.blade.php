@@ -126,7 +126,7 @@
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Installateur‑Service in 1070 Wien – zuverlässig & strukturiert</h2>
-          <p>Als Installateur in 1070 Wien (Neubau) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu <a href="{{ route('installateur.1060') }}">Reparaturen und Modernisierung</a> erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1070 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1070 Wien (Neubau) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1070 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert. Weitere Details finden Sie in unseren <a href="{{ route('installateur.1060') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1070 Wien" loading="lazy" decoding="async">
@@ -156,7 +156,7 @@
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Unser erfahrenes Team für 1070 Wien</h2>
-          <p>Als Installateur in 1070 Wien (Neubau) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1070 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert. Mit unserem zuverlässigen <a href="/">Thermenservice Wien</a> sorgen wir für den reibungslosen Betrieb Ihrer Anlage.</p>
+          <p>Als Installateur in 1070 Wien (Neubau) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1070 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert. Mit unserem zuverlässigen Serviceangebot sorgen wir für den reibungslosen Betrieb Ihrer Anlage.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -191,7 +191,7 @@
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Wartung in 1070 Wien – planbar & sicher</h2>
-          <p>Als Installateur in 1070 Wien (Neubau) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1070 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1070 Wien (Neubau) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1070 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -444,5 +444,8 @@
 <script src="{{ asset('js/main.js') }}"></script>
 
     @endsection
+
+
+
 
 

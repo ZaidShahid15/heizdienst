@@ -750,7 +750,7 @@ $metaDescription = "Viessmann Service Wien ✔ Wartung, Überprüfung & Beratung
             <p>
               Regelmäßige Wartung und professionelle Thermenwartung sind entscheidend für Sicherheit und lange Lebensdauer.
               Unsere Dienstleistungen umfassen Reinigung, Prüfung, Abgasmessung, Einstellung und Funktionskontrolle.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Bei Reparaturen setzen wir auf originale, geprüfte Ersatzteile passend zum Modell. Präzise Überprüfung erkennt
               viele Probleme frühzeitig und vermeidet größere Kosten. Auf Wunsch beraten wir auch zu einem Wartungsvertrag.
@@ -835,7 +835,7 @@ $metaDescription = "Viessmann Service Wien ✔ Wartung, Überprüfung & Beratung
             <h2>Fachpartner, Werkskundendienst und Betreuung</h2>
             <p>
               Als Fachpartner arbeiten wir nach Herstellervorgaben und in enger Abstimmung mit dem Werkskundendienst.
-              Unsere Experten bieten einen professionellen <a href="/">Thermenwartung Wien</a> Service für alle Modelle und Heizsysteme für maximale Betriebssicherheit.
+              Unsere Experten bieten einen professionellen Serviceangebot Service für alle Modelle und Heizsysteme für maximale Betriebssicherheit.
             </p>
             <p>
               Kunden profitieren von persönlicher Betreuung, klarer Beratung und strukturierter Umsetzung – von der ersten Anfrage
@@ -1019,4 +1019,7 @@ $metaDescription = "Viessmann Service Wien ✔ Wartung, Überprüfung & Beratung
   })();
 </script>
 @endsection
+
+
+
 

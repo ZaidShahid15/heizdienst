@@ -546,7 +546,7 @@
         </div>
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Notdienst Wien</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">unserer Notfallhilfe</span></a></li>
             <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">24h erreichbar</span></a></li>
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Schnelle Hilfe</span></a></li>
             <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Sicherheit</span></a></li>
@@ -833,3 +833,4 @@
   });
 </script>
 @endsection
+

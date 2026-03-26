@@ -733,7 +733,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
           <div class="service-feature__icon" aria-hidden="true">⏱️</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Unser Wolf <a href="/">Notdienst Wien</a> ist rund um die Uhr erreichbar und steht bei akuten Problemen schnell zur Verfügung.</p>
+            <p>Unser Wolf <a href="/">unserer Notfallhilfe</a> ist rund um die Uhr erreichbar und steht bei akuten Problemen schnell zur Verfügung.</p>
           </div>
         </article>
       </div>
@@ -753,7 +753,7 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
               Ob Gasthermen, Heizung oder komplette Heizsystems – unsere Installateure sorgen für effiziente Einstellungen, stabile Wärme und zuverlässigen Betrieb.
             </p>
             <p>
-              Durch eine regelmäßige <a href="/">Thermenwartung Wien</a> sowie fachgerechten Thermenservice lassen sich Energiekosten senken und Heizkosten langfristig reduzieren.
+              Durch eine regelmäßige <a href="/">Serviceangebot</a> sowie fachgerechten Thermenservice lassen sich Energiekosten senken und Heizkosten langfristig reduzieren.
               Auch Aspekte wie Umwelt, Energie und Komfort fließen in unsere Arbeit ein.
               Wolf Technik steht für Qualität und Effizienz – wir setzen diese Vorteile im Alltag unserer Kunden konsequent um.
             </p>
@@ -1030,4 +1030,6 @@ $metaDescription = "Erfahrener Wolf Installateur Wien für Wolf Thermenservice, 
 </script>
 -->
 @endsection
+
+
 

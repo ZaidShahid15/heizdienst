@@ -126,7 +126,7 @@ $metaDescription = "Installateur Notdienst 1190 Wien – schneller Installateur 
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Ihr Installateur Notdienst 1190 Wien – immer einsatzbereit</h2>
-                        <p>Wenn bei Ihnen in Döbling das Wasser aus der <a href="{{ route('Thermenreparatur-1180-wien') }}"> Wand schießt </a>, die Heizung streikt oder der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1190 Wien ist speziell für solche Notfälle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach Döbling. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben.</p>
+                        <p>Wenn bei Ihnen in Döbling das Wasser aus der  Wand schießt , die Heizung streikt oder der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1190 Wien ist speziell für solche Notfälle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach Döbling. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben. Weitere Details finden Sie in unseren <a href="{{ route('Thermenreparatur-1180-wien') }}">weiterführenden Informationen</a>.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
@@ -254,7 +254,7 @@ $metaDescription = "Installateur Notdienst 1190 Wien – schneller Installateur 
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Regelmäßige Wartung – damit alles rund läuft</h2>
-                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stört seltener. Gerade in Döbling mit vielen Villen und älteren Einfamilienhäusern ist die jährliche Inspektion besonders wichtig. Unser Installateur überprüft bei der Wartung alle Komponenten: Brenner, Wärmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfüllen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei Gasgeräten), sondern sparen langfristig Geld und vermeiden teure Notfälle.</p>
+                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stört seltener. Gerade in Döbling mit vielen Villen und älteren Einfamilienhäusern ist die jährliche Inspektion besonders wichtig. Unser Installateur überprüft bei der Wartung alle Komponenten: Brenner, Wärmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfüllen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei Gasgeräten), sondern sparen langfristig Geld und vermeiden teure Notfälle. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
                         <div class="service-stats">
                             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Höhere Effizienz</div></div>
                             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Ausfälle</div></div>
@@ -278,7 +278,7 @@ $metaDescription = "Installateur Notdienst 1190 Wien – schneller Installateur 
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Reparaturen – schnell und fachgerecht</h2>
-<p>Wenn die Heizung nicht zündet, die Spülung läuft oder der Boiler tropft, ist schnelle Hilfe gefragt. Unser Installateur Notdienst in 1190 diagnostiziert den Fehler meist direkt vor Ort und hat die gängigsten Ersatzteile bereits im Fahrzeug dabei. So können wir viele Reparaturen sofort erledigen – ohne zweiten Termin. Mehr zu unserem <a href="/">Thermenwartung Wien</a> und weiteren Leistungen finden Sie auf unserer Startseite. Sollte doch ein Spezialteil nötig sein, organisieren wir es schnellstmöglich und halten Sie über den Fortschritt auf dem Laufenden. Wir arbeiten markenunabhängig und kennen die typischen Schwachstellen aller gängigen Fabrikate.</p>                    </div>
+<p>Wenn die Heizung nicht zündet, die Spülung läuft oder der Boiler tropft, ist schnelle Hilfe gefragt. Unser Installateur Notdienst in 1190 diagnostiziert den Fehler meist direkt vor Ort und hat die gängigsten Ersatzteile bereits im Fahrzeug dabei. So können wir viele Reparaturen sofort erledigen – ohne zweiten Termin. Mehr zu unserem Serviceangebot und weiteren Leistungen finden Sie auf unserer Startseite. Sollte doch ein Spezialteil nötig sein, organisieren wir es schnellstmöglich und halten Sie über den Fortschritt auf dem Laufenden. Wir arbeiten markenunabhängig und kennen die typischen Schwachstellen aller gängigen Fabrikate.</p>                    </div>
                 </div>
                 <div class="card-split__media">
                     <div class="service-media__box">
@@ -518,6 +518,9 @@ $metaDescription = "Installateur Notdienst 1190 Wien – schneller Installateur 
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
+
+
 
 
 

@@ -687,7 +687,7 @@ $metaDescription = " Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Bre
           <div class="service-feature__icon" aria-hidden="true">🧾</div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Nach der Beratung prüft der Techniker vor Ort Gerät, Heizungsanlage und bestehende Arbeiten. Danach folgt Planung und Angebot. Unser <a href="/">Notdienst Wien</a> ist rund um die Uhr für Sie da.</p>
+            <p>Nach der Beratung prüft der Techniker vor Ort Gerät, Heizungsanlage und bestehende Arbeiten. Danach folgt Planung und Angebot. Unser <a href="/">unserer Notfallhilfe</a> ist rund um die Uhr für Sie da.</p>
           </div>
         </article>
 
@@ -901,4 +901,5 @@ $metaDescription = " Viessmann Thermentausch in Wien ✔ Moderne Gastherme & Bre
 </main>
 <!--  -->
 @endsection
+
 

@@ -922,7 +922,7 @@ $metaDescription = "Nordgas Notdienst Wien ✔ Thermenservice, Reparaturen & The
               Dank strukturierter Planung und kurzer Wege sind unsere Techniker rasch vor Ort.
             </p>
             <p>
-              Ob Innenstadt, Randbezirk oder ländliche Region – wir sorgen für schnelle Hilfe bei akuten Problemen mit Gastherme, Therme oder kompletter Heizungsanlage durch unseren professionellen <a href="/">Thermenwartung Wien</a> Service.
+              Ob Innenstadt, Randbezirk oder ländliche Region – wir sorgen für schnelle Hilfe bei akuten Problemen mit Gastherme, Therme oder kompletter Heizungsanlage durch unseren professionellen <a href="/">Serviceangebot</a> Service.
               Auch im Fall größerer Defekte reagieren wir flexibel und zuverlässig.
             </p>
 
@@ -1136,4 +1136,6 @@ $metaDescription = "Nordgas Notdienst Wien ✔ Thermenservice, Reparaturen & The
 </script>
 
 @endsection
+
+
 

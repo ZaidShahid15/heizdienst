@@ -880,7 +880,7 @@ $metaDescription = "Windhager Thermenreparatur Wien vom Meisterbetrieb. Windhage
       <div class="service-faq">
         <details>
           <summary>1. Wann sollte ich den Windhager Notdienst kontaktieren?</summary>
-          <p>Den Windhager <a href="/">Notdienst Wien</a> rufen Sie bei Ausfall der Windhager Therme, Gasgeruch, starkem Druckverlust oder akutem Fehlercode – besonders in Wien und Niederösterreich.</p>
+          <p>Den Windhager <a href="/">unserer Notfallhilfe</a> rufen Sie bei Ausfall der Windhager Therme, Gasgeruch, starkem Druckverlust oder akutem Fehlercode – besonders in Wien und Niederösterreich.</p>
         </details>
 
         <details>
@@ -943,4 +943,5 @@ $metaDescription = "Windhager Thermenreparatur Wien vom Meisterbetrieb. Windhage
 </main>
 
 @endsection
+
 

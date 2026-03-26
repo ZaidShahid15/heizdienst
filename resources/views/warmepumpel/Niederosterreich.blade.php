@@ -867,7 +867,7 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Transparente Kosten und Förderung nutzen</h2>
-        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Niederosterreich') }}">Wärmepumpen-Service</a>. 
+        <p>Mehr zu unserem <a href="/">Serviceangebot</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation-Niederosterreich') }}">Wärmepumpen-Service</a>. 
           Die Kosten für eine professionelle Wartung oder Reparatur Ihrer Wärmepumpe in Niederösterreich hängen vom Zustand der Heizungsanlage, dem Umfang der Serviceleistungen und dem benötigten Einbau- oder Montageaufwand ab. Durch regelmäßige Wartung lassen sich größere Reparatur vermeiden und langfristig Geld sparen. Unsere Beratung informiert umfassend zu aktueller Förderung in Wien Niederösterreich sowie möglichen Programmen in Österreich und im Burgenland. Eine fachgerechte Installation und Inbetriebnahme sichern zudem Garantieansprüche und erhöhen die Lebensdauer der Anlagen. Ob Gas, Öl oder moderne Heiztechnik – wir zeigen Ihnen eine wirtschaftliche Lösung, die Effizienz, Sicherheit und Umwelt gleichermaßen berücksichtigt.
         </p>
       </div>
@@ -971,6 +971,8 @@
 </main>
 
 @endsection
+
+
 
 
 

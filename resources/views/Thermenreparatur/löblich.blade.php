@@ -673,7 +673,7 @@ $metaDescription = "Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wie
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">🧰</div>
           <div>
-            <h3>Thermenwartung Wien</h3>
+            <h3>Serviceangebot</h3>
             <p>Eine regelmäßige Thermenwartung ist entscheidend für Effizienz, Sicherheit und Umweltschutz. Unsere Löblich Thermenwartung beinhaltet gründliche Überprüfung und Kontrolle aller Einstellungen.</p>
           </div>
         </article>
@@ -781,7 +781,7 @@ $metaDescription = "Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wie
       <div class="service-emergency__text">
         <h2>Sicherheit und Kontrolle im Notfall</h2>
         <p>
-          Bei einem Notfall mit Gas oder Wasser reagieren wir rasch, prüfen den Zustand Ihrer Therme und sorgen für sichere Abwicklung aller Arbeiten. Unser <a href="/">Notdienst Wien</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Bei einem Notfall mit Gas oder Wasser reagieren wir rasch, prüfen den Zustand Ihrer Therme und sorgen für sichere Abwicklung aller Arbeiten. Unser <a href="/">unserer Notfallhilfe</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
           Sicherheit hat dabei höchste Priorität. Unsere Servicetechniker analysieren die Situation, leiten Sofortmaßnahmen ein und sorgen für eine stabile Lösung – rund um die Uhr in Wien, Niederösterreich und Burgenland.
@@ -913,3 +913,5 @@ $metaDescription = "Löblich Thermenreparatur Wien vom Profi. Thermenwartung Wie
 </main>
 
 @endsection
+
+

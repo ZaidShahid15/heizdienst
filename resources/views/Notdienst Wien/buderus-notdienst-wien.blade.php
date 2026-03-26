@@ -859,7 +859,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
             <h2>Wartung, Thermenwartung und Buderus Thermenservice</h2>
             <p>
               Regelmäßige Wartung und fachgerechte Thermenwartung sind entscheidend für Lebensdauer, Effizienz und Sicherheit Ihrer Anlage. Als erfahrener Installateur für Heiztechnik sorgen wir für die professionelle Betreuung Ihrer Geräte. Zudem bieten wir einen <a href="/vaillant-notdienst-wien">Vaillant Notdienst Wien</a> für höchste Betriebssicherheit an.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               So lassen sich Probleme frühzeitig erkennen und teure Reparaturen vermeiden. Eine gut gewartete Therme arbeitet zuverlässiger,
               spart Energie und erhöht den Wohnkomfort. Alle Arbeiten erfolgen transparent, inkl. ausgewiesener MwSt.
@@ -978,7 +978,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
           <div class="card-box">
             <h2>Preise, MwSt und Vorteile</h2>
             <p>
-              Transparente Preise für eine fachgerechte <a href="/">Thermenwartung Wien</a> sind ein zentraler Bestandteil unseres Kundendienstes. Vor Beginn der Arbeiten informieren wir klar über Kosten, Leistungen und die ausgewiesene MwSt.
+              Transparente Preise für eine fachgerechte Serviceangebot sind ein zentraler Bestandteil unseres Kundendienstes. Vor Beginn der Arbeiten informieren wir klar über Kosten, Leistungen und die ausgewiesene MwSt.
             </p>
             <p>
               Kunden profitieren von fairen Konditionen, nachvollziehbarer Abrechnung und klaren Vorteilen:
@@ -1127,4 +1127,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
 </main>
 
 @endsection
+
+
+
 

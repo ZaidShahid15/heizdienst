@@ -829,7 +829,7 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Kosten und wirtschaftlicher Wert</h2>
-        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. 
+        <p>Mehr zu unserem <a href="/">Serviceangebot</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Reparatur') }}">Wärmepumpen-Service</a>. 
           Die Kosten einer Wärmepumpe in Niederösterreich variieren je nach Art des Heizsystem, Größe vom Haus und gewünschter Variante. Faktoren wie Einbau, Montage, Technikraum, Anschluss und mögliche PV Anlage beeinflussen den Gesamtpreis. Trotz Investition überzeugen niedrige Betriebskosten, hohe Effizienz und langfristige Unabhängigkeit von Gas und Öl. Gerade im Land mit steigenden Energiepreisen gewinnt der Umstieg auf eine nachhaltige Alternative an Bedeutung. Eine Luftwärmepumpe benötigt wenig Platz und eignet sich für viele Gebäude, während Systeme mit Erdreich oder Wasser zusätzliche Leistung bieten. Durch geringere Heizenergie-Kosten und stabile Strom-Nutzung steigert die Wärmepumpe dauerhaft den Wert der Immobilie.
         </p>
       </div>
@@ -969,6 +969,8 @@
 </main>
 
 @endsection
+
+
 
 
 

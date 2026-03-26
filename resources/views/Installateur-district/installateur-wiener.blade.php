@@ -552,7 +552,7 @@ $metaDescription = "Installateur Wiener Neustadt für Sanitär, Heizung, Rohrrei
           <div class="card-box">
             <h2>Ihr zuverlässiger Installateur in Wiener Neustadt</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Wiener Neustadt suchen, sind Sie bei uns genau richtig. Unser Installateur bietet professionelle Lösungen für Sanitär, Heizung und moderne Haustechnik in Wiener Neustadt und der gesamten Umgebung. Viele Haushalte in Wiener Neustadt Niederösterreich vertrauen auf unseren Service, weil wir Qualität, Sicherheit und moderne Technik miteinander verbinden. Egal ob neue Heizungsanlage, eine komplette Bad Installation oder Hilfe bei einem Problem mit Wasser, unser Team unterstützt Sie mit Kompetenz und langjähriger Erfahrung. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-vosendorf') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
+              Wenn Sie einen erfahrenen Installateur Wiener Neustadt suchen, sind Sie bei uns genau richtig. Unser Installateur bietet professionelle Lösungen für Sanitär, Heizung und moderne Haustechnik in Wiener Neustadt und der gesamten Umgebung. Viele Haushalte in Wiener Neustadt Niederösterreich vertrauen auf unseren Service, weil wir Qualität, Sicherheit und moderne Technik miteinander verbinden. Egal ob neue Heizungsanlage, eine komplette Bad Installation oder Hilfe bei einem Problem mit Wasser, unser Team unterstützt Sie mit Kompetenz und langjähriger Erfahrung. Zusätzlich profitieren Sie von unserer schnellen Unterstützung bei planbaren und akuten Arbeiten. Weitere Details finden Sie in unseren <a href="{{ route('installateur-vosendorf') }}">weiterführenden Informationen</a>.</p>
             <p>
               Als regionaler Gas Wasser Installateur kennen wir die Anforderungen der Gebäude in Wiener Neustadt genau und bieten eine persönliche Beratung sowie professionelle Arbeiten. Wenn Sie einen Installateur Nähe Wiener Neustadt oder einen Installateur Wiener Neustadt Umgebung suchen, profitieren Sie von schneller Hilfe, sorgfältiger Planung und zuverlässigen Lösungen für Ihr Zuhause in Wiener Neustadt.
             </p>
@@ -656,7 +656,7 @@ $metaDescription = "Installateur Wiener Neustadt für Sanitär, Heizung, Rohrrei
             <p>
               Faire Preise und transparente Abläufe sind fester Bestandteil unseres Installateurbetriebs.
               Vor Beginn aller Arbeiten informieren wir klar über Kosten, Leistungen und notwendige Schritte.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Kunden profitieren von nachvollziehbarer Preisstruktur, kompetenter Beratung und persönlichem Kundenservice.
               Unser Team steht für Kompetenz, Erfahrung und strukturierte Abläufe – vom ersten Termin bis zur Ausführung.
@@ -814,6 +814,8 @@ $metaDescription = "Installateur Wiener Neustadt für Sanitär, Heizung, Rohrrei
 </main>
 
 @endsection
+
+
 
 
 

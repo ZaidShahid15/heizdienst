@@ -829,7 +829,7 @@
     <div class="service-container">
       <div class="service-section__head">
         <h2>Kosten, Preise und Förderung</h2>
-        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. 
+        <p>Mehr zu unserem <a href="/">Serviceangebot</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Installation') }}">Wärmepumpen-Service</a>. 
           Die Kosten für eine Wärmepumpen Reparatur in Wien hängen vom Gerät, dem Fehler und dem Umfang der Arbeiten ab. Wir erstellen ein transparentes Angebot, das Reparaturen, Service oder notwendige Komponenten klar aufschlüsselt. Faire Preise, nachvollziehbare Leistungen und keine versteckten Kosten stehen bei uns im Fokus. Zusätzlich informieren wir Sie über mögliche Förderung und staatliche Beiträge, die bei Reparatur, Wartung oder Heizungstausch zur Verfügung stehen. Eine fachkundige Beratung hilft dabei, Energiekosten zu senken und die Energieeffizienz Ihrer Anlage langfristig zu verbessern. So behalten Sie Kosten, Betrieb und Nutzen jederzeit im Blick.
         </p>
       </div>
@@ -964,6 +964,8 @@
 </main>
 
 @endsection
+
+
 
 
 

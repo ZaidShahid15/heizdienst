@@ -177,7 +177,7 @@ $metaDescription = "Thermenwartung 1010 Wien (Innere Stadt) für Gasthermen, Rei
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermenwartung in 1010 Wien – zuverlässig & strukturiert</h2>
-          <p>Mit unserer Thermenwartung in 1010 Wien (Innere Stadt) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1010 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+          <p>Mit unserer Thermenwartung in 1010 Wien (Innere Stadt) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1010 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. Weitere Details finden Sie in unseren <a href="{{ route('thermenwartung.1230') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Thermenwartung Service 1010 Wien" loading="lazy" decoding="async">
@@ -186,7 +186,7 @@ $metaDescription = "Thermenwartung 1010 Wien (Innere Stadt) für Gasthermen, Rei
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div>
-          <h3>Wartung & Prüfung</h3><p>Regelmäßige Thermenwartung erhöht die Sicherheit, senkt den Energieverbrauch und verhindert Ausfälle im Alltag.</p>
+          <h3>Wartung & Prüfung</h3><p>regelmäßige Thermenwartung erhöht die Sicherheit, senkt den Energieverbrauch und verhindert Ausfälle im Alltag.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚡</div><div>
           <h3>Reparatur & Fehlerbehebung</h3><p>Schnelle Diagnose bei Thermenstörungen – zielgerichtete Lösung, verständlich erklärt und sauber umgesetzt.</p>
@@ -242,7 +242,7 @@ $metaDescription = "Thermenwartung 1010 Wien (Innere Stadt) für Gasthermen, Rei
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermenwartung in 1010 Wien – planbar & sicher</h2>
-          <p>Mit unserer Thermenwartung in 1010 Wien (Innere Stadt) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1010 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+          <p>Mit unserer Thermenwartung in 1010 Wien (Innere Stadt) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1010 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. Für mehr Infos besuchen Sie Thermenwartung & Thermenservice Wien & Niederösterreich. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -276,7 +276,7 @@ $metaDescription = "Thermenwartung 1010 Wien (Innere Stadt) für Gasthermen, Rei
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Thermennotdienst in 1010 Wien – 24/7 erreichbar</h2>
-        <p>Mit unserer Thermenwartung in 1010 Wien (Innere Stadt) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1010 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+        <p>Mit unserer Thermenwartung in 1010 Wien (Innere Stadt) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1010 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. </p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -493,6 +493,13 @@ $metaDescription = "Thermenwartung 1010 Wien (Innere Stadt) für Gasthermen, Rei
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
+
+
+
+
+
 
 
 

@@ -177,7 +177,7 @@ $metaDescription = "Thermenwartung  1210 Wien (Floridsdorf) für Heizung, Warmwa
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermenwartung ‑Service in 1210 Wien – zuverlässig & strukturiert</h2>
-          <p>Mit unserer Thermenwartung in 1210 Wien (Floridsdorf) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1210 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+          <p>Mit unserer Thermenwartung in 1210 Wien (Floridsdorf) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1210 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. Weitere Details finden Sie in unseren <a href="{{ route('thermenwartung.1200') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Thermenwartung  Service 1210 Wien" loading="lazy" decoding="async">
@@ -242,7 +242,7 @@ $metaDescription = "Thermenwartung  1210 Wien (Floridsdorf) für Heizung, Warmwa
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Wartung in 1210 Wien – planbar & sicher</h2>
-          <p>Mit unserer Thermenwartung in 1210 Wien (Floridsdorf) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1210 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+          <p>Mit unserer Thermenwartung in 1210 Wien (Floridsdorf) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1210 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. Für mehr Infos besuchen Sie Thermenwartung & Thermenservice Wien & Niederösterreich. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -493,5 +493,7 @@ $metaDescription = "Thermenwartung  1210 Wien (Floridsdorf) für Heizung, Warmwa
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
 
 

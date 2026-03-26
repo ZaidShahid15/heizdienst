@@ -857,7 +857,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Thermenwartung, Service & 
             <p>
               Regelmäßige Thermenwartung und professioneller Heizungsservice sind entscheidend für Sicherheit, Effizienz
               und Langlebigkeit Ihrer Anlage. Unser Service umfasst Instandhaltung, Überprüfung, Reinigung und Funktionskontrolle.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Bei einer Reparatur setzen wir auf geprüfte Ersatzteile und fachgerechte Umsetzung.
               So lassen sich hohe Kosten, Energieverluste und Folgeschäden vermeiden. Eine gut gewartete Gastherme arbeitet effizienter,
@@ -1021,7 +1021,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Thermenwartung, Service & 
           <div class="card-box">
             <h2>Kosten, Leistung und Vorteile</h2>
             <p>
-              Transparente Kosten und eine nachvollziehbare Leistung durch unseren <a href="/">Thermenwartung Wien</a> Service stehen im Mittelpunkt. Vor jeder Arbeit informieren wir klar über den Umfang und die empfohlenen Schritte für Ihre Anlage.
+              Transparente Kosten und eine nachvollziehbare Leistung durch unseren Serviceangebot Service stehen im Mittelpunkt. Vor jeder Arbeit informieren wir klar über den Umfang und die empfohlenen Schritte für Ihre Anlage.
             </p>
             <p>
               Kunden profitieren von fairen Preisen, professioneller Ausführung und messbaren Vorteilen:
@@ -1298,4 +1298,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Thermenwartung, Service & 
   })();
 </script> -->
 @endsection
+
+
+
 

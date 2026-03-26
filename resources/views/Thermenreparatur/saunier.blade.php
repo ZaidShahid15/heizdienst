@@ -874,7 +874,7 @@ $metaDescription = "Saunier Duval Thermenreparatur Wien vom Fachbetrieb. Thermen
 
         <details>
           <summary>Ist der Saunier Duval Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, <a href="/">Notdienst Wien</a> rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
+          <p>Ja, <a href="/">unserer Notfallhilfe</a> rund um die Uhr in Wien und Niederösterreich verfügbar.</p>
         </details>
 
         <details>
@@ -913,3 +913,4 @@ $metaDescription = "Saunier Duval Thermenreparatur Wien vom Fachbetrieb. Thermen
 
 
 @endsection
+

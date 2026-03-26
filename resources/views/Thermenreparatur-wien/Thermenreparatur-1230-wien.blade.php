@@ -126,7 +126,7 @@ $metaDescription = "Installateur Notdienst 1230 Wien – schneller Installateur 
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Ihr Installateur Notdienst 1230 Wien – immer einsatzbereit</h2>
-                        <p>Wenn bei Ihnen in <a href="{{ route('Thermenreparatur-1220-wien') }}"> Liesing das Wasser </a> aus der Wand schießt, die Heizung streikt oder der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1230 Wien ist speziell für solche Notfälle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen – ob in Atzgersdorf, Erlaa, Mauer, Rodaun oder Siebenhirten. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben.</p>
+                        <p>Wenn bei Ihnen in  Liesing das Wasser  aus der Wand schießt, die Heizung streikt oder der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1230 Wien ist speziell für solche Notfälle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen – ob in Atzgersdorf, Erlaa, Mauer, Rodaun oder Siebenhirten. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben. Weitere Details finden Sie in unseren <a href="{{ route('Thermenreparatur-1220-wien') }}">weiterführenden Informationen</a>.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
@@ -254,7 +254,7 @@ $metaDescription = "Installateur Notdienst 1230 Wien – schneller Installateur 
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Regelmäßige Wartung – damit alles rund läuft</h2>
-                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stört seltener. Gerade in Liesing mit seinem Mix aus alten Ortskernen, Einfamilienhaussiedlungen und modernen Wohnbauprojekten ist die jährliche Inspektion besonders wichtig. Unser Installateur überprüft bei der Wartung alle Komponenten: Brenner, Wärmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfüllen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei Gasgeräten), sondern sparen langfristig Geld und vermeiden teure Notfälle.</p>
+                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stört seltener. Gerade in Liesing mit seinem Mix aus alten Ortskernen, Einfamilienhaussiedlungen und modernen Wohnbauprojekten ist die jährliche Inspektion besonders wichtig. Unser Installateur überprüft bei der Wartung alle Komponenten: Brenner, Wärmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfüllen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei Gasgeräten), sondern sparen langfristig Geld und vermeiden teure Notfälle. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
                         <div class="service-stats">
                             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Höhere Effizienz</div></div>
                             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Ausfälle</div></div>
@@ -295,7 +295,7 @@ $metaDescription = "Installateur Notdienst 1230 Wien – schneller Installateur 
         <div class="container service-emergency">
             <div class="service-emergency__text">
                 <h2>Installateur Notdienst 1230 Wien – 24/7 für Sie erreichbar</h2>
-<p>Ein Rohrbruch überschwemmt den Keller, mitten in der Nacht fällt die Heizung aus oder am Sonntagmorgen ist der Abfluss dicht – das sind die Momente, in denen Sie unseren 24h-Notdienst brauchen. Wir sind rund um die Uhr für Bewohner und Betriebe in Liesing im Einsatz. Ein Anruf genügt, und unser Bereitschaftsteam macht sich sofort auf den Weg zu Ihnen. Mehr Infos zu unserem <a href="/">Thermenservice Wien</a> finden Sie auch auf unserer Website. Wir sichern die Schadensstelle, beheben das akute Problem und beraten Sie, ob weitere Maßnahmen nötig sind. Vertrauen Sie auf unsere jahrelange Erfahrung im Notfallmanagement.</p>                <div class="service-emergency__actions">
+<p>Ein Rohrbruch überschwemmt den Keller, mitten in der Nacht fällt die Heizung aus oder am Sonntagmorgen ist der Abfluss dicht – das sind die Momente, in denen Sie unseren 24h-Notdienst brauchen. Wir sind rund um die Uhr für Bewohner und Betriebe in Liesing im Einsatz. Ein Anruf genügt, und unser Bereitschaftsteam macht sich sofort auf den Weg zu Ihnen. Mehr Infos zu unserem Serviceangebot finden Sie auch auf unserer Website. Wir sichern die Schadensstelle, beheben das akute Problem und beraten Sie, ob weitere Maßnahmen nötig sind. Vertrauen Sie auf unsere jahrelange Erfahrung im Notfallmanagement.</p>                <div class="service-emergency__actions">
                     <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
                     <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
                 </div>
@@ -518,6 +518,9 @@ $metaDescription = "Installateur Notdienst 1230 Wien – schneller Installateur 
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
+
+
 
 
 

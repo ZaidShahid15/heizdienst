@@ -599,7 +599,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
               <div class="card-box">
                 <h2>Notdienst für Löblich Thermen in Wien und Umgebung</h2>
                 <p>
-                  Thermenwartung, Reparatur und Thermenservice aus einer Hand – erfahrene <strong>Installateur</strong>-Teams für <strong>Heiztechnik</strong> in Wien &amp; Niederösterreich. Wir betreuen Ihre <strong>Gastherme</strong> fachgerecht. Erfahren Sie mehr über unsere <a href="{{ route('wolf.thermenwartung') }}">Thermenwartung Wien</a>.
+                  Thermenwartung, Reparatur und Thermenservice aus einer Hand – erfahrene <strong>Installateur</strong>-Teams für <strong>Heiztechnik</strong> in Wien &amp; Niederösterreich. Wir betreuen Ihre <strong>Gastherme</strong> fachgerecht. Erfahren Sie mehr über unsere <a href="{{ route('wolf.thermenwartung') }}">Serviceangebot</a>.
                 </p>
               </div>
             </div>
@@ -658,7 +658,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
             <h2>Löblich Kundendienst für Thermen und Heizanlagen</h2>
             <p>
               Wenn Ihre Therme nicht mehr richtig arbeitet, ungewöhnliche Geräusche auftreten oder die Heizung ausfällt, ist rasche Hilfe entscheidend.
-              Der Löblich <a href="/">Kundendienst</a> unterstützt Kunden in Wien, Niederösterreich (NÖ) und im Burgenland zuverlässig bei allen Anliegen rund um
+              Der Löblich Serviceangebot unterstützt Kunden in Wien, Niederösterreich (NÖ) und im Burgenland zuverlässig bei allen Anliegen rund um
               Löblich Thermen, Gasthermen und moderne Heizanlagen.
             </p>
             <p>
@@ -685,7 +685,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
         <h2>Notdienst für Löblich Thermen</h2>
         <p>
           Ein plötzlicher Ausfall kommt meist unerwartet. Bei Notfällen, Gasgeruch, Druckverlust oder kompletter Störung der Gastherme
-          ist unser <a href="/">Notdienst Wien</a> sofort zur Verfügung – auch außerhalb üblicher Zeiten.
+          ist unser Serviceangebot sofort zur Verfügung – auch außerhalb üblicher Zeiten.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
           Unsere Techniker prüfen Gerät, Brenner, Wasserführung und sicherheitsrelevante Bauteile sorgfältig, um Folgeschäden zu vermeiden.
@@ -784,9 +784,9 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
             <p>
               Regelmäßige Thermenwartung verhindert Ausfälle und reduziert hohe Kosten. Unsere Löblich Thermenwartung umfasst Sichtprüfung,
               Überprüfung, Reinigung, Einstellung und Sicherheitscheck.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
-              Das senkt den Verbrauch, verbessert die Effizienz und schützt vor unnötigem Schaden. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
+              Das senkt den Verbrauch, verbessert die Effizienz und schützt vor unnötigem Schaden. Mehr Informationen zur Serviceangebot.
             </p>
 
             <div class="service-stats">
@@ -949,4 +949,7 @@ $metaDescription = "Löblich Kundendienst Wien für Thermen & Gasgeräte. Therme
 </main>
 
 @endsection
+
+
+
 

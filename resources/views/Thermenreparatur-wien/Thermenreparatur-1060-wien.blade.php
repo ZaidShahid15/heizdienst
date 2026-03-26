@@ -176,7 +176,7 @@ $metaDescription = "Thermenreparatur 1060 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Schnelle Hilfe bei Thermenproblemen</h2>
-          <p>Wenn Ihre Therme defekt ist oder plötzlich kein Warmwasser verfügbar ist, benötigen Sie in 1060 Wien schnelle Hilfe. Unser Installateur Wien bietet  <a href="{{ route('Thermenreparatur-1050-wien') }}"> professionelle </a> Thermenreparatur 1060 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in Wien Mariahilf, entlang der Mariahilfer Straße und im gesamten 6 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder akuter Notdienst – unser Team sorgt für Soforthilfe und eine nachhaltige Lösung. Als Installateur 1060 Wien sind wir täglich im Einsatz und schnell in der Nähe. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht oder eine Reparatur notwendig ist.</p>
+          <p>Wenn Ihre Therme defekt ist oder plötzlich kein Warmwasser verfügbar ist, benötigen Sie in 1060 Wien schnelle Hilfe. Unser Installateur Wien bietet   professionelle  Thermenreparatur 1060 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in Wien Mariahilf, entlang der Mariahilfer Straße und im gesamten 6 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder akuter Notdienst – unser Team sorgt für Soforthilfe und eine nachhaltige Lösung. Als Installateur 1060 Wien sind wir täglich im Einsatz und schnell in der Nähe. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht oder eine Reparatur notwendig ist. Weitere Details finden Sie in unseren <a href="{{ route('Thermenreparatur-1050-wien') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Thermenreparatur 1060 Wien" loading="lazy" decoding="async">
@@ -198,7 +198,7 @@ $metaDescription = "Thermenreparatur 1060 Wien vom Installateur Wien. Schnelle H
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">📍</div><div>
           <h3>24h Notdienst Installateur Wien</h3>
-          <p>Unser Installateur Notdienst 1060 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Mariahilf, entlang der Mariahilfer Straße und im gesamten Wien 1060 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfällen wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1060 Wien und Umgebung. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+          <p>Unser Installateur Notdienst 1060 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Mariahilf, entlang der Mariahilfer Straße und im gesamten Wien 1060 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfällen wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1060 Wien und Umgebung. </p>
         </div></article>
       </div>
     </div>
@@ -244,7 +244,7 @@ $metaDescription = "Thermenreparatur 1060 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermenwartung für mehr Sicherheit</h2>
-          <p>Regelmäßige Thermenwartung und Thermenservice Wien sichern die Leistung Ihrer Anlage und verhindern unerwartete Probleme sowie hohe Kosten durch Defekte. Unser Team führt die Wartung professionell durch – für eine lange Lebensdauer Ihrer Gastherme.</p>
+          <p>Regelmäßige Thermenwartung und Thermenservice Wien sichern die Leistung Ihrer Anlage und verhindern unerwartete Probleme sowie hohe Kosten durch Defekte. Unser Team führt die Wartung professionell durch – für eine lange Lebensdauer Ihrer Gastherme. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -278,7 +278,7 @@ $metaDescription = "Thermenreparatur 1060 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>24h Notdienst Installateur Wien</h2>
-        <p>Unser Installateur Notdienst 1060 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Mariahilf, entlang der Mariahilfer Straße und im gesamten Wien 1060 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfällen wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1060 Wien und Umgebung. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+        <p>Unser Installateur Notdienst 1060 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Mariahilf, entlang der Mariahilfer Straße und im gesamten Wien 1060 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfällen wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1060 Wien und Umgebung. </p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -399,7 +399,7 @@ $metaDescription = "Thermenreparatur 1060 Wien vom Installateur Wien. Schnelle H
         </details>
         <details>
           <summary>Wie schnell ist der Notdienst vor Ort?</summary>
-          <p>Unser Installateur Notdienst 1060 Wien ist meist schnell vor Ort in Wien Mariahilf oder im gesamten 6 Bezirk Wien. Für mehr Infos zu unserer <a href="/">Thermenwartung Wien</a> besuchen Sie gerne unsere Startseite.</p>
+          <p>Unser Installateur Notdienst 1060 Wien ist meist schnell vor Ort in Wien Mariahilf oder im gesamten 6 Bezirk Wien. </p>
         </details>
         <details>
           <summary>Was tun bei kein Warmwasser?</summary>
@@ -459,6 +459,10 @@ $metaDescription = "Thermenreparatur 1060 Wien vom Installateur Wien. Schnelle H
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
+
+
+
 
 
 

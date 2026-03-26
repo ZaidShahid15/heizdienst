@@ -1008,7 +1008,7 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
                         Wir arbeiten mit original Vaillant Produkten, modernen Geräten und nach aktuellen Vorschriften des
                         Herstellers. Als geprüfter Fachbetrieb und Installateur betreuen wir Wien und die Umgebung
                         zuverlässig, sicher und effizient. Mehr Informationen zur professionellen
-                        <a href="{{ route('home') }}" class="text-transparent">Thermenwartung Wien</a>.
+                        <a href="{{ route('home') }}" class="text-transparent">Serviceangebot</a>.
                     </p>
 
                     <div class="service-stats">
@@ -1389,4 +1389,6 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
         })();
     </script>
 @endsection
+
+
 

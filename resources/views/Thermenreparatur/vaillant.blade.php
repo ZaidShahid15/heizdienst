@@ -622,7 +622,7 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
           <div class="card-box">
             <h2 id="kundendienst">Kundendienst – Vaillant Thermenreparatur und Service in Wien</h2>
             <p>
-              Eine funktionierende Vaillant Therme ist entscheidend für Warmwasser, Heizung und den sicheren Betrieb Ihrer Heizungsanlage. Zudem bieten wir eine <a href="/">umfassende Betreuung von Gasgeräten</a> für höchste Betriebssicherheit an.
+              Eine funktionierende Vaillant Therme ist entscheidend für Warmwasser, Heizung und den sicheren Betrieb Ihrer Heizungsanlage. Zudem bieten wir eine Serviceangebot für höchste Betriebssicherheit an.
             </p>
             <p>
               Ob Defekt, Fehlermeldung oder akutes Problem – unser Kundendienst analysiert die Ursache präzise und sorgt für eine fachgerechte Reparatur.
@@ -749,7 +749,7 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
             <p>
               Eine regelmäßige Vaillant Thermenwartung ist entscheidend für Sicherheit, Effizienz und Langlebigkeit Ihrer Therme.
               Durch professionelle Wartung und gründliche Überprüfung aller relevanten Komponenten vermeiden Sie Störungen und unnötige Reparatur Kosten.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Unser Thermenservice umfasst Reinigung, Kontrolle von Brenner und Wärmetauscher sowie Optimierung der gesamten Heizungsanlage.
               So senken wir langfristig den Gas Verbrauch und reduzieren das Risiko von Defekt oder Heizungsstörung deutlich.
@@ -861,12 +861,12 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
       <div class="service-faq">
         <details>
           <summary>Wann sollte ich eine Vaillant Thermenreparatur durchführen lassen?</summary>
-          <p>Bei Fehlermeldung, Defekt, ungewöhnlichen Geräuschen oder Heizungsstörung sollte sofort <a href="/">Kundendienst</a> in Wien kontaktiert werden.</p>
+          <p>Bei Fehlermeldung, Defekt, ungewöhnlichen Geräuschen oder Heizungsstörung sollte sofort Serviceangebot in Wien kontaktiert werden.</p>
         </details>
 
         <details>
           <summary>Ist Ihr Vaillant Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Vaillant <a href="/">Notdienst Wien</a> und Niederösterreich ist rund um die Uhr verfügbar – auch an Wochenenden und in dringenden Fällen.</p>
+          <p>Ja, unser Vaillant Serviceangebot und Niederösterreich ist rund um die Uhr verfügbar – auch an Wochenenden und in dringenden Fällen.</p>
         </details>
 
         <details>
@@ -905,4 +905,6 @@ $metaDescription = "Professionelle Vaillant Thermenreparatur Wien mit Notdienst 
 
 
 @endsection
+
+
 

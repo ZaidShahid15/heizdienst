@@ -177,7 +177,7 @@ $metaDescription = "Installateur   1030 Wien – schneller 24h Installateur in L
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ihr Installateur in 1030 Wien</h2>
-          <p>Wenn ein Rohr bricht, der Abfluss überläuft oder die Heizung plötzlich ausfällt, <a href="{{ route('installateur.1020') }}"> benötigen Sie schnelle </a> und professionelle Hilfe. Unser Installateur   1030 Wien ist jederzeit erreichbar und bietet schnelle Lösungen für Haushalte und Unternehmen im Bezirk Landstraße Wien. Als erfahrener Installateur Wien 1030 kümmern wir uns um akute Probleme im Bereich Gas Wasser Heizung Wien, Sanitäranlagen und moderne Haustechnik Wien. Unser   Installateur 1030 Wien hilft sofort bei dringenden Reparaturen und sorgt dafür, dass Schäden schnell behoben werden. Egal ob Wasserrohrbruch Wien, ein defekter Abfluss oder ein akuter Installateur Notfall Wien – unser Installateur Landstraße Wien ist schnell vor Ort. Wenn Sie einen Installateur   Nähe oder einen Installateur Nähe 1030 Wien suchen, steht unser Team jederzeit bereit.</p>
+          <p>Wenn ein Rohr bricht, der Abfluss überläuft oder die Heizung plötzlich ausfällt,  benötigen Sie schnelle  und professionelle Hilfe. Unser Installateur   1030 Wien ist jederzeit erreichbar und bietet schnelle Lösungen für Haushalte und Unternehmen im Bezirk Landstraße Wien. Als erfahrener Installateur Wien 1030 kümmern wir uns um akute Probleme im Bereich Gas Wasser Heizung Wien, Sanitäranlagen und moderne Haustechnik Wien. Unser   Installateur 1030 Wien hilft sofort bei dringenden Reparaturen und sorgt dafür, dass Schäden schnell behoben werden. Egal ob Wasserrohrbruch Wien, ein defekter Abfluss oder ein akuter Installateur Notfall Wien – unser Installateur Landstraße Wien ist schnell vor Ort. Wenn Sie einen Installateur   Nähe oder einen Installateur Nähe 1030 Wien suchen, steht unser Team jederzeit bereit. Weitere Details finden Sie in unseren <a href="{{ route('installateur.1020') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1030 Wien" loading="lazy" decoding="async">
@@ -207,7 +207,7 @@ $metaDescription = "Installateur   1030 Wien – schneller 24h Installateur in L
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Warum unser Installateur Fachbetrieb in Wien</h2>
-          <p>Unser Installateur Fachbetrieb Wien steht für Qualität, Erfahrung und schnelle Hilfe. Unser Installateur   Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lösen. Unser Installateur Team Wien verfügt über umfangreiche Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfälle Wien ist eine schnelle Reaktion entscheidend. Deshalb ist unser   24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrüchen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlässige und langfristige Lösungen zu bieten. Für einen zuverlässigen <a href="/">Thermenservice Niederösterreich</a> stehen wir Ihnen mit Erfahrung und klaren Abläufen zur Seite.</p>
+          <p>Unser Installateur Fachbetrieb Wien steht für Qualität, Erfahrung und schnelle Hilfe. Unser Installateur   Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lösen. Unser Installateur Team Wien verfügt über umfangreiche Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfälle Wien ist eine schnelle Reaktion entscheidend. Deshalb ist unser   24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrüchen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlässige und langfristige Lösungen zu bieten. Für einen zuverlässigen Serviceangebot stehen wir Ihnen mit Erfahrung und klaren Abläufen zur Seite.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -231,7 +231,7 @@ $metaDescription = "Installateur   1030 Wien – schneller 24h Installateur in L
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚡</div><div><h3>WC verstopft Wien</h3><p>Reparatur bei WC verstopft Wien oder defekten Sanitäranlagen.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔥</div><div><h3>Sanitär Reparatur Wien</h3><p>Professionelle Sanitär Reparatur Wien durch erfahrene Fachkräfte.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔁</div><div><h3>Badsanierung Wien</h3><p>Planung moderner Badezimmer inklusive Badsanierung Wien und Bad Sanierung Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">✅</div><div><h3>Thermenwartung Wien</h3><p>Thermenservice mit Thermenwartung Wien, Thermen Service Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">✅</div><div><h3>Serviceangebot</h3><p>Thermenservice mit Thermenwartung Wien, Thermen Service Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🧰</div><div><h3>Gastherme Wartung Wien</h3><p>Gastherme Wartung Wien und regelmäßige Wartung.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">⚙️</div><div><h3>Heizung Reparatur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien inklusive Heizung Reparatur Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">🔥</div><div><h3>Wartung Heizung Wien</h3><p>Zuverlässige Wartung Heizung Wien für effiziente Heizsysteme.</p></div></article>
@@ -246,7 +246,7 @@ $metaDescription = "Installateur   1030 Wien – schneller 24h Installateur in L
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Gastherme Reparatur und Wartung</h2>
-          <p>Wenn Ihre Therme Probleme macht, bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien.</p>
+          <p>Wenn Ihre Therme Probleme macht, bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -320,7 +320,7 @@ $metaDescription = "Installateur   1030 Wien – schneller 24h Installateur in L
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Als Installateur in 1030 Wien (Landstraße) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu <a href="{{ route('installateur.1020') }}">Reparaturen und Modernisierung</a> erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1030 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1030 Wien (Landstraße) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1030 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
@@ -482,5 +482,9 @@ $metaDescription = "Installateur   1030 Wien – schneller 24h Installateur in L
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
+
+
 
 

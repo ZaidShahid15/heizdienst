@@ -823,7 +823,7 @@
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Preise, Pauschalpreise und Qualität</h2>
-        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. 
+        <p>Mehr zu unserem <a href="/">Serviceangebot</a> finden Sie auf der Startseite. Mehr Informationen finden Sie auch bei unserem <a href="{{ route('warmepumpel.Wartung-Burgenland') }}">Wärmepumpen-Service</a>. 
           Transparente Preise und faire Pauschalpreise sind ein zentraler Bestandteil unseres Wärmepumpen Service in Niederösterreich. Die Kosten für Reparatur, Wartung oder Überprüfung hängen von Anlage, Arbeitszeit und eventuellen Schäden ab. Vor Beginn erhalten Kunden einen klaren Überblick über alle Leistungen. Unser Unternehmen legt großen Wert auf Qualität, Zuverlässigkeit und nachhaltige Lösungen. Durch regelmäßige Wartung steigern wir die Effizienz Ihrer Wärmepumpen und reduzieren langfristig Energie- und Betriebskosten. Ob kleinere Reparatur, Austausch von Ersatzteilen oder umfassende Instandsetzung – wir stehen als erfahrener Partner in ganz NÖ zur Verfügung.
         </p>
         <div class="service-emergency__actions">
@@ -959,6 +959,8 @@
 </main>
 
 @endsection
+
+
 
 
 

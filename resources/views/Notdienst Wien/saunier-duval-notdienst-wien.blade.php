@@ -786,7 +786,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
         <article class="service-feature">
           <div class="service-feature__icon" aria-hidden="true">♨️</div>
           <div>
-            <h3>Thermenservice Wien</h3>
+            <h3>Serviceangebot</h3>
             <p>Thermenservice Wien & Duval Thermenservice für mehr Effizienz, weniger Energieverbrauch und mehr Wohnkomfort zuhause.</p>
           </div>
         </article>
@@ -836,7 +836,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
             <p>
               Regelmäßige Wartung, professionelle Thermenwartung und gezielte Saunier Duval Thermenwartung sichern die Effizienz,
               Funktionalität und Lebensdauer Ihrer Anlage.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Unser Thermenservice Wien sowie der Duval Thermenservice umfassen Überprüfung, Reinigung, Einstellung, Kontrolle und Abgasmessung.
               So lassen sich Probleme frühzeitig erkennen und teure Reparaturen vermeiden.
@@ -952,7 +952,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
               der Marke sicher beherrschen.
             </p>
             <p>
-              Diese Kombination aus Praxis, Erfahrung und laufender Schulung garantiert hohe Qualität durch unseren <a href="/">Thermenservice Wien</a> Fachbetrieb. Wir sichern Sicherheit und nachhaltige Ergebnisse bei jedem Einsatz.
+              Diese Kombination aus Praxis, Erfahrung und laufender Schulung garantiert hohe Qualität durch unseren Serviceangebot Fachbetrieb. Wir sichern Sicherheit und nachhaltige Ergebnisse bei jedem Einsatz.
             </p>
 
             <div class="service-stats">
@@ -1073,4 +1073,8 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
 </main>
 
 @endsection
+
+
+
+
 

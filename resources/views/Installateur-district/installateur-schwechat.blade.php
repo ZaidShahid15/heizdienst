@@ -552,7 +552,7 @@ $metaDescription = "Installateur Schwechat für Sanitär, Heizung, Rohrreinigung
           <div class="card-box">
             <h2>Ihr zuverlässiger Installateur in Schwechat</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Schwechat suchen, sind Sie bei uns richtig. Unser Installateur unterstützt Haushalte und Betriebe in Schwechat Niederösterreich mit professionellen Lösungen rund um Sanitär, Heizung und moderne Technik. Durch unsere Erfahrung kennen wir die Anforderungen vieler Kunden genau und bieten zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, professionelle Bad Installation oder moderne Installationen im Haus – unser Team sorgt für sichere und saubere Arbeiten. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-rust') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
+              Wenn Sie einen erfahrenen Installateur Schwechat suchen, sind Sie bei uns richtig. Unser Installateur unterstützt Haushalte und Betriebe in Schwechat Niederösterreich mit professionellen Lösungen rund um Sanitär, Heizung und moderne Technik. Durch unsere Erfahrung kennen wir die Anforderungen vieler Kunden genau und bieten zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, professionelle Bad Installation oder moderne Installationen im Haus – unser Team sorgt für sichere und saubere Arbeiten. Zusätzlich profitieren Sie von unserer schnellen Unterstützung bei planbaren und akuten Arbeiten. Weitere Details finden Sie in unseren <a href="{{ route('installateur-rust') }}">weiterführenden Informationen</a>.</p>
             <p>
               Viele Menschen in Schwechat und der Umgebung suchen einen Installateur Nähe, der schnell erreichbar ist und kompetent arbeitet. Genau das bieten wir. Unser Installateur Schwechat Niederösterreich kombiniert moderne Technik, sorgfältige Beratung und zuverlässige Umsetzung. So erhalten Kunden in Schwechat einen professionellen Service für Wasser, Heizung und Sanitär Systeme.
             </p>
@@ -656,7 +656,7 @@ $metaDescription = "Installateur Schwechat für Sanitär, Heizung, Rohrreinigung
             <p>
               Faire Preise und transparente Abläufe sind fester Bestandteil unseres Installateurbetriebs.
               Vor Beginn aller Arbeiten informieren wir klar über Kosten, Leistungen und notwendige Schritte.
-            </p>
+             Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
             <p>
               Kunden profitieren von nachvollziehbarer Preisstruktur, kompetenter Beratung und persönlichem Kundenservice.
               Unser Team steht für Kompetenz, Erfahrung und strukturierte Abläufe – vom ersten Termin bis zur Ausführung.
@@ -814,6 +814,8 @@ $metaDescription = "Installateur Schwechat für Sanitär, Heizung, Rohrreinigung
 </main>
 
 @endsection
+
+
 
 
 

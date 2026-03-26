@@ -833,7 +833,7 @@
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
         <h2>Kosten und Preise der Wärmepumpen Wartung</h2>
-        <p>Mehr zu unserem <a href="/">Thermenwartung Wien</a> finden Sie auf der Startseite. 
+        <p>Mehr zu unserem <a href="/">Serviceangebot</a> finden Sie auf der Startseite. 
           Die Kosten für eine Wärmepumpe Wartung in Wien richten sich nach Art der Anlage, Zustand der Geräte, benötigter Arbeitszeit und Umfang der Leistungen. Um maximale Transparenz zu gewährleisten, arbeiten wir mit klar definierten Pauschalpreisen, die Planungssicherheit schaffen. Eine regelmäßige Wartung senkt langfristig Energiekosten, reduziert das Risiko teurer Reparaturen und erhält den Wert der Heizungsanlage. Zusätzlich können Förderungen wie Landesförderung oder Bundesförderung – abhängig von Produkt, Einsatz und Region – genutzt werden. Unsere Beratung informiert über mögliche Förderung in Wien, Niederösterreich und NÖ. So bleiben Preis, Kosten und Leistungen jederzeit nachvollziehbar und fair kalkuliert.
         </p>
         <div class="service-emergency__actions">
@@ -972,6 +972,8 @@
 </main>
 
 @endsection
+
+
 
 
 

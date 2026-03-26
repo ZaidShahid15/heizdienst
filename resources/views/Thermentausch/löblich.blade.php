@@ -872,7 +872,7 @@ $metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen
 
         <details>
           <summary>Wer ist Ansprechpartner für Service und Notdienst?</summary>
-          <p>Unser Kundenservice, Servicetechniker und <a href="/">Notdienst Wien</a> stehen bei Anliegen, Störungen oder Fragen zuverlässig zur Verfügung.</p>
+          <p>Unser Kundenservice, Servicetechniker und <a href="/">unserer Notfallhilfe</a> stehen bei Anliegen, Störungen oder Fragen zuverlässig zur Verfügung.</p>
         </details>
       </div>
     </div>
@@ -890,4 +890,5 @@ $metaDescription = " Löblich Thermentausch in Wien ✔ Zuverlässige Gasthermen
 </main>
 
 @endsection
+
 
