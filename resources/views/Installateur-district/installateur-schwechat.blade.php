@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -552,8 +552,7 @@ $metaDescription = "Installateur Schwechat für Sanitär, Heizung, Rohrreinigung
           <div class="card-box">
             <h2>Ihr zuverlässiger Installateur in Schwechat</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Schwechat suchen, sind Sie bei uns richtig. Unser Installateur unterstützt Haushalte und Betriebe in Schwechat Niederösterreich mit professionellen Lösungen rund um Sanitär, Heizung und moderne Technik. Durch unsere Erfahrung kennen wir die Anforderungen vieler Kunden genau und bieten zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, professionelle Bad Installation oder moderne Installationen im Haus – unser Team sorgt für sichere und saubere Arbeiten.
-            </p>
+              Wenn Sie einen erfahrenen Installateur Schwechat suchen, sind Sie bei uns richtig. Unser Installateur unterstützt Haushalte und Betriebe in Schwechat Niederösterreich mit professionellen Lösungen rund um Sanitär, Heizung und moderne Technik. Durch unsere Erfahrung kennen wir die Anforderungen vieler Kunden genau und bieten zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, professionelle Bad Installation oder moderne Installationen im Haus – unser Team sorgt für sichere und saubere Arbeiten. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-rust') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
             <p>
               Viele Menschen in Schwechat und der Umgebung suchen einen Installateur Nähe, der schnell erreichbar ist und kompetent arbeitet. Genau das bieten wir. Unser Installateur Schwechat Niederösterreich kombiniert moderne Technik, sorgfältige Beratung und zuverlässige Umsetzung. So erhalten Kunden in Schwechat einen professionellen Service für Wasser, Heizung und Sanitär Systeme.
             </p>
@@ -815,3 +814,7 @@ $metaDescription = "Installateur Schwechat für Sanitär, Heizung, Rohrreinigung
 </main>
 
 @endsection
+
+
+
+

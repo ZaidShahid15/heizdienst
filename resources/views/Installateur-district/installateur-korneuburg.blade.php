@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -552,8 +552,7 @@ $metaDescription = "Installateur Korneuburg für Sanitär, Heizung, Rohrreinigun
           <div class="card-box">
             <h2>Ihr zuverlässiger Installateur in Korneuburg</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Korneuburg suchen, sind Sie bei uns genau richtig. Unser Installateur bietet professionelle Lösungen für Sanitär, Heizung und moderne Haustechnik in Korneuburg sowie in der gesamten Umgebung. Viele Haushalte in Korneuburg Niederösterreich vertrauen auf unseren zuverlässigen Service, weil wir Qualität, Sicherheit und moderne Technik miteinander verbinden. Egal ob neue Heizungsanlage, eine komplette Bad Installation oder Unterstützung bei einem Problem mit Wasser, unser Team steht Ihnen mit Kompetenz und langjähriger Erfahrung zur Seite.
-            </p>
+              Wenn Sie einen erfahrenen Installateur Korneuburg suchen, sind Sie bei uns genau richtig. Unser Installateur bietet professionelle Lösungen für Sanitär, Heizung und moderne Haustechnik in Korneuburg sowie in der gesamten Umgebung. Viele Haushalte in Korneuburg Niederösterreich vertrauen auf unseren zuverlässigen Service, weil wir Qualität, Sicherheit und moderne Technik miteinander verbinden. Egal ob neue Heizungsanlage, eine komplette Bad Installation oder Unterstützung bei einem Problem mit Wasser, unser Team steht Ihnen mit Kompetenz und langjähriger Erfahrung zur Seite. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-kostenneuburg') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
             <p>
               Als regionaler Gas Wasser Installateur kennen wir die Anforderungen von Gebäuden in Korneuburg sehr genau und bieten persönliche Beratung sowie professionelle Arbeiten. Wenn Sie einen Installateur Nähe Korneuburg oder einen Installateur Korneuburg Umgebung suchen, profitieren Sie von schneller Hilfe, sorgfältiger Planung und zuverlässigen Lösungen für Ihr Zuhause in Korneuburg.
             </p>
@@ -815,3 +814,7 @@ $metaDescription = "Installateur Korneuburg für Sanitär, Heizung, Rohrreinigun
 </main>
 
 @endsection
+
+
+
+

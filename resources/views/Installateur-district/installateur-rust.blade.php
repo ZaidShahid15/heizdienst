@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -553,8 +553,7 @@ $metaDescription = "Installateur Rust für Sanitär, Heizung, Rohrreinigung und 
           <div class="card-box">
             <h2>Ihr professioneller Installateur in Rust</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Rust suchen, sind wir Ihr zuverlässiger Ansprechpartner für Sanitär, Heizung und moderne Installationen in Rust. Unser Installateur unterstützt private Haushalte und Unternehmen mit professionellen Lösungen und hochwertigem Service. Ob neue Heizungsanlage, eine komplette Bad Installation oder eine schnelle Reparatur, wir bieten umfassende Unterstützung.
-            </p>
+              Wenn Sie einen erfahrenen Installateur Rust suchen, sind wir Ihr zuverlässiger Ansprechpartner für Sanitär, Heizung und moderne Installationen in Rust. Unser Installateur unterstützt private Haushalte und Unternehmen mit professionellen Lösungen und hochwertigem Service. Ob neue Heizungsanlage, eine komplette Bad Installation oder eine schnelle Reparatur, wir bieten umfassende Unterstützung. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-purkersdorf') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
             <p>
               Als Installateur Rust Burgenland kennen wir die Bedürfnisse unserer Kunden genau und arbeiten mit moderner Technik sowie langjähriger Erfahrung. Unser Team führt alle wichtigen Arbeiten sorgfältig aus und sorgt dafür, dass Ihre Anlagen zuverlässig funktionieren. Wenn Sie einen Installateur Nähe Rust suchen, profitieren Sie von kompetenter Beratung, fachgerechter Umsetzung und einem zuverlässigen Partner in Rust und im gesamten Burgenland.
             </p>
@@ -821,3 +820,7 @@ $metaDescription = "Installateur Rust für Sanitär, Heizung, Rohrreinigung und 
 </main>
 
 @endsection
+
+
+
+

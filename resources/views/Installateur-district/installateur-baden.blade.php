@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -552,8 +552,7 @@ $metaDescription = "Installateur Baden für Sanitär, Heizung, Rohrreinigung und
           <div class="card-box">
             <h2>Ihr zuverlässiger Installateur in Baden</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Baden suchen, sind Sie bei uns genau richtig. Unser Installateur unterstützt private Haushalte und Unternehmen in Baden Niederösterreich mit professionellen Lösungen rund um Sanitär, Wasser und moderne Technik. Dank unserer Erfahrung kennen wir die Anforderungen unserer Kunden genau und bieten zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, moderne Bad Installation oder professionelle Installationen im Gebäude – unser Team sorgt für sichere Ergebnisse.
-            </p>
+              Wenn Sie einen erfahrenen Installateur Baden suchen, sind Sie bei uns genau richtig. Unser Installateur unterstützt private Haushalte und Unternehmen in Baden Niederösterreich mit professionellen Lösungen rund um Sanitär, Wasser und moderne Technik. Dank unserer Erfahrung kennen wir die Anforderungen unserer Kunden genau und bieten zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, moderne Bad Installation oder professionelle Installationen im Gebäude – unser Team sorgt für sichere Ergebnisse.</p>
             <p>
               Viele Menschen suchen einen Installateur Nähe Baden, der schnell erreichbar ist und saubere Arbeiten liefert. Genau diesen Service erhalten Sie bei unserem Installateur Baden Niederösterreich. Mit moderner Technik, kompetenter Beratung und sorgfältiger Planung sorgen wir dafür, dass jede Installation langfristig zuverlässig funktioniert. Unsere Kunden in Baden und der Umgebung profitieren von professionellen Lösungen rund um Heizung, Sanitär und Wasserleitungen.
             </p>
@@ -815,3 +814,6 @@ $metaDescription = "Installateur Baden für Sanitär, Heizung, Rohrreinigung und
 </main>
 
 @endsection
+
+
+

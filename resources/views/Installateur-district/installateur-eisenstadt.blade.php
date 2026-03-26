@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -557,7 +557,7 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
               Unser Installateur bietet zuverlässige Lösungen für Sanitär, Heizung und moderne Installationen
               in Neudörfl und der gesamten Umgebung im Burgenland. Ob neue Heizungsanlage, professionelle Bad Installation
               oder schnelle Hilfe bei Problemen mit Wasser – unser Team unterstützt Sie kompetent.
-            </p>
+             Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-deutsch') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
             <p>
               Durch unsere langjährige Erfahrung kennen wir die Anforderungen unserer Kunden genau und bieten einen
               umfassenden Service – von der ersten Beratung bis zur Ausführung. Wenn Sie einen Installateur Nähe Neudörfl suchen,
@@ -834,3 +834,6 @@ $metaDescription = "Installateur Neudörfl für Sanitär, Heizung, Rohrreparatur
 </main>
 
 @endsection
+
+
+

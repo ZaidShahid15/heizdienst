@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -552,8 +552,7 @@ $metaDescription = "Installateur Neusiedl am See für Sanitär, Heizung, Rohrrei
           <div class="card-box">
             <h2>Ihr kompetenter Installateur in Neusiedl am See</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Neusiedl am See suchen, sind wir Ihr zuverlässiger Ansprechpartner für Sanitär, Heizung und moderne Installationen. Unser Installateur betreut private Haushalte und Unternehmen in Neusiedl am See sowie in der Umgebung im Burgenland. Ob eine neue Heizungsanlage, eine professionelle Bad Installation oder eine schnelle Reparatur, wir bieten einen umfassenden Service für unsere Kunden.
-            </p>
+              Wenn Sie einen erfahrenen Installateur Neusiedl am See suchen, sind wir Ihr zuverlässiger Ansprechpartner für Sanitär, Heizung und moderne Installationen. Unser Installateur betreut private Haushalte und Unternehmen in Neusiedl am See sowie in der Umgebung im Burgenland. Ob eine neue Heizungsanlage, eine professionelle Bad Installation oder eine schnelle Reparatur, wir bieten einen umfassenden Service für unsere Kunden. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-neunkirchen') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
             <p>
               Als Installateur Neusiedl am See Umgebung kennen wir die regionalen Anforderungen genau und arbeiten mit moderner Technik sowie viel Erfahrung. Unser Team führt alle wichtigen Arbeiten zuverlässig aus und sorgt dafür, dass Ihre Anlagen langfristig funktionieren. Wenn Sie einen Installateur Nähe Neusiedl am See benötigen, profitieren Sie von kompetenter Beratung, professioneller Planung und hochwertiger Umsetzung.
             </p>
@@ -815,3 +814,7 @@ $metaDescription = "Installateur Neusiedl am See für Sanitär, Heizung, Rohrrei
 </main>
 
 @endsection
+
+
+
+

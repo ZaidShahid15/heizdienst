@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -551,8 +551,7 @@ $metaDescription = "Installateur Fischamend für Sanitär, Heizung, Rohrreinigun
           <div class="card-box">
             <h2>Ihr zuverlässiger Installateur in Fischamend</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Fischamend suchen, sind Sie bei uns richtig. Unser Installateur unterstützt Haushalte und Betriebe in Fischamend Niederösterreich mit professionellen Lösungen rund um Sanitär, Wasser und moderne Technik. Durch langjährige Erfahrung kennt unser Team die Anforderungen der Kunden genau und bietet zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, moderne Bad Installation oder professionelle Installationen im Haus – wir sorgen für sichere und saubere Arbeiten.
-            </p>
+              Wenn Sie einen erfahrenen Installateur Fischamend suchen, sind Sie bei uns richtig. Unser Installateur unterstützt Haushalte und Betriebe in Fischamend Niederösterreich mit professionellen Lösungen rund um Sanitär, Wasser und moderne Technik. Durch langjährige Erfahrung kennt unser Team die Anforderungen der Kunden genau und bietet zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, moderne Bad Installation oder professionelle Installationen im Haus – wir sorgen für sichere und saubere Arbeiten. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-eisenstadt') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
             <p>
               Viele Kunden aus Fischamend und der Umgebung vertrauen unserem Installateur, weil wir eine sorgfältige Beratung, hochwertige Technik und einen schnellen Service kombinieren. Wenn Sie einen Installateur Nähe Fischamend benötigen, erhalten Sie bei uns kompetente Unterstützung von der Planung bis zur Umsetzung.
             </p>
@@ -814,3 +813,7 @@ $metaDescription = "Installateur Fischamend für Sanitär, Heizung, Rohrreinigun
 </main>
 
 @endsection
+
+
+
+

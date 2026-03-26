@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -553,8 +553,7 @@ $metaDescription = "Installateur Hornstein für Sanitär, Heizung, Rohrreinigung
           <div class="card-box">
             <h2>Ihr zuverlässiger Installateur in Hornstein</h2>
             <p>
-              Wenn Sie einen kompetenten Installateur Hornstein suchen, sind wir Ihr Ansprechpartner für professionelle Lösungen rund um Sanitär, Heizung und moderne Installationen. Unser Installateur betreut private Haushalte sowie Unternehmen in Hornstein und im gesamten Burgenland. Ob eine neue Heizungsanlage, eine moderne Bad Installation oder eine schnelle Reparatur, wir bieten umfassenden Service für unsere Kunden.
-            </p>
+              Wenn Sie einen kompetenten Installateur Hornstein suchen, sind wir Ihr Ansprechpartner für professionelle Lösungen rund um Sanitär, Heizung und moderne Installationen. Unser Installateur betreut private Haushalte sowie Unternehmen in Hornstein und im gesamten Burgenland. Ob eine neue Heizungsanlage, eine moderne Bad Installation oder eine schnelle Reparatur, wir bieten umfassenden Service für unsere Kunden. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-grob') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
             <p>
               Als Installateur Hornstein Burgenland kennen wir die regionalen Anforderungen und setzen Projekte mit moderner Technik und viel Erfahrung um. Unser Team erledigt alle wichtigen Arbeiten zuverlässig und sorgt dafür, dass Ihre Anlagen langfristig funktionieren. Wenn Sie einen Installateur Nähe Hornstein suchen, profitieren Sie von persönlicher Beratung, fachgerechter Umsetzung und einem starken Partner direkt in Hornstein.
             </p>
@@ -816,3 +815,7 @@ $metaDescription = "Installateur Hornstein für Sanitär, Heizung, Rohrreinigung
 </main>
 
 @endsection
+
+
+
+

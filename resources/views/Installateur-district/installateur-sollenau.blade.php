@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -552,8 +552,7 @@ $metaDescription = "Installateur Sollenau für Sanitär, Heizung, Rohrreinigung 
           <div class="card-box">
             <h2>Kompetenter Installateur Service in Sollenau</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Sollenau suchen, sind Sie bei uns richtig. Unser Installateur unterstützt private Haushalte und Unternehmen in Sollenau Niederösterreich mit professionellen Lösungen rund um Sanitär, Wasserleitungen und moderne Technik. Dank unserer Erfahrung kennen wir die Anforderungen vieler Kunden genau und bieten zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, moderne Bad Installation oder professionelle Installationen im Haus – unser Team sorgt für sichere und saubere Arbeiten.
-            </p>
+              Wenn Sie einen erfahrenen Installateur Sollenau suchen, sind Sie bei uns richtig. Unser Installateur unterstützt private Haushalte und Unternehmen in Sollenau Niederösterreich mit professionellen Lösungen rund um Sanitär, Wasserleitungen und moderne Technik. Dank unserer Erfahrung kennen wir die Anforderungen vieler Kunden genau und bieten zuverlässigen Service für jede Situation. Ob neue Heizungsanlage, moderne Bad Installation oder professionelle Installationen im Haus – unser Team sorgt für sichere und saubere Arbeiten. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-schwechat') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
             <p>
               Viele Menschen suchen einen Installateur Nähe Sollenau, der schnell erreichbar ist und kompetent arbeitet. Genau das bietet unser Installateur Sollenau Niederösterreich. Durch moderne Technik und sorgfältige Beratung entstehen Lösungen, die langfristig funktionieren. Unsere Kunden in Sollenau und der Umgebung profitieren von professionellen Leistungen rund um Heizung, Sanitär und Wasser.
             </p>
@@ -846,3 +845,7 @@ $metaDescription = "Installateur Sollenau für Sanitär, Heizung, Rohrreinigung 
 </main>
 
 @endsection
+
+
+
+

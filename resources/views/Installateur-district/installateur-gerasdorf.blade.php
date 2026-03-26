@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 <style>
@@ -553,8 +553,7 @@ $metaDescription = "Installateur Gerasdorf bei Wien für Sanitär, Heizung, Rohr
           <div class="card-box">
             <h2>Ihr kompetenter Installateur in Gerasdorf bei Wien</h2>
             <p>
-              Wenn Sie einen erfahrenen Installateur Gerasdorf bei Wien suchen, sind wir Ihr zuverlässiger Ansprechpartner für Sanitär, Heizung und moderne Installationen. Unser Installateur betreut private Haushalte sowie Unternehmen in Gerasdorf bei Wien und in der gesamten Umgebung in Niederösterreich. Ob eine neue Heizungsanlage, eine professionelle Bad Installation oder eine schnelle Reparatur, wir bieten einen umfassenden Service für unsere Kunden.
-            </p>
+              Wenn Sie einen erfahrenen Installateur Gerasdorf bei Wien suchen, sind wir Ihr zuverlässiger Ansprechpartner für Sanitär, Heizung und moderne Installationen. Unser Installateur betreut private Haushalte sowie Unternehmen in Gerasdorf bei Wien und in der gesamten Umgebung in Niederösterreich. Ob eine neue Heizungsanlage, eine professionelle Bad Installation oder eine schnelle Reparatur, wir bieten einen umfassenden Service für unsere Kunden. Zusätzlich profitieren Sie von unserer <a href="{{ route('installateur-gansendorf') }}">schnellen Unterstützung</a> bei planbaren und akuten Arbeiten.</p>
             <p>
               Als Installateur Gerasdorf kennen wir die regionalen Anforderungen und setzen Projekte mit moderner Technik und viel Erfahrung um. Unser Team führt alle wichtigen Arbeiten zuverlässig aus und sorgt dafür, dass Ihre Anlagen langfristig funktionieren. Wenn Sie einen Installateur Nähe Gerasdorf bei Wien oder einen Installateur Gerasdorf Umgebung suchen, profitieren Sie von kompetenter Beratung und professioneller Umsetzung.
             </p>
@@ -816,3 +815,7 @@ $metaDescription = "Installateur Gerasdorf bei Wien für Sanitär, Heizung, Rohr
 </main>
 
 @endsection
+
+
+
+

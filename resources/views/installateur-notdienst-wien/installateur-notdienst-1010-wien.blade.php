@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -246,7 +246,7 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installat
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Gastherme Reparatur und Wartung</h2>
-          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien.</p>
+          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien. Auch beim <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a> profitieren Sie von unserer strukturierten Arbeitsweise.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Mehr Effizienz</div></div>
             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Störungen</div></div>
@@ -482,3 +482,5 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installat
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+

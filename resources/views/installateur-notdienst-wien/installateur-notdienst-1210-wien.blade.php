@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 
 @section('main')
 
@@ -126,7 +126,7 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur 
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Ihr Installateur Notdienst 1210 Wien – immer einsatzbereit</h2>
-                        <p>Wenn bei Ihnen in Floridsdorf das Wasser aus der Wand schießt, die Heizung streikt oder der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1210 Wien ist speziell für solche Notfälle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach Floridsdorf. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben.</p>
+                        <p>Wenn bei Ihnen in Floridsdorf das Wasser aus der Wand schießt, die Heizung streikt oder der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1210 Wien ist speziell für <a href="{{ route('installateur-notdienst-1200-wien') }}">solche Notfälle</a> organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach Floridsdorf. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
@@ -254,7 +254,7 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur 
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Regelmäßige Wartung – damit alles rund läuft</h2>
-                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stört seltener. Gerade in Floridsdorf mit vielen Einfamilienhäusern, Siedlungsbauten und älteren Genossenschaftsbauten ist die jährliche Inspektion besonders wichtig. Unser Installateur überprüft bei der Wartung alle Komponenten: Brenner, Wärmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfüllen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei Gasgeräten), sondern sparen langfristig Geld und vermeiden teure Notfälle.</p>
+                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stört seltener. Gerade in Floridsdorf mit vielen Einfamilienhäusern, Siedlungsbauten und älteren Genossenschaftsbauten ist die jährliche Inspektion besonders wichtig. Unser Installateur überprüft bei der Wartung alle Komponenten: Brenner, Wärmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfüllen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei Gasgeräten), sondern sparen langfristig Geld und vermeiden teure Notfälle. Auch beim <a href="{{ route('home') }}">Thermenservice Niederösterreich</a> profitieren Sie von unserer strukturierten Arbeitsweise.</p>
                         <div class="service-stats">
                             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Höhere Effizienz</div></div>
                             <div class="service-stat"><div class="service-stat__num">✓</div><div class="service-stat__label">Weniger Ausfälle</div></div>
@@ -513,3 +513,8 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur 
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
+
+
+
