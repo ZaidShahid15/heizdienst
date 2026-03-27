@@ -3,8 +3,6 @@
 @php
     $metaTitle = 'Thermenwartung & Thermenservice Wien & NÖ | Reparatur & Notdienst';
     $metaDescription = 'Professionelle Thermenwartung, Thermenservice & Reparatur in Wien und Niederösterreich. Alle Marken, transparente Preise inkl. MwSt, schnelle Hilfe & Notdienst.';
-$allowIndex = true;
-
 @endphp
 @push('meta')
 <title>{{ $metaTitle }}</title>
@@ -32,6 +30,16 @@ $allowIndex = true;
 .hero-copy,
 .m-hero .hero-copy{
   position: relative;
+}
+
+.hero-title-visual{
+  display: block;
+  margin: 0 0 16px;
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: inherit;
 }
 
 /* banner default (desktop/tablet) */
@@ -64,6 +72,7 @@ $allowIndex = true;
 
   /* give the headline a bit of space so banner never overlaps text */
   .m-hero .hero-copy h1,
+  .m-hero .hero-copy .hero-title-visual,
   .hero .hero-copy h1{
     padding-right: 110px;
   }
@@ -185,6 +194,7 @@ $allowIndex = true;
 
   /* give the headline a bit of space so banner never overlaps text */
   .m-hero .hero-copy h1,
+  .m-hero .hero-copy .hero-title-visual,
   .hero .hero-copy h1{
     padding-right: 110px;
   }
@@ -248,7 +258,7 @@ $allowIndex = true;
             <div class="hero-copy">
 <img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;"  alt="">
 
-                <h1>Thermenwartung & Thermenservice in Wien & Niederösterreich</h1>
+                <div class="hero-title-visual">Thermenwartung & Thermenservice in Wien & Niederösterreich</div>
                 <p>
                     Professionelle Thermenwartung Wien, Thermenservice und Reparatur für jede Therme –
                     zuverlässig in Wien, Niederösterreich und der Umgebung, durch erfahrene Installateure,
@@ -662,7 +672,7 @@ $allowIndex = true;
                         <div class="card-head">
                             <div class="kicker">Online Termin für Thermenwartung vereinbaren.</div>
                         </div>
-                        <form class="form" onsubmit="return fakeSubmit(event)">
+                        <form class="form">
                             <input class="input" placeholder="Marke: z.B.: Vaillant" required>
                             <div class="field-row">
                                 <input class="input" placeholder="Name" required>
@@ -734,22 +744,30 @@ $allowIndex = true;
           <p>Unverbindliche Anfrage in wenigen Sekunden</p>
         </div>
 
-        <form class="booking-form">
-          <input type="text" placeholder="Marke z.B. Vaillant" required>
+        @if (session('success'))
+          <div class="alert alert-success" role="status" style="margin-bottom:16px;">
+            {{ session('success') }}
+          </div>
+        @endif
+
+        <form class="booking-form" action="{{ route('mail-send') }}" method="post">
+          @csrf
+          <input type="hidden" name="source" value="homepage-booking-form">
+          <input type="text" name="brand" placeholder="Marke z.B. Vaillant" required>
 
           <div class="form-row">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="E-Mail" required>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="E-Mail">
           </div>
 
           <div class="form-row">
-            <input type="tel" placeholder="Telefonnummer" required>
-            <input type="text" placeholder="Wunschtermin">
+            <input type="tel" name="phone" placeholder="Telefonnummer" required>
+            <input type="text" name="desired_date" placeholder="Wunschtermin">
           </div>
 
-          <input type="text" placeholder="Straße, PLZ, Ort" required>
+          <input type="text" name="address" placeholder="Straße, PLZ, Ort">
 
-          <textarea placeholder="Ihre Nachricht"></textarea>
+          <textarea name="message" placeholder="Ihre Nachricht" required></textarea>
 
           <button type="submit" class="booking-btn">
             Jetzt Thermenwartung anfragen
@@ -1953,6 +1971,7 @@ $allowIndex = true;
 
           <form class="service-cta__form" action="{{ route('mail-send') }}" method="post">
             @csrf
+            <input type="hidden" name="source" value="homepage-cta-form">
 
             <div class="service-formrow">
               <label>
@@ -1977,6 +1996,9 @@ $allowIndex = true;
 
             <p class="service-fineprint">Mit dem Absenden stimmen Sie der Kontaktaufnahme zu.</p>
           </form>
+          @error('name')
+            <p class="service-fineprint" style="color:#b42318; margin-top:12px;">Bitte prüfen Sie Ihre Eingaben und senden Sie das Formular erneut.</p>
+          @enderror
         </div>
       </div>
 

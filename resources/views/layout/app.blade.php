@@ -2,12 +2,42 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    @if (!isset($allowIndex))
+    @if (isset($allowNoindex) && $allowNoindex)
         <meta name="robots" content="noindex, nofollow">
+    @else
+        <meta name="robots" content="index, follow, max-image-preview:large">
     @endif
-    <meta name="title" content="{!! $metaTitle ?? 'Default Site Title' !!}">
     <link rel="shortcut icon" href="{{ asset('img/fav.png') }}" type="image/x-icon">
     <meta name="description" content="{!! $metaDescription ?? 'Default meta description' !!} ">
+    <link rel="canonical" href="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_AT">
+    <meta property="og:site_name" content="Heizdienst">
+    <meta property="og:title" content="{!! $metaTitle ?? 'Default Site Title' !!}">
+    <meta property="og:description" content="{!! $metaDescription ?? 'Default meta description' !!}">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="{{ asset('img/hero-scetion.jpeg') }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{!! $metaTitle ?? 'Default Site Title' !!}">
+    <meta name="twitter:description" content="{!! $metaDescription ?? 'Default meta description' !!}">
+    <meta name="twitter:image" content="{{ asset('img/hero-scetion.jpeg') }}">
+    @php
+        $structuredData = [
+            '@context' => 'https://schema.org',
+            '@type' => 'LocalBusiness',
+            'name' => 'Heizdienst',
+            'url' => url('/'),
+            'telephone' => '+4314420617',
+            'image' => asset('img/hero-scetion.jpeg'),
+            'address' => [
+                '@type' => 'PostalAddress',
+                'addressCountry' => 'AT',
+            ],
+            'areaServed' => ['Wien', 'Niederosterreich', 'Burgenland'],
+            'description' => $metaDescription ?? 'Thermenwartung, Thermenservice und Reparatur in Wien und Niederösterreich.',
+        ];
+    @endphp
+    <script type="application/ld+json">{!! json_encode($structuredData, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}</script>
     @stack('meta')
 
     <!-- Fonts -->
@@ -411,12 +441,6 @@
             const panel = document.getElementById('brandsMobilePanel');
             if (panel) panel.style.display = (panel.style.display === 'block') ? 'none' : 'block';
         };
-        window.fakeSubmit = function(e) {
-            e.preventDefault();
-            alert('Vielen Dank für Ihre Anfrage! Wir werden uns in Kürze bei Ihnen melden.');
-            return false;
-        };
-
         // ===== CLOSE MENUS WHEN CLICKING OUTSIDE =====
         document.addEventListener('click', function(e) {
             const mobilePanel = document.getElementById('mobileMenuPanel');

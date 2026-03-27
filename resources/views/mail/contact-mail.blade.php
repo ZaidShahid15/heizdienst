@@ -38,10 +38,45 @@
 <td>{{ $details['phone'] }}</td>
 </tr>
 
+@if(!empty($details['email']))
+<tr style="background:#f9fafb;">
+<td style="font-weight:bold;">Email</td>
+<td>{{ $details['email'] }}</td>
+</tr>
+@endif
+
+@if(!empty($details['brand']))
+<tr>
+<td style="font-weight:bold;">Brand</td>
+<td>{{ $details['brand'] }}</td>
+</tr>
+@endif
+
+@if(!empty($details['desired_date']))
+<tr style="background:#f9fafb;">
+<td style="font-weight:bold;">Desired Date</td>
+<td>{{ $details['desired_date'] }}</td>
+</tr>
+@endif
+
+@if(!empty($details['address']))
+<tr>
+<td style="font-weight:bold;">Address</td>
+<td>{{ $details['address'] }}</td>
+</tr>
+@endif
+
 <tr style="background:#f9fafb;">
 <td style="font-weight:bold;">Message</td>
 <td>{{ $details['message'] }}</td>
 </tr>
+
+@if(!empty($details['source']))
+<tr>
+<td style="font-weight:bold;">Source</td>
+<td>{{ $details['source'] }}</td>
+</tr>
+@endif
 
 </table>
 
