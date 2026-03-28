@@ -1,4 +1,4 @@
-@extends('layout.app')
+ï»¿@extends('layout.app')
 
 @section('main')
 <style>
@@ -489,7 +489,7 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
       </div>
 
       <p class="wolf-hero__sub">
-        Ein professioneller Windhager Thermentausch Wien sorgt für sichere Therme, effiziente Heizung und zuverlässigen Betrieb in Wien und Niederösterreich.
+        Ein professioneller Windhager Thermentausch Wien sorgt fÃ¼r sichere Therme, effiziente Heizung und zuverlÃ¤ssigen Betrieb in Wien und NiederÃ¶sterreich.
 
       </p>
 
@@ -528,7 +528,7 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            Geprüfte Experten
+            GeprÃ¼fte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -587,12 +587,12 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
           <div class="card-box">
             <h2>Windhager Thermenreparatur Wien und Windhager Kundendienst</h2>
             <p>
-              Unsere Windhager Thermenreparatur Wien steht für professionelle Reparatur, zuverlässigen Windhager Kundendienst und umfassenden Windhager Thermenservice. Zudem bieten wir <a href="/rapido-thermentausch-wien">professionelle Unterstützung für Markengeräte</a> für höchste Betriebssicherheit an.
+              Unsere Windhager Thermenreparatur Wien steht fÃ¼r professionelle Reparatur, zuverlÃ¤ssigen Windhager Kundendienst und umfassenden Windhager Thermenservice. Zudem bieten wir <a href="/rapido-thermentausch-wien">professionelle UnterstÃ¼tzung fÃ¼r MarkengerÃ¤te</a> fÃ¼r hÃ¶chste Betriebssicherheit an.
             </p>
             <p>
-              Ob Fehlercode, E02 Überhitzungsschutz oder andere Heizungsprobleme – unsere Experten analysieren die Ursache präzise und sorgen für eine nachhaltige Lösung.
+              Ob Fehlercode, E02 Ãœberhitzungsschutz oder andere Heizungsprobleme â€“ unsere Experten analysieren die Ursache prÃ¤zise und sorgen fÃ¼r eine nachhaltige LÃ¶sung.
               Der Windhager <a href="/">Kundendienst</a> arbeitet nach hohen Standards des Hersteller und garantiert Sicherheit, Effizienz und optimale Leistung Ihrer Heizung.
-              Mit Professionalität, Engagement und Fachwissen sichern wir langfristige Kundenzufriedenheit in Wien, Niederösterreich und Burgenland.
+              Mit ProfessionalitÃ¤t, Engagement und Fachwissen sichern wir langfristige Kundenzufriedenheit in Wien, NiederÃ¶sterreich und Burgenland.
             </p>
           </div>
         </div>
@@ -612,22 +612,22 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2 id="kundendienst">Kundendienst – Reparatur Ihrer Windhager Gastherme bei Problem</h2>
+            <h2 id="kundendienst">Kundendienst â€“ Reparatur Ihrer Windhager Gastherme bei Problem</h2>
             <p>
-              Wenn Ihre Windhager Gastherme nicht mehr zuverlässig im Betrieb läuft, ist rasche Hilfe entscheidend.
-              Unsere Techniker führen gezielte Überprüfung, Reinigung sowie präzise Behebung von Störungen durch.
-              Ob Heizkreislauf, Heizungsthermistor Thermistor, Thermostats oder andere Komponenten – wir prüfen alles sorgfältig.
+              Wenn Ihre Windhager Gastherme nicht mehr zuverlÃ¤ssig im Betrieb lÃ¤uft, ist rasche Hilfe entscheidend.
+              Unsere Techniker fÃ¼hren gezielte ÃœberprÃ¼fung, Reinigung sowie prÃ¤zise Behebung von StÃ¶rungen durch.
+              Ob Heizkreislauf, Heizungsthermistor Thermistor, Thermostats oder andere Komponenten â€“ wir prÃ¼fen alles sorgfÃ¤ltig.
             </p>
             <p>
-              Die Windhager Thermenreparatur erfolgt direkt vor Ort und sichert den reibungslosen Umgang mit Wasser, Heizkörper und Heizungsanlagen.
+              Die Windhager Thermenreparatur erfolgt direkt vor Ort und sichert den reibungslosen Umgang mit Wasser, HeizkÃ¶rper und Heizungsanlagen.
               Unser Team bietet professionelle Reparatur und schnelle Soforthilfe bei jedem Problem.
-              So verlängern wir die Lebensdauer Ihrer Therme und steigern Effizienz sowie Wert Ihrer Anlage.
+              So verlÃ¤ngern wir die Lebensdauer Ihrer Therme und steigern Effizienz sowie Wert Ihrer Anlage.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Gezielte Überprüfung</div></div>
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Schnelle Soforthilfe</div></div>
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Lebensdauer</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Gezielte ÃœberprÃ¼fung</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Schnelle Soforthilfe</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Lebensdauer</div></div>
             </div>
           </div>
         </div>
@@ -646,52 +646,52 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
     <div class="service-container">
       <div class="service-section__head">
         <h2>Leistungen unseres Kundendienstes</h2>
-        <p><a href="/">unserer Notfallhilfe</a>, Thermenservice, Wartung, Reparatur, Überprüfung und Thermentausch – professionell betreut.</p>
+        <p><a href="/">unserer Notfallhilfe</a>, Thermenservice, Wartung, Reparatur, ÃœberprÃ¼fung und Thermentausch â€“ professionell betreut.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">???</div>
+          <div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div>
           <div>
             <h3>Windhager Thermenreparatur</h3>
-            <p>Professionelle Reparatur bei Problem, Störungen, Fehlermeldungen und Fehlercode direkt vor Ort.</p>
+            <p>Professionelle Reparatur bei Problem, StÃ¶rungen, Fehlermeldungen und Fehlercode direkt vor Ort.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">??</div>
+          <div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div>
           <div>
-            <h3>Überprüfung & Reinigung</h3>
-            <p>Gezielte Überprüfung und Reinigung aller relevanten Komponenten für sicheren Betrieb und Leistung.</p>
+            <h3>ÃœberprÃ¼fung & Reinigung</h3>
+            <p>Gezielte ÃœberprÃ¼fung und Reinigung aller relevanten Komponenten fÃ¼r sicheren Betrieb und Leistung.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">??</div>
+          <div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div>
           <div>
             <h3>Windhager Thermenwartung</h3>
-            <p>Regelmäßige Thermenwartung für Effizienz, Sicherheit und weniger Störungen an Ihrer Gastherme.</p>
+            <p>RegelmÃ¤ÃŸige Thermenwartung fÃ¼r Effizienz, Sicherheit und weniger StÃ¶rungen an Ihrer Gastherme.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">??</div>
+          <div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div>
           <div>
             <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-            <p>Notdienst rund um die Uhr in Wien, Niederösterreich und Burgenland – schnelle Hilfe im Notfall.</p>
+            <p>Notdienst rund um die Uhr in Wien, NiederÃ¶sterreich und Burgenland â€“ schnelle Hilfe im Notfall.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">??</div>
+          <div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div>
           <div>
             <h3>Fehlercode & Diagnose</h3>
-            <p>Präzise Analyse von Fehlercode wie E02 Überhitzungsschutz und anderen Heizungsprobleme.</p>
+            <p>PrÃ¤zise Analyse von Fehlercode wie E02 Ãœberhitzungsschutz und anderen Heizungsprobleme.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">??</div>
+          <div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div>
           <div>
             <h3>Windhager Thermentausch</h3>
             <p>Beratung, Planung und Austausch bei wiederholter Reparatur oder sinkender Effizienz Ihrer Anlage.</p>
@@ -707,29 +707,29 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Windhager Thermenwartung Wien für Effizienz und Sicherheit</h2>
+            <h2>Windhager Thermenwartung Wien fÃ¼r Effizienz und Sicherheit</h2>
             <p>
-              Eine regelmäßige Windhager Thermenwartung ist entscheidend für die langfristige Sicherheit und Effizienz Ihrer Anlage.
-              Unsere professionelle Thermenwartung sowie spezialisierte Windhager Thermenwartung umfasst gründliche Überprüfung aller relevanten Komponenten,
-              sorgfältige Reinigung und präzise Wartungsarbeiten an Ihrer Gastherme.
+              Eine regelmÃ¤ÃŸige Windhager Thermenwartung ist entscheidend fÃ¼r die langfristige Sicherheit und Effizienz Ihrer Anlage.
+              Unsere professionelle Thermenwartung sowie spezialisierte Windhager Thermenwartung umfasst grÃ¼ndliche ÃœberprÃ¼fung aller relevanten Komponenten,
+              sorgfÃ¤ltige Reinigung und prÃ¤zise Wartungsarbeiten an Ihrer Gastherme.
             </p>
             <p>
-              Mit gezielter Windhager Thermenwartung sichern wir den stabilen Betrieb, reduzieren Störungen und verlängern die Lebensdauer Ihrer Therme deutlich.
-              Unsere Experten prüfen Heizkreislauf, Heizkörper und Thermostats, um optimale Leistung und effiziente Heizung zu gewährleisten.
-              Der Windhager Thermenservice Wien steht Kunden in Wien Niederösterreich, Niederösterreich und Burgenland zuverlässig zur Verfügung und sorgt für nachhaltige Effizienz.
+              Mit gezielter Windhager Thermenwartung sichern wir den stabilen Betrieb, reduzieren StÃ¶rungen und verlÃ¤ngern die Lebensdauer Ihrer Therme deutlich.
+              Unsere Experten prÃ¼fen Heizkreislauf, HeizkÃ¶rper und Thermostats, um optimale Leistung und effiziente Heizung zu gewÃ¤hrleisten.
+              Der Windhager Thermenservice Wien steht Kunden in Wien NiederÃ¶sterreich, NiederÃ¶sterreich und Burgenland zuverlÃ¤ssig zur VerfÃ¼gung und sorgt fÃ¼r nachhaltige Effizienz.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Stabiler Betrieb</div></div>
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Störungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Stabiler Betrieb</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Weniger StÃ¶rungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Effizienz</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Windhager Thermenwartung Wien für Effizienz und Sicherheit" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Windhager Thermenwartung Wien fÃ¼r Effizienz und Sicherheit" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -744,20 +744,20 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
           <div class="card-box">
             <h2 id="thermentausch-wien">Windhager Thermentausch Wien und moderne Modelle</h2>
             <p>
-              Wenn wiederholte Reparatur oder häufige Heizungsprobleme auftreten, empfehlen wir einen Windhager Thermentausch.
-              Moderne Windhager Modelle bieten höhere Effizienz, bessere Leistung und langfristigen Wert für Ihre Heizungsanlagen.
-              Unsere Installateur übernehmen Planung, professionelle Installationen und fachgerechten Austausch direkt vor Ort.
+              Wenn wiederholte Reparatur oder hÃ¤ufige Heizungsprobleme auftreten, empfehlen wir einen Windhager Thermentausch.
+              Moderne Windhager Modelle bieten hÃ¶here Effizienz, bessere Leistung und langfristigen Wert fÃ¼r Ihre Heizungsanlagen.
+              Unsere Installateur Ã¼bernehmen Planung, professionelle Installationen und fachgerechten Austausch direkt vor Ort.
             </p>
             <p>
               Mit transparenter Beratung und klaren Preisen begleiten wir Sie von der ersten Anfrage bis zur finalen Inbetriebnahme.
-              Als verlässlicher Partner in Wien Niederösterreich und Burgenland sorgen wir für nachhaltige Lösung und sicheren Betrieb Ihrer Heizung.
-              Auch als Alternative zu älteren Marken bieten wir passende Optionen.
+              Als verlÃ¤sslicher Partner in Wien NiederÃ¶sterreich und Burgenland sorgen wir fÃ¼r nachhaltige LÃ¶sung und sicheren Betrieb Ihrer Heizung.
+              Auch als Alternative zu Ã¤lteren Marken bieten wir passende Optionen.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Moderne Modelle</div></div>
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Klare Preise</div></div>
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Sichere Lösung</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Moderne Modelle</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Klare Preise</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Sichere LÃ¶sung</div></div>
             </div>
           </div>
         </div>
@@ -777,13 +777,13 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
       <div class="service-emergency__text">
         <h2>Windhager Notdienst Wien rund um die Uhr</h2>
         <p>
-          Im Notfall steht unser Windhager Notdienst in Wien Niederösterreich rund um die Uhr zur Verfügung.
-          Ob plötzliche Störungen, Ausfall der Gastherme oder dringender Hinweis auf Fehlermeldungen – unsere Profis reagieren sofort.
-          Der Windhager Notdienst betreut Wien, Niederösterreich, Burgenland und ist jederzeit im Einsatz.
+          Im Notfall steht unser Windhager Notdienst in Wien NiederÃ¶sterreich rund um die Uhr zur VerfÃ¼gung.
+          Ob plÃ¶tzliche StÃ¶rungen, Ausfall der Gastherme oder dringender Hinweis auf Fehlermeldungen â€“ unsere Profis reagieren sofort.
+          Der Windhager Notdienst betreut Wien, NiederÃ¶sterreich, Burgenland und ist jederzeit im Einsatz.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Unser Kundenservice sorgt für schnelle Terminvereinbarung und direkte Hilfe vor Ort.
-          Durch strukturierte Arbeit, professionelle Überprüfung und sichere Reparatur stellen wir Ihre Heizung rasch wieder her.
+          Unser Kundenservice sorgt fÃ¼r schnelle Terminvereinbarung und direkte Hilfe vor Ort.
+          Durch strukturierte Arbeit, professionelle ÃœberprÃ¼fung und sichere Reparatur stellen wir Ihre Heizung rasch wieder her.
           Vertrauen Sie auf Windhager Thermenreparatur mit echter Expertise und umfassender Betreuung.
         </p>
         <div class="service-emergency__actions">
@@ -794,15 +794,15 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische Notfälle</h3>
+          <h3>Typische NotfÃ¤lle</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Ausfall der Gastherme / Heizung</li>
-            <li>Plötzliche Störungen & Fehlermeldungen</li>
-            <li>Fehlercode-Hinweise (z. B. E02 Überhitzungsschutz)</li>
+            <li>PlÃ¶tzliche StÃ¶rungen & Fehlermeldungen</li>
+            <li>Fehlercode-Hinweise (z. B. E02 Ãœberhitzungsschutz)</li>
             <li>Akute Heizungsprobleme</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr im Einsatz – Wien, Niederösterreich und Burgenland.
+            Rund um die uhr im Einsatz â€“ Wien, NiederÃ¶sterreich und Burgenland.
           </p>
         </div>
       </div>
@@ -817,14 +817,14 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
           <div class="card-box">
             <h2>Warum Windhager Ihr Partner in Wien ist</h2>
             <p>
-              Windhager steht für Qualität, Professionalität und hohe Kompetenz im Bereich Thermenservice.
+              Windhager steht fÃ¼r QualitÃ¤t, ProfessionalitÃ¤t und hohe Kompetenz im Bereich Thermenservice.
               Unser Team aus erfahrenen Techniker und Experten betreut Windhager Thermen mit umfassender Expertise und Engagement.
-              Der Windhager Kundendienst Wien bietet schnellen Notdienst, strukturierte Überprüfung und zuverlässige Dienstleistungen für Besitzer und Eigentümer.
+              Der Windhager Kundendienst Wien bietet schnellen Notdienst, strukturierte ÃœberprÃ¼fung und zuverlÃ¤ssige Dienstleistungen fÃ¼r Besitzer und EigentÃ¼mer.
             </p>
             <p>
-              Mit Fachwissen, Erfahrung und modernem Umgang mit Gasgeräte sichern wir höchste Sicherheit und langfristige Betreuung.
+              Mit Fachwissen, Erfahrung und modernem Umgang mit GasgerÃ¤te sichern wir hÃ¶chste Sicherheit und langfristige Betreuung.
               Kundenzufriedenheit, transparente Preise und nachhaltige Arbeit stehen im Mittelpunkt unseres Handelns.
-              Vertrauen Sie auf Windhager Thermenreparatur und professionelle Hilfe für Ihr Zuhause.
+              Vertrauen Sie auf Windhager Thermenreparatur und professionelle Hilfe fÃ¼r Ihr Zuhause.
             </p>
           </div>
         </div>
@@ -844,26 +844,26 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Techniker in Wien Niederösterreich und Burgenland</h2>
+            <h2>Techniker in Wien NiederÃ¶sterreich und Burgenland</h2>
             <p>
-              Unser Team betreut Wien Niederösterreich, Niederösterreich und Burgenland mit schneller Hilfe, fachgerechter Arbeit und persönlicher Beratung.
+              Unser Team betreut Wien NiederÃ¶sterreich, NiederÃ¶sterreich und Burgenland mit schneller Hilfe, fachgerechter Arbeit und persÃ¶nlicher Beratung.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Schnelle Hilfe</div></div>
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachgerechte Arbeit</div></div>
-              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Persönliche Beratung</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Schnelle Hilfe</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachgerechte Arbeit</div></div>
+              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">PersÃ¶nliche Beratung</div></div>
             </div>
 
             <p style="margin-top:12px;">
-              Sicherheit und Service bei Notfall: Bei Notfall mit Windhager Therme bieten wir Soforthilfe, professionelle Behebung und garantieren Sicherheit sowie zuverlässige Leistung.
+              Sicherheit und Service bei Notfall: Bei Notfall mit Windhager Therme bieten wir Soforthilfe, professionelle Behebung und garantieren Sicherheit sowie zuverlÃ¤ssige Leistung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Techniker in Wien Niederösterreich und Burgenland" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Techniker in Wien NiederÃ¶sterreich und Burgenland" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -874,39 +874,39 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Häufige Fragen zur Windhager Thermenreparatur Wien</h2>
-        <p>Die wichtigsten Antworten – kurz und klar.</p>
+        <h2>HÃ¤ufige Fragen zur Windhager Thermenreparatur Wien</h2>
+        <p>Die wichtigsten Antworten â€“ kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>1. Wie oft sollte eine Windhager Thermenwartung durchgeführt werden?</summary>
-          <p>Eine jährliche Windhager Thermenwartung erhöht Sicherheit, Effizienz und verlängert die Lebensdauer Ihrer Therme.</p>
+          <summary>1. Wie oft sollte eine Windhager Thermenwartung durchgefÃ¼hrt werden?</summary>
+          <p>Eine jÃ¤hrliche Windhager Thermenwartung erhÃ¶ht Sicherheit, Effizienz und verlÃ¤ngert die Lebensdauer Ihrer Therme.</p>
         </details>
 
         <details>
           <summary>2. Ist der Windhager Notdienst rund um die Uhr erreichbar?</summary>
-          <p>Ja, unser Windhager Notdienst ist rund um die Uhr in Wien Niederösterreich und Burgenland verfügbar.</p>
+          <p>Ja, unser Windhager Notdienst ist rund um die Uhr in Wien NiederÃ¶sterreich und Burgenland verfÃ¼gbar.</p>
         </details>
 
         <details>
           <summary>3. Welche Leistungen umfasst der Windhager Thermenservice?</summary>
-          <p>Der Windhager Thermenservice beinhaltet Reparatur, Wartung, Überprüfung, Reinigung und professionelle Betreuung Ihrer Gastherme.</p>
+          <p>Der Windhager Thermenservice beinhaltet Reparatur, Wartung, ÃœberprÃ¼fung, Reinigung und professionelle Betreuung Ihrer Gastherme.</p>
         </details>
 
         <details>
           <summary>4. Wann ist ein Windhager Thermentausch sinnvoll?</summary>
-          <p>Bei häufigen Störungen, wiederkehrendem Problem oder sinkender Effizienz empfehlen wir einen Thermentausch.</p>
+          <p>Bei hÃ¤ufigen StÃ¶rungen, wiederkehrendem Problem oder sinkender Effizienz empfehlen wir einen Thermentausch.</p>
         </details>
 
         <details>
-          <summary>5. Arbeiten Sie auch in Niederösterreich?</summary>
-          <p>Ja, wir betreuen Wien Niederösterreich, Niederösterreich und Burgenland zuverlässig.</p>
+          <summary>5. Arbeiten Sie auch in NiederÃ¶sterreich?</summary>
+          <p>Ja, wir betreuen Wien NiederÃ¶sterreich, NiederÃ¶sterreich und Burgenland zuverlÃ¤ssig.</p>
         </details>
 
         <details>
           <summary>6. Wie kann ich einen Termin vereinbaren?</summary>
-          <p>Kontaktieren Sie uns telefonisch oder über diese Seite für schnelle Hilfe und Terminvereinbarung.</p>
+          <p>Kontaktieren Sie uns telefonisch oder Ã¼ber diese Seite fÃ¼r schnelle Hilfe und Terminvereinbarung.</p>
         </details>
       </div>
     </div>
@@ -916,7 +916,7 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin Vereinbaren',
-        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> ?? Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und ZuverlÃ¤ssigkeit â€“ kompetent, transparent und kundenorientiert. </br> Jetzt Termin vereinbaren â€“ Ihr Therm4You-Partner in Wien.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -924,6 +924,7 @@ $metaDescription = "Windhager Thermentausch in Wien ? Gastherme, Reparatur & The
 </main>
 
 @endsection
+
 
 
 

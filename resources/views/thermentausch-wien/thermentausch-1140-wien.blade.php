@@ -1,9 +1,9 @@
-@extends('layout.app')
+ï»¿@extends('layout.app')
 
 @section('main')
 
 @php
-$metaTitle = "Thermentausch 1140 Wien – Installateur Wien für Gastherme Austausch & Thermenwechsel Penzing";
+$metaTitle = "Thermentausch 1140 Wien â€“ Installateur Wien fÃ¼r Gastherme Austausch & Thermenwechsel Penzing";
 $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wien. Gastherme tauschen, Thermenwechsel, Installation, Wartung und Notdienst in Wien 1140 Penzing.";
 @endphp
 
@@ -30,7 +30,7 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu für Thermen Marken) === */
+    /* === BRAND GRID (neu fÃ¼r Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -87,10 +87,10 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
     <div class="wolf-hero__inner container">
       <h1>
         Thermentausch 1140 Wien <br>
-        <span style="color:#FB9A1B;">Rundum-Service für Ihre neue Gastherme</span>
+        <span style="color:#FB9A1B;">Rundum-Service fÃ¼r Ihre neue Gastherme</span>
       </h1>
 
-      <p class="wolf-hero__sub">Effizienter Thermentausch 1140 Wien für sichere Heizung und Warmwasser in Wien 1140 Penzing. Ob Austausch einer alten Gastherme oder komplette Neuinstallation – wir sind Ihr erfahrener Installateur im Bezirk.</p>
+      <p class="wolf-hero__sub">Effizienter Thermentausch 1140 Wien fÃ¼r sichere Heizung und Warmwasser in Wien 1140 Penzing. Ob Austausch einer alten Gastherme oder komplette Neuinstallation â€“ wir sind Ihr erfahrener Installateur im Bezirk.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -153,7 +153,7 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
         </div>
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre Lösung</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre LÃ¶sung</span></a></li>
             <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Warum wir</span></a></li>
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Unser Service</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Ablauf</span></a></li>
@@ -170,13 +170,13 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- Vorteile / Ihre Lösung -->
+  <!-- Vorteile / Ihre LÃ¶sung -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Ihre Lösung für Thermentausch in 1140 Wien</h2>
-          <p>Ein Thermentausch 1140 Wien ist besonders in Wien 1140 und im Bezirk Penzing wichtig, da viele Gebäude entlang der Linzer Straße und der Hütteldorfer Straße noch mit älteren Thermen und Gasgeräten ausgestattet sind, die häufige Wartung, Reparatur oder sogar einen Notdienst erfordern. Ein professioneller Thermentausch Wien oder ein kompletter Thermenwechsel ist dann die beste Lösung. Unser Installateur Wien übernimmt den gesamten Ablauf von der Beratung bis zur fertigen Installation und prüft alle Gasgeräte, Leitungen für Gas und Wasser sowie die bestehende Heizungsanlage, um eine sichere und effiziente Lösung zu gewährleisten. Als Installateur 1140 Wien sorgen wir mit moderner Heizungstechnik, sauberer Montage und viel Erfahrung dafür, dass Ihre neue Gastherme optimal funktioniert und Ihre Heizung in Wien 1140 langfristig zuverlässig bleibt. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1130-wien') }}">weiterführenden Informationen</a>.</p>
+          <h2>Ihre LÃ¶sung fÃ¼r Thermentausch in 1140 Wien</h2>
+          <p>Ein Thermentausch 1140 Wien ist besonders in Wien 1140 und im Bezirk Penzing wichtig, da viele GebÃ¤ude entlang der Linzer StraÃŸe und der HÃ¼tteldorfer StraÃŸe noch mit Ã¤lteren Thermen und GasgerÃ¤ten ausgestattet sind, die hÃ¤ufige Wartung, Reparatur oder sogar einen Notdienst erfordern. Ein professioneller Thermentausch Wien oder ein kompletter Thermenwechsel ist dann die beste LÃ¶sung. Unser Installateur Wien Ã¼bernimmt den gesamten Ablauf von der Beratung bis zur fertigen Installation und prÃ¼ft alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die bestehende Heizungsanlage, um eine sichere und effiziente LÃ¶sung zu gewÃ¤hrleisten. Als Installateur 1140 Wien sorgen wir mit moderner Heizungstechnik, sauberer Montage und viel Erfahrung dafÃ¼r, dass Ihre neue Gastherme optimal funktioniert und Ihre Heizung in Wien 1140 langfristig zuverlÃ¤ssig bleibt. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1130-wien') }}">weiterfÃ¼hrenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.webp" alt="Thermentausch 1140 Wien" loading="lazy" decoding="async">
@@ -184,33 +184,33 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
       </div>
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt für eine präzise Installation Ihrer neuen Gastherme – schnell, sauber und nach allen Sicherheitsstandards.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt fÃ¼r eine prÃ¤zise Installation Ihrer neuen Gastherme â€“ schnell, sauber und nach allen Sicherheitsstandards.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Schnell vor Ort in 1140</h3><p>Als Installateur in Penzing sind wir in wenigen Minuten bei Ihnen – für Termine und Notfälle gleichermaßen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>Schnell vor Ort in 1140</h3><p>Als Installateur in Penzing sind wir in wenigen Minuten bei Ihnen â€“ fÃ¼r Termine und NotfÃ¤lle gleichermaÃŸen.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag – keine versteckten Preise, faire Abrechnung.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-cash-coin"></i></div><div>
+          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag â€“ keine versteckten Preise, faire Abrechnung.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
-          <h3>Förderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und können oft gefördert werden. Wir beraten Sie zu möglichen Zuschüssen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>FÃ¶rderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und kÃ¶nnen oft gefÃ¶rdert werden. Wir beraten Sie zu mÃ¶glichen ZuschÃ¼ssen.</p>
         </div></article>
       </div>
     </div>
   </section>
 
-  <!-- Team / Warum Kunden sich für uns entscheiden -->
+  <!-- Team / Warum Kunden sich fÃ¼r uns entscheiden -->
   <section class="service-section" id="team-services">
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Warum sich Kunden in Wien 1140 für uns entscheiden</h2>
-          <p>Beim Thermentausch 1140 Wien ist ein erfahrener Installateur Wien besonders wichtig, da viele Gebäude in Penzing spezielle Anforderungen an Installation, Gasanschlüsse und Heizungsanlage haben. Unsere Firma als Fachbetrieb legt großen Wert auf Qualität, Sicherheit und moderne Heizungstechnik und begleitet unsere Kunden von der ersten Beratung bis zur fertigen Montage. Unser Installateur 1140 Wien setzt den Austausch Ihrer alten Therme effizient um und bietet durch Erfahrung, hohe Qualität und überzeugende Referenzen eine langfristige Lösung für jeden Thermentausch Wien.</p>
+          <h2>Warum sich Kunden in Wien 1140 fÃ¼r uns entscheiden</h2>
+          <p>Beim Thermentausch 1140 Wien ist ein erfahrener Installateur Wien besonders wichtig, da viele GebÃ¤ude in Penzing spezielle Anforderungen an Installation, GasanschlÃ¼sse und Heizungsanlage haben. Unsere Firma als Fachbetrieb legt groÃŸen Wert auf QualitÃ¤t, Sicherheit und moderne Heizungstechnik und begleitet unsere Kunden von der ersten Beratung bis zur fertigen Montage. Unser Installateur 1140 Wien setzt den Austausch Ihrer alten Therme effizient um und bietet durch Erfahrung, hohe QualitÃ¤t und Ã¼berzeugende Referenzen eine langfristige LÃ¶sung fÃ¼r jeden Thermentausch Wien.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen Altbau</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Montage</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparenz</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen Altbau</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere Montage</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparenz</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
@@ -220,17 +220,17 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- Leistungen / Unser Service für Wien 1140 -->
+  <!-- Leistungen / Unser Service fÃ¼r Wien 1140 -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unser Service für 1140 Wien</h2><p>Unser Installateur Wien bietet umfassenden Service rund um Thermentausch 1140 Wien sowie moderne Heizungstechnik und sichere Installationen in Wien 1140 Penzing. Wir übernehmen den gesamten Ablauf von der Planung bis zur fertigen Thermeninstallation und Thermenmontage und bieten zusätzlich Thermenwartung, Reparatur und laufenden Service an. Alle Gasgeräte, Leitungen für Gas und Wasser sowie bestehende Installationen werden sorgfältig geprüft, damit Ihre neue Gastherme sicher funktioniert und Ihre Heizungsanlage optimal eingestellt ist. Als erfahrene Firma mit umfassender Erfahrung bieten wir unseren Kunden eine zuverlässige Lösung für jede Wohnung und jedes Haus.</p></div>
+      <div class="service-section__head"><h2>Unser Service fÃ¼r 1140 Wien</h2><p>Unser Installateur Wien bietet umfassenden Service rund um Thermentausch 1140 Wien sowie moderne Heizungstechnik und sichere Installationen in Wien 1140 Penzing. Wir Ã¼bernehmen den gesamten Ablauf von der Planung bis zur fertigen Thermeninstallation und Thermenmontage und bieten zusÃ¤tzlich Thermenwartung, Reparatur und laufenden Service an. Alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie bestehende Installationen werden sorgfÃ¤ltig geprÃ¼ft, damit Ihre neue Gastherme sicher funktioniert und Ihre Heizungsanlage optimal eingestellt ist. Als erfahrene Firma mit umfassender Erfahrung bieten wir unseren Kunden eine zuverlÃ¤ssige LÃ¶sung fÃ¼r jede Wohnung und jedes Haus.</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Thermentausch und Thermenwechsel</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes Gerät – fachgerecht und schnell.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller Anschlüsse für Gas, Wasser und Heizung – sicher und normgerecht.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Austausch alter Gasthermen</h3><p>Speziell für Penzing: Wir ersetzen veraltete Geräte durch zeitgemäße Heiztechnik.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">???</div><div><h3>Optimierung Heizung & Warmwasser</h3><p>Nach dem Einbau justieren wir Ihre Anlage für maximalen Komfort und niedrige Energiekosten.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär und Haustechnik</h3><p>Wir kümmern uns auch um angrenzende Gewerke – damit alles perfekt zusammenspielt.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Schneller Notdienst & Service</h3><p>Bei Problemen sind wir sofort für Sie da – auch nach der Installation.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-arrow-repeat"></i></div><div><h3>Thermentausch und Thermenwechsel</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes GerÃ¤t â€“ fachgerecht und schnell.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller AnschlÃ¼sse fÃ¼r Gas, Wasser und Heizung â€“ sicher und normgerecht.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-fire"></i></div><div><h3>Austausch alter Gasthermen</h3><p>Speziell fÃ¼r Penzing: Wir ersetzen veraltete GerÃ¤te durch zeitgemÃ¤ÃŸe Heiztechnik.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-lightning-charge"></i></div><div><h3>Optimierung Heizung & Warmwasser</h3><p>Nach dem Einbau justieren wir Ihre Anlage fÃ¼r maximalen Komfort und niedrige Energiekosten.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>SanitÃ¤r und Haustechnik</h3><p>Wir kÃ¼mmern uns auch um angrenzende Gewerke â€“ damit alles perfekt zusammenspielt.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-life-preserver"></i></div><div><h3>Schneller Notdienst & Service</h3><p>Bei Problemen sind wir sofort fÃ¼r Sie da â€“ auch nach der Installation.</p></div></article>
       </div>
     </div>
   </section>
@@ -241,14 +241,14 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ablauf beim Thermentausch in 1140 Wien</h2>
-          <p>Ein strukturierter Ablauf beim Thermentausch 1140 Wien sorgt dafür, dass Ihre neue Gastherme sicher und effizient installiert wird. Unser Installateur Wien vereinbart zuerst einen Termin für eine Besichtigung in Ihrer Wohnung oder Ihrem Haus in Wien 1140 Penzing, bei dem alle Thermen, Gasgeräte, Leitungen für Gas und Wasser sowie die gesamte Heizungsanlage überprüft werden. Danach erhalten Sie eine ausführliche Beratung, ein transparentes Angebot und einen klaren Kostenvoranschlag mit allen Kosten und Preisen. Nach Ihrer Freigabe übernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die vollständige Thermeninstallation und die präzise Montage. Der Austausch alter Thermen verbessert nicht nur die Heizung, sondern erhöht auch die Energieeffizienz und spart langfristig Energie.</p>
+          <p>Ein strukturierter Ablauf beim Thermentausch 1140 Wien sorgt dafÃ¼r, dass Ihre neue Gastherme sicher und effizient installiert wird. Unser Installateur Wien vereinbart zuerst einen Termin fÃ¼r eine Besichtigung in Ihrer Wohnung oder Ihrem Haus in Wien 1140 Penzing, bei dem alle Thermen, GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die gesamte Heizungsanlage Ã¼berprÃ¼ft werden. Danach erhalten Sie eine ausfÃ¼hrliche Beratung, ein transparentes Angebot und einen klaren Kostenvoranschlag mit allen Kosten und Preisen. Nach Ihrer Freigabe Ã¼bernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die vollstÃ¤ndige Thermeninstallation und die prÃ¤zise Montage. Der Austausch alter Thermen verbessert nicht nur die Heizung, sondern erhÃ¶ht auch die Energieeffizienz und spart langfristig Energie.</p>
           <ul class="service-checklist" style="margin-top:20px">
             <li>Besichtigung Ihrer Therme vor Ort in 1140 Wien</li>
-            <li>Persönliche Beratung zur passenden Gastherme</li>
+            <li>PersÃ¶nliche Beratung zur passenden Gastherme</li>
             <li>Transparentes Angebot und klarer Kostenvoranschlag</li>
             <li>Fachgerechte Thermenmontage und sichere Installation</li>
             <li>Kontrolle von Gas, Wasser und kompletter Heizungsanlage</li>
-            <li>Übergabe und laufender Service</li>
+            <li>Ãœbergabe und laufender Service</li>
           </ul>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
@@ -264,7 +264,7 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermenwartung, Reparatur und laufender Service</h2>
-          <p>Neben dem Thermentausch 1140 Wien ist eine regelmäßige Thermenwartung entscheidend, damit Ihre Gastherme langfristig zuverlässig arbeitet. Unser Installateur Wien bietet umfassenden Service, Wartung und Reparatur für Thermen in Wien 1140 Penzing an, wobei alle wichtigen Komponenten wie Gasgeräte, Wasseranschlüsse und die gesamte Heizungsanlage überprüft werden. So bleibt Ihre Heizung effizient, Ausfälle werden vermieden und Ihre Installationen funktionieren dauerhaft sicher.</p>
+          <p>Neben dem Thermentausch 1140 Wien ist eine regelmÃ¤ÃŸige Thermenwartung entscheidend, damit Ihre Gastherme langfristig zuverlÃ¤ssig arbeitet. Unser Installateur Wien bietet umfassenden Service, Wartung und Reparatur fÃ¼r Thermen in Wien 1140 Penzing an, wobei alle wichtigen Komponenten wie GasgerÃ¤te, WasseranschlÃ¼sse und die gesamte Heizungsanlage Ã¼berprÃ¼ft werden. So bleibt Ihre Heizung effizient, AusfÃ¤lle werden vermieden und Ihre Installationen funktionieren dauerhaft sicher.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size4.webp" alt="Thermenwartung 1140 Wien" loading="lazy" decoding="async">
@@ -278,21 +278,21 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Notdienst und schnelle Hilfe in Penzing</h2>
-        <p>Wenn es zu einem Notfall mit Ihrer Therme oder Gastherme kommt, ist ein schneller Notdienst besonders wichtig. Unser Installateur Wien bietet einen zuverlässigen Notdienst für Thermentausch 1140 Wien, Reparatur und dringende Installation in Wien 1140 an. Unser Team ist schnell im Einsatz, leistet rasch Hilfe und analysiert jedes Problem effizient, um eine passende Lösung zu finden – egal ob Störung, notwendiger Thermenwechsel oder kompletter Austausch.</p>
+        <p>Wenn es zu einem Notfall mit Ihrer Therme oder Gastherme kommt, ist ein schneller Notdienst besonders wichtig. Unser Installateur Wien bietet einen zuverlÃ¤ssigen Notdienst fÃ¼r Thermentausch 1140 Wien, Reparatur und dringende Installation in Wien 1140 an. Unser Team ist schnell im Einsatz, leistet rasch Hilfe und analysiert jedes Problem effizient, um eine passende LÃ¶sung zu finden â€“ egal ob StÃ¶rung, notwendiger Thermenwechsel oder kompletter Austausch.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdienst-Einsätze</h3>
+        <h3>Typische Notdienst-EinsÃ¤tze</h3>
         <ul class="service-checklist service-checklist--on-dark">
-          <li>Vollständiger Ausfall der Heizung</li>
+          <li>VollstÃ¤ndiger Ausfall der Heizung</li>
           <li>Kein Warmwasser</li>
           <li>Gasgeruch oder unsicherer Zustand der Therme</li>
           <li>Wasseraustritt an der Therme</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1140 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in 1140 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -305,22 +305,22 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
           <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Thermentausch 1140 Wien" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Kosten und Preise für den Thermentausch</h2>
-          <p>Die Kosten für einen Thermentausch 1140 Wien hängen von mehreren Faktoren ab, darunter der Zustand der bestehenden Therme, der Umfang der Installation, die Größe der Heizungsanlage und das gewählte Modell der neuen Gastherme. Unser Installateur Wien analysiert alle Gasgeräte, Sanitär Anschlüsse und bestehenden Installationen genau, um Ihnen ein transparentes Angebot mit fairen Preisen zu erstellen. Ein professioneller Thermentausch Wien reduziert langfristig Kosten, verbessert die Energieeffizienz und wird häufig durch eine mögliche Förderung unterstützt. So lohnt sich die Investition in moderne Heizungstechnik und nachhaltige Haustechnik besonders.</p>
-          <p><strong>Was die Kosten beeinflusst:</strong> Auswahl der Gastherme, Aufwand der Montage, Zustand der bestehenden Heizung sowie mögliche zusätzliche Sanierung oder Erneuerung der Installationen.</p>
-          <p><strong>Förderung und Einsparung:</strong> Ein Thermentausch Wien kann durch eine Förderung unterstützt werden, wodurch sich die Kosten reduzieren und gleichzeitig Energie eingespart wird. Das macht Ihre Heizungsanlage effizienter und leistet einen positiven Beitrag zur Umwelt.</p>
+          <h2>Kosten und Preise fÃ¼r den Thermentausch</h2>
+          <p>Die Kosten fÃ¼r einen Thermentausch 1140 Wien hÃ¤ngen von mehreren Faktoren ab, darunter der Zustand der bestehenden Therme, der Umfang der Installation, die GrÃ¶ÃŸe der Heizungsanlage und das gewÃ¤hlte Modell der neuen Gastherme. Unser Installateur Wien analysiert alle GasgerÃ¤te, SanitÃ¤r AnschlÃ¼sse und bestehenden Installationen genau, um Ihnen ein transparentes Angebot mit fairen Preisen zu erstellen. Ein professioneller Thermentausch Wien reduziert langfristig Kosten, verbessert die Energieeffizienz und wird hÃ¤ufig durch eine mÃ¶gliche FÃ¶rderung unterstÃ¼tzt. So lohnt sich die Investition in moderne Heizungstechnik und nachhaltige Haustechnik besonders.</p>
+          <p><strong>Was die Kosten beeinflusst:</strong> Auswahl der Gastherme, Aufwand der Montage, Zustand der bestehenden Heizung sowie mÃ¶gliche zusÃ¤tzliche Sanierung oder Erneuerung der Installationen.</p>
+          <p><strong>FÃ¶rderung und Einsparung:</strong> Ein Thermentausch Wien kann durch eine FÃ¶rderung unterstÃ¼tzt werden, wodurch sich die Kosten reduzieren und gleichzeitig Energie eingespart wird. Das macht Ihre Heizungsanlage effizienter und leistet einen positiven Beitrag zur Umwelt.</p>
         </div></div>
       </div>
     </div>
   </section>
 
-  <!-- Region / Thermentausch für Wohnung und Haus -->
+  <!-- Region / Thermentausch fÃ¼r Wohnung und Haus -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Thermentausch für Wohnung und Haus</h2>
-          <p>Ein Thermentausch 1140 Wien ist sowohl für eine Wohnung als auch für ein Haus in Wien 1140 Penzing sinnvoll, wenn bestehende Thermen nicht mehr effizient arbeiten oder häufige Wartung benötigen. Unser Installateur Wien überprüft alle Gasgeräte, die Heizungsanlage sowie sämtliche Sanitär Installationen und empfiehlt anschließend eine passende Gastherme, die optimal zu Ihrem Bedarf passt. So erhalten Sie eine zuverlässige Heizung, konstantes Warmwasser und eine sichere Nutzung von Gas – besonders in älteren Gebäuden entlang der Linzer Straße oder der Hütteldorfer Straße eine wichtige Sanierung und Erneuerung. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
+          <h2>Thermentausch fÃ¼r Wohnung und Haus</h2>
+          <p>Ein Thermentausch 1140 Wien ist sowohl fÃ¼r eine Wohnung als auch fÃ¼r ein Haus in Wien 1140 Penzing sinnvoll, wenn bestehende Thermen nicht mehr effizient arbeiten oder hÃ¤ufige Wartung benÃ¶tigen. Unser Installateur Wien Ã¼berprÃ¼ft alle GasgerÃ¤te, die Heizungsanlage sowie sÃ¤mtliche SanitÃ¤r Installationen und empfiehlt anschlieÃŸend eine passende Gastherme, die optimal zu Ihrem Bedarf passt. So erhalten Sie eine zuverlÃ¤ssige Heizung, konstantes Warmwasser und eine sichere Nutzung von Gas â€“ besonders in Ã¤lteren GebÃ¤uden entlang der Linzer StraÃŸe oder der HÃ¼tteldorfer StraÃŸe eine wichtige Sanierung und Erneuerung. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien 1140" loading="lazy" decoding="async">
@@ -329,12 +329,12 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- Thermen Marken (für Thermentausch) -->
+  <!-- Thermen Marken (fÃ¼r Thermentausch) -->
   <section class="service-section service-section--soft" id="thermen-services">
     <div class="container">
       <div class="service-section__head">
-        <h2>Thermentausch für alle Marken</h2>
-        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi – wir tauschen und installieren Thermen aller gängigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
+        <h2>Thermentausch fÃ¼r alle Marken</h2>
+        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi â€“ wir tauschen und installieren Thermen aller gÃ¤ngigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
       </div>
 
       <div class="brand-grid">
@@ -383,8 +383,8 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
 
         <!-- 8 -->
           <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.webp" alt="Löblich Thermentausch">
-    <span>LÖBLICH THERMENTAUSCH</span>
+    <img src="img/1loblich.webp" alt="LÃ¶blich Thermentausch">
+    <span>LÃ–BLICH THERMENTAUSCH</span>
   </a>
 
         <!-- 9 -->
@@ -414,50 +414,50 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- FAQ – Thermentausch 1140 Wien -->
+  <!-- FAQ â€“ Thermentausch 1140 Wien -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>Häufige Fragen zum Thermentausch 1140 Wien</h2><p>Antworten auf die wichtigsten Fragen – kurz und verständlich.</p></div>
+      <div class="service-section__head"><h2>HÃ¤ufige Fragen zum Thermentausch 1140 Wien</h2><p>Antworten auf die wichtigsten Fragen â€“ kurz und verstÃ¤ndlich.</p></div>
       <div class="service-faq">
         <details>
           <summary>1. Wie lange dauert ein Thermentausch in 1140 Wien?</summary>
-          <p>Ein Thermentausch 1140 Wien dauert meist nur wenige Stunden, da unser Installateur Wien die alte Therme entfernt, die neue Thermenmontage durchführt und alle Installationen sowie die Heizung überprüft.</p>
+          <p>Ein Thermentausch 1140 Wien dauert meist nur wenige Stunden, da unser Installateur Wien die alte Therme entfernt, die neue Thermenmontage durchfÃ¼hrt und alle Installationen sowie die Heizung Ã¼berprÃ¼ft.</p>
         </details>
         <details>
           <summary>2. Wann sollte man eine Gastherme erneuern?</summary>
-          <p>Eine Gastherme sollte erneuert werden, wenn sie alt ist oder häufige Reparaturen benötigt, da ein moderner Thermentausch Wien die Energieeffizienz verbessert und langfristig Kosten reduziert.</p>
+          <p>Eine Gastherme sollte erneuert werden, wenn sie alt ist oder hÃ¤ufige Reparaturen benÃ¶tigt, da ein moderner Thermentausch Wien die Energieeffizienz verbessert und langfristig Kosten reduziert.</p>
         </details>
         <details>
           <summary>3. Was kostet ein Thermentausch in Wien 1140?</summary>
-          <p>Die Kosten hängen vom Modell der neuen Therme, dem Aufwand der Installation und dem Zustand der Heizungsanlage ab. Ein Kostenvoranschlag bietet eine klare Übersicht der Preise.</p>
+          <p>Die Kosten hÃ¤ngen vom Modell der neuen Therme, dem Aufwand der Installation und dem Zustand der Heizungsanlage ab. Ein Kostenvoranschlag bietet eine klare Ãœbersicht der Preise.</p>
         </details>
         <details>
-          <summary>4. Gibt es Förderungen für den Thermentausch?</summary>
-          <p>Ja, oft gibt es eine Förderung für moderne Heizungstechnik, wodurch die Kosten gesenkt und gleichzeitig Energie eingespart werden kann.</p>
+          <summary>4. Gibt es FÃ¶rderungen fÃ¼r den Thermentausch?</summary>
+          <p>Ja, oft gibt es eine FÃ¶rderung fÃ¼r moderne Heizungstechnik, wodurch die Kosten gesenkt und gleichzeitig Energie eingespart werden kann.</p>
         </details>
         <details>
           <summary>5. Bieten Sie auch Notdienst in Penzing an?</summary>
-          <p>Ja, unser Installateur 1140 Wien bietet schnellen Notdienst bei Problemen mit Therme, Gasgerät, Heizung oder Warmwasser in Wien 1140 und der gesamten Umgebung.</p>
+          <p>Ja, unser Installateur 1140 Wien bietet schnellen Notdienst bei Problemen mit Therme, GasgerÃ¤t, Heizung oder Warmwasser in Wien 1140 und der gesamten Umgebung.</p>
         </details>
         <details>
-          <summary>6. Kann der Thermentausch auch in einer Wohnung durchgeführt werden?</summary>
-          <p>Ja, ein Thermentausch 1140 ist sowohl in einer Wohnung als auch in einem Haus möglich. Unser Fachmann prüft alle Installationen vor Ort und empfiehlt eine passende Lösung.</p>
+          <summary>6. Kann der Thermentausch auch in einer Wohnung durchgefÃ¼hrt werden?</summary>
+          <p>Ja, ein Thermentausch 1140 ist sowohl in einer Wohnung als auch in einem Haus mÃ¶glich. Unser Fachmann prÃ¼ft alle Installationen vor Ort und empfiehlt eine passende LÃ¶sung.</p>
         </details>
         <details>
           <summary>7. Muss ich bei einem Thermentausch etwas beachten?</summary>
-          <p>Am besten halten Sie die Gerätedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kümmern uns um den Rest – von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
+          <p>Am besten halten Sie die GerÃ¤tedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kÃ¼mmern uns um den Rest â€“ von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
         </details>
         <details>
           <summary>8. Welche Thermenmarken tauschen Sie aus?</summary>
-          <p>Wir tauschen alle gängigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine Lösung.</p>
+          <p>Wir tauschen alle gÃ¤ngigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine LÃ¶sung.</p>
         </details>
         <details>
           <summary>9. Wie finde ich die richtige neue Therme?</summary>
-          <p>Wir beraten Sie umfassend und wählen gemeinsam mit Ihnen das passende Gerät aus – abgestimmt auf Ihre Wohnungsgröße, Ihren Warmwasserbedarf und Ihr Budget.</p>
+          <p>Wir beraten Sie umfassend und wÃ¤hlen gemeinsam mit Ihnen das passende GerÃ¤t aus â€“ abgestimmt auf Ihre WohnungsgrÃ¶ÃŸe, Ihren Warmwasserbedarf und Ihr Budget.</p>
         </details>
         <details>
           <summary>10. Bieten Sie auch die Entsorgung der alten Therme an?</summary>
-          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverständlich im Service enthalten. Sie müssen sich um nichts kümmern.</p>
+          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverstÃ¤ndlich im Service enthalten. Sie mÃ¼ssen sich um nichts kÃ¼mmern.</p>
         </details>
       </div>
     </div>
@@ -468,11 +468,11 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
     <div class="container">
       <div class="service-cta__inner">
         <div>
-          <h2>Jetzt Kontakt aufnehmen – für Thermentausch in 1140 Wien</h2>
-          <p>Wenn Sie einen Thermentausch 1140 Wien planen oder Ihre Gastherme erneuern möchten, ist unser Installateur Wien Ihr zuverlässiger Partner für professionelle Installation, sichere Montage und moderne Heizungstechnik in Wien 1140 Penzing. Wir bieten umfassende Beratung, transparente Angebote und schnellen Service für Thermentausch, Wartung, Reparatur oder Notdienst, damit Ihre Heizung effizient und zuverlässig funktioniert.</p>
-          <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+          <h2>Jetzt Kontakt aufnehmen â€“ fÃ¼r Thermentausch in 1140 Wien</h2>
+          <p>Wenn Sie einen Thermentausch 1140 Wien planen oder Ihre Gastherme erneuern mÃ¶chten, ist unser Installateur Wien Ihr zuverlÃ¤ssiger Partner fÃ¼r professionelle Installation, sichere Montage und moderne Heizungstechnik in Wien 1140 Penzing. Wir bieten umfassende Beratung, transparente Angebote und schnellen Service fÃ¼r Thermentausch, Wartung, Reparatur oder Notdienst, damit Ihre Heizung effizient und zuverlÃ¤ssig funktioniert.</p>
+          <p style="margin-top:10px"><strong><i class="bi bi-telephone-fill"></i></strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mÃ¶glich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -487,7 +487,7 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) – bleibt unverändert -->
+  <!-- Bezirke (bottom links) â€“ bleibt unverÃ¤ndert -->
 
 </main>
 
@@ -495,6 +495,8 @@ $metaDescription = "Professioneller Thermentausch 1140 Wien vom Installateur Wie
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
 
 
 

@@ -1,10 +1,10 @@
-@extends('layout.app')
+ï»¿@extends('layout.app')
 
 @section('main')
 
 @php
-$metaTitle = "Thermentausch 1030 Wien – Installateur Wien für Gastherme Austausch & Thermenwechsel Landstraße";
-$metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tauschen, Thermenwechsel, Installation, Wartung und Notdienst in Wien 1030 Landstraße.";
+$metaTitle = "Thermentausch 1030 Wien â€“ Installateur Wien fÃ¼r Gastherme Austausch & Thermenwechsel LandstraÃŸe";
+$metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tauschen, Thermenwechsel, Installation, Wartung und Notdienst in Wien 1030 LandstraÃŸe.";
 @endphp
 
 @push('meta')
@@ -30,7 +30,7 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu für Thermen Marken) === */
+    /* === BRAND GRID (neu fÃ¼r Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -87,10 +87,10 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
     <div class="wolf-hero__inner container">
       <h1>
         Thermentausch 1030 Wien <br>
-        <span style="color:#FB9A1B;">Rundum-Service für Ihre neue Gastherme</span>
+        <span style="color:#FB9A1B;">Rundum-Service fÃ¼r Ihre neue Gastherme</span>
       </h1>
 
-      <p class="wolf-hero__sub">Ein professioneller Thermentausch 1030 Wien sorgt für sichere Heizung, effizientes Warmwasser und moderne Energieeffizienz in Ihrer Wohnung oder Ihrem Haus in Wien 1030. Ob Austausch einer alten Gastherme oder komplette Neuinstallation – wir sind Ihr erfahrener Installateur in der Landstraße.</p>
+      <p class="wolf-hero__sub">Ein professioneller Thermentausch 1030 Wien sorgt fÃ¼r sichere Heizung, effizientes Warmwasser und moderne Energieeffizienz in Ihrer Wohnung oder Ihrem Haus in Wien 1030. Ob Austausch einer alten Gastherme oder komplette Neuinstallation â€“ wir sind Ihr erfahrener Installateur in der LandstraÃŸe.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -153,7 +153,7 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
         </div>
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre Lösung</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre LÃ¶sung</span></a></li>
             <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Warum wir</span></a></li>
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Unser Service</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Ablauf</span></a></li>
@@ -170,13 +170,13 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
     </div>
   </section>
 
-  <!-- Vorteile / Ihre Lösung -->
+  <!-- Vorteile / Ihre LÃ¶sung -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Ihre Lösung für Thermentausch in Wien 1030</h2>
-          <p>Ein professioneller Thermentausch 1030 Wien ist besonders in älteren Gebäuden in Wien 1030 und der Landstraße oft notwendig. Viele bestehende Thermen oder alte Gasthermen arbeiten ineffizient und verursachen steigende Kosten sowie häufige Reparatur- und Wartungsarbeiten. Ein moderner Thermentausch Wien sorgt für eine stabile Heizung, zuverlässiges Warmwasser und bessere Energieeffizienz. Unser erfahrener Installateur Wien übernimmt den gesamten Austausch, die sichere Thermeninstallation und professionelle Montage Ihrer neuen Therme. Als zuverlässiger Installateur 1030 Wien prüfen wir alle Gasgeräte, Leitungen für Gas und Wasser sowie die gesamte Heizungsanlage. So erhalten Kunden in 1030 Wien eine nachhaltige Lösung für moderne Heizungstechnik, sichere Installationen und langfristig geringere Kosten. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1020-wien') }}">weiterführenden Informationen</a>.</p>
+          <h2>Ihre LÃ¶sung fÃ¼r Thermentausch in Wien 1030</h2>
+          <p>Ein professioneller Thermentausch 1030 Wien ist besonders in Ã¤lteren GebÃ¤uden in Wien 1030 und der LandstraÃŸe oft notwendig. Viele bestehende Thermen oder alte Gasthermen arbeiten ineffizient und verursachen steigende Kosten sowie hÃ¤ufige Reparatur- und Wartungsarbeiten. Ein moderner Thermentausch Wien sorgt fÃ¼r eine stabile Heizung, zuverlÃ¤ssiges Warmwasser und bessere Energieeffizienz. Unser erfahrener Installateur Wien Ã¼bernimmt den gesamten Austausch, die sichere Thermeninstallation und professionelle Montage Ihrer neuen Therme. Als zuverlÃ¤ssiger Installateur 1030 Wien prÃ¼fen wir alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die gesamte Heizungsanlage. So erhalten Kunden in 1030 Wien eine nachhaltige LÃ¶sung fÃ¼r moderne Heizungstechnik, sichere Installationen und langfristig geringere Kosten. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1020-wien') }}">weiterfÃ¼hrenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.webp" alt="Thermentausch 1030 Wien" loading="lazy" decoding="async">
@@ -184,33 +184,33 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
       </div>
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt für eine präzise Installation Ihrer neuen Gastherme – schnell, sauber und nach allen Sicherheitsstandards.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt fÃ¼r eine prÃ¤zise Installation Ihrer neuen Gastherme â€“ schnell, sauber und nach allen Sicherheitsstandards.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Schnell vor Ort in 1030</h3><p>Als Installateur in der Landstraße sind wir in wenigen Minuten bei Ihnen – für Termine und Notfälle gleichermaßen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>Schnell vor Ort in 1030</h3><p>Als Installateur in der LandstraÃŸe sind wir in wenigen Minuten bei Ihnen â€“ fÃ¼r Termine und NotfÃ¤lle gleichermaÃŸen.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag – keine versteckten Preise, faire Abrechnung.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-cash-coin"></i></div><div>
+          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag â€“ keine versteckten Preise, faire Abrechnung.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
-          <h3>Förderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und können oft gefördert werden. Wir beraten Sie zu möglichen Zuschüssen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>FÃ¶rderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und kÃ¶nnen oft gefÃ¶rdert werden. Wir beraten Sie zu mÃ¶glichen ZuschÃ¼ssen.</p>
         </div></article>
       </div>
     </div>
   </section>
 
-  <!-- Team / Warum Kunden sich für uns entscheiden -->
+  <!-- Team / Warum Kunden sich fÃ¼r uns entscheiden -->
   <section class="service-section" id="team-services">
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Warum sich Kunden in Wien 1030 für uns entscheiden</h2>
-          <p>Beim Thermentausch 1030 Wien ist es wichtig, einen erfahrenen Installateur Wien zu wählen, der die Anforderungen älterer Gebäude in Wien 1030 kennt. Unsere Firma ist ein zuverlässiger Fachbetrieb für Thermentausch Wien, Sanitär, Heizung und moderne Haustechnik. Wir begleiten jeden Kunden von der ersten Beratung bis zur fertigen Thermenmontage. Dabei achten wir auf hohe Qualität, sichere Gas-Anschlüsse und eine effiziente Heizungsanlage. Durch unsere langjährige Erfahrung als Heizungsinstallateur in der Landstraße können wir für jede Wohnung oder jedes Haus in 1030 Wien die passende Lösung anbieten.</p>
+          <h2>Warum sich Kunden in Wien 1030 fÃ¼r uns entscheiden</h2>
+          <p>Beim Thermentausch 1030 Wien ist es wichtig, einen erfahrenen Installateur Wien zu wÃ¤hlen, der die Anforderungen Ã¤lterer GebÃ¤ude in Wien 1030 kennt. Unsere Firma ist ein zuverlÃ¤ssiger Fachbetrieb fÃ¼r Thermentausch Wien, SanitÃ¤r, Heizung und moderne Haustechnik. Wir begleiten jeden Kunden von der ersten Beratung bis zur fertigen Thermenmontage. Dabei achten wir auf hohe QualitÃ¤t, sichere Gas-AnschlÃ¼sse und eine effiziente Heizungsanlage. Durch unsere langjÃ¤hrige Erfahrung als Heizungsinstallateur in der LandstraÃŸe kÃ¶nnen wir fÃ¼r jede Wohnung oder jedes Haus in 1030 Wien die passende LÃ¶sung anbieten.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen Altbau</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Montage</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparenz</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen Altbau</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere Montage</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparenz</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
@@ -220,17 +220,17 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
     </div>
   </section>
 
-  <!-- Leistungen / Unser Service für Wien 1030 -->
+  <!-- Leistungen / Unser Service fÃ¼r Wien 1030 -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unser Service für Wien 1030</h2><p>Wir bieten Ihnen rund um den Thermentausch alles aus einer Hand – von der Beratung bis zur fertigen Installation. Dazu gehören:</p></div>
+      <div class="service-section__head"><h2>Unser Service fÃ¼r Wien 1030</h2><p>Wir bieten Ihnen rund um den Thermentausch alles aus einer Hand â€“ von der Beratung bis zur fertigen Installation. Dazu gehÃ¶ren:</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Professioneller Thermentausch 1030 Wien</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes Gerät – fachgerecht und schnell.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller Anschlüsse für Gas, Wasser und Heizung – sicher und normgerecht.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Austausch alter Gasthermen</h3><p>Speziell für die Landstraße: Wir ersetzen veraltete Geräte durch zeitgemäße Heiztechnik.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">???</div><div><h3>Optimierung Heizung & Warmwasser</h3><p>Nach dem Einbau justieren wir Ihre Anlage für maximalen Komfort und niedrige Energiekosten.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär- & Haustechnik</h3><p>Wir kümmern uns auch um angrenzende Gewerke – damit alles perfekt zusammenspielt.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Schneller Notdienst & Service</h3><p>Bei Problemen sind wir sofort für Sie da – auch nach der Installation.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Professioneller Thermentausch 1030 Wien</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes GerÃ¤t â€“ fachgerecht und schnell.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller AnschlÃ¼sse fÃ¼r Gas, Wasser und Heizung â€“ sicher und normgerecht.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-fire"></i></div><div><h3>Austausch alter Gasthermen</h3><p>Speziell fÃ¼r die LandstraÃŸe: Wir ersetzen veraltete GerÃ¤te durch zeitgemÃ¤ÃŸe Heiztechnik.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-lightning-charge"></i></div><div><h3>Optimierung Heizung & Warmwasser</h3><p>Nach dem Einbau justieren wir Ihre Anlage fÃ¼r maximalen Komfort und niedrige Energiekosten.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>SanitÃ¤r- & Haustechnik</h3><p>Wir kÃ¼mmern uns auch um angrenzende Gewerke â€“ damit alles perfekt zusammenspielt.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-life-preserver"></i></div><div><h3>Schneller Notdienst & Service</h3><p>Bei Problemen sind wir sofort fÃ¼r Sie da â€“ auch nach der Installation.</p></div></article>
       </div>
     </div>
   </section>
@@ -241,14 +241,14 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ablauf beim Thermentausch in 1030 Wien</h2>
-          <p>Ein strukturierter Ablauf ist beim Thermentausch 1030 Wien entscheidend, damit Ihre neue Gastherme sicher installiert wird. Unser Installateur Wien beginnt mit einer persönlichen Beratung direkt vor Ort in 1030 Wien. Dabei prüfen wir bestehende Thermen, alle Gasgeräte, Leitungen für Gas und Wasser sowie die komplette Heizungsanlage. Danach erhalten Sie ein transparentes Angebot mit klaren Kosten und realistischen Preisen. Nach Ihrer Zustimmung übernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die komplette Thermeninstallation sowie die sichere Montage. Ein moderner Thermentausch Wien sorgt für bessere Energieeffizienz, stabile Heizung und langfristig geringere Kosten für Energie in Wien 1030.</p>
+          <p>Ein strukturierter Ablauf ist beim Thermentausch 1030 Wien entscheidend, damit Ihre neue Gastherme sicher installiert wird. Unser Installateur Wien beginnt mit einer persÃ¶nlichen Beratung direkt vor Ort in 1030 Wien. Dabei prÃ¼fen wir bestehende Thermen, alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die komplette Heizungsanlage. Danach erhalten Sie ein transparentes Angebot mit klaren Kosten und realistischen Preisen. Nach Ihrer Zustimmung Ã¼bernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die komplette Thermeninstallation sowie die sichere Montage. Ein moderner Thermentausch Wien sorgt fÃ¼r bessere Energieeffizienz, stabile Heizung und langfristig geringere Kosten fÃ¼r Energie in Wien 1030.</p>
           <ul class="service-checklist" style="margin-top:20px">
             <li>Besichtigung Ihrer Therme vor Ort in Wien 1030</li>
             <li>Fachliche Beratung zur passenden Gastherme</li>
             <li>Transparentes Angebot und Kostenvoranschlag</li>
             <li>Professionelle Thermenmontage und sichere Installation</li>
-            <li>Prüfung von Gas, Wasser und kompletter Heizungsanlage</li>
-            <li>Saubere Übergabe Ihrer neuen Therme</li>
+            <li>PrÃ¼fung von Gas, Wasser und kompletter Heizungsanlage</li>
+            <li>Saubere Ãœbergabe Ihrer neuen Therme</li>
           </ul>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
@@ -264,7 +264,7 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermenwartung, Reparatur & laufender Service</h2>
-          <p>Neben dem Thermentausch 1030 Wien ist eine regelmäßige Thermenwartung entscheidend für die Lebensdauer Ihrer Gastherme. Unser Installateur Wien bietet umfassenden Service, professionelle Wartung und schnelle Reparatur für Thermen in Wien 1030. Durch regelmäßige Wartung lassen sich frühzeitig mögliche Probleme erkennen und unnötige Kosten vermeiden. Eine optimal eingestellte Therme verbessert die Energieeffizienz Ihrer Heizung und sorgt für gleichmäßiges Warmwasser. Unser erfahrener Heizungsinstallateur überprüft alle wichtigen Komponenten wie Gasgeräte, Leitungen für Gas, Wasser, Sanitär-Anschlüsse sowie die gesamte Heizungsanlage. So bleibt Ihre Heizung auch in älteren Gebäuden der Landstraße zuverlässig und sicher.</p>
+          <p>Neben dem Thermentausch 1030 Wien ist eine regelmÃ¤ÃŸige Thermenwartung entscheidend fÃ¼r die Lebensdauer Ihrer Gastherme. Unser Installateur Wien bietet umfassenden Service, professionelle Wartung und schnelle Reparatur fÃ¼r Thermen in Wien 1030. Durch regelmÃ¤ÃŸige Wartung lassen sich frÃ¼hzeitig mÃ¶gliche Probleme erkennen und unnÃ¶tige Kosten vermeiden. Eine optimal eingestellte Therme verbessert die Energieeffizienz Ihrer Heizung und sorgt fÃ¼r gleichmÃ¤ÃŸiges Warmwasser. Unser erfahrener Heizungsinstallateur Ã¼berprÃ¼ft alle wichtigen Komponenten wie GasgerÃ¤te, Leitungen fÃ¼r Gas, Wasser, SanitÃ¤r-AnschlÃ¼sse sowie die gesamte Heizungsanlage. So bleibt Ihre Heizung auch in Ã¤lteren GebÃ¤uden der LandstraÃŸe zuverlÃ¤ssig und sicher.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size4.webp" alt="Thermenwartung 1030 Wien" loading="lazy" decoding="async">
@@ -278,21 +278,21 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Notdienst und schnelle Hilfe in Wien 1030</h2>
-        <p>Wenn Ihre Therme plötzlich ausfällt, ist schnelle Hilfe gefragt. Unser Installateur Wien bietet einen zuverlässigen Notdienst für Thermentausch 1030 Wien, dringende Reparatur und sofortige Installation in Wien 1030. Besonders bei einem Notfall mit Gastherme, Gasgerät oder kompletter Heizung reagieren wir schnell und sorgen für eine sichere Lösung. Unser Team ist regelmäßig im Einsatz in der Landstraße und in der gesamten Umgebung von Wien 1030. Wir analysieren jedes Problem, prüfen alle Gasgeräte, Leitungen für Gas und Wasser sowie die bestehende Heizungsanlage und führen bei Bedarf einen Thermenwechsel oder einen vollständigen Thermentausch Wien durch.</p>
+        <p>Wenn Ihre Therme plÃ¶tzlich ausfÃ¤llt, ist schnelle Hilfe gefragt. Unser Installateur Wien bietet einen zuverlÃ¤ssigen Notdienst fÃ¼r Thermentausch 1030 Wien, dringende Reparatur und sofortige Installation in Wien 1030. Besonders bei einem Notfall mit Gastherme, GasgerÃ¤t oder kompletter Heizung reagieren wir schnell und sorgen fÃ¼r eine sichere LÃ¶sung. Unser Team ist regelmÃ¤ÃŸig im Einsatz in der LandstraÃŸe und in der gesamten Umgebung von Wien 1030. Wir analysieren jedes Problem, prÃ¼fen alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die bestehende Heizungsanlage und fÃ¼hren bei Bedarf einen Thermenwechsel oder einen vollstÃ¤ndigen Thermentausch Wien durch.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdienst-Einsätze</h3>
+        <h3>Typische Notdienst-EinsÃ¤tze</h3>
         <ul class="service-checklist service-checklist--on-dark">
-          <li>Vollständiger Ausfall der Heizung</li>
+          <li>VollstÃ¤ndiger Ausfall der Heizung</li>
           <li>Kein Warmwasser</li>
           <li>Gasgeruch oder unsicherer Zustand der Therme</li>
           <li>Wasseraustritt an der Therme</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1030 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in 1030 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -305,22 +305,22 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
           <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Thermentausch 1030 Wien" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Kosten und Preise für den Thermentausch</h2>
-          <p>Die Kosten für einen Thermentausch 1030 Wien hängen von mehreren Faktoren ab, darunter die gewählte Gastherme, der Zustand der bestehenden Therme sowie der Aufwand der Installation. In Wien 1030 und der Landstraße unterscheiden sich die Anforderungen je nach Gebäude, besonders bei älteren Installationen. Unser Installateur Wien analysiert alle Gasgeräte, Leitungen für Gas und Wasser sowie die vorhandene Heizungsanlage. Danach erhalten Sie ein transparentes Angebot inklusive realistischer Preise und einem detaillierten Kostenvoranschlag. Ein moderner Thermentausch Wien reduziert langfristig Kosten und verbessert die Energieeffizienz Ihrer Heizung. Zusätzlich kann eine mögliche Förderung für die Erneuerung Ihrer Anlage genutzt werden, wodurch sich Ihre Investition schneller lohnt.</p>
-          <p><strong>Was die Kosten beeinflusst:</strong> Modell der Gastherme, Aufwand der Montage, Zustand der bestehenden Heizung und mögliche Sanierungsarbeiten.</p>
-          <p><strong>Förderung & Einsparung:</strong> Ein moderner Thermentausch Wien kann durch eine mögliche Förderung unterstützt werden und hilft dabei, langfristig Energie zu sparen sowie die Umwelt zu entlasten.</p>
+          <h2>Kosten und Preise fÃ¼r den Thermentausch</h2>
+          <p>Die Kosten fÃ¼r einen Thermentausch 1030 Wien hÃ¤ngen von mehreren Faktoren ab, darunter die gewÃ¤hlte Gastherme, der Zustand der bestehenden Therme sowie der Aufwand der Installation. In Wien 1030 und der LandstraÃŸe unterscheiden sich die Anforderungen je nach GebÃ¤ude, besonders bei Ã¤lteren Installationen. Unser Installateur Wien analysiert alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die vorhandene Heizungsanlage. Danach erhalten Sie ein transparentes Angebot inklusive realistischer Preise und einem detaillierten Kostenvoranschlag. Ein moderner Thermentausch Wien reduziert langfristig Kosten und verbessert die Energieeffizienz Ihrer Heizung. ZusÃ¤tzlich kann eine mÃ¶gliche FÃ¶rderung fÃ¼r die Erneuerung Ihrer Anlage genutzt werden, wodurch sich Ihre Investition schneller lohnt.</p>
+          <p><strong>Was die Kosten beeinflusst:</strong> Modell der Gastherme, Aufwand der Montage, Zustand der bestehenden Heizung und mÃ¶gliche Sanierungsarbeiten.</p>
+          <p><strong>FÃ¶rderung & Einsparung:</strong> Ein moderner Thermentausch Wien kann durch eine mÃ¶gliche FÃ¶rderung unterstÃ¼tzt werden und hilft dabei, langfristig Energie zu sparen sowie die Umwelt zu entlasten.</p>
         </div></div>
       </div>
     </div>
   </section>
 
-  <!-- Region / Thermentausch für Wohnung und Haus -->
+  <!-- Region / Thermentausch fÃ¼r Wohnung und Haus -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Thermentausch für Wohnung und Haus</h2>
-          <p>Ein Thermentausch 1030 Wien ist sowohl für eine Wohnung als auch für ein Haus in Wien 1030 sinnvoll, wenn bestehende Thermen ineffizient arbeiten. Unser Installateur Wien überprüft alle Gasgeräte, die vorhandene Installation sowie die gesamte Heizungsanlage. Danach empfehlen wir eine passende Gastherme, die optimal auf Ihre Bedürfnisse abgestimmt ist. Ein professioneller Thermentausch Wien sorgt für zuverlässige Heizung, konstantes Warmwasser und mehr Sicherheit im Umgang mit Gas. Gerade in der Landstraße, rund um den Rennweg und den Stadtpark, sind viele ältere Gebäude vorhanden, in denen ein Thermenwechsel eine sinnvolle Modernisierung und Sanierung darstellt. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
+          <h2>Thermentausch fÃ¼r Wohnung und Haus</h2>
+          <p>Ein Thermentausch 1030 Wien ist sowohl fÃ¼r eine Wohnung als auch fÃ¼r ein Haus in Wien 1030 sinnvoll, wenn bestehende Thermen ineffizient arbeiten. Unser Installateur Wien Ã¼berprÃ¼ft alle GasgerÃ¤te, die vorhandene Installation sowie die gesamte Heizungsanlage. Danach empfehlen wir eine passende Gastherme, die optimal auf Ihre BedÃ¼rfnisse abgestimmt ist. Ein professioneller Thermentausch Wien sorgt fÃ¼r zuverlÃ¤ssige Heizung, konstantes Warmwasser und mehr Sicherheit im Umgang mit Gas. Gerade in der LandstraÃŸe, rund um den Rennweg und den Stadtpark, sind viele Ã¤ltere GebÃ¤ude vorhanden, in denen ein Thermenwechsel eine sinnvolle Modernisierung und Sanierung darstellt. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien 1030" loading="lazy" decoding="async">
@@ -329,12 +329,12 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
     </div>
   </section>
 
-  <!-- Thermen Marken (für Thermentausch) -->
+  <!-- Thermen Marken (fÃ¼r Thermentausch) -->
   <section class="service-section service-section--soft" id="thermen-services">
     <div class="container">
       <div class="service-section__head">
-        <h2>Thermentausch für alle Marken</h2>
-        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi – wir tauschen und installieren Thermen aller gängigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
+        <h2>Thermentausch fÃ¼r alle Marken</h2>
+        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi â€“ wir tauschen und installieren Thermen aller gÃ¤ngigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
       </div>
 
       <div class="brand-grid">
@@ -383,8 +383,8 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
 
         <!-- 8 -->
           <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.webp" alt="Löblich Thermentausch">
-    <span>LÖBLICH THERMENTAUSCH</span>
+    <img src="img/1loblich.webp" alt="LÃ¶blich Thermentausch">
+    <span>LÃ–BLICH THERMENTAUSCH</span>
   </a>
 
         <!-- 9 -->
@@ -414,50 +414,50 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
     </div>
   </section>
 
-  <!-- FAQ – Thermentausch 1030 Wien -->
+  <!-- FAQ â€“ Thermentausch 1030 Wien -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>Häufige Fragen zum Thermentausch 1030 Wien</h2><p>Antworten auf die wichtigsten Fragen – kurz und verständlich.</p></div>
+      <div class="service-section__head"><h2>HÃ¤ufige Fragen zum Thermentausch 1030 Wien</h2><p>Antworten auf die wichtigsten Fragen â€“ kurz und verstÃ¤ndlich.</p></div>
       <div class="service-faq">
         <details>
           <summary>1. Wie lange dauert ein Thermentausch in Wien 1030?</summary>
-          <p>Ein Thermentausch 1030 Wien dauert meist nur wenige Stunden. Unser Installateur Wien entfernt die alte Therme, führt die neue Thermenmontage durch und prüft alle Gasgeräte, Installationen und die komplette Heizung.</p>
+          <p>Ein Thermentausch 1030 Wien dauert meist nur wenige Stunden. Unser Installateur Wien entfernt die alte Therme, fÃ¼hrt die neue Thermenmontage durch und prÃ¼ft alle GasgerÃ¤te, Installationen und die komplette Heizung.</p>
         </details>
         <details>
           <summary>2. Wann sollte eine Gastherme getauscht werden?</summary>
-          <p>Wenn Ihre Gastherme älter als 15–20 Jahre ist oder häufige Reparaturen benötigt, empfiehlt sich ein Thermenwechsel. Ein neuer Thermentausch Wien verbessert die Heizung und spart langfristig Energie.</p>
+          <p>Wenn Ihre Gastherme Ã¤lter als 15â€“20 Jahre ist oder hÃ¤ufige Reparaturen benÃ¶tigt, empfiehlt sich ein Thermenwechsel. Ein neuer Thermentausch Wien verbessert die Heizung und spart langfristig Energie.</p>
         </details>
         <details>
           <summary>3. Was kostet ein Thermentausch in Wien 1030?</summary>
-          <p>Die Kosten hängen von der neuen Therme, vom Aufwand der Installation und vom Zustand der bestehenden Heizungsanlage ab. Ein Kostenvoranschlag gibt eine klare Übersicht über alle Preise.</p>
+          <p>Die Kosten hÃ¤ngen von der neuen Therme, vom Aufwand der Installation und vom Zustand der bestehenden Heizungsanlage ab. Ein Kostenvoranschlag gibt eine klare Ãœbersicht Ã¼ber alle Preise.</p>
         </details>
         <details>
-          <summary>4. Gibt es Förderungen für einen Thermentausch?</summary>
-          <p>In vielen Fällen gibt es eine Förderung für moderne Heizungstechnik oder eine energetische Sanierung, wodurch die Kosten für einen Thermentausch Wien reduziert werden können.</p>
+          <summary>4. Gibt es FÃ¶rderungen fÃ¼r einen Thermentausch?</summary>
+          <p>In vielen FÃ¤llen gibt es eine FÃ¶rderung fÃ¼r moderne Heizungstechnik oder eine energetische Sanierung, wodurch die Kosten fÃ¼r einen Thermentausch Wien reduziert werden kÃ¶nnen.</p>
         </details>
         <details>
-          <summary>5. Bieten Sie Notdienst in der Landstraße an?</summary>
-          <p>Ja, unser Installateur 1030 Wien bietet Notdienst bei Problemen mit Therme, Gasgerät, Heizung oder Warmwasser in Wien 1030 und der gesamten Landstraße.</p>
+          <summary>5. Bieten Sie Notdienst in der LandstraÃŸe an?</summary>
+          <p>Ja, unser Installateur 1030 Wien bietet Notdienst bei Problemen mit Therme, GasgerÃ¤t, Heizung oder Warmwasser in Wien 1030 und der gesamten LandstraÃŸe.</p>
         </details>
         <details>
           <summary>6. Kann ein Thermentausch auch in einer Wohnung erfolgen?</summary>
-          <p>Ja, ein Thermentausch 1030 ist problemlos in jeder Wohnung oder in einem Haus möglich. Unser Installateur Wien prüft alle Installationen und empfiehlt die passende Gastherme.</p>
+          <p>Ja, ein Thermentausch 1030 ist problemlos in jeder Wohnung oder in einem Haus mÃ¶glich. Unser Installateur Wien prÃ¼ft alle Installationen und empfiehlt die passende Gastherme.</p>
         </details>
         <details>
           <summary>7. Muss ich bei einem Thermentausch etwas beachten?</summary>
-          <p>Am besten halten Sie die Gerätedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kümmern uns um den Rest – von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
+          <p>Am besten halten Sie die GerÃ¤tedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kÃ¼mmern uns um den Rest â€“ von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
         </details>
         <details>
           <summary>8. Welche Thermenmarken tauschen Sie aus?</summary>
-          <p>Wir tauschen alle gängigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine Lösung.</p>
+          <p>Wir tauschen alle gÃ¤ngigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine LÃ¶sung.</p>
         </details>
         <details>
           <summary>9. Wie finde ich die richtige neue Therme?</summary>
-          <p>Wir beraten Sie umfassend und wählen gemeinsam mit Ihnen das passende Gerät aus – abgestimmt auf Ihre Wohnungsgröße, Ihren Warmwasserbedarf und Ihr Budget.</p>
+          <p>Wir beraten Sie umfassend und wÃ¤hlen gemeinsam mit Ihnen das passende GerÃ¤t aus â€“ abgestimmt auf Ihre WohnungsgrÃ¶ÃŸe, Ihren Warmwasserbedarf und Ihr Budget.</p>
         </details>
         <details>
           <summary>10. Bieten Sie auch die Entsorgung der alten Therme an?</summary>
-          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverständlich im Service enthalten. Sie müssen sich um nichts kümmern.</p>
+          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverstÃ¤ndlich im Service enthalten. Sie mÃ¼ssen sich um nichts kÃ¼mmern.</p>
         </details>
       </div>
     </div>
@@ -468,11 +468,11 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
     <div class="container">
       <div class="service-cta__inner">
         <div>
-          <h2>Jetzt Kontakt aufnehmen – für Thermentausch in 1030 Wien</h2>
-          <p>Wenn Sie einen professionellen Thermentausch 1030 Wien planen oder Ihre alte Therme durch eine moderne Gastherme ersetzen möchten, ist unser Installateur Wien Ihr zuverlässiger Ansprechpartner. Wir bieten persönliche Beratung, prüfen Ihre bestehende Heizung und erstellen ein transparentes Angebot. Unser erfahrenes Team sorgt für sichere Installation, fachgerechte Thermenmontage und moderne Heizungstechnik in Ihrer Wohnung oder Ihrem Haus in Wien 1030 und der gesamten Landstraße. Egal ob Thermentausch Wien, Wartung, Reparatur oder Notdienst – wir stehen Ihnen schnell und zuverlässig zur Verfügung.</p>
-          <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+          <h2>Jetzt Kontakt aufnehmen â€“ fÃ¼r Thermentausch in 1030 Wien</h2>
+          <p>Wenn Sie einen professionellen Thermentausch 1030 Wien planen oder Ihre alte Therme durch eine moderne Gastherme ersetzen mÃ¶chten, ist unser Installateur Wien Ihr zuverlÃ¤ssiger Ansprechpartner. Wir bieten persÃ¶nliche Beratung, prÃ¼fen Ihre bestehende Heizung und erstellen ein transparentes Angebot. Unser erfahrenes Team sorgt fÃ¼r sichere Installation, fachgerechte Thermenmontage und moderne Heizungstechnik in Ihrer Wohnung oder Ihrem Haus in Wien 1030 und der gesamten LandstraÃŸe. Egal ob Thermentausch Wien, Wartung, Reparatur oder Notdienst â€“ wir stehen Ihnen schnell und zuverlÃ¤ssig zur VerfÃ¼gung.</p>
+          <p style="margin-top:10px"><strong><i class="bi bi-telephone-fill"></i></strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mÃ¶glich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -487,7 +487,7 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) – bleibt unverändert -->
+  <!-- Bezirke (bottom links) â€“ bleibt unverÃ¤ndert -->
 
 </main>
 
@@ -495,6 +495,8 @@ $metaDescription = "Thermentausch 1030 Wien vom Installateur Wien. Gastherme tau
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
 
 
 

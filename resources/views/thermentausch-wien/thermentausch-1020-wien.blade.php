@@ -1,9 +1,9 @@
-@extends('layout.app')
+ï»¿@extends('layout.app')
 
 @section('main')
 
 @php
-$metaTitle = "Thermentausch 1020 Wien – Installateur Wien für Gastherme Austausch & Thermenwechsel Leopoldstadt";
+$metaTitle = "Thermentausch 1020 Wien â€“ Installateur Wien fÃ¼r Gastherme Austausch & Thermenwechsel Leopoldstadt";
 $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tauschen, Thermenwechsel, Installation, Wartung und Notdienst in Wien 1020 Leopoldstadt.";
 @endphp
 
@@ -30,7 +30,7 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu für Thermen Marken) === */
+    /* === BRAND GRID (neu fÃ¼r Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -87,10 +87,10 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
     <div class="wolf-hero__inner container">
       <h1>
         Thermentausch 1020 Wien <br>
-        <span style="color:#FB9A1B;">Rundum-Service für Ihre neue Gastherme</span>
+        <span style="color:#FB9A1B;">Rundum-Service fÃ¼r Ihre neue Gastherme</span>
       </h1>
 
-      <p class="wolf-hero__sub">Ein professioneller Thermentausch 1020 Wien sorgt für sichere Heizung, zuverlässiges Warmwasser und moderne Energieeffizienz in Ihrer Wohnung oder Ihrem Haus in Wien 1020. Ob Austausch einer alten Gastherme oder komplette Neuinstallation – wir sind Ihr erfahrener Installateur in der Leopoldstadt.</p>
+      <p class="wolf-hero__sub">Ein professioneller Thermentausch 1020 Wien sorgt fÃ¼r sichere Heizung, zuverlÃ¤ssiges Warmwasser und moderne Energieeffizienz in Ihrer Wohnung oder Ihrem Haus in Wien 1020. Ob Austausch einer alten Gastherme oder komplette Neuinstallation â€“ wir sind Ihr erfahrener Installateur in der Leopoldstadt.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -153,7 +153,7 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
         </div>
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre Lösung</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre LÃ¶sung</span></a></li>
             <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Warum wir</span></a></li>
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Unser Service</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Ablauf</span></a></li>
@@ -170,13 +170,13 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
     </div>
   </section>
 
-  <!-- Vorteile / Ihre Lösung -->
+  <!-- Vorteile / Ihre LÃ¶sung -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Ihre Lösung für Thermentausch in Wien 1020</h2>
-          <p>Ein professioneller Thermentausch 1020 Wien ist besonders in älteren Gebäuden in Wien 1020 und der Leopoldstadt oft notwendig. Viele Thermen und ältere Gasthermen arbeiten nicht mehr effizient oder verursachen häufige Reparatur- und Wartungskosten. Ein moderner Thermentausch Wien sorgt für eine zuverlässige Heizung, stabile Versorgung mit Warmwasser und bessere Energieeffizienz. Unser erfahrener Installateur Wien übernimmt den gesamten Austausch, die fachgerechte Thermeninstallation und sichere Montage Ihrer neuen Therme. Als Installateur 1020 Wien prüfen wir auch vorhandene Gasgeräte, Leitungen für Gas und Wasser sowie die komplette Heizungsanlage. So erhalten Kunden in 1020 Wien eine nachhaltige Lösung für moderne Heizungstechnik, sichere Installationen und langfristig niedrigere Kosten für Energie. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1010-wien') }}">weiterführenden Informationen</a>.</p>
+          <h2>Ihre LÃ¶sung fÃ¼r Thermentausch in Wien 1020</h2>
+          <p>Ein professioneller Thermentausch 1020 Wien ist besonders in Ã¤lteren GebÃ¤uden in Wien 1020 und der Leopoldstadt oft notwendig. Viele Thermen und Ã¤ltere Gasthermen arbeiten nicht mehr effizient oder verursachen hÃ¤ufige Reparatur- und Wartungskosten. Ein moderner Thermentausch Wien sorgt fÃ¼r eine zuverlÃ¤ssige Heizung, stabile Versorgung mit Warmwasser und bessere Energieeffizienz. Unser erfahrener Installateur Wien Ã¼bernimmt den gesamten Austausch, die fachgerechte Thermeninstallation und sichere Montage Ihrer neuen Therme. Als Installateur 1020 Wien prÃ¼fen wir auch vorhandene GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die komplette Heizungsanlage. So erhalten Kunden in 1020 Wien eine nachhaltige LÃ¶sung fÃ¼r moderne Heizungstechnik, sichere Installationen und langfristig niedrigere Kosten fÃ¼r Energie. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1010-wien') }}">weiterfÃ¼hrenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.webp" alt="Thermentausch 1020 Wien" loading="lazy" decoding="async">
@@ -184,33 +184,33 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
       </div>
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt für eine präzise Installation Ihrer neuen Gastherme – schnell, sauber und nach allen Sicherheitsstandards.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt fÃ¼r eine prÃ¤zise Installation Ihrer neuen Gastherme â€“ schnell, sauber und nach allen Sicherheitsstandards.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Schnell vor Ort in 1020</h3><p>Als Installateur in der Leopoldstadt sind wir in wenigen Minuten bei Ihnen – für Termine und Notfälle gleichermaßen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>Schnell vor Ort in 1020</h3><p>Als Installateur in der Leopoldstadt sind wir in wenigen Minuten bei Ihnen â€“ fÃ¼r Termine und NotfÃ¤lle gleichermaÃŸen.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag – keine versteckten Preise, faire Abrechnung.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-cash-coin"></i></div><div>
+          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag â€“ keine versteckten Preise, faire Abrechnung.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
-          <h3>Förderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und können oft gefördert werden. Wir beraten Sie zu möglichen Zuschüssen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>FÃ¶rderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und kÃ¶nnen oft gefÃ¶rdert werden. Wir beraten Sie zu mÃ¶glichen ZuschÃ¼ssen.</p>
         </div></article>
       </div>
     </div>
   </section>
 
-  <!-- Team / Warum Kunden sich für uns entscheiden -->
+  <!-- Team / Warum Kunden sich fÃ¼r uns entscheiden -->
   <section class="service-section" id="team-services">
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Warum sich Kunden in Wien 1020 für uns entscheiden</h2>
-          <p>Beim Thermentausch 1020 Wien ist es wichtig, einen erfahrenen Installateur Wien zu wählen, der die technischen Anforderungen älterer Gebäude in Wien 1020 kennt. Unsere Firma ist ein zuverlässiger Fachbetrieb für Thermentausch Wien, Sanitär, Heizung und moderne Haustechnik. Wir begleiten jeden Kunden von der ersten Beratung bis zur fertigen Thermenmontage. Dabei achten wir auf hohe Qualität, sichere Gas-Anschlüsse und eine effiziente Heizungsanlage. Durch unsere langjährige Erfahrung als Heizungsinstallateur in der Leopoldstadt können wir für jede Wohnung oder jedes Haus in 1020 Wien die passende Lösung anbieten.</p>
+          <h2>Warum sich Kunden in Wien 1020 fÃ¼r uns entscheiden</h2>
+          <p>Beim Thermentausch 1020 Wien ist es wichtig, einen erfahrenen Installateur Wien zu wÃ¤hlen, der die technischen Anforderungen Ã¤lterer GebÃ¤ude in Wien 1020 kennt. Unsere Firma ist ein zuverlÃ¤ssiger Fachbetrieb fÃ¼r Thermentausch Wien, SanitÃ¤r, Heizung und moderne Haustechnik. Wir begleiten jeden Kunden von der ersten Beratung bis zur fertigen Thermenmontage. Dabei achten wir auf hohe QualitÃ¤t, sichere Gas-AnschlÃ¼sse und eine effiziente Heizungsanlage. Durch unsere langjÃ¤hrige Erfahrung als Heizungsinstallateur in der Leopoldstadt kÃ¶nnen wir fÃ¼r jede Wohnung oder jedes Haus in 1020 Wien die passende LÃ¶sung anbieten.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen Altbau</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Montage</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparenz</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen Altbau</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere Montage</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparenz</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
@@ -220,17 +220,17 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
     </div>
   </section>
 
-  <!-- Leistungen / Unser Service für Wien 1020 -->
+  <!-- Leistungen / Unser Service fÃ¼r Wien 1020 -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unser Service für Wien 1020</h2><p>Wir bieten Ihnen rund um den Thermentausch alles aus einer Hand – von der Beratung bis zur fertigen Installation. Dazu gehören:</p></div>
+      <div class="service-section__head"><h2>Unser Service fÃ¼r Wien 1020</h2><p>Wir bieten Ihnen rund um den Thermentausch alles aus einer Hand â€“ von der Beratung bis zur fertigen Installation. Dazu gehÃ¶ren:</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Professioneller Thermentausch 1020 Wien</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes Gerät – fachgerecht und schnell.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller Anschlüsse für Gas, Wasser und Heizung – sicher und normgerecht.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Austausch alter Gasthermen</h3><p>Speziell für die Leopoldstadt: Wir ersetzen veraltete Geräte durch zeitgemäße Heiztechnik.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">???</div><div><h3>Optimierung Heizung & Warmwasser</h3><p>Nach dem Einbau justieren wir Ihre Anlage für maximalen Komfort und niedrige Energiekosten.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär- & Haustechnik</h3><p>Wir kümmern uns auch um angrenzende Gewerke – damit alles perfekt zusammenspielt.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Schneller Notdienst & Service</h3><p>Bei Problemen sind wir sofort für Sie da – auch nach der Installation.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Professioneller Thermentausch 1020 Wien</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes GerÃ¤t â€“ fachgerecht und schnell.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller AnschlÃ¼sse fÃ¼r Gas, Wasser und Heizung â€“ sicher und normgerecht.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-fire"></i></div><div><h3>Austausch alter Gasthermen</h3><p>Speziell fÃ¼r die Leopoldstadt: Wir ersetzen veraltete GerÃ¤te durch zeitgemÃ¤ÃŸe Heiztechnik.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-lightning-charge"></i></div><div><h3>Optimierung Heizung & Warmwasser</h3><p>Nach dem Einbau justieren wir Ihre Anlage fÃ¼r maximalen Komfort und niedrige Energiekosten.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>SanitÃ¤r- & Haustechnik</h3><p>Wir kÃ¼mmern uns auch um angrenzende Gewerke â€“ damit alles perfekt zusammenspielt.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-life-preserver"></i></div><div><h3>Schneller Notdienst & Service</h3><p>Bei Problemen sind wir sofort fÃ¼r Sie da â€“ auch nach der Installation.</p></div></article>
       </div>
     </div>
   </section>
@@ -241,14 +241,14 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ablauf beim Thermentausch in 1020 Wien</h2>
-          <p>Ein strukturierter Ablauf ist beim Thermentausch 1020 Wien wichtig, damit Ihre neue Gastherme sicher installiert wird. Unser Installateur Wien beginnt mit einer persönlichen Beratung direkt vor Ort in 1020 Wien. Dabei prüfen wir die vorhandenen Thermen, alle Gasgeräte, Leitungen für Gas und Wasser sowie die komplette Heizungsanlage. Anschließend erhalten Sie ein transparentes Angebot mit klaren Kosten und möglichen Preisen. Nach Ihrer Zustimmung übernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die komplette Thermeninstallation sowie die sichere Montage. Durch einen modernen Thermentausch Wien profitieren Kunden in Wien 1020 von höherer Energieeffizienz, besserer Heizung und langfristig niedrigeren Kosten.</p>
+          <p>Ein strukturierter Ablauf ist beim Thermentausch 1020 Wien wichtig, damit Ihre neue Gastherme sicher installiert wird. Unser Installateur Wien beginnt mit einer persÃ¶nlichen Beratung direkt vor Ort in 1020 Wien. Dabei prÃ¼fen wir die vorhandenen Thermen, alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die komplette Heizungsanlage. AnschlieÃŸend erhalten Sie ein transparentes Angebot mit klaren Kosten und mÃ¶glichen Preisen. Nach Ihrer Zustimmung Ã¼bernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die komplette Thermeninstallation sowie die sichere Montage. Durch einen modernen Thermentausch Wien profitieren Kunden in Wien 1020 von hÃ¶herer Energieeffizienz, besserer Heizung und langfristig niedrigeren Kosten.</p>
           <ul class="service-checklist" style="margin-top:20px">
             <li>Besichtigung Ihrer Therme vor Ort in Wien 1020</li>
             <li>Fachliche Beratung zur passenden Gastherme</li>
             <li>Transparentes Angebot und Kostenvoranschlag</li>
             <li>Professionelle Thermenmontage und sichere Installation</li>
-            <li>Prüfung von Gas, Wasser und kompletter Heizungsanlage</li>
-            <li>Saubere Übergabe Ihrer neuen Therme</li>
+            <li>PrÃ¼fung von Gas, Wasser und kompletter Heizungsanlage</li>
+            <li>Saubere Ãœbergabe Ihrer neuen Therme</li>
           </ul>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
@@ -264,7 +264,7 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermenwartung, Reparatur & laufender Service</h2>
-          <p>Neben dem Thermentausch 1020 Wien ist auch eine regelmäßige Thermenwartung wichtig, damit Ihre Gastherme zuverlässig arbeitet. Unser Installateur Wien bietet professionellen Service, regelmäßige Wartung und schnelle Reparatur für Thermen in Wien 1020. Durch eine regelmäßige Wartung lassen sich mögliche Probleme frühzeitig erkennen und unnötige Kosten vermeiden. Gleichzeitig verbessert eine gut eingestellte Therme die Energieeffizienz Ihrer Heizung und sorgt für konstantes Warmwasser. Unser erfahrener Heizungsinstallateur überprüft dabei alle wichtigen Komponenten wie Gasgeräte, Leitungen für Gas, Wasser, Sanitär-Anschlüsse sowie die gesamte Heizungsanlage. Dadurch bleibt Ihre Heizung auch in älteren Gebäuden der Leopoldstadt sicher und zuverlässig.</p>
+          <p>Neben dem Thermentausch 1020 Wien ist auch eine regelmÃ¤ÃŸige Thermenwartung wichtig, damit Ihre Gastherme zuverlÃ¤ssig arbeitet. Unser Installateur Wien bietet professionellen Service, regelmÃ¤ÃŸige Wartung und schnelle Reparatur fÃ¼r Thermen in Wien 1020. Durch eine regelmÃ¤ÃŸige Wartung lassen sich mÃ¶gliche Probleme frÃ¼hzeitig erkennen und unnÃ¶tige Kosten vermeiden. Gleichzeitig verbessert eine gut eingestellte Therme die Energieeffizienz Ihrer Heizung und sorgt fÃ¼r konstantes Warmwasser. Unser erfahrener Heizungsinstallateur Ã¼berprÃ¼ft dabei alle wichtigen Komponenten wie GasgerÃ¤te, Leitungen fÃ¼r Gas, Wasser, SanitÃ¤r-AnschlÃ¼sse sowie die gesamte Heizungsanlage. Dadurch bleibt Ihre Heizung auch in Ã¤lteren GebÃ¤uden der Leopoldstadt sicher und zuverlÃ¤ssig.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size4.webp" alt="Thermenwartung 1020 Wien" loading="lazy" decoding="async">
@@ -278,21 +278,21 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Notdienst und schnelle Hilfe in Wien 1020</h2>
-        <p>Wenn eine Therme plötzlich ausfällt, ist schnelle Hilfe wichtig. Unser Installateur Wien bietet einen zuverlässigen Notdienst für Thermentausch 1020 Wien, dringende Reparatur oder Installation in Wien 1020. Besonders bei einem Notfall mit Gastherme, Gasgerät oder Heizung reagieren wir schnell und sorgen für eine sichere Lösung. Unser Team ist regelmäßig im Einsatz in der Leopoldstadt, rund um den Prater, den Donaukanal und in der gesamten Umgebung von Wien 1020. Wir analysieren das Problem, prüfen Gasgeräte, Leitungen für Gas und Wasser sowie die komplette Heizungsanlage. Je nach Situation führen wir eine Reparatur, einen Thermenwechsel oder einen vollständigen Thermentausch Wien durch.</p>
+        <p>Wenn eine Therme plÃ¶tzlich ausfÃ¤llt, ist schnelle Hilfe wichtig. Unser Installateur Wien bietet einen zuverlÃ¤ssigen Notdienst fÃ¼r Thermentausch 1020 Wien, dringende Reparatur oder Installation in Wien 1020. Besonders bei einem Notfall mit Gastherme, GasgerÃ¤t oder Heizung reagieren wir schnell und sorgen fÃ¼r eine sichere LÃ¶sung. Unser Team ist regelmÃ¤ÃŸig im Einsatz in der Leopoldstadt, rund um den Prater, den Donaukanal und in der gesamten Umgebung von Wien 1020. Wir analysieren das Problem, prÃ¼fen GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die komplette Heizungsanlage. Je nach Situation fÃ¼hren wir eine Reparatur, einen Thermenwechsel oder einen vollstÃ¤ndigen Thermentausch Wien durch.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdienst-Einsätze</h3>
+        <h3>Typische Notdienst-EinsÃ¤tze</h3>
         <ul class="service-checklist service-checklist--on-dark">
-          <li>Vollständiger Ausfall der Heizung</li>
+          <li>VollstÃ¤ndiger Ausfall der Heizung</li>
           <li>Kein Warmwasser</li>
           <li>Gasgeruch oder unsicherer Zustand der Therme</li>
           <li>Wasseraustritt an der Therme</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1020 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in 1020 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -305,22 +305,22 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
           <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Thermentausch 1020 Wien" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Kosten und Preise für den Thermentausch</h2>
-          <p>Viele Kunden in Wien 1020 möchten vor einem Thermentausch 1020 Wien wissen, welche Kosten entstehen können. Die Preise hängen von mehreren Faktoren ab, zum Beispiel vom Zustand der bestehenden Therme, vom Modell der neuen Gastherme sowie vom Aufwand der Installation. Ein erfahrener Installateur Wien prüft vor Ort in 1020 Wien alle Gasgeräte, Leitungen für Gas und Wasser sowie die vorhandene Heizungsanlage. Anschließend erhalten Sie ein klares Angebot für den Austausch oder die komplette Erneuerung Ihrer alten Therme. In vielen Fällen kann auch eine Förderung für moderne Heizungstechnik beantragt werden. Dadurch lassen sich langfristig Kosten reduzieren und gleichzeitig Energie sparen. Ein moderner Thermentausch Wien verbessert nicht nur die Heizung, sondern trägt auch zur besseren Energieeffizienz und zur Schonung der Umwelt bei.</p>
-          <p><strong>Was die Kosten beeinflusst:</strong> Modell der neuen Gastherme, Aufwand der Installation, Zustand der bestehenden Heizung sowie mögliche Sanierungsarbeiten an den vorhandenen Installationen.</p>
-          <p><strong>Förderung & Einsparung:</strong> Bei einem Thermentausch Wien kann eine mögliche Förderung für moderne Heizungstechnik helfen, langfristig Energie zu sparen und gleichzeitig die Umwelt zu entlasten. Wir informieren Sie gern darüber.</p>
+          <h2>Kosten und Preise fÃ¼r den Thermentausch</h2>
+          <p>Viele Kunden in Wien 1020 mÃ¶chten vor einem Thermentausch 1020 Wien wissen, welche Kosten entstehen kÃ¶nnen. Die Preise hÃ¤ngen von mehreren Faktoren ab, zum Beispiel vom Zustand der bestehenden Therme, vom Modell der neuen Gastherme sowie vom Aufwand der Installation. Ein erfahrener Installateur Wien prÃ¼ft vor Ort in 1020 Wien alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die vorhandene Heizungsanlage. AnschlieÃŸend erhalten Sie ein klares Angebot fÃ¼r den Austausch oder die komplette Erneuerung Ihrer alten Therme. In vielen FÃ¤llen kann auch eine FÃ¶rderung fÃ¼r moderne Heizungstechnik beantragt werden. Dadurch lassen sich langfristig Kosten reduzieren und gleichzeitig Energie sparen. Ein moderner Thermentausch Wien verbessert nicht nur die Heizung, sondern trÃ¤gt auch zur besseren Energieeffizienz und zur Schonung der Umwelt bei.</p>
+          <p><strong>Was die Kosten beeinflusst:</strong> Modell der neuen Gastherme, Aufwand der Installation, Zustand der bestehenden Heizung sowie mÃ¶gliche Sanierungsarbeiten an den vorhandenen Installationen.</p>
+          <p><strong>FÃ¶rderung & Einsparung:</strong> Bei einem Thermentausch Wien kann eine mÃ¶gliche FÃ¶rderung fÃ¼r moderne Heizungstechnik helfen, langfristig Energie zu sparen und gleichzeitig die Umwelt zu entlasten. Wir informieren Sie gern darÃ¼ber.</p>
         </div></div>
       </div>
     </div>
   </section>
 
-  <!-- Region / Thermentausch für Wohnung und Haus -->
+  <!-- Region / Thermentausch fÃ¼r Wohnung und Haus -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Thermentausch für Wohnung und Haus</h2>
-          <p>Ein Thermentausch 1020 Wien ist sowohl für eine Wohnung als auch für ein Haus in Wien 1020 sinnvoll, wenn ältere Thermen nicht mehr effizient arbeiten. Unser Installateur Wien analysiert vor Ort die bestehende Heizung, überprüft alle Gasgeräte, die vorhandene Installation sowie die gesamte Heizungsanlage. Danach empfehlen wir eine moderne Gastherme, die optimal zum Bedarf Ihrer Wohnung oder Ihres Hauses passt. Ein professioneller Thermentausch Wien verbessert die Versorgung mit Warmwasser, erhöht die Sicherheit im Umgang mit Gas und sorgt für eine zuverlässige Heizung. Gerade in der Leopoldstadt rund um den Prater und den Donaukanal befinden sich viele ältere Gebäude, in denen ein Thermenwechsel eine sinnvolle Modernisierung und Sanierung darstellt. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
+          <h2>Thermentausch fÃ¼r Wohnung und Haus</h2>
+          <p>Ein Thermentausch 1020 Wien ist sowohl fÃ¼r eine Wohnung als auch fÃ¼r ein Haus in Wien 1020 sinnvoll, wenn Ã¤ltere Thermen nicht mehr effizient arbeiten. Unser Installateur Wien analysiert vor Ort die bestehende Heizung, Ã¼berprÃ¼ft alle GasgerÃ¤te, die vorhandene Installation sowie die gesamte Heizungsanlage. Danach empfehlen wir eine moderne Gastherme, die optimal zum Bedarf Ihrer Wohnung oder Ihres Hauses passt. Ein professioneller Thermentausch Wien verbessert die Versorgung mit Warmwasser, erhÃ¶ht die Sicherheit im Umgang mit Gas und sorgt fÃ¼r eine zuverlÃ¤ssige Heizung. Gerade in der Leopoldstadt rund um den Prater und den Donaukanal befinden sich viele Ã¤ltere GebÃ¤ude, in denen ein Thermenwechsel eine sinnvolle Modernisierung und Sanierung darstellt. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien 1020" loading="lazy" decoding="async">
@@ -329,12 +329,12 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
     </div>
   </section>
 
-  <!-- Thermen Marken (für Thermentausch) -->
+  <!-- Thermen Marken (fÃ¼r Thermentausch) -->
   <section class="service-section service-section--soft" id="thermen-services">
     <div class="container">
       <div class="service-section__head">
-        <h2>Thermentausch für alle Marken</h2>
-        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi – wir tauschen und installieren Thermen aller gängigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
+        <h2>Thermentausch fÃ¼r alle Marken</h2>
+        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi â€“ wir tauschen und installieren Thermen aller gÃ¤ngigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
       </div>
 
       <div class="brand-grid">
@@ -383,8 +383,8 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
 
         <!-- 8 -->
           <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.webp" alt="Löblich Thermentausch">
-    <span>LÖBLICH THERMENTAUSCH</span>
+    <img src="img/1loblich.webp" alt="LÃ¶blich Thermentausch">
+    <span>LÃ–BLICH THERMENTAUSCH</span>
   </a>
 
         <!-- 9 -->
@@ -414,50 +414,50 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
     </div>
   </section>
 
-  <!-- FAQ – Thermentausch 1020 Wien -->
+  <!-- FAQ â€“ Thermentausch 1020 Wien -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>Häufige Fragen zum Thermentausch 1020 Wien</h2><p>Antworten auf die wichtigsten Fragen – kurz und verständlich.</p></div>
+      <div class="service-section__head"><h2>HÃ¤ufige Fragen zum Thermentausch 1020 Wien</h2><p>Antworten auf die wichtigsten Fragen â€“ kurz und verstÃ¤ndlich.</p></div>
       <div class="service-faq">
         <details>
           <summary>1. Wie lange dauert ein Thermentausch in Wien 1020?</summary>
-          <p>Ein Thermentausch 1020 Wien dauert meist nur wenige Stunden. Unser Installateur Wien entfernt die alte Therme, führt die neue Thermenmontage durch und überprüft alle Gasgeräte, Installation und Heizung.</p>
+          <p>Ein Thermentausch 1020 Wien dauert meist nur wenige Stunden. Unser Installateur Wien entfernt die alte Therme, fÃ¼hrt die neue Thermenmontage durch und Ã¼berprÃ¼ft alle GasgerÃ¤te, Installation und Heizung.</p>
         </details>
         <details>
           <summary>2. Wann sollte eine Gastherme getauscht werden?</summary>
-          <p>Wenn eine Gastherme älter als 15–20 Jahre ist oder häufige Reparaturen benötigt, ist ein Thermenwechsel sinnvoll. Ein moderner Thermentausch Wien verbessert die Heizung und spart Energie.</p>
+          <p>Wenn eine Gastherme Ã¤lter als 15â€“20 Jahre ist oder hÃ¤ufige Reparaturen benÃ¶tigt, ist ein Thermenwechsel sinnvoll. Ein moderner Thermentausch Wien verbessert die Heizung und spart Energie.</p>
         </details>
         <details>
           <summary>3. Was kostet ein Thermentausch in Wien 1020?</summary>
-          <p>Die Kosten hängen vom Modell der neuen Therme, vom Aufwand der Installation und vom Zustand der bestehenden Heizungsanlage ab. Ein Kostenvoranschlag gibt eine klare Übersicht über Preise und mögliche Kosten.</p>
+          <p>Die Kosten hÃ¤ngen vom Modell der neuen Therme, vom Aufwand der Installation und vom Zustand der bestehenden Heizungsanlage ab. Ein Kostenvoranschlag gibt eine klare Ãœbersicht Ã¼ber Preise und mÃ¶gliche Kosten.</p>
         </details>
         <details>
-          <summary>4. Gibt es Förderungen für einen Thermentausch?</summary>
-          <p>In manchen Fällen gibt es eine Förderung für moderne Heizungstechnik oder eine energetische Sanierung. Dadurch können die Kosten für einen Thermentausch Wien reduziert werden.</p>
+          <summary>4. Gibt es FÃ¶rderungen fÃ¼r einen Thermentausch?</summary>
+          <p>In manchen FÃ¤llen gibt es eine FÃ¶rderung fÃ¼r moderne Heizungstechnik oder eine energetische Sanierung. Dadurch kÃ¶nnen die Kosten fÃ¼r einen Thermentausch Wien reduziert werden.</p>
         </details>
         <details>
           <summary>5. Bieten Sie auch Notdienst in der Leopoldstadt an?</summary>
-          <p>Ja, unser Installateur 1020 Wien bietet Notdienst bei Problemen mit Therme, Gasgerät, Heizung oder Warmwasser in Wien 1020 und der gesamten Leopoldstadt.</p>
+          <p>Ja, unser Installateur 1020 Wien bietet Notdienst bei Problemen mit Therme, GasgerÃ¤t, Heizung oder Warmwasser in Wien 1020 und der gesamten Leopoldstadt.</p>
         </details>
         <details>
-          <summary>6. Kann ein Thermentausch auch in einer Wohnung durchgeführt werden?</summary>
-          <p>Ja, ein Thermentausch 1020 ist sowohl in einer Wohnung als auch in einem Haus möglich. Unser Installateur Wien prüft vor Ort alle Installationen und empfiehlt die passende Gastherme.</p>
+          <summary>6. Kann ein Thermentausch auch in einer Wohnung durchgefÃ¼hrt werden?</summary>
+          <p>Ja, ein Thermentausch 1020 ist sowohl in einer Wohnung als auch in einem Haus mÃ¶glich. Unser Installateur Wien prÃ¼ft vor Ort alle Installationen und empfiehlt die passende Gastherme.</p>
         </details>
         <details>
           <summary>7. Muss ich bei einem Thermentausch etwas beachten?</summary>
-          <p>Am besten halten Sie die Gerätedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kümmern uns um den Rest – von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
+          <p>Am besten halten Sie die GerÃ¤tedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kÃ¼mmern uns um den Rest â€“ von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
         </details>
         <details>
           <summary>8. Welche Thermenmarken tauschen Sie aus?</summary>
-          <p>Wir tauschen alle gängigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine Lösung.</p>
+          <p>Wir tauschen alle gÃ¤ngigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine LÃ¶sung.</p>
         </details>
         <details>
           <summary>9. Wie finde ich die richtige neue Therme?</summary>
-          <p>Wir beraten Sie umfassend und wählen gemeinsam mit Ihnen das passende Gerät aus – abgestimmt auf Ihre Wohnungsgröße, Ihren Warmwasserbedarf und Ihr Budget.</p>
+          <p>Wir beraten Sie umfassend und wÃ¤hlen gemeinsam mit Ihnen das passende GerÃ¤t aus â€“ abgestimmt auf Ihre WohnungsgrÃ¶ÃŸe, Ihren Warmwasserbedarf und Ihr Budget.</p>
         </details>
         <details>
           <summary>10. Bieten Sie auch die Entsorgung der alten Therme an?</summary>
-          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverständlich im Service enthalten. Sie müssen sich um nichts kümmern.</p>
+          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverstÃ¤ndlich im Service enthalten. Sie mÃ¼ssen sich um nichts kÃ¼mmern.</p>
         </details>
       </div>
     </div>
@@ -468,11 +468,11 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
     <div class="container">
       <div class="service-cta__inner">
         <div>
-          <h2>Jetzt Kontakt aufnehmen – für Thermentausch in 1020 Wien</h2>
-          <p>Wenn Sie einen professionellen Thermentausch 1020 Wien planen oder eine neue Gastherme installieren möchten, ist unser Installateur Wien der richtige Ansprechpartner. Wir beraten Sie persönlich in Wien 1020, prüfen Ihre bestehende Therme, analysieren die vorhandene Heizung und erstellen ein transparentes Angebot. Unser Team sorgt für sichere Installation, professionelle Thermenmontage und moderne Heizungstechnik in Ihrer Wohnung oder Ihrem Haus in der Leopoldstadt. Egal ob Thermentausch Wien, Wartung, Reparatur oder Notdienst – wir bieten schnelle Hilfe und zuverlässigen Service in Wien 1020 und der gesamten Umgebung.</p>
-          <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+          <h2>Jetzt Kontakt aufnehmen â€“ fÃ¼r Thermentausch in 1020 Wien</h2>
+          <p>Wenn Sie einen professionellen Thermentausch 1020 Wien planen oder eine neue Gastherme installieren mÃ¶chten, ist unser Installateur Wien der richtige Ansprechpartner. Wir beraten Sie persÃ¶nlich in Wien 1020, prÃ¼fen Ihre bestehende Therme, analysieren die vorhandene Heizung und erstellen ein transparentes Angebot. Unser Team sorgt fÃ¼r sichere Installation, professionelle Thermenmontage und moderne Heizungstechnik in Ihrer Wohnung oder Ihrem Haus in der Leopoldstadt. Egal ob Thermentausch Wien, Wartung, Reparatur oder Notdienst â€“ wir bieten schnelle Hilfe und zuverlÃ¤ssigen Service in Wien 1020 und der gesamten Umgebung.</p>
+          <p style="margin-top:10px"><strong><i class="bi bi-telephone-fill"></i></strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mÃ¶glich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -487,7 +487,7 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) – bleibt unverändert -->
+  <!-- Bezirke (bottom links) â€“ bleibt unverÃ¤ndert -->
 
 </main>
 
@@ -495,6 +495,8 @@ $metaDescription = "Thermentausch 1020 Wien vom Installateur Wien. Gastherme tau
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
 
 
 

@@ -1,9 +1,9 @@
-@extends('layout.app')
+ï»¿@extends('layout.app')
 
 @section('main')
 
 @php
-$metaTitle = "Thermentausch 1130 Wien – Installateur Wien für Gastherme Austausch & Thermenwechsel";
+$metaTitle = "Thermentausch 1130 Wien â€“ Installateur Wien fÃ¼r Gastherme Austausch & Thermenwechsel";
 $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wien. Gastherme tauschen, Thermenwechsel, Installation, Wartung und Notdienst in Wien 1130 Hietzing.";
 @endphp
 
@@ -30,7 +30,7 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu für Thermen Marken) === */
+    /* === BRAND GRID (neu fÃ¼r Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -87,10 +87,10 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
     <div class="wolf-hero__inner container">
       <h1>
         Thermentausch 1130 Wien <br>
-        <span style="color:#FB9A1B;">Ihr Partner für sicheren Thermentausch und moderne Heizung</span>
+        <span style="color:#FB9A1B;">Ihr Partner fÃ¼r sicheren Thermentausch und moderne Heizung</span>
       </h1>
 
-      <p class="wolf-hero__sub">Professioneller Thermentausch 1130 Wien für Ihre Wohnung oder Ihr Haus in Hietzing. Wir sorgen für eine effiziente Heizung, zuverlässiges Warmwasser und moderne Energieeffizienz.</p>
+      <p class="wolf-hero__sub">Professioneller Thermentausch 1130 Wien fÃ¼r Ihre Wohnung oder Ihr Haus in Hietzing. Wir sorgen fÃ¼r eine effiziente Heizung, zuverlÃ¤ssiges Warmwasser und moderne Energieeffizienz.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -153,7 +153,7 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
         </div>
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre Lösung</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre LÃ¶sung</span></a></li>
             <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Warum wir</span></a></li>
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Unser Service</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Ablauf</span></a></li>
@@ -170,53 +170,53 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- Vorteile / Ihre Lösung -->
+  <!-- Vorteile / Ihre LÃ¶sung -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Ihre Lösung für Thermentausch in 1130 Wien</h2>
-          <p>Ein Thermentausch 1130 Wien ist besonders in Wien 1130 und im Bezirk Hietzing wichtig, da viele Gebäude entlang der Lainzer Straße und der Hietzinger Hauptstraße noch mit älteren Thermen und Gasgeräten ausgestattet sind, die häufige Wartung oder Reparatur benötigen, wodurch ein professioneller Thermentausch Wien oder ein kompletter Thermenwechsel zur besten Lösung wird, denn unser Installateur Wien übernimmt die gesamte Installation von der ersten Beratung bis zur fertigen Montage, überprüft alle Gasgeräte, Leitungen für Gas und Wasser sowie die bestehende Heizungsanlage und sorgt mit moderner Heizungstechnik, Erfahrung und präziser Thermenmontage dafür, dass Ihre neue Gastherme effizient arbeitet und Ihre Heizung in Wien 1130 langfristig zuverlässig funktioniert. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1120-wien') }}">weiterführenden Informationen</a>.</p>
+          <h2>Ihre LÃ¶sung fÃ¼r Thermentausch in 1130 Wien</h2>
+          <p>Ein Thermentausch 1130 Wien ist besonders in Wien 1130 und im Bezirk Hietzing wichtig, da viele GebÃ¤ude entlang der Lainzer StraÃŸe und der Hietzinger HauptstraÃŸe noch mit Ã¤lteren Thermen und GasgerÃ¤ten ausgestattet sind, die hÃ¤ufige Wartung oder Reparatur benÃ¶tigen, wodurch ein professioneller Thermentausch Wien oder ein kompletter Thermenwechsel zur besten LÃ¶sung wird, denn unser Installateur Wien Ã¼bernimmt die gesamte Installation von der ersten Beratung bis zur fertigen Montage, Ã¼berprÃ¼ft alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die bestehende Heizungsanlage und sorgt mit moderner Heizungstechnik, Erfahrung und prÃ¤ziser Thermenmontage dafÃ¼r, dass Ihre neue Gastherme effizient arbeitet und Ihre Heizung in Wien 1130 langfristig zuverlÃ¤ssig funktioniert. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1120-wien') }}">weiterfÃ¼hrenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.webp" alt="Thermentausch 1130 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
 
-      <!-- Wann ein Thermentausch sinnvoll ist (als zusätzliche Box) -->
+      <!-- Wann ein Thermentausch sinnvoll ist (als zusÃ¤tzliche Box) -->
       <div class="card-box" style="margin-top: 20px;">
         <h3>Wann ein Thermentausch sinnvoll ist</h3>
-        <p>Ein Thermentausch Wien ist dann sinnvoll, wenn Ihre Therme oder Gastherme veraltet ist, ein Problem verursacht oder häufige Wartung und Reparatur benötigt, da ältere Thermen mehr Energie verbrauchen und höhere Kosten verursachen, weshalb ein Thermenwechsel oder gezieltes Thermen tauschen in Wien 1130 eine nachhaltige Erneuerung darstellt, bei der unser Installateur Wien alle Gasgeräte, die Heizungsanlage sowie sämtliche Sanitär Installationen überprüft und Ihnen eine transparente Beratung, ein klares Angebot und einen genauen Kostenvoranschlag für den Thermentausch 1130 Wien erstellt, sodass Sie eine moderne Lösung für Heizung und Warmwasser erhalten und gleichzeitig die Energieeffizienz verbessern.</p>
+        <p>Ein Thermentausch Wien ist dann sinnvoll, wenn Ihre Therme oder Gastherme veraltet ist, ein Problem verursacht oder hÃ¤ufige Wartung und Reparatur benÃ¶tigt, da Ã¤ltere Thermen mehr Energie verbrauchen und hÃ¶here Kosten verursachen, weshalb ein Thermenwechsel oder gezieltes Thermen tauschen in Wien 1130 eine nachhaltige Erneuerung darstellt, bei der unser Installateur Wien alle GasgerÃ¤te, die Heizungsanlage sowie sÃ¤mtliche SanitÃ¤r Installationen Ã¼berprÃ¼ft und Ihnen eine transparente Beratung, ein klares Angebot und einen genauen Kostenvoranschlag fÃ¼r den Thermentausch 1130 Wien erstellt, sodass Sie eine moderne LÃ¶sung fÃ¼r Heizung und Warmwasser erhalten und gleichzeitig die Energieeffizienz verbessern.</p>
       </div>
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt für eine präzise Installation Ihrer neuen Gastherme – schnell, sauber und nach allen Sicherheitsstandards.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt fÃ¼r eine prÃ¤zise Installation Ihrer neuen Gastherme â€“ schnell, sauber und nach allen Sicherheitsstandards.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Schnell vor Ort in 1130</h3><p>Als Installateur in Hietzing sind wir in wenigen Minuten bei Ihnen – für Termine und Notfälle gleichermaßen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>Schnell vor Ort in 1130</h3><p>Als Installateur in Hietzing sind wir in wenigen Minuten bei Ihnen â€“ fÃ¼r Termine und NotfÃ¤lle gleichermaÃŸen.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag – keine versteckten Preise, faire Abrechnung.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-cash-coin"></i></div><div>
+          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag â€“ keine versteckten Preise, faire Abrechnung.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
-          <h3>Förderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und können oft gefördert werden. Wir beraten Sie zu möglichen Zuschüssen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div>
+          <h3>FÃ¶rderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und kÃ¶nnen oft gefÃ¶rdert werden. Wir beraten Sie zu mÃ¶glichen ZuschÃ¼ssen.</p>
         </div></article>
       </div>
     </div>
   </section>
 
-  <!-- Team / Warum Kunden sich für uns entscheiden -->
+  <!-- Team / Warum Kunden sich fÃ¼r uns entscheiden -->
   <section class="service-section" id="team-services">
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Warum sich Kunden in Wien 1130 für uns entscheiden</h2>
-          <p>Beim Thermentausch 1130 Wien ist ein erfahrener Installateur Wien besonders wichtig, da viele Gebäude in Hietzing individuelle Anforderungen an Installation, Gasanschlüsse und Heizungsanlage haben, weshalb unsere Firma als Fachbetrieb großen Wert auf Qualität, Sicherheit und moderne Heizungstechnik legt und unsere Kunden von der ersten Beratung bis zur fertigen Montage begleitet, während unser Installateur 1130 Wien den Austausch Ihrer alten Therme effizient umsetzt und durch Erfahrung, hochwertige Arbeit und starke Referenzen eine langfristige Lösung für jeden Thermentausch Wien bietet.</p>
+          <h2>Warum sich Kunden in Wien 1130 fÃ¼r uns entscheiden</h2>
+          <p>Beim Thermentausch 1130 Wien ist ein erfahrener Installateur Wien besonders wichtig, da viele GebÃ¤ude in Hietzing individuelle Anforderungen an Installation, GasanschlÃ¼sse und Heizungsanlage haben, weshalb unsere Firma als Fachbetrieb groÃŸen Wert auf QualitÃ¤t, Sicherheit und moderne Heizungstechnik legt und unsere Kunden von der ersten Beratung bis zur fertigen Montage begleitet, wÃ¤hrend unser Installateur 1130 Wien den Austausch Ihrer alten Therme effizient umsetzt und durch Erfahrung, hochwertige Arbeit und starke Referenzen eine langfristige LÃ¶sung fÃ¼r jeden Thermentausch Wien bietet.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen Altbau</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Montage</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparenz</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen Altbau</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere Montage</div></div>
+            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparenz</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
@@ -226,17 +226,17 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- Leistungen / Unser Service für Wien 1130 -->
+  <!-- Leistungen / Unser Service fÃ¼r Wien 1130 -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unser Service für 1130 Wien</h2><p>Unser Installateur Wien bietet umfassenden Service rund um Thermentausch 1130 Wien sowie moderne Heizungstechnik und sichere Installationen in Wien 1130 Hietzing, wobei wir den gesamten Ablauf von der Planung bis zur fertigen Thermeninstallation und Thermenmontage übernehmen und zusätzlich Thermenwartung, Reparatur und laufenden Service anbieten, während alle Gasgeräte, Leitungen für Gas und Wasser sowie bestehende Installationen sorgfältig geprüft werden, damit Ihre neue Gastherme sicher funktioniert und Ihre Heizungsanlage optimal eingestellt ist, und als erfahrene Firma mit viel Erfahrung bieten wir unseren Kunden eine zuverlässige Lösung für jede Wohnung und jedes Haus.</p></div>
+      <div class="service-section__head"><h2>Unser Service fÃ¼r 1130 Wien</h2><p>Unser Installateur Wien bietet umfassenden Service rund um Thermentausch 1130 Wien sowie moderne Heizungstechnik und sichere Installationen in Wien 1130 Hietzing, wobei wir den gesamten Ablauf von der Planung bis zur fertigen Thermeninstallation und Thermenmontage Ã¼bernehmen und zusÃ¤tzlich Thermenwartung, Reparatur und laufenden Service anbieten, wÃ¤hrend alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie bestehende Installationen sorgfÃ¤ltig geprÃ¼ft werden, damit Ihre neue Gastherme sicher funktioniert und Ihre Heizungsanlage optimal eingestellt ist, und als erfahrene Firma mit viel Erfahrung bieten wir unseren Kunden eine zuverlÃ¤ssige LÃ¶sung fÃ¼r jede Wohnung und jedes Haus.</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Thermentausch und professioneller Thermenwechsel</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes Gerät – fachgerecht und schnell.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller Anschlüsse für Gas, Wasser und Heizung – sicher und normgerecht.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Austausch und Erneuerung alter Gasthermen in Wien 1130</h3><p>Speziell für Hietzing: Wir ersetzen veraltete Geräte durch zeitgemäße Heiztechnik.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">???</div><div><h3>Optimierung von Heizung, Warmwasser und Energieeffizienz</h3><p>Nach dem Einbau justieren wir Ihre Anlage für maximalen Komfort und niedrige Energiekosten.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär und Haustechnik Installationen</h3><p>Wir kümmern uns auch um angrenzende Gewerke – damit alles perfekt zusammenspielt.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Schneller Notdienst und laufender Service in der Umgebung</h3><p>Bei Problemen sind wir sofort für Sie da – auch nach der Installation.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Thermentausch und professioneller Thermenwechsel</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes GerÃ¤t â€“ fachgerecht und schnell.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller AnschlÃ¼sse fÃ¼r Gas, Wasser und Heizung â€“ sicher und normgerecht.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Austausch und Erneuerung alter Gasthermen in Wien 1130</h3><p>Speziell fÃ¼r Hietzing: Wir ersetzen veraltete GerÃ¤te durch zeitgemÃ¤ÃŸe Heiztechnik.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Optimierung von Heizung, Warmwasser und Energieeffizienz</h3><p>Nach dem Einbau justieren wir Ihre Anlage fÃ¼r maximalen Komfort und niedrige Energiekosten.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>SanitÃ¤r und Haustechnik Installationen</h3><p>Wir kÃ¼mmern uns auch um angrenzende Gewerke â€“ damit alles perfekt zusammenspielt.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true"><i class="bi bi-tools"></i></div><div><h3>Schneller Notdienst und laufender Service in der Umgebung</h3><p>Bei Problemen sind wir sofort fÃ¼r Sie da â€“ auch nach der Installation.</p></div></article>
       </div>
     </div>
   </section>
@@ -247,14 +247,14 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ablauf beim Thermentausch in 1130 Wien</h2>
-          <p>Ein strukturierter Ablauf beim Thermentausch 1130 Wien stellt sicher, dass Ihre neue Gastherme effizient und sicher installiert wird, weshalb unser Installateur Wien zunächst einen Termin in Ihrer Wohnung oder Ihrem Haus in Wien 1130 Hietzing vereinbart, bei dem alle Thermen, Gasgeräte, Leitungen für Gas und Wasser sowie die gesamte Heizungsanlage überprüft werden, danach folgt eine ausführliche Beratung inklusive Angebot und transparentem Kostenvoranschlag mit klaren Kosten und Preisen, und nach Ihrer Zustimmung übernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die vollständige Thermeninstallation und die präzise Montage, wodurch der Austausch und das Erneuern alter Thermen nicht nur Ihre Heizung verbessert, sondern auch die Energieeffizienz steigert und langfristig Energie spart.</p>
+          <p>Ein strukturierter Ablauf beim Thermentausch 1130 Wien stellt sicher, dass Ihre neue Gastherme effizient und sicher installiert wird, weshalb unser Installateur Wien zunÃ¤chst einen Termin in Ihrer Wohnung oder Ihrem Haus in Wien 1130 Hietzing vereinbart, bei dem alle Thermen, GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die gesamte Heizungsanlage Ã¼berprÃ¼ft werden, danach folgt eine ausfÃ¼hrliche Beratung inklusive Angebot und transparentem Kostenvoranschlag mit klaren Kosten und Preisen, und nach Ihrer Zustimmung Ã¼bernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die vollstÃ¤ndige Thermeninstallation und die prÃ¤zise Montage, wodurch der Austausch und das Erneuern alter Thermen nicht nur Ihre Heizung verbessert, sondern auch die Energieeffizienz steigert und langfristig Energie spart.</p>
           <ul class="service-checklist" style="margin-top:20px">
             <li>Besichtigung Ihrer Therme vor Ort in 1130 Wien</li>
-            <li>Persönliche Beratung zur passenden Gastherme</li>
+            <li>PersÃ¶nliche Beratung zur passenden Gastherme</li>
             <li>Transparentes Angebot und klarer Kostenvoranschlag</li>
             <li>Fachgerechte Thermenmontage und sichere Installation</li>
             <li>Kontrolle von Gas, Wasser und kompletter Heizungsanlage</li>
-            <li>Übergabe und laufender Service</li>
+            <li>Ãœbergabe und laufender Service</li>
           </ul>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
@@ -270,7 +270,7 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermenwartung, Reparatur und laufender Service</h2>
-          <p>Neben dem Thermentausch 1130 Wien ist eine regelmäßige Thermenwartung entscheidend, damit Ihre Gastherme langfristig zuverlässig arbeitet, weshalb unser Installateur Wien umfassenden Service, Wartung und Reparatur für Thermen in Wien 1130 Hietzing anbietet, wobei alle wichtigen Komponenten wie Gasgeräte, Wasseranschlüsse und die gesamte Heizungsanlage überprüft werden, sodass Ihre Heizung effizient bleibt, Ausfälle vermieden werden und Ihre Installationen dauerhaft sicher funktionieren.</p>
+          <p>Neben dem Thermentausch 1130 Wien ist eine regelmÃ¤ÃŸige Thermenwartung entscheidend, damit Ihre Gastherme langfristig zuverlÃ¤ssig arbeitet, weshalb unser Installateur Wien umfassenden Service, Wartung und Reparatur fÃ¼r Thermen in Wien 1130 Hietzing anbietet, wobei alle wichtigen Komponenten wie GasgerÃ¤te, WasseranschlÃ¼sse und die gesamte Heizungsanlage Ã¼berprÃ¼ft werden, sodass Ihre Heizung effizient bleibt, AusfÃ¤lle vermieden werden und Ihre Installationen dauerhaft sicher funktionieren.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size4.webp" alt="Thermenwartung 1130 Wien" loading="lazy" decoding="async">
@@ -284,21 +284,21 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Notdienst und schnelle Hilfe in Hietzing</h2>
-        <p>Wenn es zu einem Notfall mit Ihrer Therme oder Gastherme kommt, ist ein schneller Notdienst besonders wichtig, weshalb unser Installateur Wien einen zuverlässigen Notdienst für Thermentausch 1130 Wien, Reparatur und dringende Installation in Wien 1130 anbietet, wobei unser Team schnell im Einsatz ist, rasch Hilfe leistet und jedes Problem effizient analysiert, um eine passende Lösung zu finden, egal ob es sich um eine Störung, einen notwendigen Thermenwechsel oder einen kompletten Austausch handelt.</p>
+        <p>Wenn es zu einem Notfall mit Ihrer Therme oder Gastherme kommt, ist ein schneller Notdienst besonders wichtig, weshalb unser Installateur Wien einen zuverlÃ¤ssigen Notdienst fÃ¼r Thermentausch 1130 Wien, Reparatur und dringende Installation in Wien 1130 anbietet, wobei unser Team schnell im Einsatz ist, rasch Hilfe leistet und jedes Problem effizient analysiert, um eine passende LÃ¶sung zu finden, egal ob es sich um eine StÃ¶rung, einen notwendigen Thermenwechsel oder einen kompletten Austausch handelt.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdienst-Einsätze</h3>
+        <h3>Typische Notdienst-EinsÃ¤tze</h3>
         <ul class="service-checklist service-checklist--on-dark">
-          <li>Vollständiger Ausfall der Heizung</li>
+          <li>VollstÃ¤ndiger Ausfall der Heizung</li>
           <li>Kein Warmwasser</li>
           <li>Gasgeruch oder unsicherer Zustand der Therme</li>
           <li>Wasseraustritt an der Therme</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1130 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in 1130 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -311,22 +311,22 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
           <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Thermentausch 1130 Wien" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Kosten und Preise für den Thermentausch</h2>
-          <p>Die Kosten für einen Thermentausch 1130 Wien hängen von verschiedenen Faktoren ab, wie dem Zustand der bestehenden Therme, dem Aufwand der Installation, der Größe der Heizungsanlage und dem gewählten Modell der neuen Gastherme, weshalb unser Installateur Wien alle Gasgeräte, Sanitär Anschlüsse und bestehenden Installationen genau analysiert, um Ihnen ein transparentes Angebot mit fairen Preisen zu erstellen, wobei ein professioneller Thermentausch Wien langfristig Kosten reduziert, die Energieeffizienz verbessert und in vielen Fällen durch eine mögliche Förderung unterstützt wird, wodurch sich die Investition in moderne Heizungstechnik und nachhaltige Haustechnik besonders lohnt.</p>
-          <p><strong>Was die Kosten beeinflusst:</strong> Modell der Gastherme, Aufwand der Montage, Zustand der bestehenden Heizung und mögliche Sanierungsarbeiten.</p>
-          <p><strong>Förderung und Einsparung:</strong> Ein Thermentausch Wien kann durch eine Förderung unterstützt werden, wodurch sich die Kosten reduzieren und gleichzeitig Energie eingespart wird, was nicht nur Ihre Heizungsanlage effizienter macht, sondern auch einen positiven Beitrag zur Umwelt leistet und eine nachhaltige Modernisierung Ihrer Heizung ermöglicht.</p>
+          <h2>Kosten und Preise fÃ¼r den Thermentausch</h2>
+          <p>Die Kosten fÃ¼r einen Thermentausch 1130 Wien hÃ¤ngen von verschiedenen Faktoren ab, wie dem Zustand der bestehenden Therme, dem Aufwand der Installation, der GrÃ¶ÃŸe der Heizungsanlage und dem gewÃ¤hlten Modell der neuen Gastherme, weshalb unser Installateur Wien alle GasgerÃ¤te, SanitÃ¤r AnschlÃ¼sse und bestehenden Installationen genau analysiert, um Ihnen ein transparentes Angebot mit fairen Preisen zu erstellen, wobei ein professioneller Thermentausch Wien langfristig Kosten reduziert, die Energieeffizienz verbessert und in vielen FÃ¤llen durch eine mÃ¶gliche FÃ¶rderung unterstÃ¼tzt wird, wodurch sich die Investition in moderne Heizungstechnik und nachhaltige Haustechnik besonders lohnt.</p>
+          <p><strong>Was die Kosten beeinflusst:</strong> Modell der Gastherme, Aufwand der Montage, Zustand der bestehenden Heizung und mÃ¶gliche Sanierungsarbeiten.</p>
+          <p><strong>FÃ¶rderung und Einsparung:</strong> Ein Thermentausch Wien kann durch eine FÃ¶rderung unterstÃ¼tzt werden, wodurch sich die Kosten reduzieren und gleichzeitig Energie eingespart wird, was nicht nur Ihre Heizungsanlage effizienter macht, sondern auch einen positiven Beitrag zur Umwelt leistet und eine nachhaltige Modernisierung Ihrer Heizung ermÃ¶glicht.</p>
         </div></div>
       </div>
     </div>
   </section>
 
-  <!-- Region / Thermentausch für Wohnung und Haus -->
+  <!-- Region / Thermentausch fÃ¼r Wohnung und Haus -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Thermentausch für Wohnung und Haus</h2>
-          <p>Ein Thermentausch 1130 Wien ist sowohl für eine Wohnung als auch für ein Haus in Wien 1130 Hietzing sinnvoll, wenn bestehende Thermen ineffizient arbeiten oder häufige Wartung benötigen, weshalb unser Installateur Wien alle Gasgeräte, die Heizungsanlage und sämtliche Sanitär Installationen überprüft und anschließend eine passende Gastherme empfiehlt, die optimal zu Ihrem Bedarf passt, wodurch Sie eine zuverlässige Heizung, stabiles Warmwasser und eine sichere Nutzung von Gas erhalten, was besonders in älteren Gebäuden eine wichtige Sanierung und Erneuerung darstellt. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
+          <h2>Thermentausch fÃ¼r Wohnung und Haus</h2>
+          <p>Ein Thermentausch 1130 Wien ist sowohl fÃ¼r eine Wohnung als auch fÃ¼r ein Haus in Wien 1130 Hietzing sinnvoll, wenn bestehende Thermen ineffizient arbeiten oder hÃ¤ufige Wartung benÃ¶tigen, weshalb unser Installateur Wien alle GasgerÃ¤te, die Heizungsanlage und sÃ¤mtliche SanitÃ¤r Installationen Ã¼berprÃ¼ft und anschlieÃŸend eine passende Gastherme empfiehlt, die optimal zu Ihrem Bedarf passt, wodurch Sie eine zuverlÃ¤ssige Heizung, stabiles Warmwasser und eine sichere Nutzung von Gas erhalten, was besonders in Ã¤lteren GebÃ¤uden eine wichtige Sanierung und Erneuerung darstellt. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien 1130" loading="lazy" decoding="async">
@@ -335,12 +335,12 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- Thermen Marken (für Thermentausch) -->
+  <!-- Thermen Marken (fÃ¼r Thermentausch) -->
   <section class="service-section service-section--soft" id="thermen-services">
     <div class="container">
       <div class="service-section__head">
-        <h2>Thermentausch für alle Marken</h2>
-        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi – wir tauschen und installieren Thermen aller gängigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
+        <h2>Thermentausch fÃ¼r alle Marken</h2>
+        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi â€“ wir tauschen und installieren Thermen aller gÃ¤ngigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
       </div>
 
       <div class="brand-grid">
@@ -389,8 +389,8 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
 
         <!-- 8 -->
           <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.webp" alt="Löblich Thermentausch">
-    <span>LÖBLICH THERMENTAUSCH</span>
+    <img src="img/1loblich.webp" alt="LÃ¶blich Thermentausch">
+    <span>LÃ–BLICH THERMENTAUSCH</span>
   </a>
 
         <!-- 9 -->
@@ -420,50 +420,50 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- FAQ – Thermentausch 1130 Wien -->
+  <!-- FAQ â€“ Thermentausch 1130 Wien -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>Häufige Fragen zum Thermentausch 1130 Wien</h2><p>Antworten auf die wichtigsten Fragen – kurz und verständlich.</p></div>
+      <div class="service-section__head"><h2>HÃ¤ufige Fragen zum Thermentausch 1130 Wien</h2><p>Antworten auf die wichtigsten Fragen â€“ kurz und verstÃ¤ndlich.</p></div>
       <div class="service-faq">
         <details>
           <summary>1. Wie lange dauert ein Thermentausch in 1130 Wien?</summary>
-          <p>Ein Thermentausch 1130 Wien dauert meist nur wenige Stunden, da unser Installateur Wien die alte Therme entfernt, die neue Thermenmontage durchführt und alle Installationen sowie die Heizung überprüft.</p>
+          <p>Ein Thermentausch 1130 Wien dauert meist nur wenige Stunden, da unser Installateur Wien die alte Therme entfernt, die neue Thermenmontage durchfÃ¼hrt und alle Installationen sowie die Heizung Ã¼berprÃ¼ft.</p>
         </details>
         <details>
           <summary>2. Wann sollte man eine Gastherme tauschen?</summary>
-          <p>Eine Gastherme sollte erneuert werden, wenn sie alt ist oder häufige Reparatur benötigt, da ein moderner Thermentausch Wien die Energieeffizienz verbessert und langfristig Kosten reduziert.</p>
+          <p>Eine Gastherme sollte erneuert werden, wenn sie alt ist oder hÃ¤ufige Reparatur benÃ¶tigt, da ein moderner Thermentausch Wien die Energieeffizienz verbessert und langfristig Kosten reduziert.</p>
         </details>
         <details>
           <summary>3. Was kostet ein Thermentausch in Wien 1130?</summary>
-          <p>Die Kosten hängen vom Modell der neuen Therme, dem Aufwand der Installation und dem Zustand der Heizungsanlage ab, weshalb ein Kostenvoranschlag eine klare Übersicht der Preise bietet.</p>
+          <p>Die Kosten hÃ¤ngen vom Modell der neuen Therme, dem Aufwand der Installation und dem Zustand der Heizungsanlage ab, weshalb ein Kostenvoranschlag eine klare Ãœbersicht der Preise bietet.</p>
         </details>
         <details>
-          <summary>4. Gibt es Förderungen für den Thermentausch?</summary>
-          <p>Ja, oft gibt es eine Förderung für moderne Heizungstechnik, wodurch die Kosten gesenkt und gleichzeitig Energie eingespart werden kann.</p>
+          <summary>4. Gibt es FÃ¶rderungen fÃ¼r den Thermentausch?</summary>
+          <p>Ja, oft gibt es eine FÃ¶rderung fÃ¼r moderne Heizungstechnik, wodurch die Kosten gesenkt und gleichzeitig Energie eingespart werden kann.</p>
         </details>
         <details>
           <summary>5. Bieten Sie auch Notdienst in Hietzing an?</summary>
-          <p>Ja, unser Installateur 1130 Wien bietet schnellen Notdienst bei Problemen mit Therme, Gasgerät, Heizung oder Warmwasser in Wien 1130 und der gesamten Umgebung.</p>
+          <p>Ja, unser Installateur 1130 Wien bietet schnellen Notdienst bei Problemen mit Therme, GasgerÃ¤t, Heizung oder Warmwasser in Wien 1130 und der gesamten Umgebung.</p>
         </details>
         <details>
-          <summary>6. Kann der Thermentausch auch in einer Wohnung durchgeführt werden?</summary>
-          <p>Ja, ein Thermentausch 1130 ist sowohl in einer Wohnung als auch in einem Haus möglich, wobei unser Fachmann alle Installationen vor Ort prüft und eine passende Lösung empfiehlt.</p>
+          <summary>6. Kann der Thermentausch auch in einer Wohnung durchgefÃ¼hrt werden?</summary>
+          <p>Ja, ein Thermentausch 1130 ist sowohl in einer Wohnung als auch in einem Haus mÃ¶glich, wobei unser Fachmann alle Installationen vor Ort prÃ¼ft und eine passende LÃ¶sung empfiehlt.</p>
         </details>
         <details>
           <summary>7. Muss ich bei einem Thermentausch etwas beachten?</summary>
-          <p>Am besten halten Sie die Gerätedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kümmern uns um den Rest – von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
+          <p>Am besten halten Sie die GerÃ¤tedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kÃ¼mmern uns um den Rest â€“ von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
         </details>
         <details>
           <summary>8. Welche Thermenmarken tauschen Sie aus?</summary>
-          <p>Wir tauschen alle gängigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine Lösung.</p>
+          <p>Wir tauschen alle gÃ¤ngigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine LÃ¶sung.</p>
         </details>
         <details>
           <summary>9. Wie finde ich die richtige neue Therme?</summary>
-          <p>Wir beraten Sie umfassend und wählen gemeinsam mit Ihnen das passende Gerät aus – abgestimmt auf Ihre Wohnungsgröße, Ihren Warmwasserbedarf und Ihr Budget.</p>
+          <p>Wir beraten Sie umfassend und wÃ¤hlen gemeinsam mit Ihnen das passende GerÃ¤t aus â€“ abgestimmt auf Ihre WohnungsgrÃ¶ÃŸe, Ihren Warmwasserbedarf und Ihr Budget.</p>
         </details>
         <details>
           <summary>10. Bieten Sie auch die Entsorgung der alten Therme an?</summary>
-          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverständlich im Service enthalten. Sie müssen sich um nichts kümmern.</p>
+          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverstÃ¤ndlich im Service enthalten. Sie mÃ¼ssen sich um nichts kÃ¼mmern.</p>
         </details>
       </div>
     </div>
@@ -474,11 +474,11 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
     <div class="container">
       <div class="service-cta__inner">
         <div>
-          <h2>Jetzt Kontakt aufnehmen – für Thermentausch in 1130 Wien</h2>
-          <p>Wenn Sie einen Thermentausch 1130 Wien planen oder Ihre Gastherme erneuern möchten, ist unser Installateur Wien Ihr zuverlässiger Partner für professionelle Installation, sichere Montage und moderne Heizungstechnik in Wien 1130 Hietzing, denn wir bieten umfassende Beratung, transparente Angebote und schnellen Service für Thermentausch, Wartung, Reparatur oder Notdienst, sodass Ihre Heizung effizient und zuverlässig funktioniert.</p>
-          <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+          <h2>Jetzt Kontakt aufnehmen â€“ fÃ¼r Thermentausch in 1130 Wien</h2>
+          <p>Wenn Sie einen Thermentausch 1130 Wien planen oder Ihre Gastherme erneuern mÃ¶chten, ist unser Installateur Wien Ihr zuverlÃ¤ssiger Partner fÃ¼r professionelle Installation, sichere Montage und moderne Heizungstechnik in Wien 1130 Hietzing, denn wir bieten umfassende Beratung, transparente Angebote und schnellen Service fÃ¼r Thermentausch, Wartung, Reparatur oder Notdienst, sodass Ihre Heizung effizient und zuverlÃ¤ssig funktioniert.</p>
+          <p style="margin-top:10px"><strong><i class="bi bi-telephone-fill"></i></strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mÃ¶glich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -493,7 +493,7 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) – bleibt unverändert -->
+  <!-- Bezirke (bottom links) â€“ bleibt unverÃ¤ndert -->
 
 </main>
 
@@ -501,6 +501,8 @@ $metaDescription = "Professioneller Thermentausch 1130 Wien vom Installateur Wie
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
+
 
 
 
