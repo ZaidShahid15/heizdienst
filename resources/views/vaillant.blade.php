@@ -113,7 +113,7 @@
             content: "";
             position: absolute;
             inset: 0;
-            background-image: url('img/hero-scetion.jpeg');
+            background-image: url('img/hero-scetion.webp');
             background-size: cover;
             background-position: center;
             transform: scale(1.02);
@@ -671,7 +671,7 @@
             content: "";
             position: absolute;
             inset: 0;
-            background-image: url("img/hero-scetion.jpeg");
+            background-image: url("img/hero-scetion.webp");
             background-size: cover;
             background-position: left center;
             /* ✅ keep image left exactly */
@@ -798,7 +798,7 @@
             position: absolute;
             inset: 0;
             background:
-                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+                url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
             z-index: 0;
         }
     </style>
@@ -854,7 +854,7 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Logo">
+        <img src="{{ asset('img/vaillant1-1.webp') }}" alt="Vaillant Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -1029,7 +1029,7 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
 
                 <div class="service-split__media service-media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="{{ asset('img/viliant.jpeg') }}" alt="Vaillant Partner Wien"
+                        <img class="service-media__img" src="{{ asset('img/viliant.webp') }}" alt="Vaillant Partner Wien"
                             loading="lazy" decoding="async" />
                     </div>
                 </div>
@@ -1138,7 +1138,7 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
 
                 <div class="service-split__media service-media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="{{ asset('img/vaillant-2.jpg') }}"
+                        <img class="service-media__img" src="{{ asset('img/vaillant-2.webp') }}"
                             alt="Warum Thermenwartung wichtig ist" loading="lazy" decoding="async" />
                     </div>
                 </div>
@@ -1207,7 +1207,7 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
 
                 <div class="service-split__media service-media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}"
+                        <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}"
                             alt="Ablauf der Thermenwartung" loading="lazy" decoding="async" />
                     </div>
                 </div>
@@ -1315,7 +1315,7 @@ $metaDescription = "Zertifizierte Vaillant Thermenwartung in Wien. 24h Service f
 
                 <div class="service-split__media service-media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}"
+                        <img class="service-media__img" src="{{ asset('img/vaillant-4.webp') }}"
                             alt="Fachpartner für Vaillant Thermen" loading="lazy" decoding="async" />
                     </div>
                 </div>

@@ -62,7 +62,7 @@
   .service-hero::before{
     content:"";
     position:absolute; inset:0;
-    background-image:url('img/hero-scetion.jpeg');
+    background-image:url('img/hero-scetion.webp');
     background-size:cover;
     background-position:center;
     transform:scale(1.02);
@@ -362,7 +362,7 @@
             position: absolute;
             inset: 0;
             background:
-                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+                url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
             z-index: 0;
         }
 </style>
@@ -387,7 +387,7 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier-duval Logo">
+        <img src="{{ asset('img/1sauneri.webp') }}" alt="Saunier-duval Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -505,7 +505,7 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/sauneri.jpeg') }}" alt="Saunier Duval Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/sauneri.webp') }}" alt="Saunier Duval Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -634,7 +634,7 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Warum Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Warum Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -693,7 +693,7 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Ablauf der Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-5.webp') }}" alt="Ablauf der Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -784,7 +784,7 @@ $metaDescription = " Saunier Duval Thermenwartung in Wien vom zertifizierten Fac
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-1.jpg') }}" alt="Fachpartner für Saunier Duval Thermen" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-1.webp') }}" alt="Fachpartner für Saunier Duval Thermen" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

@@ -268,7 +268,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("{{ asset('img/hero-scetion.jpeg') }}");
+    background-image: url("{{ asset('img/hero-scetion.webp') }}");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -518,7 +518,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background: url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index: 0;
   }
 </style>
@@ -542,7 +542,7 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Logo">
+        <img src="{{ asset('img/1junkers.webp') }}" alt="Junkers Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -707,7 +707,7 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/junkers.jpeg') }}" alt="Junkers Partner Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/junkers.webp') }}" alt="Junkers Partner Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -794,7 +794,7 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Warum Junkers Thermenwartung wichtig ist" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.webp') }}" alt="Warum Junkers Thermenwartung wichtig ist" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -846,7 +846,7 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf der Junkers Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Ablauf der Junkers Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -941,7 +941,7 @@ $metaDescription = " Professionelle Junkers Thermenwartung in Wien vom Meisterbe
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Meisterbetrieb Junkers Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.webp') }}" alt="Meisterbetrieb Junkers Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

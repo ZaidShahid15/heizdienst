@@ -17,7 +17,7 @@
             content: "";
             position: absolute;
             inset: 0;
-            background-image: url('img/hero-scetion.jpeg');
+            background-image: url('img/hero-scetion.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -212,7 +212,7 @@
 
             {{-- IMAGE SIDE --}}
             <div class="hero-img m-tech">
-                <img src="{{ asset('img/hero-scetion.jpeg') }}" alt="Thermenreparatur">
+                <img src="{{ asset('img/hero-scetion.webp') }}" alt="Thermenreparatur">
 
                 <!-- BADGES (DESKTOP OVERLAY inside image) -->
                 <div class="hero-badges" aria-label="Bewertungen">
@@ -256,7 +256,7 @@
 
             {{-- COPY SIDE --}}
             <div class="hero-copy">
-<img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;"  alt="">
+<img src="{{ asset('img/mainiconhome.webp') }}" class="my-banner" style="position: absolute;z-index:9999;"  alt="">
 
                 <div class="hero-title-visual">Thermenwartung & Thermenservice in Wien & Niederösterreich</div>
                 <p>
@@ -356,7 +356,7 @@
                 <div class="hero-grid">
 
                     <div class="hero-img">
-                        <img src="{{ asset('img/hero-scetion.jpeg') }}" alt="Thermenreparatur">
+                        <img src="{{ asset('img/hero-scetion.webp') }}" alt="Thermenreparatur">
 
                         <!-- BADGES (DESKTOP OVERLAY) -->
                         <div class="hero-badges" aria-label="Bewertungen">
@@ -399,7 +399,7 @@
                     </div>
 
                     <div class="hero-copy position-relative">
-<img src="{{ asset('img/mainiconhome.png') }}" class="my-banner" style="position: absolute;z-index:9999;"  alt="">
+<img src="{{ asset('img/mainiconhome.webp') }}" class="my-banner" style="position: absolute;z-index:9999;"  alt="">
 
                         <h1>Thermenwartung & Thermenservice in Wien & Niederösterreich</h1>
                         <p>
@@ -439,28 +439,28 @@
       <div class="brand-slider-viewport">
         <div class="brand-slider-track">
           <!-- 1st set -->
-          <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
-          <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">
-          <img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">
-          <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">
-          <img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">
-          <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">
-          <img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">
-          <img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">
-          <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">
-          <img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">
+          <img src="{{ asset('img/vaillant1-1.webp') }}" alt="Vaillant">
+          <img src="{{ asset('img/1viesman.webp') }}" alt="Viessmann">
+          <img src="{{ asset('img/1wolf.webp') }}" alt="Wolf">
+          <img src="{{ asset('img/1baxi.webp') }}" alt="Baxi">
+          <img src="{{ asset('img/1buderus.webp') }}" alt="Buderus">
+          <img src="{{ asset('img/1junkers.webp') }}" alt="Junkers">
+          <img src="{{ asset('img/1loblich.webp') }}" alt="Löblich">
+          <img src="{{ asset('img/1oceanbaxi.webp') }}" alt="Ocean">
+          <img src="{{ asset('img/1rapido.webp') }}" alt="Rapido">
+          <img src="{{ asset('img/1sauneri.webp') }}" alt="Saunier Duval">
 
           <!-- ✅ 2nd set (duplicate) for seamless loop -->
-          <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
-          <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">
-          <img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">
-          <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">
-          <img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">
-          <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">
-          <img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">
-          <img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">
-          <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">
-          <img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">
+          <img src="{{ asset('img/vaillant1-1.webp') }}" alt="Vaillant">
+          <img src="{{ asset('img/1viesman.webp') }}" alt="Viessmann">
+          <img src="{{ asset('img/1wolf.webp') }}" alt="Wolf">
+          <img src="{{ asset('img/1baxi.webp') }}" alt="Baxi">
+          <img src="{{ asset('img/1buderus.webp') }}" alt="Buderus">
+          <img src="{{ asset('img/1junkers.webp') }}" alt="Junkers">
+          <img src="{{ asset('img/1loblich.webp') }}" alt="Löblich">
+          <img src="{{ asset('img/1oceanbaxi.webp') }}" alt="Ocean">
+          <img src="{{ asset('img/1rapido.webp') }}" alt="Rapido">
+          <img src="{{ asset('img/1sauneri.webp') }}" alt="Saunier Duval">
         </div>
       </div>
     </div>
@@ -496,7 +496,10 @@
     height: 59px;
     width:auto;
     display:block;
-    border-radius: 999px;
+    border-radius: 14px;
+    background: #fff;
+    border: 1px solid rgba(17, 67, 89, .08);
+    padding: 8px 14px;
   }
 
   /* ✅ Move exactly half, because we duplicated the items */
@@ -646,7 +649,7 @@
                         </h2>
 
                         <div class="divider" aria-hidden="true">
-                            <span class="icon"><img src="{{ asset('img/icon set.jpeg') }}" alt=""></span>
+                            <span class="icon"><img src="{{ asset('img/icon set.webp') }}" alt=""></span>
                         </div>
 
                         <div class="prose">
@@ -951,7 +954,7 @@
             </div>
           </div>
           <div class="stp-img">
-            <img src="{{ asset('img/1st-step.jpeg') }}" class="img-fluid" alt="Heizungsausfall Notdienst">
+            <img src="{{ asset('img/1st-step.webp') }}" class="img-fluid" alt="Heizungsausfall Notdienst">
           </div>
         </article>
       </div>
@@ -966,7 +969,7 @@
             </div>
           </div>
           <div class="stp-img">
-            <img src="{{ asset('img/secondstep.jpeg') }}" class="img-fluid" alt="Anruf beim Thermenservice">
+            <img src="{{ asset('img/secondstep.webp') }}" class="img-fluid" alt="Anruf beim Thermenservice">
           </div>
         </article>
       </div>
@@ -982,7 +985,7 @@
             </div>
           </div>
           <div class="stp-img">
-            <img src="{{ asset('img/thridstep.jpeg') }}" class="img-fluid" alt="Thermenservice Wien">
+            <img src="{{ asset('img/thridstep.webp') }}" class="img-fluid" alt="Thermenservice Wien">
           </div>
         </article>
       </div>
@@ -1172,7 +1175,7 @@
                     <div class="spot-text">
                         <h2>Vaillant Thermenservice & Thermenwartung</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
+                            <img src="{{ asset('img/vaillant.webp') }}" alt="Vaillant">
                         </div>
                         <p>
                             Der Vaillant Thermenservice sorgt für sichere, effiziente und langlebige Vaillant Thermen.
@@ -1189,7 +1192,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Vaillant Therme">
-                        <img src="{{ asset('img/viliant.jpeg') }}" alt="Vaillant Thermenservice">
+                        <img src="{{ asset('img/viliant.webp') }}" alt="Vaillant Thermenservice">
                     </div>
                 </div>
 
@@ -1235,7 +1238,7 @@
                     <div class="spot-text">
                         <h2>Junkers Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">
+                            <img src="{{ asset('img/junkers.webp') }}" alt="Junkers">
                         </div>
                         <p>
                             Beim Junkers Thermenservice steht fachgerechte Wartung und schnelle Reparatur im
@@ -1250,7 +1253,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Junkers Gastherme">
-                        <img src="{{ asset('img/junkers.jpeg') }}" alt="Junkers Thermenwartung">
+                        <img src="{{ asset('img/junkers.webp') }}" alt="Junkers Thermenwartung">
                     </div>
                 </div>
 
@@ -1296,7 +1299,7 @@
                     <div class="spot-text">
                         <h2>Viessmann Thermenwartung</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">
+                            <img src="{{ asset('img/viessmann.webp') }}" alt="Viessmann">
                         </div>
                         <p>
                             Mit der Viessmann Thermenwartung sichern Sie sich höchste Effizienz und Zuverlässigkeit.
@@ -1310,7 +1313,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Viessmann Therme">
-                        <img src="{{ asset('img/viesman.jpeg') }}" alt="Viessmann Thermenservice">
+                        <img src="{{ asset('img/viesman.webp') }}" alt="Viessmann Thermenservice">
                     </div>
                 </div>
 
@@ -1356,7 +1359,7 @@
                     <div class="spot-text">
                         <h2>Wolf Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">
+                            <img src="{{ asset('img/wolf.webp') }}" alt="Wolf">
                         </div>
                         <p>
                             Der Wolf Thermenservice bietet professionelle Wartung und Reparatur für moderne Wolf
@@ -1370,7 +1373,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Wolf Therme">
-                        <img src="{{ asset('img/wolf.jpeg') }}" alt="Wolf Thermenservice">
+                        <img src="{{ asset('img/wolf.webp') }}" alt="Wolf Thermenservice">
                     </div>
                 </div>
 
@@ -1416,7 +1419,7 @@
                     <div class="spot-text">
                         <h2>Baxi Thermenwartung</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">
+                            <img src="{{ asset('img/baxi.webp') }}" alt="Baxi">
                         </div>
                         <p>
                             Die Baxi Thermenwartung gewährleistet eine gleichbleibend hohe Leistung und
@@ -1430,7 +1433,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Baxi Therme">
-                        <img src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Thermenservice">
+                        <img src="{{ asset('img/baxi.webp') }}" alt="Baxi Thermenservice">
                     </div>
                 </div>
 
@@ -1476,7 +1479,7 @@
                     <div class="spot-text">
                         <h2>Buderus Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">
+                            <img src="{{ asset('img/buderus.webp') }}" alt="Buderus">
                         </div>
                         <p>
                             Mit unserem Buderus Thermenservice stellen wir sicher, dass Ihre Buderus Geräte zuverlässig
@@ -1491,7 +1494,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Buderus Therme">
-                        <img src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Thermenservice">
+                        <img src="{{ asset('img/buderus.webp') }}" alt="Buderus Thermenservice">
                     </div>
                 </div>
 
@@ -1537,7 +1540,7 @@
                     <div class="spot-text">
                         <h2>Saunier Duval Thermenwartung</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">
+                            <img src="{{ asset('img/saunier-duval.webp') }}" alt="Saunier Duval">
                         </div>
                         <p>
                             Die Saunier Duval Thermenwartung ist speziell auf die Anforderungen dieser Marke abgestimmt.
@@ -1552,7 +1555,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Saunier Duval Therme">
-                        <img src="{{ asset('img/sauneri.jpeg') }}" alt="Saunier Duval Thermenservice">
+                        <img src="{{ asset('img/sauneri.webp') }}" alt="Saunier Duval Thermenservice">
                     </div>
                 </div>
 
@@ -1598,7 +1601,7 @@
                     <div class="spot-text">
                         <h2>Löblich Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">
+                            <img src="{{ asset('img/loeblich.webp') }}" alt="Löblich">
                         </div>
                         <p>
                             Der Löblich Thermenservice richtet sich an Kunden mit bestehenden Löblich Geräten. Wir
@@ -1611,7 +1614,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Löblich Therme">
-                        <img src="{{ asset('img/loblich.jpeg') }}" alt="Löblich Thermenservice">
+                        <img src="{{ asset('img/loblich.webp') }}" alt="Löblich Thermenservice">
                     </div>
                 </div>
 
@@ -1657,7 +1660,7 @@
                     <div class="spot-text">
                         <h2>Ocean Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">
+                            <img src="{{ asset('img/ocean.webp') }}" alt="Ocean">
                         </div>
                         <p>
                             Beim Ocean Thermenservice kümmern wir uns um die zuverlässige Wartung und Reparatur Ihrer
@@ -1670,7 +1673,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Ocean Therme">
-                        <img src="{{ asset('img/oceanbaxi.jpeg') }}" alt="Ocean Thermenservice">
+                        <img src="{{ asset('img/oceanbaxi.webp') }}" alt="Ocean Thermenservice">
                     </div>
                 </div>
 
@@ -1716,7 +1719,7 @@
                     <div class="spot-text">
                         <h2>Rapido Gasgeräte Service</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">
+                            <img src="{{ asset('img/rapido.webp') }}" alt="Rapido">
                         </div>
                         <p>
                             Der Rapido Gasgeräte Service bietet fachgerechte Wartung und Reparatur für Rapido Gasgeräte.
@@ -1729,7 +1732,7 @@
                     </div>
 
                     <div class="spot-img" aria-label="Rapido Therme">
-                        <img src="{{ asset('img/rapido.jpeg') }}" alt="Rapido Thermenservice">
+                        <img src="{{ asset('img/rapido.webp') }}" alt="Rapido Thermenservice">
                     </div>
                 </div>
 
@@ -2270,16 +2273,16 @@ html{ scroll-behavior:smooth; }
                 <h2 class="brands-title">Gasthermen</h2>
 
                 <div class="brands-logos">
-                    <img src="{{ asset('img/vaillant.jpg') }}" alt="Vaillant">
-                    <img src="{{ asset('img/junkers.jpg') }}" alt="Junkers">
-                    <img src="{{ asset('img/baxi.jpg') }}" alt="Baxi">
-                    <img src="{{ asset('img/buderus.jpg') }}" alt="Buderus">
-                    <img src="{{ asset('img/saunier-duval.jpg') }}" alt="Saunier Duval">
-                    <img src="{{ asset('img/wolf.jpg') }}" alt="Wolf">
-                    <img src="{{ asset('img/viessmann.jpg') }}" alt="Viessmann">
-                    <img src="{{ asset('img/loeblich.jpg') }}" alt="Löblich">
-                    <img src="{{ asset('img/ocean.jpg') }}" alt="Ocean">
-                    <img src="{{ asset('img/rapido.jpg') }}" alt="Rapido">
+                    <img src="{{ asset('img/vaillant1-1.webp') }}" alt="Vaillant">
+                    <img src="{{ asset('img/1junkers.webp') }}" alt="Junkers">
+                    <img src="{{ asset('img/1baxi.webp') }}" alt="Baxi">
+                    <img src="{{ asset('img/1buderus.webp') }}" alt="Buderus">
+                    <img src="{{ asset('img/1sauneri.webp') }}" alt="Saunier Duval">
+                    <img src="{{ asset('img/1wolf.webp') }}" alt="Wolf">
+                    <img src="{{ asset('img/1viesman.webp') }}" alt="Viessmann">
+                    <img src="{{ asset('img/1loblich.webp') }}" alt="Löblich">
+                    <img src="{{ asset('img/1oceanbaxi.webp') }}" alt="Ocean">
+                    <img src="{{ asset('img/1rapido.webp') }}" alt="Rapido">
                 </div>
 
                 <p class="brands-note">Wir warten und reparieren alle gängigen Marken für Sie.</p>

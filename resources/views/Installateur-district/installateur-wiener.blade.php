@@ -261,7 +261,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -561,7 +561,7 @@ $metaDescription = "Installateur Wiener Neustadt für Sanitär, Heizung, Rohrrei
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size1.jpeg') }}" alt="Installateur Wiener Neustadt Team" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size1.webp') }}" alt="Installateur Wiener Neustadt Team" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -639,7 +639,7 @@ $metaDescription = "Installateur Wiener Neustadt für Sanitär, Heizung, Rohrrei
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Heizung und Sanitär" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Heizung und Sanitär" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -673,7 +673,7 @@ $metaDescription = "Installateur Wiener Neustadt für Sanitär, Heizung, Rohrrei
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Preise und Beratung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.webp') }}" alt="Preise und Beratung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -702,7 +702,7 @@ $metaDescription = "Installateur Wiener Neustadt für Sanitär, Heizung, Rohrrei
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Ablauf und Termin" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.webp') }}" alt="Ablauf und Termin" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -727,7 +727,7 @@ $metaDescription = "Installateur Wiener Neustadt für Sanitär, Heizung, Rohrrei
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Wiener Neustadt und Umgebung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Wiener Neustadt und Umgebung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -752,7 +752,7 @@ $metaDescription = "Installateur Wiener Neustadt für Sanitär, Heizung, Rohrrei
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Rohrreinigung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Rohrreinigung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

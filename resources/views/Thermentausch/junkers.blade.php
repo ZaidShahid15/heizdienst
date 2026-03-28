@@ -269,7 +269,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -379,7 +379,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
     opacity:.5;
   }
@@ -547,7 +547,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers Logo">
+        <img src="{{ asset('img/1junkers.webp') }}" alt="Junkers Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -662,7 +662,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Junkers Thermentausch Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size6.webp') }}" alt="Junkers Thermentausch Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -739,7 +739,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Junkers Thermentausch Ablauf" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size3.webp') }}" alt="Junkers Thermentausch Ablauf" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -801,7 +801,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Kosten Junkers Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size5.webp') }}" alt="Kosten Junkers Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -829,7 +829,7 @@ $metaDescription = "Junkers Thermentausch in Wien ✔ HG15 Gastherme & Kombither
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Junkers Thermentausch Region" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size.webp') }}" alt="Junkers Thermentausch Region" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

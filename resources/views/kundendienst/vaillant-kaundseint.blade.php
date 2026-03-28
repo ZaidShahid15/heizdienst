@@ -229,7 +229,7 @@
   .wolf-hero::before{
     content:"";
     position:absolute; inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -322,7 +322,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
@@ -511,7 +511,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant-kaundseint Logo">
+        <img src="{{ asset('img/vaillant1-1.webp') }}" alt="Vaillant-kaundseint Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -629,7 +629,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
 
         <div class="card-split__media">
           <div class="img-box">
-            <img src="{{ asset('img/viliant.jpeg') }}" alt="Vaillant Service in Wien" loading="lazy" decoding="async">
+            <img src="{{ asset('img/viliant.webp') }}" alt="Vaillant Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -662,7 +662,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
 
         <div class="card-split__media">
           <div class="img-box">
-            <img src="{{ asset('img/vaillant-3.jpg') }}" alt="Kundendienst Techniker & Fachpersonal" loading="lazy" decoding="async">
+            <img src="{{ asset('img/vaillant-3.webp') }}" alt="Kundendienst Techniker & Fachpersonal" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -695,7 +695,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
 
         <div class="card-split__media">
           <div class="img-box">
-            <img src="{{ asset('img/vaillant-4.jpg') }}" alt="Wartung für Vaillant Therme" loading="lazy" decoding="async">
+            <img src="{{ asset('img/vaillant-4.webp') }}" alt="Wartung für Vaillant Therme" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -788,7 +788,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
 
         <div class="card-split__media">
           <div class="img-box">
-            <img src="{{ asset('img/vaillant-5.jpg') }}" alt="Reparatur & Ersatzteile" loading="lazy" decoding="async">
+            <img src="{{ asset('img/vaillant-5.webp') }}" alt="Reparatur & Ersatzteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -850,7 +850,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
 
         <div class="card-split__media">
           <div class="img-box">
-            <img src="{{ asset('img/vaillant-6.jpg') }}" alt="Preis & Angebot" loading="lazy" decoding="async">
+            <img src="{{ asset('img/vaillant-6.webp') }}" alt="Preis & Angebot" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -873,7 +873,7 @@ $metaDescription = "Professioneller Vaillant Kundendienst Wien für Therme, Gasg
 
         <div class="card-split__media">
           <div class="img-box">
-            <img src="{{ asset('img/vaillant-2.jpg') }}" alt="Lokale Abdeckung Wien & NÖ" loading="lazy" decoding="async">
+            <img src="{{ asset('img/vaillant-2.webp') }}" alt="Lokale Abdeckung Wien & NÖ" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

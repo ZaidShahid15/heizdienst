@@ -378,7 +378,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
     opacity:.22;
   }
@@ -542,7 +542,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier-duval-notdienst-wien Logo">
+        <img src="{{ asset('img/1sauneri.webp') }}" alt="Saunier-duval-notdienst-wien Logo">
       </div>
 
        <div class="wolf-hero__sub">
@@ -679,7 +679,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/sauneri.jpeg') }}" alt="Saunier Duval Kundendienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/sauneri.webp') }}" alt="Saunier Duval Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -852,7 +852,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Saunier Duval Thermenwartung Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.webp') }}" alt="Saunier Duval Thermenwartung Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -878,7 +878,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Saunier Duval Reparatur & Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Saunier Duval Reparatur & Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -932,7 +932,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Einsatzgebiet Wien und Niederösterreich" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Einsatzgebiet Wien und Niederösterreich" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -965,7 +965,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Saunier Duval Team & Weiterbildung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.webp') }}" alt="Saunier Duval Team & Weiterbildung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -992,7 +992,7 @@ $metaDescription = "Saunier Duval Thermenwartung Wien ✔ Kundendienst, Wartung 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size7.jpeg') }}" alt="Vorteile & Beratung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size7.webp') }}" alt="Vorteile & Beratung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

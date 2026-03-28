@@ -368,7 +368,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
     opacity:.55;
   }
@@ -512,7 +512,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1junkers.jpeg') }}" alt="Junkers-notdienst-wien Logo">
+        <img src="{{ asset('img/1junkers.webp') }}" alt="Junkers-notdienst-wien Logo">
       </div>
 
        <div class="wolf-hero__sub">
@@ -651,7 +651,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/junkers.jpeg') }}" alt="Junkers Kundendienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/junkers.webp') }}" alt="Junkers Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -758,7 +758,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Thermenservice & Wartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size3.webp') }}" alt="Thermenservice & Wartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -785,7 +785,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Junkers Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size.webp') }}" alt="Junkers Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -811,7 +811,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/2size5.jpeg') }}" alt="Einsatzgebiet Wien NÖ Bgld" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size5.webp') }}" alt="Einsatzgebiet Wien NÖ Bgld" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -844,7 +844,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.jpeg') }}" alt="Transparente Preise" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.webp') }}" alt="Transparente Preise" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -915,7 +915,7 @@ $metaDescription = "Junkers Notdienst Wien ✔ Rund um die Uhr erreichbar ✔ Ku
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Team & Partner" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size6.webp') }}" alt="Team & Partner" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

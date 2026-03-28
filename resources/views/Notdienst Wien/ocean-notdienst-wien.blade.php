@@ -375,7 +375,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
   .promo-banner{margin-top:18px;}
@@ -524,7 +524,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean-notdienst-wien Logo">
+        <img src="{{ asset('img/1oceanbaxi.webp') }}" alt="Ocean-notdienst-wien Logo">
       </div>
 
        <div class="wolf-hero__sub">
@@ -663,7 +663,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/oceanbaxi.jpeg') }}" alt="Ocean Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/oceanbaxi.webp') }}" alt="Ocean Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -696,7 +696,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.webp') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -789,7 +789,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.webp') }}" alt="Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -822,7 +822,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -885,7 +885,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.webp') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -908,7 +908,7 @@ $metaDescription = "Ocean Thermenservice Wien ✔ Notdienst rund um die Uhr ✔ 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

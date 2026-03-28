@@ -1,7 +1,7 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 @section("main")
-  <title>Windhager Thermenwartung Wien â€“ Service & Notdienst</title>
-  <meta name="description" content="Professionelle Windhager Thermenwartung Wien durch erfahrene Experten fÃ¼r Sicherheit, Effizienz und zuverlÃ¤ssigen Betrieb. Notdienst in Wien NÃ– & Burgenland.">
+  <title>Windhager Thermenwartung Wien – Service & Notdienst</title>
+  <meta name="description" content="Professionelle Windhager Thermenwartung Wien durch erfahrene Experten für Sicherheit, Effizienz und zuverlässigen Betrieb. Notdienst in Wien NÖ & Burgenland.">
   <style>
     :root{
       --ink:#184048;
@@ -86,7 +86,7 @@
     .service-feature h3{margin:0 0 4px; color:var(--ink)}
     .service-feature p{margin:0}
 
-    /* âœ… stats pills (2 in a row) */
+    /* ? stats pills (2 in a row) */
     .service-stats{
       display:grid;
       grid-template-columns: repeat(2, minmax(0,1fr));
@@ -199,19 +199,19 @@
     textarea{resize:vertical}
     .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-    /* ===== âœ… Card split (EQUAL HEIGHT like your previous site) ===== */
+    /* ===== ? Card split (EQUAL HEIGHT like your previous site) ===== */
     .card-split{
       display:grid;
       grid-template-columns: 1.12fr .88fr;
       gap:18px;
-      align-items:stretch; /* âœ… stretch for equal height */
+      align-items:stretch; /* ? stretch for equal height */
     }
     .card-split--reverse .card-split__text{order:2}
     .card-split--reverse .card-split__media{order:1}
 
     .card-split__text,
     .card-split__media{
-      display:flex; /* âœ… make children fill height */
+      display:flex; /* ? make children fill height */
     }
 
     .card-box{
@@ -231,11 +231,11 @@
     .card-box p{margin:0}
     .card-box p + p{margin-top:10px}
 
-    /* âœ… Image box = equal height with content (fills full) */
+    /* ? Image box = equal height with content (fills full) */
     .service-media{width:100%;}
     .service-media__box{
       width:100%;
-      height:100%;            /* âœ… same height as text card */
+      height:100%;            /* ? same height as text card */
       border-radius: var(--radius2);
       border:1px solid var(--line);
       box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -266,7 +266,7 @@
       content:"";
       position:absolute;
       inset:0;
-      background-image:url("img/hero-scetion.jpeg");
+      background-image:url("img/hero-scetion.webp");
       background-size:cover;
       background-position:left center;
       transform:scale(1.02);
@@ -365,12 +365,12 @@
       content:"";
       position:absolute;
       inset:0;
-      background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+      background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
       z-index:0;
     }
 
     /* =========================
-       âœ… TOC (after hero, full width)
+       ? TOC (after hero, full width)
        ========================= */
     .toc-wrap{padding:16px 0 0; background:#fff;}
     .toc-card{
@@ -457,14 +457,14 @@
       .card-split__text,
       .card-split__media{display:block;}
 
-      .service-media__box{min-height:220px; height:auto;} /* âœ… nice on mobile */
+      .service-media__box{min-height:220px; height:auto;} /* ? nice on mobile */
       .wolf-hero{padding:120px 14px 90px; min-height:480px;}
       .wolf-hero__sub{font-size:14px}
     }
   </style>
 @php
 $metaTitle = " Windhager Thermenwartung Wien | Notdienst, Reparatur & Service";
-$metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager Kundendienst, Notdienst & Thermenservice in Wien NiederÃ¶sterreich und Burgenland.";
+$metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager Kundendienst, Notdienst & Thermenservice in Wien Niederösterreich und Burgenland.";
 @endphp
 
 @push('meta')
@@ -482,11 +482,11 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/Windhager.png') }}" alt="Windhager Logo">
+        <img src="{{ asset('img/1Windhager.webp') }}" alt="Windhager Logo">
       </div>
 
       <p class="wolf-hero__sub">
-        Professionelle Windhager Thermenwartung Wien vom zertifizierten Fachbetrieb â€“ rund um die Uhr verfÃ¼gbar fÃ¼r Wartung Ihrer Windhager Therme,
+        Professionelle Windhager Thermenwartung Wien vom zertifizierten Fachbetrieb – rund um die Uhr verfügbar für Wartung Ihrer Windhager Therme,
         Thermenservice, Reparatur und Notdienst in Wien und Umgebung.
       </p>
 
@@ -525,7 +525,7 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            GeprÃ¼fte Experten
+            Geprüfte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -557,7 +557,7 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
             <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Partner</span></a></li>
-            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">GerÃ¤te</span></a></li>
+            <li class="toc-item"><a href="#partner-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Geräte</span></a></li>
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Dienstleistungen</span></a></li>
             <li class="toc-item"><a href="#warum-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Warum Wartung</span></a></li>
             <li class="toc-item"><a href="#reparatur-services" class="toc-link"><span class="toc-badge">05</span><span class="toc-text">Ablauf</span></a></li>
@@ -572,109 +572,109 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
     </div>
   </section>
 
-  <!-- Section 1: Ihr Windhager Partner in Wien NiederÃ¶sterreich -->
+  <!-- Section 1: Ihr Windhager Partner in Wien Niederösterreich -->
   <section class="service-section" id="vorteile-services">
     <div class="service-container">
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Ihr Windhager Partner in Wien NiederÃ¶sterreich</h2>
+            <h2>Ihr Windhager Partner in Wien Niederösterreich</h2>
             <p>
-              Als erfahrener Partner fÃ¼r Windhager <a href="{{ route('rapido.thermenwartung') }}"> Thermenwartung Wien </a> betreuen wir Privatkunden und Betriebe in Wien NiederÃ¶sterreich und Burgenland. Unsere Windhager Experten verfÃ¼gen Ã¼ber fundiertes Fachwissen und langjÃ¤hrige Erfahrung im Umgang mit jeder Windhager Therme, Gastherme und modernen Heizungsanlage.
+              Als erfahrener Partner für Windhager <a href="{{ route('rapido.thermenwartung') }}"> Thermenwartung Wien </a> betreuen wir Privatkunden und Betriebe in Wien Niederösterreich und Burgenland. Unsere Windhager Experten verfügen über fundiertes Fachwissen und langjährige Erfahrung im Umgang mit jeder Windhager Therme, Gastherme und modernen Heizungsanlage.
             </p>
             <p>
-              Wir arbeiten nach Hersteller Standards und fÃ¼hren sÃ¤mtliche Wartungsarbeiten mit hÃ¶chster ProfessionalitÃ¤t durch. Als Meisterbetrieb und Installateur garantieren wir Sicherheit, Effizienz und ZuverlÃ¤ssigkeit im laufenden Betrieb Ihrer Heizung. Unser Engagement fÃ¼r QualitÃ¤t und Kundenzufriedenheit macht uns zum verlÃ¤sslichen Partner in Wien NÃ– und BGld â€“ direkt bei Ihnen vor Ort.
+              Wir arbeiten nach Hersteller Standards und führen sämtliche Wartungsarbeiten mit höchster Professionalität durch. Als Meisterbetrieb und Installateur garantieren wir Sicherheit, Effizienz und Zuverlässigkeit im laufenden Betrieb Ihrer Heizung. Unser Engagement für Qualität und Kundenzufriedenheit macht uns zum verlässlichen Partner in Wien NÖ und BGld – direkt bei Ihnen vor Ort.
             </p>
           </div>
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="img/1Windhager.jpeg" alt="Windhager Partner in Wien NiederÃ¶sterreich" loading="lazy" decoding="async">
+            <img class="service-media__img" src="img/1Windhager.webp" alt="Windhager Partner in Wien Niederösterreich" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section 2: FÃ¼r welche Windhager GerÃ¤te & Systeme? -->
+  <!-- Section 2: Für welche Windhager Geräte & Systeme? -->
   <section class="service-section service-section--soft" id="partner-services">
     <div class="service-container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>FÃ¼r welche Windhager GerÃ¤te & Systeme?</h2>
+            <h2>Für welche Windhager Geräte & Systeme?</h2>
             <p>
               <strong>Windhager Therme und Gastherme Modelle</strong><br>
-              Unsere Windhager Thermenwartung Wien umfasst sÃ¤mtliche Windhager GerÃ¤te fÃ¼r private Besitzer und gewerbliche Kunden in Wien NiederÃ¶sterreich und Burgenland. Wir betreuen jede Windhager Therme, klassische Gastherme sowie moderne Heizungsanlagen mit hÃ¶chster ProfessionalitÃ¤t.
+              Unsere Windhager Thermenwartung Wien umfasst sämtliche Windhager Geräte für private Besitzer und gewerbliche Kunden in Wien Niederösterreich und Burgenland. Wir betreuen jede Windhager Therme, klassische Gastherme sowie moderne Heizungsanlagen mit höchster Professionalität.
             </p>
             <p>
-              Ob einzelne GasgerÃ¤te oder komplette Heizungsanlage â€“ unser Team prÃ¼ft den Zustand aller Komponenten sorgfÃ¤ltig. Dabei kontrollieren wir Heizkreislauf, Heizungsanlagen und sicherheitsrelevante Bauteile direkt vor Ort in Wien NÃ– oder BGld. Durch unsere Expertise gewÃ¤hrleisten wir zuverlÃ¤ssigen Betrieb, optimale Effizienz und nachhaltige LÃ¶sung fÃ¼r jede Windhager Anlage.
+              Ob einzelne Gasgeräte oder komplette Heizungsanlage – unser Team prüft den Zustand aller Komponenten sorgfältig. Dabei kontrollieren wir Heizkreislauf, Heizungsanlagen und sicherheitsrelevante Bauteile direkt vor Ort in Wien NÖ oder BGld. Durch unsere Expertise gewährleisten wir zuverlässigen Betrieb, optimale Effizienz und nachhaltige Lösung für jede Windhager Anlage.
             </p>
           </div>
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="img/vaillant-8.jpg" alt="Windhager GerÃ¤te und Systeme" loading="lazy" decoding="async">
+            <img class="service-media__img" src="img/vaillant-8.webp" alt="Windhager Geräte und Systeme" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section 3: Dienstleistungen fÃ¼r Ihre Windhager Therme (Grid) -->
+  <!-- Section 3: Dienstleistungen für Ihre Windhager Therme (Grid) -->
   <section class="service-section" id="leistungen-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>Dienstleistungen fÃ¼r Ihre Windhager Therme</h2>
+        <h2>Dienstleistungen für Ihre Windhager Therme</h2>
         <p>Umfassender Windhager Thermenservice, Wartung, Reparatur und Notdienst in Wien und Umgebung.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ› ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">???</div>
           <div>
             <h3>Windhager Thermenwartung Wien</h3>
-            <p>Die regelmÃ¤ÃŸige Windhager Thermenwartung Wien erhÃ¶ht die Lebensdauer und sorgt fÃ¼r maximale Sicherheit. Durch professionelle Wartung werden MÃ¤ngel frÃ¼hzeitig erkannt.</p>
+            <p>Die regelmäßige Windhager Thermenwartung Wien erhöht die Lebensdauer und sorgt für maximale Sicherheit. Durch professionelle Wartung werden Mängel frühzeitig erkannt.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ”§</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Windhager Thermenservice & Kontrolle</h3>
-            <p>GrÃ¼ndliche Reinigung, Kontrolle aller GasgerÃ¤te, PrÃ¼fung von Heizkreislauf und Optimierung fÃ¼r bessere Effizienz.</p>
+            <p>Gründliche Reinigung, Kontrolle aller Gasgeräte, Prüfung von Heizkreislauf und Optimierung für bessere Effizienz.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ“</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Windhager Kundendienst Wien</h3>
-            <p>Schnelle Hilfe, persÃ¶nliche Beratung und zuverlÃ¤ssige Betreuung in Wien NiederÃ¶sterreich bei jedem Problem.</p>
+            <p>Schnelle Hilfe, persönliche Beratung und zuverlässige Betreuung in Wien Niederösterreich bei jedem Problem.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">âš™ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
-            <h3>Windhager Reparatur bei StÃ¶rungen</h3>
-            <p>Bei Fehlern wie E02 Ãœberhitzungsschutz fÃ¼hren wir fachgerechte Reparatur vor Ort durch â€“ defekte Teile werden rasch getauscht.</p>
+            <h3>Windhager Reparatur bei Störungen</h3>
+            <p>Bei Fehlern wie E02 Überhitzungsschutz führen wir fachgerechte Reparatur vor Ort durch – defekte Teile werden rasch getauscht.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸš¨</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Windhager Notdienst & Einsatz</h3>
-            <p>Rund um die Uhr in Wien NÃ– und Burgenland erreichbar. Wir reagieren sofort, um Sicherheit und Betrieb Ihrer Gastherme zu gewÃ¤hrleisten.</p>
+            <p>Rund um die Uhr in Wien NÖ und Burgenland erreichbar. Wir reagieren sofort, um Sicherheit und Betrieb Ihrer Gastherme zu gewährleisten.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ”„</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Windhager Thermentausch & Austausch</h3>
-            <p>Bei veralteter Anlage beraten wir zum Thermentausch oder Austausch einzelner Komponenten â€“ passende LÃ¶sung fÃ¼r moderne Heizungen.</p>
+            <p>Bei veralteter Anlage beraten wir zum Thermentausch oder Austausch einzelner Komponenten – passende Lösung für moderne Heizungen.</p>
           </div>
         </article>
       </div>
@@ -689,21 +689,21 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
           <div class="card-box">
             <h2>Warum Windhager Thermenwartung entscheidend ist</h2>
             <p>
-              Eine professionelle Windhager Thermenwartung sorgt fÃ¼r sicheren Betrieb Ihrer Windhager Therme in Wien NiederÃ¶sterreich. Durch regelmÃ¤ÃŸige Wartung, Reinigung und ÃœberprÃ¼fung werden Ablagerungen, VerschleiÃŸteile und versteckte MÃ¤ngel rechtzeitig erkannt.
+              Eine professionelle Windhager Thermenwartung sorgt für sicheren Betrieb Ihrer Windhager Therme in Wien Niederösterreich. Durch regelmäßige Wartung, Reinigung und Überprüfung werden Ablagerungen, Verschleißteile und versteckte Mängel rechtzeitig erkannt.
             </p>
             <p>
-              Unsere Experten prÃ¼fen Zustand, Heizkreislauf und sÃ¤mtliche GasgerÃ¤te sorgfÃ¤ltig. Das erhÃ¶ht Effizienz, senkt Energieverbrauch und verlÃ¤ngert die Lebensdauer Ihrer Heizungsanlage deutlich. Eine gut gewartete Gastherme arbeitet zuverlÃ¤ssiger und schÃ¼tzt Besitzer vor teuren Reparatur Kosten. Mit unserem Wartungsservice garantieren wir hÃ¶chste Standards, professionelle Arbeit und nachhaltige LÃ¶sung fÃ¼r langfristige Sicherheit und Wohnkomfort.
+              Unsere Experten prüfen Zustand, Heizkreislauf und sämtliche Gasgeräte sorgfältig. Das erhöht Effizienz, senkt Energieverbrauch und verlängert die Lebensdauer Ihrer Heizungsanlage deutlich. Eine gut gewartete Gastherme arbeitet zuverlässiger und schützt Besitzer vor teuren Reparatur Kosten. Mit unserem Wartungsservice garantieren wir höchste Standards, professionelle Arbeit und nachhaltige Lösung für langfristige Sicherheit und Wohnkomfort.
             </p>
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">HÃ¶chste Standards</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Professionelle Arbeit</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Nachhaltige LÃ¶sung</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Höchste Standards</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Professionelle Arbeit</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Nachhaltige Lösung</div></div>
             </div>
           </div>
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="img/vaillant-9.jpg" alt="Warum Windhager Thermenwartung wichtig ist" loading="lazy" decoding="async">
+            <img class="service-media__img" src="img/vaillant-9.webp" alt="Warum Windhager Thermenwartung wichtig ist" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -719,41 +719,41 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
             <h2>Ablauf der Windhager Thermenwartung</h2>
             <p>
               <strong>So erfolgt unsere Wartung</strong><br>
-              Die Windhager Thermenwartung Wien beginnt mit einer Terminvereinbarung in Wien oder NiederÃ¶sterreich. Unsere Techniker kommen pÃ¼nktlich zum vereinbarten Ort und starten mit einer umfassenden ÃœberprÃ¼fung Ihrer Windhager Therme.
+              Die Windhager Thermenwartung Wien beginnt mit einer Terminvereinbarung in Wien oder Niederösterreich. Unsere Techniker kommen pünktlich zum vereinbarten Ort und starten mit einer umfassenden Überprüfung Ihrer Windhager Therme.
             </p>
             <p>
-              Im Rahmen der Wartungsarbeiten fÃ¼hren wir eine grÃ¼ndliche Reinigung durch, entfernen Ablagerungen und prÃ¼fen sicherheitsrelevante Komponenten. Besonderes Augenmerk legen wir auf ÃœberprÃ¼fung von Heizkreislauf, GasgerÃ¤te und Heizungsanlage. AbschlieÃŸend optimieren wir Einstellungen fÃ¼r bessere Effizienz und Energieeinsparung. Unsere Profis dokumentieren den Zustand der Anlage und beraten Sie transparent zu weiterem Wert, mÃ¶glichem Austausch oder notwendiger Reparatur.
+              Im Rahmen der Wartungsarbeiten führen wir eine gründliche Reinigung durch, entfernen Ablagerungen und prüfen sicherheitsrelevante Komponenten. Besonderes Augenmerk legen wir auf Überprüfung von Heizkreislauf, Gasgeräte und Heizungsanlage. Abschließend optimieren wir Einstellungen für bessere Effizienz und Energieeinsparung. Unsere Profis dokumentieren den Zustand der Anlage und beraten Sie transparent zu weiterem Wert, möglichem Austausch oder notwendiger Reparatur.
             </p>
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Terminvereinbarung</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">GrÃ¼ndliche Reinigung</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Optimierung & Beratung</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Terminvereinbarung</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Gründliche Reinigung</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Optimierung & Beratung</div></div>
             </div>
           </div>
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="img/vaillant-11.jpg" alt="Ablauf der Windhager Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="img/vaillant-11.webp" alt="Ablauf der Windhager Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section 6: Windhager Notdienst Wien NÃ– BGld (dark) -->
+  <!-- Section 6: Windhager Notdienst Wien NÖ BGld (dark) -->
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="service-container service-emergency">
       <div class="service-emergency__text">
-        <h2>Windhager Notdienst Wien NÃ– BGld</h2>
+        <h2>Windhager Notdienst Wien NÖ BGld</h2>
         <p>
-  Bei einem akuten Problem steht Ihnen unser Windhager Notdienst in Wien, NiederÃ¶sterreich und Burgenland jederzeit zur VerfÃ¼gung. Der Notdienst reagiert rasch, um Sicherheit und Betrieb Ihrer Windhager Therme sicherzustellen â€“ besonders dann, wenn eine regelmÃ¤ÃŸige
+  Bei einem akuten Problem steht Ihnen unser Windhager Notdienst in Wien, Niederösterreich und Burgenland jederzeit zur Verfügung. Der Notdienst reagiert rasch, um Sicherheit und Betrieb Ihrer Windhager Therme sicherzustellen – besonders dann, wenn eine regelmäßige
   <a href="{{ route('home') }}" style="text-decoration:underline; color:inherit;">
     Thermenwartung Wien
   </a>
-  vernachlÃ¤ssigt wurde oder plÃ¶tzlich StÃ¶rungen auftreten.
+  vernachlässigt wurde oder plötzlich Störungen auftreten.
 </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Unser Windhager Notdienst Ã¼bernimmt die schnelle Behebung von StÃ¶rungen, damit Heizungsprobleme oder AusfÃ¤lle Ihrer Gastherme keine langen Unterbrechungen verursachen. Im Einsatz handeln unsere Experten effizient, professionell und lÃ¶sungsorientiert â€“ fÃ¼r maximale ZuverlÃ¤ssigkeit.
+          Unser Windhager Notdienst übernimmt die schnelle Behebung von Störungen, damit Heizungsprobleme oder Ausfälle Ihrer Gastherme keine langen Unterbrechungen verursachen. Im Einsatz handeln unsere Experten effizient, professionell und lösungsorientiert – für maximale Zuverlässigkeit.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
@@ -763,15 +763,15 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische NotfÃ¤lle</h3>
+          <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Ausfall der Gastherme / Heizung</li>
-            <li>PlÃ¶tzliche StÃ¶rungen & Fehlermeldungen</li>
-            <li>Fehlercode E02 (Ãœberhitzungsschutz)</li>
+            <li>Plötzliche Störungen & Fehlermeldungen</li>
+            <li>Fehlercode E02 (Überhitzungsschutz)</li>
             <li>Akute Heizungsprobleme</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die Uhr im Einsatz â€“ Wien, NiederÃ¶sterreich und Burgenland.
+            Rund um die Uhr im Einsatz – Wien, Niederösterreich und Burgenland.
           </p>
         </div>
       </div>
@@ -786,16 +786,16 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
           <div class="card-box">
             <h2>Preise, Service & Transparenz</h2>
             <p>
-              Bei unserer Windhager Thermenwartung Wien setzen wir auf transparente Preise und nachvollziehbare Kostenstruktur. SÃ¤mtliche Dienstleistungen, Reparatur oder Wartung werden offen kommuniziert â€“ ohne versteckte GebÃ¼hren.
+              Bei unserer Windhager Thermenwartung Wien setzen wir auf transparente Preise und nachvollziehbare Kostenstruktur. Sämtliche Dienstleistungen, Reparatur oder Wartung werden offen kommuniziert – ohne versteckte Gebühren.
             </p>
             <p>
-              RegelmÃ¤ÃŸige Wartung schÃ¼tzt Ihre Windhager Therme vor grÃ¶ÃŸeren SchÃ¤den und spart langfristig Energie sowie Kosten. Unser Service steht fÃ¼r ProfessionalitÃ¤t, Engagement und faire Betreuung in Wien NiederÃ¶sterreich. So sichern wir Kundenzufriedenheit und nachhaltige LÃ¶sung fÃ¼r Ihre Heizung.
+              Regelmäßige Wartung schützt Ihre Windhager Therme vor größeren Schäden und spart langfristig Energie sowie Kosten. Unser Service steht für Professionalität, Engagement und faire Betreuung in Wien Niederösterreich. So sichern wir Kundenzufriedenheit und nachhaltige Lösung für Ihre Heizung.
             </p>
           </div>
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="img/vaillant-3.jpg" alt="Transparente Preise fÃ¼r Windhager Service" loading="lazy" decoding="async">
+            <img class="service-media__img" src="img/vaillant-3.webp" alt="Transparente Preise für Windhager Service" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -810,21 +810,21 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
           <div class="card-box">
             <h2>Ihr Windhager Meisterbetrieb in Wien</h2>
             <p>
-              Als Meisterbetrieb und verlÃ¤sslicher Partner fÃ¼r Windhager Thermenwartung Wien stehen wir fÃ¼r Fachwissen, Erfahrung und hÃ¶chste Standards. Unser Team aus Installateur und Experten arbeitet nach Hersteller Vorgaben und sorgt fÃ¼r professionelle Arbeit bei jeder Windhager Anlage.
+              Als Meisterbetrieb und verlässlicher Partner für Windhager Thermenwartung Wien stehen wir für Fachwissen, Erfahrung und höchste Standards. Unser Team aus Installateur und Experten arbeitet nach Hersteller Vorgaben und sorgt für professionelle Arbeit bei jeder Windhager Anlage.
             </p>
             <p>
-              Wir verstehen den richtigen Umgang mit sensiblen Bauteilen wie Heizungsthermistor Thermistor und garantieren sichere Installationen sowie fachgerechte Betreuung. In Wien NÃ– und Burgenland sind wir Ihr Partner fÃ¼r langfristige Sicherheit, Effizienz und zuverlÃ¤ssigen Betrieb Ihrer Heizungsanlage.
+              Wir verstehen den richtigen Umgang mit sensiblen Bauteilen wie Heizungsthermistor Thermistor und garantieren sichere Installationen sowie fachgerechte Betreuung. In Wien NÖ und Burgenland sind wir Ihr Partner für langfristige Sicherheit, Effizienz und zuverlässigen Betrieb Ihrer Heizungsanlage.
             </p>
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen & Erfahrung</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Hersteller Standards</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Sichere Installation</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen & Erfahrung</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Hersteller Standards</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Sichere Installation</div></div>
             </div>
           </div>
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="img/vaillant-6.jpg" alt="Windhager Meisterbetrieb Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="img/vaillant-6.webp" alt="Windhager Meisterbetrieb Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -835,34 +835,34 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>HÃ¤ufige Fragen zur Windhager Thermenwartung</h2>
-        <p>Die wichtigsten Antworten â€“ kurz und klar.</p>
+        <h2>Häufige Fragen zur Windhager Thermenwartung</h2>
+        <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
           <summary>1. Wie oft sollte eine Windhager Thermenwartung erfolgen?</summary>
-          <p>Eine jÃ¤hrliche Windhager Thermenwartung wird empfohlen, um Sicherheit, Effizienz und zuverlÃ¤ssigen Betrieb sicherzustellen.</p>
+          <p>Eine jährliche Windhager Thermenwartung wird empfohlen, um Sicherheit, Effizienz und zuverlässigen Betrieb sicherzustellen.</p>
         </details>
 
         <details>
           <summary>2. Was tun bei einem Problem mit der Windhager Therme?</summary>
-          <p>Kontaktieren Sie sofort unseren Windhager Kundendienst oder Notdienst. Unsere Experten leisten schnelle Hilfe vor Ort in Wien NiederÃ¶sterreich.</p>
+          <p>Kontaktieren Sie sofort unseren Windhager Kundendienst oder Notdienst. Unsere Experten leisten schnelle Hilfe vor Ort in Wien Niederösterreich.</p>
         </details>
 
         <details>
           <summary>3. Wann ist ein Windhager Thermentausch sinnvoll?</summary>
-          <p>Wenn Reparaturen hÃ¤ufiger auftreten oder die Effizienz stark sinkt, kann ein Windhager Thermentausch wirtschaftlich sinnvoll sein.</p>
+          <p>Wenn Reparaturen häufiger auftreten oder die Effizienz stark sinkt, kann ein Windhager Thermentausch wirtschaftlich sinnvoll sein.</p>
         </details>
 
         <details>
           <summary>4. Betreuen Sie auch Burgenland und BGld?</summary>
-          <p>Ja, unser Windhager Partner Team ist in Wien NÃ–, NiederÃ¶sterreich und Burgenland flÃ¤chendeckend im Einsatz.</p>
+          <p>Ja, unser Windhager Partner Team ist in Wien NÖ, Niederösterreich und Burgenland flächendeckend im Einsatz.</p>
         </details>
 
         <details>
-          <summary>5. Wird auch eine Reparatur direkt durchgefÃ¼hrt?</summary>
-          <p>Ja, unser Windhager Kundendienst fÃ¼hrt Reparatur und Behebung von StÃ¶rungen unmittelbar vor Ort durch.</p>
+          <summary>5. Wird auch eine Reparatur direkt durchgeführt?</summary>
+          <p>Ja, unser Windhager Kundendienst führt Reparatur und Behebung von Störungen unmittelbar vor Ort durch.</p>
         </details>
       </div>
     </div>
@@ -872,7 +872,7 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin Vereinbaren',
-        'text' => 'Setzen Sie auf Sicherheit, Effizienz und ZuverlÃ¤ssigkeit â€“ kompetent, transparent und kundenorientiert. </br> ğŸ“ Jetzt Termin vereinbaren â€“ Ihr Therm4You-Partner in Wien.',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> ?? Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -905,4 +905,5 @@ $metaDescription = " Windhager Thermenwartung Wien vom Meisterbetrieb. Windhager
   });
 </script>
 @endsection
+
 

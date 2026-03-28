@@ -555,7 +555,7 @@ $metaDescription = " Professionelle Baxi Thermenwartung in Wien vom Fachbetrieb.
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi Logo">
+        <img src="{{ asset('img/1baxi.webp') }}" alt="Baxi Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -788,7 +788,7 @@ $metaDescription = " Professionelle Baxi Thermenwartung in Wien vom Fachbetrieb.
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/baxi.webp') }}" alt="Baxi Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -882,7 +882,7 @@ $metaDescription = " Professionelle Baxi Thermenwartung in Wien vom Fachbetrieb.
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Warum Baxi Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-5.webp') }}" alt="Warum Baxi Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -947,7 +947,7 @@ $metaDescription = " Professionelle Baxi Thermenwartung in Wien vom Fachbetrieb.
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf der Baxi Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Ablauf der Baxi Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

@@ -1,10 +1,10 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 
 @section('main')
 
 @php
-$metaTitle = "Installateur Notdienst 1180 Wien â€“ 24h Installateur Wien WÃ¤hring";
-$metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur Wien 1180 fÃ¼r SanitÃ¤r, Gas und Heizung. Soforthilfe bei Rohrbruch, Abfluss verstopft oder Heizung defekt.";
+$metaTitle = "Installateur Notdienst 1180 Wien – 24h Installateur Wien Währing";
+$metaDescription = "Installateur Notdienst 1180 Wien – schneller Installateur Wien 1180 für Sanitär, Gas und Heizung. Soforthilfe bei Rohrbruch, Abfluss verstopft oder Heizung defekt.";
 @endphp
 
 @push('meta')
@@ -36,11 +36,11 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
         <div class="wolf-hero__inner container">
             <h1>
                 Installateur Notdienst 1180 Wien <br>
-                <span style="color:#FB9A1B;">24h schnell & zuverlÃ¤ssig in WÃ¤hring</span>
+                <span style="color:#FB9A1B;">24h schnell & zuverlässig in Währing</span>
             </h1>
 
             <p class="wolf-hero__sub">
-                Rohrbruch, verstopfter Abfluss oder Heizungsausfall? Unser Installateur Notdienst 1180 Wien ist rund um die Uhr fÃ¼r Sie da. Als lokaler Fachbetrieb in WÃ¤hring garantieren wir kurze Anfahrtswege, schnelle Hilfe und transparente Preise. Ob Gas, Wasser oder Heizung â€“ wir lÃ¶sen Ihr Problem noch heute.
+                Rohrbruch, verstopfter Abfluss oder Heizungsausfall? Unser Installateur Notdienst 1180 Wien ist rund um die Uhr für Sie da. Als lokaler Fachbetrieb in Währing garantieren wir kurze Anfahrtswege, schnelle Hilfe und transparente Preise. Ob Gas, Wasser oder Heizung – wir lösen Ihr Problem noch heute.
             </p>
 
             <div class="wolf-hero__actions">
@@ -125,44 +125,44 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
             <div class="card-split">
                 <div class="card-split__text">
                     <div class="card-box">
-                        <h2>Ihr Installateur Notdienst 1180 Wien â€“ immer einsatzbereit</h2>
-                        <p>Wenn bei Ihnen in WÃ¤hring das Wasser aus der Wand schieÃŸt, die Heizung streikt oder der Abfluss verstopft ist, zÃ¤hlt jede Minute. Unser Installateur Notdienst in 1180 Wien ist speziell fÃ¼r solche NotfÃ¤lle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach WÃ¤hring. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten â€“ meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjÃ¤hriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1170-wien') }}">weiterfÃ¼hrenden Informationen</a>.</p>
+                        <h2>Ihr Installateur Notdienst 1180 Wien – immer einsatzbereit</h2>
+                        <p>Wenn bei Ihnen in Währing das Wasser aus der Wand schießt, die Heizung streikt oder der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1180 Wien ist speziell für solche Notfälle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach Währing. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1170-wien') }}">weiterführenden Informationen</a>.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Notdienst 1180 Wien im Einsatz" loading="lazy" decoding="async">
+                        <img class="service-media__img" src="img/1size6.webp" alt="Installateur Notdienst 1180 Wien im Einsatz" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
 
             <div class="service-grid service-grid--2" style="margin-top:14px">
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">â±ï¸</div>
+                    <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>24h Soforthilfe</h3>
-                        <p>Egal ob Tag oder Nacht, Wochenende oder Feiertag â€“ unser Notdienst ist immer fÃ¼r Sie da. Ein Anruf genÃ¼gt.</p>
+                        <p>Egal ob Tag oder Nacht, Wochenende oder Feiertag – unser Notdienst ist immer für Sie da. Ein Anruf genügt.</p>
                     </div>
                 </article>
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">ğŸ“</div>
+                    <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
-                        <h3>Lokal in WÃ¤hring</h3>
-                        <p>Durch unseren Standort im 18. Bezirk sind wir garantiert schneller als Ã¼berregionale Anbieter. Sie profitieren von kurzen Wegen.</p>
+                        <h3>Lokal in Währing</h3>
+                        <p>Durch unseren Standort im 18. Bezirk sind wir garantiert schneller als überregionale Anbieter. Sie profitieren von kurzen Wegen.</p>
                     </div>
                 </article>
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">ğŸ› ï¸</div>
+                    <div class="service-feature__icon" aria-hidden="true">???</div>
                     <div>
                         <h3>Erfahrene Profis</h3>
-                        <p>Unsere Meister und Gesellen kennen jedes Problem â€“ von alten Gussrohren in GrÃ¼nderzeithÃ¤usern bis zur modernen Brennwerttherme.</p>
+                        <p>Unsere Meister und Gesellen kennen jedes Problem – von alten Gussrohren in Gründerzeithäusern bis zur modernen Brennwerttherme.</p>
                     </div>
                 </article>
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">ğŸ’¶</div>
+                    <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Faire Preise</h3>
-                        <p>Vor dem Einsatz nennen wir Ihnen die Kosten. Keine versteckten GebÃ¼hren, keine bÃ¶sen Ãœberraschungen.</p>
+                        <p>Vor dem Einsatz nennen wir Ihnen die Kosten. Keine versteckten Gebühren, keine bösen Überraschungen.</p>
                     </div>
                 </article>
             </div>
@@ -175,18 +175,18 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
             <div class="card-split card-split--reverse">
                 <div class="card-split__text">
                     <div class="card-box">
-                        <h2>Unser Team â€“ Ihr verlÃ¤sslicher Partner in 1180</h2>
-                        <p>Hinter unserem Installateur Notdienst steht ein eingespieltes Team aus geprÃ¼ften FachkrÃ¤ften. Wir bilden uns regelmÃ¤ÃŸig weiter, um stets auf dem neuesten Stand der Technik zu sein. Viele unserer Kunden in WÃ¤hring schÃ¤tzen besonders unsere ZuverlÃ¤ssigkeit und die ruhige, sachliche Art, mit der wir auch in hektischen Notfallsituationen den Ãœberblick behalten. Wir arbeiten sauber, hinterlassen keine Unordnung und erklÃ¤ren Ihnen verstÃ¤ndlich, was passiert ist und wie wir es beheben. So gewinnen wir nicht nur Ihr Vertrauen, sondern oft auch langfristige Kundenbeziehungen.</p>
+                        <h2>Unser Team – Ihr verlässlicher Partner in 1180</h2>
+                        <p>Hinter unserem Installateur Notdienst steht ein eingespieltes Team aus geprüften Fachkräften. Wir bilden uns regelmäßig weiter, um stets auf dem neuesten Stand der Technik zu sein. Viele unserer Kunden in Währing schätzen besonders unsere Zuverlässigkeit und die ruhige, sachliche Art, mit der wir auch in hektischen Notfallsituationen den Überblick behalten. Wir arbeiten sauber, hinterlassen keine Unordnung und erklären Ihnen verständlich, was passiert ist und wie wir es beheben. So gewinnen wir nicht nur Ihr Vertrauen, sondern oft auch langfristige Kundenbeziehungen.</p>
                         <div class="service-stats">
-                            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">GeprÃ¼fte Installateure</div></div>
-                            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere & ordentliche Arbeit</div></div>
-                            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparente Kommunikation</div></div>
+                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Geprüfte Installateure</div></div>
+                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere & ordentliche Arbeit</div></div>
+                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparente Kommunikation</div></div>
                         </div>
                     </div>
                 </div>
                 <div class="card-split__media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="img/1size5.jpeg" alt="Installateur Team in Wien 1180" loading="lazy" decoding="async">
+                        <img class="service-media__img" src="img/1size5.webp" alt="Installateur Team in Wien 1180" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -197,50 +197,50 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
     <section class="service-section" id="leistungen-services">
         <div class="container">
             <div class="service-section__head">
-                <h2>Unsere Leistungen fÃ¼r Sie in WÃ¤hring</h2>
-                <p>Ob Notfall oder geplante Installation â€“ wir bieten das volle Spektrum der Installateurarbeiten. Hier ein Ãœberblick:</p>
+                <h2>Unsere Leistungen für Sie in Währing</h2>
+                <p>Ob Notfall oder geplante Installation – wir bieten das volle Spektrum der Installateurarbeiten. Hier ein Überblick:</p>
             </div>
             <div class="service-grid service-grid--2">
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">ğŸš°</div>
+                    <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Rohrbruch & Wasserschaden</h3>
-                        <p>Schnelle Ortung der Schadstelle, professionelle Reparatur und Trocknung â€“ wir minimieren FolgeschÃ¤den.</p>
+                        <p>Schnelle Ortung der Schadstelle, professionelle Reparatur und Trocknung – wir minimieren Folgeschäden.</p>
                     </div>
                 </article>
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">ğŸ§µ</div>
+                    <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Rohrreinigung</h3>
                         <p>Bei verstopftem Abfluss oder WC: Mit Spirale, Hochdruck oder Kamera lokalisieren und beseitigen wir die Verstopfung.</p>
                     </div>
                 </article>
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div>
+                    <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Heizungsreparatur</h3>
-                        <p>Ob Gastherme, Ã–lheizung oder WÃ¤rmepumpe â€“ wir finden den Fehler und bringen Ihre WÃ¤rme zurÃ¼ck.</p>
+                        <p>Ob Gastherme, Ölheizung oder Wärmepumpe – wir finden den Fehler und bringen Ihre Wärme zurück.</p>
                     </div>
                 </article>
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">ğŸ›</div>
+                    <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
-                        <h3>SanitÃ¤r Installation</h3>
-                        <p>Von der neuen Waschtischarmatur bis zur kompletten Badsanierung â€“ wir setzen Ihre WÃ¼nsche um.</p>
+                        <h3>Sanitär Installation</h3>
+                        <p>Von der neuen Waschtischarmatur bis zur kompletten Badsanierung – wir setzen Ihre Wünsche um.</p>
                     </div>
                 </article>
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div>
+                    <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Thermenwartung</h3>
-                        <p>RegelmÃ¤ÃŸige Wartung verlÃ¤ngert die Lebensdauer und spart Energie. Wir prÃ¼fen alle sicherheitsrelevanten Teile.</p>
+                        <p>Regelmäßige Wartung verlängert die Lebensdauer und spart Energie. Wir prüfen alle sicherheitsrelevanten Teile.</p>
                     </div>
                 </article>
                 <article class="service-feature">
-                    <div class="service-feature__icon" aria-hidden="true">ğŸ“</div>
+                    <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Notdienst & Bereitschaft</h3>
-                        <p>24h besetzt â€“ bei Stromausfall, Gasgeruch oder plÃ¶tzlichem Warmwasserstopp sind wir sofort fÃ¼r Sie da.</p>
+                        <p>24h besetzt – bei Stromausfall, Gasgeruch oder plötzlichem Warmwasserstopp sind wir sofort für Sie da.</p>
                     </div>
                 </article>
             </div>
@@ -253,18 +253,18 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
             <div class="card-split">
                 <div class="card-split__text">
                     <div class="card-box">
-                        <h2>RegelmÃ¤ÃŸige Wartung â€“ damit alles rund lÃ¤uft</h2>
-                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stÃ¶rt seltener. Gerade in WÃ¤hring mit vielen Altbauten und Ã¤lteren Heizsystemen ist die jÃ¤hrliche Inspektion besonders wichtig. Unser Installateur Ã¼berprÃ¼ft bei der Wartung alle Komponenten: Brenner, WÃ¤rmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfÃ¼llen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei GasgerÃ¤ten), sondern sparen langfristig Geld und vermeiden teure NotfÃ¤lle. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
+                        <h2>Regelmäßige Wartung – damit alles rund läuft</h2>
+                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stört seltener. Gerade in Währing mit vielen Altbauten und älteren Heizsystemen ist die jährliche Inspektion besonders wichtig. Unser Installateur überprüft bei der Wartung alle Komponenten: Brenner, Wärmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfüllen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei Gasgeräten), sondern sparen langfristig Geld und vermeiden teure Notfälle. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
                         <div class="service-stats">
-                            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">HÃ¶here Effizienz</div></div>
-                            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Weniger AusfÃ¤lle</div></div>
-                            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Höhere Effizienz</div></div>
+                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Ausfälle</div></div>
+                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
                         </div>
                     </div>
                 </div>
                 <div class="card-split__media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="img/1size7.jpeg" alt="Heizungswartung in 1180 Wien" loading="lazy" decoding="async">
+                        <img class="service-media__img" src="img/1size7.webp" alt="Heizungswartung in 1180 Wien" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -277,13 +277,13 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
             <div class="card-split card-split--reverse">
                 <div class="card-split__text">
                     <div class="card-box">
-                        <h2>Reparaturen â€“ schnell und fachgerecht</h2>
-                        <p>Wenn die Heizung nicht zÃ¼ndet, die SpÃ¼lung lÃ¤uft oder der Boiler tropft, ist schnelle Hilfe gefragt. Unser Installateur Notdienst in 1180 diagnostiziert den Fehler meist direkt vor Ort und hat die gÃ¤ngigsten Ersatzteile bereits im Fahrzeug dabei. So kÃ¶nnen wir viele Reparaturen sofort erledigen â€“ ohne zweiten Termin. Sollte doch ein Spezialteil nÃ¶tig sein, organisieren wir es schnellstmÃ¶glich und halten Sie Ã¼ber den Fortschritt auf dem Laufenden. Wir arbeiten markenunabhÃ¤ngig und kennen die typischen Schwachstellen aller gÃ¤ngigen Fabrikate.</p>
+                        <h2>Reparaturen – schnell und fachgerecht</h2>
+                        <p>Wenn die Heizung nicht zündet, die Spülung läuft oder der Boiler tropft, ist schnelle Hilfe gefragt. Unser Installateur Notdienst in 1180 diagnostiziert den Fehler meist direkt vor Ort und hat die gängigsten Ersatzteile bereits im Fahrzeug dabei. So können wir viele Reparaturen sofort erledigen – ohne zweiten Termin. Sollte doch ein Spezialteil nötig sein, organisieren wir es schnellstmöglich und halten Sie über den Fortschritt auf dem Laufenden. Wir arbeiten markenunabhängig und kennen die typischen Schwachstellen aller gängigen Fabrikate.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="img/1size4.jpeg" alt="Reparatur durch Installateur 1180" loading="lazy" decoding="async">
+                        <img class="service-media__img" src="img/1size4.webp" alt="Reparatur durch Installateur 1180" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -294,8 +294,8 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
     <section class="service-section service-section--dark" id="notdienst-services">
         <div class="container service-emergency">
             <div class="service-emergency__text">
-                <h2>Installateur Notdienst 1180 Wien â€“ 24/7 fÃ¼r Sie erreichbar</h2>
-                <p>Ein Rohrbruch Ã¼berschwemmt den Keller, mitten in der Nacht fÃ¤llt die Heizung aus oder am Sonntagmorgen ist der Abfluss dicht â€“ das sind die Momente, in denen Sie unseren 24h-Notdienst brauchen. Wir sind rund um die Uhr fÃ¼r Bewohner und Betriebe in WÃ¤hring im Einsatz. Ein Anruf genÃ¼gt, und unser Bereitschaftsteam macht sich sofort auf den Weg zu Ihnen. Wir sichern die Schadensstelle, beheben das akute Problem und beraten Sie, ob weitere MaÃŸnahmen nÃ¶tig sind. Vertrauen Sie auf unsere jahrelange Erfahrung im Notfallmanagement.</p>
+                <h2>Installateur Notdienst 1180 Wien – 24/7 für Sie erreichbar</h2>
+                <p>Ein Rohrbruch überschwemmt den Keller, mitten in der Nacht fällt die Heizung aus oder am Sonntagmorgen ist der Abfluss dicht – das sind die Momente, in denen Sie unseren 24h-Notdienst brauchen. Wir sind rund um die Uhr für Bewohner und Betriebe in Währing im Einsatz. Ein Anruf genügt, und unser Bereitschaftsteam macht sich sofort auf den Weg zu Ihnen. Wir sichern die Schadensstelle, beheben das akute Problem und beraten Sie, ob weitere Maßnahmen nötig sind. Vertrauen Sie auf unsere jahrelange Erfahrung im Notfallmanagement.</p>
                 <div class="service-emergency__actions">
                     <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
                     <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -303,16 +303,16 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
             </div>
             <div class="service-emergency__panel">
                 <div class="service-panel">
-                    <h3>Typische NotfÃ¤lle in 1180</h3>
+                    <h3>Typische Notfälle in 1180</h3>
                     <ul class="service-checklist service-checklist--on-dark">
                         <li>Rohrbruch / Wasserrohrbruch</li>
                         <li>Verstopfter Abfluss oder WC</li>
-                        <li>Heizungsausfall (keine WÃ¤rme)</li>
+                        <li>Heizungsausfall (keine Wärme)</li>
                         <li>Kein Warmwasser</li>
                         <li>Gasgeruch / defekte Gastherme</li>
                         <li>Undichte Armaturen</li>
                     </ul>
-                    <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in WÃ¤hring.</p>
+                    <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in Währing.</p>
                 </div>
             </div>
         </div>
@@ -324,14 +324,14 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
             <div class="card-split">
                 <div class="card-split__media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="img/1size2.jpegs.jpeg" alt="Transparente Installateur Kosten" loading="lazy" decoding="async">
+                        <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Transparente Installateur Kosten" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Faire & transparente Preise</h2>
-                        <p>Wir wissen, dass Kosten im Notfall oft ein zusÃ¤tzlicher Stressfaktor sind. Deshalb legen wir grÃ¶ÃŸten Wert auf transparente Preisgestaltung. Bevor wir mit der Arbeit beginnen, erhalten Sie eine klare Ansage Ã¼ber den voraussichtlichen Preis â€“ abhÃ¤ngig von Aufwand und Material. FÃ¼r viele StandardeinsÃ¤tze (z.B. Rohrreinigung, ThermenstÃ¶rung) haben wir Festpreise, die wir einhalten. NatÃ¼rlich erstellen wir auf Wunsch auch einen detaillierten Kostenvoranschlag. Bei uns gibt es keine versteckten Anfahrts- oder Bereitstellungspauschalen. Was wir besprechen, zahlen Sie.</p>
-                        <p>FÃ¼r planbare Projekte wie eine Badsanierung oder den Thermentausch erstellen wir ein unverbindliches Angebot â€“ selbstverstÃ¤ndlich kostenlos.</p>
+                        <p>Wir wissen, dass Kosten im Notfall oft ein zusätzlicher Stressfaktor sind. Deshalb legen wir größten Wert auf transparente Preisgestaltung. Bevor wir mit der Arbeit beginnen, erhalten Sie eine klare Ansage über den voraussichtlichen Preis – abhängig von Aufwand und Material. Für viele Standardeinsätze (z.B. Rohrreinigung, Thermenstörung) haben wir Festpreise, die wir einhalten. Natürlich erstellen wir auf Wunsch auch einen detaillierten Kostenvoranschlag. Bei uns gibt es keine versteckten Anfahrts- oder Bereitstellungspauschalen. Was wir besprechen, zahlen Sie.</p>
+                        <p>Für planbare Projekte wie eine Badsanierung oder den Thermentausch erstellen wir ein unverbindliches Angebot – selbstverständlich kostenlos.</p>
                     </div>
                 </div>
             </div>
@@ -344,13 +344,13 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
             <div class="card-split">
                 <div class="card-split__text">
                     <div class="card-box">
-                        <h2>Schnell im ganzen Bezirk WÃ¤hring</h2>
-                        <p>Unser Einsatzgebiet umfasst den gesamten 18. Wiener Gemeindebezirk â€“ von der WÃ¤hringer StraÃŸe Ã¼ber den GÃ¼rtel, die Gersthofer StraÃŸe, rund um den WÃ¤hringer Park bis hin zu den Villengegenden in PÃ¶tzleinsdorf und Gersthof. Durch unsere zentrale Lage in 1180 erreichen wir Sie in der Regel innerhalb von 30 Minuten. Wir kennen die Eigenheiten der verschiedenen GrÃ¤tzel: die alten GrÃ¼nderzeithÃ¤user mit ihren verzinkten SteigstrÃ¤ngen, die EinfamilienhÃ¤user und die reprÃ¤sentativen Villen mit oft Ã¤lteren Heizungsanlagen. Diese Ortskenntnis hilft uns, Probleme schneller zu lokalisieren und passgenau zu lÃ¶sen. Wenn Sie einen Installateur in WÃ¤hring suchen, sind Sie bei uns genau richtig.</p>
+                        <h2>Schnell im ganzen Bezirk Währing</h2>
+                        <p>Unser Einsatzgebiet umfasst den gesamten 18. Wiener Gemeindebezirk – von der Währinger Straße über den Gürtel, die Gersthofer Straße, rund um den Währinger Park bis hin zu den Villengegenden in Pötzleinsdorf und Gersthof. Durch unsere zentrale Lage in 1180 erreichen wir Sie in der Regel innerhalb von 30 Minuten. Wir kennen die Eigenheiten der verschiedenen Grätzel: die alten Gründerzeithäuser mit ihren verzinkten Steigsträngen, die Einfamilienhäuser und die repräsentativen Villen mit oft älteren Heizungsanlagen. Diese Ortskenntnis hilft uns, Probleme schneller zu lokalisieren und passgenau zu lösen. Wenn Sie einen Installateur in Währing suchen, sind Sie bei uns genau richtig.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
                     <div class="service-media__box">
-                        <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Installateur 1180 Wien" loading="lazy" decoding="async">
+                        <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Installateur 1180 Wien" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -360,69 +360,69 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
     <section class="service-section service-section--soft" id="thermen-services">
         <div class="container">
             <div class="service-section__head">
-                <h2>Thermenservice fÃ¼r alle Marken</h2>
-                <p>Ob Vaillant, Junkers, Buderus oder Wolf â€“ wir warten und reparieren alle gÃ¤ngigen GasgerÃ¤te. RegelmÃ¤ÃŸige Wartung sorgt fÃ¼r Sicherheit, Effizienz und eine lÃ¤ngere Lebensdauer Ihrer Therme.</p>
+                <h2>Thermenservice für alle Marken</h2>
+                <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
             </div>
 
             <div class="brand-grid">
                 <!-- 1 -->
                 <a class="brand-card" href="#">
-                    <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
+                    <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
                     <span>VAILLANT THERMENSERVICE</span>
                 </a>
                 <!-- 2 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1buderus.jpeg" alt="Buderus Thermenservice">
+                    <img src="img/1buderus.webp" alt="Buderus Thermenservice">
                     <span>BUDERUS THERMENSERVICE</span>
                 </a>
                 <!-- 3 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1baxi.jpeg" alt="Baxi Thermenservice">
+                    <img src="img/1baxi.webp" alt="Baxi Thermenservice">
                     <span>BAXI THERMENSERVICE</span>
                 </a>
                 <!-- 4 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1junkers.jpeg" alt="Junkers Thermenservice">
+                    <img src="img/1junkers.webp" alt="Junkers Thermenservice">
                     <span>JUNKERS THERMENSERVICE</span>
                 </a>
                 <!-- 5 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1viesman.jpeg" alt="Viessmann Thermenservice">
+                    <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
                     <span>VIESSMANN THERMENSERVICE</span>
                 </a>
                 <!-- 6 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1wolf.jpeg" alt="Wolf Thermenservice">
+                    <img src="img/1wolf.webp" alt="Wolf Thermenservice">
                     <span>WOLF THERMENSERVICE</span>
                 </a>
                 <!-- 7 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
+                    <img src="img/1sauneri.webp" alt="Saunier Duval Thermenservice">
                     <span>SAUNIER DUVAL SERVICE</span>
                 </a>
                 <!-- 8 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1loblich.jpeg" alt="LÃ¶blich Thermenservice">
-                    <span>LÃ–BLICH THERMENSERVICE</span>
+                    <img src="img/1loblich.webp" alt="Löblich Thermenservice">
+                    <span>LÖBLICH THERMENSERVICE</span>
                 </a>
                 <!-- 9 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermenservice">
+                    <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
                     <span>OCEAN THERMENSERVICE</span>
                 </a>
                 <!-- 10 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1rapido.jpeg" alt="Rapido Thermenservice">
+                    <img src="img/1rapido.webp" alt="Rapido Thermenservice">
                     <span>RAPIDO THERMENSERVICE</span>
                 </a>
                 <!-- 11 -->
                 <a class="brand-card" href="#">
-                    <img src="img/Windhager.png" alt="Windhager Thermenservice">
+                    <img src="img/1Windhager.webp" alt="Windhager Thermenservice">
                     <span>WINDHAGER SERVICE</span>
                 </a>
                 <!-- 12 -->
                 <a class="brand-card" href="#">
-                    <img src="img/NordGas.png" alt="Nordgas Thermenservice">
+                    <img src="img/1NordGas.webp" alt="Nordgas Thermenservice">
                     <span>NORDGAS SERVICE</span>
                 </a>
             </div>
@@ -433,45 +433,45 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
     <section class="service-section" id="faq-services">
         <div class="container">
             <div class="service-section__head">
-                <h2>FAQ â€“ Installateur 1180 Wien</h2>
-                <p>Antworten auf die hÃ¤ufigsten Fragen â€“ kurz, klar und praxisnah.</p>
+                <h2>FAQ – Installateur 1180 Wien</h2>
+                <p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p>
             </div>
             <div class="service-faq">
                 <details>
-                    <summary>1. Wie schnell sind Sie in WÃ¤hring vor Ort?</summary>
-                    <p>In der Regel innerhalb von 30 Minuten. Bei dringenden NotfÃ¤llen priorisieren wir Ihren Einsatz und kommen noch schneller.</p>
+                    <summary>1. Wie schnell sind Sie in Währing vor Ort?</summary>
+                    <p>In der Regel innerhalb von 30 Minuten. Bei dringenden Notfällen priorisieren wir Ihren Einsatz und kommen noch schneller.</p>
                 </details>
                 <details>
                     <summary>2. Was kostet der Installateur Notdienst?</summary>
-                    <p>FÃ¼r den Notfall berechnen wir eine transparente Einsatzpauschale plus Arbeitszeit. Wir nennen Ihnen die Kosten vor Arbeitsbeginn. Bei StandardfÃ¤llen (z.B. Rohrreinigung) gibt es oft einen Festpreis.</p>
+                    <p>Für den Notfall berechnen wir eine transparente Einsatzpauschale plus Arbeitszeit. Wir nennen Ihnen die Kosten vor Arbeitsbeginn. Bei Standardfällen (z.B. Rohrreinigung) gibt es oft einen Festpreis.</p>
                 </details>
                 <details>
                     <summary>3. Arbeiten Sie auch am Wochenende?</summary>
-                    <p>Ja, unser Notdienst ist 24/7 besetzt â€“ auch an Samstagen, Sonn- und Feiertagen. Ein Aufschlag fÃ¼r Wochenenddienste ist branchenÃ¼blich, dennoch bleiben unsere Preise fair.</p>
+                    <p>Ja, unser Notdienst ist 24/7 besetzt – auch an Samstagen, Sonn- und Feiertagen. Ein Aufschlag für Wochenenddienste ist branchenüblich, dennoch bleiben unsere Preise fair.</p>
                 </details>
                 <details>
                     <summary>4. Was tun bei einem Wasserrohrbruch?</summary>
-                    <p>Hauptwasserhahn zudrehen (meist in der Wohnung oder im Keller), Strom im betroffenen Bereich abschalten und uns sofort anrufen. Wir kÃ¼mmern uns um die Abdichtung und Trocknung.</p>
+                    <p>Hauptwasserhahn zudrehen (meist in der Wohnung oder im Keller), Strom im betroffenen Bereich abschalten und uns sofort anrufen. Wir kümmern uns um die Abdichtung und Trocknung.</p>
                 </details>
                 <details>
                     <summary>5. Bieten Sie auch Thermenwartung an?</summary>
-                    <p>Ja, fÃ¼r alle Marken. Wir empfehlen eine jÃ¤hrliche Wartung â€“ besonders bei GasgerÃ¤ten. Vereinbaren Sie einfach einen Termin.</p>
+                    <p>Ja, für alle Marken. Wir empfehlen eine jährliche Wartung – besonders bei Gasgeräten. Vereinbaren Sie einfach einen Termin.</p>
                 </details>
                 <details>
                     <summary>6. Kann ich einen Termin online buchen?</summary>
-                    <p>Nutzen Sie das Kontaktformular oder rufen Sie uns direkt an. Wir bestÃ¤tigen Ihnen zeitnah einen fixen Termin.</p>
+                    <p>Nutzen Sie das Kontaktformular oder rufen Sie uns direkt an. Wir bestätigen Ihnen zeitnah einen fixen Termin.</p>
                 </details>
                 <details>
                     <summary>7. Sind Ihre Installateure zertifiziert?</summary>
-                    <p>Ja, alle unsere Mitarbeiter haben eine abgeschlossene Berufsausbildung und regelmÃ¤ÃŸige Schulungen. Wir sind ein konzessionierter Installationsbetrieb.</p>
+                    <p>Ja, alle unsere Mitarbeiter haben eine abgeschlossene Berufsausbildung und regelmäßige Schulungen. Wir sind ein konzessionierter Installationsbetrieb.</p>
                 </details>
                 <details>
                     <summary>8. Reparieren Sie auch alte Heizungen?</summary>
-                    <p>Solange Ersatzteile verfÃ¼gbar sind, reparieren wir auch Ã¤ltere Anlagen. Wenn eine Reparatur unwirtschaftlich wird, beraten wir Sie Ã¼ber moderne Alternativen.</p>
+                    <p>Solange Ersatzteile verfügbar sind, reparieren wir auch ältere Anlagen. Wenn eine Reparatur unwirtschaftlich wird, beraten wir Sie über moderne Alternativen.</p>
                 </details>
                 <details>
                     <summary>9. Was muss ich bei einem Notfall selbst tun?</summary>
-                    <p>Bleiben Sie ruhig, sichern Sie die Gefahrenstelle (z.B. Wasser abstellen) und rufen Sie uns an. Schildern Sie das Problem so genau wie mÃ¶glich â€“ das hilft uns, das richtige Werkzeug mitzunehmen.</p>
+                    <p>Bleiben Sie ruhig, sichern Sie die Gefahrenstelle (z.B. Wasser abstellen) und rufen Sie uns an. Schildern Sie das Problem so genau wie möglich – das hilft uns, das richtige Werkzeug mitzunehmen.</p>
                 </details>
                 <details>
                     <summary>10. Zahlen Sie die Anfahrt extra?</summary>
@@ -487,11 +487,11 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
             <div class="service-cta__inner">
                 <div>
                     <h2>Jetzt Termin vereinbaren</h2>
-                    <p>Sie haben ein akutes Problem oder mÃ¶chten einen Wartungstermin? Rufen Sie uns einfach an oder schreiben Sie uns Ã¼ber das Formular. Wir melden uns umgehend bei Ihnen.</p>
-                    <p style="margin-top:10px"><strong>ğŸ“</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
-                    <p style="margin-top:5px"><strong>âœ‰ï¸</strong> <a href="mailto:office@example.com">office@example.com</a></p>
+                    <p>Sie haben ein akutes Problem oder möchten einen Wartungstermin? Rufen Sie uns einfach an oder schreiben Sie uns über das Formular. Wir melden uns umgehend bei Ihnen.</p>
+                    <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+                    <p style="margin-top:5px"><strong>??</strong> <a href="mailto:office@example.com">office@example.com</a></p>
                 </div>
-                <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke fÃ¼r Ihre Anfrage! Wir melden uns so schnell wie mÃ¶glich.');">
+                <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke für Ihre Anfrage! Wir melden uns so schnell wie möglich.');">
                     <div class="service-formrow">
                         <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
                         <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -513,6 +513,7 @@ $metaDescription = "Installateur Notdienst 1180 Wien â€“ schneller Installateur 
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
 
 
 

@@ -743,7 +743,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size4.jpeg') }}" alt="Vorteile Wärmepumpen Wartung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size4.webp') }}" alt="Vorteile Wärmepumpen Wartung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -821,7 +821,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size7.jpeg') }}" alt="Förderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size7.webp') }}" alt="Förderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -914,7 +914,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size3.jpeg') }}" alt="Partner für Wärmepumpen" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size3.webp') }}" alt="Partner für Wärmepumpen" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>

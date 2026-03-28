@@ -62,7 +62,7 @@
   .service-hero::before{
     content:"";
     position:absolute; inset:0;
-    background-image:url('img/hero-scetion.jpeg');
+    background-image:url('img/hero-scetion.webp');
     background-size:cover;
     background-position:center;
     transform:scale(1.02);
@@ -375,7 +375,7 @@
             position: absolute;
             inset: 0;
             background:
-                url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+                url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
             z-index: 0;
         }
 </style>
@@ -400,7 +400,7 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1viesman.jpeg') }}" alt="Viessmann Logo">
+        <img src="{{ asset('img/1viesman.webp') }}" alt="Viessmann Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -520,7 +520,7 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/viesman.jpeg') }}" alt="Viessmann Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/viesman.webp') }}" alt="Viessmann Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -649,7 +649,7 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Warum Viessmann Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-4.webp') }}" alt="Warum Viessmann Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -712,7 +712,7 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Ablauf der Viessmann Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-11.webp') }}" alt="Ablauf der Viessmann Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -800,7 +800,7 @@ $metaDescription = " Viessmann Thermenwartung in Wien vom erfahrenen Fachbetrieb
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Viessmann Fachpartner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Viessmann Fachpartner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>

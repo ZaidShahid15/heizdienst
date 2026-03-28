@@ -56,7 +56,7 @@ img{max-width:100%;height:auto}
   content:"";
   position:absolute;
   inset:0;
-  background-image:url("../img/hero-scetion.jpeg");
+  background-image:url("../img/hero-scetion.webp");
   background-size:cover;
   background-position:left center;
   transform:scale(1.02);

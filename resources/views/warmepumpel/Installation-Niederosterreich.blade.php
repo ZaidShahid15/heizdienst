@@ -741,7 +741,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Wärmepumpen Planung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size6.webp') }}" alt="Wärmepumpen Planung" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -818,7 +818,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size8.jpeg') }}" alt="Förderung Niederösterreich" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size8.webp') }}" alt="Förderung Niederösterreich" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>

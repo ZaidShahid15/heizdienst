@@ -1,4 +1,4 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 
 @section('main')
 <style>
@@ -85,7 +85,7 @@
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  /* âœ… stats pills (2 in a row) */
+  /* ? stats pills (2 in a row) */
   .service-stats{
     display:grid;
     grid-template-columns: repeat(2, minmax(0,1fr));
@@ -198,19 +198,19 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* ===== âœ… Card split (EQUAL HEIGHT like your previous site) ===== */
+  /* ===== ? Card split (EQUAL HEIGHT like your previous site) ===== */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch; /* âœ… stretch for equal height */
+    align-items:stretch; /* ? stretch for equal height */
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
 
   .card-split__text,
   .card-split__media{
-    display:flex; /* âœ… make children fill height */
+    display:flex; /* ? make children fill height */
   }
 
   .card-box{
@@ -230,11 +230,11 @@
   .card-box p{margin:0}
   .card-box p + p{margin-top:10px}
 
-  /* âœ… Image box = equal height with content (fills full) */
+  /* ? Image box = equal height with content (fills full) */
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:100%;            /* âœ… same height as text card */
+    height:100%;            /* ? same height as text card */
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -265,7 +265,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -364,12 +364,12 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
   /* =========================
-     âœ… TOC (after hero, full width)
+     ? TOC (after hero, full width)
      ========================= */
   .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
@@ -456,7 +456,7 @@
     .card-split__text,
     .card-split__media{display:block;}
 
-    .service-media__box{min-height:220px; height:auto;} /* âœ… nice on mobile */
+    .service-media__box{min-height:220px; height:auto;} /* ? nice on mobile */
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
@@ -464,7 +464,7 @@
 
 @php
 $metaTitle = "Windhager Kundendienst Wien | Thermenwartung, Reparatur & Notdienst";
-$metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenwartung, Reparatur, Fehlercode-Diagnose und Notdienst rund um die uhr in Wien, NÃ– & Burgenland.";
+$metaDescription = "Windhager Kundendienst Wien für Gastherme & Heizung. Thermenwartung, Reparatur, Fehlercode-Diagnose und Notdienst rund um die uhr in Wien, NÖ & Burgenland.";
 @endphp
 
 @push('meta')
@@ -485,11 +485,11 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/Windhager.png') }}" alt="Windhager-kaundseint Logo">
+        <img src="{{ asset('img/1Windhager.webp') }}" alt="Windhager-kaundseint Logo">
       </div>
 
       <p class="wolf-hero__sub">
-       Professioneller Windhager Kundendienst Wien fÃ¼r Gastherme, Heizung und Thermenwartung inklusive Reparatur und Notdienst.
+       Professioneller Windhager Kundendienst Wien für Gastherme, Heizung und Thermenwartung inklusive Reparatur und Notdienst.
 
       </p>
 
@@ -528,7 +528,7 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            GeprÃ¼fte Experten
+            Geprüfte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -543,7 +543,7 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
     </div>
   </section>
 
- <!-- âœ… TOC AFTER HERO -->
+ <!-- ? TOC AFTER HERO -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
     <div class="toc-card is-collapsed" id="tocCard">
@@ -587,22 +587,22 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
           <div class="card-box">
             <h2>Windhager Service in Wien</h2>
             <p>
-              Der Windhager Kundendienst Wien bietet zuverlÃ¤ssigen Service fÃ¼r Windhager Gastherme, Thermen und moderne Heizsysteme direkt am Ort.
-              Als spezialisierter <strong>Installateur</strong> fÃ¼r <strong>Wartung</strong> und <strong>Reparatur</strong> betreuen wir Boiler in Wien &amp; NiederÃ¶sterreich â€“
+              Der Windhager Kundendienst Wien bietet zuverlässigen Service für Windhager Gastherme, Thermen und moderne Heizsysteme direkt am Ort.
+              Als spezialisierter <strong>Installateur</strong> für <strong>Wartung</strong> und <strong>Reparatur</strong> betreuen wir Boiler in Wien &amp; Niederösterreich –
               mehr zur <a href="{{ route('rapido.thermenwartung') }}">Serviceangebot</a>.
             </p>
             <p>
-              Als Meisterbetrieb arbeiten wir nach hÃ¶chsten Standards und betreuen unterschiedliche Modelle der Marke Windhager.
-              Unser Service umfasst Thermenwartung, Wartung, Reparatur und umfassende ÃœberprÃ¼fung aller Komponenten.
-              Ziel unseres Unternehmens ist es, Sicherheit, Effizienz und langfristigen Betrieb Ihrer Heizung zu gewÃ¤hrleisten.
-              Auch im Burgenland stehen unsere Profis fÃ¼r kompetente UnterstÃ¼tzung zur VerfÃ¼gung.
+              Als Meisterbetrieb arbeiten wir nach höchsten Standards und betreuen unterschiedliche Modelle der Marke Windhager.
+              Unser Service umfasst Thermenwartung, Wartung, Reparatur und umfassende Überprüfung aller Komponenten.
+              Ziel unseres Unternehmens ist es, Sicherheit, Effizienz und langfristigen Betrieb Ihrer Heizung zu gewährleisten.
+              Auch im Burgenland stehen unsere Profis für kompetente Unterstützung zur Verfügung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1Windhager.jpeg') }}" alt="Windhager Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1Windhager.webp') }}" alt="Windhager Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -617,27 +617,27 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
           <div class="card-box">
             <h2>Techniker, Meisterbetrieb & Profis</h2>
             <p>
-              Unser Windhager Kundendienst wird von erfahrenen Technikern, Installateur-FachkrÃ¤ften und Profis durchgefÃ¼hrt.
-              Mit fundierter Erfahrung, Diagnose-Kompetenz und prÃ¤ziser Arbeit sorgen wir fÃ¼r schnelle Behebung jedes Problems.
+              Unser Windhager Kundendienst wird von erfahrenen Technikern, Installateur-Fachkräften und Profis durchgeführt.
+              Mit fundierter Erfahrung, Diagnose-Kompetenz und präziser Arbeit sorgen wir für schnelle Behebung jedes Problems.
             </p>
             <p>
-              Unsere Experten analysieren Fehlercode-Anzeigen wie E02 Ãœberhitzungsschutz, E110 Kessel, E133 ZÃ¼ndungsfehler,
-              E161 LÃ¼fterfehler oder E164 LÃ¼fterfehler sorgfÃ¤ltig. Auch komplexe Fehlermeldungen wie E21 E22 oder E97 E99
-              werden fachgerecht Ã¼berprÃ¼ft. Durch strukturierte Fehlersuche, ÃœberprÃ¼fung und Reinigung sichern wir einen stabilen
-              Betrieb Ihrer Windhager Therme. ZuverlÃ¤ssigkeit und professionelle Betreuung stehen dabei im Mittelpunkt.
+              Unsere Experten analysieren Fehlercode-Anzeigen wie E02 Überhitzungsschutz, E110 Kessel, E133 Zündungsfehler,
+              E161 Lüfterfehler oder E164 Lüfterfehler sorgfältig. Auch komplexe Fehlermeldungen wie E21 E22 oder E97 E99
+              werden fachgerecht überprüft. Durch strukturierte Fehlersuche, Überprüfung und Reinigung sichern wir einen stabilen
+              Betrieb Ihrer Windhager Therme. Zuverlässigkeit und professionelle Betreuung stehen dabei im Mittelpunkt.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Diagnose-Kompetenz</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Strukturierte Fehlersuche</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Professionelle Betreuung</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Diagnose-Kompetenz</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Strukturierte Fehlersuche</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Professionelle Betreuung</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Techniker, Meisterbetrieb & Profis" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Techniker, Meisterbetrieb & Profis" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -649,55 +649,55 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
     <div class="service-container">
       <div class="service-section__head">
         <h2>Leistungen unseres Kundendienstes</h2>
-        <p>Thermenservice, Thermenwartung, Reparatur, Diagnose und Thermentausch â€“ professionell betreut.</p>
+        <p>Thermenservice, Thermenwartung, Reparatur, Diagnose und Thermentausch – professionell betreut.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Windhager Thermenservice</h3>
-            <p>Professioneller Windhager Thermenservice fÃ¼r Wartung, ÃœberprÃ¼fung und sicheren Betrieb Ihrer Therme.</p>
+            <p>Professioneller Windhager Thermenservice für Wartung, Überprüfung und sicheren Betrieb Ihrer Therme.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ§°</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
-            <h3>Thermenwartung & ÃœberprÃ¼fen</h3>
-            <p>GrÃ¼ndliche Thermenwartung inklusive ÃœberprÃ¼fen aller sicherheitsrelevanten Komponenten.</p>
+            <h3>Thermenwartung & Überprüfen</h3>
+            <p>Gründliche Thermenwartung inklusive Überprüfen aller sicherheitsrelevanten Komponenten.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">âš¡</div>
+          <div class="service-feature__icon" aria-hidden="true">?</div>
           <div>
             <h3>Reparatur & Behebung</h3>
-            <p>Schnelle Reparatur und Behebung bei StÃ¶rungen oder angezeigtem Fehlercode.</p>
+            <p>Schnelle Reparatur und Behebung bei Störungen oder angezeigtem Fehlercode.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸš¨</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Windhager Notdienst Einsatz</h3>
-            <p>ZuverlÃ¤ssiger Windhager <a href="/">unserer Notfallhilfe</a> im Einsatz bei NotfÃ¤llen oder akuten Problemen.</p>
+            <p>Zuverlässiger Windhager <a href="/">unserer Notfallhilfe</a> im Einsatz bei Notfällen oder akuten Problemen.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ”</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Diagnose & Fehlersuche</h3>
-            <p>PrÃ¤zise Diagnose und Fehlersuche bei elektronischen oder mechanischen Fehlern.</p>
+            <p>Präzise Diagnose und Fehlersuche bei elektronischen oder mechanischen Fehlern.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ”</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Windhager Thermentausch</h3>
-            <p>Beratung und Windhager Thermentausch bei veralteten oder irreparablen GerÃ¤ten.</p>
+            <p>Beratung und Windhager Thermentausch bei veralteten oder irreparablen Geräten.</p>
           </div>
         </article>
       </div>
@@ -712,27 +712,27 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
           <div class="card-box">
             <h2>Windhager Thermenwartung & Wartungsarbeiten</h2>
             <p>
-              Eine regelmÃ¤ÃŸige Windhager Thermenwartung erhÃ¶ht die Lebensdauer Ihrer Gastherme und sorgt fÃ¼r sicheren Betrieb.
-              Unsere Windhager Thermenwartung umfasst ÃœberprÃ¼fung von Brenner, Heizkreislauf, Thermostats und Elektronik.
-              Auch Parameter-Einstellungen, Reinigung sowie Kontrolle des Heizungsthermistor Thermistor gehÃ¶ren dazu.
+              Eine regelmäßige Windhager Thermenwartung erhöht die Lebensdauer Ihrer Gastherme und sorgt für sicheren Betrieb.
+              Unsere Windhager Thermenwartung umfasst Überprüfung von Brenner, Heizkreislauf, Thermostats und Elektronik.
+              Auch Parameter-Einstellungen, Reinigung sowie Kontrolle des Heizungsthermistor Thermistor gehören dazu.
             </p>
             <p>
-              Thermenwartung reduziert StÃ¶rungen, verbessert Effizienz und schÃ¼tzt vor teuren Reparaturen.
-              Unsere Wartungsarbeiten sichern zuverlÃ¤ssige Funktion von Kessel, HeizkÃ¶rper und dem gesamten System.
-              Kunden erhalten transparente Beratung zu Intervallen und Vorteilen einer regelmÃ¤ÃŸigen Wartung.
+              Thermenwartung reduziert Störungen, verbessert Effizienz und schützt vor teuren Reparaturen.
+              Unsere Wartungsarbeiten sichern zuverlässige Funktion von Kessel, Heizkörper und dem gesamten System.
+              Kunden erhalten transparente Beratung zu Intervallen und Vorteilen einer regelmäßigen Wartung.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Weniger StÃ¶rungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Sicherer Betrieb</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Störungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Sicherer Betrieb</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Windhager Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Windhager Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -747,30 +747,30 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
           <div class="card-box">
             <h2>Reparatur & Ersatzteile</h2>
             <p>
-              Der Windhager Kundendienst Wien Ã¼bernimmt fachgerechte Reparaturarbeiten an Gastherme, Therme und Heizung. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; NiederÃ¶sterreich</a>.
+              Der Windhager Kundendienst Wien übernimmt fachgerechte Reparaturarbeiten an Gastherme, Therme und Heizung. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
             </p>
             <p>
-              Unsere Techniker prÃ¼fen die Ursache, fÃ¼hren eine prÃ¤zise Diagnose durch und beheben StÃ¶rungen zuverlÃ¤ssig.
-              Dabei berÃ¼cksichtigen wir Fehler, Fehlermeldungen und typische Fehlercode-Hinweise wie E02 Ãœberhitzungsschutz,
-              E133 ZÃ¼ndungsfehler oder E161 LÃ¼fterfehler.
+              Unsere Techniker prüfen die Ursache, führen eine präzise Diagnose durch und beheben Störungen zuverlässig.
+              Dabei berücksichtigen wir Fehler, Fehlermeldungen und typische Fehlercode-Hinweise wie E02 Überhitzungsschutz,
+              E133 Zündungsfehler oder E161 Lüfterfehler.
             </p>
             <p>
-              Wenn Bauteile getauscht werden mÃ¼ssen, setzen wir passende Ersatzteile ein und sorgen fÃ¼r saubere Arbeit am System.
-              Bei wiederkehrenden Problemen beraten wir transparent zu Windhager Thermentausch, Austausch oder einer sinnvollen LÃ¶sung.
-              Ziel ist ein sicherer Betrieb, stabile WÃ¤rme und langfristige ZuverlÃ¤ssigkeit.
+              Wenn Bauteile getauscht werden müssen, setzen wir passende Ersatzteile ein und sorgen für saubere Arbeit am System.
+              Bei wiederkehrenden Problemen beraten wir transparent zu Windhager Thermentausch, Austausch oder einer sinnvollen Lösung.
+              Ziel ist ein sicherer Betrieb, stabile Wärme und langfristige Zuverlässigkeit.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Passende Ersatzteile</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">PrÃ¤zise Diagnose</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Stabile WÃ¤rme</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Passende Ersatzteile</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Präzise Diagnose</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Stabile Wärme</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Windhager Reparatur & Ersatzteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.webp') }}" alt="Windhager Reparatur & Ersatzteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -783,13 +783,13 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
       <div class="service-emergency__text">
         <h2>Windhager Notdienst rund um die uhr</h2>
         <p>
-          Der Windhager Notdienst steht rund um die uhr bereit, auch bei dringenden Anliegen auÃŸerhalb der Ã¼blichen Zeiten.
-          Bei Ausfall der Heizung, StÃ¶rungen an der Gastherme oder akuten Problemen mit Wasser und Brenner reagieren wir rasch.
+          Der Windhager Notdienst steht rund um die uhr bereit, auch bei dringenden Anliegen außerhalb der üblichen Zeiten.
+          Bei Ausfall der Heizung, Störungen an der Gastherme oder akuten Problemen mit Wasser und Brenner reagieren wir rasch.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Unsere Profis sind im Einsatz in Wien und unterstÃ¼tzen ebenso in NiederÃ¶sterreich und dem Burgenland.
-          Sicherheit hat PrioritÃ¤t, daher prÃ¼fen wir System, Elektronik, Heizkreislauf und relevante Parameter sorgfÃ¤ltig.
-          Im Notfall leiten wir SofortmaÃŸnahmen ein und stellen die Funktion der Therme schnellstmÃ¶glich wieder her.
+          Unsere Profis sind im Einsatz in Wien und unterstützen ebenso in Niederösterreich und dem Burgenland.
+          Sicherheit hat Priorität, daher prüfen wir System, Elektronik, Heizkreislauf und relevante Parameter sorgfältig.
+          Im Notfall leiten wir Sofortmaßnahmen ein und stellen die Funktion der Therme schnellstmöglich wieder her.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
@@ -799,15 +799,15 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische NotfÃ¤lle</h3>
+          <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Ausfall der Heizung</li>
-            <li>StÃ¶rungen an der Gastherme</li>
+            <li>Störungen an der Gastherme</li>
             <li>Fehlermeldungen / Fehlercode</li>
             <li>Akute Probleme mit Wasser oder Brenner</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr im Einsatz â€“ schnelle Hilfe vor Ort in Wien, NiederÃ¶sterreich und dem Burgenland.
+            Rund um die uhr im Einsatz – schnelle Hilfe vor Ort in Wien, Niederösterreich und dem Burgenland.
           </p>
         </div>
       </div>
@@ -823,20 +823,20 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
             <h2>Preis, Angebot & MwSt</h2>
             <p>
               Transparenz bei Preis und Angebot ist ein zentraler Bestandteil unseres Kundendienstes.
-              Vor Beginn der Arbeit informieren wir klar Ã¼ber Leistungen, Preise und mÃ¶gliche Kostenfaktoren.
+              Vor Beginn der Arbeit informieren wir klar über Leistungen, Preise und mögliche Kostenfaktoren.
               Kunden erhalten auf Wunsch ein konkretes Angebot, abgestimmt auf Wartung, Reparatur oder Windhager Thermentausch.
             </p>
             <p>
-              Auch bei Notdienst-EinsÃ¤tzen kommunizieren wir nachvollziehbar und fair.
-              Unser Meisterbetrieb legt Wert auf saubere Dokumentation, klare Beratung und planbare AblÃ¤ufe.
-              So behalten Kunden jederzeit den Ãœberblick â€“ von der Diagnose bis zur Behebung â€“ und kÃ¶nnen Entscheidungen sicher und informiert treffen.
+              Auch bei Notdienst-Einsätzen kommunizieren wir nachvollziehbar und fair.
+              Unser Meisterbetrieb legt Wert auf saubere Dokumentation, klare Beratung und planbare Abläufe.
+              So behalten Kunden jederzeit den Überblick – von der Diagnose bis zur Behebung – und können Entscheidungen sicher und informiert treffen.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Preis, Angebot & MwSt" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Preis, Angebot & MwSt" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -851,7 +851,7 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
           <div class="card-box">
             <h2>Lokale Abdeckung</h2>
             <p>
-              Wir betreuen alle relevanten Orte in Wien sowie NiederÃ¶sterreich und das Burgenland.
+              Wir betreuen alle relevanten Orte in Wien sowie Niederösterreich und das Burgenland.
               Kurze Wege sichern schnelle Hilfe, zum Beispiel auch in Liesing und der Umgebung.
             </p>
           </div>
@@ -859,7 +859,7 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Lokale Abdeckung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Lokale Abdeckung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -871,38 +871,38 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
     <div class="service-container">
       <div class="service-section__head">
         <h2>Fragen zum Kundendienst</h2>
-        <p>Die wichtigsten Antworten â€“ kurz und klar.</p>
+        <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
           <summary>Was umfasst der Windhager Kundendienst Wien?</summary>
-          <p>Unser <a href="/">Kundendienst</a> umfasst Thermenservice, Wartung, Thermenwartung, Reparatur, Diagnose und Notdienst fÃ¼r Windhager GerÃ¤te.</p>
+          <p>Unser <a href="/">Kundendienst</a> umfasst Thermenservice, Wartung, Thermenwartung, Reparatur, Diagnose und Notdienst für Windhager Geräte.</p>
         </details>
 
         <details>
-          <summary>Wie oft sollte eine Thermenwartung durchgefÃ¼hrt werden?</summary>
-          <p>Eine regelmÃ¤ÃŸige Thermenwartung erhÃ¶ht Sicherheit, senkt StÃ¶rungen und verlÃ¤ngert die Lebensdauer Ihrer Gastherme.</p>
+          <summary>Wie oft sollte eine Thermenwartung durchgeführt werden?</summary>
+          <p>Eine regelmäßige Thermenwartung erhöht Sicherheit, senkt Störungen und verlängert die Lebensdauer Ihrer Gastherme.</p>
         </details>
 
         <details>
-          <summary>Welche Fehlercodes werden hÃ¤ufig geprÃ¼ft?</summary>
-          <p>Wir prÃ¼fen unter anderem Fehlercode-Hinweise wie E02 Ãœberhitzungsschutz, E110 Kessel, E133 ZÃ¼ndungsfehler, E161 LÃ¼fterfehler und E164 LÃ¼fterfehler.</p>
+          <summary>Welche Fehlercodes werden häufig geprüft?</summary>
+          <p>Wir prüfen unter anderem Fehlercode-Hinweise wie E02 Überhitzungsschutz, E110 Kessel, E133 Zündungsfehler, E161 Lüfterfehler und E164 Lüfterfehler.</p>
         </details>
 
         <details>
-          <summary>Was passiert bei StÃ¶rungen oder Fehlermeldungen?</summary>
-          <p>Unsere Techniker fÃ¼hren Fehlersuche, ÃœberprÃ¼fung und Behebung durch, inklusive Kontrolle von Elektronik, Brenner und Heizkreislauf.</p>
+          <summary>Was passiert bei Störungen oder Fehlermeldungen?</summary>
+          <p>Unsere Techniker führen Fehlersuche, Überprüfung und Behebung durch, inklusive Kontrolle von Elektronik, Brenner und Heizkreislauf.</p>
         </details>
 
         <details>
           <summary>Bietet ihr auch Thermentausch an?</summary>
-          <p>Ja, wir beraten zu Windhager Thermentausch und Ã¼bernehmen Austausch sowie fachgerechte Umsetzung.</p>
+          <p>Ja, wir beraten zu Windhager Thermentausch und übernehmen Austausch sowie fachgerechte Umsetzung.</p>
         </details>
 
         <details>
           <summary>In welchen Regionen seid ihr im Einsatz?</summary>
-          <p>Wir sind in Wien sowie in NiederÃ¶sterreich und dem Burgenland fÃ¼r Kunden im Einsatz.</p>
+          <p>Wir sind in Wien sowie in Niederösterreich und dem Burgenland für Kunden im Einsatz.</p>
         </details>
       </div>
     </div>
@@ -912,7 +912,7 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin Vereinbaren',
-        'text' => 'Setzen Sie auf Sicherheit, Effizienz und ZuverlÃ¤ssigkeit â€“ kompetent, transparent und kundenorientiert. </br> ğŸ“ Jetzt Termin vereinbaren â€“ Ihr Therm4You-Partner in Wien.',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> ?? Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -920,6 +920,7 @@ $metaDescription = "Windhager Kundendienst Wien fÃ¼r Gastherme & Heizung. Therme
 </main>
 
 @endsection
+
 
 
 

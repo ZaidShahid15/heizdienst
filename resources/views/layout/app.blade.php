@@ -7,7 +7,7 @@
     @else
         <meta name="robots" content="index, follow, max-image-preview:large">
     @endif
-    <link rel="shortcut icon" href="{{ asset('img/fav.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/fav.webp') }}" type="image/x-icon">
     <meta name="description" content="{!! $metaDescription ?? 'Default meta description' !!} ">
     <link rel="canonical" href="{{ url()->current() }}">
     <meta property="og:type" content="website">
@@ -16,11 +16,11 @@
     <meta property="og:title" content="{!! $metaTitle ?? 'Default Site Title' !!}">
     <meta property="og:description" content="{!! $metaDescription ?? 'Default meta description' !!}">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('img/hero-scetion.jpeg') }}">
+    <meta property="og:image" content="{{ asset('img/hero-scetion.webp') }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{!! $metaTitle ?? 'Default Site Title' !!}">
     <meta name="twitter:description" content="{!! $metaDescription ?? 'Default meta description' !!}">
-    <meta name="twitter:image" content="{{ asset('img/hero-scetion.jpeg') }}">
+    <meta name="twitter:image" content="{{ asset('img/hero-scetion.webp') }}">
     @php
         $structuredData = [
             '@context' => 'https://schema.org',
@@ -28,7 +28,7 @@
             'name' => 'Heizdienst',
             'url' => url('/'),
             'telephone' => '+4314420617',
-            'image' => asset('img/hero-scetion.jpeg'),
+            'image' => asset('img/hero-scetion.webp'),
             'address' => [
                 '@type' => 'PostalAddress',
                 'addressCountry' => 'AT',
@@ -96,7 +96,7 @@
             content: "";
             position: absolute;
             inset: 0;
-            background-image: url("{{ asset('img/hero-scetion.jpeg') }}");
+            background-image: url("{{ asset('img/hero-scetion.webp') }}");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

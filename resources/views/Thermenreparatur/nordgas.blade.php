@@ -1,4 +1,4 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 
 @section('main')
 <style>
@@ -85,7 +85,7 @@
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  /* âœ… stats pills (2 in a row) */
+  /* ? stats pills (2 in a row) */
   .service-stats{
     display:grid;
     grid-template-columns: repeat(2, minmax(0,1fr));
@@ -198,19 +198,19 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* ===== âœ… Card split (EQUAL HEIGHT like your previous site) ===== */
+  /* ===== ? Card split (EQUAL HEIGHT like your previous site) ===== */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch; /* âœ… stretch for equal height */
+    align-items:stretch; /* ? stretch for equal height */
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
 
   .card-split__text,
   .card-split__media{
-    display:flex; /* âœ… make children fill height */
+    display:flex; /* ? make children fill height */
   }
 
   .card-box{
@@ -230,11 +230,11 @@
   .card-box p{margin:0}
   .card-box p + p{margin-top:10px}
 
-  /* âœ… Image box = equal height with content (fills full) */
+  /* ? Image box = equal height with content (fills full) */
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:100%;            /* âœ… same height as text card */
+    height:100%;            /* ? same height as text card */
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -265,7 +265,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -364,12 +364,12 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
   /* =========================
-     âœ… TOC (after hero, full width)
+     ? TOC (after hero, full width)
      ========================= */
   .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
@@ -456,15 +456,15 @@
     .card-split__text,
     .card-split__media{display:block;}
 
-    .service-media__box{min-height:220px; height:auto;} /* âœ… nice on mobile */
+    .service-media__box{min-height:220px; height:auto;} /* ? nice on mobile */
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
 </style>
 
 @php
-$metaTitle = "Nordgas Thermenreparatur Wien â€“ Nordgas Thermenwartung & Notdienst";
-$metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Thermenwartung, Kundendienst, Thermentausch & Notdienst in Wien, NiederÃ¶sterreich und Wiener Neustadt.";
+$metaTitle = "Nordgas Thermenreparatur Wien – Nordgas Thermenwartung & Notdienst";
+$metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Thermenwartung, Kundendienst, Thermentausch & Notdienst in Wien, Niederösterreich und Wiener Neustadt.";
 @endphp
 
 @push('meta')
@@ -484,11 +484,11 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/NordGas.png') }}" alt="Nordgas Logo">
+        <img src="{{ asset('img/1NordGas.webp') }}" alt="Nordgas Logo">
       </div>
 
       <p class="wolf-hero__sub">
-       Schnelle Nordgas Thermenreparatur Wien fÃ¼r Ihre Nordgas Therme â€“ Thermenservice, Wartung und Notdienst in Wien und NiederÃ¶sterreich.
+       Schnelle Nordgas Thermenreparatur Wien für Ihre Nordgas Therme – Thermenservice, Wartung und Notdienst in Wien und Niederösterreich.
 
       </p>
 
@@ -527,7 +527,7 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            GeprÃ¼fte Experten
+            Geprüfte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -542,7 +542,7 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
     </div>
   </section>
 
-  <!-- âœ… TOC AFTER HERO -->
+  <!-- ? TOC AFTER HERO -->
   <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
     <div class="service-container">
       <div class="toc-card is-collapsed" id="tocCard">
@@ -585,25 +585,25 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
           <div class="card-box">
             <h2>Nordgas Thermenreparatur Wien und Nordgas Kundendienst</h2>
             <p>
-              Unsere Nordgas Thermenreparatur Wien steht fÃ¼r professionelle Reparaturen, zuverlÃ¤ssigen Kundendienst und umfassenden Nordgas Thermenservice. Zudem bieten wir einen <a href="/windhager-thermenreparatur-wien">fachgerechten Service fÃ¼r verschiedene Heizsysteme</a> fÃ¼r hÃ¶chste Betriebssicherheit an.
+              Unsere Nordgas Thermenreparatur Wien steht für professionelle Reparaturen, zuverlässigen Kundendienst und umfassenden Nordgas Thermenservice. Zudem bieten wir einen <a href="/windhager-thermenreparatur-wien">fachgerechten Service für verschiedene Heizsysteme</a> für höchste Betriebssicherheit an.
             </p>
             <p>
-              Ob Fehlermeldungen, StÃ¶rungen oder andere Probleme im Betrieb â€“ unser Team analysiert jede Therme sorgfÃ¤ltig und bietet nachhaltige LÃ¶sungen.
-              Mit Erfahrung, Kompetenz und Know how sorgen wir fÃ¼r Sicherheit, QualitÃ¤t und langfristige Funktion Ihrer Heizung.
-              Auch in NiederÃ¶sterreich, NÃ– und Wiener Neustadt stehen wir als verlÃ¤sslicher Partner zur VerfÃ¼gung.
+              Ob Fehlermeldungen, Störungen oder andere Probleme im Betrieb – unser Team analysiert jede Therme sorgfältig und bietet nachhaltige Lösungen.
+              Mit Erfahrung, Kompetenz und Know how sorgen wir für Sicherheit, Qualität und langfristige Funktion Ihrer Heizung.
+              Auch in Niederösterreich, NÖ und Wiener Neustadt stehen wir als verlässlicher Partner zur Verfügung.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Thermenservice aus einer Hand</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Wien, NÃ– & Wiener Neustadt</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Nachhaltige LÃ¶sungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Thermenservice aus einer Hand</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Wien, NÖ & Wiener Neustadt</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Nachhaltige Lösungen</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1NordGas.png') }}" alt="Nordgas Thermenreparatur Wien und Nordgas Kundendienst" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1NordGas.webp') }}" alt="Nordgas Thermenreparatur Wien und Nordgas Kundendienst" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -616,29 +616,29 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2 id="kundendienst">Kundendienst â€“ Reparaturen Ihrer Nordgas Gastherme bei StÃ¶rungen</h2>
+            <h2 id="kundendienst">Kundendienst – Reparaturen Ihrer Nordgas Gastherme bei Störungen</h2>
             <p>
               Wenn Ihre Nordgas Gastherme nicht mehr einwandfrei arbeitet, ist rasche Hilfe entscheidend.
-              Unsere Techniker fÃ¼hren prÃ¤zise ÃœberprÃ¼fung aller Komponenten, FunktionsprÃ¼fung sowie Dichtheit Kontrollen durch.
-              Die Reparaturen erfolgen nach hohen QualitÃ¤tsstandards und mit geprÃ¼ften Teilen, um SchÃ¤den zu vermeiden.
+              Unsere Techniker führen präzise Überprüfung aller Komponenten, Funktionsprüfung sowie Dichtheit Kontrollen durch.
+              Die Reparaturen erfolgen nach hohen Qualitätsstandards und mit geprüften Teilen, um Schäden zu vermeiden.
             </p>
             <p>
-              Ob kleinere Probleme oder grÃ¶ÃŸere StÃ¶rungen â€“ wir stellen die sichere Funktion Ihrer Therme wieder her.
-              Der Nordgas Kundendienst kÃ¼mmert sich um GasgerÃ¤te, HeizkÃ¶rper und komplette Heizungsanlage.
-              Mit gezielter Reinigung und fachgerechtem Austausch defekter Bauteile erhÃ¶hen wir die Lebensdauer Ihrer Nordgas Therme und sichern den zuverlÃ¤ssigen Betrieb.
+              Ob kleinere Probleme oder größere Störungen – wir stellen die sichere Funktion Ihrer Therme wieder her.
+              Der Nordgas Kundendienst kümmert sich um Gasgeräte, Heizkörper und komplette Heizungsanlage.
+              Mit gezielter Reinigung und fachgerechtem Austausch defekter Bauteile erhöhen wir die Lebensdauer Ihrer Nordgas Therme und sichern den zuverlässigen Betrieb.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">FunktionsprÃ¼fung</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Dichtheit Kontrollen</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">GeprÃ¼fte Teile</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Funktionsprüfung</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Dichtheit Kontrollen</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Geprüfte Teile</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Reparaturen Ihrer Nordgas Gastherme bei StÃ¶rungen" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Reparaturen Ihrer Nordgas Gastherme bei Störungen" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -647,55 +647,55 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
 
       <div class="service-section__head">
         <h3 id="notdienst-wien">Notdienst Wien rund um die Uhr</h3>
-        <p>Professioneller <a href="/">Kundendienst</a> fÃ¼r Nordgas Therme und GasgerÃ¤te in Wien, NiederÃ¶sterreich und Wiener Neustadt.</p>
+        <p>Professioneller <a href="/">Kundendienst</a> für Nordgas Therme und Gasgeräte in Wien, Niederösterreich und Wiener Neustadt.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ› ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">???</div>
           <div>
             <h3>Nordgas Thermenreparatur</h3>
-            <p>Schnelle Reparaturen bei Fehlermeldungen, StÃ¶rungen und Problemen im Betrieb â€“ direkt vor Ort.</p>
+            <p>Schnelle Reparaturen bei Fehlermeldungen, Störungen und Problemen im Betrieb – direkt vor Ort.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ§½</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
-            <h3>ÃœberprÃ¼fung & Reinigung</h3>
-            <p>GrÃ¼ndliche ÃœberprÃ¼fung, Reinigung und Dichtheit Kontrolle sensibler Bauteile â€“ zur Vermeidung teurer SchÃ¤den.</p>
+            <h3>Überprüfung & Reinigung</h3>
+            <p>Gründliche Überprüfung, Reinigung und Dichtheit Kontrolle sensibler Bauteile – zur Vermeidung teurer Schäden.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">âš™ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Thermenwartung</h3>
-            <p>RegelmÃ¤ÃŸige Wartung mit prÃ¤ziser Einstellung â€“ fÃ¼r mehr Effizienz, Sicherheit und lÃ¤ngere Lebensdauer.</p>
+            <p>Regelmäßige Wartung mit präziser Einstellung – für mehr Effizienz, Sicherheit und längere Lebensdauer.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ”</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Thermentausch</h3>
-            <p>Beratung und Austausch Ã¤lterer Nordgas GerÃ¤te gegen moderne Systeme â€“ optimal angepasst an Ihre Heizungsanlage.</p>
+            <p>Beratung und Austausch älterer Nordgas Geräte gegen moderne Systeme – optimal angepasst an Ihre Heizungsanlage.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸš¨</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Notdienst</h3>
-            <p>Rund um die Uhr erreichbar bei Notfall, Gasgeruch oder Ausfall der Gastherme â€“ auch in Wiener Neustadt.</p>
+            <p>Rund um die Uhr erreichbar bei Notfall, Gasgeruch oder Ausfall der Gastherme – auch in Wiener Neustadt.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ¤</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
-            <h3>Beratung & LÃ¶sungen</h3>
-            <p>Kompetente Beratung, klare Preise und passende Alternative LÃ¶sungen â€“ kundenorientiert und transparent.</p>
+            <h3>Beratung & Lösungen</h3>
+            <p>Kompetente Beratung, klare Preise und passende Alternative Lösungen – kundenorientiert und transparent.</p>
           </div>
         </article>
       </div>
@@ -708,30 +708,30 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2 id="thermenreparatur-wien">Nordgas Thermenreparatur Wien fÃ¼r Effizienz und Sicherheit</h2>
+            <h2 id="thermenreparatur-wien">Nordgas Thermenreparatur Wien für Effizienz und Sicherheit</h2>
             <p>
-              Eine regelmÃ¤ÃŸige Nordgas Thermenwartung ist entscheidend fÃ¼r die langfristige Funktion Ihrer Nordgas Therme.
-              Unsere professionelle Thermenwartung sowie gezielte Wartung Ihrer Nordgas Gastherme umfasst grÃ¼ndliche ÃœberprÃ¼fung aller Komponenten,
-              sorgfÃ¤ltige Reinigung und prÃ¤zise Einstellung der GerÃ¤te.
+              Eine regelmäßige Nordgas Thermenwartung ist entscheidend für die langfristige Funktion Ihrer Nordgas Therme.
+              Unsere professionelle Thermenwartung sowie gezielte Wartung Ihrer Nordgas Gastherme umfasst gründliche Überprüfung aller Komponenten,
+              sorgfältige Reinigung und präzise Einstellung der Geräte.
             </p>
             <p>
-              Durch strukturierte Nordgas Thermenwartung erhÃ¶hen wir Sicherheit, verbessern die FunktionalitÃ¤t und verlÃ¤ngern die Lebensdauer deutlich.
-              Unsere Techniker prÃ¼fen GasgerÃ¤te auf Dichtheit, kontrollieren sensible Bauteile und sichern einen stabilen Betrieb Ihrer Heizung.
-              So sparen Sie Geld durch geringeren Energieverbrauch und vermeiden teure SchÃ¤den.
-              Der Nordgas Thermenservice steht Kunden in Wien, NiederÃ¶sterreich und NÃ– zuverlÃ¤ssig zur VerfÃ¼gung.
+              Durch strukturierte Nordgas Thermenwartung erhöhen wir Sicherheit, verbessern die Funktionalität und verlängern die Lebensdauer deutlich.
+              Unsere Techniker prüfen Gasgeräte auf Dichtheit, kontrollieren sensible Bauteile und sichern einen stabilen Betrieb Ihrer Heizung.
+              So sparen Sie Geld durch geringeren Energieverbrauch und vermeiden teure Schäden.
+              Der Nordgas Thermenservice steht Kunden in Wien, Niederösterreich und NÖ zuverlässig zur Verfügung.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Sicherheit</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Weniger Verbrauch</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">LÃ¤ngere Lebensdauer</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Verbrauch</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Längere Lebensdauer</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Nordgas Thermenwartung Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Nordgas Thermenwartung Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -744,30 +744,30 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Nordgas Thermentausch und moderne LÃ¶sungen</h2>
+            <h2>Nordgas Thermentausch und moderne Lösungen</h2>
             <p>
-              Wenn wiederholte Reparaturen oder hÃ¤ufige Probleme auftreten, empfehlen wir einen Nordgas Thermentausch.
-              Der Austausch Ã¤lterer Nordgas GerÃ¤te gegen moderne Systeme verbessert Effizienz und erhÃ¶ht den Wohnkomfort.
-              Unsere Installateur Ã¼bernehmen Beratung, fachgerechte Arbeiten und vollstÃ¤ndigen Austausch direkt vor Ort.
+              Wenn wiederholte Reparaturen oder häufige Probleme auftreten, empfehlen wir einen Nordgas Thermentausch.
+              Der Austausch älterer Nordgas Geräte gegen moderne Systeme verbessert Effizienz und erhöht den Wohnkomfort.
+              Unsere Installateur übernehmen Beratung, fachgerechte Arbeiten und vollständigen Austausch direkt vor Ort.
             </p>
             <p>
-              Dabei achten wir auf QualitÃ¤t, Garantie und optimale Anpassung an Ihre Heizungsanlage.
-              Auch als Alternative zu Ã¤lteren Marken bieten wir passende LÃ¶sungen an.
-              Mit transparenten Preise, klarer Beratung und zuverlÃ¤ssigem Kundendienst begleiten wir Sie bei jedem Schritt.
-              Nordgas steht fÃ¼r langlebige LÃ¶sungen, Kompetenz und echte Vertrauens Basis.
+              Dabei achten wir auf Qualität, Garantie und optimale Anpassung an Ihre Heizungsanlage.
+              Auch als Alternative zu älteren Marken bieten wir passende Lösungen an.
+              Mit transparenten Preise, klarer Beratung und zuverlässigem Kundendienst begleiten wir Sie bei jedem Schritt.
+              Nordgas steht für langlebige Lösungen, Kompetenz und echte Vertrauens Basis.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Wohnkomfort</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Klare Beratung</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Wohnkomfort</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Klare Beratung</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Nordgas Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.webp') }}" alt="Nordgas Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -780,14 +780,14 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
       <div class="service-emergency__text">
         <h2>Nordgas Notdienst Wien und Umgebung</h2>
         <p>
-          Bei einem Notfall steht unser Nordgas Notdienst in Wien und NiederÃ¶sterreich rund um die Uhr zur VerfÃ¼gung.
-          Ob akute SchÃ¤den, Gasgeruch oder Ausfall der Gastherme â€“ unsere Experten reagieren schnell.
-          Der Notdienst ist auch in NÃ–, Wiener Neustadt und der gesamten Umgebung im Einsatz.
+          Bei einem Notfall steht unser Nordgas Notdienst in Wien und Niederösterreich rund um die Uhr zur Verfügung.
+          Ob akute Schäden, Gasgeruch oder Ausfall der Gastherme – unsere Experten reagieren schnell.
+          Der Notdienst ist auch in NÖ, Wiener Neustadt und der gesamten Umgebung im Einsatz.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Unsere Techniker prÃ¼fen Ihre Nordgas GerÃ¤te direkt vor Ort und sorgen fÃ¼r sichere Reparatur oder notwendige Alternative LÃ¶sungen.
-          Besonders bei kalter Jahreszeit zÃ¤hlt jede Stunde, um Wohnkomfort und Energieeffizienz zu sichern.
-          Vertrauen Sie auf Nordgas Thermenservice mit hoher ProfessionalitÃ¤t und echter Kundenorientierung.
+          Unsere Techniker prüfen Ihre Nordgas Geräte direkt vor Ort und sorgen für sichere Reparatur oder notwendige Alternative Lösungen.
+          Besonders bei kalter Jahreszeit zählt jede Stunde, um Wohnkomfort und Energieeffizienz zu sichern.
+          Vertrauen Sie auf Nordgas Thermenservice mit hoher Professionalität und echter Kundenorientierung.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
@@ -797,15 +797,15 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische NotfÃ¤lle</h3>
+          <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Gasgeruch</li>
             <li>Ausfall der Gastherme / Heizung</li>
-            <li>Fehlermeldungen und StÃ¶rungen</li>
-            <li>Akute SchÃ¤den in der kalten Jahreszeit</li>
+            <li>Fehlermeldungen und Störungen</li>
+            <li>Akute Schäden in der kalten Jahreszeit</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr erreichbar â€“ Wien, NiederÃ¶sterreich, NÃ– und Wiener Neustadt.
+            Rund um die uhr erreichbar – Wien, Niederösterreich, NÖ und Wiener Neustadt.
           </p>
         </div>
       </div>
@@ -818,27 +818,27 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
       <div class="card-split">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Techniker in Wien, NiederÃ¶sterreich und Wiener Neustadt</h2>
+            <h2>Techniker in Wien, Niederösterreich und Wiener Neustadt</h2>
             <p>
-              Unser Team betreut Wien, NiederÃ¶sterreich, NÃ– und Wiener Neustadt mit schneller Hilfe,
+              Unser Team betreut Wien, Niederösterreich, NÖ und Wiener Neustadt mit schneller Hilfe,
               kompetenter Beratung und professionellen Reparaturen.
             </p>
             <p style="margin-top:10px;">
-              Sicherheit und Funktion im Notfall: Bei Notfall mit GasgerÃ¤te oder Therme reagieren unsere Techniker sofort
+              Sicherheit und Funktion im Notfall: Bei Notfall mit Gasgeräte oder Therme reagieren unsere Techniker sofort
               und stellen durch fachgerechte Arbeiten die sichere Funktion wieder her.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Wien</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">NiederÃ¶sterreich</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Wiener Neustadt</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Wien</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Niederösterreich</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Wiener Neustadt</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Techniker Wien NiederÃ¶sterreich Wiener Neustadt" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Techniker Wien Niederösterreich Wiener Neustadt" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -853,21 +853,21 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
           <div class="card-box">
             <h2>Warum Nordgas Ihr Partner in Wien ist</h2>
             <p>
-              Nordgas ist Ihr Spezialist fÃ¼r Thermenservice, Reparaturen und Wartung in Wien und NiederÃ¶sterreich.
-              Unser Team aus erfahrenen Techniker und Experten betreut Nordgas Therme, Nordgas Gastherme und andere GasgerÃ¤te mit hÃ¶chster Sorgfalt.
-              Der Nordgas Kundendienst Wien bietet schnelle Hilfe, persÃ¶nliche Beratung und professionelle Dienstleistungen.
+              Nordgas ist Ihr Spezialist für Thermenservice, Reparaturen und Wartung in Wien und Niederösterreich.
+              Unser Team aus erfahrenen Techniker und Experten betreut Nordgas Therme, Nordgas Gastherme und andere Gasgeräte mit höchster Sorgfalt.
+              Der Nordgas Kundendienst Wien bietet schnelle Hilfe, persönliche Beratung und professionelle Dienstleistungen.
             </p>
             <p>
-              Mit umfassendem Fachwissen, langjÃ¤hriger Erfahrung und echter Kundenorientierung kÃ¼mmern wir uns um alle Anliegen rund um Ihre Heizung.
-              QualitÃ¤t, Sicherheit und nachhaltige LÃ¶sungen stehen bei uns im Herzen jeder Arbeit.
-              Vertrauen Sie auf Nordgas Thermenreparatur und zuverlÃ¤ssigen Service fÃ¼r Ihr Zuhause.
+              Mit umfassendem Fachwissen, langjähriger Erfahrung und echter Kundenorientierung kümmern wir uns um alle Anliegen rund um Ihre Heizung.
+              Qualität, Sicherheit und nachhaltige Lösungen stehen bei uns im Herzen jeder Arbeit.
+              Vertrauen Sie auf Nordgas Thermenreparatur und zuverlässigen Service für Ihr Zuhause.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Warum Nordgas" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Warum Nordgas" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -878,39 +878,39 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
   <section class="service-section" id="faq-services">
     <div class="service-container">
       <div class="service-section__head">
-        <h2>HÃ¤ufige Fragen zur Nordgas Thermenreparatur Wien</h2>
-        <p>Die wichtigsten Antworten â€“ kurz und klar.</p>
+        <h2>Häufige Fragen zur Nordgas Thermenreparatur Wien</h2>
+        <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
-          <summary>1. Wie oft sollte eine Nordgas Thermenwartung durchgefÃ¼hrt werden?</summary>
-          <p>Eine jÃ¤hrliche Nordgas Thermenwartung erhÃ¶ht Sicherheit, Effizienz und Lebensdauer Ihrer Therme deutlich.</p>
+          <summary>1. Wie oft sollte eine Nordgas Thermenwartung durchgeführt werden?</summary>
+          <p>Eine jährliche Nordgas Thermenwartung erhöht Sicherheit, Effizienz und Lebensdauer Ihrer Therme deutlich.</p>
         </details>
 
         <details>
-          <summary>2. Ist der Nordgas Notdienst in Wien verfÃ¼gbar?</summary>
-          <p>Ja, <a href="/">unserer Notfallhilfe</a> rund um die Uhr in Wien, NiederÃ¶sterreich, NÃ– und Wiener Neustadt im Einsatz.</p>
+          <summary>2. Ist der Nordgas Notdienst in Wien verfügbar?</summary>
+          <p>Ja, <a href="/">unserer Notfallhilfe</a> rund um die Uhr in Wien, Niederösterreich, NÖ und Wiener Neustadt im Einsatz.</p>
         </details>
 
         <details>
           <summary>3. Welche Leistungen umfasst der Nordgas Thermenservice?</summary>
-          <p>Der Nordgas Thermenservice umfasst Reparaturen, ÃœberprÃ¼fung, Reinigung, Austausch von Teilen und umfassenden Kundendienst.</p>
+          <p>Der Nordgas Thermenservice umfasst Reparaturen, Überprüfung, Reinigung, Austausch von Teilen und umfassenden Kundendienst.</p>
         </details>
 
         <details>
           <summary>4. Wann ist ein Nordgas Thermentausch sinnvoll?</summary>
-          <p>Bei hÃ¤ufigen StÃ¶rungen, steigenden Preise oder nachlassender Funktion empfehlen wir einen Thermentausch.</p>
+          <p>Bei häufigen Störungen, steigenden Preise oder nachlassender Funktion empfehlen wir einen Thermentausch.</p>
         </details>
 
         <details>
-          <summary>5. Verwenden Sie geprÃ¼fte Ersatzteile?</summary>
-          <p>Ja, wir arbeiten mit hochwertigen Teilen fÃ¼r maximale Sicherheit und langfristige Funktion.</p>
+          <summary>5. Verwenden Sie geprüfte Ersatzteile?</summary>
+          <p>Ja, wir arbeiten mit hochwertigen Teilen für maximale Sicherheit und langfristige Funktion.</p>
         </details>
 
         <details>
           <summary>6. Wie kann ich Kontakt aufnehmen?</summary>
-          <p>Sie erreichen uns telefonisch oder per E Mail Ã¼ber diese Seite fÃ¼r Terminvereinbarung oder Beratung.</p>
+          <p>Sie erreichen uns telefonisch oder per E Mail über diese Seite für Terminvereinbarung oder Beratung.</p>
         </details>
       </div>
     </div>
@@ -920,7 +920,7 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin Vereinbaren',
-        'text' => 'Setzen Sie auf Sicherheit, Effizienz und ZuverlÃ¤ssigkeit â€“ kompetent, transparent und kundenorientiert. </br> ğŸ“ Jetzt Termin vereinbaren â€“ Ihr Therm4You-Partner in Wien.',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> ?? Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -928,5 +928,6 @@ $metaDescription = "Nordgas Thermenreparatur Wien vom Spezialist. Nordgas Therme
 </main>
 
 @endsection
+
 
 

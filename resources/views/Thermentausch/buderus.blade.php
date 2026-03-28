@@ -260,7 +260,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -358,7 +358,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
@@ -467,7 +467,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Logo">
+        <img src="{{ asset('img/1buderus.webp') }}" alt="Buderus Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -580,7 +580,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Wann ein Thermentausch in Wien sinnvoll ist" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/buderus.webp') }}" alt="Wann ein Thermentausch in Wien sinnvoll ist" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -701,7 +701,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Montage, Betrieb und Sicherheit" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Montage, Betrieb und Sicherheit" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -734,7 +734,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Kosten, Preise und Transparenz" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Kosten, Preise und Transparenz" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -762,7 +762,7 @@ $metaDescription = "Buderus Thermentausch in Wien ✔ Moderne Buderus Gastherme 
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Thermentausch in Wien und Niederösterreich" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.webp') }}" alt="Thermentausch in Wien und Niederösterreich" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

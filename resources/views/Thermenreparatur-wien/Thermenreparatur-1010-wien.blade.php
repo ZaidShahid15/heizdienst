@@ -1,9 +1,9 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 
 @section('main')
 
 @php
-$metaTitle = "Thermenreparatur 1010 Wien â€“ Installateur Notdienst Wien Zentrum";
+$metaTitle = "Thermenreparatur 1010 Wien – Installateur Notdienst Wien Zentrum";
 $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle Hilfe bei kein Warmwasser, Heizung defekt & Notdienst in der Innere Stadt. Jetzt kontaktieren!";
 @endphp
 
@@ -30,7 +30,7 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu fÃ¼r Thermen Marken) === */
+    /* === BRAND GRID (neu für Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -90,7 +90,7 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
         <span style="color:#FB9A1B;">Installateur Notdienst Wien Zentrum</span>
       </h1>
 
-      <p class="wolf-hero__sub">Schnelle Thermenreparatur 1010 Wien vom erfahrenen Installateur Wien â€“ rasche Hilfe bei Heizung, Warmwasser und Notdienst in der Innere Stadt. Unser 24h Notdienst ist immer fÃ¼r Sie da.</p>
+      <p class="wolf-hero__sub">Schnelle Thermenreparatur 1010 Wien vom erfahrenen Installateur Wien – rasche Hilfe bei Heizung, Warmwasser und Notdienst in der Innere Stadt. Unser 24h Notdienst ist immer für Sie da.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -177,25 +177,25 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Schnelle Hilfe bei Thermenproblemen in 1010 Wien</h2>
-          <p>Wenn Ihre Therme defekt ist oder plÃ¶tzlich kein Warmwasser vorhanden ist, benÃ¶tigen Sie schnelle Hilfe in 1010 Wien. Unser Installateur Wien bietet zuverlÃ¤ssige Thermenreparatur 1010 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in der Innere Stadt und im Wien Zentrum. Egal ob Gastherme Reparatur, Heizung Reparatur oder akute NotfÃ¤lle â€“ unser erfahrenes Team sorgt fÃ¼r Soforthilfe und eine schnelle LÃ¶sung. Als Installateur 1010 Wien sind wir tÃ¤glich im Einsatz und garantieren kurze Reaktionszeiten in Wien 1010. Vertrauen Sie auf unseren professionellen Notdienst, wenn Ihre Heizung Probleme macht oder Ihre Gastherme nicht mehr funktioniert.</p>
+          <p>Wenn Ihre Therme defekt ist oder plötzlich kein Warmwasser vorhanden ist, benötigen Sie schnelle Hilfe in 1010 Wien. Unser Installateur Wien bietet zuverlässige Thermenreparatur 1010 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in der Innere Stadt und im Wien Zentrum. Egal ob Gastherme Reparatur, Heizung Reparatur oder akute Notfälle – unser erfahrenes Team sorgt für Soforthilfe und eine schnelle Lösung. Als Installateur 1010 Wien sind wir täglich im Einsatz und garantieren kurze Reaktionszeiten in Wien 1010. Vertrauen Sie auf unseren professionellen Notdienst, wenn Ihre Heizung Probleme macht oder Ihre Gastherme nicht mehr funktioniert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1010 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size6.webp" alt="Installateur Service 1010 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§°</div><div>
-          <h3>Rohrbruch & WasserschÃ¤den schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann groÃŸe SchÃ¤den verursachen. Unser Installateur Notdienst Wien bietet schnelle Hilfe bei Wasserschaden Wien und sorgt dafÃ¼r, dass Wasserleitungen sofort repariert werden.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Rohrbruch & Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann große Schäden verursachen. Unser Installateur Notdienst Wien bietet schnelle Hilfe bei Wasserschaden Wien und sorgt dafür, dass Wasserleitungen sofort repariert werden.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš¡</div><div>
-          <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss nicht mehr funktioniert oder das WC verstopft Wien ist, hilft unser Rohrreinigung Wien Service schnell und zuverlÃ¤ssig im gesamten Bereich Installateur Wien 1010.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
+          <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss nicht mehr funktioniert oder das WC verstopft Wien ist, hilft unser Rohrreinigung Wien Service schnell und zuverlässig im gesamten Bereich Installateur Wien 1010.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§‘â€ğŸ”§</div><div>
-          <h3>Professioneller Installateur fÃ¼r Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen im Bereich Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kÃ¼mmern wir uns um Gasleitungen, Thermen und Heizsysteme. Unser Fokus liegt auf schneller Thermenreparatur 1010 Wien und Heizungsservice. Ob Gastherme defekt, kein Warmwasser oder Heizungsausfall â€“ wir sind Ihr Experte. Gleichzeitig Ã¼bernimmt unser SanitÃ¤r Installateur Wien alle Arbeiten rund um Badezimmer, Wasserleitungen und SanitÃ¤ranlagen. Moderne Heizungstechnik Wien und zuverlÃ¤ssige SanitÃ¤rtechnik Wien gehÃ¶ren zu unseren tÃ¤glichen Aufgaben. Unser Installateur Betrieb Wien bietet Reparaturen, Wartung und neue Installationen Wien fÃ¼r Wohnungen, HÃ¤user und Betriebe in Wien 1010. Durch unsere Erfahrung in der Haustechnik Wien kÃ¶nnen wir schnelle und sichere LÃ¶sungen anbieten.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?????</div><div>
+          <h3>Professioneller Installateur für Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen im Bereich Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kümmern wir uns um Gasleitungen, Thermen und Heizsysteme. Unser Fokus liegt auf schneller Thermenreparatur 1010 Wien und Heizungsservice. Ob Gastherme defekt, kein Warmwasser oder Heizungsausfall – wir sind Ihr Experte. Gleichzeitig übernimmt unser Sanitär Installateur Wien alle Arbeiten rund um Badezimmer, Wasserleitungen und Sanitäranlagen. Moderne Heizungstechnik Wien und zuverlässige Sanitärtechnik Wien gehören zu unseren täglichen Aufgaben. Unser Installateur Betrieb Wien bietet Reparaturen, Wartung und neue Installationen Wien für Wohnungen, Häuser und Betriebe in Wien 1010. Durch unsere Erfahrung in der Haustechnik Wien können wir schnelle und sichere Lösungen anbieten.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ“</div><div>
-          <h3>Ihr Installateur in der Wiener Innenstadt</h3><p>Wenn Sie einen zuverlÃ¤ssigen Installateur 1010 Wien suchen, ist schnelle VerfÃ¼gbarkeit entscheidend. Unser Installateur Notdienst Wien ist tÃ¤glich im Zentrum tÃ¤tig und erreicht Kunden in kurzer Zeit. Als erfahrener Installateur Wien 1010 betreuen wir Wohnungen, BÃ¼ros und Gewerbebetriebe direkt im Herzen der Stadt. Unser Notdienst Installateur 1010 Wien kennt die Besonderheiten der GebÃ¤ude im ersten Bezirk und bietet professionelle LÃ¶sungen fÃ¼r alte und neue Installationen. Ob akuter Installateur Notfall Wien, ein technisches Problem mit Wasserleitungen oder eine schnelle Reparatur â€“ unser Installateur Wien Innenstadt ist sofort einsatzbereit. Wenn Sie einen Installateur NÃ¤he 1010 Wien oder einen Installateur Umgebung Wien benÃ¶tigen, steht unser Installateur Notdienst 1010 Wien schnell zur VerfÃ¼gung.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Ihr Installateur in der Wiener Innenstadt</h3><p>Wenn Sie einen zuverlässigen Installateur 1010 Wien suchen, ist schnelle Verfügbarkeit entscheidend. Unser Installateur Notdienst Wien ist täglich im Zentrum tätig und erreicht Kunden in kurzer Zeit. Als erfahrener Installateur Wien 1010 betreuen wir Wohnungen, Büros und Gewerbebetriebe direkt im Herzen der Stadt. Unser Notdienst Installateur 1010 Wien kennt die Besonderheiten der Gebäude im ersten Bezirk und bietet professionelle Lösungen für alte und neue Installationen. Ob akuter Installateur Notfall Wien, ein technisches Problem mit Wasserleitungen oder eine schnelle Reparatur – unser Installateur Wien Innenstadt ist sofort einsatzbereit. Wenn Sie einen Installateur Nähe 1010 Wien oder einen Installateur Umgebung Wien benötigen, steht unser Installateur Notdienst 1010 Wien schnell zur Verfügung.</p>
         </div></article>
       </div>
     </div>
@@ -206,16 +206,16 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Unser erfahrenes Team fÃ¼r 1010 Wien</h2>
-          <p>Unser Installateur Notdienst Wien steht fÃ¼r QualitÃ¤t, Erfahrung und schnelle Hilfe. Als etablierter Installateur Fachbetrieb Wien arbeiten wir mit modernen Werkzeugen und professionellen Methoden. Unser Installateur Team Wien verfÃ¼gt Ã¼ber langjÃ¤hrige Installateur Erfahrung Wien im Bereich SanitÃ¤r-, Heizungs- und Gasinstallationen â€“ insbesondere bei Thermenreparatur und Wartung. Kunden schÃ¤tzen besonders unsere schnelle Reaktionszeit und unseren zuverlÃ¤ssigen Installateur Service Wien. Wir verstehen, dass ThermenausfÃ¤lle sofort gelÃ¶st werden mÃ¼ssen, deshalb arbeitet unser Notdienst 24h Wien rund um die Uhr. Wenn Sie einen Installateur schnell Wien benÃ¶tigen, steht unser Team sofort bereit. Unser Ziel ist es, jedes Problem effizient und dauerhaft zu lÃ¶sen.</p>
+          <h2>Unser erfahrenes Team für 1010 Wien</h2>
+          <p>Unser Installateur Notdienst Wien steht für Qualität, Erfahrung und schnelle Hilfe. Als etablierter Installateur Fachbetrieb Wien arbeiten wir mit modernen Werkzeugen und professionellen Methoden. Unser Installateur Team Wien verfügt über langjährige Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen – insbesondere bei Thermenreparatur und Wartung. Kunden schätzen besonders unsere schnelle Reaktionszeit und unseren zuverlässigen Installateur Service Wien. Wir verstehen, dass Thermenausfälle sofort gelöst werden müssen, deshalb arbeitet unser Notdienst 24h Wien rund um die Uhr. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, jedes Problem effizient und dauerhaft zu lösen.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere Arbeit</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparenz</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Arbeit</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparenz</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size5.jpeg" alt="Installateur Team" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size5.webp" alt="Installateur Team" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -224,18 +224,18 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1010</h2><p>Unser Thermenservice Wien umfasst nicht nur die Thermenreparatur 1010 Wien, sondern auch regelmÃ¤ÃŸige Thermenwartung und professionellen Service fÃ¼r Ihre gesamte Heizung. Als Fachbetrieb in Wien 1010 bieten wir Wartung, Reparatur und umfassende Betreuung Ihrer Gastherme und Heizsysteme. Unser Team aus erfahrenen FachmÃ¤nnern arbeitet mit hÃ¶chster QualitÃ¤t und sorgt fÃ¼r langlebige LÃ¶sungen. Egal ob SanitÃ¤r, Haustechnik oder Gas Wasser Installateur Leistungen â€“ wir decken alles ab. Vertrauen Sie auf unsere Erfahrung, wenn es um Wartung, Service und zuverlÃ¤ssige Reparatur in der Innere Stadt geht.</p></div>
+      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1010</h2><p>Unser Thermenservice Wien umfasst nicht nur die Thermenreparatur 1010 Wien, sondern auch regelmäßige Thermenwartung und professionellen Service für Ihre gesamte Heizung. Als Fachbetrieb in Wien 1010 bieten wir Wartung, Reparatur und umfassende Betreuung Ihrer Gastherme und Heizsysteme. Unser Team aus erfahrenen Fachmännern arbeitet mit höchster Qualität und sorgt für langlebige Lösungen. Egal ob Sanitär, Haustechnik oder Gas Wasser Installateur Leistungen – wir decken alles ab. Vertrauen Sie auf unsere Erfahrung, wenn es um Wartung, Service und zuverlässige Reparatur in der Innere Stadt geht.</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§½</div><div><h3>Rohrreinigung Wien</h3><p>Rohrreinigung Wien bei verstopften Leitungen oder Abfluss verstopft Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§ª</div><div><h3>Wasserrohrbruch Wien</h3><p>Schnelle Hilfe bei Wasserrohrbruch Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš¡</div><div><h3>WC verstopft Wien</h3><p>Reparatur von WC verstopft Wien und Abflussproblemen.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div><div><h3>SanitÃ¤r Reparatur Wien</h3><p>Professionelle SanitÃ¤r Reparatur Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”</div><div><h3>Bad Installation Wien</h3><p>Planung und Umsetzung von Bad Installation Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âœ…</div><div><h3>Badsanierung Wien</h3><p>Moderne Badsanierung Wien und Sanierung Bad Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§°</div><div><h3>Serviceangebot</h3><p>Wartung von Thermen inklusive Thermenwartung Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš™ï¸</div><div><h3>Gastherme Wartung Wien</h3><p>Gastherme Wartung Wien und Thermen Service Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div><div><h3>Heizung Installateur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ›</div><div><h3>Montage SanitÃ¤r Wien</h3><p>Montage SanitÃ¤r Wien fÃ¼r neue Anlagen.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Rohrreinigung Wien</h3><p>Rohrreinigung Wien bei verstopften Leitungen oder Abfluss verstopft Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Wasserrohrbruch Wien</h3><p>Schnelle Hilfe bei Wasserrohrbruch Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>WC verstopft Wien</h3><p>Reparatur von WC verstopft Wien und Abflussproblemen.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär Reparatur Wien</h3><p>Professionelle Sanitär Reparatur Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Bad Installation Wien</h3><p>Planung und Umsetzung von Bad Installation Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Badsanierung Wien</h3><p>Moderne Badsanierung Wien und Sanierung Bad Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Serviceangebot</h3><p>Wartung von Thermen inklusive Thermenwartung Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Gastherme Wartung Wien</h3><p>Gastherme Wartung Wien und Thermen Service Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Heizung Installateur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Montage Sanitär Wien</h3><p>Montage Sanitär Wien für neue Anlagen.</p></div></article>
       </div>
     </div>
   </section>
@@ -246,15 +246,15 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Gastherme Reparatur und Wartung</h2>
-          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmÃ¤ÃŸige Gastherme Wartung Wien und Thermenwartung Wien. RegelmÃ¤ÃŸige Wartung verlÃ¤ngert die Lebensdauer Ihrer Anlage und verhindert teure AusfÃ¤lle. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
+          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien. Regelmäßige Wartung verlängert die Lebensdauer Ihrer Anlage und verhindert teure Ausfälle. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Effizienz</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Weniger StÃ¶rungen</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Störungen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size7.jpeg" alt="Wartung 1010 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size7.webp" alt="Wartung 1010 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -266,10 +266,10 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Heizung Reparatur und Thermenservice</h2>
-          <p>Wenn die Heizung ausfÃ¤llt, hilft unser Heizung Installateur Wien sofort. In Wien 1010 treten hÃ¤ufig Probleme wie kein Warmwasser, Heizung funktioniert nicht oder eine komplett ausgefallene Gastherme auf. Eine Therme defekt bedeutet oft Stress im Alltag, besonders im Wien Zentrum oder in der Innere Stadt. Unsere Experten fÃ¼r Thermenreparatur erkennen jedes Problem schnell und bieten die passende LÃ¶sung direkt vor Ort. Ob Gastherme Reparatur, Heizung Reparatur oder dringende EinsÃ¤tze bei NotfÃ¤llen â€“ unser Installateur Wien ist bestens vorbereitet. Durch unsere Erfahrung im Bereich Thermen Reparatur Wien kÃ¶nnen wir SchÃ¤den effizient beheben und sorgen dafÃ¼r, dass Ihre Heizung und Warmwasser wieder zuverlÃ¤ssig funktionieren.</p>
+          <p>Wenn die Heizung ausfällt, hilft unser Heizung Installateur Wien sofort. In Wien 1010 treten häufig Probleme wie kein Warmwasser, Heizung funktioniert nicht oder eine komplett ausgefallene Gastherme auf. Eine Therme defekt bedeutet oft Stress im Alltag, besonders im Wien Zentrum oder in der Innere Stadt. Unsere Experten für Thermenreparatur erkennen jedes Problem schnell und bieten die passende Lösung direkt vor Ort. Ob Gastherme Reparatur, Heizung Reparatur oder dringende Einsätze bei Notfällen – unser Installateur Wien ist bestens vorbereitet. Durch unsere Erfahrung im Bereich Thermen Reparatur Wien können wir Schäden effizient beheben und sorgen dafür, dass Ihre Heizung und Warmwasser wieder zuverlässig funktionieren.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size4.jpeg" alt="Reparatur 1010 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size4.webp" alt="Reparatur 1010 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -280,20 +280,20 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Installateur Notdienst 24h Wien</h2>
-        <p>Unser Installateur Notdienst 1010 Wien ist rund um die Uhr fÃ¼r Sie erreichbar. Der Thermen Notdienst Wien bietet schnelle Hilfe bei akuten Problemen wie Heizung funktioniert nicht oder kein Warmwasser in Ihrer Wohnung oder Ihrem Haus. Als 24h Installateur Wien sind wir sofort vor Ort in Wien Zentrum, in der Innere Stadt und in der gesamten Umgebung. Bei NotfÃ¤llen wie Rohrbruch oder Wasserschaden reagieren wir schnell und zuverlÃ¤ssig. Unser Team sorgt fÃ¼r Soforthilfe und ist jederzeit in der NÃ¤he, wenn Sie einen erfahrenen Installateur Wien benÃ¶tigen. </p>
+        <p>Unser Installateur Notdienst 1010 Wien ist rund um die Uhr für Sie erreichbar. Der Thermen Notdienst Wien bietet schnelle Hilfe bei akuten Problemen wie Heizung funktioniert nicht oder kein Warmwasser in Ihrer Wohnung oder Ihrem Haus. Als 24h Installateur Wien sind wir sofort vor Ort in Wien Zentrum, in der Innere Stadt und in der gesamten Umgebung. Bei Notfällen wie Rohrbruch oder Wasserschaden reagieren wir schnell und zuverlässig. Unser Team sorgt für Soforthilfe und ist jederzeit in der Nähe, wenn Sie einen erfahrenen Installateur Wien benötigen. </p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische NotdiensteinsÃ¤tze</h3>
+        <h3>Typische Notdiensteinsätze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
-          <li>Fehlermeldungen, Druckprobleme oder StÃ¶rgerÃ¤usche</li>
-          <li>Sicherheitsrelevante AuffÃ¤lligkeiten am GerÃ¤t</li>
+          <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
+          <li>Sicherheitsrelevante Auffälligkeiten am Gerät</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in 1010 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1010 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -303,11 +303,11 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
     <div class="container">
       <div class="card-split">
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size2.jpegs.jpeg" alt="Kosten Installateur" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Installateur" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Installateur Kosten Wien â€“ transparente Preise</h2>
-          <p>Die Preise fÃ¼r eine Thermenreparatur 1010 Wien hÃ¤ngen vom jeweiligen Problem, dem Aufwand und den benÃ¶tigten Ersatzteilen ab. Unser Installateur Wien bietet transparente Kosten und erstellt Ihnen ein individuelles Angebot inklusive Kostenvoranschlag. Wir legen groÃŸen Wert auf faire Preise und eine klare Beratung, damit Sie genau wissen, welche Kosten auf Sie zukommen. Ob gÃ¼nstige Reparatur, umfassender Service oder regelmÃ¤ÃŸige Wartung â€“ wir bieten Ihnen passende LÃ¶sungen fÃ¼r jedes Budget. Kontaktieren Sie uns fÃ¼r eine unverbindliche Beratung und ein maÃŸgeschneidertes Angebot in Wien 1010 und Umgebung.</p>
+          <h2>Installateur Kosten Wien – transparente Preise</h2>
+          <p>Die Preise für eine Thermenreparatur 1010 Wien hängen vom jeweiligen Problem, dem Aufwand und den benötigten Ersatzteilen ab. Unser Installateur Wien bietet transparente Kosten und erstellt Ihnen ein individuelles Angebot inklusive Kostenvoranschlag. Wir legen großen Wert auf faire Preise und eine klare Beratung, damit Sie genau wissen, welche Kosten auf Sie zukommen. Ob günstige Reparatur, umfassender Service oder regelmäßige Wartung – wir bieten Ihnen passende Lösungen für jedes Budget. Kontaktieren Sie uns für eine unverbindliche Beratung und ein maßgeschneidertes Angebot in Wien 1010 und Umgebung.</p>
         </div></div>
       </div>
     </div>
@@ -319,10 +319,10 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Als Spezialist fÃ¼r Thermenreparatur in 1010 Wien (Innere Stadt) unterstÃ¼tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung Ã¼ber die schnelle StÃ¶rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte AblÃ¤ufe, verstÃ¤ndliche ErklÃ¤rungen und eine saubere AusfÃ¼hrung. Wir achten auf Sicherheit, Effizienz und langfristige ZuverlÃ¤ssigkeit â€“ besonders wichtig bei Anlagen, die tÃ¤glich laufen. Durch kurze Wege im Bezirk 1010 reagieren wir flexibel, koordinieren Termine zÃ¼gig und halten Sie Ã¼ber jeden Schritt transparent informiert.</p>
+          <p>Als Spezialist für Thermenreparatur in 1010 Wien (Innere Stadt) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1010 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -332,81 +332,81 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
  <section class="service-section service-section--soft" id="thermen-services">
   <div class="container">
     <div class="service-section__head">
-      <h2>Thermenservice fÃ¼r alle Marken</h2>
-      <p>Ob Vaillant, Junkers, Buderus oder Wolf â€“ wir warten und reparieren alle gÃ¤ngigen GasgerÃ¤te. RegelmÃ¤ÃŸige Wartung sorgt fÃ¼r Sicherheit, Effizienz und eine lÃ¤ngere Lebensdauer Ihrer Therme.</p>
+      <h2>Thermenservice für alle Marken</h2>
+      <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
     </div>
 
     <div class="brand-grid">
 
       <!-- 1 -->
       <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
-    <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
+    <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
     <span>VAILLANT THERMENSERVICE</span>
   </a>
 
       <!-- 2 -->
       <a class="brand-card" href="{{ route('buderus.thermentausch') }}">
-    <img src="img/1buderus.jpeg" alt="Buderus Thermenservice">
+    <img src="img/1buderus.webp" alt="Buderus Thermenservice">
     <span>BUDERUS THERMENSERVICE</span>
   </a>
 
       <!-- 3 -->
         <a class="brand-card" href="{{ route('baxi.thermentausch') }}">
-    <img src="img/1baxi.jpeg" alt="Baxi Thermenservice">
+    <img src="img/1baxi.webp" alt="Baxi Thermenservice">
     <span>BAXI THERMENSERVICE</span>
   </a>
 
       <!-- 4 -->
         <a class="brand-card" href="{{ route('junkers.thermentausch') }}">
-    <img src="img/1junkers.jpeg" alt="Junkers Thermenservice">
+    <img src="img/1junkers.webp" alt="Junkers Thermenservice">
     <span>JUNKERS THERMENSERVICE</span>
   </a>
 
       <!-- 5 -->
         <a class="brand-card" href="{{ route('viessmann.thermentausch') }}">
-    <img src="img/1viesman.jpeg" alt="Viessmann Thermenservice">
+    <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
     <span>VIESSMANN THERMENSERVICE</span>
   </a>
 
       <!-- 6 -->
         <a class="brand-card" href="{{ route('wolf.thermentausch') }}">
-    <img src="img/1wolf.jpeg" alt="Wolf Thermenservice">
+    <img src="img/1wolf.webp" alt="Wolf Thermenservice">
     <span>WOLF THERMENSERVICE</span>
   </a>
 
       <!-- 7 -->
        <a class="brand-card" href="{{ route('saunier-duval.thermentausch') }}">
-    <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
+    <img src="img/1sauneri.webp" alt="Saunier Duval Thermenservice">
     <span>SAUNIER DUVAL SERVICE</span>
   </a>
 
       <!-- 8 -->
  <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.jpeg" alt="LÃ¶blich Thermenservice">
-    <span>LÃ–BLICH THERMENSERVICE</span>
+    <img src="img/1loblich.webp" alt="Löblich Thermenservice">
+    <span>LÖBLICH THERMENSERVICE</span>
   </a>
 
       <!-- 9 -->
       <a class="brand-card" href="{{ route('ocean.thermentausch') }}">
-    <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermenservice">
+    <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
     <span>OCEAN THERMENSERVICE</span>
   </a>
 
       <!-- 10 -->
       <a class="brand-card" href="{{ route('rapido.thermentausch') }}">
-    <img src="img/1rapido.jpeg" alt="Rapido Thermenservice">
+    <img src="img/1rapido.webp" alt="Rapido Thermenservice">
     <span>RAPIDO THERMENSERVICE</span>
   </a>
 
       <!-- 11 -->
      <a class="brand-card" href="{{ route('windhager.thermentausch') }}">
-    <img src="img/Windhager.png" alt="Windhager Thermenservice">
+    <img src="img/1Windhager.webp" alt="Windhager Thermenservice">
     <span>WINDHAGER SERVICE</span>
   </a>
 
       <!-- 12 -->
       <a class="brand-card" href="{{ route('nordgas.thermentausch') }}">
-    <img src="img/NordGas.png" alt="Nordgas Thermenservice">
+    <img src="img/1NordGas.webp" alt="Nordgas Thermenservice">
     <span>NORDGAS SERVICE</span>
   </a>
 
@@ -419,31 +419,31 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>HÃ¤ufig gestellte Fragen</h2><p>Antworten auf die hÃ¤ufigsten Fragen â€“ kurz, klar und praxisnah.</p></div>
+      <div class="service-section__head"><h2>Häufig gestellte Fragen</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
       <div class="service-faq">
         <details>
           <summary>Was kostet eine Thermenreparatur in Wien 1010?</summary>
-          <p>Die Kosten hÃ¤ngen vom Schaden und Aufwand ab. Nach einer genauen Analyse erstellen wir einen transparenten Kostenvoranschlag mit fairen Preisen. Unser Installateur Notdienst Wien informiert Sie vorab Ã¼ber die zu erwartenden Kosten.</p>
+          <p>Die Kosten hängen vom Schaden und Aufwand ab. Nach einer genauen Analyse erstellen wir einen transparenten Kostenvoranschlag mit fairen Preisen. Unser Installateur Notdienst Wien informiert Sie vorab über die zu erwartenden Kosten.</p>
         </details>
         <details>
           <summary>Wie schnell ist der Notdienst vor Ort?</summary>
-          <p>Unser Installateur Notdienst 1010 Wien ist meist innerhalb kurzer Zeit bei Ihnen vor Ort in der Innere Stadt oder im Wien Zentrum. Durch unsere zentrale Lage im ersten Bezirk sind schnelle EinsÃ¤tze garantiert. </p>
+          <p>Unser Installateur Notdienst 1010 Wien ist meist innerhalb kurzer Zeit bei Ihnen vor Ort in der Innere Stadt oder im Wien Zentrum. Durch unsere zentrale Lage im ersten Bezirk sind schnelle Einsätze garantiert. </p>
         </details>
         <details>
           <summary>Was tun bei kein Warmwasser?</summary>
-          <p>Wenn kein Warmwasser vorhanden ist, sollten Sie sofort unseren Thermen Notdienst Wien kontaktieren, um grÃ¶ÃŸere SchÃ¤den zu vermeiden. Oft liegt eine StÃ¶rung der Therme vor, die wir schnell beheben kÃ¶nnen.</p>
+          <p>Wenn kein Warmwasser vorhanden ist, sollten Sie sofort unseren Thermen Notdienst Wien kontaktieren, um größere Schäden zu vermeiden. Oft liegt eine Störung der Therme vor, die wir schnell beheben können.</p>
         </details>
         <details>
           <summary>Wann ist eine Wartung sinnvoll?</summary>
-          <p>Eine regelmÃ¤ÃŸige Thermenwartung verhindert AusfÃ¤lle und sorgt fÃ¼r eine effiziente Heizung sowie langfristige Kosteneinsparungen. Wir empfehlen eine jÃ¤hrliche Wartung durch einen Fachbetrieb.</p>
+          <p>Eine regelmäßige Thermenwartung verhindert Ausfälle und sorgt für eine effiziente Heizung sowie langfristige Kosteneinsparungen. Wir empfehlen eine jährliche Wartung durch einen Fachbetrieb.</p>
         </details>
         <details>
           <summary>Gibt es einen 24h Installateur Wien?</summary>
-          <p>Ja, unser 24h Installateur Wien steht Ihnen jederzeit fÃ¼r NotfÃ¤lle und dringende Reparaturen zur VerfÃ¼gung. Egal ob Tag oder Nacht â€“ wir sind fÃ¼r Sie da.</p>
+          <p>Ja, unser 24h Installateur Wien steht Ihnen jederzeit für Notfälle und dringende Reparaturen zur Verfügung. Egal ob Tag oder Nacht – wir sind für Sie da.</p>
         </details>
         <details>
           <summary>Arbeiten Sie auch in der Umgebung?</summary>
-          <p>Ja, wir sind nicht nur in Wien 1010 tÃ¤tig, sondern auch in der gesamten Umgebung schnell im Einsatz. Kontaktieren Sie uns einfach â€“ wir prÃ¼fen, ob wir fÃ¼r Sie verfÃ¼gbar sind.</p>
+          <p>Ja, wir sind nicht nur in Wien 1010 tätig, sondern auch in der gesamten Umgebung schnell im Einsatz. Kontaktieren Sie uns einfach – wir prüfen, ob wir für Sie verfügbar sind.</p>
         </details>
       </div>
     </div>
@@ -455,10 +455,10 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
       <div class="service-cta__inner">
         <div>
           <h2>Installateur Kontakt Wien</h2>
-          <p>BenÃ¶tigen Sie eine schnelle Thermenreparatur 1010 Wien oder einen zuverlÃ¤ssigen Installateur Wien? Unser Team bietet Ihnen schnelle Hilfe, professionelle Beratung und ein individuelles Angebot zu fairen Preisen. Egal ob Notdienst, Wartung oder Reparatur â€“ wir sind Ihr Ansprechpartner in Wien 1010, in der Innere Stadt und im gesamten Wien Zentrum.</p>
-          <p style="margin-top:10px"><strong>ğŸ“</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+          <p>Benötigen Sie eine schnelle Thermenreparatur 1010 Wien oder einen zuverlässigen Installateur Wien? Unser Team bietet Ihnen schnelle Hilfe, professionelle Beratung und ein individuelles Angebot zu fairen Preisen. Egal ob Notdienst, Wartung oder Reparatur – wir sind Ihr Ansprechpartner in Wien 1010, in der Innere Stadt und im gesamten Wien Zentrum.</p>
+          <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mÃ¶glich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -473,7 +473,7 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) â€“ bleibt unverÃ¤ndert -->
+  <!-- Bezirke (bottom links) – bleibt unverändert -->
 
 </main>
 
@@ -487,6 +487,7 @@ $metaDescription = "Thermenreparatur 1010 Wien vom Installateur Wien. Schnelle H
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
 
 
 

@@ -1,4 +1,4 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 
 @section('main')
 <style>
@@ -85,7 +85,7 @@
   .service-feature h3{margin:0 0 4px; color:var(--ink)}
   .service-feature p{margin:0}
 
-  /* âœ… stats pills (2 in a row) */
+  /* ? stats pills (2 in a row) */
   .service-stats{
     display:grid;
     grid-template-columns: repeat(2, minmax(0,1fr));
@@ -198,19 +198,19 @@
   textarea{resize:vertical}
   .service-fineprint{margin:10px 0 0; font-size:.9rem; opacity:.8}
 
-  /* ===== âœ… Card split (EQUAL HEIGHT like your previous site) ===== */
+  /* ===== ? Card split (EQUAL HEIGHT like your previous site) ===== */
   .card-split{
     display:grid;
     grid-template-columns: 1.12fr .88fr;
     gap:18px;
-    align-items:stretch; /* âœ… stretch for equal height */
+    align-items:stretch; /* ? stretch for equal height */
   }
   .card-split--reverse .card-split__text{order:2}
   .card-split--reverse .card-split__media{order:1}
 
   .card-split__text,
   .card-split__media{
-    display:flex; /* âœ… make children fill height */
+    display:flex; /* ? make children fill height */
   }
 
   .card-box{
@@ -230,11 +230,11 @@
   .card-box p{margin:0}
   .card-box p + p{margin-top:10px}
 
-  /* âœ… Image box = equal height with content (fills full) */
+  /* ? Image box = equal height with content (fills full) */
   .service-media{width:100%;}
   .service-media__box{
     width:100%;
-    height:100%;            /* âœ… same height as text card */
+    height:100%;            /* ? same height as text card */
     border-radius: var(--radius2);
     border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(0,0,0,.12);
@@ -265,7 +265,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -364,12 +364,12 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
   /* =========================
-     âœ… TOC (after hero, full width)
+     ? TOC (after hero, full width)
      ========================= */
   .toc-wrap{padding:16px 0 0; background:#fff;}
   .toc-card{
@@ -457,7 +457,7 @@
     .card-split__text,
     .card-split__media{display:block;}
 
-    .service-media__box{min-height:220px; height:auto;} /* âœ… nice on mobile */
+    .service-media__box{min-height:220px; height:auto;} /* ? nice on mobile */
     .wolf-hero{padding:120px 14px 90px; min-height:480px;}
     .wolf-hero__sub{font-size:14px}
   }
@@ -465,7 +465,7 @@
 
 @php
 $metaTitle = "Nordgas Kundendienst Wien | Wartung, Reparatur & Notdienst";
-$metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenwartung, Reparaturen, Notdienst rund um die Uhr in Wien, NÃ– & Burgenland. Jetzt kontaktieren.";
+$metaDescription = "Nordgas Kundendienst Wien für Gastherme & Heizung. Thermenwartung, Reparaturen, Notdienst rund um die Uhr in Wien, NÖ & Burgenland. Jetzt kontaktieren.";
 @endphp
 
 @push('meta')
@@ -485,11 +485,11 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/NordGas.png') }}" alt="Nordgas-kaundseint Logo">
+        <img src="{{ asset('img/1NordGas.webp') }}" alt="Nordgas-kaundseint Logo">
       </div>
 
       <p class="wolf-hero__sub">
-       ZuverlÃ¤ssiger Nordgas Kundendienst Wien fÃ¼r Gastherme, Heizung und GerÃ¤te inklusive Wartung, Reparaturen und Notdienst.
+       Zuverlässiger Nordgas Kundendienst Wien für Gastherme, Heizung und Geräte inklusive Wartung, Reparaturen und Notdienst.
 
       </p>
 
@@ -528,7 +528,7 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
         <div class="badges">
           <div>
             <i class="bi bi-patch-check-fill text-warning"></i>
-            GeprÃ¼fte Experten
+            Geprüfte Experten
           </div>
           <div>
             <i class="bi bi-shield-check text-warning"></i>
@@ -543,7 +543,7 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
     </div>
   </section>
 
- <!-- âœ… TOC AFTER HERO -->
+ <!-- ? TOC AFTER HERO -->
 <section class="toc-wrap" aria-label="Inhaltsverzeichnis">
   <div class="service-container">
     <div class="toc-card is-collapsed" id="tocCard">
@@ -587,21 +587,21 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
           <div class="card-box">
             <h2>Nordgas Service in Wien</h2>
             <p>
-              Der Nordgas Kundendienst Wien bietet professionellen Service fÃ¼r Nordgas Therme, Gastherme und weitere GerÃ¤te direkt vor Ort.
-              Als erfahrener <strong>Installateur</strong> fÃ¼r <strong>Heiztechnik</strong> betreuen wir GasgerÃ¤te in Wien &amp; NiederÃ¶sterreich â€“
+              Der Nordgas Kundendienst Wien bietet professionellen Service für Nordgas Therme, Gastherme und weitere Geräte direkt vor Ort.
+              Als erfahrener <strong>Installateur</strong> für <strong>Heiztechnik</strong> betreuen wir Gasgeräte in Wien &amp; Niederösterreich –
               mehr zur <a href="{{ route('windhager.thermenwartung') }}">Serviceangebot</a>.
             </p>
             <p>
-              Als Fachbetrieb arbeiten wir nach Stand der Technik und betreuen GasgerÃ¤te, HeizkÃ¶rper sowie moderne Heizsysteme.
+              Als Fachbetrieb arbeiten wir nach Stand der Technik und betreuen Gasgeräte, Heizkörper sowie moderne Heizsysteme.
               Unser Service umfasst Wartung, Thermenservice, Inbetriebnahme und Reparaturen durch erfahrene Techniker.
-              Sicherheit, QualitÃ¤t und Wohnkomfort stehen dabei im Mittelpunkt. Auch in NiederÃ¶sterreich und dem Burgenland sind wir fÃ¼r Kunden im Einsatz und bieten LÃ¶sungen fÃ¼r jede Heizung.
+              Sicherheit, Qualität und Wohnkomfort stehen dabei im Mittelpunkt. Auch in Niederösterreich und dem Burgenland sind wir für Kunden im Einsatz und bieten Lösungen für jede Heizung.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1NordGas.png') }}" alt="Nordgas Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1NordGas.webp') }}" alt="Nordgas Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -616,26 +616,26 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
           <div class="card-box">
             <h2>Techniker Team & Werkskundendienst</h2>
             <p>
-              Unser Team besteht aus qualifizierten Technikern, Installateur-FachkrÃ¤ften und geschulten Elektriker-Partnern mit umfassendem Know how.
-              Der Nordgas Werkskundendienst garantiert fachgerechte ÃœberprÃ¼fung, Reinigung und Optimierung aller Bauteile.
+              Unser Team besteht aus qualifizierten Technikern, Installateur-Fachkräften und geschulten Elektriker-Partnern mit umfassendem Know how.
+              Der Nordgas Werkskundendienst garantiert fachgerechte Überprüfung, Reinigung und Optimierung aller Bauteile.
             </p>
             <p>
-              Durch regelmÃ¤ÃŸige Schulungen bleiben unsere Mitarbeiter am Stand der Technik.
-              Unsere Techniker erkennen Fehlermeldungen, StÃ¶rungen oder Defekte frÃ¼hzeitig und sorgen fÃ¼r sichere LÃ¶sungen.
-              Kunden wissen ihre Nordgas Therme in guten HÃ¤nden. Erfahrung, Fachwissen und strukturierte Arbeit zeichnen unseren Betrieb aus und sichern langfristige QualitÃ¤t.
+              Durch regelmäßige Schulungen bleiben unsere Mitarbeiter am Stand der Technik.
+              Unsere Techniker erkennen Fehlermeldungen, Störungen oder Defekte frühzeitig und sorgen für sichere Lösungen.
+              Kunden wissen ihre Nordgas Therme in guten Händen. Erfahrung, Fachwissen und strukturierte Arbeit zeichnen unseren Betrieb aus und sichern langfristige Qualität.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Stand der Technik</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">RegelmÃ¤ÃŸige Schulungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Sichere LÃ¶sungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Stand der Technik</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Regelmäßige Schulungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Sichere Lösungen</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Techniker Team & Werkskundendienst" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Techniker Team & Werkskundendienst" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -647,55 +647,55 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
     <div class="service-container">
       <div class="service-section__head">
         <h2>Leistungen unseres Kundendienstes</h2>
-        <p>Nordgas Thermenservice, Wartung, Reparaturen, Inbetriebnahme und SystemlÃ¶sungen â€“ professionell betreut.</p>
+        <p>Nordgas Thermenservice, Wartung, Reparaturen, Inbetriebnahme und Systemlösungen – professionell betreut.</p>
       </div>
 
       <div class="service-grid service-grid--2">
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Nordgas Thermenservice</h3>
-            <p>Professioneller Thermenservice fÃ¼r Nordgas Therme inklusive ÃœberprÃ¼fung, Reinigung und Abgasmessung.</p>
+            <p>Professioneller Thermenservice für Nordgas Therme inklusive Überprüfung, Reinigung und Abgasmessung.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ§°</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Wartung & Thermenwartung</h3>
-            <p>GrÃ¼ndliche Wartung und Thermenwartung fÃ¼r sichere Funktion und lange Lebensdauer.</p>
+            <p>Gründliche Wartung und Thermenwartung für sichere Funktion und lange Lebensdauer.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ </div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
-            <h3>Gastherme & GasgerÃ¤te</h3>
-            <p>Service fÃ¼r Gastherme und GasgerÃ¤te mit Fokus auf Sicherheit und Effizienz.</p>
+            <h3>Gastherme & Gasgeräte</h3>
+            <p>Service für Gastherme und Gasgeräte mit Fokus auf Sicherheit und Effizienz.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">âš¡</div>
+          <div class="service-feature__icon" aria-hidden="true">?</div>
           <div>
-            <h3>Reparaturen & StÃ¶rungen</h3>
-            <p>Schnelle Reparaturen bei StÃ¶rungen und Fehlermeldungen durch erfahrene Techniker.</p>
+            <h3>Reparaturen & Störungen</h3>
+            <p>Schnelle Reparaturen bei Störungen und Fehlermeldungen durch erfahrene Techniker.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">ğŸ”</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
             <h3>Inbetriebnahme & Austausch</h3>
-            <p>Fachgerechte Inbetriebnahme sowie Austausch defekter Einzelteile oder kompletter GerÃ¤te.</p>
+            <p>Fachgerechte Inbetriebnahme sowie Austausch defekter Einzelteile oder kompletter Geräte.</p>
           </div>
         </article>
 
         <article class="service-feature">
-          <div class="service-feature__icon" aria-hidden="true">â™¨ï¸</div>
+          <div class="service-feature__icon" aria-hidden="true">??</div>
           <div>
-            <h3>WÃ¤rmepumpen & Heizung</h3>
-            <p>Service fÃ¼r WÃ¤rmepumpen, Heizung und Heizsysteme nach Stand der Technik.</p>
+            <h3>Wärmepumpen & Heizung</h3>
+            <p>Service für Wärmepumpen, Heizung und Heizsysteme nach Stand der Technik.</p>
           </div>
         </article>
       </div>
@@ -710,26 +710,26 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
           <div class="card-box">
             <h2>Thermenwartung & Wartung</h2>
             <p>
-              Eine regelmÃ¤ÃŸige Thermenwartung ist entscheidend fÃ¼r Sicherheit, Effizienz und lange Lebensdauer Ihrer Nordgas Gastherme.
-              Unsere Wartung umfasst grÃ¼ndliche ÃœberprÃ¼fung, Abgasmessung, Reinigung und Kontrolle aller relevanten Einzelteile wie WÃ¤rmetauschers.
+              Eine regelmäßige Thermenwartung ist entscheidend für Sicherheit, Effizienz und lange Lebensdauer Ihrer Nordgas Gastherme.
+              Unsere Wartung umfasst gründliche Überprüfung, Abgasmessung, Reinigung und Kontrolle aller relevanten Einzelteile wie Wärmetauschers.
             </p>
             <p>
-              Durch korrekte Einstellungen und Optimierung wird Energie effizient genutzt und unnÃ¶tige Kosten werden vermieden.
-              Nordgas Thermenservice in Wien unterstÃ¼tzt den stabilen Betrieb Ihrer Heizung und schÃ¼tzt vor teuren SchÃ¤den.
-              Kunden profitieren von transparenter Beratung, fairen Preisen und der MÃ¶glichkeit eines Wartungsplans fÃ¼r ihre GerÃ¤te.
+              Durch korrekte Einstellungen und Optimierung wird Energie effizient genutzt und unnötige Kosten werden vermieden.
+              Nordgas Thermenservice in Wien unterstützt den stabilen Betrieb Ihrer Heizung und schützt vor teuren Schäden.
+              Kunden profitieren von transparenter Beratung, fairen Preisen und der Möglichkeit eines Wartungsplans für ihre Geräte.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Sicherheit</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Effizienz</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Wartungsplan mÃ¶glich</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Wartungsplan möglich</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Thermenwartung & Wartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Thermenwartung & Wartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -744,26 +744,26 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
           <div class="card-box">
             <h2>Reparatur, Notdienst & Hilfe</h2>
             <p>
-              Der Nordgas Kundendienst Wien unterstÃ¼tzt Kunden bei Reparaturen, StÃ¶rungen und akuten NotfÃ¤llen zuverlÃ¤ssig. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; NiederÃ¶sterreich</a>.
+              Der Nordgas Kundendienst Wien unterstützt Kunden bei Reparaturen, Störungen und akuten Notfällen zuverlässig. Mehr Informationen zur <a href="{{ route('home') }}">Thermenwartung Wien &amp; Niederösterreich</a>.
             </p>
             <p>
-              Der <a href="/">unserer Notfallhilfe</a> ist rund um die uhr erreichbar â€“ auch an Feiertagen.
-              Bei Gasgeruch, Fehlermeldungen oder AusfÃ¤llen leisten wir rasche Hilfe vor Ort.
-              Durch fachgerechte ÃœberprÃ¼fung, Reinigung und Optimierung vermeiden wir FolgeschÃ¤den und unnÃ¶tige Kosten.
-              Unser Ziel ist ein sicherer Betrieb Ihrer Heizung sowie nachhaltige StabilitÃ¤t im Zuhause.
+              Der <a href="/">unserer Notfallhilfe</a> ist rund um die uhr erreichbar – auch an Feiertagen.
+              Bei Gasgeruch, Fehlermeldungen oder Ausfällen leisten wir rasche Hilfe vor Ort.
+              Durch fachgerechte Überprüfung, Reinigung und Optimierung vermeiden wir Folgeschäden und unnötige Kosten.
+              Unser Ziel ist ein sicherer Betrieb Ihrer Heizung sowie nachhaltige Stabilität im Zuhause.
             </p>
 
             <div class="service-stats">
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Schnelle LÃ¶sungen</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Auch an Feiertagen</div></div>
-              <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Sicherer Betrieb</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Schnelle Lösungen</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Auch an Feiertagen</div></div>
+              <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Sicherer Betrieb</div></div>
             </div>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Reparatur, Notdienst & Hilfe" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.webp') }}" alt="Reparatur, Notdienst & Hilfe" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -776,11 +776,11 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
       <div class="service-emergency__text">
         <h2>Nordgas Notdienst im Notfall</h2>
         <p>
-          Unser <a href="/">unserer Notfallhilfe</a> steht Kunden bei einem Notfall schnell und zuverlÃ¤ssig zur VerfÃ¼gung.
-          Bei Ausfall der Heizung, Problemen mit GasgerÃ¤ten oder sicherheitsrelevanten Situationen reagieren wir rasch.
+          Unser <a href="/">unserer Notfallhilfe</a> steht Kunden bei einem Notfall schnell und zuverlässig zur Verfügung.
+          Bei Ausfall der Heizung, Problemen mit Gasgeräten oder sicherheitsrelevanten Situationen reagieren wir rasch.
         </p>
         <p style="margin-top:10px; color:rgba(255,255,255,.9);">
-          Bei Gasgeruch, Fehlermeldungen oder AusfÃ¤llen leisten wir rasche Hilfe vor Ort â€“ rund um die uhr, auch an Feiertagen.
+          Bei Gasgeruch, Fehlermeldungen oder Ausfällen leisten wir rasche Hilfe vor Ort – rund um die uhr, auch an Feiertagen.
         </p>
         <div class="service-emergency__actions">
           <a class="service-btn service-btn--accent" href="#kontakt-services">Notdienst kontaktieren</a>
@@ -790,15 +790,15 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
 
       <div class="service-emergency__panel">
         <div class="service-panel">
-          <h3>Typische NotfÃ¤lle</h3>
+          <h3>Typische Notfälle</h3>
           <ul class="service-checklist service-checklist--on-dark">
             <li>Ausfall der Heizung</li>
-            <li>Fehlermeldungen & StÃ¶rungen</li>
+            <li>Fehlermeldungen & Störungen</li>
             <li>Gasgeruch / sicherheitsrelevante Situationen</li>
-            <li>Wasser-, Gas- oder WÃ¤rmeprobleme</li>
+            <li>Wasser-, Gas- oder Wärmeprobleme</li>
           </ul>
           <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">
-            Rund um die uhr erreichbar â€“ schnelle Hilfe vor Ort in Wien, NiederÃ¶sterreich und Burgenland.
+            Rund um die uhr erreichbar – schnelle Hilfe vor Ort in Wien, Niederösterreich und Burgenland.
           </p>
         </div>
       </div>
@@ -814,20 +814,20 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
             <h2>Preise, Kosten & Garantie</h2>
             <p>
               Transparente Preise und faire Kosten sind ein zentraler Bestandteil unseres Service.
-              Vor Beginn der Arbeiten informieren wir klar Ã¼ber Aufwand, Anfahrt und mÃ¶gliche Ersatzteilen.
-              Kunden erhalten auf Wunsch ein individuelles Angebot fÃ¼r Wartung, Reparaturen oder Austausch.
+              Vor Beginn der Arbeiten informieren wir klar über Aufwand, Anfahrt und mögliche Ersatzteilen.
+              Kunden erhalten auf Wunsch ein individuelles Angebot für Wartung, Reparaturen oder Austausch.
             </p>
             <p>
-              RegelmÃ¤ÃŸige Thermenwartung verlÃ¤ngert die Lebensdauer der GerÃ¤te, spart Geld und erhÃ¶ht die Effizienz.
-              Unsere Dienstleistungen erfolgen nach Herstellervorgaben und sichern Garantie sowie QualitÃ¤t.
-              So behalten Kunden jederzeit den Ãœberblick Ã¼ber Leistungen, Kosten und Vorteile.
+              Regelmäßige Thermenwartung verlängert die Lebensdauer der Geräte, spart Geld und erhöht die Effizienz.
+              Unsere Dienstleistungen erfolgen nach Herstellervorgaben und sichern Garantie sowie Qualität.
+              So behalten Kunden jederzeit den Überblick über Leistungen, Kosten und Vorteile.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Preise, Kosten & Garantie" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Preise, Kosten & Garantie" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -840,17 +840,17 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
       <div class="card-split card-split--reverse">
         <div class="card-split__text">
           <div class="card-box">
-            <h2>Wien, NiederÃ¶sterreich & Burgenland</h2>
+            <h2>Wien, Niederösterreich & Burgenland</h2>
             <p>
-              Wir betreuen Kunden in Wien, NiederÃ¶sterreich und dem Burgenland.
-              Kurze Wege, schnelle Anfahrt und flexible Einsatzzeiten sichern zuverlÃ¤ssigen <a href="/">Kundendienst</a> in allen Regionen.
+              Wir betreuen Kunden in Wien, Niederösterreich und dem Burgenland.
+              Kurze Wege, schnelle Anfahrt und flexible Einsatzzeiten sichern zuverlässigen <a href="/">Kundendienst</a> in allen Regionen.
             </p>
           </div>
         </div>
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Wien, NiederÃ¶sterreich & Burgenland" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Wien, Niederösterreich & Burgenland" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -862,18 +862,18 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
     <div class="service-container">
       <div class="service-section__head">
         <h2>Fragen zum Kundendienst</h2>
-        <p>Die wichtigsten Antworten â€“ kurz und klar.</p>
+        <p>Die wichtigsten Antworten – kurz und klar.</p>
       </div>
 
       <div class="service-faq">
         <details>
           <summary>Was umfasst der Nordgas Kundendienst Wien?</summary>
-          <p>Unser Kundendienst bietet Wartung, Thermenservice, Reparaturen, Notdienst und Betreuung von Nordgas GerÃ¤ten.</p>
+          <p>Unser Kundendienst bietet Wartung, Thermenservice, Reparaturen, Notdienst und Betreuung von Nordgas Geräten.</p>
         </details>
 
         <details>
-          <summary>Wie wichtig ist regelmÃ¤ÃŸige Thermenwartung?</summary>
-          <p>Thermenwartung erhÃ¶ht Sicherheit, senkt Kosten und verlÃ¤ngert die Lebensdauer der Gastherme.</p>
+          <summary>Wie wichtig ist regelmäßige Thermenwartung?</summary>
+          <p>Thermenwartung erhöht Sicherheit, senkt Kosten und verlängert die Lebensdauer der Gastherme.</p>
         </details>
 
         <details>
@@ -883,17 +883,17 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
 
         <details>
           <summary>Welche Regionen werden betreut?</summary>
-          <p>Wien, NiederÃ¶sterreich (NÃ–) und das Burgenland.</p>
+          <p>Wien, Niederösterreich (NÖ) und das Burgenland.</p>
         </details>
 
         <details>
           <summary>Wie erfolgt der Kontakt?</summary>
-          <p>Per Tel oder E Mail direkt Ã¼ber unsere Seite.</p>
+          <p>Per Tel oder E Mail direkt über unsere Seite.</p>
         </details>
 
         <details>
-          <summary>Welche GerÃ¤te werden betreut?</summary>
-          <p>Wir betreuen Nordgas Therme, Gastherme und weitere GasgerÃ¤te sowie Heizsysteme nach Stand der Technik.</p>
+          <summary>Welche Geräte werden betreut?</summary>
+          <p>Wir betreuen Nordgas Therme, Gastherme und weitere Gasgeräte sowie Heizsysteme nach Stand der Technik.</p>
         </details>
       </div>
     </div>
@@ -903,7 +903,7 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
   @include('layout.contact', [
     'id' => 'kontakt-services',
     'title' => 'Jetzt Termin Vereinbaren',
-        'text' => 'Setzen Sie auf Sicherheit, Effizienz und ZuverlÃ¤ssigkeit â€“ kompetent, transparent und kundenorientiert. </br> ğŸ“ Jetzt Termin vereinbaren â€“ Ihr Therm4You-Partner in Wien.',
+        'text' => 'Setzen Sie auf Sicherheit, Effizienz und Zuverlässigkeit – kompetent, transparent und kundenorientiert. </br> ?? Jetzt Termin vereinbaren – Ihr Therm4You-Partner in Wien.',
     'btnText' => 'Kontaktieren Sie Uns',
     'btnLink' => 'tel:+4314420617',
     'btnAccent' => true,
@@ -911,6 +911,7 @@ $metaDescription = "Nordgas Kundendienst Wien fÃ¼r Gastherme & Heizung. Thermenw
 </main>
 
 @endsection
+
 
 
 

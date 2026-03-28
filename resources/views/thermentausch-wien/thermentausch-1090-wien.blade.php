@@ -1,9 +1,9 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 
 @section('main')
 
 @php
-$metaTitle = "Thermentausch 1090 Wien â€“ Installateur Wien fÃ¼r Gastherme Austausch & Thermenwechsel";
+$metaTitle = "Thermentausch 1090 Wien – Installateur Wien für Gastherme Austausch & Thermenwechsel";
 $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wien. Gastherme tauschen, Thermenwechsel, Installation, Wartung und Notdienst in Wien 1090 Alsergrund.";
 @endphp
 
@@ -30,7 +30,7 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu fÃ¼r Thermen Marken) === */
+    /* === BRAND GRID (neu für Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -87,10 +87,10 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
     <div class="wolf-hero__inner container">
       <h1>
         Thermentausch 1090 Wien <br>
-        <span style="color:#FB9A1B;">Rundum-Service fÃ¼r Ihre neue Gastherme</span>
+        <span style="color:#FB9A1B;">Rundum-Service für Ihre neue Gastherme</span>
       </h1>
 
-      <p class="wolf-hero__sub">Ein professioneller Thermentausch 1090 Wien sorgt fÃ¼r eine sichere Heizung, zuverlÃ¤ssiges Warmwasser und moderne Energieeffizienz in Ihrer Wohnung oder Ihrem Haus in Wien 1090 Alsergrund, da alte Thermen und GasgerÃ¤te oft ineffizient arbeiten und ein rechtzeitiger Austausch langfristig Kosten reduziert sowie die gesamte Heizungsanlage und Heizungstechnik verbessert.</p>
+      <p class="wolf-hero__sub">Ein professioneller Thermentausch 1090 Wien sorgt für eine sichere Heizung, zuverlässiges Warmwasser und moderne Energieeffizienz in Ihrer Wohnung oder Ihrem Haus in Wien 1090 Alsergrund, da alte Thermen und Gasgeräte oft ineffizient arbeiten und ein rechtzeitiger Austausch langfristig Kosten reduziert sowie die gesamte Heizungsanlage und Heizungstechnik verbessert.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -153,7 +153,7 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
         </div>
         <div class="toc-body" id="tocBody">
           <ul class="toc-list" id="tocList">
-            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre LÃ¶sung</span></a></li>
+            <li class="toc-item"><a href="#vorteile-services" class="toc-link"><span class="toc-badge">01</span><span class="toc-text">Ihre Lösung</span></a></li>
             <li class="toc-item"><a href="#team-services" class="toc-link"><span class="toc-badge">02</span><span class="toc-text">Warum wir</span></a></li>
             <li class="toc-item"><a href="#leistungen-services" class="toc-link"><span class="toc-badge">03</span><span class="toc-text">Unser Service</span></a></li>
             <li class="toc-item"><a href="#ablauf-services" class="toc-link"><span class="toc-badge">04</span><span class="toc-text">Ablauf</span></a></li>
@@ -170,73 +170,73 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- Vorteile / Ihre LÃ¶sung -->
+  <!-- Vorteile / Ihre Lösung -->
   <section class="service-section service-section--soft" id="vorteile-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Ihre LÃ¶sung fÃ¼r Thermentausch in 1090 Wien</h2>
-          <p>Ein Thermentausch 1090 Wien ist besonders in Wien 1090 und im Bezirk Alsergrund wichtig, da viele GebÃ¤ude rund um die Alser StraÃŸe und die WÃ¤hringer StraÃŸe noch mit Ã¤lteren Thermen ausgestattet sind, die hÃ¤ufige Wartung, Reparatur oder sogar einen Notdienst erfordern, weshalb ein professioneller Thermentausch Wien oder ein kompletter Thermenwechsel die beste LÃ¶sung darstellt, bei dem unser Installateur Wien den gesamten Ablauf von der Beratung bis zur fertigen Installation Ã¼bernimmt und alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die bestehende Heizungsanlage Ã¼berprÃ¼ft, um eine sichere und effiziente LÃ¶sung zu gewÃ¤hrleisten, wÃ¤hrend unser Installateur 1090 Wien mit moderner Heizungstechnik, sauberer Montage und viel Erfahrung dafÃ¼r sorgt, dass Ihre neue Gastherme optimal funktioniert und Ihre Heizung in Wien 1090 langfristig zuverlÃ¤ssig bleibt. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1080-wien') }}">weiterfÃ¼hrenden Informationen</a>.</p>
+          <h2>Ihre Lösung für Thermentausch in 1090 Wien</h2>
+          <p>Ein Thermentausch 1090 Wien ist besonders in Wien 1090 und im Bezirk Alsergrund wichtig, da viele Gebäude rund um die Alser Straße und die Währinger Straße noch mit älteren Thermen ausgestattet sind, die häufige Wartung, Reparatur oder sogar einen Notdienst erfordern, weshalb ein professioneller Thermentausch Wien oder ein kompletter Thermenwechsel die beste Lösung darstellt, bei dem unser Installateur Wien den gesamten Ablauf von der Beratung bis zur fertigen Installation übernimmt und alle Gasgeräte, Leitungen für Gas und Wasser sowie die bestehende Heizungsanlage überprüft, um eine sichere und effiziente Lösung zu gewährleisten, während unser Installateur 1090 Wien mit moderner Heizungstechnik, sauberer Montage und viel Erfahrung dafür sorgt, dass Ihre neue Gastherme optimal funktioniert und Ihre Heizung in Wien 1090 langfristig zuverlässig bleibt. Weitere Details finden Sie in unseren <a href="{{ route('thermentausch-1080-wien') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size6.jpeg" alt="Thermentausch 1090 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size6.webp" alt="Thermentausch 1090 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
 
-      <!-- Wann ein Thermentausch sinnvoll ist (als zusÃ¤tzliche Box) -->
+      <!-- Wann ein Thermentausch sinnvoll ist (als zusätzliche Box) -->
       <div class="card-box" style="margin-top: 20px;">
         <h3>Wann ein Thermentausch sinnvoll ist</h3>
-        <p>Ein Thermentausch Wien ist sinnvoll, wenn Ihre Therme oder Gastherme veraltet ist, regelmÃ¤ÃŸig ein Problem verursacht oder hÃ¤ufige Reparatur und Wartung benÃ¶tigt, da solche Thermen meist mehr Energie verbrauchen und hÃ¶here Kosten entstehen, weshalb ein Thermenwechsel oder das gezielte Thermen tauschen in Wien 1090 eine nachhaltige Erneuerung darstellt, bei der unser Installateur Wien alle GasgerÃ¤te, die Heizungsanlage sowie alle SanitÃ¤r Installationen Ã¼berprÃ¼ft und Ihnen eine transparente Beratung, ein klares Angebot sowie einen detaillierten Kostenvoranschlag fÃ¼r den Thermentausch 1090 Wien bietet, wodurch Sie eine moderne LÃ¶sung fÃ¼r Heizung und Warmwasser erhalten und gleichzeitig die Energieeffizienz steigern.</p>
+        <p>Ein Thermentausch Wien ist sinnvoll, wenn Ihre Therme oder Gastherme veraltet ist, regelmäßig ein Problem verursacht oder häufige Reparatur und Wartung benötigt, da solche Thermen meist mehr Energie verbrauchen und höhere Kosten entstehen, weshalb ein Thermenwechsel oder das gezielte Thermen tauschen in Wien 1090 eine nachhaltige Erneuerung darstellt, bei der unser Installateur Wien alle Gasgeräte, die Heizungsanlage sowie alle Sanitär Installationen überprüft und Ihnen eine transparente Beratung, ein klares Angebot sowie einen detaillierten Kostenvoranschlag für den Thermentausch 1090 Wien bietet, wodurch Sie eine moderne Lösung für Heizung und Warmwasser erhalten und gleichzeitig die Energieeffizienz steigern.</p>
       </div>
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§°</div><div>
-          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt fÃ¼r eine prÃ¤zise Installation Ihrer neuen Gastherme â€“ schnell, sauber und nach allen Sicherheitsstandards.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Erfahrung & saubere Montage</h3><p>Unser Team sorgt für eine präzise Installation Ihrer neuen Gastherme – schnell, sauber und nach allen Sicherheitsstandards.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ“</div><div>
-          <h3>Schnell vor Ort in 1090</h3><p>Als Installateur in Alsergrund sind wir in wenigen Minuten bei Ihnen â€“ fÃ¼r Termine und NotfÃ¤lle gleichermaÃŸen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Schnell vor Ort in 1090</h3><p>Als Installateur in Alsergrund sind wir in wenigen Minuten bei Ihnen – für Termine und Notfälle gleichermaßen.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ’°</div><div>
-          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag â€“ keine versteckten Preise, faire Abrechnung.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Transparente Kosten & Beratung</h3><p>Sie erhalten vorab einen klaren Kostenvoranschlag – keine versteckten Preise, faire Abrechnung.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš¡</div><div>
-          <h3>FÃ¶rderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und kÃ¶nnen oft gefÃ¶rdert werden. Wir beraten Sie zu mÃ¶glichen ZuschÃ¼ssen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
+          <h3>Förderung & Energieeffizienz</h3><p>Moderne Thermen sparen Energie und können oft gefördert werden. Wir beraten Sie zu möglichen Zuschüssen.</p>
         </div></article>
       </div>
     </div>
   </section>
 
-  <!-- Team / Warum Kunden sich fÃ¼r uns entscheiden -->
+  <!-- Team / Warum Kunden sich für uns entscheiden -->
   <section class="service-section" id="team-services">
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Warum sich Kunden in Wien 1090 fÃ¼r uns entscheiden</h2>
-          <p>Beim Thermentausch 1090 Wien ist ein erfahrener Installateur Wien entscheidend, da besonders im Bezirk Alsergrund viele Ã¤ltere GebÃ¤ude spezielle Anforderungen an Installation, GasanschlÃ¼sse und Heizungsanlage haben, weshalb unsere Firma als Fachbetrieb groÃŸen Wert auf QualitÃ¤t, Sicherheit und moderne Heizungstechnik legt und unsere Kunden von der ersten Beratung bis zur fertigen Montage begleitet, wÃ¤hrend unser Installateur 1090 Wien dafÃ¼r sorgt, dass der Austausch Ihrer alten Therme reibungslos erfolgt und alle Installationen professionell durchgefÃ¼hrt werden, wodurch wir durch unsere Erfahrung, hohe QualitÃ¤t und zahlreiche Referenzen eine optimale LÃ¶sung fÃ¼r jeden Thermentausch Wien bieten.</p>
+          <h2>Warum sich Kunden in Wien 1090 für uns entscheiden</h2>
+          <p>Beim Thermentausch 1090 Wien ist ein erfahrener Installateur Wien entscheidend, da besonders im Bezirk Alsergrund viele ältere Gebäude spezielle Anforderungen an Installation, Gasanschlüsse und Heizungsanlage haben, weshalb unsere Firma als Fachbetrieb großen Wert auf Qualität, Sicherheit und moderne Heizungstechnik legt und unsere Kunden von der ersten Beratung bis zur fertigen Montage begleitet, während unser Installateur 1090 Wien dafür sorgt, dass der Austausch Ihrer alten Therme reibungslos erfolgt und alle Installationen professionell durchgeführt werden, wodurch wir durch unsere Erfahrung, hohe Qualität und zahlreiche Referenzen eine optimale Lösung für jeden Thermentausch Wien bieten.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen Altbau</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere Montage</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparenz</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen Altbau</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Montage</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparenz</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size5.jpeg" alt="Installateur Team 1090 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size5.webp" alt="Installateur Team 1090 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen / Unser Service fÃ¼r Wien 1090 -->
+  <!-- Leistungen / Unser Service für Wien 1090 -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unser Service fÃ¼r 1090 Wien</h2><p>Unser Installateur Wien bietet umfassenden Service rund um Thermentausch 1090 Wien sowie moderne Heizungstechnik und sichere Installationen in Wien 1090 Alsergrund, wobei wir den gesamten Ablauf von der Planung bis zur fertigen Thermenmontage Ã¼bernehmen und sowohl Thermeninstallation, Thermenwartung als auch Reparatur durchfÃ¼hren, wÃ¤hrend alle GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie bestehende Installationen sorgfÃ¤ltig geprÃ¼ft werden, damit Ihre neue Gastherme sicher funktioniert und Ihre Heizungsanlage optimal eingestellt ist, und als erfahrene Firma mit viel Erfahrung bieten wir unseren Kunden in Wien 1090 eine zuverlÃ¤ssige LÃ¶sung fÃ¼r jede Wohnung oder jedes Haus.</p></div>
+      <div class="service-section__head"><h2>Unser Service für 1090 Wien</h2><p>Unser Installateur Wien bietet umfassenden Service rund um Thermentausch 1090 Wien sowie moderne Heizungstechnik und sichere Installationen in Wien 1090 Alsergrund, wobei wir den gesamten Ablauf von der Planung bis zur fertigen Thermenmontage übernehmen und sowohl Thermeninstallation, Thermenwartung als auch Reparatur durchführen, während alle Gasgeräte, Leitungen für Gas und Wasser sowie bestehende Installationen sorgfältig geprüft werden, damit Ihre neue Gastherme sicher funktioniert und Ihre Heizungsanlage optimal eingestellt ist, und als erfahrene Firma mit viel Erfahrung bieten wir unseren Kunden in Wien 1090 eine zuverlässige Lösung für jede Wohnung oder jedes Haus.</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”„</div><div><h3>Thermentausch und professioneller Thermenwechsel</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes GerÃ¤t â€“ fachgerecht und schnell.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”§</div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller AnschlÃ¼sse fÃ¼r Gas, Wasser und Heizung â€“ sicher und normgerecht.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ </div><div><h3>Austausch alter Gasthermen in Wien 1090</h3><p>Speziell fÃ¼r Alsergrund: Wir ersetzen veraltete GerÃ¤te durch zeitgemÃ¤ÃŸe Heiztechnik.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸŒ¡ï¸</div><div><h3>Optimierung von Heizung und Warmwasser</h3><p>Nach dem Einbau justieren wir Ihre Anlage fÃ¼r maximalen Komfort und niedrige Energiekosten.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸš°</div><div><h3>SanitÃ¤r und Haustechnik Installationen</h3><p>Wir kÃ¼mmern uns auch um angrenzende Gewerke â€“ damit alles perfekt zusammenspielt.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš¡</div><div><h3>Schneller Notdienst und laufender Service in der Umgebung</h3><p>Bei Problemen sind wir sofort fÃ¼r Sie da â€“ auch nach der Installation.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Thermentausch und professioneller Thermenwechsel</h3><p>Kompletter Austausch Ihrer alten Gastherme gegen ein modernes, effizientes Gerät – fachgerecht und schnell.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Moderne Thermeninstallation</h3><p>Wir installieren Ihre neue Therme inklusive aller Anschlüsse für Gas, Wasser und Heizung – sicher und normgerecht.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Austausch alter Gasthermen in Wien 1090</h3><p>Speziell für Alsergrund: Wir ersetzen veraltete Geräte durch zeitgemäße Heiztechnik.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">???</div><div><h3>Optimierung von Heizung und Warmwasser</h3><p>Nach dem Einbau justieren wir Ihre Anlage für maximalen Komfort und niedrige Energiekosten.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär und Haustechnik Installationen</h3><p>Wir kümmern uns auch um angrenzende Gewerke – damit alles perfekt zusammenspielt.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Schneller Notdienst und laufender Service in der Umgebung</h3><p>Bei Problemen sind wir sofort für Sie da – auch nach der Installation.</p></div></article>
       </div>
     </div>
   </section>
@@ -247,18 +247,18 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ablauf beim Thermentausch in 1090 Wien</h2>
-          <p>Ein strukturierter Ablauf ist beim Thermentausch 1090 Wien entscheidend, damit Ihre neue Gastherme sicher und effizient installiert wird, weshalb unser Installateur Wien mit einer persÃ¶nlichen Besichtigung in Ihrer Wohnung oder Ihrem Haus in Wien 1090 Alsergrund beginnt, bei der alle Thermen, GasgerÃ¤te, Leitungen fÃ¼r Gas und Wasser sowie die gesamte Heizungsanlage Ã¼berprÃ¼ft werden, danach erhalten Sie eine umfassende Beratung, ein transparentes Angebot sowie einen klaren Kostenvoranschlag mit allen Kosten und Preisen, und nach Ihrer Entscheidung Ã¼bernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die komplette Thermeninstallation und die sichere Montage, wodurch der Austausch alter Thermen nicht nur Ihre Heizung verbessert, sondern auch die Energieeffizienz erhÃ¶ht und langfristig Energie spart.</p>
+          <p>Ein strukturierter Ablauf ist beim Thermentausch 1090 Wien entscheidend, damit Ihre neue Gastherme sicher und effizient installiert wird, weshalb unser Installateur Wien mit einer persönlichen Besichtigung in Ihrer Wohnung oder Ihrem Haus in Wien 1090 Alsergrund beginnt, bei der alle Thermen, Gasgeräte, Leitungen für Gas und Wasser sowie die gesamte Heizungsanlage überprüft werden, danach erhalten Sie eine umfassende Beratung, ein transparentes Angebot sowie einen klaren Kostenvoranschlag mit allen Kosten und Preisen, und nach Ihrer Entscheidung übernimmt unser Heizungsinstallateur den fachgerechten Thermenwechsel, die komplette Thermeninstallation und die sichere Montage, wodurch der Austausch alter Thermen nicht nur Ihre Heizung verbessert, sondern auch die Energieeffizienz erhöht und langfristig Energie spart.</p>
           <ul class="service-checklist" style="margin-top:20px">
             <li>Besichtigung Ihrer Therme vor Ort in 1090 Wien</li>
             <li>Fachliche Beratung zur passenden Gastherme</li>
             <li>Transparentes Angebot und klarer Kostenvoranschlag</li>
             <li>Professionelle Thermenmontage und sichere Installation</li>
-            <li>PrÃ¼fung von Gas, Wasser und kompletter Heizungsanlage</li>
-            <li>Saubere Ãœbergabe und ErklÃ¤rung der neuen Therme</li>
+            <li>Prüfung von Gas, Wasser und kompletter Heizungsanlage</li>
+            <li>Saubere Übergabe und Erklärung der neuen Therme</li>
           </ul>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size7.jpeg" alt="Ablauf Thermentausch 1090 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size7.webp" alt="Ablauf Thermentausch 1090 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -270,10 +270,10 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Thermenwartung, Reparatur und laufender Service</h2>
-          <p>Neben dem Thermentausch 1090 Wien ist eine regelmÃ¤ÃŸige Thermenwartung entscheidend, damit Ihre Gastherme langfristig zuverlÃ¤ssig arbeitet, weshalb unser Installateur Wien umfassenden Service, Wartung und Reparatur fÃ¼r Thermen in Wien 1090 Alsergrund anbietet, wobei alle wichtigen Komponenten wie GasgerÃ¤te, WasseranschlÃ¼sse und die gesamte Heizungsanlage Ã¼berprÃ¼ft werden, sodass Ihre Heizung effizient bleibt und unnÃ¶tige Kosten vermieden werden und Ihre Installationen dauerhaft sicher funktionieren.</p>
+          <p>Neben dem Thermentausch 1090 Wien ist eine regelmäßige Thermenwartung entscheidend, damit Ihre Gastherme langfristig zuverlässig arbeitet, weshalb unser Installateur Wien umfassenden Service, Wartung und Reparatur für Thermen in Wien 1090 Alsergrund anbietet, wobei alle wichtigen Komponenten wie Gasgeräte, Wasseranschlüsse und die gesamte Heizungsanlage überprüft werden, sodass Ihre Heizung effizient bleibt und unnötige Kosten vermieden werden und Ihre Installationen dauerhaft sicher funktionieren.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size4.jpeg" alt="Thermenwartung 1090 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size4.webp" alt="Thermenwartung 1090 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -284,21 +284,21 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Notdienst und schnelle Hilfe in Alsergrund</h2>
-        <p>Wenn es zu einem Notfall mit Ihrer Therme oder Gastherme kommt, ist ein schneller Notdienst entscheidend, weshalb unser Installateur Wien einen zuverlÃ¤ssigen Notdienst fÃ¼r Thermentausch 1090 Wien, Reparatur und dringende Installation in Wien 1090 anbietet, wobei unser Team schnell im Einsatz ist und rasch Hilfe leistet, das Problem analysiert und eine passende LÃ¶sung findet, egal ob es sich um einen Defekt, einen kompletten Thermenwechsel oder einen akuten Notfall handelt, sodass Ihre Heizung und Ihr Warmwasser schnell wieder funktionieren.</p>
+        <p>Wenn es zu einem Notfall mit Ihrer Therme oder Gastherme kommt, ist ein schneller Notdienst entscheidend, weshalb unser Installateur Wien einen zuverlässigen Notdienst für Thermentausch 1090 Wien, Reparatur und dringende Installation in Wien 1090 anbietet, wobei unser Team schnell im Einsatz ist und rasch Hilfe leistet, das Problem analysiert und eine passende Lösung findet, egal ob es sich um einen Defekt, einen kompletten Thermenwechsel oder einen akuten Notfall handelt, sodass Ihre Heizung und Ihr Warmwasser schnell wieder funktionieren.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdienstâ€‘EinsÃ¤tze</h3>
+        <h3>Typische Notdienst-Einsätze</h3>
         <ul class="service-checklist service-checklist--on-dark">
-          <li>VollstÃ¤ndiger Ausfall der Heizung</li>
+          <li>Vollständiger Ausfall der Heizung</li>
           <li>Kein Warmwasser</li>
           <li>Gasgeruch oder unsicherer Zustand der Therme</li>
           <li>Wasseraustritt an der Therme</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in 1090 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1090 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -308,111 +308,111 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
     <div class="container">
       <div class="card-split">
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size2.jpegs.jpeg" alt="Kosten Thermentausch 1090 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Thermentausch 1090 Wien" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Kosten und Preise fÃ¼r den Thermentausch</h2>
-          <p>Die Kosten fÃ¼r einen Thermentausch 1090 Wien hÃ¤ngen von mehreren Faktoren ab, wie dem Zustand der bestehenden Therme, dem Aufwand der Installation, der GrÃ¶ÃŸe der Heizungsanlage sowie dem gewÃ¤hlten Modell der neuen Gastherme, weshalb unser Installateur Wien alle GasgerÃ¤te, SanitÃ¤r AnschlÃ¼sse und vorhandenen Installationen genau prÃ¼ft, um Ihnen ein transparentes Angebot mit klaren Preisen zu erstellen, wobei ein professioneller Thermentausch Wien langfristig Kosten reduziert, die Energieeffizienz verbessert und in manchen FÃ¤llen durch eine mÃ¶gliche FÃ¶rderung unterstÃ¼tzt wird, die Ihre Investition in moderne Heizungstechnik erleichtert und gleichzeitig einen positiven Beitrag zur Umwelt leistet.</p>
-          <p><strong>Was die Kosten beeinflusst:</strong> Modell der Gastherme, Aufwand der Montage, Zustand der bestehenden Heizung und mÃ¶gliche Sanierungsarbeiten.</p>
-          <p><strong>FÃ¶rderung und Einsparung:</strong> Bei einem Thermentausch Wien kann eine FÃ¶rderung fÃ¼r moderne Heizungstechnik helfen, die Kosten zu senken und gleichzeitig Energie zu sparen, wodurch nicht nur Ihre Heizungsanlage effizienter wird, sondern auch die Umwelt geschont wird und eine nachhaltige Modernisierung Ihrer Heizung ermÃ¶glicht wird.</p>
+          <h2>Kosten und Preise für den Thermentausch</h2>
+          <p>Die Kosten für einen Thermentausch 1090 Wien hängen von mehreren Faktoren ab, wie dem Zustand der bestehenden Therme, dem Aufwand der Installation, der Größe der Heizungsanlage sowie dem gewählten Modell der neuen Gastherme, weshalb unser Installateur Wien alle Gasgeräte, Sanitär Anschlüsse und vorhandenen Installationen genau prüft, um Ihnen ein transparentes Angebot mit klaren Preisen zu erstellen, wobei ein professioneller Thermentausch Wien langfristig Kosten reduziert, die Energieeffizienz verbessert und in manchen Fällen durch eine mögliche Förderung unterstützt wird, die Ihre Investition in moderne Heizungstechnik erleichtert und gleichzeitig einen positiven Beitrag zur Umwelt leistet.</p>
+          <p><strong>Was die Kosten beeinflusst:</strong> Modell der Gastherme, Aufwand der Montage, Zustand der bestehenden Heizung und mögliche Sanierungsarbeiten.</p>
+          <p><strong>Förderung und Einsparung:</strong> Bei einem Thermentausch Wien kann eine Förderung für moderne Heizungstechnik helfen, die Kosten zu senken und gleichzeitig Energie zu sparen, wodurch nicht nur Ihre Heizungsanlage effizienter wird, sondern auch die Umwelt geschont wird und eine nachhaltige Modernisierung Ihrer Heizung ermöglicht wird.</p>
         </div></div>
       </div>
     </div>
   </section>
 
-  <!-- Region / Thermentausch fÃ¼r Wohnung und Haus -->
+  <!-- Region / Thermentausch für Wohnung und Haus -->
   <section class="service-section service-section--soft" id="region-services">
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Thermentausch fÃ¼r Wohnung und Haus</h2>
-          <p>Ein Thermentausch 1090 Wien ist sowohl fÃ¼r eine Wohnung als auch fÃ¼r ein Haus in Wien 1090 Alsergrund sinnvoll, wenn bestehende Thermen ineffizient arbeiten oder hÃ¤ufige Wartung benÃ¶tigen, weshalb unser Installateur Wien alle relevanten Komponenten wie GasgerÃ¤te, Heizungsanlage und SanitÃ¤r Installationen Ã¼berprÃ¼ft und anschlieÃŸend eine passende Gastherme empfiehlt, die optimal zu Ihrem Bedarf passt, wodurch Sie eine zuverlÃ¤ssige Heizung, stabiles Warmwasser und eine sichere Nutzung von Gas erhalten, was besonders in Ã¤lteren GebÃ¤uden im Bezirk Alsergrund eine wichtige Sanierung und Modernisierung darstellt. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
+          <h2>Thermentausch für Wohnung und Haus</h2>
+          <p>Ein Thermentausch 1090 Wien ist sowohl für eine Wohnung als auch für ein Haus in Wien 1090 Alsergrund sinnvoll, wenn bestehende Thermen ineffizient arbeiten oder häufige Wartung benötigen, weshalb unser Installateur Wien alle relevanten Komponenten wie Gasgeräte, Heizungsanlage und Sanitär Installationen überprüft und anschließend eine passende Gastherme empfiehlt, die optimal zu Ihrem Bedarf passt, wodurch Sie eine zuverlässige Heizung, stabiles Warmwasser und eine sichere Nutzung von Gas erhalten, was besonders in älteren Gebäuden im Bezirk Alsergrund eine wichtige Sanierung und Modernisierung darstellt. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien 1090" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien 1090" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
   </section>
 
-  <!-- Thermen Marken (fÃ¼r Thermentausch) -->
+  <!-- Thermen Marken (für Thermentausch) -->
   <section class="service-section service-section--soft" id="thermen-services">
     <div class="container">
       <div class="service-section__head">
-        <h2>Thermentausch fÃ¼r alle Marken</h2>
-        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi â€“ wir tauschen und installieren Thermen aller gÃ¤ngigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
+        <h2>Thermentausch für alle Marken</h2>
+        <p>Ob Vaillant, Junkers, Buderus, Viessmann, Wolf oder Baxi – wir tauschen und installieren Thermen aller gängigen Hersteller. Dabei garantieren wir fachgerechten Anschluss und optimale Abstimmung auf Ihre Heizungsanlage.</p>
       </div>
 
       <div class="brand-grid">
 
         <!-- 1 -->
         <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
-    <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
+    <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
     <span>VAILLANT THERMENSERVICE</span>
   </a>
 
         <!-- 2 -->
          <a class="brand-card" href="{{ route('buderus.thermentausch') }}">
-    <img src="img/1buderus.jpeg" alt="Buderus Thermentausch">
+    <img src="img/1buderus.webp" alt="Buderus Thermentausch">
     <span>BUDERUS THERMENTAUSCH</span>
   </a>
 
         <!-- 3 -->
        <a class="brand-card" href="{{ route('baxi.thermentausch') }}">
-    <img src="img/1baxi.jpeg" alt="Baxi Thermentausch">
+    <img src="img/1baxi.webp" alt="Baxi Thermentausch">
     <span>BAXI THERMENTAUSCH</span>
   </a>
 
         <!-- 4 -->
         <a class="brand-card" href="{{ route('junkers.thermentausch') }}">
-    <img src="img/1junkers.jpeg" alt="Junkers Thermentausch">
+    <img src="img/1junkers.webp" alt="Junkers Thermentausch">
     <span>JUNKERS THERMENTAUSCH</span>
   </a>
 
         <!-- 5 -->
         <a class="brand-card" href="{{ route('viessmann.thermentausch') }}">
-    <img src="img/1viesman.jpeg" alt="Viessmann Thermentausch">
+    <img src="img/1viesman.webp" alt="Viessmann Thermentausch">
     <span>VIESSMANN THERMENTAUSCH</span>
   </a>
 
         <!-- 6 -->
         <a class="brand-card" href="{{ route('wolf.thermentausch') }}">
-    <img src="img/1wolf.jpeg" alt="Wolf Thermentausch">
+    <img src="img/1wolf.webp" alt="Wolf Thermentausch">
     <span>WOLF THERMENTAUSCH</span>
   </a>
 
         <!-- 7 -->
          <a class="brand-card" href="{{ route('saunier-duval.thermentausch') }}">
-    <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermentausch">
+    <img src="img/1sauneri.webp" alt="Saunier Duval Thermentausch">
     <span>SAUNIER DUVAL THERMENTAUSCH</span>
   </a>
 
         <!-- 8 -->
           <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.jpeg" alt="LÃ¶blich Thermentausch">
-    <span>LÃ–BLICH THERMENTAUSCH</span>
+    <img src="img/1loblich.webp" alt="Löblich Thermentausch">
+    <span>LÖBLICH THERMENTAUSCH</span>
   </a>
 
         <!-- 9 -->
           <a class="brand-card" href="{{ route('ocean.thermentausch') }}">
-    <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermentausch">
+    <img src="img/1oceanbaxi.webp" alt="Ocean Thermentausch">
     <span>OCEAN THERMENTAUSCH</span>
   </a>
         <!-- 10 -->
          <a class="brand-card" href="{{ route('rapido.thermentausch') }}">
-    <img src="img/1rapido.jpeg" alt="Rapido Thermentausch">
+    <img src="img/1rapido.webp" alt="Rapido Thermentausch">
     <span>RAPIDO THERMENTAUSCH</span>
   </a>
 
         <!-- 11 -->
         <a class="brand-card" href="{{ route('windhager.thermentausch') }}">
-    <img src="img/Windhager.png" alt="Windhager Thermentausch">
+    <img src="img/1Windhager.webp" alt="Windhager Thermentausch">
     <span>WINDHAGER THERMENTAUSCH</span>
   </a>
 
         <!-- 12 -->
          <a class="brand-card" href="{{ route('nordgas.thermentausch') }}">
-    <img src="img/NordGas.png" alt="Nordgas Thermentausch">
+    <img src="img/1NordGas.webp" alt="Nordgas Thermentausch">
     <span>NORDGAS THERMENTAUSCH</span>
   </a>
 
@@ -420,50 +420,50 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
     </div>
   </section>
 
-  <!-- FAQ â€“ Thermentausch 1090 Wien -->
+  <!-- FAQ – Thermentausch 1090 Wien -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>HÃ¤ufige Fragen zum Thermentausch 1090 Wien</h2><p>Antworten auf die wichtigsten Fragen â€“ kurz und verstÃ¤ndlich.</p></div>
+      <div class="service-section__head"><h2>Häufige Fragen zum Thermentausch 1090 Wien</h2><p>Antworten auf die wichtigsten Fragen – kurz und verständlich.</p></div>
       <div class="service-faq">
         <details>
           <summary>1. Wie lange dauert ein Thermentausch in 1090 Wien?</summary>
-          <p>Ein Thermentausch 1090 Wien dauert meist nur wenige Stunden, da unser Installateur Wien die alte Therme entfernt, die neue Thermenmontage durchfÃ¼hrt und alle Installationen sowie die Heizung Ã¼berprÃ¼ft.</p>
+          <p>Ein Thermentausch 1090 Wien dauert meist nur wenige Stunden, da unser Installateur Wien die alte Therme entfernt, die neue Thermenmontage durchführt und alle Installationen sowie die Heizung überprüft.</p>
         </details>
         <details>
           <summary>2. Wann sollte eine Gastherme getauscht werden?</summary>
-          <p>Eine Gastherme sollte erneuert werden, wenn sie alt ist oder hÃ¤ufige Reparatur benÃ¶tigt, da ein moderner Thermentausch Wien die Energieeffizienz verbessert und langfristig Kosten reduziert.</p>
+          <p>Eine Gastherme sollte erneuert werden, wenn sie alt ist oder häufige Reparatur benötigt, da ein moderner Thermentausch Wien die Energieeffizienz verbessert und langfristig Kosten reduziert.</p>
         </details>
         <details>
           <summary>3. Was kostet ein Thermentausch in Wien 1090?</summary>
-          <p>Die Kosten hÃ¤ngen vom Modell der neuen Therme, dem Aufwand der Installation und dem Zustand der Heizungsanlage ab, weshalb ein Kostenvoranschlag eine genaue Ãœbersicht der Preise bietet.</p>
+          <p>Die Kosten hängen vom Modell der neuen Therme, dem Aufwand der Installation und dem Zustand der Heizungsanlage ab, weshalb ein Kostenvoranschlag eine genaue Übersicht der Preise bietet.</p>
         </details>
         <details>
-          <summary>4. Gibt es FÃ¶rderungen fÃ¼r einen Thermentausch?</summary>
-          <p>Ja, in vielen FÃ¤llen gibt es eine FÃ¶rderung fÃ¼r moderne Heizungstechnik, wodurch die Kosten gesenkt und gleichzeitig Energie eingespart werden kann.</p>
+          <summary>4. Gibt es Förderungen für einen Thermentausch?</summary>
+          <p>Ja, in vielen Fällen gibt es eine Förderung für moderne Heizungstechnik, wodurch die Kosten gesenkt und gleichzeitig Energie eingespart werden kann.</p>
         </details>
         <details>
           <summary>5. Bieten Sie auch Notdienst in Alsergrund an?</summary>
-          <p>Ja, unser Installateur 1090 Wien bietet schnellen Notdienst bei Problemen mit Therme, GasgerÃ¤t, Heizung oder Warmwasser in Wien 1090 und der gesamten Umgebung.</p>
+          <p>Ja, unser Installateur 1090 Wien bietet schnellen Notdienst bei Problemen mit Therme, Gasgerät, Heizung oder Warmwasser in Wien 1090 und der gesamten Umgebung.</p>
         </details>
         <details>
-          <summary>6. Kann der Thermentausch auch in einer Wohnung durchgefÃ¼hrt werden?</summary>
-          <p>Ja, ein Thermentausch 1090 ist sowohl in einer Wohnung als auch in einem Haus mÃ¶glich, wobei unser Fachmann alle Installationen vor Ort prÃ¼ft und eine passende LÃ¶sung empfiehlt.</p>
+          <summary>6. Kann der Thermentausch auch in einer Wohnung durchgeführt werden?</summary>
+          <p>Ja, ein Thermentausch 1090 ist sowohl in einer Wohnung als auch in einem Haus möglich, wobei unser Fachmann alle Installationen vor Ort prüft und eine passende Lösung empfiehlt.</p>
         </details>
         <details>
           <summary>7. Muss ich bei einem Thermentausch etwas beachten?</summary>
-          <p>Am besten halten Sie die GerÃ¤tedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kÃ¼mmern uns um den Rest â€“ von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
+          <p>Am besten halten Sie die Gerätedaten (Typenschild) und letzte Wartungsunterlagen bereit. Wir kümmern uns um den Rest – von der Anmeldung beim Netzbetreiber bis zur Endabnahme.</p>
         </details>
         <details>
           <summary>8. Welche Thermenmarken tauschen Sie aus?</summary>
-          <p>Wir tauschen alle gÃ¤ngigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine LÃ¶sung.</p>
+          <p>Wir tauschen alle gängigen Marken wie Vaillant, Junkers, Buderus, Viessmann, Wolf, Baxi und viele weitere. Auch bei seltenen Modellen finden wir eine Lösung.</p>
         </details>
         <details>
           <summary>9. Wie finde ich die richtige neue Therme?</summary>
-          <p>Wir beraten Sie umfassend und wÃ¤hlen gemeinsam mit Ihnen das passende GerÃ¤t aus â€“ abgestimmt auf Ihre WohnungsgrÃ¶ÃŸe, Ihren Warmwasserbedarf und Ihr Budget.</p>
+          <p>Wir beraten Sie umfassend und wählen gemeinsam mit Ihnen das passende Gerät aus – abgestimmt auf Ihre Wohnungsgröße, Ihren Warmwasserbedarf und Ihr Budget.</p>
         </details>
         <details>
           <summary>10. Bieten Sie auch die Entsorgung der alten Therme an?</summary>
-          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverstÃ¤ndlich im Service enthalten. Sie mÃ¼ssen sich um nichts kÃ¼mmern.</p>
+          <p>Ja, die fachgerechte Entsorgung Ihrer alten Gastherme ist selbstverständlich im Service enthalten. Sie müssen sich um nichts kümmern.</p>
         </details>
       </div>
     </div>
@@ -474,11 +474,11 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
     <div class="container">
       <div class="service-cta__inner">
         <div>
-          <h2>Jetzt Kontakt aufnehmen â€“ fÃ¼r Thermentausch in 1090 Wien</h2>
-          <p>Wenn Sie einen Thermentausch 1090 Wien planen oder Ihre Gastherme erneuern mÃ¶chten, steht Ihnen unser Installateur Wien als zuverlÃ¤ssiger Partner zur VerfÃ¼gung, denn wir bieten professionelle Beratung, transparente Angebote und eine sichere DurchfÃ¼hrung aller Arbeiten rund um Heizung, SanitÃ¤r und Haustechnik in Wien 1090 Alsergrund, egal ob Austausch, Wartung, Reparatur oder Notdienst, unser Team ist schnell im Einsatz und sorgt fÃ¼r eine effiziente LÃ¶sung fÃ¼r Ihr Zuhause.</p>
-          <p style="margin-top:10px"><strong>ğŸ“</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+          <h2>Jetzt Kontakt aufnehmen – für Thermentausch in 1090 Wien</h2>
+          <p>Wenn Sie einen Thermentausch 1090 Wien planen oder Ihre Gastherme erneuern möchten, steht Ihnen unser Installateur Wien als zuverlässiger Partner zur Verfügung, denn wir bieten professionelle Beratung, transparente Angebote und eine sichere Durchführung aller Arbeiten rund um Heizung, Sanitär und Haustechnik in Wien 1090 Alsergrund, egal ob Austausch, Wartung, Reparatur oder Notdienst, unser Team ist schnell im Einsatz und sorgt für eine effiziente Lösung für Ihr Zuhause.</p>
+          <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mÃ¶glich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -493,7 +493,7 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) â€“ bleibt unverÃ¤ndert -->
+  <!-- Bezirke (bottom links) – bleibt unverändert -->
 
 </main>
 
@@ -501,6 +501,7 @@ $metaDescription = "Professioneller Thermentausch 1090 Wien vom Installateur Wie
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
 
 
 

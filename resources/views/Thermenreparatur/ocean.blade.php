@@ -276,7 +276,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -374,7 +374,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
@@ -496,7 +496,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean Logo">
+        <img src="{{ asset('img/1oceanbaxi.webp') }}" alt="Ocean Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -608,7 +608,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/oceanbaxi.jpeg') }}" alt="Ocean Thermenreparatur Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/oceanbaxi.webp') }}" alt="Ocean Thermenreparatur Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -639,7 +639,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.jpeg') }}" alt="Ocean Thermenreparatur Wien Experten" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size3.jpegs.webp') }}" alt="Ocean Thermenreparatur Wien Experten" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -730,7 +730,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ocean Thermenwartung Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Ocean Thermenwartung Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -761,7 +761,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Reparatur Ihrer Ocean Therme" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size5.webp') }}" alt="Reparatur Ihrer Ocean Therme" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -820,7 +820,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -845,7 +845,7 @@ $metaDescription = "Ocean Thermenreparatur Wien vom Profi. Ocean Kundendienst Wi
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Service in Wien Niederösterreich Burgenland" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.webp') }}" alt="Service in Wien Niederösterreich Burgenland" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

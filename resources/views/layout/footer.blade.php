@@ -72,7 +72,7 @@
 
                 {{-- COLUMN 2 - LOGO --}}
                 <div>
-                    <img src="{{ asset('img/mobile-logo.jpeg') }}" class="footer-logo" alt="Heizdienst Logo">
+                    <img src="{{ asset('img/mobile-logo.webp') }}" class="footer-logo" alt="Heizdienst Logo">
                 </div>
 
 

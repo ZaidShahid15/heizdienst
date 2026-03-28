@@ -741,7 +741,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="Wärmepumpen Installation Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size9.webp') }}" alt="Wärmepumpen Installation Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -801,7 +801,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size10.jpeg') }}" alt="Förderung für Wärmepumpen in Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size10.webp') }}" alt="Förderung für Wärmepumpen in Wien" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>

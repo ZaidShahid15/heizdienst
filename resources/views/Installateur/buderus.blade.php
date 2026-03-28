@@ -260,7 +260,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -358,7 +358,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
@@ -465,7 +465,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Logo">
+        <img src="{{ asset('img/1buderus.webp') }}" alt="Buderus Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -577,7 +577,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Fachpartner in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/buderus.webp') }}" alt="Buderus Fachpartner in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -663,7 +663,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Heizung, Gastherme und Heizkessel" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Heizung, Gastherme und Heizkessel" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -699,7 +699,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Preise, Angebot und Beratung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Preise, Angebot und Beratung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -752,7 +752,7 @@ $metaDescription = "Buderus Installateur Wien für Buderus Thermenwartung, Repar
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Wien und Umgebung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.webp') }}" alt="Wien und Umgebung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

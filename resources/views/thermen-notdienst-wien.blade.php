@@ -264,7 +264,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -363,7 +363,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
@@ -472,7 +472,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/thermen-notdienst-wien.jpeg') }}" alt="Thermen-notdienst-wien Logo">
+        <img src="{{ asset('img/thermen-notdienst-wien.webp') }}" alt="Thermen-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -581,7 +581,7 @@
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1NordGas.png') }}" alt="Thermen Notdienst Wien – Team im Einsatz" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1NordGas.webp') }}" alt="Thermen Notdienst Wien – Team im Einsatz" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -604,7 +604,7 @@
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="24h Notdienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="24h Notdienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -702,7 +702,7 @@
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Gasthermen Austausch und Installation" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.webp') }}" alt="Gasthermen Austausch und Installation" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -730,7 +730,7 @@
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Thermenwartung Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Thermenwartung Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -752,7 +752,7 @@
         </div>
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Sanitär und Heizung Full Service" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Sanitär und Heizung Full Service" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

@@ -172,6 +172,30 @@ Route::get('/installateur-1210-wien', fn() => view('installateur_wien.installate
 Route::get('/installateur-1220-wien', fn() => view('installateur_wien.installateur-1220-wien'))->name('installateur.1220');
 Route::get('/installateur-1230-wien', fn() => view('installateur_wien.installateur-1230-wien'))->name('installateur.1230');
 
+Route::view('/installateur-kundendienst-1010-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1010-wien')->name('installateur-kundendienst.1010');
+Route::view('/installateur-kundendienst-1020-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1020-wien')->name('installateur-kundendienst.1020');
+Route::view('/installateur-kundendienst-1030-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1030-wien')->name('installateur-kundendienst.1030');
+Route::view('/installateur-kundendienst-1040-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1040-wien')->name('installateur-kundendienst.1040');
+Route::view('/installateur-kundendienst-1050-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1050-wien')->name('installateur-kundendienst.1050');
+Route::view('/installateur-kundendienst-1060-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1060-wien')->name('installateur-kundendienst.1060');
+Route::view('/installateur-kundendienst-1070-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1070-wien')->name('installateur-kundendienst.1070');
+Route::view('/installateur-kundendienst-1080-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1080-wien')->name('installateur-kundendienst.1080');
+Route::view('/installateur-kundendienst-1090-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1090-wien')->name('installateur-kundendienst.1090');
+Route::view('/installateur-kundendienst-1100-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1100-wien')->name('installateur-kundendienst.1100');
+Route::view('/installateur-kundendienst-1110-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1110-wien')->name('installateur-kundendienst.1110');
+Route::view('/installateur-kundendienst-1120-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1120-wien')->name('installateur-kundendienst.1120');
+Route::view('/installateur-kundendienst-1130-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1130-wien')->name('installateur-kundendienst.1130');
+Route::view('/installateur-kundendienst-1140-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1140-wien')->name('installateur-kundendienst.1140');
+Route::view('/installateur-kundendienst-1150-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1150-wien')->name('installateur-kundendienst.1150');
+Route::view('/installateur-kundendienst-1160-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1160-wien')->name('installateur-kundendienst.1160');
+Route::view('/installateur-kundendienst-1170-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1170-wien')->name('installateur-kundendienst.1170');
+Route::view('/installateur-kundendienst-1180-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1180-wien')->name('installateur-kundendienst.1180');
+Route::view('/installateur-kundendienst-1190-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1190-wien')->name('installateur-kundendienst.1190');
+Route::view('/installateur-kundendienst-1200-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1200-wien')->name('installateur-kundendienst.1200');
+Route::view('/installateur-kundendienst-1210-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1210-wien')->name('installateur-kundendienst.1210');
+Route::view('/installateur-kundendienst-1220-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1220-wien')->name('installateur-kundendienst.1220');
+Route::view('/installateur-kundendienst-1230-wien', 'Installateur-Kundendienst-Wien.installateur-kundendienst-1230-wien')->name('installateur-kundendienst.1230');
+
 
 
 Route::get('/thermenwartung-1010-wien', fn() => view('thermenwartung.thermenwartung-1010-wien'))->name('thermenwartung.1010');

@@ -379,7 +379,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
     opacity:.5;
   }
@@ -549,7 +549,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1wolf.jpeg') }}" alt="Wolf-notdienst-wien Logo">
+        <img src="{{ asset('img/1wolf.webp') }}" alt="Wolf-notdienst-wien Logo">
       </div>
 
       <div class="wolf-hero__sub">
@@ -688,7 +688,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size6.jpeg') }}" alt="Wolf Kundendienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size6.webp') }}" alt="Wolf Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -860,7 +860,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Wolf Thermenservice" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size5.webp') }}" alt="Wolf Thermenservice" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -887,7 +887,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Thermentausch & Installation" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size3.webp') }}" alt="Thermentausch & Installation" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -915,7 +915,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Einsatzgebiet Wien & Niederösterreich" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size.webp') }}" alt="Einsatzgebiet Wien & Niederösterreich" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -948,7 +948,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/2size5.jpeg') }}" alt="Team & Ansprechpartner" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size5.webp') }}" alt="Team & Ansprechpartner" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -1019,7 +1019,7 @@ $metaDescription = "Wolf Notdienst Wien ✔ Rund um die Uhr ✔ Reparatur, Wartu
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size2.jpeg') }}" alt="Termin & Unterstützung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size2.webp') }}" alt="Termin & Unterstützung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

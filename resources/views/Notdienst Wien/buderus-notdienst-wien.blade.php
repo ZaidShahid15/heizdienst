@@ -381,7 +381,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
     opacity:.55;
   }
@@ -527,7 +527,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Notdienst Wien Logo">
+        <img src="{{ asset('img/1buderus.webp') }}" alt="Notdienst Wien Logo">
       </div>
 
        <div class="wolf-hero__sub">
@@ -702,7 +702,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Notdienst & Kundendienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/buderus.webp') }}" alt="Notdienst & Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -875,7 +875,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Buderus Wartung & Thermenservice" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.webp') }}" alt="Buderus Wartung & Thermenservice" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -902,7 +902,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Buderus Reparatur & Ersatzteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Buderus Reparatur & Ersatzteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -929,7 +929,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Buderus Einsatzgebiet Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.webp') }}" alt="Buderus Einsatzgebiet Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -963,7 +963,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Buderus Team & Qualität" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.webp') }}" alt="Buderus Team & Qualität" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -990,7 +990,7 @@ $metaDescription = "Notdienst & Kundendienst Wien ✔ Service, Wartung & Behebun
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Buderus Preise & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Buderus Preise & Vorteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

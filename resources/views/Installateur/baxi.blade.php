@@ -261,7 +261,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -461,7 +461,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1baxi.jpeg') }}" alt="Baxi Logo">
+        <img src="{{ asset('img/1baxi.webp') }}" alt="Baxi Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -573,7 +573,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/baxi.jpeg') }}" alt="Baxi Fachpartner in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/baxi.webp') }}" alt="Baxi Fachpartner in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -655,7 +655,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Heizung, Gasgeräte und Anlage" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Heizung, Gasgeräte und Anlage" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -690,7 +690,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Preise, Service und Kompetenz" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.webp') }}" alt="Preise, Service und Kompetenz" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -719,7 +719,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-10.jpg') }}" alt="Ablauf von Anfrage bis Termin" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-10.webp') }}" alt="Ablauf von Anfrage bis Termin" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -748,7 +748,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Wien und Umgebung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Wien und Umgebung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -777,7 +777,7 @@ $metaDescription = "Ihr Baxi Installateur Wien für Baxi Thermenwartung, Reparat
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Thermentausch und Austausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Thermentausch und Austausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

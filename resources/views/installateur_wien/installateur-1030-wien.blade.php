@@ -1,10 +1,10 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 
 @section('main')
 
 @php
-$metaTitle = "Installateur   1030 Wien â€“ 24h Installateur LandstraÃŸe";
-$metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in LandstraÃŸe. Hilfe bei Rohrbruch, Abfluss verstopft, Heizung oder Gastherme Problemen. Jetzt anrufen!";
+$metaTitle = "Installateur   1030 Wien – 24h Installateur Landstraße";
+$metaDescription = "Installateur   1030 Wien – schneller 24h Installateur in Landstraße. Hilfe bei Rohrbruch, Abfluss verstopft, Heizung oder Gastherme Problemen. Jetzt anrufen!";
 @endphp
 
 @push('meta')
@@ -30,7 +30,7 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu fÃ¼r Thermen Marken) === */
+    /* === BRAND GRID (neu für Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -87,10 +87,10 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
     <div class="wolf-hero__inner container">
       <h1>
         Installateur   1030 Wien <br>
-        <span style="color:#FB9A1B;">24h Installateur LandstraÃŸe</span>
+        <span style="color:#FB9A1B;">24h Installateur Landstraße</span>
       </h1>
 
-      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1030 Wien. Unser Installateur   Wien hilft sofort bei SanitÃ¤r-, Gas- und Heizungsproblemen im Bezirk LandstraÃŸe.</p>
+      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1030 Wien. Unser Installateur   Wien hilft sofort bei Sanitär-, Gas- und Heizungsproblemen im Bezirk Landstraße.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -177,25 +177,25 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ihr Installateur in 1030 Wien</h2>
-          <p>Wenn ein Rohr bricht, der Abfluss Ã¼berlÃ¤uft oder die Heizung plÃ¶tzlich ausfÃ¤llt,  benÃ¶tigen Sie schnelle  und professionelle Hilfe. Unser Installateur   1030 Wien ist jederzeit erreichbar und bietet schnelle LÃ¶sungen fÃ¼r Haushalte und Unternehmen im Bezirk LandstraÃŸe Wien. Als erfahrener Installateur Wien 1030 kÃ¼mmern wir uns um akute Probleme im Bereich Gas Wasser Heizung Wien, SanitÃ¤ranlagen und moderne Haustechnik Wien. Unser   Installateur 1030 Wien hilft sofort bei dringenden Reparaturen und sorgt dafÃ¼r, dass SchÃ¤den schnell behoben werden. Egal ob Wasserrohrbruch Wien, ein defekter Abfluss oder ein akuter Installateur Notfall Wien â€“ unser Installateur LandstraÃŸe Wien ist schnell vor Ort. Wenn Sie einen Installateur   NÃ¤he oder einen Installateur NÃ¤he 1030 Wien suchen, steht unser Team jederzeit bereit. Weitere Details finden Sie in unseren <a href="{{ route('installateur.1020') }}">weiterfÃ¼hrenden Informationen</a>.</p>
+          <p>Wenn ein Rohr bricht, der Abfluss überläuft oder die Heizung plötzlich ausfällt,  benötigen Sie schnelle  und professionelle Hilfe. Unser Installateur   1030 Wien ist jederzeit erreichbar und bietet schnelle Lösungen für Haushalte und Unternehmen im Bezirk Landstraße Wien. Als erfahrener Installateur Wien 1030 kümmern wir uns um akute Probleme im Bereich Gas Wasser Heizung Wien, Sanitäranlagen und moderne Haustechnik Wien. Unser   Installateur 1030 Wien hilft sofort bei dringenden Reparaturen und sorgt dafür, dass Schäden schnell behoben werden. Egal ob Wasserrohrbruch Wien, ein defekter Abfluss oder ein akuter Installateur Notfall Wien – unser Installateur Landstraße Wien ist schnell vor Ort. Wenn Sie einen Installateur   Nähe oder einen Installateur Nähe 1030 Wien suchen, steht unser Team jederzeit bereit. Weitere Details finden Sie in unseren <a href="{{ route('installateur.1020') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1030 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size6.webp" alt="Installateur Service 1030 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§°</div><div>
-          <h3>Rohrbruch und WasserschÃ¤den schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann groÃŸe SchÃ¤den verursachen. Unser Rohrbruch   Wien bietet schnelle Hilfe bei Wasserschaden Wien und sorgt dafÃ¼r, dass Leitungen und SanitÃ¤rsysteme schnell repariert werden.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Rohrbruch und Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann große Schäden verursachen. Unser Rohrbruch   Wien bietet schnelle Hilfe bei Wasserschaden Wien und sorgt dafür, dass Leitungen und Sanitärsysteme schnell repariert werden.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš¡</div><div>
-          <h3>Abfluss verstopft oder WC verstopft</h3><p>Ein Abfluss verstopft Wien oder WC verstopft Wien kann den Alltag erheblich stÃ¶ren. Unser Rohrreinigung Wien Service lÃ¶st Verstopfungen schnell und sorgt fÃ¼r funktionierende Leitungen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
+          <h3>Abfluss verstopft oder WC verstopft</h3><p>Ein Abfluss verstopft Wien oder WC verstopft Wien kann den Alltag erheblich stören. Unser Rohrreinigung Wien Service löst Verstopfungen schnell und sorgt für funktionierende Leitungen.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§‘â€ğŸ”§</div><div>
-          <h3>Professioneller Installateur fÃ¼r Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Dienstleistungen rund um Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kÃ¼mmern wir uns um Gasleitungen, Thermen und Heizsysteme. Unser SanitÃ¤r Installateur Wien Ã¼bernimmt Reparaturen und Wartungen von Wasserleitungen, Armaturen und Badezimmeranlagen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?????</div><div>
+          <h3>Professioneller Installateur für Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Dienstleistungen rund um Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kümmern wir uns um Gasleitungen, Thermen und Heizsysteme. Unser Sanitär Installateur Wien übernimmt Reparaturen und Wartungen von Wasserleitungen, Armaturen und Badezimmeranlagen.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ“</div><div>
-          <h3>Ihr Installateur in Wien LandstraÃŸe</h3><p>Wenn Sie einen zuverlÃ¤ssigen Installateur 1030 Wien suchen, ist schnelle Hilfe besonders wichtig. Unser Installateur   Wien ist tÃ¤glich im dritten Bezirk unterwegs und unterstÃ¼tzt Bewohner und Unternehmen in LandstraÃŸe Wien bei allen SanitÃ¤r-, Heizungs- und Gasproblemen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Ihr Installateur in Wien Landstraße</h3><p>Wenn Sie einen zuverlässigen Installateur 1030 Wien suchen, ist schnelle Hilfe besonders wichtig. Unser Installateur   Wien ist täglich im dritten Bezirk unterwegs und unterstützt Bewohner und Unternehmen in Landstraße Wien bei allen Sanitär-, Heizungs- und Gasproblemen.</p>
         </div></article>
       </div>
     </div>
@@ -207,15 +207,15 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Warum unser Installateur Fachbetrieb in Wien</h2>
-          <p>Unser Installateur Fachbetrieb Wien steht fÃ¼r QualitÃ¤t, Erfahrung und schnelle Hilfe. Unser Installateur   Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lÃ¶sen. Unser Installateur Team Wien verfÃ¼gt Ã¼ber umfangreiche Installateur Erfahrung Wien im Bereich SanitÃ¤r-, Heizungs- und Gasinstallationen. Besonders bei Installateur NotfÃ¤lle Wien ist eine schnelle Reaktion entscheidend. Deshalb ist unser   24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei RohrbrÃ¼chen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benÃ¶tigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlÃ¤ssige und langfristige LÃ¶sungen zu bieten. FÃ¼r einen zuverlÃ¤ssigen Serviceangebot stehen wir Ihnen mit Erfahrung und klaren AblÃ¤ufen zur Seite.</p>
+          <p>Unser Installateur Fachbetrieb Wien steht für Qualität, Erfahrung und schnelle Hilfe. Unser Installateur   Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lösen. Unser Installateur Team Wien verfügt über umfangreiche Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfälle Wien ist eine schnelle Reaktion entscheidend. Deshalb ist unser   24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrüchen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlässige und langfristige Lösungen zu bieten. Für einen zuverlässigen Serviceangebot stehen wir Ihnen mit Erfahrung und klaren Abläufen zur Seite.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere Arbeit</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparenz</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Arbeit</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparenz</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size5.jpeg" alt="Installateur Team" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size5.webp" alt="Installateur Team" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -224,18 +224,18 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1030</h2><p>Unser Installateur   Wien bietet ein umfassendes Leistungsspektrum fÃ¼r Haushalte, Gewerbe und Hausverwaltungen im dritten Bezirk. Als erfahrene Installateur Firma Wien Ã¼bernehmen wir Reparaturen, Wartungen und neue Installationen Wien im Bereich Gas Wasser Heizung Wien. Unser Wasserinstallateur Wien kÃ¼mmert sich um defekte Leitungen, Armaturen und SanitÃ¤ranlagen. Gleichzeitig sorgt unser SanitÃ¤r Installateur Wien fÃ¼r professionelle LÃ¶sungen in Badezimmern und SanitÃ¤rsystemen. Unsere Experten arbeiten mit moderner Heizungstechnik Wien, effizienter SanitÃ¤rtechnik Wien und zuverlÃ¤ssiger Haustechnik Wien. Unser Installateur Service Wien unterstÃ¼tzt Kunden sowohl bei geplanten Projekten als auch bei dringenden Reparaturen. Dank unserem erfahrenen Installateur Team Wien bieten wir ein professionelles LandstraÃŸe Wien Installateur Service fÃ¼r Wohnungen, HÃ¤user und Unternehmen.</p></div>
+      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1030</h2><p>Unser Installateur   Wien bietet ein umfassendes Leistungsspektrum für Haushalte, Gewerbe und Hausverwaltungen im dritten Bezirk. Als erfahrene Installateur Firma Wien übernehmen wir Reparaturen, Wartungen und neue Installationen Wien im Bereich Gas Wasser Heizung Wien. Unser Wasserinstallateur Wien kümmert sich um defekte Leitungen, Armaturen und Sanitäranlagen. Gleichzeitig sorgt unser Sanitär Installateur Wien für professionelle Lösungen in Badezimmern und Sanitärsystemen. Unsere Experten arbeiten mit moderner Heizungstechnik Wien, effizienter Sanitärtechnik Wien und zuverlässiger Haustechnik Wien. Unser Installateur Service Wien unterstützt Kunden sowohl bei geplanten Projekten als auch bei dringenden Reparaturen. Dank unserem erfahrenen Installateur Team Wien bieten wir ein professionelles Landstraße Wien Installateur Service für Wohnungen, Häuser und Unternehmen.</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§½</div><div><h3>Rohrreinigung Wien</h3><p>Rohrreinigung Wien bei verstopften Leitungen oder Abfluss verstopft Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§ª</div><div><h3>Wasserrohrbruch Wien</h3><p>Soforthilfe bei Wasserrohrbruch Wien und RohrschÃ¤den.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš¡</div><div><h3>WC verstopft Wien</h3><p>Reparatur bei WC verstopft Wien oder defekten SanitÃ¤ranlagen.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div><div><h3>SanitÃ¤r Reparatur Wien</h3><p>Professionelle SanitÃ¤r Reparatur Wien durch erfahrene FachkrÃ¤fte.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”</div><div><h3>Badsanierung Wien</h3><p>Planung moderner Badezimmer inklusive Badsanierung Wien und Bad Sanierung Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âœ…</div><div><h3>Serviceangebot</h3><p>Thermenservice mit Thermenwartung Wien, Thermen Service Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§°</div><div><h3>Gastherme Wartung Wien</h3><p>Gastherme Wartung Wien und regelmÃ¤ÃŸige Wartung.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš™ï¸</div><div><h3>Heizung Reparatur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien inklusive Heizung Reparatur Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div><div><h3>Wartung Heizung Wien</h3><p>ZuverlÃ¤ssige Wartung Heizung Wien fÃ¼r effiziente Heizsysteme.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ›</div><div><h3>Montage SanitÃ¤r Wien</h3><p>Installation neuer Systeme mit Montage SanitÃ¤r Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Rohrreinigung Wien</h3><p>Rohrreinigung Wien bei verstopften Leitungen oder Abfluss verstopft Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Wasserrohrbruch Wien</h3><p>Soforthilfe bei Wasserrohrbruch Wien und Rohrschäden.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>WC verstopft Wien</h3><p>Reparatur bei WC verstopft Wien oder defekten Sanitäranlagen.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär Reparatur Wien</h3><p>Professionelle Sanitär Reparatur Wien durch erfahrene Fachkräfte.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Badsanierung Wien</h3><p>Planung moderner Badezimmer inklusive Badsanierung Wien und Bad Sanierung Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Serviceangebot</h3><p>Thermenservice mit Thermenwartung Wien, Thermen Service Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Gastherme Wartung Wien</h3><p>Gastherme Wartung Wien und regelmäßige Wartung.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Heizung Reparatur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien inklusive Heizung Reparatur Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Wartung Heizung Wien</h3><p>Zuverlässige Wartung Heizung Wien für effiziente Heizsysteme.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Montage Sanitär Wien</h3><p>Installation neuer Systeme mit Montage Sanitär Wien.</p></div></article>
       </div>
     </div>
   </section>
@@ -246,15 +246,15 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Gastherme Reparatur und Wartung</h2>
-          <p>Wenn Ihre Therme Probleme macht, bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmÃ¤ÃŸige Gastherme Wartung Wien und Thermenwartung Wien. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
+          <p>Wenn Ihre Therme Probleme macht, bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Effizienz</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Weniger StÃ¶rungen</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Störungen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size7.jpeg" alt="Wartung 1030 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size7.webp" alt="Wartung 1030 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -266,10 +266,10 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Heizung Reparatur und Thermenservice</h2>
-          <p>Bei einem Ausfall Ihrer Heizung hilft unser Heizung Installateur Wien sofort. Wir Ã¼bernehmen Heizung Reparatur Wien, Wartung Heizung Wien und sorgen fÃ¼r effiziente Heizsysteme.</p>
+          <p>Bei einem Ausfall Ihrer Heizung hilft unser Heizung Installateur Wien sofort. Wir übernehmen Heizung Reparatur Wien, Wartung Heizung Wien und sorgen für effiziente Heizsysteme.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size4.jpeg" alt="Reparatur 1030 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size4.webp" alt="Reparatur 1030 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -280,20 +280,20 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Installateur   24h Wien</h2>
-        <p>Ein Rohrbruch, eine defekte Therme oder ein verstopfter Abfluss kann jederzeit auftreten. Deshalb ist unser Installateur   Wien rund um die Uhr verfÃ¼gbar. Unser   1030 Wien hilft schnell bei akuten Problemen im dritten Bezirk. Als 24 Stunden Installateur Wien bieten wir schnelle Hilfe bei Installateur Notfall Wien, defekten Heizungen oder beschÃ¤digten Leitungen. Unser Installateur   1030 Wien reagiert sofort bei dringenden Situationen. Wenn Sie einen Installateur   NÃ¤he suchen, erreichen wir Ihren Standort meist innerhalb kurzer Zeit. Unser SanitÃ¤r   Wien und unser Gas Installateur Wien kÃ¼mmern sich um alle dringenden Reparaturen.</p>
+        <p>Ein Rohrbruch, eine defekte Therme oder ein verstopfter Abfluss kann jederzeit auftreten. Deshalb ist unser Installateur   Wien rund um die Uhr verfügbar. Unser   1030 Wien hilft schnell bei akuten Problemen im dritten Bezirk. Als 24 Stunden Installateur Wien bieten wir schnelle Hilfe bei Installateur Notfall Wien, defekten Heizungen oder beschädigten Leitungen. Unser Installateur   1030 Wien reagiert sofort bei dringenden Situationen. Wenn Sie einen Installateur   Nähe suchen, erreichen wir Ihren Standort meist innerhalb kurzer Zeit. Unser Sanitär   Wien und unser Gas Installateur Wien kümmern sich um alle dringenden Reparaturen.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">  kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische  â€‘EinsÃ¤tze</h3>
+        <h3>Typische  -Einsätze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
-          <li>Fehlermeldungen, Druckprobleme oder StÃ¶rgerÃ¤usche</li>
-          <li>Sicherheitsrelevante AuffÃ¤lligkeiten am GerÃ¤t</li>
+          <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
+          <li>Sicherheitsrelevante Auffälligkeiten am Gerät</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in 1030 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1030 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -303,12 +303,12 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
     <div class="container">
       <div class="card-split">
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size2.jpegs.jpeg" alt="Kosten Installateur" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Installateur" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Installateur Kosten Wien â€“ transparente Preise</h2>
-          <p>Viele Kunden mÃ¶chten vorab wissen, welche Installateur Kosten Wien entstehen kÃ¶nnen. Unser Installateur   Wien arbeitet mit klaren und transparenten Preisen. Der genaue Installateur Preis Wien hÃ¤ngt vom Problem, dem Arbeitsaufwand und den benÃ¶tigten Materialien ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie eine klare Ãœbersicht Ã¼ber die Kosten erhalten. Bei grÃ¶ÃŸeren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, damit Sie Planungssicherheit haben. Unser Ziel ist es, professionelle Leistungen zu fairen Preisen anzubieten, damit Sie sich jederzeit auf unseren Installateur 1030 Wien verlassen kÃ¶nnen.</p>
-          <p>FÃ¼r planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei StÃ¶rungen erklÃ¤ren wir nachvollziehbar, welche Schritte nÃ¶tig sind und wie sich die Kosten zusammensetzen.</p>
+          <h2>Installateur Kosten Wien – transparente Preise</h2>
+          <p>Viele Kunden möchten vorab wissen, welche Installateur Kosten Wien entstehen können. Unser Installateur   Wien arbeitet mit klaren und transparenten Preisen. Der genaue Installateur Preis Wien hängt vom Problem, dem Arbeitsaufwand und den benötigten Materialien ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie eine klare Übersicht über die Kosten erhalten. Bei größeren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, damit Sie Planungssicherheit haben. Unser Ziel ist es, professionelle Leistungen zu fairen Preisen anzubieten, damit Sie sich jederzeit auf unseren Installateur 1030 Wien verlassen können.</p>
+          <p>Für planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Störungen erklären wir nachvollziehbar, welche Schritte nötig sind und wie sich die Kosten zusammensetzen.</p>
         </div></div>
       </div>
     </div>
@@ -320,10 +320,10 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Als Installateur in 1030 Wien (LandstraÃŸe) unterstÃ¼tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung Ã¼ber die schnelle StÃ¶rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte AblÃ¤ufe, verstÃ¤ndliche ErklÃ¤rungen und eine saubere AusfÃ¼hrung. Wir achten auf Sicherheit, Effizienz und langfristige ZuverlÃ¤ssigkeit â€“ besonders wichtig bei Anlagen, die tÃ¤glich laufen. Durch kurze Wege im Bezirk 1030 reagieren wir flexibel, koordinieren Termine zÃ¼gig und halten Sie Ã¼ber jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1030 Wien (Landstraße) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1030 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -333,81 +333,81 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
  <section class="service-section service-section--soft" id="thermen-services">
   <div class="container">
     <div class="service-section__head">
-      <h2>Thermenservice fÃ¼r alle Marken</h2>
-      <p>Ob Vaillant, Junkers, Buderus oder Wolf â€“ wir warten und reparieren alle gÃ¤ngigen GasgerÃ¤te. RegelmÃ¤ÃŸige Wartung sorgt fÃ¼r Sicherheit, Effizienz und eine lÃ¤ngere Lebensdauer Ihrer Therme.</p>
+      <h2>Thermenservice für alle Marken</h2>
+      <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
     </div>
 
     <div class="brand-grid">
 
       <!-- 1 -->
       <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
-    <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
+    <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
     <span>VAILLANT THERMENSERVICE</span>
   </a>
 
       <!-- 2 -->
       <a class="brand-card" href="{{ route('buderus.thermentausch') }}">
-    <img src="img/1buderus.jpeg" alt="Buderus Thermenservice">
+    <img src="img/1buderus.webp" alt="Buderus Thermenservice">
     <span>BUDERUS THERMENSERVICE</span>
   </a>
 
       <!-- 3 -->
         <a class="brand-card" href="{{ route('baxi.thermentausch') }}">
-    <img src="img/1baxi.jpeg" alt="Baxi Thermenservice">
+    <img src="img/1baxi.webp" alt="Baxi Thermenservice">
     <span>BAXI THERMENSERVICE</span>
   </a>
 
       <!-- 4 -->
         <a class="brand-card" href="{{ route('junkers.thermentausch') }}">
-    <img src="img/1junkers.jpeg" alt="Junkers Thermenservice">
+    <img src="img/1junkers.webp" alt="Junkers Thermenservice">
     <span>JUNKERS THERMENSERVICE</span>
   </a>
 
       <!-- 5 -->
         <a class="brand-card" href="{{ route('viessmann.thermentausch') }}">
-    <img src="img/1viesman.jpeg" alt="Viessmann Thermenservice">
+    <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
     <span>VIESSMANN THERMENSERVICE</span>
   </a>
 
       <!-- 6 -->
         <a class="brand-card" href="{{ route('wolf.thermentausch') }}">
-    <img src="img/1wolf.jpeg" alt="Wolf Thermenservice">
+    <img src="img/1wolf.webp" alt="Wolf Thermenservice">
     <span>WOLF THERMENSERVICE</span>
   </a>
 
       <!-- 7 -->
        <a class="brand-card" href="{{ route('saunier-duval.thermentausch') }}">
-    <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
+    <img src="img/1sauneri.webp" alt="Saunier Duval Thermenservice">
     <span>SAUNIER DUVAL SERVICE</span>
   </a>
 
       <!-- 8 -->
  <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.jpeg" alt="LÃ¶blich Thermenservice">
-    <span>LÃ–BLICH THERMENSERVICE</span>
+    <img src="img/1loblich.webp" alt="Löblich Thermenservice">
+    <span>LÖBLICH THERMENSERVICE</span>
   </a>
 
       <!-- 9 -->
       <a class="brand-card" href="{{ route('ocean.thermentausch') }}">
-    <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermenservice">
+    <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
     <span>OCEAN THERMENSERVICE</span>
   </a>
 
       <!-- 10 -->
       <a class="brand-card" href="{{ route('rapido.thermentausch') }}">
-    <img src="img/1rapido.jpeg" alt="Rapido Thermenservice">
+    <img src="img/1rapido.webp" alt="Rapido Thermenservice">
     <span>RAPIDO THERMENSERVICE</span>
   </a>
 
       <!-- 11 -->
      <a class="brand-card" href="{{ route('windhager.thermentausch') }}">
-    <img src="img/Windhager.png" alt="Windhager Thermenservice">
+    <img src="img/1Windhager.webp" alt="Windhager Thermenservice">
     <span>WINDHAGER SERVICE</span>
   </a>
 
       <!-- 12 -->
       <a class="brand-card" href="{{ route('nordgas.thermentausch') }}">
-    <img src="img/NordGas.png" alt="Nordgas Thermenservice">
+    <img src="img/1NordGas.webp" alt="Nordgas Thermenservice">
     <span>NORDGAS SERVICE</span>
   </a>
 
@@ -420,31 +420,31 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>HÃ¤ufig gestellte Fragen</h2><p>Antworten auf die hÃ¤ufigsten Fragen â€“ kurz, klar und praxisnah.</p></div>
+      <div class="service-section__head"><h2>Häufig gestellte Fragen</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
       <div class="service-faq">
         <details>
           <summary>Was kostet ein Installateur   in Wien?</summary>
-          <p>Die Kosten hÃ¤ngen vom Problem und vom Aufwand ab. Unser Installateur   Wien informiert Sie transparent Ã¼ber mÃ¶gliche Installateur Kosten Wien und den genauen Installateur Preis Wien.</p>
+          <p>Die Kosten hängen vom Problem und vom Aufwand ab. Unser Installateur   Wien informiert Sie transparent über mögliche Installateur Kosten Wien und den genauen Installateur Preis Wien.</p>
         </details>
         <details>
           <summary>Wie schnell kommt ein Installateur in 1030 Wien?</summary>
-          <p>Unser Installateur   1030 Wien ist im Bezirk LandstraÃŸe tÃ¤tig. In vielen FÃ¤llen erreicht unser Installateur Wien 1030 Kunden innerhalb kurzer Zeit.</p>
+          <p>Unser Installateur   1030 Wien ist im Bezirk Landstraße tätig. In vielen Fällen erreicht unser Installateur Wien 1030 Kunden innerhalb kurzer Zeit.</p>
         </details>
         <details>
           <summary>Bieten Sie auch Thermenwartung in Wien an?</summary>
-          <p>Ja. Unser Team Ã¼bernimmt Thermenwartung Wien, Thermen Service Wien und Gastherme Wartung Wien, damit Ihre Heizungsanlage sicher funktioniert.</p>
+          <p>Ja. Unser Team übernimmt Thermenwartung Wien, Thermen Service Wien und Gastherme Wartung Wien, damit Ihre Heizungsanlage sicher funktioniert.</p>
         </details>
         <details>
           <summary>Was tun bei Wasserrohrbruch in Wien?</summary>
-          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch   Wien kontaktieren. Unser Wasserinstallateur Wien kÃ¼mmert sich um die Reparatur.</p>
+          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch   Wien kontaktieren. Unser Wasserinstallateur Wien kümmert sich um die Reparatur.</p>
         </details>
         <details>
           <summary>Sind Sie auch nachts erreichbar?</summary>
-          <p>Ja. Unser   24h Wien ist rund um die Uhr erreichbar. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden EinsÃ¤tzen nachts oder am Wochenende.</p>
+          <p>Ja. Unser   24h Wien ist rund um die Uhr erreichbar. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Einsätzen nachts oder am Wochenende.</p>
         </details>
         <details>
-          <summary>Arbeiten Sie auch im Bezirk LandstraÃŸe?</summary>
-          <p>Ja. Unser Installateur LandstraÃŸe Wien betreut Kunden im gesamten dritten Bezirk. Wenn Sie einen Installateur NÃ¤he 1030 Wien benÃ¶tigen, sind wir schnell vor Ort.</p>
+          <summary>Arbeiten Sie auch im Bezirk Landstraße?</summary>
+          <p>Ja. Unser Installateur Landstraße Wien betreut Kunden im gesamten dritten Bezirk. Wenn Sie einen Installateur Nähe 1030 Wien benötigen, sind wir schnell vor Ort.</p>
         </details>
       </div>
     </div>
@@ -456,10 +456,10 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
       <div class="service-cta__inner">
         <div>
           <h2>Installateur Kontakt Wien</h2>
-          <p>Wenn Sie einen zuverlÃ¤ssigen Installateur 1030 Wien benÃ¶tigen, hilft unser Team sofort weiter. Unser Installateur   Wien unterstÃ¼tzt Sie bei allen Problemen rund um Gas Wasser Heizung Wien, SanitÃ¤ranlagen und Rohrleitungen. Egal ob Installateur   1030 Wien, Rohrreinigung Wien, SanitÃ¤r Reparatur Wien oder Heizung Reparatur Wien â€“ unser Installateur Service Wien sorgt fÃ¼r schnelle LÃ¶sungen.</p>
-          <p style="margin-top:10px"><strong>ğŸ“</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+          <p>Wenn Sie einen zuverlässigen Installateur 1030 Wien benötigen, hilft unser Team sofort weiter. Unser Installateur   Wien unterstützt Sie bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitäranlagen und Rohrleitungen. Egal ob Installateur   1030 Wien, Rohrreinigung Wien, Sanitär Reparatur Wien oder Heizung Reparatur Wien – unser Installateur Service Wien sorgt für schnelle Lösungen.</p>
+          <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mÃ¶glich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -474,7 +474,7 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) â€“ bleibt unverÃ¤ndert -->
+  <!-- Bezirke (bottom links) – bleibt unverändert -->
 
 </main>
 
@@ -482,6 +482,7 @@ $metaDescription = "Installateur   1030 Wien â€“ schneller 24h Installateur in L
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
 
 
 

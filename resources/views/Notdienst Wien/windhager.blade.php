@@ -270,7 +270,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("{{ asset('img/hero-scetion.jpeg') }}");
+    background-image:url("{{ asset('img/hero-scetion.webp') }}");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -396,7 +396,7 @@
     position:absolute;
     inset:0;
     background:
-      url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+      url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
@@ -624,7 +624,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/windhager.png') }}" alt="Windhager Logo">
+        <img src="{{ asset('img/Windhager.webp') }}" alt="Windhager Logo">
       </div>
 
        <div class="wolf-hero__sub">
@@ -766,7 +766,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1Windhager.jpeg') }}" alt="Windhager Kundendienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1Windhager.webp') }}" alt="Windhager Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -799,7 +799,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Meisterbetrieb & Techniker" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Meisterbetrieb & Techniker" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -893,7 +893,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Windhager Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Windhager Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -927,7 +927,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-11.jpg') }}" alt="Windhager Reparatur" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-11.webp') }}" alt="Windhager Reparatur" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -998,7 +998,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Preise & transparente Beratung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Preise & transparente Beratung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -1032,7 +1032,7 @@ $metaDescription = "Windhager Notdienst Wien ✔ Thermenservice, Reparatur & The
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Einsatzgebiet Wien, Niederösterreich und Burgenland" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Einsatzgebiet Wien, Niederösterreich und Burgenland" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

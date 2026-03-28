@@ -1,9 +1,9 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 
 @section('main')
 
 @php
-$metaTitle = "Thermenreparatur 1070 Wien â€“ Installateur Notdienst Neubau";
+$metaTitle = "Thermenreparatur 1070 Wien – Installateur Notdienst Neubau";
 $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle Hilfe bei kein Warmwasser, Heizung defekt & Notdienst in Wien Neubau. Jetzt kontaktieren!";
 @endphp
 
@@ -30,7 +30,7 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (fÃ¼r Thermen Marken) === */
+    /* === BRAND GRID (für Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -90,7 +90,7 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
         <span style="color:#FB9A1B;">Installateur Notdienst Neubau</span>
       </h1>
 
-      <p class="wolf-hero__sub">Schnelle Thermenreparatur 1070 Wien vom Installateur Wien â€“ rasche Hilfe bei Heizung, Warmwasser und Notdienst in Wien Neubau. Unser 24h Notdienst ist immer fÃ¼r Sie da.</p>
+      <p class="wolf-hero__sub">Schnelle Thermenreparatur 1070 Wien vom Installateur Wien – rasche Hilfe bei Heizung, Warmwasser und Notdienst in Wien Neubau. Unser 24h Notdienst ist immer für Sie da.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -176,25 +176,25 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Schnelle Hilfe bei Thermenproblemen in 1070 Wien</h2>
-          <p>Wenn Ihre Therme defekt ist oder plÃ¶tzlich kein Warmwasser vorhanden ist, brauchen Sie in 1070 Wien schnelle Hilfe. Unser Installateur Wien bietet   professionelle  Thermenreparatur 1070 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in Wien Neubau, rund um das Museumsquartier und im gesamten 7 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder akuter Notdienst â€“ unser Team sorgt fÃ¼r Soforthilfe und eine nachhaltige LÃ¶sung. Als Installateur 1070 Wien sind wir tÃ¤glich im Einsatz und schnell in der NÃ¤he. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht oder eine Reparatur notwendig ist. Weitere Details finden Sie in unseren <a href="{{ route('Thermenreparatur-1060-wien') }}">weiterfÃ¼hrenden Informationen</a>.</p>
+          <p>Wenn Ihre Therme defekt ist oder plötzlich kein Warmwasser vorhanden ist, brauchen Sie in 1070 Wien schnelle Hilfe. Unser Installateur Wien bietet   professionelle  Thermenreparatur 1070 Wien sowie umfassenden Thermenservice Wien direkt vor Ort in Wien Neubau, rund um das Museumsquartier und im gesamten 7 Bezirk Wien. Egal ob Gastherme Reparatur, Heizung Reparatur oder akuter Notdienst – unser Team sorgt für Soforthilfe und eine nachhaltige Lösung. Als Installateur 1070 Wien sind wir täglich im Einsatz und schnell in der Nähe. Vertrauen Sie auf unsere Erfahrung bei Thermen Reparatur Wien, wenn Ihre Heizung Probleme macht oder eine Reparatur notwendig ist. Weitere Details finden Sie in unseren <a href="{{ route('Thermenreparatur-1060-wien') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size6.jpeg" alt="Installateur Service 1070 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size6.webp" alt="Installateur Service 1070 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§°</div><div>
-          <h3>Rohrbruch & WasserschÃ¤den schnell beheben</h3><p>Ein Wasserrohrbruch in 1070 kann groÃŸe SchÃ¤den verursachen. Unser Installateur Notdienst Wien bietet schnelle Hilfe bei Wasserschaden und sorgt dafÃ¼r, dass Wasserleitungen sofort repariert werden.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Rohrbruch & Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch in 1070 kann große Schäden verursachen. Unser Installateur Notdienst Wien bietet schnelle Hilfe bei Wasserschaden und sorgt dafür, dass Wasserleitungen sofort repariert werden.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš¡</div><div>
-          <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss nicht mehr funktioniert oder das WC verstopft ist, hilft unsere Rohrreinigung schnell und zuverlÃ¤ssig im gesamten Bezirk 1070.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
+          <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss nicht mehr funktioniert oder das WC verstopft ist, hilft unsere Rohrreinigung schnell und zuverlässig im gesamten Bezirk 1070.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§‘â€ğŸ”§</div><div>
-          <h3>Professioneller Installateur fÃ¼r Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen im Bereich Gas Wasser Heizung. Als erfahrener Gas Installateur kÃ¼mmern wir uns um Gasleitungen, Thermen und Heizsysteme. Unser Fokus liegt auf schneller Thermenreparatur 1070 Wien und Heizungsservice. Ob Gastherme defekt, kein Warmwasser oder Heizungsausfall â€“ wir sind Ihr Experte. Gleichzeitig Ã¼bernimmt unser SanitÃ¤r Installateur alle Arbeiten rund um Badezimmer, Wasserleitungen und SanitÃ¤ranlagen. Moderne Heizungstechnik und zuverlÃ¤ssige SanitÃ¤rtechnik gehÃ¶ren zu unseren tÃ¤glichen Aufgaben.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?????</div><div>
+          <h3>Professioneller Installateur für Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen im Bereich Gas Wasser Heizung. Als erfahrener Gas Installateur kümmern wir uns um Gasleitungen, Thermen und Heizsysteme. Unser Fokus liegt auf schneller Thermenreparatur 1070 Wien und Heizungsservice. Ob Gastherme defekt, kein Warmwasser oder Heizungsausfall – wir sind Ihr Experte. Gleichzeitig übernimmt unser Sanitär Installateur alle Arbeiten rund um Badezimmer, Wasserleitungen und Sanitäranlagen. Moderne Heizungstechnik und zuverlässige Sanitärtechnik gehören zu unseren täglichen Aufgaben.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ“</div><div>
-          <h3>Ihr Installateur in Wien Neubau</h3><p>Wenn Sie einen zuverlÃ¤ssigen Installateur 1070 Wien suchen, ist schnelle VerfÃ¼gbarkeit entscheidend. Unser Installateur Notdienst ist tÃ¤glich im 7. Bezirk tÃ¤tig und erreicht Kunden in kurzer Zeit. Als erfahrener Installateur Wien 1070 betreuen wir Wohnungen, BÃ¼ros und Gewerbebetriebe direkt in Wien Neubau, nahe dem Museumsquartier und im gesamten 7. Bezirk. Unser Team kennt die Besonderheiten der GebÃ¤ude und bietet professionelle LÃ¶sungen.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Ihr Installateur in Wien Neubau</h3><p>Wenn Sie einen zuverlässigen Installateur 1070 Wien suchen, ist schnelle Verfügbarkeit entscheidend. Unser Installateur Notdienst ist täglich im 7. Bezirk tätig und erreicht Kunden in kurzer Zeit. Als erfahrener Installateur Wien 1070 betreuen wir Wohnungen, Büros und Gewerbebetriebe direkt in Wien Neubau, nahe dem Museumsquartier und im gesamten 7. Bezirk. Unser Team kennt die Besonderheiten der Gebäude und bietet professionelle Lösungen.</p>
         </div></article>
       </div>
     </div>
@@ -206,31 +206,31 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Warum unser Fachbetrieb in Wien</h2>
-          <p>Unser Fachbetrieb Ã¼berzeugt durch langjÃ¤hrige Erfahrung, hohe QualitÃ¤t und zahlreiche zufriedene Kunden in 1070 Wien. Als etablierte Installateur Firma Wien setzen wir auf professionelle Arbeit und zuverlÃ¤ssigen Service. Unser Team besteht aus erfahrenen FachmÃ¤nnern, die jede Thermenreparatur, SanitÃ¤rarbeit oder Heizung Reparatur effizient durchfÃ¼hren. Unsere Referenzen zeigen unsere Kompetenz im Bereich Thermenreparatur, Thermenservice Wien und Haustechnik. Vertrauen Sie auf unsere Erfahrung und profitieren Sie von einem starken Partner in Wien 1070.</p>
+          <p>Unser Fachbetrieb überzeugt durch langjährige Erfahrung, hohe Qualität und zahlreiche zufriedene Kunden in 1070 Wien. Als etablierte Installateur Firma Wien setzen wir auf professionelle Arbeit und zuverlässigen Service. Unser Team besteht aus erfahrenen Fachmännern, die jede Thermenreparatur, Sanitärarbeit oder Heizung Reparatur effizient durchführen. Unsere Referenzen zeigen unsere Kompetenz im Bereich Thermenreparatur, Thermenservice Wien und Haustechnik. Vertrauen Sie auf unsere Erfahrung und profitieren Sie von einem starken Partner in Wien 1070.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere Arbeit</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparenz</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Arbeit</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparenz</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size5.jpeg" alt="Installateur Team" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size5.webp" alt="Installateur Team" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
   </section>
 
-  <!-- Leistungen im Ãœberblick (5 Punkte + Notdienst) -->
+  <!-- Leistungen im Überblick (5 Punkte + Notdienst) -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unsere Leistungen im Ãœberblick</h2><p>Als erfahrene Installateur Firma Wien bieten wir Ihnen in 1070 Wien ein umfassendes Leistungsspektrum rund um Thermenreparatur, SanitÃ¤r und moderne Haustechnik. Unser Service richtet sich an Kunden in Wien Neubau, rund um das Museumsquartier und im gesamten 7 Bezirk Wien.</p></div>
+      <div class="service-section__head"><h2>Unsere Leistungen im Überblick</h2><p>Als erfahrene Installateur Firma Wien bieten wir Ihnen in 1070 Wien ein umfassendes Leistungsspektrum rund um Thermenreparatur, Sanitär und moderne Haustechnik. Unser Service richtet sich an Kunden in Wien Neubau, rund um das Museumsquartier und im gesamten 7 Bezirk Wien.</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div><div><h3>Thermenreparatur</h3><p>Unsere Thermenreparatur in Wien 1070 umfasst schnelle Diagnose, effiziente Reparatur und nachhaltige LÃ¶sungen fÃ¼r jede Gastherme, damit Heizung und Warmwasser zuverlÃ¤ssig funktionieren.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”§</div><div><h3>Thermenwartung</h3><p>RegelmÃ¤ÃŸige Thermenwartung und Thermenservice Wien sichern die Leistung Ihrer Anlage und verhindern unerwartete Probleme sowie hohe Kosten durch Defekte.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš™ï¸</div><div><h3>Heizungsreparatur</h3><p>Wenn Ihre Heizung nicht funktioniert, bieten wir schnelle Heizung Reparatur in 1070 Wien und sorgen fÃ¼r eine rasche und sichere LÃ¶sung.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸš¿</div><div><h3>SanitÃ¤r & Installateur</h3><p>Als Gas Wasser Installateur Ã¼bernehmen wir alle SanitÃ¤r Arbeiten und bieten moderne LÃ¶sungen in der Haustechnik fÃ¼r Ihre Wohnung oder Ihr Haus in Wien 1070.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ’§</div><div><h3>Rohrbruch & Wasserschaden Hilfe</h3><p>Bei Rohrbruch oder Wasserschaden steht unser Notdienst in 1070 Wien sofort bereit und sorgt fÃ¼r schnelle Hilfe und professionelle Reparatur direkt vor Ort.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ› ï¸</div><div><h3>Notdienst 24h</h3><p>Unser 24h Notdienst ist rund um die Uhr fÃ¼r Sie erreichbar â€“ auch an Wochenenden und Feiertagen.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Thermenreparatur</h3><p>Unsere Thermenreparatur in Wien 1070 umfasst schnelle Diagnose, effiziente Reparatur und nachhaltige Lösungen für jede Gastherme, damit Heizung und Warmwasser zuverlässig funktionieren.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Thermenwartung</h3><p>Regelmäßige Thermenwartung und Thermenservice Wien sichern die Leistung Ihrer Anlage und verhindern unerwartete Probleme sowie hohe Kosten durch Defekte.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Heizungsreparatur</h3><p>Wenn Ihre Heizung nicht funktioniert, bieten wir schnelle Heizung Reparatur in 1070 Wien und sorgen für eine rasche und sichere Lösung.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär & Installateur</h3><p>Als Gas Wasser Installateur übernehmen wir alle Sanitär Arbeiten und bieten moderne Lösungen in der Haustechnik für Ihre Wohnung oder Ihr Haus in Wien 1070.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Rohrbruch & Wasserschaden Hilfe</h3><p>Bei Rohrbruch oder Wasserschaden steht unser Notdienst in 1070 Wien sofort bereit und sorgt für schnelle Hilfe und professionelle Reparatur direkt vor Ort.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">???</div><div><h3>Notdienst 24h</h3><p>Unser 24h Notdienst ist rund um die Uhr für Sie erreichbar – auch an Wochenenden und Feiertagen.</p></div></article>
       </div>
     </div>
   </section>
@@ -241,30 +241,30 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Gastherme Reparatur und Wartung</h2>
-          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmÃ¤ÃŸige Gastherme Wartung Wien und Thermenwartung Wien. RegelmÃ¤ÃŸige Wartung verlÃ¤ngert die Lebensdauer Ihrer Anlage und verhindert teure AusfÃ¤lle. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
+          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien. Regelmäßige Wartung verlängert die Lebensdauer Ihrer Anlage und verhindert teure Ausfälle. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Effizienz</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Weniger StÃ¶rungen</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Störungen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size7.jpeg" alt="Wartung 1070 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size7.webp" alt="Wartung 1070 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
   </section>
 
-  <!-- Reparatur / HÃ¤ufige Probleme -->
+  <!-- Reparatur / Häufige Probleme -->
   <section class="service-section" id="reparatur-services">
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>HÃ¤ufige Probleme mit Ihrer Therme</h2>
-          <p>In Wien 1070 treten hÃ¤ufig Probleme wie kein Warmwasser, Heizung funktioniert nicht oder eine ausgefallene Gastherme auf. Eine Therme defekt kann den Alltag stark beeintrÃ¤chtigen â€“ egal ob in Ihrer Wohnung, Ihrem Haus oder im 7 Bezirk Wien. Unsere Experten erkennen jedes Problem rasch und bieten die passende LÃ¶sung direkt vor Ort in Wien Neubau oder nahe dem Museumsquartier. Ob Gastherme Reparatur, Heizung Reparatur oder Notdienst bei NotfÃ¤llen â€“ unser Installateur Wien ist bestens vorbereitet. Dank unserer Erfahrung in der Thermenreparatur und Thermen Reparatur Wien beheben wir SchÃ¤den effizient und sorgen dafÃ¼r, dass Ihre Heizung und Ihr Warmwasser wieder zuverlÃ¤ssig funktionieren.</p>
+          <h2>Häufige Probleme mit Ihrer Therme</h2>
+          <p>In Wien 1070 treten häufig Probleme wie kein Warmwasser, Heizung funktioniert nicht oder eine ausgefallene Gastherme auf. Eine Therme defekt kann den Alltag stark beeinträchtigen – egal ob in Ihrer Wohnung, Ihrem Haus oder im 7 Bezirk Wien. Unsere Experten erkennen jedes Problem rasch und bieten die passende Lösung direkt vor Ort in Wien Neubau oder nahe dem Museumsquartier. Ob Gastherme Reparatur, Heizung Reparatur oder Notdienst bei Notfällen – unser Installateur Wien ist bestens vorbereitet. Dank unserer Erfahrung in der Thermenreparatur und Thermen Reparatur Wien beheben wir Schäden effizient und sorgen dafür, dass Ihre Heizung und Ihr Warmwasser wieder zuverlässig funktionieren.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size4.jpeg" alt="Reparatur 1070 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size4.webp" alt="Reparatur 1070 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -275,20 +275,20 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>24h Notdienst Installateur Wien</h2>
-        <p>Unser Installateur Notdienst 1070 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Neubau, rund um das Museumsquartier und im gesamten Wien 1070 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfÃ¼gbar ist, reagieren wir schnell und zuverlÃ¤ssig. Als 24h Installateur Wien kÃ¼mmern wir uns um NotfÃ¤lle wie Rohrbruch oder Wasserschaden und sorgen fÃ¼r eine sichere Reparatur. Unser Team ist jederzeit in der NÃ¤he und bietet Soforthilfe bei jedem Einsatz in 1070 Wien und Umgebung. </p>
+        <p>Unser Installateur Notdienst 1070 Wien ist rund um die Uhr erreichbar und bietet schnelle Hilfe bei akuten Problemen. Der Thermen Notdienst Wien ist sofort vor Ort in Wien Neubau, rund um das Museumsquartier und im gesamten Wien 1070 im Einsatz. Wenn Ihre Heizung nicht funktioniert oder kein Warmwasser verfügbar ist, reagieren wir schnell und zuverlässig. Als 24h Installateur Wien kümmern wir uns um Notfälle wie Rohrbruch oder Wasserschaden und sorgen für eine sichere Reparatur. Unser Team ist jederzeit in der Nähe und bietet Soforthilfe bei jedem Einsatz in 1070 Wien und Umgebung. </p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische NotdiensteinsÃ¤tze</h3>
+        <h3>Typische Notdiensteinsätze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
-          <li>Fehlermeldungen, Druckprobleme oder StÃ¶rgerÃ¤usche</li>
-          <li>Sicherheitsrelevante AuffÃ¤lligkeiten am GerÃ¤t</li>
+          <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
+          <li>Sicherheitsrelevante Auffälligkeiten am Gerät</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in 1070 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1070 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -298,11 +298,11 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
     <div class="container">
       <div class="card-split">
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size2.jpegs.jpeg" alt="Kosten Installateur" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Installateur" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Preise & Kosten fÃ¼r Thermenreparatur</h2>
-          <p>Die Preise fÃ¼r eine Thermenreparatur 1070 Wien hÃ¤ngen vom jeweiligen Problem, dem Aufwand und den benÃ¶tigten Ersatzteilen ab. Unser Installateur Wien bietet transparente Kosten und erstellt Ihnen ein individuelles Angebot inklusive Kostenvoranschlag. Wir legen groÃŸen Wert auf faire Preise und bieten auch gÃ¼nstig kalkulierte LÃ¶sungen fÃ¼r jede Situation. Egal ob Reparatur, Wartung oder kompletter Service â€“ Sie erhalten eine klare Beratung und ein passendes Angebot. Kontaktieren Sie uns fÃ¼r eine unverbindliche Beratung und erfahren Sie mehr Ã¼ber unsere Preise in Wien 1070, Wien Neubau und im gesamten 7 Bezirk Wien.</p>
+          <h2>Preise & Kosten für Thermenreparatur</h2>
+          <p>Die Preise für eine Thermenreparatur 1070 Wien hängen vom jeweiligen Problem, dem Aufwand und den benötigten Ersatzteilen ab. Unser Installateur Wien bietet transparente Kosten und erstellt Ihnen ein individuelles Angebot inklusive Kostenvoranschlag. Wir legen großen Wert auf faire Preise und bieten auch günstig kalkulierte Lösungen für jede Situation. Egal ob Reparatur, Wartung oder kompletter Service – Sie erhalten eine klare Beratung und ein passendes Angebot. Kontaktieren Sie uns für eine unverbindliche Beratung und erfahren Sie mehr über unsere Preise in Wien 1070, Wien Neubau und im gesamten 7 Bezirk Wien.</p>
         </div></div>
       </div>
     </div>
@@ -314,10 +314,10 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ihr Installateur in 1070 Wien</h2>
-          <p>Als Installateur 1070 Wien sind wir tÃ¤glich im Wien 1070, in Wien Neubau und rund um das Museumsquartier im Einsatz. Wir betreuen Kunden direkt vor Ort â€“ egal ob in Ihrer Wohnung, Ihrem Haus oder gewerblichen Objekten. Unser Standort ermÃ¶glicht schnelle EinsÃ¤tze in Wien 1070 und der gesamten Umgebung. Wenn Sie einen Installateur Wien in der NÃ¤he suchen, sind wir Ihr kompetenter Ansprechpartner. Unsere Adresse sorgt fÃ¼r kurze Wege und schnelle Hilfe bei jedem Problem in Ihrem Zuhause.</p>
+          <p>Als Installateur 1070 Wien sind wir täglich im Wien 1070, in Wien Neubau und rund um das Museumsquartier im Einsatz. Wir betreuen Kunden direkt vor Ort – egal ob in Ihrer Wohnung, Ihrem Haus oder gewerblichen Objekten. Unser Standort ermöglicht schnelle Einsätze in Wien 1070 und der gesamten Umgebung. Wenn Sie einen Installateur Wien in der Nähe suchen, sind wir Ihr kompetenter Ansprechpartner. Unsere Adresse sorgt für kurze Wege und schnelle Hilfe bei jedem Problem in Ihrem Zuhause.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien 1070" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien 1070" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -327,69 +327,69 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
   <section class="service-section service-section--soft" id="thermen-services">
     <div class="container">
       <div class="service-section__head">
-        <h2>Thermenservice fÃ¼r alle Marken</h2>
-        <p>Ob Vaillant, Junkers, Buderus oder Wolf â€“ wir warten und reparieren alle gÃ¤ngigen GasgerÃ¤te. RegelmÃ¤ÃŸige Wartung sorgt fÃ¼r Sicherheit, Effizienz und eine lÃ¤ngere Lebensdauer Ihrer Therme.</p>
+        <h2>Thermenservice für alle Marken</h2>
+        <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
       </div>
 
       <div class="brand-grid">
         <!-- 1 -->
         <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
-          <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
+          <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
           <span>VAILLANT THERMENSERVICE</span>
         </a>
         <!-- 2 -->
         <a class="brand-card" href="{{ route('buderus.thermentausch') }}">
-          <img src="img/1buderus.jpeg" alt="Buderus Thermenservice">
+          <img src="img/1buderus.webp" alt="Buderus Thermenservice">
           <span>BUDERUS THERMENSERVICE</span>
         </a>
         <!-- 3 -->
         <a class="brand-card" href="{{ route('baxi.thermentausch') }}">
-          <img src="img/1baxi.jpeg" alt="Baxi Thermenservice">
+          <img src="img/1baxi.webp" alt="Baxi Thermenservice">
           <span>BAXI THERMENSERVICE</span>
         </a>
         <!-- 4 -->
         <a class="brand-card" href="{{ route('junkers.thermentausch') }}">
-          <img src="img/1junkers.jpeg" alt="Junkers Thermenservice">
+          <img src="img/1junkers.webp" alt="Junkers Thermenservice">
           <span>JUNKERS THERMENSERVICE</span>
         </a>
         <!-- 5 -->
         <a class="brand-card" href="{{ route('viessmann.thermentausch') }}">
-          <img src="img/1viesman.jpeg" alt="Viessmann Thermenservice">
+          <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
           <span>VIESSMANN THERMENSERVICE</span>
         </a>
         <!-- 6 -->
         <a class="brand-card" href="{{ route('wolf.thermentausch') }}">
-          <img src="img/1wolf.jpeg" alt="Wolf Thermenservice">
+          <img src="img/1wolf.webp" alt="Wolf Thermenservice">
           <span>WOLF THERMENSERVICE</span>
         </a>
         <!-- 7 -->
         <a class="brand-card" href="{{ route('saunier-duval.thermentausch') }}">
-          <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
+          <img src="img/1sauneri.webp" alt="Saunier Duval Thermenservice">
           <span>SAUNIER DUVAL SERVICE</span>
         </a>
         <!-- 8 -->
         <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-          <img src="img/1loblich.jpeg" alt="LÃ¶blich Thermenservice">
-          <span>LÃ–BLICH THERMENSERVICE</span>
+          <img src="img/1loblich.webp" alt="Löblich Thermenservice">
+          <span>LÖBLICH THERMENSERVICE</span>
         </a>
         <!-- 9 -->
         <a class="brand-card" href="{{ route('ocean.thermentausch') }}">
-          <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermenservice">
+          <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
           <span>OCEAN THERMENSERVICE</span>
         </a>
         <!-- 10 -->
         <a class="brand-card" href="{{ route('rapido.thermentausch') }}">
-          <img src="img/1rapido.jpeg" alt="Rapido Thermenservice">
+          <img src="img/1rapido.webp" alt="Rapido Thermenservice">
           <span>RAPIDO THERMENSERVICE</span>
         </a>
         <!-- 11 -->
         <a class="brand-card" href="{{ route('windhager.thermentausch') }}">
-          <img src="img/Windhager.png" alt="Windhager Thermenservice">
+          <img src="img/1Windhager.webp" alt="Windhager Thermenservice">
           <span>WINDHAGER SERVICE</span>
         </a>
         <!-- 12 -->
         <a class="brand-card" href="{{ route('nordgas.thermentausch') }}">
-          <img src="img/NordGas.png" alt="Nordgas Thermenservice">
+          <img src="img/1NordGas.webp" alt="Nordgas Thermenservice">
           <span>NORDGAS SERVICE</span>
         </a>
       </div>
@@ -399,11 +399,11 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>HÃ¤ufige Fragen zur Thermenreparatur</h2><p>Antworten auf die hÃ¤ufigsten Fragen â€“ kurz, klar und praxisnah.</p></div>
+      <div class="service-section__head"><h2>Häufige Fragen zur Thermenreparatur</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
       <div class="service-faq">
         <details>
           <summary>Was kostet eine Thermenreparatur in Wien 1070?</summary>
-          <p>Die Kosten hÃ¤ngen vom jeweiligen Problem und Aufwand ab. Sie erhalten einen transparenten Kostenvoranschlag mit klaren Preisen.</p>
+          <p>Die Kosten hängen vom jeweiligen Problem und Aufwand ab. Sie erhalten einen transparenten Kostenvoranschlag mit klaren Preisen.</p>
         </details>
         <details>
           <summary>Wie schnell ist der Notdienst vor Ort?</summary>
@@ -415,11 +415,11 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
         </details>
         <details>
           <summary>Wann ist eine Wartung sinnvoll?</summary>
-          <p>Eine regelmÃ¤ÃŸige Thermenwartung sorgt fÃ¼r eine zuverlÃ¤ssige Heizung und reduziert langfristig Kosten.</p>
+          <p>Eine regelmäßige Thermenwartung sorgt für eine zuverlässige Heizung und reduziert langfristig Kosten.</p>
         </details>
         <details>
           <summary>Gibt es einen 24h Installateur Wien?</summary>
-          <p>Ja, unser 24h Installateur Wien steht Ihnen jederzeit fÃ¼r NotfÃ¤lle und dringende EinsÃ¤tze zur VerfÃ¼gung.</p>
+          <p>Ja, unser 24h Installateur Wien steht Ihnen jederzeit für Notfälle und dringende Einsätze zur Verfügung.</p>
         </details>
         <details>
           <summary>Arbeiten Sie auch in der Umgebung?</summary>
@@ -435,10 +435,10 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
       <div class="service-cta__inner">
         <div>
           <h2>Jetzt Kontakt aufnehmen</h2>
-          <p>BenÃ¶tigen Sie eine schnelle Thermenreparatur 1070 Wien oder einen erfahrenen Installateur Wien? Unser Team bietet Ihnen schnelle Hilfe, professionelle Beratung und ein individuelles Angebot zu fairen Preisen. Egal ob Notdienst, Wartung oder Reparatur â€“ wir sind Ihr Ansprechpartner in Wien 1070, Wien Neubau und im gesamten 7 Bezirk Wien.</p>
-          <p style="margin-top:10px"><strong>ğŸ“</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+          <p>Benötigen Sie eine schnelle Thermenreparatur 1070 Wien oder einen erfahrenen Installateur Wien? Unser Team bietet Ihnen schnelle Hilfe, professionelle Beratung und ein individuelles Angebot zu fairen Preisen. Egal ob Notdienst, Wartung oder Reparatur – wir sind Ihr Ansprechpartner in Wien 1070, Wien Neubau und im gesamten 7 Bezirk Wien.</p>
+          <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mÃ¶glich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -453,7 +453,7 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) â€“ bleibt unverÃ¤ndert -->
+  <!-- Bezirke (bottom links) – bleibt unverändert -->
 
 </main>
 
@@ -467,6 +467,7 @@ $metaDescription = "Thermenreparatur 1070 Wien vom Installateur Wien. Schnelle H
     $current = isset($matches[1]) ? (int)$matches[1] : null;
     $next = $current ? $current - 10 : null;
 @endphp
+
 
 
 

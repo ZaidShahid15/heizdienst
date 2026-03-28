@@ -739,7 +739,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size2.jpeg') }}" alt="Wärmepumpen Reparatur" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size2.webp') }}" alt="Wärmepumpen Reparatur" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -813,7 +813,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size7.jpeg') }}" alt="Förderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size7.webp') }}" alt="Förderung Burgenland" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>
@@ -903,7 +903,7 @@
 
       <div class="service-split__media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/1size2.jpegs.jpeg') }}" alt="Unser Team" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
+          <img class="service-media__img" src="{{ asset('img/1size2.jpegs.webp') }}" alt="Unser Team" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400'"/>
         </div>
       </div>
     </div>

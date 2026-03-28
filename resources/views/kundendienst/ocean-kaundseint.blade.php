@@ -275,7 +275,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -373,7 +373,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
@@ -496,7 +496,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1oceanbaxi.jpeg') }}" alt="Ocean-kaundseint Logo">
+        <img src="{{ asset('img/1oceanbaxi.webp') }}" alt="Ocean-kaundseint Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -609,7 +609,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
 
             <div class="card-split__media service-media">
               <div class="service-media__box">
-                <img class="service-media__img" src="{{ asset('img/oceanbaxi.jpeg') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
+                <img class="service-media__img" src="{{ asset('img/oceanbaxi.webp') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
               </div>
             </div>
           </div>
@@ -658,7 +658,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
       <div class="card-split">
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-3.jpg') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-3.webp') }}" alt="Ocean Kundendienst Wien" loading="lazy" decoding="async">
           </div>
         </div>
 
@@ -803,7 +803,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Ocean Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.webp') }}" alt="Ocean Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -829,7 +829,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Ocean Thermentausch" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Ocean Thermentausch" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -856,7 +856,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Einsatzgebiet Ocean" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Einsatzgebiet Ocean" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -888,7 +888,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Ocean Team" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.webp') }}" alt="Ocean Team" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -914,7 +914,7 @@ $metaDescription = "Ocean Kundendienst Wien für Therme, Heizung & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size9.jpeg') }}" alt="Ocean Service Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size9.webp') }}" alt="Ocean Service Vorteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

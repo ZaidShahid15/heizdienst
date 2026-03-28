@@ -62,7 +62,7 @@
   .service-hero::before{
     content:"";
     position:absolute; inset:0;
-    background-image:url('img/hero-scetion.jpeg');
+    background-image:url('img/hero-scetion.webp');
     background-size:cover;
     background-position:center;
     transform:scale(1.02);
@@ -410,7 +410,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background: url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index: 0;
   }
 
@@ -429,7 +429,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("img/hero-scetion.jpeg");
+    background-image: url("img/hero-scetion.webp");
     background-size: cover;
     background-position: left center;
     transform: scale(1.02);
@@ -573,7 +573,7 @@
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/höblich.jpeg') }}" alt="Höblich Logo">
+        <img src="{{ asset('img/höblich.webp') }}" alt="Höblich Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -766,7 +766,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/final.png') }}" alt="Höblich Thermenservice Wien">
+          <img class="service-media__img" src="{{ asset('img/final.webp') }}" alt="Höblich Thermenservice Wien">
         </div>
       </div>
     </div>
@@ -848,7 +848,7 @@
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/final.png') }}" alt="Ablauf Höblich Thermenwartung">
+          <img class="service-media__img" src="{{ asset('img/final.webp') }}" alt="Ablauf Höblich Thermenwartung">
         </div>
       </div>
     </div>

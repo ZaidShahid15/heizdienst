@@ -269,7 +269,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -379,7 +379,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
     opacity:.5;
   }
@@ -538,7 +538,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/vaillant1-1.jpg') }}" alt="Vaillant Logo">
+        <img src="{{ asset('img/vaillant1-1.webp') }}" alt="Vaillant Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -646,7 +646,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/viliant.jpeg') }}" alt="Vaillant Installateur Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/viliant.webp') }}" alt="Vaillant Installateur Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -674,7 +674,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Vaillant Fachpartner Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size3.webp') }}" alt="Vaillant Fachpartner Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -755,7 +755,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Heizung Gasgeräte Warmwasser" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size5.webp') }}" alt="Heizung Gasgeräte Warmwasser" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -783,7 +783,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Preis MwSt Angebote" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size.webp') }}" alt="Preis MwSt Angebote" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -811,7 +811,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/2size3.jpeg') }}" alt="Ablauf Anfrage bis Termin" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/2size3.webp') }}" alt="Ablauf Anfrage bis Termin" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -839,7 +839,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size.jpeg') }}" alt="Wien Umgebung Niederösterreich" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size.webp') }}" alt="Wien Umgebung Niederösterreich" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -867,7 +867,7 @@ $metaDescription = "Zertifizierter Vaillant Installateur Wien für Installation,
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/1size5.jpeg') }}" alt="Thermentausch Entsorgung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/1size5.webp') }}" alt="Thermentausch Entsorgung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

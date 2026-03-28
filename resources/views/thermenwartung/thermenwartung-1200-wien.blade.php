@@ -1,10 +1,10 @@
-ï»¿@extends('layout.app')
+@extends('layout.app')
 
 @section('main')
 
 @php
 $metaTitle = "Thermenwartung  1200 Wien | Wartung, Reparatur & Notdienst";
-$metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere AusfÃ¼hrung.";
+$metaDescription = "Thermenwartung  1200 Wien (Brigittenau) für Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere Ausführung.";
 @endphp
 
 @push('meta')
@@ -30,7 +30,7 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu fÃ¼r Thermen Marken) === */
+    /* === BRAND GRID (neu für Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -90,7 +90,7 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
         <span style="color:#FB9A1B;">Rund um die Uhr Service</span>
       </h1>
 
-      <p class="wolf-hero__sub">Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+      <p class="wolf-hero__sub">Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -176,26 +176,26 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Thermenwartung â€‘Service in 1200 Wien â€“ zuverlÃ¤ssig & strukturiert</h2>
-          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. Weitere Details finden Sie in unseren <a href="{{ route('thermenwartung.1190') }}">weiterfÃ¼hrenden Informationen</a>.</p>
+          <h2>Thermenwartung -Service in 1200 Wien – zuverlässig & strukturiert</h2>
+          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. Weitere Details finden Sie in unseren <a href="{{ route('thermenwartung.1190') }}">weiterführenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size6.jpeg" alt="Thermenwartung  Service 1200 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size6.webp" alt="Thermenwartung  Service 1200 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§°</div><div>
-          <h3>Wartung & PrÃ¼fung</h3><p>RegelmÃ¤ÃŸige Thermenwartung erhÃ¶ht die Sicherheit, senkt den Energieverbrauch und verhindert AusfÃ¤lle im Alltag.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Wartung & Prüfung</h3><p>Regelmäßige Thermenwartung erhöht die Sicherheit, senkt den Energieverbrauch und verhindert Ausfälle im Alltag.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš¡</div><div>
-          <h3>Reparatur & Fehlerbehebung</h3><p>Schnelle Diagnose bei ThermenstÃ¶rungen â€“ zielgerichtete LÃ¶sung, verstÃ¤ndlich erklÃ¤rt und sauber umgesetzt.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
+          <h3>Reparatur & Fehlerbehebung</h3><p>Schnelle Diagnose bei Thermenstörungen – zielgerichtete Lösung, verständlich erklärt und sauber umgesetzt.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§‘â€ğŸ”§</div><div>
-          <h3>Erfahrene FachkrÃ¤fte</h3><p>Praxiswissen und strukturierte AblÃ¤ufe sorgen fÃ¼r stabile Ergebnisse â€“ vom ersten Kontakt bis zur LÃ¶sung.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?????</div><div>
+          <h3>Erfahrene Fachkräfte</h3><p>Praxiswissen und strukturierte Abläufe sorgen für stabile Ergebnisse – vom ersten Kontakt bis zur Lösung.</p>
         </div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ“</div><div>
-          <h3>Schnell im Bezirk</h3><p>Kurze Wege in 1200 Wien helfen, Wartungstermine rasch zu koordinieren und bei StÃ¶rungen schnell vor Ort zu sein.</p>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
+          <h3>Schnell im Bezirk</h3><p>Kurze Wege in 1200 Wien helfen, Wartungstermine rasch zu koordinieren und bei Störungen schnell vor Ort zu sein.</p>
         </div></article>
       </div>
     </div>
@@ -206,16 +206,16 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Unser erfahrenes Team fÃ¼r 1200 Wien</h2>
-          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+          <h2>Unser erfahrenes Team für 1200 Wien</h2>
+          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Fachwissen</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Saubere Arbeit</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Transparenz</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Arbeit</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparenz</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size5.jpeg" alt="Thermenwartung  Team" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size5.webp" alt="Thermenwartung  Team" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -224,14 +224,14 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Leistungen im Ãœberblick</h2><p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p></div>
+      <div class="service-section__head"><h2>Leistungen im Überblick</h2><p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§½</div><div><h3>Thermenwartung</h3><p>Reinigung, PrÃ¼fung, Einstellung und Funktionskontrolle â€“ fÃ¼r einen sicheren, effizienten Betrieb Ihrer Gastherme.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ§ª</div><div><h3>Service & Optimierung</h3><p>Feinabstimmung, Druck-Checks und Effizienzâ€‘Optimierung â€“ damit Ihre Therme stabil und sparsam lÃ¤uft.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âš¡</div><div><h3>Thermenreparaturen</h3><p>ZÃ¼gige Fehlerdiagnose und fachgerechte Reparatur â€“ mit Blick auf nachhaltige LÃ¶sungen und Folgekosten.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”¥</div><div><h3>Heizung & Warmwasser</h3><p>Hilfe bei Ausfall, schwankender Temperatur oder Druckproblemen â€“ praxisnah fÃ¼r Thermen in Wien gelÃ¶st.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">ğŸ”</div><div><h3>Austausch & Modernisierung</h3><p>Beratung zu Austausch und Modernisierung â€“ passend zu Bedarf, Budget und Zustand Ihrer Therme.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">âœ…</div><div><h3>Sicherheit</h3><p>Kontrolle sicherheitsrelevanter Komponenten â€“ fÃ¼r zuverlÃ¤ssigen Betrieb, sicheren Gasbetrieb und mehr Wohlbefinden.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Thermenwartung</h3><p>Reinigung, Prüfung, Einstellung und Funktionskontrolle – für einen sicheren, effizienten Betrieb Ihrer Gastherme.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Service & Optimierung</h3><p>Feinabstimmung, Druck-Checks und Effizienz-Optimierung – damit Ihre Therme stabil und sparsam läuft.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Thermenreparaturen</h3><p>Zügige Fehlerdiagnose und fachgerechte Reparatur – mit Blick auf nachhaltige Lösungen und Folgekosten.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Heizung & Warmwasser</h3><p>Hilfe bei Ausfall, schwankender Temperatur oder Druckproblemen – praxisnah für Thermen in Wien gelöst.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Austausch & Modernisierung</h3><p>Beratung zu Austausch und Modernisierung – passend zu Bedarf, Budget und Zustand Ihrer Therme.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Sicherheit</h3><p>Kontrolle sicherheitsrelevanter Komponenten – für zuverlässigen Betrieb, sicheren Gasbetrieb und mehr Wohlbefinden.</p></div></article>
       </div>
     </div>
   </section>
@@ -241,16 +241,16 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Wartung in 1200 Wien â€“ planbar & sicher</h2>
-          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. FÃ¼r mehr Infos besuchen Sie Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich. FÃ¼r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & NiederÃ¶sterreich</a>.</p>
+          <h2>Wartung in 1200 Wien – planbar & sicher</h2>
+          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. Für mehr Infos besuchen Sie Thermenwartung & Thermenservice Wien & Niederösterreich. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
           <div class="service-stats">
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Effizienz</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Weniger StÃ¶rungen</div></div>
-            <div class="service-stat"><div class="service-stat__num">âœ“</div><div class="service-stat__label">Mehr Sicherheit</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Störungen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
           </div>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size7.jpeg" alt="Wartung 1200 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size7.webp" alt="Wartung 1200 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -261,11 +261,11 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Reparaturen & Austausch â€“ wenn es darauf ankommt</h2>
-          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+          <h2>Reparaturen & Austausch – wenn es darauf ankommt</h2>
+          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size4.jpeg" alt="Reparatur 1200 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size4.webp" alt="Reparatur 1200 Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -275,21 +275,21 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="container service-emergency">
       <div class="service-emergency__text">
-        <h2>Notdienst in 1200 Wien â€“ 24/7 erreichbar</h2>
-        <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. </p>
+        <h2>Notdienst in 1200 Wien – 24/7 erreichbar</h2>
+        <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab. </p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdienstâ€‘EinsÃ¤tze</h3>
+        <h3>Typische Notdienst-Einsätze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
-          <li>Fehlermeldungen, Druckprobleme oder StÃ¶rgerÃ¤usche</li>
-          <li>Sicherheitsrelevante AuffÃ¤lligkeiten am GerÃ¤t</li>
+          <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
+          <li>Sicherheitsrelevante Auffälligkeiten am Gerät</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar â€“ schnelle Hilfe in 1200 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1200 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -299,12 +299,12 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
     <div class="container">
       <div class="card-split">
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size2.jpegs.jpeg" alt="Kosten Thermenwartung 1200 Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Thermenwartung 1200 Wien" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
           <h2>Kosten & transparente Beratung</h2>
-          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
-          <p>FÃ¼r planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei StÃ¶rungen erklÃ¤ren wir nachvollziehbar, welche Schritte nÃ¶tig sind und wie sich die Kosten zusammensetzen.</p>
+          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+          <p>Für planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Störungen erklären wir nachvollziehbar, welche Schritte nötig sind und wie sich die Kosten zusammensetzen.</p>
         </div></div>
       </div>
     </div>
@@ -316,10 +316,10 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
-          <img class="service-media__img" src="img/1size3.jpegs.jpeg" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
         </div></div>
       </div>
     </div>
@@ -329,81 +329,81 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
  <section class="service-section service-section--soft" id="thermen-services">
   <div class="container">
     <div class="service-section__head">
-      <h2>Thermenservice fÃ¼r alle Marken</h2>
-      <p>Ob Vaillant, Junkers, Buderus oder Wolf â€“ wir warten und reparieren alle gÃ¤ngigen GasgerÃ¤te. RegelmÃ¤ÃŸige Wartung sorgt fÃ¼r Sicherheit, Effizienz und eine lÃ¤ngere Lebensdauer Ihrer Therme.</p>
+      <h2>Thermenservice für alle Marken</h2>
+      <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
     </div>
 
     <div class="brand-grid">
 
       <!-- 1 -->
       <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
-    <img src="img/vaillant1-1.jpg" alt="Vaillant Thermenservice">
+    <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
     <span>VAILLANT THERMENSERVICE</span>
   </a>
 
       <!-- 2 -->
       <a class="brand-card" href="{{ route('buderus.thermentausch') }}">
-    <img src="img/1buderus.jpeg" alt="Buderus Thermenservice">
+    <img src="img/1buderus.webp" alt="Buderus Thermenservice">
     <span>BUDERUS THERMENSERVICE</span>
   </a>
 
       <!-- 3 -->
         <a class="brand-card" href="{{ route('baxi.thermentausch') }}">
-    <img src="img/1baxi.jpeg" alt="Baxi Thermenservice">
+    <img src="img/1baxi.webp" alt="Baxi Thermenservice">
     <span>BAXI THERMENSERVICE</span>
   </a>
 
       <!-- 4 -->
         <a class="brand-card" href="{{ route('junkers.thermentausch') }}">
-    <img src="img/1junkers.jpeg" alt="Junkers Thermenservice">
+    <img src="img/1junkers.webp" alt="Junkers Thermenservice">
     <span>JUNKERS THERMENSERVICE</span>
   </a>
 
       <!-- 5 -->
         <a class="brand-card" href="{{ route('viessmann.thermentausch') }}">
-    <img src="img/1viesman.jpeg" alt="Viessmann Thermenservice">
+    <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
     <span>VIESSMANN THERMENSERVICE</span>
   </a>
 
       <!-- 6 -->
         <a class="brand-card" href="{{ route('wolf.thermentausch') }}">
-    <img src="img/1wolf.jpeg" alt="Wolf Thermenservice">
+    <img src="img/1wolf.webp" alt="Wolf Thermenservice">
     <span>WOLF THERMENSERVICE</span>
   </a>
 
       <!-- 7 -->
        <a class="brand-card" href="{{ route('saunier-duval.thermentausch') }}">
-    <img src="img/1sauneri.jpeg" alt="Saunier Duval Thermenservice">
+    <img src="img/1sauneri.webp" alt="Saunier Duval Thermenservice">
     <span>SAUNIER DUVAL SERVICE</span>
   </a>
 
       <!-- 8 -->
  <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.jpeg" alt="LÃ¶blich Thermenservice">
-    <span>LÃ–BLICH THERMENSERVICE</span>
+    <img src="img/1loblich.webp" alt="Löblich Thermenservice">
+    <span>LÖBLICH THERMENSERVICE</span>
   </a>
 
       <!-- 9 -->
       <a class="brand-card" href="{{ route('ocean.thermentausch') }}">
-    <img src="img/1oceanbaxi.jpeg" alt="Ocean Thermenservice">
+    <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
     <span>OCEAN THERMENSERVICE</span>
   </a>
 
       <!-- 10 -->
       <a class="brand-card" href="{{ route('rapido.thermentausch') }}">
-    <img src="img/1rapido.jpeg" alt="Rapido Thermenservice">
+    <img src="img/1rapido.webp" alt="Rapido Thermenservice">
     <span>RAPIDO THERMENSERVICE</span>
   </a>
 
       <!-- 11 -->
      <a class="brand-card" href="{{ route('windhager.thermentausch') }}">
-    <img src="img/Windhager.png" alt="Windhager Thermenservice">
+    <img src="img/1Windhager.webp" alt="Windhager Thermenservice">
     <span>WINDHAGER SERVICE</span>
   </a>
 
       <!-- 12 -->
       <a class="brand-card" href="{{ route('nordgas.thermentausch') }}">
-    <img src="img/NordGas.png" alt="Nordgas Thermenservice">
+    <img src="img/1NordGas.webp" alt="Nordgas Thermenservice">
     <span>NORDGAS SERVICE</span>
   </a>
 
@@ -416,46 +416,46 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>FAQ â€“ Thermenwartung  1200 Wien</h2><p>Antworten auf die hÃ¤ufigsten Fragen â€“ kurz, klar und praxisnah.</p></div>
+      <div class="service-section__head"><h2>FAQ – Thermenwartung  1200 Wien</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
       <div class="service-faq"><details>
           <summary>1. Wie schnell sind Sie in meinem Bezirk vor Ort?</summary>
-          <p>In der Regel erreichen wir Sie je nach Verkehrslage innerhalb kurzer Zeit. FÃ¼r 1200 Wien planen wir EinsÃ¤tze so, dass Anfahrt, Diagnose und erste MaÃŸnahmen effizient ablaufen.</p>
+          <p>In der Regel erreichen wir Sie je nach Verkehrslage innerhalb kurzer Zeit. Für 1200 Wien planen wir Einsätze so, dass Anfahrt, Diagnose und erste Maßnahmen effizient ablaufen.</p>
         </details>
         <details>
           <summary>2. Bieten Sie Thermennotdienst in 1200 Wien an?</summary>
-          <p>Ja. Bei AusfÃ¤llen von Heizung, Warmwasser oder sicherheitsrelevanten AuffÃ¤lligkeiten helfen wir auch auÃŸerhalb der Ã¼blichen Zeiten.</p>
+          <p>Ja. Bei Ausfällen von Heizung, Warmwasser oder sicherheitsrelevanten Auffälligkeiten helfen wir auch außerhalb der üblichen Zeiten.</p>
         </details>
         <details>
           <summary>3. Welche Leistungen umfasst eine Thermenwartung?</summary>
-          <p>Wir prÃ¼fen den Zustand der Therme, reinigen relevante Komponenten, kontrollieren Sicherheitseinrichtungen und optimieren Einstellungen â€“ fÃ¼r stabilen Betrieb und geringeren Verbrauch.</p>
+          <p>Wir prüfen den Zustand der Therme, reinigen relevante Komponenten, kontrollieren Sicherheitseinrichtungen und optimieren Einstellungen – für stabilen Betrieb und geringeren Verbrauch.</p>
         </details>
         <details>
-          <summary>4. Reparieren Sie auch Ã¤ltere Anlagen?</summary>
-          <p>Ja, sofern Ersatzteile verfÃ¼gbar sind. Wir beurteilen Wirtschaftlichkeit und beraten transparent, ob Reparatur oder Austausch sinnvoller ist.</p>
+          <summary>4. Reparieren Sie auch ältere Anlagen?</summary>
+          <p>Ja, sofern Ersatzteile verfügbar sind. Wir beurteilen Wirtschaftlichkeit und beraten transparent, ob Reparatur oder Austausch sinnvoller ist.</p>
         </details>
         <details>
           <summary>5. Gibt es transparente Preise?</summary>
-          <p>Vor Ort erhalten Sie eine klare EinschÃ¤tzung der Arbeiten. Bei planbaren Leistungen nennen wir Richtwerte und erklÃ¤ren die Kostentreiber verstÃ¤ndlich.</p>
+          <p>Vor Ort erhalten Sie eine klare Einschätzung der Arbeiten. Bei planbaren Leistungen nennen wir Richtwerte und erklären die Kostentreiber verständlich.</p>
         </details>
         <details>
           <summary>6. Kann ich einen Termin online anfragen?</summary>
-          <p>Ja. Nutzen Sie das Formular im Kontaktbereich. Wir melden uns zeitnah zur TerminbestÃ¤tigung.</p>
+          <p>Ja. Nutzen Sie das Formular im Kontaktbereich. Wir melden uns zeitnah zur Terminbestätigung.</p>
         </details>
         <details>
           <summary>7. Arbeiten Sie sauber und dokumentiert?</summary>
-          <p>Ja. Wir schÃ¼tzen den Arbeitsbereich, arbeiten nachvollziehbar und dokumentieren die wichtigsten Schritte â€“ hilfreich fÃ¼r spÃ¤tere Wartungen.</p>
+          <p>Ja. Wir schützen den Arbeitsbereich, arbeiten nachvollziehbar und dokumentieren die wichtigsten Schritte – hilfreich für spätere Wartungen.</p>
         </details>
         <details>
           <summary>8. Welche Thermenmarken betreuen Sie?</summary>
-          <p>Wir betreuen gÃ¤ngige Thermenmarken wie Vaillant, Junkers, Buderus, Viessmann, Baxi, Wolf und weitere GerÃ¤te. Fragen Sie gern nach Ihrer konkreten Anlage.</p>
+          <p>Wir betreuen gängige Thermenmarken wie Vaillant, Junkers, Buderus, Viessmann, Baxi, Wolf und weitere Geräte. Fragen Sie gern nach Ihrer konkreten Anlage.</p>
         </details>
         <details>
-          <summary>9. Wie kann ich ThermenstÃ¶rungen vorbeugen?</summary>
-          <p>RegelmÃ¤ÃŸige Wartung, korrekte Druckeinstellungen und das rechtzeitige Reagieren auf Fehlermeldungen reduzieren AusfÃ¤lle deutlich.</p>
+          <summary>9. Wie kann ich Thermenstörungen vorbeugen?</summary>
+          <p>Regelmäßige Wartung, korrekte Druckeinstellungen und das rechtzeitige Reagieren auf Fehlermeldungen reduzieren Ausfälle deutlich.</p>
         </details>
         <details>
-          <summary>10. Was brauche ich fÃ¼r den Einsatz?</summary>
-          <p>Hilfreich sind GerÃ¤tedaten vom Typenschild, letzte Wartungsunterlagen und eine kurze Beschreibung der Symptome. Das beschleunigt Diagnose und LÃ¶sung.</p>
+          <summary>10. Was brauche ich für den Einsatz?</summary>
+          <p>Hilfreich sind Gerätedaten vom Typenschild, letzte Wartungsunterlagen und eine kurze Beschreibung der Symptome. Das beschleunigt Diagnose und Lösung.</p>
         </details>
       </div>
     </div>
@@ -466,11 +466,11 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
     <div class="container">
       <div class="service-cta__inner">
         <div>
-          <h2>Jetzt Termin fÃ¼r Thermenwartung 1200 Wien vereinbaren</h2>
-          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafÃ¼r, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prÃ¼fen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische VerschleiÃŸzeichen. So lassen sich StÃ¶rungen frÃ¼h erkennen, AusfÃ¤lle vermeiden und unnÃ¶tige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmÃ¤ÃŸige Thermenwartung sinnvoll, weil viele GerÃ¤te tÃ¤glich stark genutzt werden und nur mit laufender Pflege zuverlÃ¤ssig funktionieren. Wir arbeiten sauber, erklÃ¤ren jeden Schritt verstÃ¤ndlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
-          <p style="margin-top:10px"><strong>ğŸ“</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
+          <h2>Jetzt Termin für Thermenwartung 1200 Wien vereinbaren</h2>
+          <p>Mit unserer Thermenwartung in 1200 Wien (Brigittenau) sorgen wir dafür, dass Ihre Gastherme sicher, effizient und langlebig arbeitet. Bei jedem Termin prüfen wir zentrale Bauteile, reinigen wichtige Komponenten, kontrollieren Druck und Einstellungen und achten auf typische Verschleißzeichen. So lassen sich Störungen früh erkennen, Ausfälle vermeiden und unnötige Energiekosten reduzieren. Gerade in 1200 Wien ist eine regelmäßige Thermenwartung sinnvoll, weil viele Geräte täglich stark genutzt werden und nur mit laufender Pflege zuverlässig funktionieren. Wir arbeiten sauber, erklären jeden Schritt verständlich und stimmen Service, Wartung oder Reparatur passend auf den Zustand Ihrer Therme ab.</p>
+          <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mÃ¶glich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -485,7 +485,7 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) â€“ bleibt unverÃ¤ndert -->
+  <!-- Bezirke (bottom links) – bleibt unverändert -->
 
 </main>
 
@@ -493,6 +493,7 @@ $metaDescription = "Thermenwartung  1200 Wien (Brigittenau) fÃ¼r Heizung, Warmwa
 <script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
 
 
 

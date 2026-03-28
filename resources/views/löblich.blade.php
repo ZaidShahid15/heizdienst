@@ -62,7 +62,7 @@
   .service-hero::before{
     content:"";
     position:absolute; inset:0;
-    background-image:url('img/hero-scetion.jpeg');
+    background-image:url('img/hero-scetion.webp');
     background-size:cover;
     background-position:center;
     transform:scale(1.02);
@@ -356,7 +356,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background: url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index: 0;
   }
 
@@ -388,7 +388,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -511,7 +511,7 @@ $metaDescription = " Löblich Thermenwartung in Wien vom erfahrenen Fachbetrieb.
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1loblich.jpeg') }}" alt="Löblich Logo">
+        <img src="{{ asset('img/1loblich.webp') }}" alt="Löblich Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -694,7 +694,7 @@ $metaDescription = " Löblich Thermenwartung in Wien vom erfahrenen Fachbetrieb.
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/loblich.jpeg') }}" alt="Löblich Thermenservice Wien" loading="lazy" decoding="async">
+          <img class="service-media__img" src="{{ asset('img/loblich.webp') }}" alt="Löblich Thermenservice Wien" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -776,7 +776,7 @@ $metaDescription = " Löblich Thermenwartung in Wien vom erfahrenen Fachbetrieb.
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf Löblich Thermenwartung" loading="lazy" decoding="async">
+          <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Ablauf Löblich Thermenwartung" loading="lazy" decoding="async">
         </div>
       </div>
     </div>

@@ -248,7 +248,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/hero-scetion.jpeg");
+    background-image:url("img/hero-scetion.webp");
     background-size:cover;
     background-position:left center;
     transform:scale(1.02);
@@ -346,7 +346,7 @@
     content:"";
     position:absolute;
     inset:0;
-    background:url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background:url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index:0;
   }
 
@@ -463,7 +463,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1sauneri.jpeg') }}" alt="Saunier-duval-notdienst-wien Logo">
+        <img src="{{ asset('img/1sauneri.webp') }}" alt="Saunier-duval-notdienst-wien Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -576,7 +576,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/sauneri.jpeg') }}" alt="Saunier Duval Service in Wien" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/sauneri.webp') }}" alt="Saunier Duval Service in Wien" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -609,7 +609,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-4.jpg') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-4.webp') }}" alt="Team & Kompetenz" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -702,7 +702,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-5.jpg') }}" alt="Thermenwartung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-5.webp') }}" alt="Thermenwartung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -734,7 +734,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Reparaturen & Ersatzteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -797,7 +797,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Kosten & Vorteile" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -820,7 +820,7 @@ $metaDescription = "Saunier Duval Kundendienst Wien für Thermen & Gasgeräte. T
 
         <div class="card-split__media service-media">
           <div class="service-media__box">
-            <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
+            <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Regionale Betreuung" loading="lazy" decoding="async">
           </div>
         </div>
       </div>

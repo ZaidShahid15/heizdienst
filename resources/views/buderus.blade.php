@@ -62,7 +62,7 @@
   .service-hero::before{
     content:"";
     position:absolute; inset:0;
-    background-image:url('img/hero-scetion.jpeg');
+    background-image:url('img/hero-scetion.webp');
     background-size:cover;
     background-position:center;
     transform:scale(1.02);
@@ -440,7 +440,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("img/hero-scetion.jpeg");
+    background-image: url("img/hero-scetion.webp");
     background-size: cover;
     background-position: left center;
     transform: scale(1.02);
@@ -556,7 +556,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: url("{{ asset('img/final.png') }}") right center / cover no-repeat;
+    background: url("{{ asset('img/final.webp') }}") right center / cover no-repeat;
     z-index: 0;
   }
 </style>
@@ -581,7 +581,7 @@ $metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 2
       </h1>
 
       <div class="wolf-hero__logo">
-        <img src="{{ asset('img/1buderus.jpeg') }}" alt="Buderus Logo">
+        <img src="{{ asset('img/1buderus.webp') }}" alt="Buderus Logo">
       </div>
 
       <p class="wolf-hero__sub">
@@ -799,7 +799,7 @@ $metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 2
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/buderus.jpeg') }}" alt="Buderus Partner Wien" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/buderus.webp') }}" alt="Buderus Partner Wien" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -893,7 +893,7 @@ $metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 2
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-6.jpg') }}" alt="Warum Buderus Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-6.webp') }}" alt="Warum Buderus Thermenwartung wichtig ist" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -957,7 +957,7 @@ $metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 2
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-8.jpg') }}" alt="Ablauf der Buderus Thermenwartung" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-8.webp') }}" alt="Ablauf der Buderus Thermenwartung" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
@@ -1061,7 +1061,7 @@ $metaDescription = "Buderus Thermenwartung in Wien vom erfahrenen Fachbetrieb. 2
 
       <div class="service-split__media service-media">
         <div class="service-media__box">
-          <img class="service-media__img" src="{{ asset('img/vaillant-9.jpg') }}" alt="Fachpartner für Buderus Thermen" loading="lazy" decoding="async"/>
+          <img class="service-media__img" src="{{ asset('img/vaillant-9.webp') }}" alt="Fachpartner für Buderus Thermen" loading="lazy" decoding="async"/>
         </div>
       </div>
     </div>
