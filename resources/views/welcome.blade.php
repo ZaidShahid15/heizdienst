@@ -1175,7 +1175,7 @@
                     <div class="spot-text">
                         <h2>Vaillant Thermenservice & Thermenwartung</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/vaillant.webp') }}" alt="Vaillant">
+                            <img src="{{ asset('img/vaillant1-1.webp') }}" alt="Vaillant">
                         </div>
                         <p>
                             Der Vaillant Thermenservice sorgt für sichere, effiziente und langlebige Vaillant Thermen.
@@ -1238,7 +1238,7 @@
                     <div class="spot-text">
                         <h2>Junkers Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/junkers.webp') }}" alt="Junkers">
+                            <img src="{{ asset('img/1junkers.webp') }}" alt="Junkers">
                         </div>
                         <p>
                             Beim Junkers Thermenservice steht fachgerechte Wartung und schnelle Reparatur im
@@ -1299,7 +1299,7 @@
                     <div class="spot-text">
                         <h2>Viessmann Thermenwartung</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/viessmann.webp') }}" alt="Viessmann">
+                            <img src="{{ asset('img/1viesman.webp') }}" alt="Viessmann">
                         </div>
                         <p>
                             Mit der Viessmann Thermenwartung sichern Sie sich höchste Effizienz und Zuverlässigkeit.
@@ -1359,7 +1359,7 @@
                     <div class="spot-text">
                         <h2>Wolf Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/wolf.webp') }}" alt="Wolf">
+                            <img src="{{ asset('img/1wolf.webp') }}" alt="Wolf">
                         </div>
                         <p>
                             Der Wolf Thermenservice bietet professionelle Wartung und Reparatur für moderne Wolf
@@ -1419,7 +1419,7 @@
                     <div class="spot-text">
                         <h2>Baxi Thermenwartung</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/baxi.webp') }}" alt="Baxi">
+                            <img src="{{ asset('img/1baxi.webp') }}" alt="Baxi">
                         </div>
                         <p>
                             Die Baxi Thermenwartung gewährleistet eine gleichbleibend hohe Leistung und
@@ -1479,7 +1479,7 @@
                     <div class="spot-text">
                         <h2>Buderus Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/buderus.webp') }}" alt="Buderus">
+                            <img src="{{ asset('img/1buderus.webp') }}" alt="Buderus">
                         </div>
                         <p>
                             Mit unserem Buderus Thermenservice stellen wir sicher, dass Ihre Buderus Geräte zuverlässig
@@ -1540,7 +1540,7 @@
                     <div class="spot-text">
                         <h2>Saunier Duval Thermenwartung</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/saunier-duval.webp') }}" alt="Saunier Duval">
+                            <img src="{{ asset('img/1sauneri.webp') }}" alt="Saunier Duval">
                         </div>
                         <p>
                             Die Saunier Duval Thermenwartung ist speziell auf die Anforderungen dieser Marke abgestimmt.
@@ -1601,7 +1601,7 @@
                     <div class="spot-text">
                         <h2>Löblich Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/loeblich.webp') }}" alt="Löblich">
+                            <img src="{{ asset('img/1loblich.webp') }}" alt="Löblich">
                         </div>
                         <p>
                             Der Löblich Thermenservice richtet sich an Kunden mit bestehenden Löblich Geräten. Wir
@@ -1660,7 +1660,7 @@
                     <div class="spot-text">
                         <h2>Ocean Thermenservice</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/ocean.webp') }}" alt="Ocean">
+                            <img src="{{ asset('img/1oceanbaxi.webp') }}" alt="Ocean">
                         </div>
                         <p>
                             Beim Ocean Thermenservice kümmern wir uns um die zuverlässige Wartung und Reparatur Ihrer
@@ -1719,7 +1719,7 @@
                     <div class="spot-text">
                         <h2>Rapido Gasgeräte Service</h2>
                         <div class="spot-brand">
-                            <img src="{{ asset('img/rapido.webp') }}" alt="Rapido">
+                            <img src="{{ asset('img/1rapido.webp') }}" alt="Rapido">
                         </div>
                         <p>
                             Der Rapido Gasgeräte Service bietet fachgerechte Wartung und Reparatur für Rapido Gasgeräte.
