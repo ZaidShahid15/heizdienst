@@ -37,6 +37,7 @@
   margin: 0 0 16px;
   font-size: clamp(2.2rem, 5vw, 3.6rem);
   font-weight: 800;
+  color: #e67f0f !important;
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: inherit;
@@ -197,6 +198,19 @@
   .m-hero .hero-copy .hero-title-visual,
   .hero .hero-copy h1{
     padding-right: 110px;
+  }
+}
+
+@media (max-width: 640px){
+  .m-hero-badges{
+    position: static;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin-top: 16px;
+    padding: 0;
+    z-index: auto;
+    margin-left: 20px;
   }
 }
 
@@ -439,28 +453,28 @@
       <div class="brand-slider-viewport">
         <div class="brand-slider-track">
           <!-- 1st set -->
-          <img src="{{ asset('img/vaillant1-1.webp') }}" alt="Vaillant">
-          <img src="{{ asset('img/1viesman.webp') }}" alt="Viessmann">
-          <img src="{{ asset('img/1wolf.webp') }}" alt="Wolf">
-          <img src="{{ asset('img/1baxi.webp') }}" alt="Baxi">
-          <img src="{{ asset('img/1buderus.webp') }}" alt="Buderus">
-          <img src="{{ asset('img/1junkers.webp') }}" alt="Junkers">
-          <img src="{{ asset('img/1loblich.webp') }}" alt="Löblich">
-          <img src="{{ asset('img/1oceanbaxi.webp') }}" alt="Ocean">
-          <img src="{{ asset('img/1rapido.webp') }}" alt="Rapido">
-          <img src="{{ asset('img/1sauneri.webp') }}" alt="Saunier Duval">
+          <img src="{{ asset('img/vaillant.webp') }}" alt="Vaillant">
+          <img src="{{ asset('img/viessmann.webp') }}" alt="Viessmann">
+          <img src="{{ asset('img/wolf.png') }}" alt="Wolf">
+          <img src="{{ asset('img/baxi.png') }}" alt="Baxi">
+          <img src="{{ asset('img/budrus.png') }}" alt="Buderus">
+          <img src="{{ asset('img/junkers (1).webp') }}" alt="Junkers">
+          <img src="{{ asset('img/loeblich.webp') }}" alt="Löblich">
+          <img src="{{ asset('img/ocean.webp') }}" alt="Ocean">
+          <img src="{{ asset('img/rapido1.webp.png') }}" alt="Rapido">
+          <img src="{{ asset('img/saunier-duval.webp') }}" alt="Saunier Duval">
 
           <!-- ✅ 2nd set (duplicate) for seamless loop -->
-          <img src="{{ asset('img/vaillant1-1.webp') }}" alt="Vaillant">
-          <img src="{{ asset('img/1viesman.webp') }}" alt="Viessmann">
-          <img src="{{ asset('img/1wolf.webp') }}" alt="Wolf">
-          <img src="{{ asset('img/1baxi.webp') }}" alt="Baxi">
-          <img src="{{ asset('img/1buderus.webp') }}" alt="Buderus">
-          <img src="{{ asset('img/1junkers.webp') }}" alt="Junkers">
-          <img src="{{ asset('img/1loblich.webp') }}" alt="Löblich">
-          <img src="{{ asset('img/1oceanbaxi.webp') }}" alt="Ocean">
-          <img src="{{ asset('img/1rapido.webp') }}" alt="Rapido">
-          <img src="{{ asset('img/1sauneri.webp') }}" alt="Saunier Duval">
+          <img src="{{ asset('img/vaillant.webp') }}" alt="Vaillant">
+          <img src="{{ asset('img/viessmann.webp') }}" alt="Viessmann">
+          <img src="{{ asset('img/wolf.png') }}" alt="Wolf">
+          <img src="{{ asset('img/baxi.png') }}" alt="Baxi">
+          <img src="{{ asset('img/budrus.png') }}" alt="Buderus">
+          <img src="{{ asset('img/junkers (1).webp') }}" alt="Junkers">
+          <img src="{{ asset('img/loeblich.webp') }}" alt="Löblich">
+          <img src="{{ asset('img/ocean.webp') }}" alt="Ocean">
+          <img src="{{ asset('img/rapido1.webp.png') }}" alt="Rapido">
+          <img src="{{ asset('img/saunier-duval.webp') }}" alt="Saunier Duval">
         </div>
       </div>
     </div>
@@ -2561,4 +2575,3 @@ html{ scroll-behavior:smooth; }
 
 
 @endsection
-
