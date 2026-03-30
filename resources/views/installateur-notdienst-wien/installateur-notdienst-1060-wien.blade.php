@@ -3,8 +3,8 @@
 @section('main')
 
 @php
-$metaTitle = "Installateur Notdienst 1060 Wien – 24h Installateur Mariahilf";
-$metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Mariahilf für Rohrbruch, Abfluss verstopft, Heizung oder Gastherme. 24h Installateur Notdienst Wien. Jetzt anrufen!";
+$metaTitle = "Installateur Notdienst 1060 Wien ï¿½ 24h Installateur Mariahilf";
+$metaDescription = "Installateur Notdienst 1060 Wien ï¿½ schneller Installateur Mariahilf fï¿½r Rohrbruch, Abfluss verstopft, Heizung oder Gastherme. 24h Installateur Notdienst Wien. Jetzt anrufen!";
 @endphp
 
 @push('meta')
@@ -30,7 +30,7 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu für Thermen Marken) === */
+    /* === BRAND GRID (neu fï¿½r Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -90,7 +90,7 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
         <span style="color:#FB9A1B;">24h Installateur Mariahilf</span>
       </h1>
 
-      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1060 Wien. Unser Installateur Notdienst Wien hilft sofort bei Sanitär-, Gas- und Heizungsproblemen im Bezirk Mariahilf.</p>
+      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1060 Wien. Unser Installateur Notdienst Wien hilft sofort bei Sanitï¿½r-, Gas- und Heizungsproblemen im Bezirk Mariahilf.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -177,7 +177,7 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ihr Installateur Notdienst in 1060 Wien</h2>
-          <p>Wenn ein Rohr plötzlich bricht, die Heizung ausfällt oder der Abfluss überläuft, benötigen Sie schnelle Hilfe. Unser Installateur Notdienst 1060 Wien ist rund um die Uhr erreichbar und bietet schnelle Lösungen für Wohnungen, Büros und Betriebe im Bezirk Mariahilf. Als erfahrener Installateur Wien 1060 kümmern wir uns um Probleme im Bereich Gas Wasser Heizung Wien, Sanitäranlagen und moderne Haustechnik Wien. Unser Notdienst Installateur 1060 Wien hilft sofort bei dringenden Reparaturen. Egal ob Wasserrohrbruch Wien, ein defekter Abfluss oder ein akuter Installateur Notfall Wien – unser Installateur Mariahilf ist schnell vor Ort. Wenn Sie einen Installateur Notdienst Nähe oder einen Installateur Nähe 1060 Wien suchen, steht unser Installateur Notdienst Wien sofort bereit. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1050-wien') }}">weiterführenden Informationen</a>.</p>
+          <p>Wenn ein Rohr plï¿½tzlich bricht, die Heizung ausfï¿½llt oder der Abfluss ï¿½berlï¿½uft, benï¿½tigen Sie schnelle Hilfe. Unser Installateur Notdienst 1060 Wien ist rund um die Uhr erreichbar und bietet schnelle Lï¿½sungen fï¿½r Wohnungen, Bï¿½ros und Betriebe im Bezirk Mariahilf. Als erfahrener Installateur Wien 1060 kï¿½mmern wir uns um Probleme im Bereich Gas Wasser Heizung Wien, Sanitï¿½ranlagen und moderne Haustechnik Wien. Unser Notdienst Installateur 1060 Wien hilft sofort bei dringenden Reparaturen. Egal ob Wasserrohrbruch Wien, ein defekter Abfluss oder ein akuter Installateur Notfall Wien ï¿½ unser Installateur Mariahilf ist schnell vor Ort. Wenn Sie einen Installateur Notdienst Nï¿½he oder einen Installateur Nï¿½he 1060 Wien suchen, steht unser Installateur Notdienst Wien sofort bereit. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1050-wien') }}">weiterfï¿½hrenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.webp" alt="Installateur Service 1060 Wien" loading="lazy" decoding="async">
@@ -186,16 +186,16 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Rohrbruch und Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann erhebliche Schäden verursachen. Unser Rohrbruch Notdienst Wien bietet schnelle Hilfe bei Wasserschaden Wien durch erfahrene Wasserinstallateur Wien Spezialisten.</p>
+          <h3>Rohrbruch und Wasserschï¿½den schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann erhebliche Schï¿½den verursachen. Unser Rohrbruch Notdienst Wien bietet schnelle Hilfe bei Wasserschaden Wien durch erfahrene Wasserinstallateur Wien Spezialisten.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
-          <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss verstopft Wien oder das WC verstopft Wien ist, hilft unser Rohrreinigung Wien Service schnell und sorgt für funktionierende Sanitärsysteme.</p>
+          <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss verstopft Wien oder das WC verstopft Wien ist, hilft unser Rohrreinigung Wien Service schnell und sorgt fï¿½r funktionierende Sanitï¿½rsysteme.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?????</div><div>
-          <h3>Professioneller Installateur für Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen rund um Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kümmern wir uns um Gasleitungen, Thermen und Heizsysteme. Gleichzeitig übernimmt unser Sanitär Installateur Wien Reparaturen und Wartungen an Wasserleitungen und Sanitäranlagen. Moderne Heizungstechnik Wien und zuverlässige Sanitärtechnik Wien gehören zu unseren täglichen Aufgaben. Unser Installateur 1060 Wien übernimmt Reparaturen, Wartung und neue Installationen Wien für Wohnungen und Gebäude im Bezirk Mariahilf. Als erfahrene Installateur Firma Wien sorgen wir für sichere und moderne Lösungen im Bereich Haustechnik Wien.</p>
+          <h3>Professioneller Installateur fï¿½r Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen rund um Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kï¿½mmern wir uns um Gasleitungen, Thermen und Heizsysteme. Gleichzeitig ï¿½bernimmt unser Sanitï¿½r Installateur Wien Reparaturen und Wartungen an Wasserleitungen und Sanitï¿½ranlagen. Moderne Heizungstechnik Wien und zuverlï¿½ssige Sanitï¿½rtechnik Wien gehï¿½ren zu unseren tï¿½glichen Aufgaben. Unser Installateur 1060 Wien ï¿½bernimmt Reparaturen, Wartung und neue Installationen Wien fï¿½r Wohnungen und Gebï¿½ude im Bezirk Mariahilf. Als erfahrene Installateur Firma Wien sorgen wir fï¿½r sichere und moderne Lï¿½sungen im Bereich Haustechnik Wien.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Ihr Installateur in Wien Mariahilf</h3><p>Wenn Sie einen zuverlässigen Installateur 1060 Wien benötigen, ist schnelle Hilfe entscheidend. Unser Installateur Notdienst Wien ist täglich im Bezirk Mariahilf im Einsatz und hilft bei allen Problemen rund um Sanitär, Gas und Heizung. Als erfahrener Installateur Wien 1060 kennen wir die Gebäude und technischen Anlagen im sechsten Bezirk sehr gut. Unser Notdienst Installateur 1060 Wien unterstützt Sie sowohl bei dringenden Reparaturen als auch bei geplanten Installationsarbeiten. Unser Installateur Mariahilf arbeitet professionell und zuverlässig, egal ob kleine Reparatur oder größere Installation. Wenn Sie einen Installateur Notdienst Nähe oder einen Installateur Umgebung 1060 Wien suchen, steht unser Team jederzeit bereit. Unser Installateur Notdienst 1060 Wien sorgt dafür, dass Probleme schnell und dauerhaft gelöst werden.</p>
+          <h3>Ihr Installateur in Wien Mariahilf</h3><p>Wenn Sie einen zuverlï¿½ssigen Installateur 1060 Wien benï¿½tigen, ist schnelle Hilfe entscheidend. Unser Installateur Notdienst Wien ist tï¿½glich im Bezirk Mariahilf im Einsatz und hilft bei allen Problemen rund um Sanitï¿½r, Gas und Heizung. Als erfahrener Installateur Wien 1060 kennen wir die Gebï¿½ude und technischen Anlagen im sechsten Bezirk sehr gut. Unser Notdienst Installateur 1060 Wien unterstï¿½tzt Sie sowohl bei dringenden Reparaturen als auch bei geplanten Installationsarbeiten. Unser Installateur Mariahilf arbeitet professionell und zuverlï¿½ssig, egal ob kleine Reparatur oder grï¿½ï¿½ere Installation. Wenn Sie einen Installateur Notdienst Nï¿½he oder einen Installateur Umgebung 1060 Wien suchen, steht unser Team jederzeit bereit. Unser Installateur Notdienst 1060 Wien sorgt dafï¿½r, dass Probleme schnell und dauerhaft gelï¿½st werden.</p>
         </div></article>
       </div>
     </div>
@@ -206,8 +206,8 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Unser erfahrenes Team für 1060 Wien</h2>
-          <p>Unser Installateur Fachbetrieb Wien steht für Qualität, Erfahrung und schnelle Hilfe. Unser Installateur Notdienst Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lösen. Unser Installateur Team Wien verfügt über umfangreiche Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfälle Wien ist eine schnelle Reaktion entscheidend. Deshalb ist unser Notdienst 24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrüchen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlässige und langfristige Lösungen zu bieten.</p>
+          <h2>Unser erfahrenes Team fï¿½r 1060 Wien</h2>
+          <p>Unser Installateur Fachbetrieb Wien steht fï¿½r Qualitï¿½t, Erfahrung und schnelle Hilfe. Unser Installateur Notdienst Wien arbeitet mit modernen Werkzeugen und professionellen Methoden, um jedes Problem effizient zu lï¿½sen. Unser Installateur Team Wien verfï¿½gt ï¿½ber umfangreiche Installateur Erfahrung Wien im Bereich Sanitï¿½r-, Heizungs- und Gasinstallationen. Besonders bei Installateur Notfï¿½lle Wien ist eine schnelle Reaktion entscheidend. Deshalb ist unser Notdienst 24h Wien jederzeit erreichbar. Als 24 Stunden Installateur Wien helfen wir sofort bei Rohrbrï¿½chen, Heizungsproblemen oder defekten Anlagen. Wenn Sie einen Installateur schnell Wien benï¿½tigen, steht unser Team sofort bereit. Unser Ziel ist es, Ihnen zuverlï¿½ssige und langfristige Lï¿½sungen zu bieten.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -224,18 +224,18 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1060</h2><p>Unser Installateur Notdienst Wien bietet ein umfangreiches Leistungsspektrum für Haushalte, Unternehmen und Hausverwaltungen im Bezirk Mariahilf. Als erfahrene Installateur Firma Wien übernehmen wir Reparaturen, Wartungen und neue Installationen Wien im Bereich Gas Wasser Heizung Wien. Unser Wasserinstallateur Wien kümmert sich um defekte Leitungen, Armaturen und Sanitäranlagen. Gleichzeitig sorgt unser Sanitär Installateur Wien für professionelle Lösungen in Badezimmern und Sanitärsystemen. Unsere Experten arbeiten mit moderner Heizungstechnik Wien, effizienter Sanitärtechnik Wien und zuverlässiger Haustechnik Wien. Unser Installateur Service Wien hilft bei kleinen Reparaturen ebenso wie bei größeren Projekten. Durch unser erfahrenes Installateur Team Wien bieten wir ein professionelles Mariahilf Installateur Service für Wohnungen, Häuser und Unternehmen.</p></div>
+      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1060</h2><p>Unser Installateur Notdienst Wien bietet ein umfangreiches Leistungsspektrum fï¿½r Haushalte, Unternehmen und Hausverwaltungen im Bezirk Mariahilf. Als erfahrene Installateur Firma Wien ï¿½bernehmen wir Reparaturen, Wartungen und neue Installationen Wien im Bereich Gas Wasser Heizung Wien. Unser Wasserinstallateur Wien kï¿½mmert sich um defekte Leitungen, Armaturen und Sanitï¿½ranlagen. Gleichzeitig sorgt unser Sanitï¿½r Installateur Wien fï¿½r professionelle Lï¿½sungen in Badezimmern und Sanitï¿½rsystemen. Unsere Experten arbeiten mit moderner Heizungstechnik Wien, effizienter Sanitï¿½rtechnik Wien und zuverlï¿½ssiger Haustechnik Wien. Unser Installateur Service Wien hilft bei kleinen Reparaturen ebenso wie bei grï¿½ï¿½eren Projekten. Durch unser erfahrenes Installateur Team Wien bieten wir ein professionelles Mariahilf Installateur Service fï¿½r Wohnungen, Hï¿½user und Unternehmen.</p></div>
       <div class="service-grid service-grid--2">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Rohrreinigung Wien</h3><p>Rohrreinigung Wien bei verstopften Leitungen oder Abfluss verstopft Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Wasserrohrbruch Wien</h3><p>Soforthilfe bei Wasserrohrbruch Wien durch unseren Rohrbruch Notdienst Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>WC verstopft Wien</h3><p>Reparatur bei WC verstopft Wien oder beschädigten Sanitäranlagen.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär Reparatur Wien</h3><p>Professionelle Sanitär Reparatur Wien durch erfahrene Fachkräfte.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>WC verstopft Wien</h3><p>Reparatur bei WC verstopft Wien oder beschï¿½digten Sanitï¿½ranlagen.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitï¿½r Reparatur Wien</h3><p>Professionelle Sanitï¿½r Reparatur Wien durch erfahrene Fachkrï¿½fte.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Bad Installation Wien</h3><p>Planung moderner Badezimmer inklusive Badsanierung Wien und Bad Sanierung Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Badsanierung Wien</h3><p>Komplettlösung für Sanierung Bad Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Badsanierung Wien</h3><p>Komplettlï¿½sung fï¿½r Sanierung Bad Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Serviceangebot</h3><p>Thermenservice mit Thermenwartung Wien, Thermen Service Wien und Gastherme Wartung Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Gastherme Wartung Wien</h3><p>Gastherme Wartung Wien und Thermen Service Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Heizung Reparatur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien inklusive Heizung Reparatur Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Montage Sanitär Wien</h3><p>Installation neuer Systeme mit Montage Sanitär Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Montage Sanitï¿½r Wien</h3><p>Installation neuer Systeme mit Montage Sanitï¿½r Wien.</p></div></article>
       </div>
     </div>
   </section>
@@ -246,10 +246,10 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Gastherme Reparatur und Wartung</h2>
-          <p>Wenn Ihre Therme Probleme macht, bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
+          <p>Wenn Ihre Therme Probleme macht, bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmï¿½ï¿½ige Gastherme Wartung Wien und Thermenwartung Wien. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Fï¿½r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederï¿½sterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Störungen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Stï¿½rungen</div></div>
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
           </div>
         </div></div>
@@ -266,7 +266,7 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Heizung Reparatur und Thermenservice</h2>
-          <p>Bei einem Ausfall Ihrer Heizung hilft unser Heizung Installateur Wien sofort. Wir übernehmen Heizung Reparatur Wien, Wartung Heizung Wien und sorgen für zuverlässige Heizsysteme.</p>
+          <p>Bei einem Ausfall Ihrer Heizung hilft unser Heizung Installateur Wien sofort. Wir ï¿½bernehmen Heizung Reparatur Wien, Wartung Heizung Wien und sorgen fï¿½r zuverlï¿½ssige Heizsysteme.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size4.webp" alt="Reparatur 1060 Wien" loading="lazy" decoding="async">
@@ -280,20 +280,20 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Installateur Notdienst 24h Wien</h2>
-        <p>Ein Rohrbruch, eine defekte Therme oder ein verstopfter Abfluss kann jederzeit auftreten. Deshalb steht unser Installateur Notdienst Wien rund um die Uhr zur Verfügung. Unser Notdienst 1060 Wien hilft schnell bei akuten Problemen im Bezirk Mariahilf. Als 24 Stunden Installateur Wien bieten wir schnelle Hilfe bei Installateur Notfall Wien, Heizungsproblemen oder beschädigten Leitungen. Unser Installateur Notdienst 1060 Wien reagiert sofort bei dringenden Situationen. Wenn Sie einen Installateur Notdienst Nähe suchen, erreichen wir Ihren Standort meist innerhalb kurzer Zeit. Unser Sanitär Notdienst Wien und unser Gas Installateur Wien kümmern sich um alle dringenden Reparaturen.</p>
+        <p>Ein Rohrbruch, eine defekte Therme oder ein verstopfter Abfluss kann jederzeit auftreten. Deshalb steht unser Installateur Notdienst Wien rund um die Uhr zur Verfï¿½gung. Unser Notdienst 1060 Wien hilft schnell bei akuten Problemen im Bezirk Mariahilf. Als 24 Stunden Installateur Wien bieten wir schnelle Hilfe bei Installateur Notfall Wien, Heizungsproblemen oder beschï¿½digten Leitungen. Unser Installateur Notdienst 1060 Wien reagiert sofort bei dringenden Situationen. Wenn Sie einen Installateur Notdienst Nï¿½he suchen, erreichen wir Ihren Standort meist innerhalb kurzer Zeit. Unser Sanitï¿½r Notdienst Wien und unser Gas Installateur Wien kï¿½mmern sich um alle dringenden Reparaturen.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdiensteinsätze</h3>
+        <h3>Typische Notdiensteinsï¿½tze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
-          <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
-          <li>Sicherheitsrelevante Auffälligkeiten am Gerät</li>
+          <li>Fehlermeldungen, Druckprobleme oder Stï¿½rgerï¿½usche</li>
+          <li>Sicherheitsrelevante Auffï¿½lligkeiten am Gerï¿½t</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1060 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar ï¿½ schnelle Hilfe in 1060 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -306,9 +306,9 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
           <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Installateur" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Installateur Kosten Wien – transparente Preise</h2>
-          <p>Viele Kunden möchten vorab wissen, welche Installateur Kosten Wien entstehen können. Unser Installateur Notdienst Wien arbeitet mit transparenten Preisen und fairen Konditionen. Der genaue Installateur Preis Wien hängt vom Problem, der Arbeitszeit und den benötigten Materialien ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie eine klare Übersicht erhalten. Bei größeren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, damit Sie Planungssicherheit haben. Unser Ziel ist es, hochwertige Arbeit zu fairen Preisen anzubieten, damit Sie sich jederzeit auf unseren Installateur 1060 Wien verlassen können.</p>
-          <p>Für planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Störungen erklären wir nachvollziehbar, welche Schritte nötig sind und wie sich die Kosten zusammensetzen.</p>
+          <h2>Installateur Kosten Wien ï¿½ transparente Preise</h2>
+          <p>Viele Kunden mï¿½chten vorab wissen, welche Installateur Kosten Wien entstehen kï¿½nnen. Unser Installateur Notdienst Wien arbeitet mit transparenten Preisen und fairen Konditionen. Der genaue Installateur Preis Wien hï¿½ngt vom Problem, der Arbeitszeit und den benï¿½tigten Materialien ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie eine klare ï¿½bersicht erhalten. Bei grï¿½ï¿½eren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, damit Sie Planungssicherheit haben. Unser Ziel ist es, hochwertige Arbeit zu fairen Preisen anzubieten, damit Sie sich jederzeit auf unseren Installateur 1060 Wien verlassen kï¿½nnen.</p>
+          <p>Fï¿½r planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Stï¿½rungen erklï¿½ren wir nachvollziehbar, welche Schritte nï¿½tig sind und wie sich die Kosten zusammensetzen.</p>
         </div></div>
       </div>
     </div>
@@ -320,7 +320,7 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Als Installateur in 1060 Wien (Mariahilf) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1060 Wien (Mariahilf) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1060 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
@@ -333,8 +333,8 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
  <section class="service-section service-section--soft" id="thermen-services">
   <div class="container">
     <div class="service-section__head">
-      <h2>Thermenservice für alle Marken</h2>
-      <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
+      <h2>Thermenservice fï¿½r alle Marken</h2>
+      <p>Ob Vaillant, Junkers, Buderus oder Wolf ï¿½ wir warten und reparieren alle gï¿½ngigen Gasgerï¿½te. Regelmï¿½ï¿½ige Wartung sorgt fï¿½r Sicherheit, Effizienz und eine lï¿½ngere Lebensdauer Ihrer Therme.</p>
     </div>
 
     <div class="brand-grid">
@@ -342,37 +342,37 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
       <!-- 1 -->
       <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
     <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
-    <span>VAILLANT THERMENSERVICE</span>
+    <span>VAILLANT THERMENTAUSCH</span>
   </a>
 
       <!-- 2 -->
       <a class="brand-card" href="{{ route('buderus.thermentausch') }}">
     <img src="img/1buderus.webp" alt="Buderus Thermenservice">
-    <span>BUDERUS THERMENSERVICE</span>
+    <span>BUDERUS THERMENTAUSCH</span>
   </a>
 
       <!-- 3 -->
         <a class="brand-card" href="{{ route('baxi.thermentausch') }}">
     <img src="img/1baxi.webp" alt="Baxi Thermenservice">
-    <span>BAXI THERMENSERVICE</span>
+    <span>BAXI THERMENTAUSCH</span>
   </a>
 
       <!-- 4 -->
         <a class="brand-card" href="{{ route('junkers.thermentausch') }}">
     <img src="img/1junkers.webp" alt="Junkers Thermenservice">
-    <span>JUNKERS THERMENSERVICE</span>
+    <span>JUNKERS THERMENTAUSCH</span>
   </a>
 
       <!-- 5 -->
         <a class="brand-card" href="{{ route('viessmann.thermentausch') }}">
     <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
-    <span>VIESSMANN THERMENSERVICE</span>
+    <span>VIESSMANN THERMENTAUSCH</span>
   </a>
 
       <!-- 6 -->
         <a class="brand-card" href="{{ route('wolf.thermentausch') }}">
     <img src="img/1wolf.webp" alt="Wolf Thermenservice">
-    <span>WOLF THERMENSERVICE</span>
+    <span>WOLF THERMENTAUSCH</span>
   </a>
 
       <!-- 7 -->
@@ -383,20 +383,20 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
 
       <!-- 8 -->
  <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.webp" alt="Löblich Thermenservice">
-    <span>LÖBLICH THERMENSERVICE</span>
+    <img src="img/1loblich.webp" alt="Lï¿½blich Thermenservice">
+    <span>Lï¿½BLI THERMENTAUSCH</span>n>
   </a>
 
       <!-- 9 -->
       <a class="brand-card" href="{{ route('ocean.thermentausch') }}">
     <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
-    <span>OCEAN THERMENSERVICE</span>
+    <span>OCEAN THERMENTAUSCH</span>
   </a>
 
       <!-- 10 -->
       <a class="brand-card" href="{{ route('rapido.thermentausch') }}">
     <img src="img/1rapido.webp" alt="Rapido Thermenservice">
-    <span>RAPIDO THERMENSERVICE</span>
+    <span>RAPIDO THERMENTAUSCH</span>
   </a>
 
       <!-- 11 -->
@@ -420,31 +420,31 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>Häufig gestellte Fragen</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
+      <div class="service-section__head"><h2>Hï¿½ufig gestellte Fragen</h2><p>Antworten auf die hï¿½ufigsten Fragen ï¿½ kurz, klar und praxisnah.</p></div>
       <div class="service-faq">
         <details>
           <summary>Was kostet ein Installateur Notdienst in Wien?</summary>
-          <p>Die Kosten hängen vom Problem und dem Arbeitsaufwand ab. Unser Installateur Notdienst Wien informiert Sie transparent über mögliche Installateur Kosten Wien und den genauen Installateur Preis Wien.</p>
+          <p>Die Kosten hï¿½ngen vom Problem und dem Arbeitsaufwand ab. Unser Installateur Notdienst Wien informiert Sie transparent ï¿½ber mï¿½gliche Installateur Kosten Wien und den genauen Installateur Preis Wien.</p>
         </details>
         <details>
           <summary>Wie schnell kommt ein Installateur in 1060 Wien?</summary>
-          <p>Unser Installateur Notdienst 1060 Wien ist direkt im Bezirk tätig. In vielen Fällen erreicht unser Installateur Wien 1060 Kunden innerhalb kurzer Zeit.</p>
+          <p>Unser Installateur Notdienst 1060 Wien ist direkt im Bezirk tï¿½tig. In vielen Fï¿½llen erreicht unser Installateur Wien 1060 Kunden innerhalb kurzer Zeit.</p>
         </details>
         <details>
           <summary>Bieten Sie auch Thermenwartung in Wien an?</summary>
-          <p>Ja. Wir übernehmen Thermenwartung Wien, Thermen Service Wien sowie Gastherme Wartung Wien, damit Ihre Heizungsanlage zuverlässig funktioniert.</p>
+          <p>Ja. Wir ï¿½bernehmen Thermenwartung Wien, Thermen Service Wien sowie Gastherme Wartung Wien, damit Ihre Heizungsanlage zuverlï¿½ssig funktioniert.</p>
         </details>
         <details>
           <summary>Was tun bei Wasserrohrbruch in Wien?</summary>
-          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch Notdienst Wien kontaktieren. Unser Wasserinstallateur Wien kümmert sich sofort um die Reparatur.</p>
+          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch Notdienst Wien kontaktieren. Unser Wasserinstallateur Wien kï¿½mmert sich sofort um die Reparatur.</p>
         </details>
         <details>
           <summary>Sind Sie auch nachts erreichbar?</summary>
-          <p>Ja. Unser Notdienst 24h Wien ist rund um die Uhr verfügbar. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Einsätzen nachts oder am Wochenende.</p>
+          <p>Ja. Unser Notdienst 24h Wien ist rund um die Uhr verfï¿½gbar. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Einsï¿½tzen nachts oder am Wochenende.</p>
         </details>
         <details>
           <summary>Arbeiten Sie auch im Bezirk Mariahilf?</summary>
-          <p>Ja. Unser Installateur Mariahilf betreut Kunden im gesamten sechsten Bezirk. Wenn Sie einen Installateur Nähe 1060 Wien benötigen, sind wir schnell vor Ort.</p>
+          <p>Ja. Unser Installateur Mariahilf betreut Kunden im gesamten sechsten Bezirk. Wenn Sie einen Installateur Nï¿½he 1060 Wien benï¿½tigen, sind wir schnell vor Ort.</p>
         </details>
       </div>
     </div>
@@ -456,10 +456,10 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
       <div class="service-cta__inner">
         <div>
           <h2>Installateur Kontakt Wien</h2>
-          <p>Wenn Sie einen zuverlässigen Installateur 1060 Wien benötigen, hilft unser Team sofort weiter. Unser Installateur Notdienst Wien unterstützt Sie bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitäranlagen und Rohrleitungen. Egal ob Installateur Notdienst 1060 Wien, Rohrreinigung Wien, Sanitär Reparatur Wien oder Heizung Reparatur Wien – unser Installateur Service Wien sorgt für schnelle Lösungen.</p>
+          <p>Wenn Sie einen zuverlï¿½ssigen Installateur 1060 Wien benï¿½tigen, hilft unser Team sofort weiter. Unser Installateur Notdienst Wien unterstï¿½tzt Sie bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitï¿½ranlagen und Rohrleitungen. Egal ob Installateur Notdienst 1060 Wien, Rohrreinigung Wien, Sanitï¿½r Reparatur Wien oder Heizung Reparatur Wien ï¿½ unser Installateur Service Wien sorgt fï¿½r schnelle Lï¿½sungen.</p>
           <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mï¿½glich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -474,7 +474,7 @@ $metaDescription = "Installateur Notdienst 1060 Wien – schneller Installateur Ma
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) – bleibt unverändert -->
+  <!-- Bezirke (bottom links) ï¿½ bleibt unverï¿½ndert -->
 
 </main>
 

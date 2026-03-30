@@ -47,18 +47,18 @@
     $contactHtml = $page['contact_html'] ?? '';
 
     $brandCards = [
-        ['route' => 'vaillant.thermentausch', 'img' => 'vaillant1-1.webp', 'label' => 'VAILLANT THERMENSERVICE'],
-        ['route' => 'buderus.thermentausch', 'img' => '1buderus.webp', 'label' => 'BUDERUS THERMENSERVICE'],
-        ['route' => 'baxi.thermentausch', 'img' => '1baxi.webp', 'label' => 'BAXI THERMENSERVICE'],
-        ['route' => 'junkers.thermentausch', 'img' => '1junkers.webp', 'label' => 'JUNKERS THERMENSERVICE'],
-        ['route' => 'viessmann.thermentausch', 'img' => '1viesman.webp', 'label' => 'VIESSMANN THERMENSERVICE'],
-        ['route' => 'wolf.thermentausch', 'img' => '1wolf.webp', 'label' => 'WOLF THERMENSERVICE'],
+        ['route' => 'vaillant.thermentausch', 'img' => 'vaillant1-1.webp', 'label' => 'VAILLANT THERMENTAUSCH'],
+        ['route' => 'buderus.thermentausch', 'img' => '1buderus.webp', 'label' => 'BUDERUS THERMENTAUSCH'],
+        ['route' => 'baxi.thermentausch', 'img' => '1baxi.webp', 'label' => 'BAXI THERMENTAUSCH'],
+        ['route' => 'junkers.thermentausch', 'img' => '1junkers.webp', 'label' => 'JUNKERS THERMENTAUSCH'],
+        ['route' => 'viessmann.thermentausch', 'img' => '1viesman.webp', 'label' => 'VIESSMANN THERMENTAUSCH'],
+        ['route' => 'wolf.thermentausch', 'img' => '1wolf.webp', 'label' => 'WOLF THERMENTAUSCH'],
         ['route' => 'saunier-duval.thermentausch', 'img' => '1sauneri.webp', 'label' => 'SAUNIER DUVAL SERVICE'],
-        ['route' => 'loeblich.thermentausch', 'img' => '1loblich.webp', 'label' => 'LÖBLICH THERMENSERVICE'],
-        ['route' => 'ocean.thermentausch', 'img' => '1oceanbaxi.webp', 'label' => 'OCEAN THERMENSERVICE'],
-        ['route' => 'rapido.thermentausch', 'img' => '1rapido.webp', 'label' => 'RAPIDO THERMENSERVICE'],
-        ['route' => 'windhager.thermentausch', 'img' => '1Windhager.webp', 'label' => 'WINDHAGER SERVICE'],
-        ['route' => 'nordgas.thermentausch', 'img' => '1NordGas.webp', 'label' => 'NORDGAS SERVICE'],
+        ['route' => 'loeblich.thermentausch', 'img' => '1loblich.webp', 'label' => 'LÖBLICH THERMENTAUSCH'],
+        ['route' => 'ocean.thermentausch', 'img' => '1oceanbaxi.webp', 'label' => 'OCEAN THERMENTAUSCH'],
+        ['route' => 'rapido.thermentausch', 'img' => '1rapido.webp', 'label' => 'RAPIDO THERMENTAUSCH'],
+        ['route' => 'windhager.thermentausch', 'img' => '1Windhager.webp', 'label' => 'WINDHAGER THERMENTAUSCH'],
+        ['route' => 'nordgas.thermentausch', 'img' => '1NordGas.webp', 'label' => 'NORDGAS THERMENTAUSCH'],
     ];
 @endphp
 

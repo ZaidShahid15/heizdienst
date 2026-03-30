@@ -3,8 +3,8 @@
 @section('main')
 
 @php
-$metaTitle = "Installateur Notdienst 1210 Wien – 24h Installateur Floridsdorf";
-$metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wien 1210 für Gas, Wasser und Heizung. Soforthilfe bei Rohrbruch, Heizungsausfall oder verstopftem Abfluss.";
+$metaTitle = "Installateur Notdienst 1210 Wien ï¿½ 24h Installateur Floridsdorf";
+$metaDescription = "Installateur Notdienst 1210 Wien ï¿½ schneller Installateur Wien 1210 fï¿½r Gas, Wasser und Heizung. Soforthilfe bei Rohrbruch, Heizungsausfall oder verstopftem Abfluss.";
 @endphp
 
 @push('meta')
@@ -36,11 +36,11 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
         <div class="wolf-hero__inner container">
             <h1>
                 Installateur Notdienst 1210 Wien <br>
-                <span style="color:#FB9A1B;">24h schnell & zuverlässig in Floridsdorf</span>
+                <span style="color:#FB9A1B;">24h schnell & zuverlï¿½ssig in Floridsdorf</span>
             </h1>
 
             <p class="wolf-hero__sub">
-                Rohrbruch, verstopfter Abfluss oder Heizungsausfall? Unser Installateur Notdienst 1210 Wien ist rund um die Uhr für Sie da. Als lokaler Fachbetrieb in Floridsdorf garantieren wir kurze Anfahrtswege, schnelle Hilfe und transparente Preise. Ob Gas, Wasser oder Heizung – wir lösen Ihr Problem noch heute.
+                Rohrbruch, verstopfter Abfluss oder Heizungsausfall? Unser Installateur Notdienst 1210 Wien ist rund um die Uhr fï¿½r Sie da. Als lokaler Fachbetrieb in Floridsdorf garantieren wir kurze Anfahrtswege, schnelle Hilfe und transparente Preise. Ob Gas, Wasser oder Heizung ï¿½ wir lï¿½sen Ihr Problem noch heute.
             </p>
 
             <div class="wolf-hero__actions">
@@ -125,8 +125,8 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
             <div class="card-split">
                 <div class="card-split__text">
                     <div class="card-box">
-                        <h2>Ihr Installateur Notdienst 1210 Wien – immer einsatzbereit</h2>
-                        <p>Wenn bei Ihnen in Floridsdorf das Wasser aus der Wand schießt, die Heizung streikt oder der Abfluss verstopft ist, zählt jede Minute. Unser Installateur Notdienst in 1210 Wien ist speziell für solche Notfälle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach Floridsdorf. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten – meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjähriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1200-wien') }}">weiterführenden Informationen</a>.</p>
+                        <h2>Ihr Installateur Notdienst 1210 Wien ï¿½ immer einsatzbereit</h2>
+                        <p>Wenn bei Ihnen in Floridsdorf das Wasser aus der Wand schieï¿½t, die Heizung streikt oder der Abfluss verstopft ist, zï¿½hlt jede Minute. Unser Installateur Notdienst in 1210 Wien ist speziell fï¿½r solche Notfï¿½lle organisiert: Wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar und kommen sofort zu Ihnen nach Floridsdorf. Durch unsere lokale Verankerung vermeiden wir lange Anfahrtszeiten ï¿½ meist sind wir in unter 30 Minuten vor Ort. Mit modernster Technik und langjï¿½hriger Erfahrung beheben wir das Problem schnell und nachhaltig, damit Sie wieder Ruhe haben. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1200-wien') }}">weiterfï¿½hrenden Informationen</a>.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
@@ -141,28 +141,28 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
                     <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>24h Soforthilfe</h3>
-                        <p>Egal ob Tag oder Nacht, Wochenende oder Feiertag – unser Notdienst ist immer für Sie da. Ein Anruf genügt.</p>
+                        <p>Egal ob Tag oder Nacht, Wochenende oder Feiertag ï¿½ unser Notdienst ist immer fï¿½r Sie da. Ein Anruf genï¿½gt.</p>
                     </div>
                 </article>
                 <article class="service-feature">
                     <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Lokal in Floridsdorf</h3>
-                        <p>Durch unseren Standort im 21. Bezirk sind wir garantiert schneller als überregionale Anbieter. Sie profitieren von kurzen Wegen.</p>
+                        <p>Durch unseren Standort im 21. Bezirk sind wir garantiert schneller als ï¿½berregionale Anbieter. Sie profitieren von kurzen Wegen.</p>
                     </div>
                 </article>
                 <article class="service-feature">
                     <div class="service-feature__icon" aria-hidden="true">???</div>
                     <div>
                         <h3>Erfahrene Profis</h3>
-                        <p>Unsere Meister und Gesellen kennen jedes Problem – von alten Gussrohren in Siedlungshäusern bis zur modernen Brennwerttherme.</p>
+                        <p>Unsere Meister und Gesellen kennen jedes Problem ï¿½ von alten Gussrohren in Siedlungshï¿½usern bis zur modernen Brennwerttherme.</p>
                     </div>
                 </article>
                 <article class="service-feature">
                     <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Faire Preise</h3>
-                        <p>Vor dem Einsatz nennen wir Ihnen die Kosten. Keine versteckten Gebühren, keine bösen Überraschungen.</p>
+                        <p>Vor dem Einsatz nennen wir Ihnen die Kosten. Keine versteckten Gebï¿½hren, keine bï¿½sen ï¿½berraschungen.</p>
                     </div>
                 </article>
             </div>
@@ -175,10 +175,10 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
             <div class="card-split card-split--reverse">
                 <div class="card-split__text">
                     <div class="card-box">
-                        <h2>Unser Team – Ihr verlässlicher Partner in 1210</h2>
-                        <p>Hinter unserem Installateur Notdienst steht ein eingespieltes Team aus geprüften Fachkräften. Wir bilden uns regelmäßig weiter, um stets auf dem neuesten Stand der Technik zu sein. Viele unserer Kunden in Floridsdorf – von der Prager Straße bis nach Stammersdorf, von der Großfeldsiedlung bis zum Donaufeld – schätzen besonders unsere Zuverlässigkeit und die ruhige, sachliche Art, mit der wir auch in hektischen Notfallsituationen den Überblick behalten. Wir arbeiten sauber, hinterlassen keine Unordnung und erklären Ihnen verständlich, was passiert ist und wie wir es beheben. So gewinnen wir nicht nur Ihr Vertrauen, sondern oft auch langfristige Kundenbeziehungen.</p>
+                        <h2>Unser Team ï¿½ Ihr verlï¿½sslicher Partner in 1210</h2>
+                        <p>Hinter unserem Installateur Notdienst steht ein eingespieltes Team aus geprï¿½ften Fachkrï¿½ften. Wir bilden uns regelmï¿½ï¿½ig weiter, um stets auf dem neuesten Stand der Technik zu sein. Viele unserer Kunden in Floridsdorf ï¿½ von der Prager Straï¿½e bis nach Stammersdorf, von der Groï¿½feldsiedlung bis zum Donaufeld ï¿½ schï¿½tzen besonders unsere Zuverlï¿½ssigkeit und die ruhige, sachliche Art, mit der wir auch in hektischen Notfallsituationen den ï¿½berblick behalten. Wir arbeiten sauber, hinterlassen keine Unordnung und erklï¿½ren Ihnen verstï¿½ndlich, was passiert ist und wie wir es beheben. So gewinnen wir nicht nur Ihr Vertrauen, sondern oft auch langfristige Kundenbeziehungen.</p>
                         <div class="service-stats">
-                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Geprüfte Installateure</div></div>
+                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Geprï¿½fte Installateure</div></div>
                             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere & ordentliche Arbeit</div></div>
                             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Transparente Kommunikation</div></div>
                         </div>
@@ -197,15 +197,15 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
     <section class="service-section" id="leistungen-services">
         <div class="container">
             <div class="service-section__head">
-                <h2>Unsere Leistungen für Sie in Floridsdorf</h2>
-                <p>Ob Notfall oder geplante Installation – wir bieten das volle Spektrum der Installateurarbeiten. Hier ein Überblick:</p>
+                <h2>Unsere Leistungen fï¿½r Sie in Floridsdorf</h2>
+                <p>Ob Notfall oder geplante Installation ï¿½ wir bieten das volle Spektrum der Installateurarbeiten. Hier ein ï¿½berblick:</p>
             </div>
             <div class="service-grid service-grid--2">
                 <article class="service-feature">
                     <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Rohrbruch & Wasserschaden</h3>
-                        <p>Schnelle Ortung der Schadstelle, professionelle Reparatur und Trocknung – wir minimieren Folgeschäden.</p>
+                        <p>Schnelle Ortung der Schadstelle, professionelle Reparatur und Trocknung ï¿½ wir minimieren Folgeschï¿½den.</p>
                     </div>
                 </article>
                 <article class="service-feature">
@@ -219,28 +219,28 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
                     <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Heizungsreparatur</h3>
-                        <p>Ob Gastherme, Ölheizung oder Wärmepumpe – wir finden den Fehler und bringen Ihre Wärme zurück.</p>
+                        <p>Ob Gastherme, ï¿½lheizung oder Wï¿½rmepumpe ï¿½ wir finden den Fehler und bringen Ihre Wï¿½rme zurï¿½ck.</p>
                     </div>
                 </article>
                 <article class="service-feature">
                     <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
-                        <h3>Sanitär Installation</h3>
-                        <p>Von der neuen Waschtischarmatur bis zur kompletten Badsanierung – wir setzen Ihre Wünsche um.</p>
+                        <h3>Sanitï¿½r Installation</h3>
+                        <p>Von der neuen Waschtischarmatur bis zur kompletten Badsanierung ï¿½ wir setzen Ihre Wï¿½nsche um.</p>
                     </div>
                 </article>
                 <article class="service-feature">
                     <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Thermenwartung</h3>
-                        <p>Regelmäßige Wartung verlängert die Lebensdauer und spart Energie. Wir prüfen alle sicherheitsrelevanten Teile.</p>
+                        <p>Regelmï¿½ï¿½ige Wartung verlï¿½ngert die Lebensdauer und spart Energie. Wir prï¿½fen alle sicherheitsrelevanten Teile.</p>
                     </div>
                 </article>
                 <article class="service-feature">
                     <div class="service-feature__icon" aria-hidden="true">??</div>
                     <div>
                         <h3>Notdienst & Bereitschaft</h3>
-                        <p>24h besetzt – bei Stromausfall, Gasgeruch oder plötzlichem Warmwasserstopp sind wir sofort für Sie da.</p>
+                        <p>24h besetzt ï¿½ bei Stromausfall, Gasgeruch oder plï¿½tzlichem Warmwasserstopp sind wir sofort fï¿½r Sie da.</p>
                     </div>
                 </article>
             </div>
@@ -253,11 +253,11 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
             <div class="card-split">
                 <div class="card-split__text">
                     <div class="card-box">
-                        <h2>Regelmäßige Wartung – damit alles rund läuft</h2>
-                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stört seltener. Gerade in Floridsdorf mit vielen Einfamilienhäusern, Siedlungsbauten und älteren Genossenschaftsbauten ist die jährliche Inspektion besonders wichtig. Unser Installateur überprüft bei der Wartung alle Komponenten: Brenner, Wärmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfüllen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei Gasgeräten), sondern sparen langfristig Geld und vermeiden teure Notfälle. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
+                        <h2>Regelmï¿½ï¿½ige Wartung ï¿½ damit alles rund lï¿½uft</h2>
+                        <p>Eine gut gewartete Heizungsanlage arbeitet nicht nur effizienter, sondern ist auch sicherer und stï¿½rt seltener. Gerade in Floridsdorf mit vielen Einfamilienhï¿½usern, Siedlungsbauten und ï¿½lteren Genossenschaftsbauten ist die jï¿½hrliche Inspektion besonders wichtig. Unser Installateur ï¿½berprï¿½ft bei der Wartung alle Komponenten: Brenner, Wï¿½rmetauscher, Sicherheitsventile, Abgaswege und Regelung. Wir reinigen, justieren nach und dokumentieren den Zustand. So erfï¿½llen Sie nicht nur Ihre gesetzliche Pflicht (z.B. bei Gasgerï¿½ten), sondern sparen langfristig Geld und vermeiden teure Notfï¿½lle. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Fï¿½r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederï¿½sterreich</a>.</p>
                         <div class="service-stats">
-                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Höhere Effizienz</div></div>
-                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Ausfälle</div></div>
+                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Hï¿½here Effizienz</div></div>
+                            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Ausfï¿½lle</div></div>
                             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
                         </div>
                     </div>
@@ -277,8 +277,8 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
             <div class="card-split card-split--reverse">
                 <div class="card-split__text">
                     <div class="card-box">
-                        <h2>Reparaturen – schnell und fachgerecht</h2>
-                        <p>Wenn die Heizung nicht zündet, die Spülung läuft oder der Boiler tropft, ist schnelle Hilfe gefragt. Unser Installateur Notdienst in 1210 diagnostiziert den Fehler meist direkt vor Ort und hat die gängigsten Ersatzteile bereits im Fahrzeug dabei. So können wir viele Reparaturen sofort erledigen – ohne zweiten Termin. Sollte doch ein Spezialteil nötig sein, organisieren wir es schnellstmöglich und halten Sie über den Fortschritt auf dem Laufenden. Wir arbeiten markenunabhängig und kennen die typischen Schwachstellen aller gängigen Fabrikate.</p>
+                        <h2>Reparaturen ï¿½ schnell und fachgerecht</h2>
+                        <p>Wenn die Heizung nicht zï¿½ndet, die Spï¿½lung lï¿½uft oder der Boiler tropft, ist schnelle Hilfe gefragt. Unser Installateur Notdienst in 1210 diagnostiziert den Fehler meist direkt vor Ort und hat die gï¿½ngigsten Ersatzteile bereits im Fahrzeug dabei. So kï¿½nnen wir viele Reparaturen sofort erledigen ï¿½ ohne zweiten Termin. Sollte doch ein Spezialteil nï¿½tig sein, organisieren wir es schnellstmï¿½glich und halten Sie ï¿½ber den Fortschritt auf dem Laufenden. Wir arbeiten markenunabhï¿½ngig und kennen die typischen Schwachstellen aller gï¿½ngigen Fabrikate.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
@@ -294,8 +294,8 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
     <section class="service-section service-section--dark" id="notdienst-services">
         <div class="container service-emergency">
             <div class="service-emergency__text">
-                <h2>Installateur Notdienst 1210 Wien – 24/7 für Sie erreichbar</h2>
-                <p>Ein Rohrbruch überschwemmt den Keller, mitten in der Nacht fällt die Heizung aus oder am Sonntagmorgen ist der Abfluss dicht – das sind die Momente, in denen Sie unseren 24h-Notdienst brauchen. Wir sind rund um die Uhr für Bewohner und Betriebe in Floridsdorf im Einsatz. Ein Anruf genügt, und unser Bereitschaftsteam macht sich sofort auf den Weg zu Ihnen. Wir sichern die Schadensstelle, beheben das akute Problem und beraten Sie, ob weitere Maßnahmen nötig sind. Vertrauen Sie auf unsere jahrelange Erfahrung im Notfallmanagement.</p>
+                <h2>Installateur Notdienst 1210 Wien ï¿½ 24/7 fï¿½r Sie erreichbar</h2>
+                <p>Ein Rohrbruch ï¿½berschwemmt den Keller, mitten in der Nacht fï¿½llt die Heizung aus oder am Sonntagmorgen ist der Abfluss dicht ï¿½ das sind die Momente, in denen Sie unseren 24h-Notdienst brauchen. Wir sind rund um die Uhr fï¿½r Bewohner und Betriebe in Floridsdorf im Einsatz. Ein Anruf genï¿½gt, und unser Bereitschaftsteam macht sich sofort auf den Weg zu Ihnen. Wir sichern die Schadensstelle, beheben das akute Problem und beraten Sie, ob weitere Maï¿½nahmen nï¿½tig sind. Vertrauen Sie auf unsere jahrelange Erfahrung im Notfallmanagement.</p>
                 <div class="service-emergency__actions">
                     <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
                     <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
@@ -303,16 +303,16 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
             </div>
             <div class="service-emergency__panel">
                 <div class="service-panel">
-                    <h3>Typische Notfälle in 1210</h3>
+                    <h3>Typische Notfï¿½lle in 1210</h3>
                     <ul class="service-checklist service-checklist--on-dark">
                         <li>Rohrbruch / Wasserrohrbruch</li>
                         <li>Verstopfter Abfluss oder WC</li>
-                        <li>Heizungsausfall (keine Wärme)</li>
+                        <li>Heizungsausfall (keine Wï¿½rme)</li>
                         <li>Kein Warmwasser</li>
                         <li>Gasgeruch / defekte Gastherme</li>
                         <li>Undichte Armaturen</li>
                     </ul>
-                    <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in Floridsdorf.</p>
+                    <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar ï¿½ schnelle Hilfe in Floridsdorf.</p>
                 </div>
             </div>
         </div>
@@ -330,8 +330,8 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Faire & transparente Preise</h2>
-                        <p>Wir wissen, dass Kosten im Notfall oft ein zusätzlicher Stressfaktor sind. Deshalb legen wir größten Wert auf transparente Preisgestaltung. Bevor wir mit der Arbeit beginnen, erhalten Sie eine klare Ansage über den voraussichtlichen Preis – abhängig von Aufwand und Material. Für viele Standardeinsätze (z.B. Rohrreinigung, Thermenstörung) haben wir Festpreise, die wir einhalten. Natürlich erstellen wir auf Wunsch auch einen detaillierten Kostenvoranschlag. Bei uns gibt es keine versteckten Anfahrts- oder Bereitstellungspauschalen. Was wir besprechen, zahlen Sie.</p>
-                        <p>Für planbare Projekte wie eine Badsanierung oder den Thermentausch erstellen wir ein unverbindliches Angebot – selbstverständlich kostenlos.</p>
+                        <p>Wir wissen, dass Kosten im Notfall oft ein zusï¿½tzlicher Stressfaktor sind. Deshalb legen wir grï¿½ï¿½ten Wert auf transparente Preisgestaltung. Bevor wir mit der Arbeit beginnen, erhalten Sie eine klare Ansage ï¿½ber den voraussichtlichen Preis ï¿½ abhï¿½ngig von Aufwand und Material. Fï¿½r viele Standardeinsï¿½tze (z.B. Rohrreinigung, Thermenstï¿½rung) haben wir Festpreise, die wir einhalten. Natï¿½rlich erstellen wir auf Wunsch auch einen detaillierten Kostenvoranschlag. Bei uns gibt es keine versteckten Anfahrts- oder Bereitstellungspauschalen. Was wir besprechen, zahlen Sie.</p>
+                        <p>Fï¿½r planbare Projekte wie eine Badsanierung oder den Thermentausch erstellen wir ein unverbindliches Angebot ï¿½ selbstverstï¿½ndlich kostenlos.</p>
                     </div>
                 </div>
             </div>
@@ -345,7 +345,7 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
                 <div class="card-split__text">
                     <div class="card-box">
                         <h2>Schnell im ganzen Bezirk Floridsdorf</h2>
-                        <p>Unser Einsatzgebiet umfasst den gesamten 21. Wiener Gemeindebezirk – von der Floridsdorfer Brücke über die Prager Straße, die Großfeldsiedlung, Stammersdorf, Strebersdorf, Donaufeld bis hin nach Jedlesee und Schwarze Lacken. Durch unsere zentrale Lage in 1210 erreichen wir Sie in der Regel innerhalb von 30 Minuten. Wir kennen die Eigenheiten der verschiedenen Grätzel: die Einfamilienhaussiedlungen mit ihren oft älteren Heizungskellern, die Genossenschaftsbauten mit ihren zentralen Steigsträngen und die Neubauten an der Donau mit modernster Haustechnik. Diese Ortskenntnis hilft uns, Probleme schneller zu lokalisieren und passgenau zu lösen. Wenn Sie einen Installateur in Floridsdorf suchen, sind Sie bei uns genau richtig.</p>
+                        <p>Unser Einsatzgebiet umfasst den gesamten 21. Wiener Gemeindebezirk ï¿½ von der Floridsdorfer Brï¿½cke ï¿½ber die Prager Straï¿½e, die Groï¿½feldsiedlung, Stammersdorf, Strebersdorf, Donaufeld bis hin nach Jedlesee und Schwarze Lacken. Durch unsere zentrale Lage in 1210 erreichen wir Sie in der Regel innerhalb von 30 Minuten. Wir kennen die Eigenheiten der verschiedenen Grï¿½tzel: die Einfamilienhaussiedlungen mit ihren oft ï¿½lteren Heizungskellern, die Genossenschaftsbauten mit ihren zentralen Steigstrï¿½ngen und die Neubauten an der Donau mit modernster Haustechnik. Diese Ortskenntnis hilft uns, Probleme schneller zu lokalisieren und passgenau zu lï¿½sen. Wenn Sie einen Installateur in Floridsdorf suchen, sind Sie bei uns genau richtig.</p>
                     </div>
                 </div>
                 <div class="card-split__media">
@@ -360,40 +360,40 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
     <section class="service-section service-section--soft" id="thermen-services">
         <div class="container">
             <div class="service-section__head">
-                <h2>Thermenservice für alle Marken</h2>
-                <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
+                <h2>Thermenservice fï¿½r alle Marken</h2>
+                <p>Ob Vaillant, Junkers, Buderus oder Wolf ï¿½ wir warten und reparieren alle gï¿½ngigen Gasgerï¿½te. Regelmï¿½ï¿½ige Wartung sorgt fï¿½r Sicherheit, Effizienz und eine lï¿½ngere Lebensdauer Ihrer Therme.</p>
             </div>
 
             <div class="brand-grid">
                 <!-- 1 -->
                 <a class="brand-card" href="#">
                     <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
-                    <span>VAILLANT THERMENSERVICE</span>
+                    <span>VAILLANT THERMENTAUSCH</span>
                 </a>
                 <!-- 2 -->
                 <a class="brand-card" href="#">
                     <img src="img/1buderus.webp" alt="Buderus Thermenservice">
-                    <span>BUDERUS THERMENSERVICE</span>
+                    <span>BUDERUS THERMENTAUSCH</span>
                 </a>
                 <!-- 3 -->
                 <a class="brand-card" href="#">
                     <img src="img/1baxi.webp" alt="Baxi Thermenservice">
-                    <span>BAXI THERMENSERVICE</span>
+                    <span>BAXI THERMENTAUSCH</span>
                 </a>
                 <!-- 4 -->
                 <a class="brand-card" href="#">
                     <img src="img/1junkers.webp" alt="Junkers Thermenservice">
-                    <span>JUNKERS THERMENSERVICE</span>
+                    <span>JUNKERS THERMENTAUSCH</span>
                 </a>
                 <!-- 5 -->
                 <a class="brand-card" href="#">
                     <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
-                    <span>VIESSMANN THERMENSERVICE</span>
+                    <span>VIESSMANN THERMENTAUSCH</span>
                 </a>
                 <!-- 6 -->
                 <a class="brand-card" href="#">
                     <img src="img/1wolf.webp" alt="Wolf Thermenservice">
-                    <span>WOLF THERMENSERVICE</span>
+                    <span>WOLF THERMENTAUSCH</span>
                 </a>
                 <!-- 7 -->
                 <a class="brand-card" href="#">
@@ -402,18 +402,18 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
                 </a>
                 <!-- 8 -->
                 <a class="brand-card" href="#">
-                    <img src="img/1loblich.webp" alt="Löblich Thermenservice">
-                    <span>LÖBLICH THERMENSERVICE</span>
+                    <img src="img/1loblich.webp" alt="Lï¿½blich Thermenservice">
+                    <span>Lï¿½BLI THERMENTAUSCH</span>n>
                 </a>
                 <!-- 9 -->
                 <a class="brand-card" href="#">
                     <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
-                    <span>OCEAN THERMENSERVICE</span>
+                    <span>OCEAN THERMENTAUSCH</span>
                 </a>
                 <!-- 10 -->
                 <a class="brand-card" href="#">
                     <img src="img/1rapido.webp" alt="Rapido Thermenservice">
-                    <span>RAPIDO THERMENSERVICE</span>
+                    <span>RAPIDO THERMENTAUSCH</span>
                 </a>
                 <!-- 11 -->
                 <a class="brand-card" href="#">
@@ -433,45 +433,45 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
     <section class="service-section" id="faq-services">
         <div class="container">
             <div class="service-section__head">
-                <h2>FAQ – Installateur 1210 Wien</h2>
-                <p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p>
+                <h2>FAQ ï¿½ Installateur 1210 Wien</h2>
+                <p>Antworten auf die hï¿½ufigsten Fragen ï¿½ kurz, klar und praxisnah.</p>
             </div>
             <div class="service-faq">
                 <details>
                     <summary>1. Wie schnell sind Sie in Floridsdorf vor Ort?</summary>
-                    <p>In der Regel innerhalb von 30 Minuten. Bei dringenden Notfällen priorisieren wir Ihren Einsatz und kommen noch schneller.</p>
+                    <p>In der Regel innerhalb von 30 Minuten. Bei dringenden Notfï¿½llen priorisieren wir Ihren Einsatz und kommen noch schneller.</p>
                 </details>
                 <details>
                     <summary>2. Was kostet der Installateur Notdienst?</summary>
-                    <p>Für den Notfall berechnen wir eine transparente Einsatzpauschale plus Arbeitszeit. Wir nennen Ihnen die Kosten vor Arbeitsbeginn. Bei Standardfällen (z.B. Rohrreinigung) gibt es oft einen Festpreis.</p>
+                    <p>Fï¿½r den Notfall berechnen wir eine transparente Einsatzpauschale plus Arbeitszeit. Wir nennen Ihnen die Kosten vor Arbeitsbeginn. Bei Standardfï¿½llen (z.B. Rohrreinigung) gibt es oft einen Festpreis.</p>
                 </details>
                 <details>
                     <summary>3. Arbeiten Sie auch am Wochenende?</summary>
-                    <p>Ja, unser Notdienst ist 24/7 besetzt – auch an Samstagen, Sonn- und Feiertagen. Ein Aufschlag für Wochenenddienste ist branchenüblich, dennoch bleiben unsere Preise fair.</p>
+                    <p>Ja, unser Notdienst ist 24/7 besetzt ï¿½ auch an Samstagen, Sonn- und Feiertagen. Ein Aufschlag fï¿½r Wochenenddienste ist branchenï¿½blich, dennoch bleiben unsere Preise fair.</p>
                 </details>
                 <details>
                     <summary>4. Was tun bei einem Wasserrohrbruch?</summary>
-                    <p>Hauptwasserhahn zudrehen (meist in der Wohnung oder im Keller), Strom im betroffenen Bereich abschalten und uns sofort anrufen. Wir kümmern uns um die Abdichtung und Trocknung.</p>
+                    <p>Hauptwasserhahn zudrehen (meist in der Wohnung oder im Keller), Strom im betroffenen Bereich abschalten und uns sofort anrufen. Wir kï¿½mmern uns um die Abdichtung und Trocknung.</p>
                 </details>
                 <details>
                     <summary>5. Bieten Sie auch Thermenwartung an?</summary>
-                    <p>Ja, für alle Marken. Wir empfehlen eine jährliche Wartung – besonders bei Gasgeräten. Vereinbaren Sie einfach einen Termin.</p>
+                    <p>Ja, fï¿½r alle Marken. Wir empfehlen eine jï¿½hrliche Wartung ï¿½ besonders bei Gasgerï¿½ten. Vereinbaren Sie einfach einen Termin.</p>
                 </details>
                 <details>
                     <summary>6. Kann ich einen Termin online buchen?</summary>
-                    <p>Nutzen Sie das Kontaktformular oder rufen Sie uns direkt an. Wir bestätigen Ihnen zeitnah einen fixen Termin.</p>
+                    <p>Nutzen Sie das Kontaktformular oder rufen Sie uns direkt an. Wir bestï¿½tigen Ihnen zeitnah einen fixen Termin.</p>
                 </details>
                 <details>
                     <summary>7. Sind Ihre Installateure zertifiziert?</summary>
-                    <p>Ja, alle unsere Mitarbeiter haben eine abgeschlossene Berufsausbildung und regelmäßige Schulungen. Wir sind ein konzessionierter Installationsbetrieb.</p>
+                    <p>Ja, alle unsere Mitarbeiter haben eine abgeschlossene Berufsausbildung und regelmï¿½ï¿½ige Schulungen. Wir sind ein konzessionierter Installationsbetrieb.</p>
                 </details>
                 <details>
                     <summary>8. Reparieren Sie auch alte Heizungen?</summary>
-                    <p>Solange Ersatzteile verfügbar sind, reparieren wir auch ältere Anlagen. Wenn eine Reparatur unwirtschaftlich wird, beraten wir Sie über moderne Alternativen.</p>
+                    <p>Solange Ersatzteile verfï¿½gbar sind, reparieren wir auch ï¿½ltere Anlagen. Wenn eine Reparatur unwirtschaftlich wird, beraten wir Sie ï¿½ber moderne Alternativen.</p>
                 </details>
                 <details>
                     <summary>9. Was muss ich bei einem Notfall selbst tun?</summary>
-                    <p>Bleiben Sie ruhig, sichern Sie die Gefahrenstelle (z.B. Wasser abstellen) und rufen Sie uns an. Schildern Sie das Problem so genau wie möglich – das hilft uns, das richtige Werkzeug mitzunehmen.</p>
+                    <p>Bleiben Sie ruhig, sichern Sie die Gefahrenstelle (z.B. Wasser abstellen) und rufen Sie uns an. Schildern Sie das Problem so genau wie mï¿½glich ï¿½ das hilft uns, das richtige Werkzeug mitzunehmen.</p>
                 </details>
                 <details>
                     <summary>10. Zahlen Sie die Anfahrt extra?</summary>
@@ -487,11 +487,11 @@ $metaDescription = "Installateur Notdienst 1210 Wien – schneller Installateur Wi
             <div class="service-cta__inner">
                 <div>
                     <h2>Jetzt Termin vereinbaren</h2>
-                    <p>Sie haben ein akutes Problem oder möchten einen Wartungstermin? Rufen Sie uns einfach an oder schreiben Sie uns über das Formular. Wir melden uns umgehend bei Ihnen.</p>
+                    <p>Sie haben ein akutes Problem oder mï¿½chten einen Wartungstermin? Rufen Sie uns einfach an oder schreiben Sie uns ï¿½ber das Formular. Wir melden uns umgehend bei Ihnen.</p>
                     <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
                     <p style="margin-top:5px"><strong>??</strong> <a href="mailto:office@example.com">office@example.com</a></p>
                 </div>
-                <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke für Ihre Anfrage! Wir melden uns so schnell wie möglich.');">
+                <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke fï¿½r Ihre Anfrage! Wir melden uns so schnell wie mï¿½glich.');">
                     <div class="service-formrow">
                         <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
                         <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>

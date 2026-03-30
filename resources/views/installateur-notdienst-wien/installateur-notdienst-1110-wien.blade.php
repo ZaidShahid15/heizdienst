@@ -4,7 +4,7 @@
 
     @php
     $metaTitle = "Installateur 1110 Wien | Wartung, Reparatur & Notdienst";
-    $metaDescription = "Installateur 1110 Wien (Simmering) für Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere Ausführung.";
+    $metaDescription = "Installateur 1110 Wien (Simmering) fï¿½r Heizung, Warmwasser, Wartung, Reparatur und Notdienst. Schnelle Hilfe, klare Preise, saubere Ausfï¿½hrung.";
     @endphp
 
     @push('meta')
@@ -40,7 +40,7 @@
 
 
 
-      <p class="wolf-hero__sub">Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+      <p class="wolf-hero__sub">Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -124,8 +124,8 @@
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Installateur-Service in 1110 Wien – zuverlässig & strukturiert</h2>
-          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1100-wien') }}">weiterführenden Informationen</a>.</p>
+          <h2>Installateur-Service in 1110 Wien ï¿½ zuverlï¿½ssig & strukturiert</h2>
+          <p>Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert. Weitere Details finden Sie in unseren <a href="{{ route('installateur-notdienst-1100-wien') }}">weiterfï¿½hrenden Informationen</a>.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.webp" alt="Installateur Service 1110 Wien" loading="lazy" decoding="async">
@@ -134,13 +134,13 @@
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Wartung & Prüfung</h3><p>Regelmäßige Checks erhöhen Sicherheit, senken Verbrauch und verhindern Ausfälle im Alltag.</p>
+          <h3>Wartung & Prï¿½fung</h3><p>Regelmï¿½ï¿½ige Checks erhï¿½hen Sicherheit, senken Verbrauch und verhindern Ausfï¿½lle im Alltag.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
-          <h3>Reparatur & Fehlerbehebung</h3><p>Schnelle Diagnose bei Störungen – zielgerichtete Lösung, verständlich erklärt und sauber umgesetzt.</p>
+          <h3>Reparatur & Fehlerbehebung</h3><p>Schnelle Diagnose bei Stï¿½rungen ï¿½ zielgerichtete Lï¿½sung, verstï¿½ndlich erklï¿½rt und sauber umgesetzt.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?????</div><div>
-          <h3>Erfahrene Fachkräfte</h3><p>Praxiswissen und strukturierte Abläufe sorgen für stabile Ergebnisse – vom ersten Kontakt bis zur Lösung.</p>
+          <h3>Erfahrene Fachkrï¿½fte</h3><p>Praxiswissen und strukturierte Ablï¿½ufe sorgen fï¿½r stabile Ergebnisse ï¿½ vom ersten Kontakt bis zur Lï¿½sung.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
           <h3>Schnell im Bezirk</h3><p>Kurze Wege in 1110 Wien helfen, Termine rasch zu koordinieren und vor Ort effizient zu handeln.</p>
@@ -154,8 +154,8 @@
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Unser erfahrenes Team für 1110 Wien</h2>
-          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Unser erfahrenes Team fï¿½r 1110 Wien</h2>
+          <p>Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -172,14 +172,14 @@
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Leistungen im Überblick</h2><p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p></div>
+      <div class="service-section__head"><h2>Leistungen im ï¿½berblick</h2><p>Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p></div>
       <div class="service-grid service-grid--2">
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Wartung</h3><p>Reinigung, Prüfung, Einstellung und Funktionskontrolle – für einen sicheren, effizienten Betrieb.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Service & Optimierung</h3><p>Feinabstimmung, Druck-Checks und Effizienz-Optimierung – damit Ihre Anlage stabil läuft.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Reparaturen</h3><p>Zügige Fehlerdiagnose und fachgerechte Reparatur – mit Blick auf Nachhaltigkeit und Folgekosten.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Heizung & Warmwasser</h3><p>Unterstützung bei Ausfall, schwankender Temperatur oder Druckproblemen – praxisnah gelöst.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Modernisierung</h3><p>Beratung zu Austausch und Modernisierung – passend zu Bedarf, Budget und Anlagenzustand.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Sicherheit</h3><p>Kontrolle sicherheitsrelevanter Komponenten – für zuverlässigen Betrieb und mehr Wohlbefinden.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Wartung</h3><p>Reinigung, Prï¿½fung, Einstellung und Funktionskontrolle ï¿½ fï¿½r einen sicheren, effizienten Betrieb.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Service & Optimierung</h3><p>Feinabstimmung, Druck-Checks und Effizienz-Optimierung ï¿½ damit Ihre Anlage stabil lï¿½uft.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Reparaturen</h3><p>Zï¿½gige Fehlerdiagnose und fachgerechte Reparatur ï¿½ mit Blick auf Nachhaltigkeit und Folgekosten.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Heizung & Warmwasser</h3><p>Unterstï¿½tzung bei Ausfall, schwankender Temperatur oder Druckproblemen ï¿½ praxisnah gelï¿½st.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Modernisierung</h3><p>Beratung zu Austausch und Modernisierung ï¿½ passend zu Bedarf, Budget und Anlagenzustand.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Sicherheit</h3><p>Kontrolle sicherheitsrelevanter Komponenten ï¿½ fï¿½r zuverlï¿½ssigen Betrieb und mehr Wohlbefinden.</p></div></article>
       </div>
     </div>
   </section>
@@ -189,11 +189,11 @@
     <div class="container">
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
-          <h2>Wartung in 1110 Wien – planbar & sicher</h2>
-          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
+          <h2>Wartung in 1110 Wien ï¿½ planbar & sicher</h2>
+          <p>Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Fï¿½r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederï¿½sterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Störungen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Stï¿½rungen</div></div>
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
           </div>
         </div></div>
@@ -209,8 +209,8 @@
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Reparaturen & Austausch – wenn es darauf ankommt</h2>
-          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <h2>Reparaturen & Austausch ï¿½ wenn es darauf ankommt</h2>
+          <p>Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size4.webp" alt="Reparatur 1110 Wien" loading="lazy" decoding="async">
@@ -223,21 +223,21 @@
   <section class="service-section service-section--dark" id="notdienst-services">
     <div class="container service-emergency">
       <div class="service-emergency__text">
-        <h2>Notdienst in 1110 Wien – 24/7 erreichbar</h2>
-        <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+        <h2>Notdienst in 1110 Wien ï¿½ 24/7 erreichbar</h2>
+        <p>Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdienst-Einsätze</h3>
+        <h3>Typische Notdienst-Einsï¿½tze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
-          <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
-          <li>Sicherheitsrelevante Auffälligkeiten am Gerät</li>
+          <li>Fehlermeldungen, Druckprobleme oder Stï¿½rgerï¿½usche</li>
+          <li>Sicherheitsrelevante Auffï¿½lligkeiten am Gerï¿½t</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1110 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar ï¿½ schnelle Hilfe in 1110 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -251,8 +251,8 @@
         </div></div>
         <div class="card-split__text"><div class="card-box">
           <h2>Kosten & transparente Beratung</h2>
-          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
-          <p>Für planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Störungen erklären wir nachvollziehbar, welche Schritte nötig sind und wie sich die Kosten zusammensetzen.</p>
+          <p>Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p>
+          <p>Fï¿½r planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Stï¿½rungen erklï¿½ren wir nachvollziehbar, welche Schritte nï¿½tig sind und wie sich die Kosten zusammensetzen.</p>
         </div></div>
       </div>
     </div>
@@ -264,7 +264,7 @@
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
@@ -276,8 +276,8 @@
      <section class="service-section service-section--soft" id="thermen-services">
   <div class="container">
     <div class="service-section__head">
-      <h2>Thermenservice für alle Marken</h2>
-      <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
+      <h2>Thermenservice fï¿½r alle Marken</h2>
+      <p>Ob Vaillant, Junkers, Buderus oder Wolf ï¿½ wir warten und reparieren alle gï¿½ngigen Gasgerï¿½te. Regelmï¿½ï¿½ige Wartung sorgt fï¿½r Sicherheit, Effizienz und eine lï¿½ngere Lebensdauer Ihrer Therme.</p>
     </div>
 
     <div class="brand-grid">
@@ -285,38 +285,32 @@
       <!-- 1 -->
       <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
     <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
-    <span>VAILLANT THERMENSERVICE</span>
-  </a>
+    <span>VAILLANT  </a>
 
       <!-- 2 -->
       <a class="brand-card" href="{{ route('buderus.thermentausch') }}">
     <img src="img/1buderus.webp" alt="Buderus Thermenservice">
-    <span>BUDERUS THERMENSERVICE</span>
-  </a>
+    <span>BUDERUS  </a>
 
       <!-- 3 -->
         <a class="brand-card" href="{{ route('baxi.thermentausch') }}">
     <img src="img/1baxi.webp" alt="Baxi Thermenservice">
-    <span>BAXI THERMENSERVICE</span>
-  </a>
+    <span>BAXI  </a>
 
       <!-- 4 -->
         <a class="brand-card" href="{{ route('junkers.thermentausch') }}">
     <img src="img/1junkers.webp" alt="Junkers Thermenservice">
-    <span>JUNKERS THERMENSERVICE</span>
-  </a>
+    <span>JUNKERS  </a>
 
       <!-- 5 -->
         <a class="brand-card" href="{{ route('viessmann.thermentausch') }}">
     <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
-    <span>VIESSMANN THERMENSERVICE</span>
-  </a>
+    <span>VIESSMANN  </a>
 
       <!-- 6 -->
         <a class="brand-card" href="{{ route('wolf.thermentausch') }}">
     <img src="img/1wolf.webp" alt="Wolf Thermenservice">
-    <span>WOLF THERMENSERVICE</span>
-  </a>
+    <span>WOLF  </a>
 
       <!-- 7 -->
        <a class="brand-card" href="{{ route('saunier-duval.thermentausch') }}">
@@ -326,21 +320,19 @@
 
       <!-- 8 -->
  <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.webp" alt="Löblich Thermenservice">
-    <span>LÖBLICH THERMENSERVICE</span>
+    <img src="img/1loblich.webp" alt="Lï¿½blich Thermenservice">
+    <span>Lï¿½BLI>
   </a>
 
       <!-- 9 -->
       <a class="brand-card" href="{{ route('ocean.thermentausch') }}">
     <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
-    <span>OCEAN THERMENSERVICE</span>
-  </a>
+    <span>OCEAN  </a>
 
       <!-- 10 -->
       <a class="brand-card" href="{{ route('rapido.thermentausch') }}">
     <img src="img/1rapido.webp" alt="Rapido Thermenservice">
-    <span>RAPIDO THERMENSERVICE</span>
-  </a>
+    <span>RAPIDO  </a>
 
       <!-- 11 -->
      <a class="brand-card" href="{{ route('windhager.thermentausch') }}">
@@ -363,46 +355,46 @@
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>FAQ – Installateur 1110 Wien</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
+      <div class="service-section__head"><h2>FAQ ï¿½ Installateur 1110 Wien</h2><p>Antworten auf die hï¿½ufigsten Fragen ï¿½ kurz, klar und praxisnah.</p></div>
       <div class="service-faq"><details>
           <summary>1. Wie schnell sind Sie in meinem Bezirk vor Ort?</summary>
-          <p>In der Regel erreichen wir Sie je nach Verkehrslage innerhalb kurzer Zeit. Für 1110 Wien planen wir Einsätze so, dass Anfahrt, Diagnose und erste Maßnahmen effizient ablaufen.</p>
+          <p>In der Regel erreichen wir Sie je nach Verkehrslage innerhalb kurzer Zeit. Fï¿½r 1110 Wien planen wir Einsï¿½tze so, dass Anfahrt, Diagnose und erste Maï¿½nahmen effizient ablaufen.</p>
         </details>
         <details>
           <summary>2. Bieten Sie Installateur-Notdienst in 1110 Wien an?</summary>
-          <p>Ja. Bei Ausfällen von Heizung, Warmwasser oder sicherheitsrelevanten Auffälligkeiten helfen wir auch außerhalb der üblichen Zeiten.</p>
+          <p>Ja. Bei Ausfï¿½llen von Heizung, Warmwasser oder sicherheitsrelevanten Auffï¿½lligkeiten helfen wir auch auï¿½erhalb der ï¿½blichen Zeiten.</p>
         </details>
         <details>
           <summary>3. Welche Leistungen umfasst eine Wartung?</summary>
-          <p>Wir prüfen Gerätezustand, reinigen relevante Komponenten, kontrollieren Sicherheitseinrichtungen und optimieren Einstellungen – für stabilen Betrieb und geringeren Verbrauch.</p>
+          <p>Wir prï¿½fen Gerï¿½tezustand, reinigen relevante Komponenten, kontrollieren Sicherheitseinrichtungen und optimieren Einstellungen ï¿½ fï¿½r stabilen Betrieb und geringeren Verbrauch.</p>
         </details>
         <details>
-          <summary>4. Reparieren Sie auch ältere Anlagen?</summary>
-          <p>Ja, sofern Ersatzteile verfügbar sind. Wir beurteilen Wirtschaftlichkeit und beraten transparent, ob Reparatur oder Austausch sinnvoller ist.</p>
+          <summary>4. Reparieren Sie auch ï¿½ltere Anlagen?</summary>
+          <p>Ja, sofern Ersatzteile verfï¿½gbar sind. Wir beurteilen Wirtschaftlichkeit und beraten transparent, ob Reparatur oder Austausch sinnvoller ist.</p>
         </details>
         <details>
           <summary>5. Gibt es transparente Preise?</summary>
-          <p>Vor Ort erhalten Sie eine klare Einschätzung der Arbeiten. Bei planbaren Leistungen nennen wir Richtwerte und erklären die Kostentreiber verständlich.</p>
+          <p>Vor Ort erhalten Sie eine klare Einschï¿½tzung der Arbeiten. Bei planbaren Leistungen nennen wir Richtwerte und erklï¿½ren die Kostentreiber verstï¿½ndlich.</p>
         </details>
         <details>
           <summary>6. Kann ich einen Termin online anfragen?</summary>
-          <p>Ja. Nutzen Sie das Formular im Kontaktbereich. Wir melden uns zeitnah zur Terminbestätigung.</p>
+          <p>Ja. Nutzen Sie das Formular im Kontaktbereich. Wir melden uns zeitnah zur Terminbestï¿½tigung.</p>
         </details>
         <details>
           <summary>7. Arbeiten Sie sauber und dokumentiert?</summary>
-          <p>Ja. Wir schützen den Arbeitsbereich, arbeiten nachvollziehbar und dokumentieren die wichtigsten Schritte – hilfreich für spätere Wartungen.</p>
+          <p>Ja. Wir schï¿½tzen den Arbeitsbereich, arbeiten nachvollziehbar und dokumentieren die wichtigsten Schritte ï¿½ hilfreich fï¿½r spï¿½tere Wartungen.</p>
         </details>
         <details>
           <summary>8. Welche Marken und Systeme betreuen Sie?</summary>
-          <p>Wir betreuen gängige Heizungs- und Warmwassersysteme und kennen typische Fehlerbilder. Fragen Sie gern nach Ihrer konkreten Anlage.</p>
+          <p>Wir betreuen gï¿½ngige Heizungs- und Warmwassersysteme und kennen typische Fehlerbilder. Fragen Sie gern nach Ihrer konkreten Anlage.</p>
         </details>
         <details>
-          <summary>9. Wie kann ich Störungen vorbeugen?</summary>
-          <p>Regelmäßige Wartung, korrekte Druckeinstellungen und das rechtzeitige Reagieren auf Fehlermeldungen reduzieren Ausfälle deutlich.</p>
+          <summary>9. Wie kann ich Stï¿½rungen vorbeugen?</summary>
+          <p>Regelmï¿½ï¿½ige Wartung, korrekte Druckeinstellungen und das rechtzeitige Reagieren auf Fehlermeldungen reduzieren Ausfï¿½lle deutlich.</p>
         </details>
         <details>
-          <summary>10. Was brauche ich für den Einsatz?</summary>
-          <p>Hilfreich sind Gerätedaten (Typenschild), letzte Wartungsunterlagen und eine kurze Beschreibung der Symptome. Das beschleunigt Diagnose und Lösung.</p>
+          <summary>10. Was brauche ich fï¿½r den Einsatz?</summary>
+          <p>Hilfreich sind Gerï¿½tedaten (Typenschild), letzte Wartungsunterlagen und eine kurze Beschreibung der Symptome. Das beschleunigt Diagnose und Lï¿½sung.</p>
         </details>
       </div>
     </div>
@@ -414,10 +406,10 @@
       <div class="service-cta__inner">
         <div>
           <h2>Jetzt Termin vereinbaren</h2>
-          <p>Als Installateur in 1110 Wien (Simmering) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1110 Wien (Simmering) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1110 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p>
           <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mï¿½glich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>

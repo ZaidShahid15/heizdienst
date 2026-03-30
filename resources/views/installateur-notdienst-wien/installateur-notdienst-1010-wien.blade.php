@@ -3,8 +3,8 @@
 @section('main')
 
 @php
-$metaTitle = "Installateur Notdienst 1010 Wien – 24h Installateur Wien Innenstadt";
-$metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateur Wien für Sanitär, Gas und Heizung. Soforthilfe bei Rohrbruch, Abfluss verstopft oder Heizung defekt.";
+$metaTitle = "Installateur Notdienst 1010 Wien ï¿½ 24h Installateur Wien Innenstadt";
+$metaDescription = "Installateur Notdienst 1010 Wien ï¿½ schneller 24h Installateur Wien fï¿½r Sanitï¿½r, Gas und Heizung. Soforthilfe bei Rohrbruch, Abfluss verstopft oder Heizung defekt.";
 @endphp
 
 @push('meta')
@@ -30,7 +30,7 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
       min-width:180px !important;
     }
 
-    /* === BRAND GRID (neu für Thermen Marken) === */
+    /* === BRAND GRID (neu fï¿½r Thermen Marken) === */
     .brand-grid{
       display:grid;
       grid-template-columns:repeat(3,1fr);
@@ -90,7 +90,7 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
         <span style="color:#FB9A1B;">24h Installateur Wien Innenstadt</span>
       </h1>
 
-      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1010 Wien. Unser Installateur Notdienst Wien ist rund um die Uhr erreichbar und hilft bei Sanitär-, Gas- und Heizungsproblemen.</p>
+      <p class="wolf-hero__sub">Schnelle Hilfe vom erfahrenen Installateur 1010 Wien. Unser Installateur Notdienst Wien ist rund um die Uhr erreichbar und hilft bei Sanitï¿½r-, Gas- und Heizungsproblemen.</p>
 
       <div class="wolf-hero__actions">
         <a class="wolf-btn wolf-btn--accent" href="tel:+4314420617"><i class="bi bi-telephone-fill"></i> JETZT ANRUFEN: +43 1 442 0617</a>
@@ -177,7 +177,7 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Ihr Installateur Notdienst in 1010 Wien</h2>
-          <p>Wenn ein Rohr bricht, der Abfluss verstopft oder die Heizung ausfällt, brauchen Sie schnelle und professionelle Hilfe. Unser Installateur Notdienst 1010 Wien steht Ihnen jederzeit zur Verfügung. Als erfahrener Installateur Wien 1010 bieten wir schnelle Lösungen für Haushalte und Unternehmen in der Wiener Innenstadt. Unser Notdienst Installateur 1010 Wien ist spezialisiert auf dringende Reparaturen im Bereich Gas Wasser Heizung Wien sowie Sanitärinstallationen. Egal ob Wasserrohrbruch Wien, defekte Armaturen oder ein akuter Installateur Notfall Wien – unser Team reagiert schnell und zuverlässig. Als lokaler Installateur Wien Innenstadt kennen wir die Anforderungen älterer Gebäude genauso wie moderner Anlagen. Unser Installateur Service Wien sorgt dafür, dass Ihr Zuhause oder Ihr Betrieb schnell wieder funktioniert.</p>
+          <p>Wenn ein Rohr bricht, der Abfluss verstopft oder die Heizung ausfï¿½llt, brauchen Sie schnelle und professionelle Hilfe. Unser Installateur Notdienst 1010 Wien steht Ihnen jederzeit zur Verfï¿½gung. Als erfahrener Installateur Wien 1010 bieten wir schnelle Lï¿½sungen fï¿½r Haushalte und Unternehmen in der Wiener Innenstadt. Unser Notdienst Installateur 1010 Wien ist spezialisiert auf dringende Reparaturen im Bereich Gas Wasser Heizung Wien sowie Sanitï¿½rinstallationen. Egal ob Wasserrohrbruch Wien, defekte Armaturen oder ein akuter Installateur Notfall Wien ï¿½ unser Team reagiert schnell und zuverlï¿½ssig. Als lokaler Installateur Wien Innenstadt kennen wir die Anforderungen ï¿½lterer Gebï¿½ude genauso wie moderner Anlagen. Unser Installateur Service Wien sorgt dafï¿½r, dass Ihr Zuhause oder Ihr Betrieb schnell wieder funktioniert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size6.webp" alt="Installateur Service 1010 Wien" loading="lazy" decoding="async">
@@ -186,16 +186,16 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
 
       <div class="service-grid service-grid--2" style="margin-top:14px">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Rohrbruch & Wasserschäden schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann große Schäden verursachen. Unser Installateur Notdienst Wien bietet schnelle Hilfe bei Wasserschaden Wien und sorgt dafür, dass Wasserleitungen sofort repariert werden.</p>
+          <h3>Rohrbruch & Wasserschï¿½den schnell beheben</h3><p>Ein Wasserrohrbruch Wien kann groï¿½e Schï¿½den verursachen. Unser Installateur Notdienst Wien bietet schnelle Hilfe bei Wasserschaden Wien und sorgt dafï¿½r, dass Wasserleitungen sofort repariert werden.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div>
-          <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss nicht mehr funktioniert oder das WC verstopft Wien ist, hilft unser Rohrreinigung Wien Service schnell und zuverlässig im gesamten Bereich Installateur Wien 1010.</p>
+          <h3>Abfluss verstopft oder WC verstopft</h3><p>Wenn der Abfluss nicht mehr funktioniert oder das WC verstopft Wien ist, hilft unser Rohrreinigung Wien Service schnell und zuverlï¿½ssig im gesamten Bereich Installateur Wien 1010.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?????</div><div>
-          <h3>Professioneller Installateur für Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen im Bereich Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kümmern wir uns um Gasleitungen, Thermen und Heizsysteme. Gleichzeitig übernimmt unser Sanitär Installateur Wien alle Arbeiten rund um Badezimmer, Wasserleitungen und Sanitäranlagen. Moderne Heizungstechnik Wien und zuverlässige Sanitärtechnik Wien gehören zu unseren täglichen Aufgaben. Unser Installateur Betrieb Wien bietet Reparaturen, Wartung und neue Installationen Wien für Wohnungen, Häuser und Betriebe in Wien 1010. Durch unsere Erfahrung in der Haustechnik Wien können wir schnelle und sichere Lösungen anbieten.</p>
+          <h3>Professioneller Installateur fï¿½r Gas, Wasser und Heizung</h3><p>Unser Installateur Fachbetrieb Wien bietet umfassende Leistungen im Bereich Gas Wasser Heizung Wien. Als erfahrener Gas Installateur Wien kï¿½mmern wir uns um Gasleitungen, Thermen und Heizsysteme. Gleichzeitig ï¿½bernimmt unser Sanitï¿½r Installateur Wien alle Arbeiten rund um Badezimmer, Wasserleitungen und Sanitï¿½ranlagen. Moderne Heizungstechnik Wien und zuverlï¿½ssige Sanitï¿½rtechnik Wien gehï¿½ren zu unseren tï¿½glichen Aufgaben. Unser Installateur Betrieb Wien bietet Reparaturen, Wartung und neue Installationen Wien fï¿½r Wohnungen, Hï¿½user und Betriebe in Wien 1010. Durch unsere Erfahrung in der Haustechnik Wien kï¿½nnen wir schnelle und sichere Lï¿½sungen anbieten.</p>
         </div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div>
-          <h3>Ihr Installateur in der Wiener Innenstadt</h3><p>Wenn Sie einen zuverlässigen Installateur 1010 Wien suchen, ist schnelle Verfügbarkeit entscheidend. Unser Installateur Notdienst Wien ist täglich im Zentrum tätig und erreicht Kunden in kurzer Zeit. Als erfahrener Installateur Wien 1010 betreuen wir Wohnungen, Büros und Gewerbebetriebe direkt im Herzen der Stadt. Unser Notdienst Installateur 1010 Wien kennt die Besonderheiten der Gebäude im ersten Bezirk und bietet professionelle Lösungen für alte und neue Installationen. Ob akuter Installateur Notfall Wien, ein technisches Problem mit Wasserleitungen oder eine schnelle Reparatur – unser Installateur Wien Innenstadt ist sofort einsatzbereit. Wenn Sie einen Installateur Nähe 1010 Wien oder einen Installateur Umgebung Wien benötigen, steht unser Installateur Notdienst 1010 Wien schnell zur Verfügung.</p>
+          <h3>Ihr Installateur in der Wiener Innenstadt</h3><p>Wenn Sie einen zuverlï¿½ssigen Installateur 1010 Wien suchen, ist schnelle Verfï¿½gbarkeit entscheidend. Unser Installateur Notdienst Wien ist tï¿½glich im Zentrum tï¿½tig und erreicht Kunden in kurzer Zeit. Als erfahrener Installateur Wien 1010 betreuen wir Wohnungen, Bï¿½ros und Gewerbebetriebe direkt im Herzen der Stadt. Unser Notdienst Installateur 1010 Wien kennt die Besonderheiten der Gebï¿½ude im ersten Bezirk und bietet professionelle Lï¿½sungen fï¿½r alte und neue Installationen. Ob akuter Installateur Notfall Wien, ein technisches Problem mit Wasserleitungen oder eine schnelle Reparatur ï¿½ unser Installateur Wien Innenstadt ist sofort einsatzbereit. Wenn Sie einen Installateur Nï¿½he 1010 Wien oder einen Installateur Umgebung Wien benï¿½tigen, steht unser Installateur Notdienst 1010 Wien schnell zur Verfï¿½gung.</p>
         </div></article>
       </div>
     </div>
@@ -206,8 +206,8 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
     <div class="container">
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
-          <h2>Unser erfahrenes Team für 1010 Wien</h2>
-          <p>Unser Installateur Notdienst Wien steht für Qualität, Erfahrung und schnelle Hilfe. Als etablierter Installateur Fachbetrieb Wien arbeiten wir mit modernen Werkzeugen und professionellen Methoden. Unser Installateur Team Wien verfügt über langjährige Installateur Erfahrung Wien im Bereich Sanitär-, Heizungs- und Gasinstallationen. Kunden schätzen besonders unsere schnelle Reaktionszeit und unseren zuverlässigen Installateur Service Wien. Wir verstehen, dass Wien Installateur Notfälle sofort gelöst werden müssen, deshalb arbeitet unser Notdienst 24h Wien rund um die Uhr. Wenn Sie einen Installateur schnell Wien benötigen, steht unser Team sofort bereit. Unser Ziel ist es, jedes Problem effizient und dauerhaft zu lösen.</p>
+          <h2>Unser erfahrenes Team fï¿½r 1010 Wien</h2>
+          <p>Unser Installateur Notdienst Wien steht fï¿½r Qualitï¿½t, Erfahrung und schnelle Hilfe. Als etablierter Installateur Fachbetrieb Wien arbeiten wir mit modernen Werkzeugen und professionellen Methoden. Unser Installateur Team Wien verfï¿½gt ï¿½ber langjï¿½hrige Installateur Erfahrung Wien im Bereich Sanitï¿½r-, Heizungs- und Gasinstallationen. Kunden schï¿½tzen besonders unsere schnelle Reaktionszeit und unseren zuverlï¿½ssigen Installateur Service Wien. Wir verstehen, dass Wien Installateur Notfï¿½lle sofort gelï¿½st werden mï¿½ssen, deshalb arbeitet unser Notdienst 24h Wien rund um die Uhr. Wenn Sie einen Installateur schnell Wien benï¿½tigen, steht unser Team sofort bereit. Unser Ziel ist es, jedes Problem effizient und dauerhaft zu lï¿½sen.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Fachwissen</div></div>
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Saubere Arbeit</div></div>
@@ -224,18 +224,18 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
   <!-- Leistungen -->
   <section class="service-section" id="leistungen-services">
     <div class="container">
-      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1010</h2><p>Unser Installateur Notdienst Wien bietet ein breites Leistungsspektrum für Haushalte und Unternehmen. Als erfahrene Installateur Firma Wien kümmern wir uns um alle Bereiche von Gas Wasser Heizung Wien sowie moderne Installationen Wien. Unser Wasserinstallateur Wien übernimmt Reparaturen, Wartungen und komplette Installationsarbeiten. Wir arbeiten als professioneller Sanitär Installateur Wien und bieten zuverlässige Lösungen für Badezimmer, Leitungen und Heizsysteme. Zusätzlich kümmern wir uns um moderne Sanitäranlagen, effiziente Heizungstechnik Wien und sichere Sanitärtechnik Wien. Unser Installateur Service Wien steht sowohl für dringende Einsätze als auch für geplante Arbeiten zur Verfügung. Als regionaler Partner arbeiten wir auch mit Kunden aus der Umgebung und teilweise mit Projekten von Niederösterreich Installateur Kooperationen.</p></div>
+      <div class="service-section__head"><h2>Unsere Installateur Leistungen in Wien 1010</h2><p>Unser Installateur Notdienst Wien bietet ein breites Leistungsspektrum fï¿½r Haushalte und Unternehmen. Als erfahrene Installateur Firma Wien kï¿½mmern wir uns um alle Bereiche von Gas Wasser Heizung Wien sowie moderne Installationen Wien. Unser Wasserinstallateur Wien ï¿½bernimmt Reparaturen, Wartungen und komplette Installationsarbeiten. Wir arbeiten als professioneller Sanitï¿½r Installateur Wien und bieten zuverlï¿½ssige Lï¿½sungen fï¿½r Badezimmer, Leitungen und Heizsysteme. Zusï¿½tzlich kï¿½mmern wir uns um moderne Sanitï¿½ranlagen, effiziente Heizungstechnik Wien und sichere Sanitï¿½rtechnik Wien. Unser Installateur Service Wien steht sowohl fï¿½r dringende Einsï¿½tze als auch fï¿½r geplante Arbeiten zur Verfï¿½gung. Als regionaler Partner arbeiten wir auch mit Kunden aus der Umgebung und teilweise mit Projekten von Niederï¿½sterreich Installateur Kooperationen.</p></div>
       <div class="service-grid service-grid--2">
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Rohrreinigung Wien</h3><p>Rohrreinigung Wien bei verstopften Leitungen oder Abfluss verstopft Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Wasserrohrbruch Wien</h3><p>Schnelle Hilfe bei Wasserrohrbruch Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>WC verstopft Wien</h3><p>Reparatur von WC verstopft Wien und Abflussproblemen.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitär Reparatur Wien</h3><p>Professionelle Sanitär Reparatur Wien.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Sanitï¿½r Reparatur Wien</h3><p>Professionelle Sanitï¿½r Reparatur Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Bad Installation Wien</h3><p>Planung und Umsetzung von Bad Installation Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">?</div><div><h3>Badsanierung Wien</h3><p>Moderne Badsanierung Wien und Sanierung Bad Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Serviceangebot</h3><p>Wartung von Thermen inklusive Thermenwartung Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Gastherme Wartung Wien</h3><p>Gastherme Wartung Wien und Thermen Service Wien.</p></div></article>
         <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Heizung Installateur Wien</h3><p>Heizungsservice durch unseren Heizung Installateur Wien.</p></div></article>
-        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Montage Sanitär Wien</h3><p>Montage Sanitär Wien für neue Anlagen.</p></div></article>
+        <article class="service-feature"><div class="service-feature__icon" aria-hidden="true">??</div><div><h3>Montage Sanitï¿½r Wien</h3><p>Montage Sanitï¿½r Wien fï¿½r neue Anlagen.</p></div></article>
       </div>
     </div>
   </section>
@@ -246,10 +246,10 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Gastherme Reparatur und Wartung</h2>
-          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien und Thermenwartung Wien. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Für mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederösterreich</a>.</p>
+          <p>Bei Problemen mit Ihrer Therme bieten wir schnelle Gastherme Reparatur Wien, professionellen Thermen Service Wien sowie regelmï¿½ï¿½ige Gastherme Wartung Wien und Thermenwartung Wien. Auch beim Serviceangebot profitieren Sie von unserer strukturierten Arbeitsweise. Fï¿½r mehr Infos besuchen Sie <a href="{{ route('home') }}">Thermenwartung & Thermenservice Wien & Niederï¿½sterreich</a>.</p>
           <div class="service-stats">
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Effizienz</div></div>
-            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Störungen</div></div>
+            <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Weniger Stï¿½rungen</div></div>
             <div class="service-stat"><div class="service-stat__num">?</div><div class="service-stat__label">Mehr Sicherheit</div></div>
           </div>
         </div></div>
@@ -266,7 +266,7 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
       <div class="card-split card-split--reverse">
         <div class="card-split__text"><div class="card-box">
           <h2>Heizung Reparatur und Thermenservice</h2>
-          <p>Wenn die Heizung ausfällt, hilft unser Heizung Installateur Wien sofort. Wir bieten Heizung Reparatur Wien und zuverlässige Wartung Heizung Wien für Wohnungen und Gebäude.</p>
+          <p>Wenn die Heizung ausfï¿½llt, hilft unser Heizung Installateur Wien sofort. Wir bieten Heizung Reparatur Wien und zuverlï¿½ssige Wartung Heizung Wien fï¿½r Wohnungen und Gebï¿½ude.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size4.webp" alt="Reparatur 1010 Wien" loading="lazy" decoding="async">
@@ -280,20 +280,20 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
     <div class="container service-emergency">
       <div class="service-emergency__text">
         <h2>Installateur Notdienst 24h Wien</h2>
-        <p>Probleme mit Wasser, Gas oder Heizung treten oft unerwartet auf. Deshalb ist unser Installateur Notdienst Wien rund um die Uhr verfügbar. Unser Notdienst 1010 Wien hilft bei akuten Situationen wie Rohrbrüchen, Heizungsproblemen oder verstopften Abflüssen. Als 24 Stunden Installateur Wien stehen wir jederzeit bereit und bieten schnelle Hilfe in der gesamten Innenstadt. Wenn Sie einen Installateur Notdienst Nähe suchen, erreichen wir Ihren Standort meist innerhalb kurzer Zeit. Unser Sanitär Notdienst Wien kümmert sich um dringende Reparaturen, während unser Gas Installateur Wien Probleme mit Gasleitungen oder Thermen behebt. Bei einem akuten Installateur Notfall Wien können Sie sich jederzeit auf unseren zuverlässigen Service verlassen.</p>
+        <p>Probleme mit Wasser, Gas oder Heizung treten oft unerwartet auf. Deshalb ist unser Installateur Notdienst Wien rund um die Uhr verfï¿½gbar. Unser Notdienst 1010 Wien hilft bei akuten Situationen wie Rohrbrï¿½chen, Heizungsproblemen oder verstopften Abflï¿½ssen. Als 24 Stunden Installateur Wien stehen wir jederzeit bereit und bieten schnelle Hilfe in der gesamten Innenstadt. Wenn Sie einen Installateur Notdienst Nï¿½he suchen, erreichen wir Ihren Standort meist innerhalb kurzer Zeit. Unser Sanitï¿½r Notdienst Wien kï¿½mmert sich um dringende Reparaturen, wï¿½hrend unser Gas Installateur Wien Probleme mit Gasleitungen oder Thermen behebt. Bei einem akuten Installateur Notfall Wien kï¿½nnen Sie sich jederzeit auf unseren zuverlï¿½ssigen Service verlassen.</p>
         <div class="service-emergency__actions">
           <a class="service-btn-dark accent" href="#kontakt-services">Notdienst kontaktieren</a>
           <a class="service-btn-dark ghost" href="#faq-services">FAQ ansehen</a>
         </div>
       </div>
       <div class="service-emergency__panel"><div class="service-panel">
-        <h3>Typische Notdiensteinsätze</h3>
+        <h3>Typische Notdiensteinsï¿½tze</h3>
         <ul class="service-checklist service-checklist--on-dark">
           <li>Ausfall von Heizung oder Warmwasser</li>
-          <li>Fehlermeldungen, Druckprobleme oder Störgeräusche</li>
-          <li>Sicherheitsrelevante Auffälligkeiten am Gerät</li>
+          <li>Fehlermeldungen, Druckprobleme oder Stï¿½rgerï¿½usche</li>
+          <li>Sicherheitsrelevante Auffï¿½lligkeiten am Gerï¿½t</li>
         </ul>
-        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar – schnelle Hilfe in 1010 Wien.</p>
+        <p style="margin:10px 0 0; color:rgba(255,255,255,.9);">24h erreichbar ï¿½ schnelle Hilfe in 1010 Wien.</p>
       </div></div>
     </div>
   </section>
@@ -306,9 +306,9 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
           <img class="service-media__img" src="img/1size2.jpegs.webp" alt="Kosten Installateur" loading="lazy" decoding="async">
         </div></div>
         <div class="card-split__text"><div class="card-box">
-          <h2>Installateur Kosten Wien – transparente Preise</h2>
-          <p>Viele Kunden fragen sich nach den Installateur Kosten Wien, bevor sie einen Service beauftragen. Bei unserem Installateur Notdienst Wien erhalten Sie faire und transparente Preise. Der genaue Installateur Preis Wien hängt von der Art des Problems, dem Material und dem Arbeitsaufwand ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie die Kosten im Voraus einschätzen können. Bei größeren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, damit Sie Planungssicherheit haben. Unser Ziel ist es, hochwertige Arbeit zu fairen Preisen anzubieten, damit Sie sich auf einen zuverlässigen Installateur 1010 Wien verlassen können.</p>
-          <p>Für planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Störungen erklären wir nachvollziehbar, welche Schritte nötig sind und wie sich die Kosten zusammensetzen.</p>
+          <h2>Installateur Kosten Wien ï¿½ transparente Preise</h2>
+          <p>Viele Kunden fragen sich nach den Installateur Kosten Wien, bevor sie einen Service beauftragen. Bei unserem Installateur Notdienst Wien erhalten Sie faire und transparente Preise. Der genaue Installateur Preis Wien hï¿½ngt von der Art des Problems, dem Material und dem Arbeitsaufwand ab. Unser Team erstellt auf Wunsch ein individuelles Installateur Angebot Wien, damit Sie die Kosten im Voraus einschï¿½tzen kï¿½nnen. Bei grï¿½ï¿½eren Projekten erstellen wir auch einen Kostenvoranschlag Installateur Wien, damit Sie Planungssicherheit haben. Unser Ziel ist es, hochwertige Arbeit zu fairen Preisen anzubieten, damit Sie sich auf einen zuverlï¿½ssigen Installateur 1010 Wien verlassen kï¿½nnen.</p>
+          <p>Fï¿½r planbare Leistungen besprechen wir Umfang und Erwartungen vorab. Bei Stï¿½rungen erklï¿½ren wir nachvollziehbar, welche Schritte nï¿½tig sind und wie sich die Kosten zusammensetzen.</p>
         </div></div>
       </div>
     </div>
@@ -320,7 +320,7 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
       <div class="card-split">
         <div class="card-split__text"><div class="card-box">
           <h2>Einsatzgebiet: Wien & Umgebung</h2>
-          <p>Als Installateur in 1010 Wien (Innere Stadt) unterstützen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung über die schnelle Störungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Abläufe, verständliche Erklärungen und eine saubere Ausführung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlässigkeit – besonders wichtig bei Anlagen, die täglich laufen. Durch kurze Wege im Bezirk 1010 reagieren wir flexibel, koordinieren Termine zügig und halten Sie über jeden Schritt transparent informiert.</p>
+          <p>Als Installateur in 1010 Wien (Innere Stadt) unterstï¿½tzen wir Sie bei allen Aufgaben rund um Heizung, Warmwasser und moderne Haustechnik. Von der planbaren Wartung ï¿½ber die schnelle Stï¿½rungsbehebung bis hin zu Reparaturen und Modernisierung erhalten Sie strukturierte Ablï¿½ufe, verstï¿½ndliche Erklï¿½rungen und eine saubere Ausfï¿½hrung. Wir achten auf Sicherheit, Effizienz und langfristige Zuverlï¿½ssigkeit ï¿½ besonders wichtig bei Anlagen, die tï¿½glich laufen. Durch kurze Wege im Bezirk 1010 reagieren wir flexibel, koordinieren Termine zï¿½gig und halten Sie ï¿½ber jeden Schritt transparent informiert.</p>
         </div></div>
         <div class="card-split__media"><div class="service-media__box">
           <img class="service-media__img" src="img/1size3.jpegs.webp" alt="Einsatzgebiet Wien" loading="lazy" decoding="async">
@@ -333,8 +333,8 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
  <section class="service-section service-section--soft" id="thermen-services">
   <div class="container">
     <div class="service-section__head">
-      <h2>Thermenservice für alle Marken</h2>
-      <p>Ob Vaillant, Junkers, Buderus oder Wolf – wir warten und reparieren alle gängigen Gasgeräte. Regelmäßige Wartung sorgt für Sicherheit, Effizienz und eine längere Lebensdauer Ihrer Therme.</p>
+      <h2>Thermenservice fï¿½r alle Marken</h2>
+      <p>Ob Vaillant, Junkers, Buderus oder Wolf ï¿½ wir warten und reparieren alle gï¿½ngigen Gasgerï¿½te. Regelmï¿½ï¿½ige Wartung sorgt fï¿½r Sicherheit, Effizienz und eine lï¿½ngere Lebensdauer Ihrer Therme.</p>
     </div>
 
     <div class="brand-grid">
@@ -342,37 +342,37 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
       <!-- 1 -->
       <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
     <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
-    <span>VAILLANT THERMENSERVICE</span>
+    <span>VAILLANT THERMENTAUSCH</span>
   </a>
 
       <!-- 2 -->
       <a class="brand-card" href="{{ route('buderus.thermentausch') }}">
     <img src="img/1buderus.webp" alt="Buderus Thermenservice">
-    <span>BUDERUS THERMENSERVICE</span>
+    <span>BUDERUS THERMENTAUSCH</span>
   </a>
 
       <!-- 3 -->
         <a class="brand-card" href="{{ route('baxi.thermentausch') }}">
     <img src="img/1baxi.webp" alt="Baxi Thermenservice">
-    <span>BAXI THERMENSERVICE</span>
+    <span>BAXI THERMENTAUSCH</span>
   </a>
 
       <!-- 4 -->
         <a class="brand-card" href="{{ route('junkers.thermentausch') }}">
     <img src="img/1junkers.webp" alt="Junkers Thermenservice">
-    <span>JUNKERS THERMENSERVICE</span>
+    <span>JUNKERS THERMENTAUSCH</span>
   </a>
 
       <!-- 5 -->
         <a class="brand-card" href="{{ route('viessmann.thermentausch') }}">
     <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
-    <span>VIESSMANN THERMENSERVICE</span>
+    <span>VIESSMANN THERMENTAUSCH</span>
   </a>
 
       <!-- 6 -->
         <a class="brand-card" href="{{ route('wolf.thermentausch') }}">
     <img src="img/1wolf.webp" alt="Wolf Thermenservice">
-    <span>WOLF THERMENSERVICE</span>
+    <span>WOLF THERMENTAUSCH</span>
   </a>
 
       <!-- 7 -->
@@ -383,20 +383,20 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
 
       <!-- 8 -->
  <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
-    <img src="img/1loblich.webp" alt="Löblich Thermenservice">
-    <span>LÖBLICH THERMENSERVICE</span>
+    <img src="img/1loblich.webp" alt="Lï¿½blich Thermenservice">
+    <span>Lï¿½BLI THERMENTAUSCH</span>n>
   </a>
 
       <!-- 9 -->
       <a class="brand-card" href="{{ route('ocean.thermentausch') }}">
     <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
-    <span>OCEAN THERMENSERVICE</span>
+    <span>OCEAN THERMENTAUSCH</span>
   </a>
 
       <!-- 10 -->
       <a class="brand-card" href="{{ route('rapido.thermentausch') }}">
     <img src="img/1rapido.webp" alt="Rapido Thermenservice">
-    <span>RAPIDO THERMENSERVICE</span>
+    <span>RAPIDO THERMENTAUSCH</span>
   </a>
 
       <!-- 11 -->
@@ -420,31 +420,31 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
   <!-- FAQ -->
   <section class="service-section" id="faq-services">
     <div class="container">
-      <div class="service-section__head"><h2>Häufig gestellte Fragen</h2><p>Antworten auf die häufigsten Fragen – kurz, klar und praxisnah.</p></div>
+      <div class="service-section__head"><h2>Hï¿½ufig gestellte Fragen</h2><p>Antworten auf die hï¿½ufigsten Fragen ï¿½ kurz, klar und praxisnah.</p></div>
       <div class="service-faq">
         <details>
           <summary>Was kostet ein Installateur Notdienst in Wien?</summary>
-          <p>Die Kosten hängen von der Art des Problems und der benötigten Arbeitszeit ab. Unser Installateur Notdienst Wien informiert Sie transparent über Installateur Kosten Wien und den möglichen Installateur Preis Wien.</p>
+          <p>Die Kosten hï¿½ngen von der Art des Problems und der benï¿½tigten Arbeitszeit ab. Unser Installateur Notdienst Wien informiert Sie transparent ï¿½ber Installateur Kosten Wien und den mï¿½glichen Installateur Preis Wien.</p>
         </details>
         <details>
           <summary>Wie schnell kommt ein Installateur in 1010 Wien?</summary>
-          <p>Unser Installateur Notdienst 1010 Wien ist im Zentrum stationiert. In vielen Fällen erreicht unser Installateur Wien 1010 Kunden innerhalb kurzer Zeit.</p>
+          <p>Unser Installateur Notdienst 1010 Wien ist im Zentrum stationiert. In vielen Fï¿½llen erreicht unser Installateur Wien 1010 Kunden innerhalb kurzer Zeit.</p>
         </details>
         <details>
           <summary>Bieten Sie auch Thermenwartung in Wien an?</summary>
-          <p>Ja. Unser Team übernimmt Thermenwartung Wien, Thermen Service Wien sowie regelmäßige Gastherme Wartung Wien, damit Ihre Heizungsanlage zuverlässig funktioniert.</p>
+          <p>Ja. Unser Team ï¿½bernimmt Thermenwartung Wien, Thermen Service Wien sowie regelmï¿½ï¿½ige Gastherme Wartung Wien, damit Ihre Heizungsanlage zuverlï¿½ssig funktioniert.</p>
         </details>
         <details>
           <summary>Was tun bei Wasserrohrbruch in Wien?</summary>
-          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch Notdienst Wien kontaktieren. Unser Wasserinstallateur Wien kümmert sich sofort um die Reparatur.</p>
+          <p>Bei einem Wasserrohrbruch Wien sollten Sie sofort das Wasser abdrehen und unseren Rohrbruch Notdienst Wien kontaktieren. Unser Wasserinstallateur Wien kï¿½mmert sich sofort um die Reparatur.</p>
         </details>
         <details>
           <summary>Sind Sie auch nachts erreichbar?</summary>
-          <p>Ja. Unser Notdienst 24h Wien steht rund um die Uhr zur Verfügung. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Nacht- oder Wochenendeinsätzen.</p>
+          <p>Ja. Unser Notdienst 24h Wien steht rund um die Uhr zur Verfï¿½gung. Als 24 Stunden Installateur Wien helfen wir auch bei dringenden Nacht- oder Wochenendeinsï¿½tzen.</p>
         </details>
         <details>
           <summary>Arbeiten Sie auch in der Wiener Innenstadt?</summary>
-          <p>Natürlich. Unser Installateur Wien Innenstadt betreut besonders viele Kunden im ersten Bezirk. Wenn Sie einen Installateur Nähe 1010 Wien benötigen, sind wir schnell vor Ort.</p>
+          <p>Natï¿½rlich. Unser Installateur Wien Innenstadt betreut besonders viele Kunden im ersten Bezirk. Wenn Sie einen Installateur Nï¿½he 1010 Wien benï¿½tigen, sind wir schnell vor Ort.</p>
         </details>
       </div>
     </div>
@@ -456,10 +456,10 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
       <div class="service-cta__inner">
         <div>
           <h2>Installateur Kontakt Wien</h2>
-          <p>Wenn Sie einen zuverlässigen Installateur 1010 Wien benötigen, steht unser Team jederzeit bereit. Unser Installateur Notdienst Wien hilft bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitäranlagen und Rohrleitungen. Egal ob Installateur Notdienst 1010 Wien, Sanitär Reparatur Wien, Rohrreinigung Wien oder eine dringende Heizung Reparatur Wien – wir kümmern uns schnell um Ihr Anliegen. Unser Installateur Service Wien ist für Privatkunden, Unternehmen und Hausverwaltungen verfügbar.</p>
+          <p>Wenn Sie einen zuverlï¿½ssigen Installateur 1010 Wien benï¿½tigen, steht unser Team jederzeit bereit. Unser Installateur Notdienst Wien hilft bei allen Problemen rund um Gas Wasser Heizung Wien, Sanitï¿½ranlagen und Rohrleitungen. Egal ob Installateur Notdienst 1010 Wien, Sanitï¿½r Reparatur Wien, Rohrreinigung Wien oder eine dringende Heizung Reparatur Wien ï¿½ wir kï¿½mmern uns schnell um Ihr Anliegen. Unser Installateur Service Wien ist fï¿½r Privatkunden, Unternehmen und Hausverwaltungen verfï¿½gbar.</p>
           <p style="margin-top:10px"><strong>??</strong> Direkt anrufen: <a href="tel:+4314420617">+43 1 442 0617</a></p>
         </div>
-        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie möglich.');">
+        <form class="service-cta__form" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns so schnell wie mï¿½glich.');">
           <div class="service-formrow">
             <label><span>Name</span><input required name="name" placeholder="Ihr Name"></label>
             <label><span>Telefon</span><input required name="phone" placeholder="Ihre Nummer"></label>
@@ -474,7 +474,7 @@ $metaDescription = "Installateur Notdienst 1010 Wien – schneller 24h Installateu
 
   @include('layout.location')
 
-  <!-- Bezirke (bottom links) – bleibt unverändert -->
+  <!-- Bezirke (bottom links) ï¿½ bleibt unverï¿½ndert -->
 
 </main>
 

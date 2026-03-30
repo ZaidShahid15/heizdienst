@@ -348,7 +348,7 @@ $metaDescription = "Thermentausch 1050 Wien vom Installateur Wien. Gastherme tau
         <!-- 1 -->
         <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
     <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
-    <span>VAILLANT THERMENSERVICE</span>
+    <span>VAILLANT THERMENTAUSCH</span>
   </a>
 
         <!-- 2 -->

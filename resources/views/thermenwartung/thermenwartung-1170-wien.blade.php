@@ -338,37 +338,37 @@ $metaDescription = "Thermenwartung  1170 Wien (Hernals) für Heizung, Warmwasser
       <!-- 1 -->
       <a class="brand-card" href="{{ route('vaillant.thermentausch') }}">
     <img src="img/vaillant1-1.webp" alt="Vaillant Thermenservice">
-    <span>VAILLANT THERMENSERVICE</span>
+    <span>VAILLANT THERMENTAUSCH</span>
   </a>
 
       <!-- 2 -->
       <a class="brand-card" href="{{ route('buderus.thermentausch') }}">
     <img src="img/1buderus.webp" alt="Buderus Thermenservice">
-    <span>BUDERUS THERMENSERVICE</span>
+    <span>BUDERUS THERMENTAUSCH</span>
   </a>
 
       <!-- 3 -->
         <a class="brand-card" href="{{ route('baxi.thermentausch') }}">
     <img src="img/1baxi.webp" alt="Baxi Thermenservice">
-    <span>BAXI THERMENSERVICE</span>
+    <span>BAXI THERMENTAUSCH</span>
   </a>
 
       <!-- 4 -->
         <a class="brand-card" href="{{ route('junkers.thermentausch') }}">
     <img src="img/1junkers.webp" alt="Junkers Thermenservice">
-    <span>JUNKERS THERMENSERVICE</span>
+    <span>JUNKERS THERMENTAUSCH</span>
   </a>
 
       <!-- 5 -->
         <a class="brand-card" href="{{ route('viessmann.thermentausch') }}">
     <img src="img/1viesman.webp" alt="Viessmann Thermenservice">
-    <span>VIESSMANN THERMENSERVICE</span>
+    <span>VIESSMANN THERMENTAUSCH</span>
   </a>
 
       <!-- 6 -->
         <a class="brand-card" href="{{ route('wolf.thermentausch') }}">
     <img src="img/1wolf.webp" alt="Wolf Thermenservice">
-    <span>WOLF THERMENSERVICE</span>
+    <span>WOLF THERMENTAUSCH</span>
   </a>
 
       <!-- 7 -->
@@ -380,19 +380,19 @@ $metaDescription = "Thermenwartung  1170 Wien (Hernals) für Heizung, Warmwasser
       <!-- 8 -->
  <a class="brand-card" href="{{ route('loeblich.thermentausch') }}">
     <img src="img/1loblich.webp" alt="Löblich Thermenservice">
-    <span>LÖBLICH THERMENSERVICE</span>
+    <span>LÖBLICH THERMENTAUSCH</span>
   </a>
 
       <!-- 9 -->
       <a class="brand-card" href="{{ route('ocean.thermentausch') }}">
     <img src="img/1oceanbaxi.webp" alt="Ocean Thermenservice">
-    <span>OCEAN THERMENSERVICE</span>
+    <span>OCEAN THERMENTAUSCH</span>
   </a>
 
       <!-- 10 -->
       <a class="brand-card" href="{{ route('rapido.thermentausch') }}">
     <img src="img/1rapido.webp" alt="Rapido Thermenservice">
-    <span>RAPIDO THERMENSERVICE</span>
+    <span>RAPIDO THERMENTAUSCH</span>
   </a>
 
       <!-- 11 -->
