@@ -60,6 +60,29 @@
         ['route' => 'windhager.thermentausch', 'img' => '1Windhager.webp', 'label' => 'WINDHAGER THERMENTAUSCH'],
         ['route' => 'nordgas.thermentausch', 'img' => '1NordGas.webp', 'label' => 'NORDGAS THERMENTAUSCH'],
     ];
+
+    // --- Previous district for the first section link ---
+    $prevDistrict = null;
+    if (is_numeric($district)) {
+        $currentNum = (int) $district;
+        if ($currentNum > 1010 && $currentNum <= 1230) {
+            $prevDistrict = $currentNum - 10;
+        }
+    }
+    $prevRoute = $prevDistrict ? route('installateur-kundendienst.' . $prevDistrict) : null;
+
+    // --- Random keywords for the links (two independent picks) ---
+    $homeKeywords = [
+        'Thermenwartung & Thermenservice Wien & Niederösterreich',
+        'Thermenwartung Wien & Niederösterreich',
+        'Thermenwartung Wien',
+        'Thermenwartung Niederösterreich',
+        'Thermenservice Wien & Niederösterreich',
+        'Thermenservice Wien',
+        'Thermenservice Niederösterreich',
+    ];
+    $randomKeywordLink1 = $homeKeywords[array_rand($homeKeywords)]; // used in first section (previous district)
+    $randomKeywordLink2 = $homeKeywords[array_rand($homeKeywords)]; // used in fourth section (homepage)
 @endphp
 
 @push('meta')
@@ -120,6 +143,20 @@
     }
     @media(max-width:500px){
       .brand-grid{grid-template-columns:1fr;}
+    }
+
+    /* Inline link style (same for both links) */
+    .inline-link {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    .inline-link a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .inline-link a:hover {
+      text-decoration: underline;
     }
   </style>
 
@@ -210,8 +247,13 @@
         <div class="card-split {{ !empty($firstSection['reverse']) ? 'card-split--reverse' : '' }}">
           <div class="card-split__text"><div class="card-box">
             <h2>{{ $firstSection['title'] }}</h2>
-            @foreach(($firstSection['paragraphs'] ?? []) as $paragraph)
+            @foreach(($firstSection['paragraphs'] ?? []) as $index => $paragraph)
               <p>{!! nl2br(e($paragraph)) !!}</p>
+              @if($index === 0 && $prevRoute)
+                <div class="inline-link">
+                  <a href="{{ $prevRoute }}">{{ $randomKeywordLink1 }}</a>
+                </div>
+              @endif
             @endforeach
           </div></div>
           <div class="card-split__media"><div class="service-media__box">
@@ -262,11 +304,24 @@
     </section>
   @endif
 
+  {{-- 4th section with homepage link --}}
   <section class="service-section" id="leistungen-services">
     <div class="container">
       <div class="service-section__head">
         <h2>Leistungen im Überblick</h2>
-        <p>{{ $page['hero_intro'] ?? '' }}</p>
+        <p>
+          {{ $page['hero_intro'] ?? '' }}
+          @if($page['hero_intro'] && $randomKeywordLink2)
+            <br>
+            <div class="inline-link">
+              <a href="{{ url('/') }}">{{ $randomKeywordLink2 }}</a>
+            </div>
+          @elseif($randomKeywordLink2)
+            <div class="inline-link">
+              <a href="{{ url('/') }}">{{ $randomKeywordLink2 }}</a>
+            </div>
+          @endif
+        </p>
       </div>
       @if(!empty($benefits))
         <div class="service-grid service-grid--2">
